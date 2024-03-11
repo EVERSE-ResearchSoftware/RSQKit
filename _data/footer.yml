@@ -1,0 +1,13 @@
+copyright: Copyright EVERSE consortium
+extra_line: 
+columns:
+  - type: image
+    image_width: 150px
+    width: 3
+    src: 'assets/img/everse_logo.png'
+    alt: EVERSE logo
+  - type: image
+    image_width: 100px
+    width: 2
+    src: 'assets/img/Flag_of_Europe.svg'
+    alt: European flag
