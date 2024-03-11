@@ -1,2 +1,3 @@
 # RSQKit
-Research Software Quality Kit materials
+
+Research Software Quality Kit resources website: http://everse.software/RSQKit/. 
