@@ -1,1 +1,4 @@
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme
+theme_variables:
+  topnav:
+    brand_logo: assets/img/everse_logo.png
