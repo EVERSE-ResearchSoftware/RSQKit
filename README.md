@@ -6,7 +6,7 @@ Research Software Quality Kit (RSQKit), developed as part of [EVERSE project](ht
 [RSQKit website](http://everse.software/RSQKit/) is built using the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/).
 
 ## Contributing
-Please see our [contribution guidelines](CONTIRBUTING.md) if you want to add new contents into the RSQKit.
+Please see our [contribution guidelines](CONTRIBUTING.md) if you want to add new contents into the RSQKit.
 
 ## Funding
 [EVERSE project](https://everse.software/) is funded by the European Commission HORIZON-INFRA-2023-EOSC-01-02 call. 
