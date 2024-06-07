@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: Research Software Quality Kit (RSQKit)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Daniel
+    family-names: Garijo
+    orcid: 'https://orcid.org/0000-0003-0454-7145'
+  - given-names: Patrick
+    family-names: Bos
+  - given-names: Aleksandra
+    family-names: Nenadic
+repository-code: >-
+  https://github.com/EVERSE-ResearchSoftware/RSQKit/tree/main
+url: 'https://everse.software/RSQKit/'
+license: Apache-2.0

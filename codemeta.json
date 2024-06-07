@@ -1,0 +1,28 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "author": [
+        {
+            "id": "http://orcid.org/0000-0003-0454-7145",
+            "type": "Person",
+            "familyName": "Garijo",
+            "givenName": "Daniel"
+        },
+        {
+            "id": "_:author_2",
+            "type": "Person",
+            "familyName": "Bos",
+            "givenName": "Patrick"
+        },
+        {
+            "id": "_:author_3",
+            "type": "Person",
+            "familyName": "Nenadic",
+            "givenName": "Aleksandra"
+        }
+    ],
+    "codeRepository": "https://github.com/EVERSE-ResearchSoftware/RSQKit/tree/main",
+    "description": "This software is part of the EVERSE project that aims to create a framework for research software and code excellence, collaboratively designed and championed by the research communities, in pursuit of building a European network of Research Software Quality and setting the foundations of a future Virtual Institute for Research Software Excellence.",
+    "license": "https://spdx.org/licenses/Apache-2.0",
+    "name": "Research Software Quality Kit (RSQKit)"
+}
