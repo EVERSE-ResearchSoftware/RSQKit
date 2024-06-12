@@ -2,12 +2,14 @@
 
 ## How to contribute 
 
+**Note:** This section is work in progress
+
 You can create new pages or report errors or typos in two ways:
  - Open a pull request
   
  - Open an issue with the type of content you would like to see in RSQKit.
   
- - When you and the editor have agreed, on what you will do, you can edit on the github repository by clicking on the pencil icon.
+ - When you and the editor have agreed on what you will do, you can edit on the github repository by clicking on the pencil icon.
  
  - When you are satisfied with with your first draft of the content, head to the “Propose changes” section at the end of the page and write a title and a brief explanation of your changes.
 
@@ -44,12 +46,6 @@ A clear and concise description of what the bug is.
    - Browser [e.g. chrome, safari]
    - Version [e.g. 22]
 
-- **Smartphone (please complete the following information):**
-   - Device: [e.g. iPhone6]
-   - OS: [e.g. iOS8.1]
-   - Browser [e.g. stock browser, safari]
-   - Version [e.g. 22]
-
 - **Additional context**
     Add any other context about the problem here.
 
@@ -68,7 +64,7 @@ Contributors will appear at the bottom of the page if they are listed in the met
 
 ## Ownership of content
 
-No individual contributor or editor owns the project's content or has the authority to dictate its content. The RS content is a collaborative effort, with contributions from many people. Decisions are made by consensus among the contributors and editors.
+No individual contributor or editor owns the project's content or has the authority to dictate its content. The RSQkit content is a collaborative effort, with contributions from many people. Decisions are made by consensus among the contributors and editors.
 
 The content is periodically updated, meaning that if you create content for RSQKit, others may modify it without notifying you. However, RSQKit editors ensure that any changes are made for valid reasons. They strive to accommodate the legitimate concerns and diverse viewpoints of all contributors and ensure that the content reflects the most widely accepted consensus on any topic.
 
