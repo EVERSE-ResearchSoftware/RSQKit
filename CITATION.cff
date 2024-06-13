@@ -5,18 +5,8 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: Patrick
-    family-names: Bos
-    orcid: 'https://orcid.org/0000-0002-6033-960X'
-  - given-names: Daniel
-    family-names: Garijo
-    orcid: 'https://orcid.org/0000-0003-0454-7145'
-  - given-names: Aleksandra
-    family-names: Nenadic
-  - given-names: Anas
-    family-names: Elhounsri
-  - given-names: EVERSE
-    family-names: Consortium
+  - given-names: RSQKit Community
+    family-names: 
 repository-code: >-
   https://github.com/EVERSE-ResearchSoftware/RSQKit/tree/main
 url: 'https://everse.software/RSQKit/'
