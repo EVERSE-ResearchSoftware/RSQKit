@@ -3,27 +3,8 @@
     "type": "SoftwareSourceCode",
     "author": [
         {
-            "@id": "http://orcid.org/0000-0003-0454-7145",
-            "type": "Person",
-            "familyName": "Garijo",
-            "givenName": "Daniel"
-        },
-        {
-            "@id": "https://orcid.org/0000-0002-6033-960X",
-            "type": "Person",
-            "familyName": "Bos",
-            "givenName": "Patrick"
-        },
-        {
-            "@id": "https://orcid.org/0000-0002-2269-3894",
-            "type": "Person",
-            "familyName": "Nenadic",
-            "givenName": "Aleksandra"
-        },
-        {
-            "type": "Person",
-            "familyName": "Anas",
-            "givenName": "Elhounsri "
+            "type": "Organization",
+            "givenName": "RSQKit community"
         }
     ],
     "codeRepository": "https://github.com/EVERSE-ResearchSoftware/RSQKit/tree/main",
