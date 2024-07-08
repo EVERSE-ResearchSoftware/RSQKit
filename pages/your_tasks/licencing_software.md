@@ -88,7 +88,7 @@ the [BSD licences](https://en.wikipedia.org/wiki/BSD_licenses) (there are a few 
 The MIT and BSD licences are very simple and generally state that anybody receiving the software can copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software to anybody they like. 
 The Apache 2.0 licence is also similar, but also includes clauses about patent licensing which require any contributor to a program which is licensed under Apache 2.0 to allow their patents to be used free of charge by any user of the software.
 
-#### Copyleft Licences
+#### Copyleft licences
 
 Copyleft licences are a family of open source licences that require any modifications, copies or redistributions of the original work be released under a compatible copyleft licence. 
 This can cause complications when combining code that is under copyleft with other licences as now the entire new codebase must be released under the copyleft licence. 
@@ -111,7 +111,7 @@ As long as the application is linked dynamically to LGPL software, the proprieta
 users are not receiving copies of such software on their machines but are interacting with them over computer networks and hence the person running the web server has no obligation to supply users with the source code. 
 The AGPL requires that people running web applications licensed under the AGPL need to make the source code of such applications available to their users. 
 
-#### Creative Commons Licences
+#### Creative Commons licences
 
 All of the licences we have  discussed so far are really only intended for source code. 
 They are not suitable for documentation, datasets, drawings, logos, music, maps, etc. - which you may want to include as part of your software project. 
