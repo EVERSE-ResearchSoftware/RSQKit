@@ -117,7 +117,7 @@ All of the licences we have  discussed so far are really only intended for sourc
 They are not suitable for documentation, datasets, drawings, logos, music, maps, etc. - which you may want to include as part of your software project. 
 To solve this problem there are the [Creative Commons (CC) licences,](https://creativecommons.org/share-your-work/cclicenses/) which are expressly built for anything other than source code. 
 
-The CC licences grant some of the folling baseline rights:
+The CC licences grant some of the following baseline rights:
 
 * Attribution (BY) - all the Creative Commons licences require you to give credit to the original creator (so all will have the BY component). This is very similar to what is required by all of the permissive code licences.
 * Share-Alike (SA) - requires any derivative works to be released under a compatible creative commons licence. This is very similar to the way that copyleft licences work.
