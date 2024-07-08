@@ -176,9 +176,6 @@ This is usually done by adding a file LICENSE with the text of the licence. LICE
 | [Choose an open licence tool](https://choosealicense.com/) | A guided tool to help you choose a licence              |
 
 
----
-
-
 ## How to cite this page
 
 To be added.
