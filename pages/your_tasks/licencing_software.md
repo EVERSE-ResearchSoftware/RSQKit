@@ -69,8 +69,8 @@ Here are the most commonly used ones that will likely satisfy your needs.
 
 #### Public Domain
 
-While not strictly a licence, [public domain](https://en.wikipedia.org/wiki/Public_domain) is a concept where you wish to waive all your interests that may 
-exist in your work and your work is not protected by copyright. 
+While not strictly a licence, [public domain](https://en.wikipedia.org/wiki/Public_domain) is a concept that enables you to waive all your interests that may 
+exist in your work and declare your work not protected by copyright. 
 The [public domain](https://en.wikipedia.org/wiki/Public_domain) consists of all the creative work to which no exclusive intellectual property rights apply. 
 Because no one holds the exclusive rights, anyone can legally use or reference those works without permission. 
 Note that not having a licence is not the same as releasing your work into the public domain - the former means no one can reuse your work whereas the latter means everyone can. 
@@ -115,24 +115,25 @@ The AGPL requires that people running web applications licensed under the AGPL n
 
 All of the licences we have  discussed so far are really only intended for source code. 
 They are not suitable for documentation, datasets, drawings, logos, music, maps, etc. - which you may want to include as part of your software project. 
-To solve this problem there are the [Creative Commons licences,](https://creativecommons.org/share-your-work/cclicenses/) which are expressly built for anything other than source code. 
+To solve this problem there are the [Creative Commons (CC) licences,](https://creativecommons.org/share-your-work/cclicenses/) which are expressly built for anything other than source code. 
 
-There are several different types of Creative Commons licences:
+The CC licences grant some of the following baseline rights:
 
-* CC0 - Creative Commons Zero or CC0 is the simplest licence and is effectively a public domain licence, but is suitable for use world wide.
-* Attribution (BY) - all the Creative Commons licences apart from CC0 require you to give credit to the original creator. This is very similar to what is required by all of the permissive code licences.
-* Share-a-like (SA) - requires any derivative works to be released under a compatible creative commons licence. This is very similar to the way that copyleft licences work.
+* Attribution (BY) - all the Creative Commons licences require you to give credit to the original creator (so all will have the BY component). This is very similar to what is required by all of the permissive code licences.
+* Share-Alike (SA) - requires any derivative works to be released under a compatible creative commons licence. This is very similar to the way that copyleft licences work.
 * Non-Commercial (NC) - only allow for non-commercial use of the work.
 * No Derivatives (ND) - users of the work cannot redistribute modified versions of it.
 
-Combinations of Creative Commons Licences are also possible:
+Combinations of various rights that are granted give us the following six Creative Commons licences:
 
-* CC-BY - Creative Commons Attribution
-* CC-BY-SA - Creative Commons Attribution Share Alike
-* CC-BY-NC - Creative Commons Non Commercial
-* CC-BY-NC-SA - Creative Commons Non Commercial Share Alike
-* CC BY-ND - Creative Commons No Derivatives
-* CC BY-ND-NC - Creative Commons No Derivatives Non Commercial
+* [CC BY](https://creativecommons.org/licenses/by/4.0/) - Creative Commons Attribution
+* [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) - Creative Commons Attribution Share Alike
+* [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) - Creative Commons Non Commercial
+* [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) - Creative Commons Non Commercial Share Alike
+* [CC BY-ND](https://creativecommons.org/licenses/by-nd/4.0/) - Creative Commons No Derivatives
+* [CC BY-ND-NC](https://creativecommons.org/licenses/by-nc-nd/4.0/) - Creative Commons No Derivatives Non Commercial
+
+In addition to the licences above, Creative Commons also offers [CC0](https://creativecommons.org/publicdomain/zero/1.0/) - a public dedication tool, which enables creators to give up their copyright and put their works into the worldwide public domain. 
 
 ### Considerations
 
