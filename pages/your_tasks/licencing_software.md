@@ -182,16 +182,16 @@ To be added.
 ## Contributors (fixed heading)
 
 * Daniel Garijo
-    * orcid: https://orcid.org/0000-0003-0454-7145
-    * github: https://github.com/dgarijo
+    * ORCID: https://orcid.org/0000-0003-0454-7145
+    * GitHub: https://github.com/dgarijo
     * affiliation: Universidad Politécnica de Madrid
 * Aleksandra Nenadic
-    * orcid: https://orcid.org/0000-0002-2269-3894
-    * github: https://github.com/anenadic
+    * ORCID: https://orcid.org/0000-0002-2269-3894
+    * GitHub: https://github.com/anenadic
     * affiliation: University of Manchester
 * Shoaib Sufi
-    * orcid: https://orcid.org/0000-0001-6390-2616
-    * github: https://github.com/shoaibsufi
+    * ORCID: https://orcid.org/0000-0001-6390-2616
+    * GitHub: https://github.com/shoaibsufi
     * affiliation: University of Manchester
       
 ## References
