@@ -168,12 +168,11 @@ This is usually done by adding a file LICENSE with the text of the licence. LICE
 
 ## Tools and resources
 
-| Tool or resource                                           | Description                                             |
-| ---------------------------------------------------------- | ------------------------------------------------------- |
-| Choose a license                                           | Choose an open source license                           |
-| Spdx list of licenses                                      | A list of commonly recognized licenses used in software |
-| OpenSource guide                                           | Guidelines on changing and editing licenses             |
-| [Choose an open licence tool](https://choosealicense.com/) | A guided tool to help you choose a licence              |
+| Tool or resource                                                                                            | Description                                             |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| [Choose an open licence tool](https://choosealicense.com/)                                                  | A guided tool to help you choose a licence              |
+| [Spdx](https://spdx.org/licenses/) list of licenses                                                         | A list of commonly recognized licenses used in software |
+| [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) | Guidelines on changing and editing licenses             |
 
 
 ## How to cite this page
