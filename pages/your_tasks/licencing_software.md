@@ -198,11 +198,7 @@ To be added.
     github: https://github.com/anenadic
     affiliation: University of Manchester
 
-## References (fixed heading)
-
-to be added.
-
-## Notes
+## References
 
 [^1]: [https://zenodo.org/records/6623556#.YqCJTJNBwlw](https://zenodo.org/records/6623556#.YqCJTJNBwlw) page 12
 
