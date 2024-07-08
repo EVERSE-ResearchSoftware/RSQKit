@@ -56,7 +56,7 @@ List of controbutors to this page in the following format:
 
 * name: First Name Last Name
   * ORCID: a full link to ORCID profile page, e.g. https://orcid.org/0000-0003-0454-7146
-  * Github: a full link to GitHub profile page, e.g. https://github.com/ghname
+  * GitHub: a full link to GitHub profile page, e.g. https://github.com/ghname
   * Affiliation: University of Good Software
  
 ## References <!-- do not delete this heading and write your text below it -->
