@@ -160,10 +160,9 @@ This is usually done by adding a file LICENSE with the text of the licence. LICE
 
 ### Solutions 
 
-* Copy the appropriate licence text into a, e.g. LICENCE.txt file, and deposit this file in the root level of your code base so as to apply it to the whole software project and
-  it can be easily seen by third parties and users of your software.
-* To add a licence file to a repository on GitHub, follow [GitHub's documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
-* See an example from the [RSQkit](https://github.com/EVERSE-ResearchSoftware/RSQKit), which uses the Apache 2.0 licence: [https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE). 
+* If your software is located in GitHub, follow [GitHub's documentation for adding a licence](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
+Otherwise, create a new file called, e.g. LICENCE.txt, in the root directory to your code base and copy the text of your chosen licence into it.
+* See an example from the [RSQkit](https://github.com/EVERSE-ResearchSoftware/RSQKit) which uses the Apache 2.0 licence: [https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE). 
 
 
 ## Tools and resources
