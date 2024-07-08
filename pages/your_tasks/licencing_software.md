@@ -131,7 +131,7 @@ Combinations of various rights that are granted give us the following six Creati
 * [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) - Creative Commons Non Commercial
 * [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) - Creative Commons Non Commercial Share Alike
 * [CC BY-ND](https://creativecommons.org/licenses/by-nd/4.0/) - Creative Commons No Derivatives
-* [CC BY-ND-NC](https://creativecommons.org/licenses/by-nd-nc/4.0/) - Creative Commons No Derivatives Non Commercial
+* [CC BY-ND-NC](https://creativecommons.org/licenses/by-nc-nd/4.0/) - Creative Commons No Derivatives Non Commercial
 
 In addition to the licences above, Creative Commons also offers [CC0](https://creativecommons.org/publicdomain/zero/1.0/) - a public dedication tool, which enables creators to give up their copyright and put their works into the worldwide public domain. 
 
