@@ -48,6 +48,9 @@ Same as above
 ## How to cite this page <!-- do not delete this heading and write your text below it -->
  contributors, page URL. Last date of access.
 
+## Tools and resources <!-- do not delete this heading and write your text below it -->
+List of relevant tools and resources for this task.
+
 ## Contributors <!-- do not delete this heading and write your text below it -->
 List of controbutors to this page in the following format:
 
