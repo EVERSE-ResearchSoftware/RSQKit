@@ -179,7 +179,7 @@ This is usually done by adding a file LICENSE with the text of the licence. LICE
 
 To be added.
 
-## Contributors (fixed heading)
+## Contributors 
 
 * Daniel Garijo
     * ORCID: https://orcid.org/0000-0003-0454-7145
