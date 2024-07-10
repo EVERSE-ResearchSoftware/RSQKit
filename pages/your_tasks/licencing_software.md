@@ -140,6 +140,7 @@ In addition to the licences above, Creative Commons also offers [CC0](https://cr
 * Are you reusing code which is already under an open source licence? What obligations do you have under those licences?
 * Do you want to ensure that anybody modifying and redistributing your code will release the source code of their changes?
 * Do you want to ensure the least number of restrictions and that your code will be used as widely as possible? Even if that means it might end up in commercial products that do not release their source code and do not compensate you.
+* Is there a preferred license used in your research community?
 * Do not be tempted to write your own licence (or modify an existing one) unless you are a copyright lawyer.
 * Remember that the rights granted in a licence cannot be revoked once it has been applied.
 
