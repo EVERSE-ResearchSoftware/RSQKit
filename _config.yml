@@ -23,9 +23,9 @@ defaults:
       layout: "page"
       sidebar: main
 -
-  scope:
-    path: "pages/your_tasks/"
-  values:
+    scope:
+      path: "pages/your_tasks/"
+    values:
       type: your_tasks
       type_img: /assets/img/section-icons/tick.svg
 
