@@ -22,7 +22,7 @@ defaults:
       permalink: /:basename
       layout: "page"
       sidebar: main
--
+  -
     scope:
       path: "pages/your_tasks/"
     values:
