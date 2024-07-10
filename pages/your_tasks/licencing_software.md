@@ -67,7 +67,7 @@ In addition, it might be governed by your employer policy or funders’ mandates
 There are a number of licences that conform to the [open source definition](https://opensource.com/resources/what-open-source). 
 Here are the most commonly used ones that will likely satisfy your needs.
 
-#### Public Domain
+#### Public domain
 
 While not strictly a licence, [public domain](https://en.wikipedia.org/wiki/Public_domain) is a concept that enables you to waive all your interests that may 
 exist in your work and declare your work not protected by copyright. 
@@ -100,7 +100,7 @@ into a commercial product that does not contribute improvements to the code back
 The most commonly known copyleft licence is the [GNU Public License or GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) (has several versions and used by a lot of popular software including the Linux kernel). 
 Compared with the permissive licences, GPL is quite a long licence agreement and many of its clauses can be quite difficult for non-lawyers to fully understand. 
 
-[GNU Lesser General Public License ](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)(LGPL) - a special version of GPL - 
+[GNU Lesser General Public License ](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL) - a special version of GPL - 
 allows developers and companies to use and integrate a software component released under the open source LGPL into their own (even proprietary) software without being required by the terms of a strong copyleft licence 
 to release the source code of their own components (which is the requirement of GPL). GPL requires that all its derivative works be licensed as a whole under the terms of the GPL. 
 If an application links to a library licensed under GPL, it must also be licensed under GPL and the source code of the application must be provided. By contrast, libraries licensed under the LGPL may be linked to proprietary applications. 
@@ -140,6 +140,7 @@ In addition to the licences above, Creative Commons also offers [CC0](https://cr
 * Are you reusing code which is already under an open source licence? What obligations do you have under those licences?
 * Do you want to ensure that anybody modifying and redistributing your code will release the source code of their changes?
 * Do you want to ensure the least number of restrictions and that your code will be used as widely as possible? Even if that means it might end up in commercial products that do not release their source code and do not compensate you.
+* Is there a preferred license used in your research community?
 * Do not be tempted to write your own licence (or modify an existing one) unless you are a copyright lawyer.
 * Remember that the rights granted in a licence cannot be revoked once it has been applied.
 
