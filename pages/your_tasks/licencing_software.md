@@ -1,6 +1,5 @@
 ---
 title: Licensing software
-search_exclude: true
 description: Applying a licence to research software
 contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi"]
 page_id: licencing_software
