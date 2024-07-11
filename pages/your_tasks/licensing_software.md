@@ -2,16 +2,9 @@
 title: Licensing software
 description: Applying a licence to research software
 contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi"]
-page_id: licencing_software
-related_pages: [<!---REPLACE THIS with the page comma-separated page IDs of the pages that are related to the current page--->]
-# More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
-training:
-  - name:
-    registry:
-    url:
-# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+page_id: licensing_software
+related_pages: []
 ---
-<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
 
 ## What is copyright and licensing?
 
