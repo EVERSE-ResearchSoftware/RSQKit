@@ -161,11 +161,12 @@ Otherwise, create a new file called, e.g. LICENCE.txt, in the root directory to 
 
 ## Tools and resources
 
-| Tool or resource                                                                                            | Description                                             |
-| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| [Choose an open licence tool](https://choosealicense.com/)                                                  | A guided tool to help you choose a licence              |
-| [Spdx](https://spdx.org/licenses/) list of licenses                                                         | A list of commonly recognized licenses used in software |
-| [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) | Guidelines on changing and editing licenses             |
+| Tool or resource                                                                                            | Description                                                   |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| [Choose an open licence tool](https://choosealicense.com/)                                                  | A guided tool to help you choose a licence for your resource  |
+| [license selector for software](https://ufal.github.io/public-license-selector)                             | A question-guided tool to help you choose a software license  |
+| [Spdx](https://spdx.org/licenses/) list of licenses                                                         | A list of commonly recognized licenses used in software       |
+| [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) | Guidelines on changing and editing licenses                   |
 
 
 ## How to cite this page
