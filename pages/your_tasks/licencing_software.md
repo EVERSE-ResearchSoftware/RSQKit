@@ -179,6 +179,11 @@ Otherwise, create a new file called, e.g. LICENCE.txt, in the root directory to 
 
 To be added.
 
+
+## Credit
+
+The contents of this page have been adapted from the ["Licensing" activity page](https://rdmkit.elixir-europe.org/licensing) in the [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/), contributed by Minna Ahokas, Nicola Soranzo, Rob Hooft and Siiri Fuchs.
+
       
 ## References
 
