@@ -1,10 +1,6 @@
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
 subitems:
-  # - title: Research Software Lifecycle
-  #   url: /index
   - title: About
     url: /about
- # - title: Contribute
- #   url: /how_to_contribute
  
     
