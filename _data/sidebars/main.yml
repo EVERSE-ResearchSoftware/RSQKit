@@ -4,4 +4,10 @@
 subitems:
   - title: About RSQKit
     url: /about
-  
+  - title: Your tasks
+    description: Find guidelines and solutions for tackling common software tasks.
+    url: /your_tasks
+    image_url: /assets/img/section-icons/tick.svg
+    subitems:
+      - title: Licensing software
+        url: /licencing_software

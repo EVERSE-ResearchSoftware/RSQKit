@@ -1,6 +1,5 @@
 ---
 title: Licensing software
-search_exclude: true
 description: Applying a licence to research software
 contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi"]
 page_id: licencing_software
@@ -180,20 +179,6 @@ Otherwise, create a new file called, e.g. LICENCE.txt, in the root directory to 
 
 To be added.
 
-## Contributors 
-
-* Daniel Garijo
-    * ORCID: https://orcid.org/0000-0003-0454-7145
-    * GitHub: https://github.com/dgarijo
-    * Affiliation: Universidad Politécnica de Madrid
-* Aleksandra Nenadic
-    * ORCID: https://orcid.org/0000-0002-2269-3894
-    * GitHub: https://github.com/anenadic
-    * Affiliation: University of Manchester
-* Shoaib Sufi
-    * ORCID: https://orcid.org/0000-0001-6390-2616
-    * GitHub: https://github.com/shoaibsufi
-    * Affiliation: University of Manchester
       
 ## References
 

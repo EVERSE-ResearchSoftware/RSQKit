@@ -51,14 +51,6 @@ Same as above
 ## Tools and resources <!-- do not delete this heading and write your text below it -->
 List of relevant tools and resources for this task.
 
-## Contributors <!-- do not delete this heading and write your text below it -->
-List of controbutors to this page in the following format:
-
-* name: First Name Last Name
-  * ORCID: a full link to ORCID profile page, e.g. https://orcid.org/0000-0003-0454-7146
-  * GitHub: a full link to GitHub profile page, e.g. https://github.com/ghname
-  * Affiliation: University of Good Software
- 
 ## References <!-- do not delete this heading and write your text below it -->
 If work has been inspired or derived from other content (e.g., pages in RDMKit) make sure to reference it here. 
 

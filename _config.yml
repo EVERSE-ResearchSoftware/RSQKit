@@ -22,6 +22,20 @@ defaults:
       permalink: /:basename
       layout: "page"
       sidebar: main
+  -
+    scope:
+      path: "pages/your_tasks/"
+    values:
+      type: your_tasks
+      type_img: /assets/img/section-icons/tick.svg
+  -
+    scope:
+      path: "pages/your_tasks/TEMPLATE_your_tasks.md"
+      type: "pages"
+    values:
+        sitemap: false
+        search_exclude: true
+        no_robots: true
 
 theme_variables:
   topnav:
