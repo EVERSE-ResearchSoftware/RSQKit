@@ -45,3 +45,12 @@ theme_variables:
   topnav:
     brand_logo: assets/img/everse_logo.png
     twitter: https://twitter.com/eosc_everse
+
+plugins:
+  - elixir-toolkit-theme-plugins
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-github-metadata
+  - jekyll-octicons
+  - jekyll-scholar
