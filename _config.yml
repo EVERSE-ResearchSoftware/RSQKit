@@ -9,6 +9,7 @@ description: "The Research Software Quality kit is a resource to help researcher
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.0.1
 
+
 sass:
   style: compressed
   sourcemap: never
