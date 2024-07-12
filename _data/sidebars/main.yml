@@ -10,4 +10,4 @@ subitems:
     image_url: /assets/img/section-icons/tick.svg
     subitems:
       - title: Licensing software
-        url: /licencing_software
+        url: /licensing_software
