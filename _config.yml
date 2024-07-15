@@ -1,10 +1,10 @@
 title: "RSQKit: Research Software Quality Kit"
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: "RSQkit: Research Software Quality kit"
+topnav_title: "RSQKit: Research Software Quality Kit"
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
-description: "The Research Software Quality kit is a resource to help researchers that code, Research Software Engineers, and anyone in between learn about and apply best practices in creating research software and code."
+description: "The Research Software Quality Kit is a resource to help researchers that code, Research Software Engineers, and anyone in between learn about and apply best practices in creating research software and code."
 # Metadata description of the website
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.0.1
