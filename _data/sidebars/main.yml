@@ -2,8 +2,37 @@
 # version: 2.0
 # title_url:  /events
 subitems:
-  - title: About RSQKit
-    url: /about
+  #- title: About RSQKit
+  #  url: /about
+  - title: Research Software
+    description: Different perspectives on research software.
+    url: /research_software
+    image_url: /assets/img/section-icons/tick.svg
+    subitems:
+      - title: Life cycle
+        url: /life_cycle
+      - title: Three-tier view
+        url: /three_tier_view
+  - title: Your role
+    description: Defnition of the different persona types associated with Research Software.
+    url: /your_role
+    image_url: /assets/img/section-icons/tick.svg
+    subitems:
+      - title: Research Software Engineer
+        url: /research_software_engineer
+  - title: RS Quality
+    description: Find indicators principles for Research Software Quality.
+    url: /rs_quality
+    image_url: /assets/img/section-icons/tick.svg
+    subitems:
+      - title: Source code
+        url: /source_code
+      - title: FAIR
+        url: /fair
+      - title: Sustainability
+        url: /sustainability
+      - title: Open Source
+        url: /open_source
   - title: Your tasks
     description: Find guidelines and solutions for tackling common software tasks.
     url: /your_tasks
@@ -11,3 +40,9 @@ subitems:
     subitems:
       - title: Licensing software
         url: /licensing_software
+  - title: Science Clusters
+    url: /science_clusters
+  - title: All tools and resources
+    url: /all_tools_and_resources
+  - title: All training resources
+    url: /all_training_resources  
