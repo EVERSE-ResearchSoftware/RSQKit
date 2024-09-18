@@ -54,7 +54,7 @@ which is adopted almost universally by the communities around the world.
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | [PEP 8 style guide for Python][pep8]                                            | Python Enhancement Proposal 8, Style Guide for Python Code                 |
 | [Python code style conventions](https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/15-coding-conventions/index.html) from ["Intermediate Research Software Development" course][intermediate-rs-dev]                            |  A chapter on Python Code Style Conventions | 
-| [FAIR Reseach Software Principles][fair-rs-principles] | 
+| [FAIR Reseach Software Principles][fair-rs-principles] | An introdtion to the FAIR Principles for research software |
 
 In Python, although we do have a choice of style guides available, the PEP 8 style guide is most commonly used. PEP here stands for Python Enhancement Proposals; PEPs are design documents for the Python community, typically specifications or conventions for how to do something in Python, a description of a new feature in Python, etc.
 
