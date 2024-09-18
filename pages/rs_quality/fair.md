@@ -93,6 +93,8 @@ automate and speed up our work.
 ... 
 TODO: other tools and practices
 
+TODO: cross link with other pages talking about specific tools or practices, e.g. version control, code readability, documentation, etc.
+
 
 [fair-principles-research-software]: https://www.nature.com/articles/s41597-022-01710-x
 [fair-data-principles]: https://www.nature.com/articles/sdata201618
