@@ -74,12 +74,14 @@ Sometimes, a package manager combines both of these functionalities and you only
 ### Considerations
 
 - There are often multiple package and environment management tools for a single programming language. For example,
-there are several commonly used command line tools for managing Python virtual environments:
-  - `venv`, available by default from the standard Python distribution from Python 3.3+
-  - `virtualenv`, needs to be installed separately but supports both Python 2.7+ and Python 3.3+versions
-  - `pipenv`, created to fix certain shortcomings of virtualenv
-  - `conda`, package and environment management system (also included as part of the Anaconda Python distribution often used by the scientific community)
-  - `poetry`, a modern Python packaging tool which handles virtual environments automatically
+there are several commonly used command line tools for managing Python packages and virtual environments to choose from:
+  - `pip` - Python package manager tool which interacts and obtains the packages from the central repository called Python Package Index (PyPI). `pip` can now be used with all Python distributions (including Anaconda).
+  - `venv` - Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3+
+  - `venv` - Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3+
+  - `virtualenv` - Python virtual environment manager tool which needs to be installed separately (does not come with Python distribution) but supports both Python 2.7+ and Python 3.3+ versions
+  - `pipenv` - Python package and environment management sysyem created to fix certain shortcomings of `virtualenv`
+  - `conda` - Python package and environment management system (also included as part of the Anaconda Python distribution often used by the scientific community)
+  - `poetry` - a modern Python packaging tool which handles virtual environments automatically
 - You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
 already using (so you can get help when you need it).
 
