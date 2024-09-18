@@ -68,10 +68,8 @@ This can also be achieved with more generic package (dependency) managers like S
 Part of managing a virtual software development environment involves installing, updating and removing external packages on your system. 
 You would need a package manager tool for your programming language to be able to do that - this is typically a command line tool that you invoke from 
 a command line terminal. 
-For example, `pip` is most commonly used tool for Python - it interacts and obtains the packages from the central repository called Python Package Index (PyPI)
-and installs them on your machine.
-
-So, we will use venv and pip in combination to help us create and share our virtual development environments.
+In addition to a package manager, you will need another command line tool to create and manage virtual environments on your machine. 
+Sometimes, a package manager provides combines both of these functionalities and you only need to install one extra tool on your system.
 
 ### Considerations
 
@@ -94,10 +92,7 @@ already using (so you can get help when you need it).
 
 | Tool or resource                                                                                            | Description                                                   |
 | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [Choose an open license tool](https://choosealicense.com/)                                                  | A guided tool to help you choose a license for your resource  |
-| [license selector for software](https://ufal.github.io/public-license-selector)                             | A question-guided tool to help you choose a software license  |
-| [Spdx](https://spdx.org/licenses/) list of licenses                                                         | A list of commonly recognized licenses used in software       |
-| [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) | Guidelines on changing and editing licenses                   |
+| [Install Python packages in a virtual environment using pip and venv][pip-venv]                             | A guide on how to create and activate a virtual environment using the standard library’s virtual environment tool venv and install packages using pip  |
 
 
 ## How to cite this page
@@ -107,13 +102,15 @@ To be added.
 
 ## Credit
 
-The contents of this page have been inspired by the ["Tools and Practices for FAIR Research Software" course](https://carpentries-incubator.github.io/fair-research-software/05-code-environment.html) 
-and the ["Intermediate Research Software Development" course](https://carpentries-incubator.github.io/python-intermediate-development/) developed by the Software Sustainability Institute.
+The contents of this page have been inspired by the ["Tools and Practices for FAIR Research Software" course][fair-rs] 
+and the ["Intermediate Research Software Development" course][intermediate-rs-dev] developed by the Software Sustainability Institute.
 
       
 ## References
-
 [^1]: [Aleksandra Nenadic, Steve Crouch, et al. (2024). carpentries-incubator/python-intermediate-development: beta-May2024 (beta-May2024). Zenodo. https://doi.org/10.5281/zenodo.11368608]
 [^2]: [Gibson, S., Jaffa, S., Kopec-Harding, K., Nenadic, A., & Sauze, C. (2024). Tools and Practices for FAIR Research Software Course (alpha-July-2024). Zenodo. https://doi.org/10.5281/zenodo.12666089]
 
+[pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+[fair-rs]: https://carpentries-incubator.github.io/fair-research-software
+[intermediate-rs-dev]: https://carpentries-incubator.github.io/python-intermediate-development/
  
