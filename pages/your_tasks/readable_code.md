@@ -9,7 +9,7 @@ related_pages: []
 
 ## Why is it important to make your code readable?
 
-**Code readability** contributes to the *accessibility* of your code (the "A" in the [FAIR reseach software principles][fair-rs-principles][^1]) - 
+**Code readability** contributes to the *accessibility* and *reusability* of your code (the "A" and "R" in the [FAIR reseach software principles][fair-rs-principles][^1]) - 
 once people freely, legally and easily obtain a copy your software - they need to be able to read and understand it to reuse and extend it. 
 So, readable code helps create more reusable scientific software and can empower collaboration between researchers.
 
@@ -25,21 +25,32 @@ Readable code facilitates the the process of understanding the code, the evoluti
 
 ## What practices are there to help me improve the readability of my code?
 
-## How can I make my code readable? 
+One of the most important things we can do to make sure our code is readable by others (and ourselves a few months down the line) is to make sure that it is descriptive, 
+cleanly and consistently formatted and uses sensible, descriptive names for variable, function and module names. 
+In order to help us format our code, we generally follow guidelines known as a style guide. 
+A style guide is a set of conventions that we agree upon with our colleagues or community, to ensure that everyone contributing to the same project is producing code which 
+looks similar in style. 
+While a group of developers may choose to write and agree upon a new style guide unique to each project, in practice many programming languages have a single style guide 
+which is adopted almost universally by the communities around the world. 
+
+In Python, although we do have a choice of style guides available, the PEP 8 style guide is most commonly used. PEP here stands for Python Enhancement Proposals; PEPs are design documents for the Python community, typically specifications or conventions for how to do something in Python, a description of a new feature in Python, etc.
 
 ### Description 
 
 
 ### Considerations
 
+* Code is read much more often than it is written - style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code
+* Consistency with the style guide is important. Consistency within a project is more important. Consistency within one module or function is the most important. However, know when to be inconsistent - sometimes style guide recommendations are just not applicable. When in doubt, use your best judgment. Look at other examples and decide what looks best.
 * 
 
 
 ### Solutions
 
-* 
-
-
+- Choose function and variable names that help explain the purpose of the function or variable
+- Write informative comments and docstrings for functions to provide more detail about what the code and is doing
+- Organise code into reusable and modular functions that achieve a singular purpose and are more easier to understand, test and reuse
+- Use standard and well-tested libraries for common tasks (e.g. reading and writing data in standard formats) over reimplementing functionality in custom, less readable and more error-prone code 
 
 
 ## Tools and resources
