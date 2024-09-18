@@ -7,10 +7,6 @@ related_pages: []
 ---
 
 
-## Why does code readability matter?
-## How can I write my code to be more readable?
-## What practices are there to help me improve the readability of my code?
-
 ## Why is it important to make your code readable?
 
 **Code readability** contributes to the *accessibility* of your code (the "A" in the [FAIR reseach software principles][fair-rs-principles][^1]) - 
@@ -27,7 +23,9 @@ They do this by reading the original code to understand it and identify what nee
 Readable code facilitates the reading and understanding of the code, and thereby the evolution of the codebase. 
 Readable code saves future developers' time and effort.
 
-## How can you make your code readable? 
+## What practices are there to help me improve the readability of my code?
+
+## How can I make my code readable? 
 
 ### Description 
 
