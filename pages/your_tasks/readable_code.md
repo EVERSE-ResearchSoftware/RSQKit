@@ -54,7 +54,10 @@ Follow best practices in structuring code and organising software/research proje
 - Choose function and variable names that help explain the purpose of the function or variable
 - Write informative comments and docstrings for functions to provide more detail about what the code and is doing, transmit understanding and context
 - Organise code into reusable and modular functions that achieve a singular purpose and are more easier to understand, test and reuse
-- Use libraries or packages for common functionality and tasks to avoid duplication (e.g. reading and writing data in standard formats) and avoid reimplementing functionality in custom, less readable and more error-prone code
+- Use libraries or packages for common functionality and tasks to avoid duplication (e.g. reading and writing data in standard formats) and avoid reimplementing
+functionality in custom, less readable and more error-prone code
+- Follow [guidelines and conventions](https://carpentries-incubator.github.io/fair-research-software/07-code-structure.html#directory-structure-for-software-projects projects)
+on consistent and informative directory structure of your software or research projects.
 
 ## Tools and resources
 
