@@ -74,7 +74,8 @@ Sometimes, a package manager combines both of these functionalities and you only
 ### Considerations
 
 * There are often multiple package and environment management tools for a single programming language. For example,
-there are several commonly used command line tools for managing Python virtual environments: 
+there are several commonly used command line tools for managing Python virtual environments:
+
       * `venv`, available by default from the standard Python distribution from Python 3.3+
       * `virtualenv`, needs to be installed separately but supports both Python 2.7+ and Python 3.3+versions
       * `pipenv`, created to fix certain shortcomings of virtualenv
