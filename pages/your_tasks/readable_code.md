@@ -57,7 +57,7 @@ Follow best practices in structuring code and organising software/research proje
 - Use libraries or packages for common functionality and tasks to avoid duplication (e.g. reading and writing data in standard formats) and avoid reimplementing
 functionality in custom, less readable and more error-prone code
 - Follow [guidelines and conventions](https://carpentries-incubator.github.io/fair-research-software/07-code-structure.html#directory-structure-for-software-projects)
-on consistent and informative directory structure of your software or research projects.
+on consistent and informative directory structure of your software or research projects - this way, people will immediately know where to find things within your project
 
 ## Tools and resources
 
