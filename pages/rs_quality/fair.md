@@ -85,7 +85,7 @@ from command line terminals.
 
 Finally, interoperable software should use standard protocols so that it can integrate with other tools. 
 One of these standard protocols is passing inputs and outputs via the command line terminal so software we write may need to have such a command line interface. 
-Command line terminals allow us group and chain our software together with other tools to build up complex workflows and analysis pipelines 
+Command line terminals allow us group and chain our software together with other tools to build up complex and reproducible workflows and analysis pipelines 
 using several programs in different steps. 
 
 
