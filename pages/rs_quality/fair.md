@@ -43,7 +43,7 @@ closer to the gold standard of a fully reproducible research.
   * State how to cite your software
  
   
-## Tools 
+## Tools and practices for FAIR research software development 
 
 There are various tools and practices that support the development of FAIR research software, contributing to each of the four FAIR principles. 
 These tools and practices work together, as no single tool or practice addresses only one principle. 
