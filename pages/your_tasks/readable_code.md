@@ -50,9 +50,10 @@ which is adopted almost universally by the communities around the world.
 
 ## Tools and resources
 
-| Tool or resource                                                                                            | Description                                                                |
-| -------------------------------------------------------------- -------------------------------------------- | -------------------------------------------------------------------------- |
-| [PEP 8 style guide for Python](https://choosealicense.com/)                                                 | Python Enhancement Proposal 8, Python language conventions and guidelines  |
+| Tool or resource                                                                | Description                                                                |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [PEP 8 style guide for Python][pep8]                                            | Python Enhancement Proposal 8, Style Guide for Python Code                 |
+| [Python code style conventions](https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/15-coding-conventions/index.html) chapter from ["Intermediate Research Software Development" course][intermediate-rs-dev]                                                |  
 
 
 In Python, although we do have a choice of style guides available, the PEP 8 style guide is most commonly used. PEP here stands for Python Enhancement Proposals; PEPs are design documents for the Python community, typically specifications or conventions for how to do something in Python, a description of a new feature in Python, etc.
@@ -64,7 +65,8 @@ To be added.
 
 ## Credit
 
-The contents of this page have been inspired by the ["Tools and Practices for FAIR Research Software" course][fair-rs][^1] developed by the [Software Sustainability Institute][ssi].
+The contents of this page have been inspired by the ["Tools and Practices for FAIR Research Software" course][fair-rs][^1] 
+and the ["Intermediate Research Software Development" course][intermediate-rs-dev][^2] developed by the [Software Sustainability Institute][ssi].
 
       
 ## References
@@ -73,3 +75,6 @@ The contents of this page have been inspired by the ["Tools and Practices for FA
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software
 [ssi]: https://www.software.ac.uk/
 [fair-rs-principles]: https://www.nature.com/articles/s41597-022-01710-x
+[fair-rs]: https://carpentries-incubator.github.io/fair-research-software
+[intermediate-rs-dev]: https://carpentries-incubator.github.io/python-intermediate-development/
+[pep8]: https://peps.python.org/pep-0008/
