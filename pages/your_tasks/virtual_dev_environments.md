@@ -11,6 +11,7 @@ related_pages: []
 A virtual software development environment helps us create an **isolated working copy** of a software project that uses a specific 
 version of a programming language interpreter/compiler (e.g. Python 3.11) together with specific versions of a number of external 
 libraries (dependencies) required by our software installed into that virtual environment. 
+
 Virtual environments are typically implemented as directories with a particular structure (usually contained within software projects 
 but can be outside too), containing links to specified dependencies allowing isolation from other software projects on your machine 
 that may require different versions of the same programming language or external libraries.
@@ -37,8 +38,8 @@ on their machines and run or further develop your software - making your work **
 
 * As more external libraries are added to your software project over time, you can add them to its specific virtual environment
 and avoid a great deal of confusion by having separate (smaller) virtual environments for each project
-rather than one huge global environment with potential package version clashes.
-* You have an older project that only works under Python 2. You do not have the time to migrate the project to Python 3
+rather than one huge global environment on your machine with potential package version clashes.
+* You have an older project that only works under, e.g., Python 2. You do not have the time to migrate the project to Python 3
 or it may not even be possible as some of the third party dependencies are not available under Python 3.
 You have to start another project under Python 3. The best way to do this on a single machine is
 to set up two separate Python virtual environments.
@@ -48,7 +49,7 @@ In a separate branch of your project, you want to try and fix problems introduce
 without affecting the working version of your project. You need to set up a separate virtual environment for your branch to
 'isolate' your code while testing the new feature.
 * You do not have to worry too much about specific versions of external libraries that your project depends on most of the time.
-Virtual environments also enable you to always use the latest available version without specifying it explicitly.
+Virtual environments enable you to always use the latest available version without specifying it explicitly.
 They also enable you to use a specific older version of a package for your project, should you need to. 
 
 ### Solutions
@@ -59,21 +60,34 @@ They also enable you to use a specific older version of a package for your proje
 
 ### Description
 
+Most modern programming languages use some kind of virtual environments or a similar mechanism to isolate libraries or dependencies for a specific project, 
+making it easier to develop, run, test and share code with others. 
+Some examples include Bundler for Ruby, Conan for C++, or Maven with classpath for Java. 
+This can also be achieved with more generic package (dependency) managers like Spack, which is used extensively in HPC settings to resolve complex dependencies. 
 
+Part of managing a virtual software development environment involves installing, updating and removing external packages on your system. 
+You would need a package manager tool for your programming language to be able to do that - this is typically a command line tool that you invoke from 
+a command line terminal. 
+For example, `pip` is most commonly used tool for Python - it interacts and obtains the packages from the central repository called Python Package Index (PyPI)
+and installs them on your machine.
+
+So, we will use venv and pip in combination to help us create and share our virtual development environments.
 
 ### Considerations
 
-* Are you reusing code which is already under an open source license? What obligations do you have under those licenses?
-* Do you want to ensure that anybody modifying and redistributing your code will release the source code of their changes?
-* Do you want to ensure the least number of restrictions and that your code will be used as widely as possible? Even if that means it might end up in commercial products that do not release their source code and do not compensate you.
-* Is there a preferred license used in your research community?
-* Do not be tempted to write your own license (or modify an existing one) unless you are a copyright lawyer.
-* Remember that the rights granted in a license cannot be revoked once it has been applied.
-
+* There are often multiple package and environment management tools for a single programming language. For example,
+there are several commonly used command line tools for managing Python virtual environments: 
+      * `venv`, available by default from the standard Python distribution from Python 3.3+
+      * `virtualenv`, needs to be installed separately but supports both Python 2.7+ and Python 3.3+versions
+      * `pipenv`, created to fix certain shortcomings of virtualenv
+      * `conda`, package and environment management system (also included as part of the Anaconda Python distribution often used by the scientific community)
+      * `poetry`, a modern Python packaging tool which handles virtual environments automatically
+* You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
+already using (so you can get help when you need it).
 
 ### Solutions
 
-* [Choose an open license](https://choosealicense.com/) website is a great tool to help you choose a license that is appropriate for your needs.
+* Decide on and start using a package manager tool and a virtual environment management tool for your programming language.
 
 
 ## Tools and resources
