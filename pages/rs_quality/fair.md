@@ -76,7 +76,7 @@ environments with others, making it easier to access, reuse and extend our code.
 ### Command line terminals
 
 Command line terminals enable us to run and test our code without graphical user interfaces (GUI) afforded to us by IDEs - this is sometimes needed for accessing and 
-running our code remotely on servers with not GUI provision. 
+running our code remotely on servers without a GUI provision. 
 Command line terminal also use less resources than a GUI development tool and are commonly used on high-performance computers and other shared systems where time, 
 memory and processing power are expensive or in high demand.
 
