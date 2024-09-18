@@ -17,11 +17,11 @@ In order to develop readable code, we should ask ourselves: "If I re-read this p
 what I have done and why?" 
 Or: "If a new person who has just joined the project reads my code, will they be able to understand what I have written?"
 
-In addition, software requirements will likely change over time because software is dynamic in nature as it interacts with the real world which changes. 
-When these requirements change, a developer (who is not necessarily the same person who wrote the original code) must make changes to the software. 
+In addition, software requirements will likely change over time because software is dynamic in nature. 
+When these requirements change, a developer (who is not necessarily the same person who wrote the original code) needs to make changes to the software
+to satisfy these new and emerging needs. 
 They do this by reading the original code to understand it and identify what needs to change. 
-Readable code facilitates the reading and understanding of the code, and thereby the evolution of the codebase. 
-Readable code saves future developers' time and effort.
+Readable code facilitates the the process of understanding the code, the evolution of the codebase, and saves future developers' time and effort.
 
 ## What practices are there to help me improve the readability of my code?
 
