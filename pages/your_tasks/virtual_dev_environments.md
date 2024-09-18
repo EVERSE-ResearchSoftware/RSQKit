@@ -69,7 +69,7 @@ Part of managing a virtual software development environment involves installing,
 You would need a package manager tool for your programming language to be able to do that - this is typically a command line tool that you invoke from 
 a command line terminal. 
 In addition to a package manager, you will need another command line tool to create and manage virtual environments on your machine. 
-Sometimes, a package manager provides combines both of these functionalities and you only need to install one extra tool on your system.
+Sometimes, a package manager combines both of these functionalities and you only need to install one extra tool on your system.
 
 ### Considerations
 
