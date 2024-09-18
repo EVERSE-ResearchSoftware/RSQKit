@@ -33,20 +33,24 @@ looks similar in style.
 While a group of developers may choose to write and agree upon a new style guide unique to each project, in practice many programming languages have a single style guide 
 which is adopted almost universally by the communities around the world. 
 
+Structure code that is modular and split into small, reusable functions.
+Use the common code pattern for creating software that can read input from command line
+Follow best practices in structuring code and organising software/research project directories for improved readability, accessibility and reproducibility.
+
+
 ### Considerations
 
-* Code is read much more often than it is written - style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code
-* Consistency with the style guide is important. Consistency within a project is more important. Consistency within one module or function is the most important. However, know when to be inconsistent - sometimes style guide recommendations are just not applicable. When in doubt, use your best judgment. Look at other examples and decide what looks best.
-* 
+- Code is read much more often than it is written - style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code
+- Consistency with the style guide is important. Consistency within a project is more important. Consistency within one module or function is the most important. However, know when to be inconsistent - sometimes style guide recommendations are just not applicable. When in doubt, use your best judgment. Look at other examples and decide what looks best.
+- Readable code is easier to understand, maintain, debug and extend (reuse) - saving time and effort.
 
 
 ### Solutions
 
 - Choose function and variable names that help explain the purpose of the function or variable
-- Write informative comments and docstrings for functions to provide more detail about what the code and is doing
+- Write informative comments and docstrings for functions to provide more detail about what the code and is doing, transmit understanding and context
 - Organise code into reusable and modular functions that achieve a singular purpose and are more easier to understand, test and reuse
-- Use standard and well-tested libraries for common tasks (e.g. reading and writing data in standard formats) over reimplementing functionality in custom, less readable and more error-prone code 
-
+- Use libraries or packages for common functionality and tasks to avoid duplication (e.g. reading and writing data in standard formats) and avoid reimplementing functionality in custom, less readable and more error-prone code
 
 ## Tools and resources
 
