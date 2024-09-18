@@ -45,11 +45,10 @@ closer to the gold standard of a fully reproducible research.
   
 ## Tools 
 
-
-There is a number of tools and practices to help us develop research software in a FAIR way and help us with the 4 FAIR principles.
-They need to be use in combination to help us move along the FAIR spectrum - there is no single practice or a tool for a single 
-principle; and one tool or practice can often contribute to multiple principles. 
-Consider the table below for a summary of how some tools and practices help with each of the FAIR software principles.
+There are various tools and practices that support the development of FAIR research software, contributing to each of the four FAIR principles. 
+These tools and practices work together, as no single tool or practice addresses only one principle. 
+In fact, a single tool or practice can often contribute to multiple principles simultaneously. 
+The table below provides a summary of how different tools and practices align with the FAIR software principles.
 
 | Tools and practices                                                                               | Findable | Accessible | Interoperable | Reusable |
 |---------------------------------------------------------------------------------------------------|----------|------------|---------------|----------|
