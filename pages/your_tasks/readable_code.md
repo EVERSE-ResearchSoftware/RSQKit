@@ -26,6 +26,7 @@ Readable code facilitates the the process of understanding the code, the evoluti
 ### Considerations
 
 - Readable code is easier to understand, maintain, debug and extend (reuse) - saving time and effort.
+- Readable code can also make it better and more secure in a way, as it is easier for reviewers to pick out errors.
 
 
 ## What practices are there to help me improve the readability of my code?
@@ -51,13 +52,21 @@ Follow best practices in structuring code and organising software/research proje
 
 ### Solutions
 
-- Choose function and variable names that help explain the purpose of the function or variable
-- Write informative comments and docstrings for functions to provide more detail about what the code and is doing, transmit understanding and context
+Here are some of the practices to follow to make your code more readable:
+
+- Use consistent formatting - consistent indentation and spacing make code easier to understand and parse. 
+- Break code into sections - use blank lines to separate different parts of your code, like classes and functions. 
+- Use descriptive names for function, class and variable names that help explain their purpose.
+- Keep lines short - avoid long lines, and instead write blocks of lines that are horizontally short and vertically long. 
+- Use indentation to show the hierarchy of your code and mark the beginning and end of control structures. 
+- Write informative comments and docstrings for functions to provide more detail about what the code and is doing, transmit understanding and context 
+- Follow a code style guide that is agreed upon and other programmers will find easy to read 
+- Automate style checks to help ensure your code is consistent
 - Organise code into reusable and modular functions that achieve a singular purpose and are more easier to understand, test and reuse
-- Use libraries or packages for common functionality and tasks to avoid duplication (e.g. reading and writing data in standard formats) and avoid reimplementing
-functionality in custom, less readable and more error-prone code
+- Use existing and well-tested libraries or packages for common functionality and tasks (e.g. reading and writing data in standard formats) to avoid duplication and reimplementing
+functionality in custom, more error-prone code
 - Follow [guidelines and conventions](https://carpentries-incubator.github.io/fair-research-software/07-code-structure.html#directory-structure-for-software-projects)
-on consistent and informative directory structure of your software or research projects - this way, people will immediately know where to find things within your project
+on consistent and informative directory structure for your software or research projects - this way, people will immediately know where to find things within your project
 
 ## Tools and resources
 
