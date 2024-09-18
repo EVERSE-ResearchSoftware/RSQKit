@@ -33,11 +33,6 @@ looks similar in style.
 While a group of developers may choose to write and agree upon a new style guide unique to each project, in practice many programming languages have a single style guide 
 which is adopted almost universally by the communities around the world. 
 
-In Python, although we do have a choice of style guides available, the PEP 8 style guide is most commonly used. PEP here stands for Python Enhancement Proposals; PEPs are design documents for the Python community, typically specifications or conventions for how to do something in Python, a description of a new feature in Python, etc.
-
-### Description 
-
-
 ### Considerations
 
 * Code is read much more often than it is written - style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code
@@ -55,13 +50,12 @@ In Python, although we do have a choice of style guides available, the PEP 8 sty
 
 ## Tools and resources
 
-| Tool or resource                                                                                            | Description                                                   |
-| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [Choose an open license tool](https://choosealicense.com/)                                                  | A guided tool to help you choose a license for your resource  |
-| [license selector for software](https://ufal.github.io/public-license-selector)                             | A question-guided tool to help you choose a software license  |
-| [Spdx](https://spdx.org/licenses/) list of licenses                                                         | A list of commonly recognized licenses used in software       |
-| [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) | Guidelines on changing and editing licenses                   |
+| Tool or resource                                                                                            | Description                                                                |
+| -------------------------------------------------------------- -------------------------------------------- | -------------------------------------------------------------------------- |
+| [PEP 8 style guide for Python](https://choosealicense.com/)                                                 | Python Enhancement Proposal 8, Python language conventions and guidelines  |
 
+
+In Python, although we do have a choice of style guides available, the PEP 8 style guide is most commonly used. PEP here stands for Python Enhancement Proposals; PEPs are design documents for the Python community, typically specifications or conventions for how to do something in Python, a description of a new feature in Python, etc.
 
 ## How to cite this page
 
