@@ -54,7 +54,7 @@ The table below provides a summary of how different tools and practices help wit
 | ---------------------------------------------------------------------------------------------------- | -------- | ---------- | ------------- | -------- |
 | Virtual development environments - run, test, debug, share code                                      |          | x          |               | x        |
 | Integrated development environments/IDEs (e.g. VS Code, PyCharm) - run, test, debug code             |          |            |               | x        |
-| Command line terminal (e.g. Bash, GitBash) - run code, reproducible workflows/pipelines              |          |            | x             | x        |
+| Command line terminal (e.g. Bash, GitBash) - run code, automate reproducible workflows/pipelines     |          |            | x             | x        |
 | Version control tools                                                                                | x        |            |               |          |
 | Testing - code correctness and reproducibility                                                       |          | x          |               | x        |
 | Coding conventions                                                                                   |          | x          | x             | x        |
@@ -81,14 +81,17 @@ between different tools.
 Command line terminals enable us to run and test our code without graphical user interfaces (GUI) afforded to us by IDEs - this is sometimes needed for accessing and 
 running our code remotely on servers and high-performance systems without a GUI provision, where time, memory and processing power are expensive or in high demand.
 
-Version control systems are typically provided as command line tools making them only accessible from command line terminals for entering commands and accessing 
-remote version control servers.
+Version control systems are typically provided as command line tools making them often only accessible from command line terminals to enter commands and access 
+remote version control servers to backing up and sharing our work.
 
 Finally, command line tools are interoperable software that use standard protocols for passing parameters, inputs and outputs via the command line terminal. 
 This makes it easier to integrate with other tools, allowing us to chain command line tools and build up complex and reproducible workflows and analysis pipelines 
 using several programs in different steps. 
 If we write our software in a way which provides such an interoperable command line interface - we will be able to integrate it with other command line tools to 
-automate and speed up our work. 
+automate and speed up our work.
+
+... 
+TODO: other tools and practices
 
 
 [fair-principles-research-software]: https://www.nature.com/articles/s41597-022-01710-x
