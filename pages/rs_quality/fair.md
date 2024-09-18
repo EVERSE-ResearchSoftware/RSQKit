@@ -70,23 +70,24 @@ The table below provides a summary of how different tools and practices help wit
 
 ### Development environments
 
-Virtual and integrated development environments (IDEs) help with running, testing, and debuging code. Virtual environments further enable us to share our working 
+Virtual and integrated development environments (IDEs) help with running, testing, and debuging code. 
+Virtual environments further enable us to share our working 
 environments with others, making it easier to access, reuse and extend our code.
+IDEs often provide integrations with other tools, e.g. version control and command line terminal, enabling you to do many tasks from a single environment, saving time in switching
+between different tools.
 
 ### Command line terminals
 
 Command line terminals enable us to run and test our code without graphical user interfaces (GUI) afforded to us by IDEs - this is sometimes needed for accessing and 
-running our code remotely on servers without a GUI provision. 
-Command line terminal also use less resources than a GUI development tool and are commonly used on high-performance computers and other shared systems where time, 
-memory and processing power are expensive or in high demand.
+running our code remotely on servers and high-performance systems without a GUI provision, where time, memory and processing power are expensive or in high demand.
 
-Version control systems often only provide command line tools for interactins - entering commands and accessing remote version control servers - making them only accessible 
-from command line terminals.
+Version control systems are typically provided as command line tools making them only accessible from command line terminals for entering commands and accessing 
+remote version control servers.
 
-Finally, interoperable software should use standard protocols so that it can integrate with other tools. 
-One of these standard protocols is passing inputs and outputs via the command line terminal so software we write may need to have such a command line interface. 
-Command line terminals allow us group and chain our software together with other tools to build up complex and reproducible workflows and analysis pipelines 
+Finally, command line tools are interoperable software that use standard protocols for passing parameters, inputs and outputs via the command line terminal. 
+This makes it easier to integrate with other tools, allowing us to chain command line tools and build up complex and reproducible workflows and analysis pipelines 
 using several programs in different steps. 
+If we write our software in a way to provide such an interoperable command line interface - we will be able to integrate it with other command line tools. 
 
 
 [fair-principles-research-software]: https://www.nature.com/articles/s41597-022-01710-x
