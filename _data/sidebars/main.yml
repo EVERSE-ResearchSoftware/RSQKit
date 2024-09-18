@@ -20,7 +20,7 @@ subitems:
     subitems:
       - title: Research Software Engineer
         url: /research_software_engineer
-  - title: RS Quality
+  - title: Reseach Software Quality
     description: Find indicators principles for Research Software Quality.
     url: /rs_quality
     image_url: /assets/img/section-icons/tick.svg
@@ -29,7 +29,7 @@ subitems:
         url: /source_code
       - title: FAIR
         url: /fair
-      - title: Sustainability
+      - title: Research Software Sustainability
         url: /sustainability
       - title: Open Source
         url: /open_source
