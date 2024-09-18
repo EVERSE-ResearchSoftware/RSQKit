@@ -23,6 +23,11 @@ to satisfy these new and emerging needs.
 They do this by reading the original code to understand it and identify what needs to change. 
 Readable code facilitates the the process of understanding the code, the evolution of the codebase, and saves future developers' time and effort.
 
+### Considerations
+
+- Readable code is easier to understand, maintain, debug and extend (reuse) - saving time and effort.
+
+
 ## What practices are there to help me improve the readability of my code?
 
 One of the most important things we can do to make sure our code is readable by others (and ourselves a few months down the line) is to make sure that it is descriptive, 
@@ -42,7 +47,6 @@ Follow best practices in structuring code and organising software/research proje
 
 - Code is read much more often than it is written - style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code
 - Consistency with the style guide is important. Consistency within a project is more important. Consistency within one module or function is the most important. However, know when to be inconsistent - sometimes style guide recommendations are just not applicable. When in doubt, use your best judgment. Look at other examples and decide what looks best.
-- Readable code is easier to understand, maintain, debug and extend (reuse) - saving time and effort.
 
 
 ### Solutions
