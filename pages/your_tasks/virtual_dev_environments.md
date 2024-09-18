@@ -36,25 +36,25 @@ on their machines and run or further develop your software - making your work **
 
 ### Considerations
 
-* As more external libraries are added to your software project over time, you can add them to its specific virtual environment
+- As more external libraries are added to your software project over time, you can add them to its specific virtual environment
 and avoid a great deal of confusion by having separate (smaller) virtual environments for each project
 rather than one huge global environment on your machine with potential package version clashes.
-* You have an older project that only works under, e.g., Python 2. You do not have the time to migrate the project to Python 3
+- You have an older project that only works under, e.g., Python 2. You do not have the time to migrate the project to Python 3
 or it may not even be possible as some of the third party dependencies are not available under Python 3.
 You have to start another project under Python 3. The best way to do this on a single machine is
 to set up two separate Python virtual environments.
-* One of your Python 3 projects is locked to use a particular older version of a third party dependency.
+- One of your Python 3 projects is locked to use a particular older version of a third party dependency.
 You cannot use the latest version of the dependency as it breaks things in your project.
 In a separate branch of your project, you want to try and fix problems introduced by the new version of the dependency
 without affecting the working version of your project. You need to set up a separate virtual environment for your branch to
 'isolate' your code while testing the new feature.
-* You do not have to worry too much about specific versions of external libraries that your project depends on most of the time.
+- You do not have to worry too much about specific versions of external libraries that your project depends on most of the time.
 Virtual environments enable you to always use the latest available version without specifying it explicitly.
 They also enable you to use a specific older version of a package for your project, should you need to. 
 
 ### Solutions
 
-* Make your research software reusable and your research that relies on that software reproducible by setting up and sharing its virtual development environment.
+- Make your research software reusable and your research that relies on that software reproducible by setting up and sharing its virtual development environment.
 
 ## How do you create virtual software development environments? 
 
@@ -73,15 +73,14 @@ Sometimes, a package manager combines both of these functionalities and you only
 
 ### Considerations
 
-* There are often multiple package and environment management tools for a single programming language. For example,
+- There are often multiple package and environment management tools for a single programming language. For example,
 there are several commonly used command line tools for managing Python virtual environments:
-
-      * `venv`, available by default from the standard Python distribution from Python 3.3+
-      * `virtualenv`, needs to be installed separately but supports both Python 2.7+ and Python 3.3+versions
-      * `pipenv`, created to fix certain shortcomings of virtualenv
-      * `conda`, package and environment management system (also included as part of the Anaconda Python distribution often used by the scientific community)
-      * `poetry`, a modern Python packaging tool which handles virtual environments automatically
-* You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
+  - `venv`, available by default from the standard Python distribution from Python 3.3+
+  - `virtualenv`, needs to be installed separately but supports both Python 2.7+ and Python 3.3+versions
+  - `pipenv`, created to fix certain shortcomings of virtualenv
+  - `conda`, package and environment management system (also included as part of the Anaconda Python distribution often used by the scientific community)
+  - `poetry`, a modern Python packaging tool which handles virtual environments automatically
+- You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
 already using (so you can get help when you need it).
 
 ### Solutions
