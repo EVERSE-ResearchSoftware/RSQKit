@@ -60,7 +60,7 @@ Here are some of the practices to follow to make your code more readable:
 - Keep lines short - avoid long lines, and instead write blocks of lines that are horizontally short and vertically long. 
 - Use indentation to show the hierarchy of your code and mark the beginning and end of control structures. 
 - Write informative comments and docstrings for functions to provide more detail about what the code and is doing, transmit understanding and context 
-- Follow a code style guide that is agreed upon and other programmers will find easy to read 
+- Follow a code style guide for your programming language that is agreed upon by the community and other programmers will find easy to read 
 - Automate style checks to help ensure your code is consistent
 - Organise code into reusable and modular functions that achieve a singular purpose and are more easier to understand, test and reuse
 - Use existing and well-tested libraries or packages for common functionality and tasks (e.g. reading and writing data in standard formats) to avoid duplication and reimplementing
