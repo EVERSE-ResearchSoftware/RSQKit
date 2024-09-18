@@ -106,7 +106,7 @@ To be added.
 ## Credit
 
 The contents of this page have been inspired by the ["Tools and Practices for FAIR Research Software" course][fair-rs][^1] 
-and the ["Intermediate Research Software Development" course][intermediate-rs-dev][^2] developed by the Software Sustainability Institute.
+and the ["Intermediate Research Software Development" course][intermediate-rs-dev][^2] developed by the [Software Sustainability Institute][ssi].
 
       
 ## References
@@ -117,4 +117,4 @@ and the ["Intermediate Research Software Development" course][intermediate-rs-de
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software
 [intermediate-rs-dev]: https://carpentries-incubator.github.io/python-intermediate-development/
 [renv]: https://rstudio.github.io/renv/index.html
- 
+[ssi]: https://www.software.ac.uk/
