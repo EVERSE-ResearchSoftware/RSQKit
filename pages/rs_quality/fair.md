@@ -87,7 +87,8 @@ remote version control servers.
 Finally, command line tools are interoperable software that use standard protocols for passing parameters, inputs and outputs via the command line terminal. 
 This makes it easier to integrate with other tools, allowing us to chain command line tools and build up complex and reproducible workflows and analysis pipelines 
 using several programs in different steps. 
-If we write our software in a way to provide such an interoperable command line interface - we will be able to integrate it with other command line tools. 
+If we write our software in a way which provides such an interoperable command line interface - we will be able to integrate it with other command line tools to 
+automate and speed up our work. 
 
 
 [fair-principles-research-software]: https://www.nature.com/articles/s41597-022-01710-x
