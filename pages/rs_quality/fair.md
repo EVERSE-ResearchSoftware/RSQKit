@@ -46,7 +46,29 @@ closer to the gold standard of a fully reproducible research.
 ## Tools 
 
 
-There is a number of tools and practices to help us develop research software in a FAIR way.
+There is a number of tools and practices to help us develop research software in a FAIR way and help us with the 4 FAIR principles.
+They need to be use in combination to help us move along the FAIR spectrum - there is no single practice or a tool for a single 
+principle; and one tool or practice can often contribute to multiple principles. 
+Consider the table below for a summary of how some tools and practices help with each of the FAIR software principles.
+
+| Tools and practices                                                                               | Findable | Accessible | Interoperable | Reusable |
+|---------------------------------------------------------------------------------------------------|----------|------------|---------------|----------|
+| Virtual development environments, programming language and dependencies - run, test, debug, share |          | x          |               | x        |
+| Integrated development environments/IDEs (e.g. VS Code, PyCharm) - run, test, debug               |          |            |               | x        |
+| Command line terminal (e.g. Bash, GitBash) - reproducible workflows/pipelines                     |          |            | x             | x        |
+| Version control tools                                                                             | x        |            |               |          |
+| Testing - code correctness and reproducibility                                                    |          | x          |               | x        |
+| Coding conventions and documentation                                                              |          | x          | x             | x        |
+| Explaining functionality/installation/running - README, inline comments and documentation         |          | x          | x             | x        |
+| Standard formats - e.g. for data exchange (CSV, YAML)                                             |          | x          | x             | x        |
+| Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API) |          | x          | x             | x        |
+| License                                                                                           |          | x          |               | x        |
+| Citation                                                                                          | x        |            |               | x        |
+| Software repositories (e.g. GitHub, PyPi) or registries (e.g. BioTools)                           | x        | x          |               |          |
+| Unique persistent identifier (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare GitHub         | x        | x          |               |          |
+
+
+
 
 
 [fair-principles-research-software]: https://www.nature.com/articles/s41597-022-01710-x
