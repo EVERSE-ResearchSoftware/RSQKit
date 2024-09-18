@@ -102,8 +102,8 @@ To be added.
 
 ## Credit
 
-The contents of this page have been inspired by the ["Tools and Practices for FAIR Research Software" course][fair-rs] 
-and the ["Intermediate Research Software Development" course][intermediate-rs-dev] developed by the Software Sustainability Institute.
+The contents of this page have been inspired by the ["Tools and Practices for FAIR Research Software" course][fair-rs][^1] 
+and the ["Intermediate Research Software Development" course][intermediate-rs-dev][^2] developed by the Software Sustainability Institute.
 
       
 ## References
