@@ -52,8 +52,7 @@ In fact, a single tool or practice can often contribute to multiple principles s
 It is important to note that simply using these tools, without following good practice and guidance on how best to align 
 their usage with the FAIR principles, is not enough to produce FAIR software. 
 In addition, FAIR is not a [software quality metric](https://everse.software/RSQKit/rs_quality) even though it can improve software quality in several aspects - 
-software may be FAIR but still not very good in terms of its functionality - 
-check out [software quality metrics and guidelines](https://everse.software/RSQKit/rs_quality).
+software may be FAIR but still not very good in terms of its functionality.
 
 
 The table below provides a summary of how different tools and practices help with the FAIR software principles.
