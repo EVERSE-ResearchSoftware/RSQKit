@@ -68,6 +68,26 @@ The table below provides a summary of how different tools and practices align wi
 | Unique persistent identifier (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare GitHub            | x        | x          |               |          |
 
 
+### Development environments
+
+Virtual and integrated development environments (IDEs) help with running, testing, and debuging code. Virtual environments further enable us to share our working 
+environments with others, making it easier to access, reuse and extend our code.
+
+### Command line terminals
+
+Command line terminals enable us to run and test our code without graphical user interfaces (GUI) afforded to us by IDEs - this is sometimes needed for accessing and 
+running our code remotely on servers with not GUI provision. 
+Command line terminal also use less resources than a GUI development tool and are commonly used on high-performance computers and other shared systems where time, 
+memory and processing power are expensive or in high demand.
+
+Version control systems often only provide command line tools for interactins - entering commands and accessing remote version control servers - making them only accessible 
+from command line terminals.
+
+Finally, interoperable software should use standard protocols so that it can integrate with other tools. 
+One of these standard protocols is passing inputs and outputs via the command line terminal so software we write may need to have such a command line interface. 
+Command line terminals allow us group and chain our software together with other tools to build up complex workflows and analysis pipelines 
+using several programs in different steps. 
+
 
 [fair-principles-research-software]: https://www.nature.com/articles/s41597-022-01710-x
 [fair-data-principles]: https://www.nature.com/articles/sdata201618
