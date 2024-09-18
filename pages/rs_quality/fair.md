@@ -50,23 +50,22 @@ These tools and practices work together, as no single tool or practice addresses
 In fact, a single tool or practice can often contribute to multiple principles simultaneously. 
 The table below provides a summary of how different tools and practices align with the FAIR software principles.
 
-| Tools and practices                                                                               | Findable | Accessible | Interoperable | Reusable |
-|---------------------------------------------------------------------------------------------------|----------|------------|---------------|----------|
-| Virtual development environments, programming language and dependencies - run, test, debug, share |          | x          |               | x        |
-| Integrated development environments/IDEs (e.g. VS Code, PyCharm) - run, test, debug               |          |            |               | x        |
-| Command line terminal (e.g. Bash, GitBash) - reproducible workflows/pipelines                     |          |            | x             | x        |
-| Version control tools                                                                             | x        |            |               |          |
-| Testing - code correctness and reproducibility                                                    |          | x          |               | x        |
-| Coding conventions and documentation                                                              |          | x          | x             | x        |
-| Explaining functionality/installation/running - README, inline comments and documentation         |          | x          | x             | x        |
-| Standard formats - e.g. for data exchange (CSV, YAML)                                             |          | x          | x             | x        |
-| Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API) |          | x          | x             | x        |
-| License                                                                                           |          | x          |               | x        |
-| Citation                                                                                          | x        |            |               | x        |
-| Software repositories (e.g. GitHub, PyPi) or registries (e.g. BioTools)                           | x        | x          |               |          |
-| Unique persistent identifier (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare GitHub         | x        | x          |               |          |
-
-
+| Tools and practices                                                                                  | Findable | Accessible | Interoperable | Reusable |
+| ---------------------------------------------------------------------------------------------------- | -------- | ---------- | ------------- | -------- |
+| Virtual development environments - run, test, debug, share code                                      |          | x          |               | x        |
+| Integrated development environments/IDEs (e.g. VS Code, PyCharm) - run, test, debug code             |          |            |               | x        |
+| Command line terminal (e.g. Bash, GitBash) - run code, reproducible workflows/pipelines              |          |            | x             | x        |
+| Version control tools                                                                                | x        |            |               |          |
+| Testing - code correctness and reproducibility                                                       |          | x          |               | x        |
+| Coding conventions                                                                                   |          | x          | x             | x        |
+| Software comments and documentation                                                                  |          | x          | x             | x        |
+| README and project-level documentation documentation - explaining functionality/installation/running |          | x          | x             | x        |
+| Standard formats - e.g. for data exchange (CSV, YAML)                                                |          | x          | x             | x        |
+| Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API)    |          | x          | x             | x        |
+| License - code sharing and reuse                                                                     |          | x          |               | x        |
+| Citation - code reuse                                                                                | x        |            |               | x        |
+| Software repositories (e.g. GitHub, PyPi) or registries (e.g. BioTools)                              | x        | x          |               |          |
+| Unique persistent identifier (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare GitHub            | x        | x          |               |          |
 
 
 
