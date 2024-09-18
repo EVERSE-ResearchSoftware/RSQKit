@@ -92,9 +92,10 @@ already using (so you can get help when you need it).
 
 ## Tools and resources
 
-| Tool or resource                                                                                            | Description                                                   |
-| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [Install Python packages in a virtual environment using pip and venv][pip-venv]                             | A guide on how to create and activate a virtual environment using the standard library’s virtual environment tool venv and install packages using pip  |
+| Tool or resource                                                                 | Description                                                                        |
+| ---------------------------------------------------------------------------------| ---------------------------------------------------------------------------------- |
+| [Install Python packages in a virtual environment using pip and venv][pip-venv]  | A guide on creating and activating virtual environments using venv and pip         |
+| [Reproducible environments for your R projects][renv]                            | A guide on using renv to make R projects more isolated, portable and reproducible. |
 
 
 ## How to cite this page
@@ -115,4 +116,5 @@ and the ["Intermediate Research Software Development" course][intermediate-rs-de
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software
 [intermediate-rs-dev]: https://carpentries-incubator.github.io/python-intermediate-development/
+[renv]: https://rstudio.github.io/renv/index.html
  
