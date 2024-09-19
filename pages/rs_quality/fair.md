@@ -137,14 +137,16 @@ what your code does and how to use it.
 ### Software repositories and registries
 
 Having somewhere to share your code is fundamental to making it findable and accessible. 
-Your institution might have a code repository, your research field may have a practice of sharing code via a specific website or journal,
+Your institution might have a code repository, your research field may have a practice of sharing code via a specific website, archive or journal,
 or your version control system might include an online component that makes sharing different versions of your code easy. 
+You should check the rules or guidelines of your institution, grant or domain on publishing code, as well as any licenses of the code your software depends on or reuses.
 
-Some examples include:
+Some examples of commonly used software repositoris and registries include:
 
-- general-purporse software repositories [GitHub][github] and [GitLab][gitlab]
-- programming language specific software repositories [PyPi][pypi] (for Python) or [CRAN][cran] (for R)
-- software registries such as [BioTools][biotools]
+- general-purporse software repositories - [GitHub][github] and [GitLab][gitlab]
+- programming language specific software repositories - [PyPi][pypi] (for Python) and [CRAN][cran] (for R)
+- software registries  - [BioTools][biotools] (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
+
 
 TODO: cross link with other pages talking about specific tools or practices, e.g. version control, code readability, documentation, etc.
 
@@ -158,3 +160,4 @@ TODO: cross link with other pages talking about specific tools or practices, e.g
 [pypi]: https://pypi.org/
 [cran]: https://cran.r-project.org/web/packages/
 [gitlab]: https://about.gitlab.com/
+[awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
