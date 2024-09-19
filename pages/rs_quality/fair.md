@@ -147,7 +147,7 @@ The table below provides a summary of how different tools and practices help wit
 | Project-level documentation (READMEs, explaining functionality/installation/running)                 |          | x          | x             | x        |
 | License - code sharing and reuse                                                                     |          | x          |               | x        |
 | Citation - code reuse and credit                                                                     | x        |            |               | x        |
-| Software repositories (e.g. [GitHub][github], [PyPi][pypi]) or registries (e.g. [BioTools][biotools])| x        | x          |               |          |
+| Software repositories and registries                                                                 | x        | x          |               |          |
 | Unique persistent identifiers                                                                        | x        | x          |               |          |
 
 
