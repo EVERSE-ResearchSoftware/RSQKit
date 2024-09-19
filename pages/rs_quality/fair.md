@@ -58,26 +58,6 @@ their usage with the FAIR principles, is not enough to produce FAIR software.
 In addition, FAIR is not a [software quality metric](https://everse.software/RSQKit/rs_quality) even though it can improve software quality in several aspects - 
 software may be FAIR but still not very good in terms of its functionality.
 
-The table below provides a summary of how different tools and practices help with the FAIR software principles.
-
-| Tools and practices                                                                                  | Findable | Accessible | Interoperable | Reusable |
-| ---------------------------------------------------------------------------------------------------- | -------- | ---------- | ------------- | -------- |
-| Virtual development environments                                                                     |          | x          |               | x        |
-| Integrated development environments/IDEs                                                             |          |            |               | x        |
-| Command line terminals - automated and reproducible pipelines                                        |          |            | x             | x        |
-| Standard formats - e.g. for data exchange (CSV, YAML)                                                |          | x          | x             | x        |
-| Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API)    |          | x          | x             | x        |
-| Version control tools                                                                                | x        |            |               |          |
-| Testing - code correctness and reproducibility                                                       |          | x          |               | x        |
-| Coding conventions                                                                                   |          | x          | x             | x        |
-| Software-level documentation (comments and docstrings, explaining functionality)                     |          | x          | x             | x        |
-| Project-level documentation (READMEs, explaining functionality/installation/running)                 |          | x          | x             | x        |
-| License - code sharing and reuse                                                                     |          | x          |               | x        |
-| Citation - code reuse and credit                                                                     | x        |            |               | x        |
-| Software repositories (e.g. [GitHub][github], [PyPi][pypi]) or registries (e.g. [BioTools][biotools])| x        | x          |               |          |
-| Unique persistent identifiers (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare, GitHub          | x        | x          |               |          |
-
-
 ### Development environments
 
 Virtual and integrated development environments (IDEs), such as VS Code or PyCharm, help with running, testing, and debuging code. 
@@ -146,6 +126,26 @@ Some examples of commonly used software repositoris and registries include:
 - general-purporse software repositories - [GitHub][github] and [GitLab][gitlab]
 - programming language specific software repositories - [PyPi][pypi] (for Python) and [CRAN][cran] (for R)
 - software registries  - [BioTools][biotools] (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
+
+The table below provides a summary of how different tools and practices help with the FAIR software principles.
+
+| Tools and practices                                                                                  | Findable | Accessible | Interoperable | Reusable |
+| ---------------------------------------------------------------------------------------------------- | -------- | ---------- | ------------- | -------- |
+| Virtual development environments                                                                     |          | x          |               | x        |
+| Integrated development environments/IDEs                                                             |          |            |               | x        |
+| Command line terminals - automated and reproducible pipelines                                        |          |            | x             | x        |
+| Standard formats - e.g. for data exchange (CSV, YAML)                                                |          | x          | x             | x        |
+| Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API)    |          | x          | x             | x        |
+| Version control tools                                                                                | x        |            |               |          |
+| Testing - code correctness and reproducibility                                                       |          | x          |               | x        |
+| Coding conventions                                                                                   |          | x          | x             | x        |
+| Software-level documentation (comments and docstrings, explaining functionality)                     |          | x          | x             | x        |
+| Project-level documentation (READMEs, explaining functionality/installation/running)                 |          | x          | x             | x        |
+| License - code sharing and reuse                                                                     |          | x          |               | x        |
+| Citation - code reuse and credit                                                                     | x        |            |               | x        |
+| Software repositories (e.g. [GitHub][github], [PyPi][pypi]) or registries (e.g. [BioTools][biotools])| x        | x          |               |          |
+| Unique persistent identifiers (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare, GitHub          | x        | x          |               |          |
+
 
 
 TODO: cross link with other pages talking about specific tools or practices, e.g. version control, code readability, documentation, etc.
