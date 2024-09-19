@@ -45,8 +45,7 @@ that can be built on top of, coding conventions, code readability and verifying 
 - Test your software and make sure it works on different platforms/operating systems to make it more reusable
 - Give a licence to your software clearly stating how it can be reused
 - State how to cite your software so people can give you credit when they reuse it
- 
-  
+   
 ## Tools and practices for FAIR research software development 
 
 There are various tools and practices that support the development of FAIR research software, contributing to each of the four FAIR principles. 
@@ -126,6 +125,11 @@ Some examples of commonly used software repositoris and registries include:
 - general-purporse software repositories - [GitHub][github] and [GitLab][gitlab]
 - programming language-specific software repositories - [PyPi][pypi] (for Python) and [CRAN][cran] (for R)
 - software registries  - [BioTools][biotools] (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
+
+### Persistent identifiers
+
+Unique persistent identifiers, such as Digital Object Identifiers (DOIs) provided by Zenodo, FigShare and similar digital archiving services, and commits/tags/releases used by GitHub and similar code sharing platforms, 
+help with findability and accessibility of your software, and can help you get credit for your work by providing citeable references.
 
 The table below provides a summary of how different tools and practices help with the FAIR software principles.
 
