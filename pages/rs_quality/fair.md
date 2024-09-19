@@ -134,6 +134,17 @@ to whole websites full of documentation with function definitions, usage example
 You many not need as much documentation as a large commercial software product, but making your code reusable relies on other people being able to understand 
 what your code does and how to use it.
 
+### Software repositories and registries
+
+Having somewhere to share your code is fundamental to making it findable. 
+Your institution might have a code repository, your research field may have a practice of sharing code via a specific website or journal,
+or your version control system might include an online component that makes sharing different versions of your code easy. 
+
+Some examples include:
+
+- general-purporse software repositories [GitHub][github] and [GitLab][gitlab]
+- programming language specific software repositories [PyPi][pypi] (for Python) or [CRAN][cran] (for R)
+- software registries such as [BioTools][biotools]
 
 TODO: cross link with other pages talking about specific tools or practices, e.g. version control, code readability, documentation, etc.
 
@@ -145,3 +156,5 @@ TODO: cross link with other pages talking about specific tools or practices, e.g
 [github]: https://github.com
 [biotools]: https://biotools.us/
 [pypi]: https://pypi.org/
+[cran]: https://cran.r-project.org/web/packages/
+[gitlab]: https://about.gitlab.com/
