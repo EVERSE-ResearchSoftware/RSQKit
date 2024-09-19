@@ -50,14 +50,13 @@ that can be built on top of, coding conventions, code readability and verifying 
 ## Tools and practices for FAIR research software development 
 
 There are various tools and practices that support the development of FAIR research software, contributing to each of the four FAIR principles. 
-These tools and practices work together, as no single tool or practice will fully addresses one principle. 
-In fact, a single tool or practice can often contribute to multiple principles simultaneously. 
+These tools and practices work together, as no single tool or practice will fully addresses one principle but can 
+contribute to multiple principles simultaneously. 
 
 It is important to note that simply using these tools, without following good practice and guidance on how best to align 
 their usage with the FAIR principles, is not enough to produce FAIR software. 
 In addition, FAIR is not a [software quality metric](https://everse.software/RSQKit/rs_quality) even though it can improve software quality in several aspects - 
 software may be FAIR but still not very good in terms of its functionality.
-
 
 The table below provides a summary of how different tools and practices help with the FAIR software principles.
 
@@ -76,7 +75,7 @@ The table below provides a summary of how different tools and practices help wit
 | License - code sharing and reuse                                                                     |          | x          |               | x        |
 | Citation - code reuse                                                                                | x        |            |               | x        |
 | Software repositories (e.g. GitHub, PyPi) or registries (e.g. BioTools)                              | x        | x          |               |          |
-| Unique persistent identifier (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare GitHub            | x        | x          |               |          |
+| Unique persistent identifier (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare [GitHub][github]  | x        | x          |               |          |
 
 
 ### Development environments
@@ -111,3 +110,4 @@ TODO: cross link with other pages talking about specific tools or practices, e.g
 [fair-data-principles]: https://www.nature.com/articles/sdata201618
 [zenodo]: https://zenodo.org/
 [software-registries]: https://github.com/NLeSC/awesome-research-software-registries
+[github]: https://github.com
