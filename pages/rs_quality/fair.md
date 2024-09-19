@@ -148,7 +148,7 @@ The table below provides a summary of how different tools and practices help wit
 | License - code sharing and reuse                                                                     |          | x          |               | x        |
 | Citation - code reuse and credit                                                                     | x        |            |               | x        |
 | Software repositories (e.g. [GitHub][github], [PyPi][pypi]) or registries (e.g. [BioTools][biotools])| x        | x          |               |          |
-| Unique persistent identifiers (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare, GitHub          | x        | x          |               |          |
+| Unique persistent identifiers                                                                        | x        | x          |               |          |
 
 
 
