@@ -136,7 +136,7 @@ what your code does and how to use it.
 
 ### Software repositories and registries
 
-Having somewhere to share your code is fundamental to making it findable. 
+Having somewhere to share your code is fundamental to making it findable and accessible. 
 Your institution might have a code repository, your research field may have a practice of sharing code via a specific website or journal,
 or your version control system might include an online component that makes sharing different versions of your code easy. 
 
