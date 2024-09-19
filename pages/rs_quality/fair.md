@@ -23,27 +23,28 @@ but any of the practices that you employ in your research software workflow will
 closer to the gold standard of a fully reproducible research.
 
 ### Findable
-- Create a description of your software
-- Place your software in a public software repository (and ideally register it in a [software registry](https://github.com/NLeSC/awesome-research-software-registries))
-- Use a unique and persistent identifier (DOI) for your software (e.g. by depositing your code on Zenodo), 
+- Create a description of your software to make it discoverable by search engines and other search tools
+- Place your software in a public software repository (and ideally register it in a [general-purpose or domain-specific software registry][software-registries])
+- Use a unique and persistent identifier (DOI) for your software (e.g. by depositing your code on [Zenodo][zenodo]), 
 which is also useful for citations - note that depositing your data/code on GitHub and similar software repositories 
-may not be enough as they may change their open access model or disappear completely in the future
+may not be enough as they may change their open access model or disappear completely in the future, so archiving your code means it stands a better chance at being preserved 
 
 ### Accessible
 - Make sure people can freely, legally and easily get a copy your software
-- Structure your code using common patterns and use coding conventions to make your code readable and understandable by people (once they obtain a copy of it)
+- Structure your code using common patterns and use coding conventions to make your code readable and understandable by people (once they obtain a copy of it), and thereby more accessible 
 
 ### Interoperable
-- Explain the functionality of your software
+- Explain the functionality of your software and protocols for interaction with it
 - Use standard formats for inputs and outputs
-- Communicate with other software via standard protocols and APIs
+- Communicate with other software and tools via standard protocols and APIs
 
 ### Reusable
-- Document your software (including its functionality, and how to install and run it)
-- Follow best practices for software development (including coding conventions, code readability and verifying its correctness)
-- Test your software and make sure it works on different platforms/operating systems
+- Document your software (including its functionality, and how to install and run it) to make it more understainable by others who may wish to reuse or extend it
+- Follow best practices for software development (including structuring your code in reusable functions with a single functionality
+that can be built on top of, coding conventions, code readability and verifying its correctness)
+- Test your software and make sure it works on different platforms/operating systems to make it more reusable
 - Give a licence to your software clearly stating how it can be reused
-- State how to cite your software
+- State how to cite your software so people can give you credit when they reuse it
  
   
 ## Tools and practices for FAIR research software development 
@@ -108,3 +109,5 @@ TODO: cross link with other pages talking about specific tools or practices, e.g
 
 [fair-principles-research-software]: https://www.nature.com/articles/s41597-022-01710-x
 [fair-data-principles]: https://www.nature.com/articles/sdata201618
+[zenodo]: https://zenodo.org/
+[software-registries]: https://github.com/NLeSC/awesome-research-software-registries
