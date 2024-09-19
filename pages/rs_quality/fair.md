@@ -124,7 +124,7 @@ You should check the rules or guidelines of your institution, grant or domain on
 Some examples of commonly used software repositoris and registries include:
 
 - general-purporse software repositories - [GitHub][github] and [GitLab][gitlab]
-- programming language specific software repositories - [PyPi][pypi] (for Python) and [CRAN][cran] (for R)
+- programming language-specific software repositories - [PyPi][pypi] (for Python) and [CRAN][cran] (for R)
 - software registries  - [BioTools][biotools] (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
 
 The table below provides a summary of how different tools and practices help with the FAIR software principles.
