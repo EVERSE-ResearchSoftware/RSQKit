@@ -103,9 +103,25 @@ automate and speed up our work.
 ### Version control tools
 
 Version control means knowing what changes were made to your code, when and by who - promoting code ownership, responsibility and credit. 
-When combined with software sharing and collaborative platforms such as GitHub or GitLab, it provides backup facilities for your code,
-code publication and sharing, facilitates teamwork and discussions around software and design decisions, and speeds up 
+When combined with software sharing and collaborative platforms such as GitHub or GitLab, it facilitates code publication, sharing and findability, 
+teamwork and discussions around software and design decisions, provides backup facilities for your code and speeds up 
 collabortion on shared code by allowing edits by more than one person at a time.
+
+### Code testing
+
+Testing ensures that your code is correct and does what it is set out to do. 
+When you write code you often feel very confident that it is perfect, but when writing bigger codes or code that is meant to do complex operations 
+it is very hard to consider all possible edge cases or notice every single typing mistake. 
+Testing also gives other people confidence in your code as they can see an example of how it is meant to run and be assured that it does work 
+correctly on their machine - helping with code understading and reusability.
+
+
+### Coding conventions
+
+Coding conventions are important practices that improve readability and accessility of your code by others - who can then reuse or extend it 
+in their own examples and applications.
+
+
 
 ... 
 TODO: other tools and practices
