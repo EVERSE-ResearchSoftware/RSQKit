@@ -65,13 +65,13 @@ The table below provides a summary of how different tools and practices help wit
 | Virtual development environments                                                                     |          | x          |               | x        |
 | Integrated development environments/IDEs                                                             |          |            |               | x        |
 | Command line terminals - automated and reproducible pipelines                                        |          |            | x             | x        |
+| Standard formats - e.g. for data exchange (CSV, YAML)                                                |          | x          | x             | x        |
+| Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API)    |          | x          | x             | x        |
 | Version control tools                                                                                | x        |            |               |          |
 | Testing - code correctness and reproducibility                                                       |          | x          |               | x        |
 | Coding conventions                                                                                   |          | x          | x             | x        |
 | Software-level documentation (comments and docstrings, explaining functionality)                     |          | x          | x             | x        |
 | Project-level documentation (READMEs, explaining functionality/installation/running)                 |          | x          | x             | x        |
-| Standard formats - e.g. for data exchange (CSV, YAML)                                                |          | x          | x             | x        |
-| Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API)    |          | x          | x             | x        |
 | License - code sharing and reuse                                                                     |          | x          |               | x        |
 | Citation - code reuse and credit                                                                     | x        |            |               | x        |
 | Software repositories (e.g. [GitHub][github], [PyPi][pypi]) or registries (e.g. [BioTools][biotools])| x        | x          |               |          |
@@ -100,6 +100,11 @@ using several programs in different steps.
 If we write our software in a way which provides such an interoperable command line interface - we will be able to integrate it with other command line tools to 
 automate and speed up our work.
 
+### Standard input/output formats and communication protocols
+
+Using standard data exchange, input and output formats and communication protocols helps create interoperable software that can more readily integrate 
+with other tools into more complex pipelines - increasing its interoprability and reusability. 
+
 ### Version control tools
 
 Version control means knowing what changes were made to your code, when and by who - promoting code ownership, responsibility and credit. 
@@ -115,16 +120,20 @@ it is very hard to consider all possible edge cases or notice every single typin
 Testing also gives other people confidence in your code as they can see an example of how it is meant to run and be assured that it does work 
 correctly on their machine - helping with code understading and reusability.
 
-
 ### Coding conventions
 
-Coding conventions are important practices that improve readability and accessility of your code by others - who can then reuse or extend it 
-in their own examples and applications.
+Following coding conventions and guides for your programming language that is agreed upon by the community and other programmers
+are important practices to ensure that others find easy to read your code, reuse or extend it in their own examples and applications.
 
+### Software- and project- level documentation
 
+Documentation comes in many forms - from **software-level documentation** including decriptive names of variables and functions and 
+additional comments that explain lines of your code, to **project-level documentation** (including README, LICENCE, CITATION, CONTRIBUTING, etc. files) 
+that help to discover it, legal terms of reusing it, describe its functionalty and how to install, run and contribute to it, 
+to whole websites full of documentation with function definitions, usage examples, tutorials and guides. 
+You many not need as much documentation as a large commercial software product, but making your code reusable relies on other people being able to understand 
+what your code does and how to use it.
 
-... 
-TODO: other tools and practices
 
 TODO: cross link with other pages talking about specific tools or practices, e.g. version control, code readability, documentation, etc.
 
