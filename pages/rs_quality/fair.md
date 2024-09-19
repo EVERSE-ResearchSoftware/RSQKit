@@ -62,20 +62,20 @@ The table below provides a summary of how different tools and practices help wit
 
 | Tools and practices                                                                                  | Findable | Accessible | Interoperable | Reusable |
 | ---------------------------------------------------------------------------------------------------- | -------- | ---------- | ------------- | -------- |
-| Virtual development environments - run, test, debug, share code                                      |          | x          |               | x        |
-| Integrated development environments/IDEs (e.g. VS Code, PyCharm) - run, test, debug code             |          |            |               | x        |
-| Command line terminal (e.g. Bash, GitBash) - run code, automate reproducible workflows/pipelines     |          |            | x             | x        |
+| Virtual development environments                                                                     |          | x          |               | x        |
+| Integrated development environments/IDEs (e.g. VS Code, PyCharm)                                     |          |            |               | x        |
+| Command line terminal (e.g. Bash, GitBash) - reproducible pipelines                                  |          |            | x             | x        |
 | Version control tools                                                                                | x        |            |               |          |
 | Testing - code correctness and reproducibility                                                       |          | x          |               | x        |
 | Coding conventions                                                                                   |          | x          | x             | x        |
-| Software comments and documentation                                                                  |          | x          | x             | x        |
-| README and project-level documentation documentation - explaining functionality/installation/running |          | x          | x             | x        |
+| Software-level documentation (comments and docstrings, explaining functionality)                     |          | x          | x             | x        |
+| Project-level documentation (READMEs, explaining functionality/installation/running)                 |          | x          | x             | x        |
 | Standard formats - e.g. for data exchange (CSV, YAML)                                                |          | x          | x             | x        |
 | Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API)    |          | x          | x             | x        |
 | License - code sharing and reuse                                                                     |          | x          |               | x        |
-| Citation - code reuse                                                                                | x        |            |               | x        |
-| Software repositories (e.g. GitHub, PyPi) or registries (e.g. BioTools)                              | x        | x          |               |          |
-| Unique persistent identifier (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare [GitHub][github]  | x        | x          |               |          |
+| Citation - code reuse and credit                                                                     | x        |            |               | x        |
+| Software repositories (e.g. [GitHub][github], [PyPi][pypi]) or registries (e.g. [BioTools][biotools])          | x        | x          |               |          |
+| Unique persistent identifier (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare, GitHub           | x        | x          |               |          |
 
 
 ### Development environments
@@ -83,7 +83,7 @@ The table below provides a summary of how different tools and practices help wit
 Virtual and integrated development environments (IDEs) help with running, testing, and debuging code. 
 Virtual environments further enable us to share our working 
 environments with others, making it easier to access, reuse and extend our code.
-IDEs often provide integrations with other tools, e.g. version control and command line terminal, enabling you to do many tasks from a single environment, saving time in switching
+IDEs often provide integrations with other tools, e.g. version control and command line terminals, enabling you to do many tasks from a single environment, saving time in switching
 between different tools.
 
 ### Command line terminals
@@ -111,3 +111,5 @@ TODO: cross link with other pages talking about specific tools or practices, e.g
 [zenodo]: https://zenodo.org/
 [software-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [github]: https://github.com
+[biotools]: https://biotools.us/
+[pypi]: https://pypi.org/
