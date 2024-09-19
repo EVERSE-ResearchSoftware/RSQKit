@@ -109,7 +109,7 @@ are important practices to ensure that others find easy to read your code, reuse
 
 Documentation comes in many forms - from **software-level documentation** including decriptive names of variables and functions and 
 additional comments that explain lines of your code, to **project-level documentation** (including README, LICENCE, CITATION, CONTRIBUTING, etc. files) 
-that help to discover it, legal terms of reusing it, describe its functionalty and how to install, run and contribute to it, 
+that help to discover it, explain the legal terms of reusing it, describe its functionalty and how to install, run and contribute to it, 
 to whole websites full of documentation with function definitions, usage examples, tutorials and guides. 
 You many not need as much documentation as a large commercial software product, but making your code reusable relies on other people being able to understand 
 what your code does and how to use it.
