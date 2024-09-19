@@ -63,8 +63,8 @@ The table below provides a summary of how different tools and practices help wit
 | Tools and practices                                                                                  | Findable | Accessible | Interoperable | Reusable |
 | ---------------------------------------------------------------------------------------------------- | -------- | ---------- | ------------- | -------- |
 | Virtual development environments                                                                     |          | x          |               | x        |
-| Integrated development environments/IDEs (e.g. VS Code, PyCharm)                                     |          |            |               | x        |
-| Command line terminal (e.g. Bash, GitBash) - reproducible pipelines                                  |          |            | x             | x        |
+| Integrated development environments/IDEs                                                             |          |            |               | x        |
+| Command line terminals - automated and reproducible pipelines                                        |          |            | x             | x        |
 | Version control tools                                                                                | x        |            |               |          |
 | Testing - code correctness and reproducibility                                                       |          | x          |               | x        |
 | Coding conventions                                                                                   |          | x          | x             | x        |
@@ -74,22 +74,22 @@ The table below provides a summary of how different tools and practices help wit
 | Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API)    |          | x          | x             | x        |
 | License - code sharing and reuse                                                                     |          | x          |               | x        |
 | Citation - code reuse and credit                                                                     | x        |            |               | x        |
-| Software repositories (e.g. [GitHub][github], [PyPi][pypi]) or registries (e.g. [BioTools][biotools])          | x        | x          |               |          |
-| Unique persistent identifier (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare, GitHub           | x        | x          |               |          |
+| Software repositories (e.g. [GitHub][github], [PyPi][pypi]) or registries (e.g. [BioTools][biotools])| x        | x          |               |          |
+| Unique persistent identifiers (e.g. DOIs, commits/tags/releases) - Zenodo, FigShare, GitHub          | x        | x          |               |          |
 
 
 ### Development environments
 
-Virtual and integrated development environments (IDEs) help with running, testing, and debuging code. 
-Virtual environments further enable us to share our working 
-environments with others, making it easier to access, reuse and extend our code.
-IDEs often provide integrations with other tools, e.g. version control and command line terminals, enabling you to do many tasks from a single environment, saving time in switching
-between different tools.
+Virtual and integrated development environments (IDEs), such as VS Code or PyCharm, help with running, testing, and debuging code. 
+Virtual environments further enable us to share our working environments with others, making it easier to access, reuse and extend our code.
+IDEs often provide integrations with other tools, e.g. version control and command line terminals, enabling you to do many tasks from a single environment, 
+saving time in switching between different tools.
 
 ### Command line terminals
 
-Command line terminals enable us to run and test our code without graphical user interfaces (GUI) afforded to us by IDEs - this is sometimes needed for accessing and 
-running our code remotely on servers and high-performance systems without a GUI provision, where time, memory and processing power are expensive or in high demand.
+Command line terminals (e.g. Bash, GitBash) enable us to run and test our code without graphical user interfaces (GUI) afforded to us by IDEs - 
+this is sometimes needed for accessing and running our code remotely on servers and high-performance systems without a GUI provision, where time, 
+memory and processing power are expensive or in high demand.
 
 Version control systems are typically provided as command line tools making them often only accessible from command line terminals to enter commands and access 
 remote version control servers to backing up and sharing our work.
@@ -99,6 +99,13 @@ This makes it easier to integrate with other tools, allowing us to chain command
 using several programs in different steps. 
 If we write our software in a way which provides such an interoperable command line interface - we will be able to integrate it with other command line tools to 
 automate and speed up our work.
+
+### Version control tools
+
+Version control means knowing what changes were made to your code, when and by who - promoting code ownership, responsibility and credit. 
+When combined with software sharing and collaborative platforms such as GitHub or GitLab, it provides backup facilities for your code,
+code publication and sharing, facilitates teamwork and discussions around software and design decisions, and speeds up 
+collabortion on shared code by allowing edits by more than one person at a time.
 
 ... 
 TODO: other tools and practices
