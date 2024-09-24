@@ -43,46 +43,28 @@ Similarly, the GREENER software principles ([https://www.nature.com/articles/s43
 
 ### Solutions
 
-* Training:
-    * Green software foundations provides a free course that introduces the basic concepts including embodied carbon, carbon intensity, demand shifting (and shaping) and measurement approaches. The course takes about 2 hours to complete. 
-        * [https://learn.greensoftware.foundation/introduction](https://learn.greensoftware.foundation/introduction)
-    * green-coding.io provide (paid for) workshops & training that focus on energy-efficient coding, environmentally responsible software design, and practical tools [https://www.green-coding.io/services/workshops-and-trainings/](https://www.green-coding.io/services/workshops-and-trainings/)
-      
-* Certification:
-    * Green DiSC is a certification scheme for research groups (and central sustainability teams) that focuses on hardware and software. [https://www.software.ac.uk/GreenDiSC](https://www.software.ac.uk/GreenDiSC)  
-    * Green IT Professional (GITP) is a personal certification program that covers green ICT standards, carbon footprint calculation, and life cycle assessments. [https://ifgict.org/green-it-professional-gitp/](https://ifgict.org/green-it-professional-gitp/)  
+* Training
+    * Green software foundation provides a [free course](https://learn.greensoftware.foundation/introduction) that introduces the basic concepts including embodied carbon, carbon intensity, demand shifting (and shaping) and measurement approaches. The course takes about 2 hours to complete. 
+    * green-coding.io provide (paid for) [workshops & training](https://www.green-coding.io/services/workshops-and-trainings) that focus on energy-efficient coding, environmentally responsible software design, and practical tools 
+* Certification
+    * [GreenDiSC](https://www.software.ac.uk/GreenDiSC) is a certification scheme for research groups (and central sustainability teams) that focuses on hardware and software.  
+    * [Green IT Professional (GITP)](https://ifgict.org/green-it-professional-gitp/) is a personal certification program that covers green ICT standards, carbon footprint calculation, and life cycle assessments. 
 * Evaluation Frameworks
-    * Software Carbon Intensity (SCI) Specification is an assessment framework for assessing and reducing software carbon intensity. [https://greensoftware.foundation/standards/sci](https://greensoftware.foundation/standards/sci)
-      
-* Tools to monitor emissions:
-    * CodeCarbon estimates the CO2 emissions from computing resources used by software. [https://codecarbon.io/](https://codecarbon.io/) 
-    * Green Algorithm is an online tool to estimate the carbon footprint of computational tasks using a web calculator.  Currently being extended for use on HPC platforms [http://www.green-algorithms.org](http://www.green-algorithms.org) 
-    * Carbontracker is a tool that monitors and predicts energy and carbon footprint for training machine learning models. GitHub repository (search for "Carbontracker")
-    * EcoInfo (formerly Greenspector) measures energy usage and resource efficiency in web and mobile applications. [https://ecoinfo.green](https://ecoinfo.green)
-    * EcoGrader evaluates website sustainability based on design and operational efficiency. [https://www.ecograder.com](https://www.ecograder.com) 
+    * [Software Carbon Intensity (SCI) Specification](https://greensoftware.foundation/standards/sci) is an assessment framework for assessing and reducing software carbon intensity.
+* Tools to monitor emissions
+    * [CodeCarbon](https://codecarbon.io/) estimates the CO2 emissions from computing resources used by software. 
+    * [Green Algorithm](http://www.green-algorithms.org) is an online tool to estimate the carbon footprint of computational tasks using a web calculator. Currently being extended for use on HPC platforms. 
+    * Carbontracker is a tool that monitors and predicts energy and carbon footprint for training machine learning models.
+    * [EcoInfo](https://ecoinfo.green) (formerly Greenspector) measures energy usage and resource efficiency in web and mobile applications.
+    * [EcoGrader](https://www.ecograder.com) evaluates website sustainability based on design and operational efficiency.
 
-
-
-
-
-
-## Concrete problem 2, formulated as a question <!-- example: how to name a software release? -->
- 
-### Description <!-- do not delete this heading and write your text below it -->
-Same as above
-
-### Considerations <!-- do not delete this heading and write your text below it -->
-Same as above
-
-### Solutions <!-- do not delete this heading and write your text below it -->
 
 ## How to cite this page <!-- do not delete this heading and write your text below it -->
- contributors, page URL. Last date of access.
+TODO
 
 ## Tools and resources <!-- do not delete this heading and write your text below it -->
-List of relevant tools and resources for this task.
+TODO
 
 ## References <!-- do not delete this heading and write your text below it -->
-If work has been inspired or derived from other content (e.g., pages in RDMKit) make sure to reference it here. 
-
+TODO
  
