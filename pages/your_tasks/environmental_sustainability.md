@@ -1,7 +1,7 @@
 ---
 title: Environmental Sustainability of Research Software
 description: Guide to improving environmental sustainabilty of software
-contributors: Kirsty Pringle, Aleks Nenadic
+contributors: 
 page_id: environmental_sustainability
 
 related_pages: [<!---REPLACE THIS with the page comma-separated page IDs of the pages that are related to the current page--->]
