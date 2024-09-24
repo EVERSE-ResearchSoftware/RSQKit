@@ -79,7 +79,7 @@ there are several commonly used command line tools for managing Python packages 
   - `venv` - Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3+
   - `venv` - Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3+
   - `virtualenv` - Python virtual environment manager tool which needs to be installed separately (does not come with Python distribution) but supports both Python 2.7+ and Python 3.3+ versions
-  - `pipenv` - Python package and environment management sysyem created to fix certain shortcomings of `virtualenv`
+  - `pipenv` (different from both `pip` and `venv`) - Python package and environment management sysyem created to fix certain shortcomings of `virtualenv`
   - `conda` - Python package and environment management system (also included as part of the Anaconda Python distribution often used by the scientific community)
   - `poetry` - a modern Python packaging tool which handles virtual environments automatically
 - You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
