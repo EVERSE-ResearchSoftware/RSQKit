@@ -26,8 +26,6 @@ While vital for society, research is a significant source of carbon emissions.  
 
 The Green Software Foundation suggests three aspects to consider:
 
-
-
 1. Energy efficacy - design software to consume as little energy as possible.
 2. Hardware efficiency - use the least amount of embodied carbon as possible.
 3. Carbon awareness - do more when the energy supply is clean and less when it is dirty.
@@ -35,8 +33,6 @@ The Green Software Foundation suggests three aspects to consider:
 There are a number of tools and programming techniques which can be used to first monitor then improve the energy efficiency of software (detailed below).  Hardware efficacy considers emissions from the creation and disposal of the hardware used (embodied emissions), this can be maximised by extending the lifetime of hardware and (for cloud and HPC) increasing the utilisation of the device.  Finally, the amount of clean electricity in an energy supply depends on location and time of the use. Software that is carbon aware tries to shift usage away from energy that is low in clean energy, through shifting in either time or space. 
 
 Similarly, the GREENER software principles ([https://www.nature.com/articles/s43588-023-00461-y](https://www.nature.com/articles/s43588-023-00461-y)) sets out a series of principles to help guide the  transition to more environmentally responsible computing including:
-
-
 
 * Governance and Responsibility: All stakeholders, including grassroots movements, institutions, funding bodies, and industry partners, must take responsibility for reducing greenhouse gas (GHG) emissions in computational science. Both top-down and bottom-up approaches are necessary.
 * Estimation: It is crucial to estimate and report the energy consumption and carbon footprints of computational processes to identify inefficiencies and raise awareness of environmental impacts.
@@ -50,12 +46,14 @@ Similarly, the GREENER software principles ([https://www.nature.com/articles/s43
 * Training:
     * Green software foundations provides a free course that introduces the basic concepts including embodied carbon, carbon intensity, demand shifting (and shaping) and measurement approaches. The course takes about 2 hours to complete. 
         * [https://learn.greensoftware.foundation/introduction](https://learn.greensoftware.foundation/introduction)
-    * green-coding.io provide (paid for) workshops & training that focus on energy-efficient coding, environmentally responsible software design, and practical tools [https://www.green-coding.io/services/workshops-and-trainings/](https://www.green-coding.io/services/workshops-and-trainings/)  
+    * green-coding.io provide (paid for) workshops & training that focus on energy-efficient coding, environmentally responsible software design, and practical tools [https://www.green-coding.io/services/workshops-and-trainings/](https://www.green-coding.io/services/workshops-and-trainings/)
+      
 * Certification:
     * Green DiSC is a certification scheme for research groups (and central sustainability teams) that focuses on hardware and software. [https://www.software.ac.uk/GreenDiSC](https://www.software.ac.uk/GreenDiSC)  
     * Green IT Professional (GITP) is a personal certification program that covers green ICT standards, carbon footprint calculation, and life cycle assessments. [https://ifgict.org/green-it-professional-gitp/](https://ifgict.org/green-it-professional-gitp/)  
 * Evaluation Frameworks
-    * Software Carbon Intensity (SCI) Specification is an assessment framework for assessing and reducing software carbon intensity. [https://greensoftware.foundation/standards/sci](https://greensoftware.foundation/standards/sci) 
+    * Software Carbon Intensity (SCI) Specification is an assessment framework for assessing and reducing software carbon intensity. [https://greensoftware.foundation/standards/sci](https://greensoftware.foundation/standards/sci)
+      
 * Tools to monitor emissions:
     * CodeCarbon estimates the CO2 emissions from computing resources used by software. [https://codecarbon.io/](https://codecarbon.io/) 
     * Green Algorithm is an online tool to estimate the carbon footprint of computational tasks using a web calculator.  Currently being extended for use on HPC platforms [http://www.green-algorithms.org](http://www.green-algorithms.org) 
