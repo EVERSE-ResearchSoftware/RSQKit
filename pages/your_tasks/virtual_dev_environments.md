@@ -83,7 +83,8 @@ there are several commonly used command line tools for managing Python packages 
   - `conda` - Python package and environment management system (also included as part of the Anaconda Python distribution often used by the scientific community)
   - `poetry` - a modern Python packaging tool which handles virtual environments automatically
 - You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
-already using (so you can get help when you need it).
+already using (so you can get help when you need it). Not using virtual environments at all and mixing different tools to manage them could lead to
+a [bad example of a spaghetti setup][python-env-hell], not knowing whish dependencies are being used and issues when running and debugging code.
 
 ### Solutions
 
@@ -118,3 +119,4 @@ and the ["Intermediate Research Software Development" course][intermediate-rs-de
 [intermediate-rs-dev]: https://carpentries-incubator.github.io/python-intermediate-development/
 [renv]: https://rstudio.github.io/renv/index.html
 [ssi]: https://www.software.ac.uk/
+[python-env-hell]: https://xkcd.com/1987/
