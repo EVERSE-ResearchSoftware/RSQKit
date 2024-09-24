@@ -38,6 +38,10 @@ subitems:
     url: /your_tasks
     image_url: /assets/img/section-icons/tick.svg
     subitems:
+      - title: Create readable code
+        url: /readable_code
+      - title: Reproducible software environments
+        url: /virtual_dev_environments
       - title: Licensing software
         url: /licensing_software
   - title: Science Clusters
