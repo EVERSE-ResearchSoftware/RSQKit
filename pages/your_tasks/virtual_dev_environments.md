@@ -9,7 +9,7 @@ related_pages: []
 ## What are virtual software development environments?
 
 A virtual software development environment helps us create an **isolated working copy** of a software project that uses a specific 
-version of a programming language interpreter/compiler (e.g. Python 3.11) together with specific versions of a number of external 
+version of a programming language interpreter/compiler (e.g. Python 3.10 or Python 3.12) together with specific versions of a number of external 
 libraries (dependencies) required by our software installed into that virtual environment. 
 
 Virtual environments are typically implemented as sub-directories within your software project with a particular structure (but note 
@@ -74,18 +74,16 @@ Sometimes, a package manager combines both of these functionalities and you only
 
 ### Considerations
 
-- There are often multiple package and environment management tools for a single programming language. For example,
-there are several commonly used command line tools for managing Python packages and virtual environments to choose from:
-  - `pip` - Python package manager tool which interacts and obtains the packages from the central repository called Python Package Index (PyPI). `pip` can now be used with all Python distributions (including Anaconda).
-  - `venv` - Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3+
-  - `venv` - Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3+
-  - `virtualenv` - Python virtual environment manager tool which needs to be installed separately (does not come with Python distribution) but supports both Python 2.7+ and Python 3.3+ versions
-  - `pipenv` (different from both `pip` and `venv`) - Python package and environment management sysyem created to fix certain shortcomings of `virtualenv`
-  - `conda` - Python package and environment management system (also included as part of the Anaconda Python distribution often used by the scientific community)
-  - `poetry` - a modern Python packaging tool which handles virtual environments automatically
+- There are often multiple package and environment management tools for a single programming language.
+  - For example, commonly used tools for managing Python packages and virtual environments are `pip` (Python package manager tool which interacts and obtains the packages
+  from the central repository called Python Package Index (PyPI)) and `venv` (Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3).
+  One alternative is to use `poetry` - a modern Python packaging tool which also installs Python packages from PyPI and handles virtual environments automatically.
+  - If your Python code relies on non-Python packages, for instance when some C++ libraries must also be installed and you want to support multiple platforms, a better choice may be `conda` -
+  a Python package and environment management system part of the Anaconda Python distribution (often used by the scientific community). `conda` has its own repository system separate from
+  (but compatible with) PyPI that distributes non-Python packages packages as well and has its own non-`venv`-based virtual environment system.
 - You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
 already using (so you can get help when you need it). Not using virtual environments at all and mixing different tools to manage them could lead to
-a [bad example of a spaghetti setup][python-env-hell], not knowing whish dependencies are being used and issues when running and debugging code.
+a [bad example of a spaghetti setup][python-env-hell], not knowing which dependencies are being used and causing issues when running and debugging code.
 
 ### Solutions
 
