@@ -42,6 +42,9 @@ For example, see [PEP 8 style guide for Python][pep8] and [Google’s R Style Gu
 
 Another good practice to help readiability is to [create code that is modular][modular-code] - structured and split into small, reusable functions that are easier to read, understand and test.
 Functions with a common goal are further grouped into reusable libraries and packages. 
+Use the [common code patterns][design-patterns] for creating software - [design patterns][design-patterns-book] describe a relatively small, well-defined aspect (i.e. functionality) of code intended to leverage an 
+existing concept/solution rather than re-inventing it. 
+This can decrease the time to develop software and increase the quality of the resulting coe and its readability.
 
 Expanding on the code structure theme, following conventions on consistent and informative directory structure for your projects will ensure people will immediately know 
 where to find things within your project, especially helpful for long-term research projects or when working in teams. 
@@ -108,3 +111,6 @@ and the ["Intermediate Research Software Development" course][intermediate-rs-de
 [r-guidelines]: https://google.github.io/styleguide/Rguide.html
 [code-linters]: https://en.wikipedia.org/wiki/Lint_%28software%29
 [modular-code]: https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html
+[design-patterns-book]: https://refactoring.guru/design-pattern
+[design-patterns]: https://en.wikipedia.org/wiki/Software_design_pattern
+
