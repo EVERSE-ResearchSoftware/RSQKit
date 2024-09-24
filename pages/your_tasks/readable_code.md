@@ -40,7 +40,7 @@ While a group of developers may choose to write and agree upon a new style guide
 which is adopted almost universally by the communities around the world. 
 For example, see [PEP 8 style guide for Python][pep8] and [Google’s R Style Guide][r-guidelines].
 
-Another good practice to help readiability is to create code that is modular - structured and split into small, reusable functions that are easier to read, understand and test.
+Another good practice to help readiability is to [create code that is modular][modular-code] - structured and split into small, reusable functions that are easier to read, understand and test.
 Functions with a common goal are further grouped into reusable libraries and packages. 
 
 Expanding on the code structure theme, following conventions on consistent and informative directory structure for your projects will ensure people will immediately know 
@@ -107,3 +107,4 @@ and the ["Intermediate Research Software Development" course][intermediate-rs-de
 [pep8]: https://peps.python.org/pep-0008/
 [r-guidelines]: https://google.github.io/styleguide/Rguide.html
 [code-linters]: https://en.wikipedia.org/wiki/Lint_%28software%29
+[modular-code]: https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html
