@@ -67,6 +67,8 @@ Here are some of the practices to follow to make your code more readable:
 - Write informative comments and docstrings for functions to provide more detail about what the code and is doing, transmit understanding and context 
 - Follow a code style guide for your programming language that is agreed upon by the community and other programmers will find easy to read 
 - Automate style checks to help ensure your code is consistent
+- Many modern IDEs have built-in support for checking conformance to style conventions and they will warn you when you deviate or even autocorrect things for you
+- Use [code linters][code-linters] - tools that can identify consistency issues, stylistic and even programming errors
 - Organise code into reusable and modular functions that achieve a singular purpose and are more easier to understand, test and reuse
 - Use existing and well-tested libraries or packages for common functionality and tasks (e.g. reading and writing data in standard formats) to avoid duplication and reimplementing
 functionality in custom, more error-prone code
@@ -81,7 +83,7 @@ on consistent and informative directory structure for your software or research 
 | [Python code style conventions](https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/15-coding-conventions/index.html)     |  A chapter on Python Code Style Conventions from ["Intermediate Research Software Development" course][intermediate-rs-dev]                  | 
 | [FAIR Reseach Software Principles][fair-rs-principles] | An introduction to the FAIR Principles for research software |
 | [Google’s R Style Guide][r-guidelines] | R Programming Style Guide|
-
+| [code linters][code-linters]           | Static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs | 
 
 ## How to cite this page
 
@@ -104,3 +106,4 @@ and the ["Intermediate Research Software Development" course][intermediate-rs-de
 [intermediate-rs-dev]: https://carpentries-incubator.github.io/python-intermediate-development/
 [pep8]: https://peps.python.org/pep-0008/
 [r-guidelines]: https://google.github.io/styleguide/Rguide.html
+[code-linters]: https://en.wikipedia.org/wiki/Lint_%28software%29
