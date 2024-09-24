@@ -38,16 +38,21 @@ A style guide is a set of conventions that we agree upon with our colleagues or 
 looks similar in style. 
 While a group of developers may choose to write and agree upon a new style guide unique to each project, in practice many programming languages have a single style guide 
 which is adopted almost universally by the communities around the world. 
+For example, see [PEP 8 style guide for Python][pep8] and [Google’s R Style Guide][r-guidelines].
 
-Structure code that is modular and split into small, reusable functions.
-Use the common code pattern for creating software that can read input from command line
-Follow best practices in structuring code and organising software/research project directories for improved readability, accessibility and reproducibility.
+Another good practice to help readiability is to create code that is modular - structured and split into small, reusable functions that are easier to read, understand and test.
+Functions with a common goal are further grouped into reusable libraries and packages. 
 
+Expanding on the code structure theme, following conventions on consistent and informative directory structure for your projects will ensure people will immediately know 
+where to find things within your project, especially helpful for long-term research projects or when working in teams. 
+The directory structure for organising your research software project (or research projects in general) involves creating a clear and logical layout for files and data, 
+ensuring easy navigation, collaboration and reproducibility.
 
 ### Considerations
 
 - Code is read much more often than it is written - style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code
-- Consistency with the style guide is important. Consistency within a project is more important. Consistency within one module or function is the most important. However, know when to be inconsistent - sometimes style guide recommendations are just not applicable. When in doubt, use your best judgment. Look at other examples and decide what looks best.
+- Consistency with a style guide is important but consistency within a project or a module is more important - if you are joining an existing project, look at the existing
+code and make sure to adopt whatever practices are already in place.
 
 
 ### Solutions
@@ -75,6 +80,7 @@ on consistent and informative directory structure for your software or research 
 | [PEP 8 style guide for Python][pep8]                                            | Python Enhancement Proposal 8, Style Guide for Python Code                 |
 | [Python code style conventions](https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/15-coding-conventions/index.html)     |  A chapter on Python Code Style Conventions from ["Intermediate Research Software Development" course][intermediate-rs-dev]                  | 
 | [FAIR Reseach Software Principles][fair-rs-principles] | An introduction to the FAIR Principles for research software |
+| [Google’s R Style Guide][r-guidelines] | R Programming Style Guide|
 
 
 ## How to cite this page
@@ -97,3 +103,4 @@ and the ["Intermediate Research Software Development" course][intermediate-rs-de
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software
 [intermediate-rs-dev]: https://carpentries-incubator.github.io/python-intermediate-development/
 [pep8]: https://peps.python.org/pep-0008/
+[r-guidelines]: https://google.github.io/styleguide/Rguide.html
