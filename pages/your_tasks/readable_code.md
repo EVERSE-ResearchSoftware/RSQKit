@@ -83,7 +83,7 @@ on consistent and informative directory structure for your software or research 
 | [Python code style conventions](https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/15-coding-conventions/index.html)     |  A chapter on Python Code Style Conventions from ["Intermediate Research Software Development" course][intermediate-rs-dev]                  | 
 | [FAIR Reseach Software Principles][fair-rs-principles] | An introduction to the FAIR Principles for research software |
 | [Google’s R Style Guide][r-guidelines] | R Programming Style Guide|
-| [code linters][code-linters]           | Static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs | 
+| [Code linters][code-linters]           | Static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs | 
 
 ## How to cite this page
 
