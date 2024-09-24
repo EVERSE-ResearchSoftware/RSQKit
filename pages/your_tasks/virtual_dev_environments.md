@@ -12,9 +12,10 @@ A virtual software development environment helps us create an **isolated working
 version of a programming language interpreter/compiler (e.g. Python 3.11) together with specific versions of a number of external 
 libraries (dependencies) required by our software installed into that virtual environment. 
 
-Virtual environments are typically implemented as directories with a particular structure (usually contained within software projects 
-but can be outside too), containing links to specified dependencies allowing isolation from other software projects on your machine 
-that may require different versions of the same programming language or external libraries.
+Virtual environments are typically implemented as sub-directories within your software project with a particular structure (but note 
+that some tools can place virtual environments outside your software project). 
+They contain links to specified dependencies and allow for isolation from other software projects on your machine that may require 
+different versions of the same programming language or external libraries.
 
 ## Why should you use virtual software development environments? 
 
