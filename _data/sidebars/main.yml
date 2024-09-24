@@ -44,6 +44,8 @@ subitems:
         url: /virtual_dev_environments
       - title: Licensing software
         url: /licensing_software
+      - title: Environmental sustainability  
+        url: /environmental_sustainability
   - title: Science Clusters
     url: /science_clusters
   - title: All tools and resources
