@@ -38,7 +38,7 @@ subitems:
     url: /your_tasks
     image_url: /assets/img/section-icons/tick.svg
     subitems:
-      - title: Create readable code
+      - title: Creating readable code
         url: /readable_code
       - title: Reproducible software environments
         url: /virtual_dev_environments
