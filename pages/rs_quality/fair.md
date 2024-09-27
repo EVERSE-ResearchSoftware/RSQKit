@@ -20,7 +20,7 @@ Similar [FAIR principles for software][fair-principles-research-software] have n
 Each of the above principles can be achieved by a number of practices listed below.
 This is not an exact science, and by all means the list below is not exhaustive,
 but any of the practices that you employ in your research software workflow will bring you
-closer to the gold standard of a fully reproducible research.
+closer to the gold standard of fully reproducible research.
 
 ### Findable
 - Create a description of your software to make it discoverable by search engines and other search tools
@@ -31,7 +31,8 @@ may not be enough as they may change their open access model or disappear comple
 
 ### Accessible
 - Make sure people can freely, legally and easily get a copy your software
-- Structure your code using common patterns and use coding conventions to make your code readable and understandable by people (once they obtain a copy of it), and thereby more accessible 
+- Structure your code using common patterns and use coding conventions to make your code readable and understandable by people (once they obtain a copy of it), and thereby more accessible
+- The code and its description has to available even when the software is not longer in use. This include previous versions of the software.
 
 ### Interoperable
 - Explain the functionality of your software and protocols for interaction with it
@@ -39,27 +40,28 @@ may not be enough as they may change their open access model or disappear comple
 - Communicate with other software and tools via standard protocols and APIs
 
 ### Reusable
-- Document your software (including its functionality, and how to install and run it) to make it more understainable by others who may wish to reuse or extend it
+- Document your software (including its functionality, and how to install and run it) to make it more understandable by others who may wish to reuse or extend it
 - Follow best practices for software development (including structuring your code in reusable functions with a single functionality
 that can be built on top of, coding conventions, code readability and verifying its correctness)
 - Test your software and make sure it works on different platforms/operating systems to make it more reusable
 - Give a licence to your software clearly stating how it can be reused
-- State how to cite your software so people can give you credit when they reuse it
+- State how to cite your software, so people can give you credit when they reuse it
+- Include a contributor policy so that others can contribute to your code and credit for contributions is provided
    
 ## Tools and practices for FAIR research software development 
 
 There are various tools and practices that support the development of FAIR research software, contributing to each of the four FAIR principles. 
-These tools and practices work together, as no single tool or practice will fully addresses one principle but can 
+These tools and practices work together, as no single tool or practice will fully address one principle, but can 
 contribute to multiple principles simultaneously. 
 
 It is important to note that simply using these tools, without following good practice and guidance on how best to align 
 their usage with the FAIR principles, is not enough to produce FAIR software. 
 In addition, FAIR is not a [software quality metric](https://everse.software/RSQKit/rs_quality) even though it can improve software quality in several aspects - 
-software may be FAIR but still not very good in terms of its functionality.
+software may be FAIR, but still not very good in terms of its functionality.
 
 ### Development environments
 
-Virtual and integrated development environments (IDEs), such as VS Code or PyCharm, help with running, testing, and debuging code. 
+Virtual and integrated development environments (IDEs), such as VS Code or PyCharm, help with running, testing, and debugging code. 
 Virtual environments further enable us to share our working environments with others, making it easier to access, reuse and extend our code.
 IDEs often provide integrations with other tools, e.g. version control and command line terminals, enabling you to do many tasks from a single environment, 
 saving time in switching between different tools.
@@ -70,7 +72,7 @@ Command line terminals (e.g. Bash, GitBash) enable us to run and test our code w
 this is sometimes needed for accessing and running our code remotely on servers and high-performance systems without a GUI provision, where time, 
 memory and processing power are expensive or in high demand.
 
-Version control systems are typically provided as command line tools making them often only accessible from command line terminals to enter commands and access 
+Version control systems are typically provided as command line tools, making them often only accessible from command line terminals to enter commands and access 
 remote version control servers to backing up and sharing our work.
 
 Finally, command line tools are interoperable software that use standard protocols for passing parameters, inputs and outputs via the command line terminal. 
@@ -82,14 +84,14 @@ automate and speed up our work.
 ### Standard input/output formats and communication protocols
 
 Using standard data exchange, input and output formats and communication protocols helps create interoperable software that can more readily integrate 
-with other tools into more complex pipelines - increasing its interoprability and reusability. 
+with other tools into more complex pipelines - increasing its interoperability and reusability. 
 
 ### Version control tools
 
-Version control means knowing what changes were made to your code, when and by who - promoting code ownership, responsibility and credit. 
+Version control means knowing what changes were made to your code, when and by whom - promoting code ownership, responsibility and credit. 
 When combined with software sharing and collaborative platforms such as GitHub or GitLab, it facilitates code publication, sharing and findability, 
-teamwork and discussions around software and design decisions, provides backup facilities for your code and speeds up 
-collabortion on shared code by allowing edits by more than one person at a time.
+teamwork and discussions about software and design decisions, provides backup facilities for your code and speeds up 
+collaboration on shared code by allowing edits by more than one person at a time.
 
 ### Code testing
 
@@ -97,18 +99,18 @@ Testing ensures that your code is correct and does what it is set out to do.
 When you write code you often feel very confident that it is perfect, but when writing bigger codes or code that is meant to do complex operations 
 it is very hard to consider all possible edge cases or notice every single typing mistake. 
 Testing also gives other people confidence in your code as they can see an example of how it is meant to run and be assured that it does work 
-correctly on their machine - helping with code understading and reusability.
+correctly on their machine - helping with code understanding and reusability.
 
 ### Coding conventions
 
 Following coding conventions and guides for your programming language that is agreed upon by the community and other programmers
-are important practices to ensure that others find easy to read your code, reuse or extend it in their own examples and applications.
+are important practices to ensure that others find it easy to read your code, reuse or extend it in their own examples and applications.
 
 ### Software- and project- level documentation
 
-Documentation comes in many forms - from **software-level documentation** including decriptive names of variables and functions and 
+Documentation comes in many forms - from **software-level documentation** including descriptive names of variables and functions and 
 additional comments that explain lines of your code, to **project-level documentation** (including README, LICENCE, CITATION, CONTRIBUTING, etc. files) 
-that help to discover it, explain the legal terms of reusing it, describe its functionalty and how to install, run and contribute to it, 
+that help to discover it, explain the legal terms of reusing it, describe its functionality and how to install, run and contribute to it, 
 to whole websites full of documentation with function definitions, usage examples, tutorials and guides. 
 You many not need as much documentation as a large commercial software product, but making your code reusable relies on other people being able to understand 
 what your code does and how to use it.
@@ -120,7 +122,7 @@ Your institution might have a code repository, your research field may have a pr
 or your version control system might include an online component that makes sharing different versions of your code easy. 
 You should check the rules or guidelines of your institution, grant or domain on publishing code, as well as any licenses of the code your software depends on or reuses.
 
-Some examples of commonly used software repositoris and registries include:
+Some examples of commonly used software repositories and registries include:
 
 - general-purporse software repositories - [GitHub][github] and [GitLab][gitlab]
 - programming language-specific software repositories - [PyPi][pypi] (for Python) and [CRAN][cran] (for R)
@@ -129,7 +131,7 @@ Some examples of commonly used software repositoris and registries include:
 ### Persistent identifiers
 
 Unique persistent identifiers, such as Digital Object Identifiers (DOIs) provided by Zenodo, FigShare and similar digital archiving services, and commits/tags/releases used by GitHub and similar code sharing platforms, 
-help with findability and accessibility of your software, and can help you get credit for your work by providing citeable references.
+help with findability and accessibility of your software, and can help you get credit for your work by providing citable references.
 
 The table below provides a summary of how different tools and practices help with the FAIR software principles.
 
