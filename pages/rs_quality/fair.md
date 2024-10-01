@@ -133,6 +133,13 @@ Some examples of commonly used software repositories and registries include:
 Unique persistent identifiers, such as Digital Object Identifiers (DOIs) provided by Zenodo, FigShare and similar digital archiving services, and commits/tags/releases used by GitHub and similar code sharing platforms, 
 help with findability and accessibility of your software, and can help you get credit for your work by providing citable references.
 
+### Tools for assessing FAIRness of software
+
+Here are some tools that can check your software and provide an assessment or measurement of its FAIRness:
+
+- [FAIRsoft evaluator][fair-rs-evaluator]
+- [FAIR software test][fair-rs-test]
+
 The table below provides a summary of how different tools and practices help with the FAIR software principles.
 
 | Tools and practices                                                                                  | Findable | Accessible | Interoperable | Reusable |
@@ -167,3 +174,5 @@ TODO: cross link with other pages talking about specific tools or practices, e.g
 [cran]: https://cran.r-project.org/web/packages/
 [gitlab]: https://about.gitlab.com/
 [awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
+[fair-rs-evaluator]: https://openebench.bsc.es/observatory/Evaluation
+[fair-rs-test]: https://github.com/marioa/fair-test?tab=readme-ov-file
