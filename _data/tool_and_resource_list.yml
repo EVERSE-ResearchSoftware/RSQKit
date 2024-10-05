@@ -1,0 +1,8 @@
+- description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
+  id: docker
+  name: Docker
+  registry:
+    fairsharing: afc2b3
+    fairsharing-coll: bsg-d001254
+    tess: Docker
+  url: https://www.docker.com/
