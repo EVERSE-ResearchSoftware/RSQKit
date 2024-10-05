@@ -55,7 +55,7 @@ Make sure you have cloned the RSQKit  repo:
     cd RSQKit 
 
 
-To run the website locally, you can either use {% tool "docker" %} or use Jekyll directly after installing various dependencies.
+To run the website locally, you can either use Docker or use Jekyll directly after installing various dependencies.
 
 ### Run using Docker
 
