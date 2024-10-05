@@ -2,8 +2,6 @@
 title: How to contribute to RSQKit
 ---
 
-# Ways of contributing
-
 Everyone is welcome to contribute to the RSQKit. You may suggest or edit content following one of the options below:
 
 * **If you are not familiar with Git** but want to give it a try on GitHub: follow [our step-by-step instructions](github_way) (no technical knowledge required!).
@@ -30,9 +28,9 @@ Contributors will be shown at the bottom of the page if listed in the metadata o
 
 ## Ownership of content
 
-No single contributor or editor owns the content of the site, or has the right to dictate what the content should be. The content on the RDMkit is a community effort, with many people contributing. Decisions are driven by consensus among the contributors and editors.
+No single contributor or editor owns the content of the site, or has the right to dictate what the content should be. The content on the RSQkit is a community effort, with many contributors. Decisions are driven by consensus among the contributors and editors.
 
-The content is periodically updated, which means that if you create content in an RDMkit page, others can change the content without notifying you. However, the RDMkit editors ensure that content is only modified for good reasons. The RDMkit editors try to ensure that the legitimate concerns and different point of views of all contributors are accommodated, and that the content reflects the most popular consensus on any given topic.
+The content is periodically updated, which means that if you create content in an RSQkit page, others can change the content without notifying you. However, the RSQkit editors ensure that content is only modified for good reasons. The RSQkit editors try to ensure that the legitimate concerns and different point of views of all contributors are accommodated, and that the content reflects the most popular consensus on any given topic.
 
 If you find any content unsatisfactory, please feel free to [create an issue](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues/new) about it.
 
