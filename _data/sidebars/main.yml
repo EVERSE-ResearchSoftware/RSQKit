@@ -48,6 +48,11 @@ subitems:
         url: /environmental_sustainability
   - title: Science Clusters
     url: /science_clusters
+    subitems:
+      - title: ESCAPE
+        url: /escape
+      - title: PANOSC
+        url: /panosc
   - title: All tools and resources
     url: /all_tools_and_resources
   - title: All training resources
