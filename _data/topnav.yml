@@ -2,5 +2,7 @@
 subitems:
   - title: About
     url: /about
+  - title: Contribute
+    url: /how_to_contribute
  
     
