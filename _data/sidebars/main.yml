@@ -46,13 +46,18 @@ subitems:
         url: /licensing_software
       - title: Environmental sustainability  
         url: /environmental_sustainability
-  - title: Science Clusters
+  - title: Your science domain & community
     url: /science_clusters
     subitems:
-      - title: ESCAPE
-        url: /escape
-      - title: PANOSC
-        url: /panosc
+      - title: Physics & astronomy
+        url: /physics_astronomy
+        - title: ESCAPE
+          url: /escape
+        - title: PANOSC
+          url: /panosc
+      - title: Biomedical sciences
+      - title: Social sciences & humanities
+        - title: SSHOC
   - title: All tools and resources
     url: /all_tools_and_resources
   - title: All training resources
