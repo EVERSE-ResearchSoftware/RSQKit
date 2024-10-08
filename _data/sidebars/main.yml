@@ -13,14 +13,7 @@ subitems:
         url: /life_cycle
       - title: Three-tier view
         url: /three_tier_view
-  - title: Your role
-    description: Defnition of the different persona types associated with Research Software.
-    url: /your_role
-    image_url: /assets/img/section-icons/tick.svg
-    subitems:
-      - title: Research Software Engineer
-        url: /research_software_engineer
-  - title: Reseach Software Quality
+  - title: Research Software Quality
     description: Find indicators principles for Research Software Quality.
     url: /rs_quality
     image_url: /assets/img/section-icons/tick.svg
@@ -33,6 +26,13 @@ subitems:
         url: /sustainability
       - title: Open Source
         url: /open_source
+  - title: Your role
+    description: Definition of the different persona types associated with Research Software.
+    url: /your_role
+    image_url: /assets/img/section-icons/tick.svg
+    subitems:
+      - title: Research Software Engineer
+        url: /research_software_engineer
   - title: Your tasks
     description: Find guidelines and solutions for tackling common software tasks.
     url: /your_tasks
@@ -46,18 +46,23 @@ subitems:
         url: /licensing_software
       - title: Environmental sustainability  
         url: /environmental_sustainability
-  - title: Your science domain & community
-    url: /science_clusters
+  - title: Your science domain or community
+    url: /science_domains_communities
     subitems:
       - title: Physics & astronomy
         url: /physics_astronomy
+        subitems:
         - title: ESCAPE
           url: /escape
         - title: PANOSC
           url: /panosc
       - title: Biomedical sciences
+        url: /biomed_sciences
       - title: Social sciences & humanities
+        url: /soc_sciences_humanities
+        subitems:
         - title: SSHOC
+          url: /sshoc
   - title: All tools and resources
     url: /all_tools_and_resources
   - title: All training resources
