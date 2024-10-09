@@ -6,7 +6,7 @@ title: Research Software
 
 There have been various definitions of research software - the following two definitions offer two ends of a spectrum of what research software is. The RSQKit does not mandate the definition of what research software is, however its authors and editorial board may be opinionated on what they believe the definition is and this may vary over time and be reflected in the RSQKit pages. 
 
-The following is taken from [Defining Research Software: a controversial discussion][^1] - the most recent and expansive discussion on what research software is that was done under the auspices of the [FAIR4RS RDA working group][fair4rs-wg] We are quoting the text here from page 6:
+The following is taken from *Defining Research Software: a controversial discussion*[^1] - the most recent and expansive discussion on what research software is that was done under the auspices of the [FAIR4RS RDA working group][fair4rs-wg] We are quoting the text here from page 6:
 
 
 
