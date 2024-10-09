@@ -32,7 +32,7 @@ may not be enough as they may change their open access model or disappear comple
 ### Accessible
 - Make sure people can freely, legally and easily get a copy your software
 - Structure your code using common patterns and use coding conventions to make your code readable and understandable by people (once they obtain a copy of it), and thereby more accessible
-- The code and its description has to available even when the software is not longer in use. This include previous versions of the software.
+- The code and its description has to be available even when the software is no longer actively developed (this include previous versions of the software)
 
 ### Interoperable
 - Explain the functionality of your software and protocols for interaction with it
