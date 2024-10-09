@@ -31,7 +31,7 @@ may not be enough as they may change their open access model or disappear comple
 
 ### Accessible
 - Make sure people can freely, legally and easily get a copy your software
-- Structure your code using common patterns and use coding conventions to make your code readable and understandable by people (once they obtain a copy of it), and thereby more accessible
+- Structure your code using common patterns and use coding conventions to make your code readable and understandable by people (once they obtain a copy of it), i.e. make your code accessible in the *intelligible* sense
 - The code and its description has to be available even when the software is no longer actively developed (this include previous versions of the software)
 
 ### Interoperable
