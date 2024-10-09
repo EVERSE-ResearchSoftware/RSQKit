@@ -25,5 +25,5 @@ The following is taken from [Defining Research Software: a controversial discuss
 For some the inclusive definition would be more correctly termed ‘software in research’ whereas the exclusive definition would be termed research software. Given the focus of the RSQKit is to highlight quality practice, most of the advice (especially around tasks) could be applied to software in research. However, many of the best practices are found in research software and we hope the RSQKit helps promote the practices to other areas of research and allows cross-pollination of ideas and practice. 
 
 # Further topics on research software
-You can read about the [life cycle](research_software/life_cycle) and the [Three-tier view](research_software/three_tier_view) that are used in RSQKit to understand development and impact of research software
+You can read about the [life cycle](research_software/life_cycle) and the [Three-tier view](research_software/three_tier_view) that are used in RSQKit to understand development and impact of research software.
 
