@@ -2,7 +2,7 @@
 title: Research Software
 ---
 
-# What is Research Software
+# What is Research Software?
 
 There have been various definitions of research software - the following two definitions offer two ends of a spectrum of what research software is. The RSQKit does not mandate the definition of what research software is, it taps into existing definitions - however its authors and editorial board may be opinionated on what they believe the definition is and this may vary over time and be reflected in the RSQKit pages. 
 
