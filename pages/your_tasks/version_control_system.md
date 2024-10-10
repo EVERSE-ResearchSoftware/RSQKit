@@ -63,7 +63,7 @@ Implementing version control in a research context involves more than just choos
    * Periodically clean up old branches and review access permissions
 
 ## How to cite this page
-Giacomo Peru
+Giacomo Peru, TO-DO
 
 ## Tools and resources
 * Git: https://git-scm.com/
