@@ -49,8 +49,10 @@ subitems:
       - title: Creating code releases  
         url: /releasing_code
       - title: Version control  
-        url: /version_control_system
-  - title: Your science domain or community
+        url: /vcs
+      - title: Virtual development environments  
+        url: /virtual_dev_environments
+  - title: Your science domain
     url: /science_domains_communities
     subitems:
       - title: Physics & astronomy
