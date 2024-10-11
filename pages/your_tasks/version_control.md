@@ -1,4 +1,10 @@
-# Version Control in Research Software Engineering
+---
+title: Version Control in Research Software Engineering
+description: Version control systems 
+contributors: ["Giacomo Peru"]
+page_id: version_control
+related_pages: []
+---
 
 ## How do I choose the right version control system for my research project?
 
