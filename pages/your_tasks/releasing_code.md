@@ -1,7 +1,7 @@
 ---
 title: Releasing code
 description: Useful aspects about creating code releases.
-contributors: ["Christian Hüser"]
+contributors: ["Christian Huser"]
 page_id: releasing_code
 related_pages: []
 
