@@ -47,7 +47,7 @@ subitems:
       - title: Environmental sustainability  
         url: /environmental_sustainability
       - title: Creating code releases  
-        url: /environmental_sustainabilityreleasing_code
+        url: /releasing_code
       - title: Version control  
         url: /version_control_system
   - title: Your science domain or community
