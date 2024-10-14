@@ -1,5 +1,5 @@
 ---
-title: FAIR Research Software
+title: FAIR Research Software Principles
 ---
 
 
@@ -24,29 +24,29 @@ closer to the gold standard of fully reproducible research.
 
 ### Findable
 - Create a description of your software to make it discoverable by search engines and other search tools
+- Use standards (such as [CodeMeta][codemeta]) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmg-1])
 - Place your software in a public software repository (and ideally register it in a [general-purpose or domain-specific software registry][software-registries])
 - Use a unique and persistent identifier (DOI) for your software (e.g. by depositing your code on [Zenodo][zenodo]), 
 which is also useful for citations - note that depositing your data/code on GitHub and similar software repositories 
 may not be enough as they may change their open access model or disappear completely in the future, so archiving your code means it stands a better chance at being preserved 
 
 ### Accessible
-- Make sure people can freely, legally and easily get a copy your software
-- Structure your code using common patterns and use coding conventions to make your code readable and understandable by people (once they obtain a copy of it), i.e. make your code accessible in the *intelligible* sense
-- The code and its description has to be available even when the software is no longer actively developed (this include previous versions of the software)
+- Make sure people can obtain get a copy your software using standard communication protocols (e.g. HTTP, FTP, etc.)
+- The code and its description (metadata) has to be available even when the software is no longer actively developed (this includes earlier versions of the software)
 
 ### Interoperable
 - Explain the functionality of your software and protocols for interaction with it
-- Use standard formats for inputs and outputs
+- Use community-agreed standard formats for inputs and outputs of your software and its metadata (e.g. [CodeMeta][codemeta]) 
 - Communicate with other software and tools via standard protocols and APIs
 
 ### Reusable
-- Document your software (including its functionality, and how to install and run it) to make it more understandable by others who may wish to reuse or extend it
-- Follow best practices for software development (including structuring your code in reusable functions with a single functionality
-that can be built on top of, coding conventions, code readability and verifying its correctness)
-- Test your software and make sure it works on different platforms/operating systems to make it more reusable
+- Document your software (including its functionality, how to install and run it) to make it more understandable by 
+others who may wish to reuse or extend it
+- Follow best practices for software development, e.g. structure your code using common patterns and use coding 
+conventions to make your code readable and understandable by people
+- Test your software and make sure it works on different platforms/operating systems
 - Give a licence to your software clearly stating how it can be reused
 - State how to cite your software, so people can give you credit when they reuse it
-- Include a contributor policy so that others can contribute to your code and credit for contributions is provided
    
 ## Tools and practices for FAIR research software development 
 
@@ -61,15 +61,15 @@ software may be FAIR, but still not very good in terms of its functionality.
 
 ### Development environments
 
-Virtual and integrated development environments (IDEs), such as VS Code or PyCharm, help with running, testing, and debugging code. 
-Virtual environments further enable us to share our working environments with others, making it easier to access, reuse and extend our code.
+Virtual and integrated development environments (IDEs), such as VS Code or PyCharm, help with reading, running, testing, and debugging code. 
+Virtual environments further enable us to share our working environments with others, making it easier to reuse and extend our code.
 IDEs often provide integrations with other tools, e.g. version control and command line terminals, enabling you to do many tasks from a single environment, 
 saving time in switching between different tools.
 
 ### Command line terminals
 
 Command line terminals (e.g. Bash, GitBash) enable us to run and test our code without graphical user interfaces (GUI) afforded to us by IDEs - 
-this is sometimes needed for accessing and running our code remotely on servers and high-performance systems without a GUI provision, where time, 
+this is sometimes needed for running our code remotely on servers and high-performance systems without a GUI provision, where time, 
 memory and processing power are expensive or in high demand.
 
 Version control systems are typically provided as command line tools, making them often only accessible from command line terminals to enter commands and access 
@@ -106,7 +106,31 @@ correctly on their machine - helping with code understanding and reusability.
 Following coding conventions and guides for your programming language that is agreed upon by the community and other programmers
 are important practices to ensure that others find it easy to read your code, reuse or extend it in their own examples and applications.
 
-### Software- and project- level documentation
+
+### Code licensing
+
+A licence is a legal document which sets down the terms under which the creator of work (such as written text, 
+photographs, films, music, software code) is releasing what they have created for others to use, modify, extend or exploit.
+
+It is important to state the terms under which software can be reused - the lack of a licence for your software 
+implies that no one can reuse the software at all. 
+A common way to declare your copyright of a piece of software and the license you are distributing it under is to 
+include a file called LICENSE in the root directory of your code repository. 
+
+Some good resources to check out for choosing a licence for your code:
+
+- [The open source guide][opensource-licence-guide] on applying, changing and editing licenses.
+- [choosealicense.com][choosealicense] has some great resources to help you choose a license that is appropriate for your needs, 
+and can even automate adding the LICENSE file to your GitHub code repository.
+
+### Code citation
+
+We should add a citation file to our repository to provide instructions on how and when to cite our code. 
+A citation file can be a plain text (CITATION.txt) or a Markdown file (CITATION.md), but there are certain benefits 
+to using use a special file format called the [Citation File Format (CFF)][cff], which provides a way to include richer 
+metadata about code (or datasets) we want to cite, making it easy for both humans and machines to use this information.
+
+### Code- and project- level documentation
 
 Documentation comes in many forms - from **software-level documentation** including descriptive names of variables and functions and 
 additional comments that explain lines of your code, to **project-level documentation** (including README, LICENCE, CITATION, CONTRIBUTING, etc. files) 
@@ -124,44 +148,46 @@ You should check the rules or guidelines of your institution, grant or domain on
 
 Some examples of commonly used software repositories and registries include:
 
-- general-purporse software repositories - [GitHub][github] and [GitLab][gitlab]
+- general-purpose software repositories - [GitHub][github] and [GitLab][gitlab]
 - programming language-specific software repositories - [PyPi][pypi] (for Python) and [CRAN][cran] (for R)
-- software registries  - [BioTools][biotools] (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
+- software registries - [BioTools][biotools] (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
 
 ### Persistent identifiers
 
-Unique persistent identifiers, such as Digital Object Identifiers (DOIs) provided by Zenodo, FigShare and similar digital archiving services, and commits/tags/releases used by GitHub and similar code sharing platforms, 
+Unique persistent identifiers, such as **Digital Object Identifiers** (DOIs) provided by [Zenodo][zenodo], 
+[FigShare][figshare], etc., or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by [Software Heritage][software-heritage], 
+and similar digital archiving services, and commits/tags/releases used by GitHub and similar code sharing platforms, 
 help with findability and accessibility of your software, and can help you get credit for your work by providing citable references.
 
 ### Tools for assessing FAIRness of software
 
-Here are some tools that can check your software and provide an assessment or measurement of its FAIRness:
+Here are some tools that can check your software and provide an assessment of its FAIRness:
 
 - [FAIRsoft evaluator][fair-rs-evaluator]
 - [FAIR software test][fair-rs-test]
+- [`How FAIR is your software` - command line tool to evaluate a software repository's compliance with the FAIR principles][howfairis]
+
+### Summary
 
 The table below provides a summary of how different tools and practices help with the FAIR software principles.
 
 | Tools and practices                                                                                  | Findable | Accessible | Interoperable | Reusable |
-| ---------------------------------------------------------------------------------------------------- | -------- | ---------- | ------------- | -------- |
-| Virtual development environments                                                                     |          | x          |               | x        |
-| Integrated development environments/IDEs                                                             |          |            |               | x        |
+|------------------------------------------------------------------------------------------------------|----------|------------|---------------| -------- |
+| Virtual development environments                                                                     |          |            |               | x        |
+| Integrated development environments (IDEs)                                                           |          |            |               | x        |
 | Command line terminals - automated and reproducible pipelines                                        |          |            | x             | x        |
-| Standard formats - e.g. for data exchange (CSV, YAML)                                                |          | x          | x             | x        |
-| Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API)    |          | x          | x             | x        |
+| Standard data exchange formats - e.g. for data exchange (CSV, YAML)                                  |          |            | x             | x        |
+| Communication protocols - Command Line Interface (CLI) or Application Programming Interface (API)    |          |            | x             | x        |
 | Version control tools                                                                                | x        |            |               |          |
-| Testing - code correctness and reproducibility                                                       |          | x          |               | x        |
-| Coding conventions                                                                                   |          | x          | x             | x        |
-| Software-level documentation (comments and docstrings, explaining functionality)                     |          | x          | x             | x        |
-| Project-level documentation (READMEs, explaining functionality/installation/running)                 |          | x          | x             | x        |
-| License - code sharing and reuse                                                                     |          | x          |               | x        |
-| Citation - code reuse and credit                                                                     | x        |            |               | x        |
-| Software repositories and registries                                                                 | x        | x          |               |          |
+| Code testing & correctness                                                                           |          |            |               | x        |
+| Coding conventions                                                                                   |          |            |               | x        |
+| Code-level documentation (comments and docstrings, explaining functionality)                         |          |            |               | x        |
+| Project-level documentation & metadata (README, explaining functionality/installation/running, etc.) |          |            | x             | x        |
+| License - code sharing & reuse                                                                       |          |            |               | x        |
+| Citation - code reuse & credit                                                                       |          |            |               | x        |
+| Software repositories & registries                                                                   | x        | x          |               |          |
 | Unique persistent identifiers                                                                        | x        | x          |               |          |
 
-
-
-TODO: cross link with other pages talking about specific tools or practices, e.g. version control, code readability, documentation, etc.
 
 
 [fair-principles-research-software]: https://www.nature.com/articles/s41597-022-01710-x
@@ -176,3 +202,12 @@ TODO: cross link with other pages talking about specific tools or practices, e.g
 [awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [fair-rs-evaluator]: https://openebench.bsc.es/observatory/Evaluation
 [fair-rs-test]: https://github.com/marioa/fair-test?tab=readme-ov-file
+[codemeta]: (https://codemeta.github.io/)
+[rsmd-1]: https://fair-impact.github.io/RSMD-guidelines/1.General/
+[software-heritage]: https://www.softwareheritage.org/
+[swhid]: https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html
+[figshare]: https://figshare.com/
+[howfairis]: https://github.com/fair-software/howfairis/
+[cff]: https://citation-file-format.github.io/
+[opensource-licence-guide]: https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project
+[choosealicense]: https://choosealicense.com/

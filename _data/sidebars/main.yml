@@ -14,7 +14,7 @@ subitems:
       - title: Three-tier view
         url: /three_tier_view
   - title: Your role
-    description: Defnition of the different persona types associated with Research Software.
+    description: Definition of the different persona types associated with Research Software.
     url: /your_role
     image_url: /assets/img/section-icons/tick.svg
     subitems:
@@ -27,8 +27,8 @@ subitems:
     subitems:
       - title: Source code
         url: /source_code
-      - title: FAIR
-        url: /fair
+      - title: FAIR Research Software
+        url: /fair_rs
       - title: Sustainability
         url: /sustainability
       - title: Open Source
