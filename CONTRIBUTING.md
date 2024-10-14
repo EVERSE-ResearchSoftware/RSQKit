@@ -4,20 +4,19 @@
 
 **Note:** This section is work in progress
 
-You can create new pages or report errors or typos in two ways:
- - Open a pull request
+You can create new pages or report errors by opening a pull request:
   
- - Open an issue with the type of content you would like to see in RSQKit.
+ 1. Open an issue with the type of content you would like to see in RSQKit.
   
- - When you and the editor have agreed on what you will do, you can edit on the github repository by clicking on the pencil icon.
+ 2. When you and the editor have agreed on what you will do, you can edit on the github repository by clicking on the pencil icon.
  
- - When you are satisfied with with your first draft of the content, head to the “Propose changes” section at the end of the page and write a title and a brief explanation of your changes.
+ 3. When you are satisfied with with your first draft of the content, head to the “Propose changes” section at the end of the page and write a title and a brief explanation of your changes.
 
-- You will be directed to the Pull Reqest (PR) page, then click on "Create Pull Request", once submitted, the editors will then review your request.
+4. You will be directed to the Pull Reqest (PR) page, then click on "Create Pull Request", once submitted, the editors will then review your request.
   
-- You can request review, usually if a normall pull request, a review will be automatically requested. If your request is still in draft you can request a review.
+5. You can request review, usually if a normall pull request, a review will be automatically requested. If your request is still in draft you can request a review.
 
-- Address editor's comments. when addressed, the editor will mark the conversation as "Resolved" and the proposed changes as "Approved".
+6. Address editor's comments. when addressed, the editor will mark the conversation as "Resolved" and the proposed changes as "Approved".
  
  <!-- Not yet ready: - Use the GitHub web interface ([How to contribute](https://rdmkit.elixir-europe.org/how_to_contribute))-->
 
