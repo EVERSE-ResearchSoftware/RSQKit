@@ -5,7 +5,7 @@ subitems:
   #- title: About RSQKit
   #  url: /about
   - title: Research Software
-    description: Different perspectives on research software.
+    description: Different perspectives on research software
     url: /research_software
     image_url: /assets/img/section-icons/tick.svg
     subitems:
@@ -14,27 +14,27 @@ subitems:
       - title: Three-tier view
         url: /three_tier_view
   - title: Research Software Quality
-    description: Find indicators principles for Research Software Quality.
+    description: Indicators & principles for Research Software quality
     url: /rs_quality
     image_url: /assets/img/section-icons/tick.svg
     subitems:
       - title: Source code
         url: /source_code
-      - title: FAIR
-        url: /fair
-      - title: Research Software Sustainability
+      - title: FAIR Research Software
+        url: /fair_rs
+      - title: Software Sustainability
         url: /sustainability
-      - title: Open Source
+      - title: Open Source Software
         url: /open_source
   - title: Your role
-    description: Definition of the different persona types associated with Research Software.
+    description: Definition of the different persona types associated with Research Software
     url: /your_role
     image_url: /assets/img/section-icons/tick.svg
     subitems:
       - title: Research Software Engineer
         url: /research_software_engineer
   - title: Your tasks
-    description: Find guidelines and solutions for tackling common software tasks.
+    description: Find guidelines and solutions for tackling common software tasks
     url: /your_tasks
     image_url: /assets/img/section-icons/tick.svg
     subitems:
