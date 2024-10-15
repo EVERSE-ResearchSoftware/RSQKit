@@ -21,7 +21,7 @@ It is an essential part of software development, aiming to verify that the code 
 Key aspects of code testing include:
 
 - Detecting bugs: testing helps identify problems in the code, such as logical errors, syntax mistakes, or runtime issues.
-- Validation and verification: ensures the software's output is correct (validation) and that the software is built correctly and performs as required (verification).
+- Validation and verification: testing ensures the software's output is correct (validation) and that the software is built correctly and performs as required (verification).
 - Ensuring quality: testing verifies that the software meets the quality standards.
 - Improving code: testing helps developers refactor code and optimise it by identifying parts that can be improved.
 
@@ -37,44 +37,36 @@ So when writing software we need to ask ourselves some key questions:
 If we are unable to demonstrate that our software fulfills these criteria, why would anyone use it? 
 Having well-defined tests for our software is crucial for several reasons, as it directly impacts the quality, functionality, reliability as well as reusability of our software.
 
-- Testing helps identify issues with our code early in the development process, when fixing these issues is easier and less costly (compared to when software is released and/or deployed).
+- Testing helps identify issues with our code early in the development process, when fixing these issues is easier (compared to when software is released and/or deployed) -  saving time and money.
 - Testing allows us to demonstrate to ourselves and others that our code does what we claim (by sharing our tests alongside our code, we allow others to verify our software for themselves).
 - The act of writing tests encourages us to structure our code better (e.g. into a number of smaller individual functions) and results in a more readable, modular and maintainable codebase that is easier to extend or repurpose.
 - Software testing improves the reusability of our code - well-written software tests capture the expected behaviour of our code and can be used alongside documentation to help other developers quickly make sense of our code. In addition, a well-tested codebase allows developers to experiment with new features safe in the knowledge that tests will reveal if their changes have broken any existing functionality.
 - Software testing underpins the FAIR practices and improves software quality by giving us the confidence to engage in open research practices - if we are not sure that our code works as intended and produces accurate results, we are unlikely to feel confident about sharing our code with others.
 
-### Considerations <!-- do not delete this heading and write your text below it -->
-
-* [Structured in bullet points](style_guide#text) as much as possible, detailing things to consider about this problem in order to be able to find the right solution.
-
-### Solutions <!-- do not delete this heading and write your text below it -->
-
-By using [bullet point style](style_guide#text) as much as possible, try to describe when, why and for what is best to use a specific tool or resource. 
-Avoid making long list of links to tools and resources.
-Make sure to add the tools and resources mentioned in the text in the main "tools and resources" table.
-
-* Bullet point solution 1
-  * Sub-point
-* Bullet point solution 2
-
 ## How do we test our code?
  
-### Description <!-- do not delete this heading and write your text below it -->
-
 There are many different types of software testing.
 
-- [Unit tests][unit-testing] focus on testing individual functions in isolation. They ensure that each small part of the software performs as intended.
-  By verifying the correctness of these individual units, we can catch errors early in the development process.
-- Integration tests check how different parts of the code (or a bigger software system) work together.
-- Regression tests are used to ensure that new changes or updates to the codebase do not adversely affect the existing functionality.
-  They involve checking whether a program or part of a program still generates the same results after changes have been made.
-- End-to-end tests are a special type of integration testing which checks that a program as a whole behaves as expected.
+### Manual testing
 
-### Considerations <!-- do not delete this heading and write your text below it -->
-Same as above
+Manual testing is performed by a person who checks the functionality by manually executing the test cases.
 
-### Solutions <!-- do not delete this heading and write your text below it -->
+We can and should extensively test our software manually, and manual testing is well-suited to testing aspects such as graphical user interfaces and reconciling visual outputs against inputs. 
+However, even with a good test plan, manual testing is very time consuming and prone to error. 
 
+Another style of testing is automated testing, where we write code that tests the functions of our software. 
+Since computers are very good and efficient at automating repetitive tasks, we should take advantage of this wherever possible.
+
+### Automated testing
+
+Automated testing involves using tools or scripts to execute test cases automatically.
+
+There are three main types of automated tests:
+
+- [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. Uni tests focus on testing individual functions in isolation ensuring that each small part of the software performs as intended.
+- **Functional** or **integration tests** work at a higher level, and test functional paths through your code verifying that different modules or services work together. For example, given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
+- **Regression tests** make sure that your program’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made.
+- **End-to-end tests** or **system tests** are a special type of integration testing which checks that a program as a whole behaves as expected and tests the complete system to ensure it meets the specified requirements.
 
 ## How do we automate code testing?
  
