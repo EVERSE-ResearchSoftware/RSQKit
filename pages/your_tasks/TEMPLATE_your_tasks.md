@@ -1,6 +1,6 @@
 ---
 title: Problem title (e.g. version control)
-search_exclude: true
+search_exclude: true <!--- REMOVE THIS LINE, it's only for template file --->
 description: <!---REPLACE THIS with a one sentence description of the page--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: <!---REPLACE THIS with a shortened page name. The shortened page name should be in lowercase and separated by underscore(s) if needed. For example, page_id of version control page should be version_control--->
