@@ -49,12 +49,20 @@ There are many different types of software testing.
 
 ### Manual testing
 
-Manual testing is performed by a person who checks the functionality by manually executing the test cases.
+Manual (or informal) testing is performed by a person who checks the functionality by manually executing the test cases.
+For example, by running one function or a piece of code at a time and checking that they behave as expected. 
+As input to our code/function we are testing, we typically use some input values for which we know what the correct return value should be.
 
-We can and should extensively test our software manually, and manual testing is well-suited to testing aspects such as graphical user interfaces and reconciling visual outputs against inputs. 
-However, even with a good test plan, manual testing is very time consuming and prone to error. 
+We can and should extensively test our software manually - it is quick, easy and provides immediate feedback, and is particularly useful as we draft our code for the first time.
+Manual testing is also well-suited to testing aspects such as graphical user interfaces and reconciling visual outputs against inputs. 
+However, even with a good test plan, manual testing is prone to error, is very time consuming and suffers from certain other limitations:
 
-Another style of testing is automated testing, where we write code that tests the functions of our software. 
+- We must reload our functions adn repeat our tests each time we change our code
+- We must rely on memory to keep track of how we have tested our code, e.g. what input values we tried
+- We must rely on memory to keep track of which functions have been tested and which have not (informal testing may work well on smaller pieces of code but it becomes unpractical for a large codebase)
+- Once we close our development environment, we lose all the manual test scenarios we have tried
+
+Another style of testing is automated testing, where we write code that tests the functions of our software and stays and is shared together with our software. 
 Since computers are very good and efficient at automating repetitive tasks, we should take advantage of this wherever possible.
 
 ### Automated testing
@@ -66,7 +74,7 @@ There are three main types of automated tests:
 - [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. Uni tests focus on testing individual functions in isolation ensuring that each small part of the software performs as intended.
 - **Functional** or **integration tests** work at a higher level, and test functional paths through your code verifying that different modules or services work together. For example, given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
 - **Regression tests** make sure that your program’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made.
-- **End-to-end tests** or **system tests** are a special type of integration testing which checks that a program as a whole behaves as expected and tests the complete system to ensure it meets the specified requirements.
+- **End-to-end** or **system tests** are a special type of integration testing which checks that a program as a whole behaves as expected and tests the complete system to ensure it meets the specified requirements.
 
 ## How do we automate code testing?
  
