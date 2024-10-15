@@ -44,7 +44,7 @@ Having well-defined tests for our software is crucial for several reasons, as it
 - Software testing underpins the FAIR practices and improves software quality by giving us the confidence to engage in open research practices - if we are not sure that our code works as intended and produces accurate results, we are unlikely to feel confident about sharing our code with others.
 
 ## How do we test our code?
- 
+
 There are many different types of software testing.
 
 ### Manual testing
@@ -72,12 +72,23 @@ Automated testing involves using tools or scripts to execute test cases automati
 There are three main types of automated tests:
 
 - [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. Unit tests focus on testing individual functions in isolation ensuring that each small part of the software performs as intended.
-- [**Functional**][functional-testing] or [**integration tests**][integration-testing] work at a higher level and test functional paths through your code verifying that different modules work together. For example, given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
-- [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made.
+- [**Integration tests**][integration-testing] work at a higher level and test functional paths through your code verifying that different modules work together. For example, given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
 - **End-to-end** or [**system tests**][system-testing] are a special type of integration testing which checks that a program as a whole behaves as expected and tests the complete system to ensure it meets the specified requirements.
 
+### Other Software Testing Tactics
+
+There are many other [software testing tactics][software-testing-tactics] beside manual and automated testing.
+A few examples are the following:
+- [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made.
+- [**Functional tests**][functional-testing] verify functional aspects of the code, i.e. the correct functioning of some code unit, while [**non-functional tests**][non-functional testing] refer to the non-functional aspects of the code, e.g. performance, scalability, security, usability, etc.
+- **White-box tests** are written knowing the implementation of a code unit, while **black-box tests** are written disregarding the implementation of a code unit.
+- **Acceptance tests** verify that specific needs and requirements of users and business processes are met. Acceptance critera are defined by users or customers which determine whether to accept the system.
+- **Performance tests** execute the system under specific load and determines how the system performs in terms of responsiveness and stability.
+- **Usability tests** verify whether a user interface is easy to use and understand. 
+- **Security tests** verify that the software prevents the intrusion by hackers.
+
 ## How do we automate code testing?
- 
+
 ### Description <!-- do not delete this heading and write your text below it -->
 Same as above
 
@@ -96,9 +107,10 @@ List of relevant tools and resources for this task.
 ## References <!-- do not delete this heading and write your text below it -->
 If work has been inspired or derived from other content (e.g., pages in RDMKit) make sure to reference it here. 
 
-
+[software-testing-tactics]: https://en.wikipedia.org/wiki/Software_testing_tactics
 [unit-testing]: https://en.wikipedia.org/wiki/Unit_testing
 [integration-testing]: https://en.wikipedia.org/wiki/Integration_testing
 [functional-testing]: https://en.wikipedia.org/wiki/Functional_testing
+[non-functional testing]: https://en.wikipedia.org/wiki/Non-functional_testing
 [system-testing]: https://en.wikipedia.org/wiki/System_testing
 [regression-testing]: https://en.wikipedia.org/wiki/Regression_testing
