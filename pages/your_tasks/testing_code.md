@@ -42,7 +42,7 @@ Make sure to add the tools and resources mentioned in the text in the main "tool
 
 There are many different types of software testing.
 
-- Unit tests focus on testing individual functions in isolation. They ensure that each small part of the software performs as intended.
+- [Unit tests][unit-testing] focus on testing individual functions in isolation. They ensure that each small part of the software performs as intended.
   By verifying the correctness of these individual units, we can catch errors early in the development process.
 - Integration tests check how different parts of the code (or a bigger software system) work together.
 - Regression tests are used to ensure that new changes or updates to the codebase do not adversely affect the existing functionality.
@@ -74,3 +74,6 @@ List of relevant tools and resources for this task.
 
 ## References <!-- do not delete this heading and write your text below it -->
 If work has been inspired or derived from other content (e.g., pages in RDMKit) make sure to reference it here. 
+
+
+[unit-testing]: https://en.wikipedia.org/wiki/Unit_testing
