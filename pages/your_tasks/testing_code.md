@@ -13,14 +13,35 @@ training:
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
+## What is code testing?
+
+Code testing is the process of evaluating software code to identify errors or issues, ensuring that the software behaves as expected. 
+It is an essential part of software development, aiming to verify that the code functions correctly, meets specified requirements, and performs as intended in various scenarios.
+
+Key aspects of code testing include:
+
+- Detecting bugs: testing helps identify problems in the code, such as logical errors, syntax mistakes, or runtime issues.
+- Validation and verification: ensures the software's output is correct (validation) and that the software is built correctly and performs as required (verification).
+- Ensuring quality: testing verifies that the software meets the quality standards.
+- Improving code: testing helps developers refactor code and optimise it by identifying parts that can be improved.
+
 ## Why is it important to test our code?
- 
-- The act of writing tests encourages us to structure our code as individual functions and often results in a more readable, modular and maintainable codebase that is easier to extend or repurpose.
-- Software testing can help us be more productive as it helps us to identify and fix problems with our code early and quickly and allows us to
-demonstrate to ourselves and others that our code does what we claim. More importantly, we can share our tests alongside our code, allowing others to verify our software for themselves.
-- Software testing improves the reusability of our code - well-written software tests capture the expected behaviour of our code and can be used alongside documentation to help other developers quickly make sense of our code. In addition, a well tested codebase allows developers to experiment with new features safe in the knowledge that tests will reveal if their changes have broken any existing functionality.
+
+Being able to demonstrate that a process generates the right results is important in any field of research, whether it is software generating those results or not. 
+So when writing software we need to ask ourselves some key questions:
+
+- Does the code we develop work the way it should do?
+- Can we (and others) verify these assertions for themselves?
+- Perhaps most importantly, to what extent are we confident of the accuracy of results that software produces?
+
+If we are unable to demonstrate that our software fulfills these criteria, why would anyone use it? 
+Having well-defined tests for our software is crucial for several reasons, as it directly impacts the quality, functionality, reliability as well as reusability of our software.
+
+- Testing helps identify issues with our code early in the development process, when fixing these issues is easier and less costly (compared to when software is released and/or deployed).
+- Testing allows us to demonstrate to ourselves and others that our code does what we claim (by sharing our tests alongside our code, we allow others to verify our software for themselves).
+- The act of writing tests encourages us to structure our code better (e.g. into a number of smaller individual functions) and results in a more readable, modular and maintainable codebase that is easier to extend or repurpose.
+- Software testing improves the reusability of our code - well-written software tests capture the expected behaviour of our code and can be used alongside documentation to help other developers quickly make sense of our code. In addition, a well-tested codebase allows developers to experiment with new features safe in the knowledge that tests will reveal if their changes have broken any existing functionality.
 - Software testing underpins the FAIR practices and improves software quality by giving us the confidence to engage in open research practices - if we are not sure that our code works as intended and produces accurate results, we are unlikely to feel confident about sharing our code with others.
-- Software testing brings piece of mind by providing a step-by-step approach that we can apply to verify that our code is correct.
 
 ### Considerations <!-- do not delete this heading and write your text below it -->
 
