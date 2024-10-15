@@ -15,7 +15,12 @@ training:
 
 ## Why is it important to test our code?
  
-### Description
+- The act of writing tests encourages us to structure our code as individual functions and often results in a more readable, modular and maintainable codebase that is easier to extend or repurpose.
+- Software testing can help us be more productive as it helps us to identify and fix problems with our code early and quickly and allows us to
+demonstrate to ourselves and others that our code does what we claim. More importantly, we can share our tests alongside our code, allowing others to verify our software for themselves.
+- Software testing improves the reusability of our code - well-written software tests capture the expected behaviour of our code and can be used alongside documentation to help other developers quickly make sense of our code. In addition, a well tested codebase allows developers to experiment with new features safe in the knowledge that tests will reveal if their changes have broken any existing functionality.
+- Software testing underpins the FAIR practices and improves software quality by giving us the confidence to engage in open research practices - if we are not sure that our code works as intended and produces accurate results, we are unlikely to feel confident about sharing our code with others.
+- Software testing brings piece of mind by providing a step-by-step approach that we can apply to verify that our code is correct.
 
 ### Considerations <!-- do not delete this heading and write your text below it -->
 
