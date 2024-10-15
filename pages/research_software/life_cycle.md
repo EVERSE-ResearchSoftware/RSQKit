@@ -43,5 +43,4 @@ The aim of this document was to illustrate the lifecycle of research software an
 ## References
 
 - [Research Software Lifecycle](https://doi.org/10.5281/zenodo.8324828)
-- [DLR Software Engineering Guidelines](https://doi.org/10.5281/zenodo.1344612)
 - [Infrastructure for quality research software](https://eosc.eu/advisory-groups/infrastructures-quality-research-software/)
