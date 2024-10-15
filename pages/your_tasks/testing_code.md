@@ -39,7 +39,15 @@ Make sure to add the tools and resources mentioned in the text in the main "tool
 ## How do we test our code?
  
 ### Description <!-- do not delete this heading and write your text below it -->
-Same as above
+
+There are many different types of software testing.
+
+- Unit tests focus on testing individual functions in isolation. They ensure that each small part of the software performs as intended.
+  By verifying the correctness of these individual units, we can catch errors early in the development process.
+- Integration tests check how different parts of the code (or a bigger software system) work together.
+- Regression tests are used to ensure that new changes or updates to the codebase do not adversely affect the existing functionality.
+  They involve checking whether a program or part of a program still generates the same results after changes have been made.
+- End-to-end tests are a special type of integration testing which checks that a program as a whole behaves as expected.
 
 ### Considerations <!-- do not delete this heading and write your text below it -->
 Same as above
