@@ -57,12 +57,12 @@ We can and should extensively test our software manually - it is quick, easy and
 Manual testing is also well-suited to testing aspects such as graphical user interfaces and reconciling visual outputs against inputs. 
 However, even with a good test plan, manual testing is prone to error, is very time consuming and suffers from certain other limitations:
 
-- We must reload our functions adn repeat our tests each time we change our code
+- We must reload our functions and repeat our tests each time we change our code
 - We must rely on memory to keep track of how we have tested our code, e.g. what input values we tried
-- We must rely on memory to keep track of which functions have been tested and which have not (informal testing may work well on smaller pieces of code but it becomes unpractical for a large codebase)
+- We must rely on memory to keep track of which functions (parts of the code) have been tested and which have not (informal testing may work well on smaller pieces of code but it becomes unpractical for a large codebase)
 - Once we close our development environment, we lose all the manual test scenarios we have tried
 
-Another style of testing is automated testing, where we write code that tests the functions of our software and stays and is shared together with our software. 
+Another style of testing is automated testing, where we write code that tests the functions of our software and stays and can be shared together with our software. 
 Since computers are very good and efficient at automating repetitive tasks, we should take advantage of this wherever possible.
 
 ### Automated testing
