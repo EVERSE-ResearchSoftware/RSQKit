@@ -71,10 +71,10 @@ Automated testing involves using tools or scripts to execute test cases automati
 
 There are three main types of automated tests:
 
-- [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. Uni tests focus on testing individual functions in isolation ensuring that each small part of the software performs as intended.
-- **Functional** or **integration tests** work at a higher level, and test functional paths through your code verifying that different modules or services work together. For example, given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
-- **Regression tests** make sure that your program’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made.
-- **End-to-end** or **system tests** are a special type of integration testing which checks that a program as a whole behaves as expected and tests the complete system to ensure it meets the specified requirements.
+- [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. Unit tests focus on testing individual functions in isolation ensuring that each small part of the software performs as intended.
+- [**Functional**][functional-testing] or [**integration tests**][integration-testing] work at a higher level and test functional paths through your code verifying that different modules work together. For example, given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
+- [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made.
+- **End-to-end** or [**system tests**][system-testing] are a special type of integration testing which checks that a program as a whole behaves as expected and tests the complete system to ensure it meets the specified requirements.
 
 ## How do we automate code testing?
  
@@ -98,3 +98,7 @@ If work has been inspired or derived from other content (e.g., pages in RDMKit) 
 
 
 [unit-testing]: https://en.wikipedia.org/wiki/Unit_testing
+[integration-testing]: https://en.wikipedia.org/wiki/Integration_testing
+[functional-testing]: https://en.wikipedia.org/wiki/Functional_testing
+[system-testing]: https://en.wikipedia.org/wiki/System_testing
+[regression-testing]: https://en.wikipedia.org/wiki/Regression_testing
