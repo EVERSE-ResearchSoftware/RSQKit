@@ -1,5 +1,6 @@
 ---
 title: FAIR Research Software Principles
+page_id: fair_rs
 ---
 
 
