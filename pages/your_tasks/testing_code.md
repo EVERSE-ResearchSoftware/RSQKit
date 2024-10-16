@@ -171,14 +171,7 @@ A testing framework is a set of guidelines or rules used for creating and design
 Testing frameworks typically automatically discover tests based on specific file and function naming patterns (e.g. they look for files or functions that start with “test_” or end with “_test”).
 Such test files are typically located in a special sub-folder (e.g. called `tests`) within a software project, and are version controlled and shared along with the rest of the code.
 
-Benefits of using a testing framework:
-
-- Improved test efficiency and develoment speed - it allows for the quick execution of repetitive and complex test cases, significantly speeding up the testing process compared to manual or informal
-testing and increasing the pace with which the software is developed
-- Lower maintenance costs - it enables early error detection so less develooment time is spent on debugging and fixing errors in code
-- Minimal manual intervention - it automates repetitive test cases and reduces the amount of manual testing effort required. This frees up developers' time to focus on more complex scenarios, exploratory testing, or new feature development.
-- Maximum test coverage - it enables the execution of a large number of test cases, including various test scenarios, edge cases and configurations that would be difficult to cover with manual testing.
-- Increased reusability of code - it reduces the effort required to write new test scripts for similar test cases and promotes a modular approach to testing.
+Check out the [section "How do we automate code testing?"](#how-do-we-automate-code-testing) for more details.
 
 ### Solutions
 
@@ -196,6 +189,7 @@ In test automation we usually use [test automation frameworks][test-automation-f
 These frameworks accept list of test cases that need to be executed, execute them, compare the actual output by the required output and summarize the test results.
 While manual testing is cost expensive and time consuming, test automation is much more optimized with respect to cost and time efficiency.
 Automation saves not only time in the mid- and long-term but also renders the test process less error prone.
+
 [Continuous Integration (CI)][continuous-integration] is the process of integrating code changes into the mainline of your repository early and often and thereby the integration machine also execute steps like building and testing the software.
 Testing has always been an integral part and widely accepted use case of CI.
 Testing in a CI pipeline goes one step further compared to the use of test automation frameworks.
@@ -205,10 +199,16 @@ Popular examples of CI infrastructure are [GitHub Actions][github-actions] and [
 
 ### Considerations 
 
-- Make sure your test process is cost and time efficient.
-- Do not try to test exhaustively bacause it is impossible to test everything.
-- Utilize test automation frameworks to ease the process of executing test cases.
-- Use CI for fully automating the code testing process.
+Benefits of using a testing framework:
+
+- Improved test efficiency and develoment speed - it allows for the quick execution of repetitive and complex test cases, significantly speeding up the testing process compared to manual or informal
+testing and increasing the pace with which the software is developed
+- Lower maintenance costs - it enables early error detection so less develooment time is spent on debugging and fixing errors in code
+- Minimal manual intervention - it automates repetitive test cases and reduces the amount of manual testing effort required. This frees up developers' time to focus on more complex scenarios, exploratory testing, or new feature development.
+- Maximum test coverage - it enables the execution of a large number of test cases, including various test scenarios, edge cases and configurations that would be difficult to cover with manual testing.
+- Increased reusability of code - it reduces the effort required to write new test scripts for similar test cases and promotes a modular approach to testing.
+
+Also utilise the CI infrastructure for fully automating the code testing process.
 
 ### Solutions
 
