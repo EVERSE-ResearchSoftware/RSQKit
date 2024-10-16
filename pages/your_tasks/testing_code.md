@@ -98,22 +98,22 @@ For example checking for weak password policies.
 
 ### Considerations
 
-Which tests should you use?
+Which testing approach should you use?
 
 - Start with functional testing - this is typically done first to ensure that all the features work correctly according to the requirements. Functional testing is essential for any software, regardless of its type or usage.
 - Add non-functional testing based on requirements - e.g. if the software needs to handle many users or heavy traffic, consider performance and load testing; if user experience is important, run usability testing;
 if the software needs to run on multiple platforms, perform compatibility testing.
 - Depending on the context and purpose of the software tests different [software testing tactics][software-testing-tactics] can be chosen.
-- The **Test-First Policy** in [**Test Driven Development**][test-driven-development] is one promising approach to ensure to the testability of software under test (SUT).
+- **Test-First Policy** in [**Test Driven Development**][test-driven-development] is one promising approach to ensure to the testability of software under test (SUT).
   Tests are written just before writing the code that make the tests pass.
   By following this approach the software is written in and refactored into small testable units right from the start.
-- The **F.I.R.S.T. Principles of Testing** describe beneficial properties of software tests:
+- **F.I.R.S.T. Principles of Testing** describe beneficial properties of software tests:
   - *Fast*: tests should run fast to ensure rapid feedback to detect errors fast and early.
   - *Isolated/Independent*: tests should focus on one particular responsibility or aspect in a software unit, other factors should not influence the result of the tests.
   - *Repeatable*: tests should be repeatable and deterministic. The result should not change with different environments.
   - *Self-validating/Self-checking*: tests should be automated and no manual steps should be made to check the test results. 
   - *Thorough/Timely*: tests should not only test the happy paths and not only aim for 100% of statement coverage. On the other hand, tests should be written at the right point in time and according to the Test-First Policy.
-- There are fundamental principles such as the **Software Testing Principles** that every tester should be aware of:
+- **Software Testing Principles** - the fundamental testing principles to be aware of:
   - *Testing shows the presence of defects*: - on the contrary, it does not show the absence of defects.
   - *Exhaustive Testing is not possible*: in order to test all paths and states in a moderately large or complex software, you might be inclined to test all paths and states. This would most probably result in an almost close to infinite number of test cases, which renders this task impossible.
   - *Early Testing*: tests should be run early and often to give rapid feedback.
@@ -125,11 +125,9 @@ if the software needs to run on multiple platforms, perform compatibility testin
 ### Solutions
 
 - Write tests early and often - begin testing as early as possible in the development process as writing tests alongside code development helps catch defects sooner and reduces the cost of fixing them.
-- Use a combination of test types, if possible, but at least use unit testing to test individual functions or methods of your code in isolation to ensure they perform as expected.
-- Maintain a balance between automated and manual testing; use manual testing for exploratory or usability testing where human judgment is essential.
+- Use both functional and non-functional tests in combination to ensure not only that the software functions correctly and according to its specification but also performs well, is secure, and offers a good user experience. At a minumum write unit tests to test individual functions or methods of your code in isolation and ensure they perform as expected.
 - Consider [**software testing tactics**][software-testing-tactics] - choosing the right software testing tactics for your software and software quality criteria is essential for improving the software quality of your software.
-- [**Software Quality Assurance**][software-quality-assurance] - a comprehensive and systematic process that ensures the quality of the overall software develoment process by monitoring its development, testing, and maintenance and ensures that the final software product meets the specified requirements and quality standards.
-- [Software testing][software-testing] - a specific activity within the Software Quality Assurance process that involves evaluating software to identify discrepancies between expected and actual behavior and testing code to find and fix defects. Using both functional and non-functional tests in combination to ensure not only that the software functions correctly and according to its specification but also performs well, is secure, and offers a good user experience.
+- Use [**Software Quality Assurance**][software-quality-assurance] - a comprehensive and systematic process that ensures the quality of the overall software develoment process by monitoring its development, testing, and maintenance and ensures that the final software product meets the specified requirements and quality standards. [Software testing][software-testing] is a specific activity within the Software Quality Assurance process that involves evaluating software to identify discrepancies between expected and actual behavior and testing code to find and fix defects.
 - **Quality Gates** - in software development these are predefined checkpoints or criteria that code or software must meet before moving to the next phase in the development lifecycle. They act as "gates" or approval points that help ensure quality at each stage of the development process. If the software fails to meet the requirements of a quality gate, it is not allowed to proceed, and corrective actions are needed.
 
 ## How do we test our code?
@@ -174,7 +172,8 @@ Automated testing involves using special testing frameworks (e.g. RTest for R, P
 #### Solutions
 
 - Write clear, understandable and independent tests - ensure test cases are easy to understand and maintain, use descriptive names for test functions and methods that clearly convey their purpose, and make each test independent (tests should not rely on the results or state of other tests to function correctly).
-- Use automated testing tools and frameworks (e.g. RTest for R, Pytest for Python, JUnit for Java) to run tests frequently and consistently - automating repetitive tests saves time and ensures tests are run consistently across different environments.
+- Maintain a balance between automated and manual testing; use manual testing for exploratory or usability testing where human judgment is essential.
+- Use automated testing tools and frameworks (e.g. RTest for R, Pytest for Python, JUnit for Java) to run tests frequently and consistently - automating repetitive tests saves time and ensures tests are run consistently across different environments and platforms.
 - Aim for high code coverage (percentage of the code that is tested) to reduce the likelihood of undetected bugs, but avoid focusing solely on achieving 100% coverage as some code may not be relevant to test (e.g. built-in functions for your programming language or functions imported from well-known and well-tested libraries) and test coverage of 100% does not mean that your code is bug-free. Prioritise testing of critical paths through your code, complex logic, edge cases, and parts of our code that carry the greatest “reputational risk”, i.e. that could affect the accuracy of your reported results.
 
 
