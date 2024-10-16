@@ -177,8 +177,8 @@ Check out the [section "How do we automate code testing?"](#how-do-we-automate-c
 
 - Write clear, understandable and independent tests - ensure test cases are easy to understand and maintain, use descriptive names for test functions and methods that clearly convey their purpose, and make each test independent (tests should not rely on the results or state of other tests to function correctly).
 - Maintain a balance between automated and manual testing; use manual testing for exploratory or usability testing where human judgment is essential.
-- Use automated testing tools and frameworks (e.g. RTest for R, Pytest for Python, JUnit for Java) to run tests frequently and consistently - automating repetitive tests saves time and ensures tests are run consistently across different environments and platforms.
-- Aim for high code coverage (percentage of the code that is tested) to reduce the likelihood of undetected bugs, but avoid focusing solely on achieving 100% coverage as some code may not be relevant to test (e.g. built-in functions for your programming language or functions imported from well-known and well-tested libraries) and test coverage of 100% does not mean that your code is bug-free. Prioritise testing of critical paths through your code, complex logic, edge cases, and parts of our code that carry the greatest “reputational risk”, i.e. that could affect the accuracy of your reported results.
+- Aim for high code coverage (percentage of the code that is tested) to reduce the likelihood of undetected bugs, but avoid focusing solely on achieving 100% coverage as some code may not be relevant to test (e.g. built-in functions for your programming language or functions imported from well-known and well-tested libraries). Remember, test coverage of 100% does not mean that your code is bug-free. Prioritise testing of critical paths through your code, complex logic, edge cases, and parts of our code that carry the greatest “reputational risk”, i.e. that could affect the accuracy of your reported results.
+- Use [automated testing frameworks](#how-do-we-automate-code-testing) to run tests frequently and consistently.
 
 
 ## How do we automate code testing?
@@ -214,8 +214,10 @@ Also utilise the CI infrastructure for fully automating the code testing process
 
 - [**Testing Frameworks**][test-automation]
   - Test automation frameworks are utilized to control the execution of test, the comparison of actual outcomes with predicted outcomes, and also the reporting of the test results back to the user.
+  - Use automated testing frameworks to run tests frequently and consistently
 - [**Continuous Integration**][continuous-integration]
   - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.
+  - Continuous Integration automates repetitive tests, saves time and ensures tests are run consistently across different environments and platforms.
 
 ## How to cite this page
 
