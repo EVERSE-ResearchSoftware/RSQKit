@@ -113,7 +113,7 @@ if the software needs to run on multiple platforms, perform compatibility testin
   - *Repeatable*: tests should be repeatable and deterministic. The result should not change with different environments.
   - *Self-validating/Self-checking*: tests should be automated and no manual steps should be made to check the test results. 
   - *Thorough/Timely*: tests should not only test the happy paths and not only aim for 100% of statement coverage. On the other hand, tests should be written at the right point in time and according to the Test-First Policy.
-- **Software Testing Principles** - the fundamental testing principles to be aware of:
+- Fundamental **Software Testing Principles** to be aware of:
   - *Testing shows the presence of defects*: - on the contrary, it does not show the absence of defects.
   - *Exhaustive Testing is not possible*: in order to test all paths and states in a moderately large or complex software, you might be inclined to test all paths and states. This would most probably result in an almost close to infinite number of test cases, which renders this task impossible.
   - *Early Testing*: tests should be run early and often to give rapid feedback.
