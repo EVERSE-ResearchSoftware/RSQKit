@@ -24,10 +24,10 @@ It is an essential part of software development, aiming to verify that the code 
 
 Key aspects of code testing include:
 
-- Detecting bugs: testing helps identify problems in the code, such as logical errors, syntax mistakes, or runtime issues.
-- Validation and verification: testing ensures the software's output is correct (validation) and that the software is built correctly and performs as required (verification).
-- Ensuring quality: testing verifies that the software meets the quality standards.
-- Improving code: testing helps developers refactor code and optimise it by identifying parts that can be improved.
+- **Detecting bugs** - testing helps identify problems in the code, such as logical errors, syntax mistakes, or runtime issues.
+- **Validation and verification** - testing ensures the software's output is correct (validation) and that the software is built correctly and performs as required (verification).
+- **Ensuring quality** - testing verifies that the software meets the quality standards.
+- **Improving code** - testing helps developers refactor code and optimise it by identifying parts that can be improved.
 
 ## Why is it important to test our code?
 
