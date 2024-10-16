@@ -65,21 +65,43 @@ Having well-defined tests for our software is crucial for several reasons, as it
 
 ### Description
 
-Typically we do [**functional testing**][functional-testing] to verify functional aspects of the code, i.e. the correct functioning of code units, and [**non-functional testing**][non-functional-testing] to test the non-functional aspects of the code, such as performance, scalability, security, usability, etc.
+Testing code involves checking whether the software behaves as expected. 
+This process can be divided into two main styles: [**functional testing**][functional-testing] and [**non-functional testing**][non-functional-testing]. 
+Each style addresses different aspects of the software’s performance and quality. 
 
-There are many types of code tests that we can employ to test our code that serve a different purpose:
+#### Functional testing
 
-- [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. Unit tests focus on testing individual functions in isolation ensuring that each small part of the software performs as intended.
-- [**Integration tests**][integration-testing] work at a higher level and test functional paths through your code verifying that different modules work together. For example, given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
-- **End-to-end** or [**system tests**][system-testing] are a special type of integration testing which checks that a program as a whole behaves as expected and tests the complete system to ensure it meets the specified requirements.
-- [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made.
-- [**White-box tests**][white-box-testing] are written knowing the implementation of a code unit, while [**black-box tests**][black-box-testing] are written disregarding the implementation of a code unit.
-- [**Acceptance tests**][acceptance-testing] verify that specific needs and requirements of users and business processes are met. Acceptance critera are defined by users or customers which determine whether to accept the system.
-- [**Performance tests**][performance-testing] execute the system under specific load and determines how the system performs in terms of responsiveness and stability.
-- [**Usability tests**][usability-testing] verify whether a user interface is easy to use and understand. 
-- [**Security tests**][security-testing] verify that the software prevents the intrusion by hackers.
- 
-There are also many different [software testing tactics][software-testing-tactics] to consider.
+Functional testing focuses on verifying functional aspects of the code, i.e. that the software's features and functions work as specified. 
+It ensures that the application behaves according to the requirements and produces the correct outputs for given inputs.
+
+Common types of functional testing include:
+
+- [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. For example, testing a function that calculates the sum of two numbers to confirm it returns the correct value.
+- [**Integration tests**][integration-testing] work at a higher level and test functional paths through your code verifying that different modules or components work together correctly. For example, testing the interaction between a web application’s frontend and backend.
+- **End-to-end** or [**system tests**][system-testing] are a special type of integration testing which checks that the complete application as a whole behaves as expected and all features work and are meeting the specified requirements. For example, testing an entire login workflow, from user input to authentication and redirection to a welcome page tp simulate a real world scenario.
+- [**User acceptance tests**][acceptance-testing] verify that specific needs and requirements of users and business processes are met. Acceptance critera are defined by users or customers which determine whether to accept the system.
+For example: asking end-users to test a new feature before releasing it to a wider audience.
+- [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made. For example: re-running tests after a bug fix to verify that no new issues were introduced.
+
+[Tactics][software-testing-tactics] for functional testing include:
+
+- **Black-box testing** tests the functionality of the software without knowledge of the internal code or structure.
+- **White-box testing** tests with knowledge of the internal workings of the code, focusing on specific paths or conditions.
+
+#### Non-Functional testing
+
+Non-functional testing evaluates the software's quality attributes, such as performance, usability, security, and scalability. 
+It focuses on how well the software operates rather than just checking if it produces the correct outputs.
+
+Some types of non-functional testing are:
+
+- [**Performance tests**][performance-testing] measures how the application performs in terms of responsiveness and stability under various conditions (e.g., load, stress, and volume testing).
+For example testing how many simultaneous users a web application can handle before slowing down or crashing.
+- [**Usability tests**][usability-testing] verify whether a user interface is easy to use and understand. For example observing how users navigate through an app and
+identifying areas that cause confusion.
+- [**Security tests**][security-testing] check for vulnerabilities in the system and ensure data and system are protected from intrusion by hackers.
+For example checking for weak password policies.
+- [**Compatibility tests**][compatibility-testing] ensures the software works across different environments (e.g., browsers, operating systems, devices).
 
 #### Informal testing
 
@@ -207,3 +229,4 @@ If work has been inspired or derived from other content (e.g., pages in RDMKit) 
 [python]: https://www.python.org
 [pytest]: https://docs.pytest.org
 [github-actions-for-python-tests]: https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-python#testing-your-code
+[compatibility-testing]: https://en.wikipedia.org/wiki/Compatibility_testing
