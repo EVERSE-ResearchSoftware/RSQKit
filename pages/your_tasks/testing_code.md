@@ -190,9 +190,9 @@ These frameworks accept list of test cases that need to be executed, execute the
 While manual testing is cost expensive and time consuming, test automation is much more optimized with respect to cost and time efficiency.
 Automation saves not only time in the mid- and long-term but also renders the test process less error prone.
 
-[Continuous Integration (CI)][continuous-integration] is the process of integrating code changes into the mainline of your repository early and often and thereby the integration machine also execute steps like building and testing the software.
+[Continuous Integration (CI)][continuous-integration] is the process of integrating code changes into the mainline of your repository early and often and thereby the integration machine also executes steps like building and testing the software.
 Testing has always been an integral part and widely accepted use case of CI.
-Testing in a CI pipeline goes one step further compared to the use of test automation frameworks.
+Testing in a CI pipeline goes one step further compared to the ad-hoc use of test automation frameworks.
 Beside executing the test automation framework manually and locally, CI determines when and how to execute our test cases automatically and runs them on an integration machine.
 For example, as soon as a commit is pushed or a merge to the default branch is done the integration machine will start a CI pipeline and execute the test cases and report the test results in the so-called CI job log.
 Popular examples of CI infrastructure are [GitHub Actions][github-actions] and [GitLab CI/CD][gitlab-ci-cd].
@@ -201,12 +201,34 @@ Popular examples of CI infrastructure are [GitHub Actions][github-actions] and [
 
 Benefits of using automated testing frameworks:
 
-- Improved test efficiency and develoment speed - it allows for the quick execution of repetitive and complex test cases, significantly speeding up the testing process compared to manual or informal
-testing and increasing the pace with which the software is developed
-- Lower maintenance costs - it enables early error detection so less develooment time is spent on debugging and fixing errors in code
+- Improved test efficiency and develoment speed - it allows for the quick execution of repetitive and complex test cases, significantly speeding up the testing process compared to manual or informal testing and increasing the pace with which the software is developed.
+- Lower maintenance costs - it enables early error detection so less development time is spent on debugging and fixing errors in code.
 - Minimal manual intervention - it automates repetitive test cases and reduces the amount of manual testing effort required. This frees up developers' time to focus on more complex scenarios, exploratory testing, or new feature development.
 - Maximum test coverage - it enables the execution of a large number of test cases, including various test scenarios, edge cases and configurations (operating systems, environments, platforms, etc.) that would be difficult to cover with manual testing.
 - Increased reusability of code - it reduces the effort required to write new test scripts for similar test cases and promotes a modular approach to testing.
+
+[**Test Patterns**][test-patterns] describe good practices that can be applied to your test automation as well as test cases. 
+Here are a few examples of these principles:
+
+- *Fully Automated*:
+  - To make most use of test automation it is the best idea to fully automate the testing, so that no manual steps are involved.
+- *Self-Checking*:
+  - Everything that is needed to compare the actual output with the predictied output is encoded in the test.
+- *Repeatable Test*:
+  - Each run of a test should result in the same output given the same input.
+- *Robust Test*:
+  - As the test base grows we try to minimize the impact of a change in one test case on other test cases and thereby minimize the overlap between the tests.
+  - We also ensure that the test environment does not impact our tests by isolating the system under test (SUT) from the environment as much as possible.
+- *Simple Test*:
+  - Keep the tests small and they should test only one thing at a time.
+- *Expressive Tests*:
+  - Tests should be as expressive as possible, so that they are easily understood.
+- *Do No Harm*:
+  - Tests should not do harm and introduce risks that's why we must not add tests to the production environment, they should only be added to the test environment.
+- *Verify One Condition per Test*:
+  - Tests need to be focused and to make them better understood they should only verify one condition per test.
+- *Keep Tests Indepdentend*:
+  - Tests must not interact and influence each other, they need to be independent.
 
 ### Solutions
 
@@ -257,3 +279,4 @@ To be added.
 [gitlab-ci-cd]: https://docs.gitlab.com/ee/topics/build_your_application.html
 [pytest]: https://docs.pytest.org/en/stable/
 [testthat]: https://testthat.r-lib.org/
+[test-patterns]: http://xunitpatterns.com/
