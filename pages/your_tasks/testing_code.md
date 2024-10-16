@@ -182,20 +182,36 @@ Automated testing involves using special testing frameworks (e.g. RTest for R, P
 - Use automated testing tools and frameworks (e.g. RTest for R, Pytest for Python, JUnit for Java) to run tests frequently and consistently - automating repetitive tests saves time and ensures tests are run consistently across different environments.
 - Maintain a balance between automated and manual testing; use manual testing for exploratory or usability testing where human judgment is essential.
 - Aim for high code coverage (percentage of the code that is tested) to reduce the likelihood of undetected bugs, but avoid focusing solely on achieving 100% coverage as some code may not be relevant to test (e.g. built-in functions for your programming language or functions imported from well-known and well-tested libraries) and test coverage of 100% does not mean that your code is bug-free. Prioritise testing of critical paths through your code, complex logic, edge cases, and parts of our code that carry the greatest “reputational risk”, i.e. that could affect the accuracy of your reported results.
-- Write clear, understandable and independent tests - ensure test cases are easy to understand and maintain, use descriptive names for test functions and methods that clearly convey their purpose, and make each test independent (tests should not rely on the results or state of other tests to function correctly)
-- Consider [**Software Testing Tactics**][software-testing-tactics] - choosing the right software testing tactics for your software and software quality criteria is essential for improving the software quality of your software
+- Write clear, understandable and independent tests - ensure test cases are easy to understand and maintain, use descriptive names for test functions and methods that clearly convey their purpose, and make each test independent (tests should not rely on the results or state of other tests to function correctly).
+- Consider [**Software Testing Tactics**][software-testing-tactics] - choosing the right software testing tactics for your software and software quality criteria is essential for improving the software quality of your software.
 
 
 ## How do we automate code testing?
 
 ### Description 
 
+In test automation we usually use [test automation frameworks][test-automation-frameworks] to let the computer execute our test cases, in contrast to [manual testing][manual-testing] in which a human being is executing test cases manually.
+These frameworks accept list of test cases that need to be executed, execute them, compare the actual output by the required output and summarize the test results.
+While manual testing is cost expensive and time consuming, test automation is much more optimized with respect to cost and time efficiency.
+Automation saves not only time in the mid- and long-term but also renders the test process less error prone.
+[Continuous Integration (CI)][continuous-integration] is the process of integrating code changes into the mainline of your repository early and often and thereby the integration machine also execute steps like building and testing the software.
+Testing has always been an integral part and widely accepted use case of CI.
+Testing in a CI pipeline goes one step further compared to the use of test automation frameworks.
+Beside executing the test automation framework manually and locally, CI determines when and how to execute our test cases automatically and runs them on an integration machine.
+For example, as soon as a commit is pushed or a merge to the default branch is done the integration machine will start a CI pipeline and execute the test cases and report the test results in the so-called CI job log.
+Popular examples of CI infrastructure are [GitHub Actions][github-actions] and [GitLab CI/CD][gitlab-ci-cd].
+
 ### Considerations 
+
+- Make sure your test process is cost and time efficient.
+- Do not try to test exhaustively bacause it is impossible to test everything.
+- Utilize test automation frameworks to ease the process of executing test cases.
+- Use CI for fully automating the code testing process.
 
 ### Solutions
 
 - [**Testing Frameworks**][test-automation]
-  - Test automation frameworks are utilized to control the execution of tests and the comparison of actual outcomes with predicted outcomes.
+  - Test automation frameworks are utilized to control the execution of test, the comparison of actual outcomes with predicted outcomes, and also the reporting of the test results back to the user.
 - [**Continuous Integration**][continuous-integration]
   - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.
 
@@ -227,5 +243,8 @@ If work has been inspired or derived from other content (e.g., pages in RDMKit) 
 [compatibility-testing]: https://en.wikipedia.org/wiki/Compatibility_testing
 [test-driven-development]: https://en.wikipedia.org/wiki/Test-driven_development
 [test-automation]: https://en.wikipedia.org/wiki/Test_automation
+[test-automation-frameworks]: https://en.wikipedia.org/wiki/Test_automation#Framework_approach_in_automation
+[manual-testing]: https://en.wikipedia.org/wiki/Manual_testing
 [continuous-integration]: https://en.wikipedia.org/wiki/Continuous_integration
-
+[github-actions]: https://docs.github.com/en/actions
+[gitlab-ci-cd]: https://docs.gitlab.com/ee/topics/build_your_application.html
