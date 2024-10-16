@@ -110,35 +110,38 @@ if the software needs to run on multiple platforms, perform compatibility testin
 - [Software testing][software-testing] - a specific activity within the Software Quality Assurance process that involves evaluating software to identify discrepancies between expected and actual behavior and testing code to find and fix defects. Using both functional and non-functional tests in combination to ensure not only that the software functions correctly and according to its specification but also performs well, is secure, and offers a good user experience.
 - **Quality Gates** - in software development these are predefined checkpoints or criteria that code or software must meet before moving to the next phase in the development lifecycle. They act as "gates" or approval points that help ensure quality at each stage of the development process. If the software fails to meet the requirements of a quality gate, it is not allowed to proceed, and corrective actions are needed.
 
-
-### Solutions
-
--  
-
 ## How do we test our code?
 
 #### Informal testing
 
-Informal testing is performed by a person who checks the functionality by manually executing the test cases.
+Informal testing is performed by a person who checks the functionality by manually executing the test cases which are then often discarded.
+It is usually done ad-hoc and without any structured approach - for checking new features or fixes quickly.
 For example, by running one function or a piece of code at a time and checking that they behave as expected. 
 As input to our code/function we are testing, we typically use some input values for which we know what the correct return value should be.
 
 We can and should extensively test our software manually - it is quick, easy and provides immediate feedback, and is particularly useful as we draft our code for the first time.
 Manual testing is also well-suited to testing aspects such as graphical user interfaces and reconciling visual outputs against inputs. 
-However, even with a good test plan, manual testing is prone to error, is very time consuming and suffers from certain other limitations:
+However, even with a good test plan, informal and manual testing is prone to error, is very time consuming and suffers from certain other limitations:
 
 - We must reload our functions and repeat our tests each time we change our code
 - We must rely on memory to keep track of how we have tested our code, e.g. what input values we tried
 - We must rely on memory to keep track of which functions (parts of the code) have been tested and which have not (informal testing may work well on smaller pieces of code but it becomes unpractical for a large codebase)
 - Once we close our development environment, we lose all the manual test scenarios we have tried
 
-#### Writing formal test functions
+#### Writing test functions
 
-Another (better) style of testing is write specific test functions or scripts for parts of our software which can be repeatedly executed. 
-
+A better way of testing code is writing specific test functions or scripts for parts of our software which can then be repeatedly executed manually (but also automated to a large extent).
 Since computers are very good and efficient at automating repetitive tasks, we should take advantage of this wherever possible.
+Unlike with informal testing, these test functions are saved as part of our codebase (and easily be re-run) and shared alongside our code for others to use.
 
-#### Automated testing with testing frameworks
+This is a much better approach as our test cases are documented in these test functions and can also be treated as a form of documentation and help others with understanding how our code is meant to work.
+If our code changes - it is now much easier to change our test functions, compared to remembering everything we tested informally.
+
+We can take this approach one step further by writing a test suite for our code as part of a testing framework - a set of tools used to fully automate the process of running tests and further 
+reduce the risk of human error. 
+The use of a testing framework becomes particuarly important if your code grows beyond a single script.
+
+#### Use testing frameworks to automate testing
 
 Automated testing involves using special testing frameworks (e.g. RTest for R, Pytest for Python, JUnit for Java) to automatically execute all test cases and run tests frequently and consistently.
 
