@@ -2,7 +2,7 @@
 title: Testing Code
 search_exclude: false
 description: Explains useful aspects about why and how to test code.
-contributors: ["Aleksandra Nenadic", "Christian Hüser", "Fredo Erxleben"]
+contributors: ["Aleksandra Nenadic", "Christian Hüser"]
 page_id: testing_code
 related_pages: []
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
@@ -184,20 +184,6 @@ Automated testing involves using special testing frameworks (e.g. RTest for R, P
 - [**Continuous Integration**][continuous-integration]
   - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.
 
-## How do we automate tests of a Python application?
-
-### Description 
-
-### Considerations 
-
-### Solutions
-
-- [**Test Automation of Python applications with Pytest**][pytest]
-  - Pytest is a popular test framework for [Python][python] applications.
-- [**Continuous Testing of a Python application with GitHub Actions**][github-actions-for-python-tests]
-  - GitHub Actions can be used to automate your software tests that utilize Pytest as the test framework for a Python application.
-  - Your Pytest software tests are executed in a GitHub Actions CI pipeline and the results and feedback can be inspected in the CI job log.
-
 ## How to cite this page
 
 To be added.
@@ -223,10 +209,8 @@ If work has been inspired or derived from other content (e.g., pages in RDMKit) 
 [performance-testing]: https://en.wikipedia.org/wiki/Software_performance_testing
 [usability-testing]: https://en.wikipedia.org/wiki/Usability_testing
 [security-testing]: https://en.wikipedia.org/wiki/Security_testing
+[compatibility-testing]: https://en.wikipedia.org/wiki/Compatibility_testing
 [test-driven-development]: https://en.wikipedia.org/wiki/Test-driven_development
 [test-automation]: https://en.wikipedia.org/wiki/Test_automation
 [continuous-integration]: https://en.wikipedia.org/wiki/Continuous_integration
-[python]: https://www.python.org
-[pytest]: https://docs.pytest.org
-[github-actions-for-python-tests]: https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-python#testing-your-code
-[compatibility-testing]: https://en.wikipedia.org/wiki/Compatibility_testing
+
