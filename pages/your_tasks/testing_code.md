@@ -31,7 +31,7 @@ Key aspects of code testing include:
 
 ### Solutions
 
--  Use various [software testing](./index.html#how-do-we-test-our-code) methods and tools to ensure that your software functions in a way that is intended and defined by its specification.
+-  Use various [software testing](#how-do-we-test-our-code) methods and tools to ensure that your software functions in a way that is intended and defined by its specification.
 
 ## Why is it important to test our code?
 
