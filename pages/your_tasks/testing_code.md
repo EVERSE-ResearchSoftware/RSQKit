@@ -125,7 +125,7 @@ if the software needs to run on multiple platforms, perform compatibility testin
 ### Solutions
 
 - Write tests early and often - begin testing as early as possible in the development process as writing tests alongside code development helps catch defects sooner and reduces the cost of fixing them.
-- Use a combination of testing types, if possible, but at least use unit testing to test individual functions or methods of your code in isolation to ensure they perform as expected.
+- Use a combination of test types, if possible, but at least use unit testing to test individual functions or methods of your code in isolation to ensure they perform as expected.
 - Maintain a balance between automated and manual testing; use manual testing for exploratory or usability testing where human judgment is essential.
 - Consider [**software testing tactics**][software-testing-tactics] - choosing the right software testing tactics for your software and software quality criteria is essential for improving the software quality of your software.
 - [**Software Quality Assurance**][software-quality-assurance] - a comprehensive and systematic process that ensures the quality of the overall software develoment process by monitoring its development, testing, and maintenance and ensures that the final software product meets the specified requirements and quality standards.
@@ -133,6 +133,8 @@ if the software needs to run on multiple platforms, perform compatibility testin
 - **Quality Gates** - in software development these are predefined checkpoints or criteria that code or software must meet before moving to the next phase in the development lifecycle. They act as "gates" or approval points that help ensure quality at each stage of the development process. If the software fails to meet the requirements of a quality gate, it is not allowed to proceed, and corrective actions are needed.
 
 ## How do we test our code?
+
+### Description
 
 #### Informal testing
 
@@ -167,10 +169,13 @@ The use of a testing framework becomes particuarly important if your code grows 
 
 Automated testing involves using special testing frameworks (e.g. RTest for R, Pytest for Python, JUnit for Java) to automatically execute all test cases and run tests frequently and consistently.
 
-#### Considerations/Solutions
+#### Considerations
+
+#### Solutions
+
+- Write clear, understandable and independent tests - ensure test cases are easy to understand and maintain, use descriptive names for test functions and methods that clearly convey their purpose, and make each test independent (tests should not rely on the results or state of other tests to function correctly).
 - Use automated testing tools and frameworks (e.g. RTest for R, Pytest for Python, JUnit for Java) to run tests frequently and consistently - automating repetitive tests saves time and ensures tests are run consistently across different environments.
 - Aim for high code coverage (percentage of the code that is tested) to reduce the likelihood of undetected bugs, but avoid focusing solely on achieving 100% coverage as some code may not be relevant to test (e.g. built-in functions for your programming language or functions imported from well-known and well-tested libraries) and test coverage of 100% does not mean that your code is bug-free. Prioritise testing of critical paths through your code, complex logic, edge cases, and parts of our code that carry the greatest “reputational risk”, i.e. that could affect the accuracy of your reported results.
-- Write clear, understandable and independent tests - ensure test cases are easy to understand and maintain, use descriptive names for test functions and methods that clearly convey their purpose, and make each test independent (tests should not rely on the results or state of other tests to function correctly).
 
 
 ## How do we automate code testing?
