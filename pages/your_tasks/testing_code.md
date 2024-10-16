@@ -65,11 +65,25 @@ Having well-defined tests for our software is crucial for several reasons, as it
 
 ### Description
 
-There are many different [software testing tactics][software-testing-tactics].
+Typically we do [**functional testing**][functional-testing] to verify functional aspects of the code, i.e. the correct functioning of code units, and [**non-functional testing**][non-functional-testing] to test the non-functional aspects of the code, such as performance, scalability, security, usability, etc.
 
-#### Manual testing
+There are many types of code tests that we can employ to test our code that serve a different purpose:
 
-Manual (or informal) testing is performed by a person who checks the functionality by manually executing the test cases.
+- [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. Unit tests focus on testing individual functions in isolation ensuring that each small part of the software performs as intended.
+- [**Integration tests**][integration-testing] work at a higher level and test functional paths through your code verifying that different modules work together. For example, given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
+- **End-to-end** or [**system tests**][system-testing] are a special type of integration testing which checks that a program as a whole behaves as expected and tests the complete system to ensure it meets the specified requirements.
+- [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made.
+- [**White-box tests**][white-box-testing] are written knowing the implementation of a code unit, while [**black-box tests**][black-box-testing] are written disregarding the implementation of a code unit.
+- [**Acceptance tests**][acceptance-testing] verify that specific needs and requirements of users and business processes are met. Acceptance critera are defined by users or customers which determine whether to accept the system.
+- [**Performance tests**][performance-testing] execute the system under specific load and determines how the system performs in terms of responsiveness and stability.
+- [**Usability tests**][usability-testing] verify whether a user interface is easy to use and understand. 
+- [**Security tests**][security-testing] verify that the software prevents the intrusion by hackers.
+ 
+There are also many different [software testing tactics][software-testing-tactics] to consider.
+
+#### Informal testing
+
+Informal testing is performed by a person who checks the functionality by manually executing the test cases.
 For example, by running one function or a piece of code at a time and checking that they behave as expected. 
 As input to our code/function we are testing, we typically use some input values for which we know what the correct return value should be.
 
@@ -82,31 +96,15 @@ However, even with a good test plan, manual testing is prone to error, is very t
 - We must rely on memory to keep track of which functions (parts of the code) have been tested and which have not (informal testing may work well on smaller pieces of code but it becomes unpractical for a large codebase)
 - Once we close our development environment, we lose all the manual test scenarios we have tried
 
-Another style of testing is automated testing, where we write code that tests the functions of our software and stays and can be shared together with our software. 
+#### Writing formal test functions
+
+Another (better) style of testing is write specific test functions or scripts for parts of our software which can be repeatedly executed. 
+
 Since computers are very good and efficient at automating repetitive tasks, we should take advantage of this wherever possible.
 
-#### Automated testing
+#### Automated testing with testing frameworks
 
-Automated testing involves using tools or scripts to execute test cases. 
-They can be further automated by using automated testing tools and frameworks (e.g., JUnit, pytest, Selenium) to run tests frequently and consistently.
-
-There are three main types of automated tests:
-
-- [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. Unit tests focus on testing individual functions in isolation ensuring that each small part of the software performs as intended.
-- [**Integration tests**][integration-testing] work at a higher level and test functional paths through your code verifying that different modules work together. For example, given some specific inputs, a set of interconnected functions across a number of modules (or the entire code) produce the expected result. These are particularly useful for exposing faults in how functional units interact.
-- **End-to-end** or [**system tests**][system-testing] are a special type of integration testing which checks that a program as a whole behaves as expected and tests the complete system to ensure it meets the specified requirements.
-
-#### Other Software Testing Tactics
-
-There are many other software testing tactics beside manual and automated testing.
-A few examples are the following:
-- [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made.
-- [**Functional tests**][functional-testing] verify functional aspects of the code, i.e. the correct functioning of some code unit, while [**non-functional tests**][non-functional-testing] refer to the non-functional aspects of the code, e.g. performance, scalability, security, usability, etc.
-- [**White-box tests**][white-box-testing] are written knowing the implementation of a code unit, while [**black-box tests**][black-box-testing] are written disregarding the implementation of a code unit.
-- [**Acceptance tests**][acceptance-testing] verify that specific needs and requirements of users and business processes are met. Acceptance critera are defined by users or customers which determine whether to accept the system.
-- [**Performance tests**][performance-testing] execute the system under specific load and determines how the system performs in terms of responsiveness and stability.
-- [**Usability tests**][usability-testing] verify whether a user interface is easy to use and understand. 
-- [**Security tests**][security-testing] verify that the software prevents the intrusion by hackers.
+Automated testing involves using special testing frameworks (e.g. RTest for R, Pytest for Python, JUnit for Java) to automatically execute all test cases and run tests frequently and consistently.
 
 ### Considerations
 
