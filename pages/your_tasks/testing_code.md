@@ -17,7 +17,7 @@ training:
 
 ### Description
 
-Code testing is the process of evaluating software code to identify errors or issues, ensuring that the software behaves as expected. 
+Code or [**software testing**][software-testing] is the process of evaluating software code to identify errors or issues, ensuring that the software behaves as expected. 
 It is an essential part of software development, aiming to verify that the code functions correctly, meets specified requirements, and performs as intended in various scenarios.
 
 ### Considerations
@@ -31,7 +31,7 @@ Key aspects of code testing include:
 
 ### Solutions
 
-- Various [**software testing**][software-testing] methods and tools to ensure that your software functions in a way that is intended and defined by its specification.
+-  Use various [software testing][./index.html#] methods and tools to ensure that your software functions in a way that is intended and defined by its specification.
 
 ## Why is it important to test our code?
 
