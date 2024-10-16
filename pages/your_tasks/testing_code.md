@@ -108,31 +108,19 @@ if the software needs to run on multiple platforms, perform compatibility testin
   Tests are written just before writing the code that make the tests pass.
   By following this approach the software is written in and refactored into small testable units right from the start.
 - The **F.I.R.S.T. Principles of Testing** describe beneficial properties of software tests:
-  - *Fast*:
-    - Tests should run fast to ensure rapid feedback to detect errors fast and early.
-  - *Isolated/Independent*:
-    - Tests should focus on one particular responsibility or aspect in a software unit, other factors should not influence the result of the tests.
-  - *Repeatable*:
-    - Tests should be repeatable and deterministic. The result should not change with different environments.
-  - *Self-validating/Self-checking*:
-    - Tests should be automated and no manual steps should be made to check the test results. 
-  - *Thorough/Timely*:
-    - Tests should not only test the happy paths and not only aim for 100% of statement coverage. On the other hand, tests should be written at the right point in time and according to the Test-First Policy.
+  - *Fast*: tests should run fast to ensure rapid feedback to detect errors fast and early.
+  - *Isolated/Independent*: tests should focus on one particular responsibility or aspect in a software unit, other factors should not influence the result of the tests.
+  - *Repeatable*: tests should be repeatable and deterministic. The result should not change with different environments.
+  - *Self-validating/Self-checking*: tests should be automated and no manual steps should be made to check the test results. 
+  - *Thorough/Timely*: tests should not only test the happy paths and not only aim for 100% of statement coverage. On the other hand, tests should be written at the right point in time and according to the Test-First Policy.
 - There are fundamental principles such as the **Software Testing Principles** that every tester should be aware of:
-  - *Testing shows the presence of defects*:
-    - On contrary, it does not show the absence of defects.
-  - *Exhaustive Testing is not possible*:
-    - In order to test all paths and states in a moderately large or complex software, you might be inclined to test all paths and states. This would most probably result in an almost close to infinite number of test cases, which renders this task impossible.
-  - *Early Testing*:
-    - Tests should be run early and often to give rapid feedback.
-  - *Defect Clustering*:
-    - Often defects tend to occur in clusters which means if you found a defect in one particular unit, it is very likely that you will find more defects there.
-  - *Pesticide Paradox*:
-    - Running the same tests abundantly will not give any further insights. It is important to add new test cases in order to find new defects.
-  - *Testing is Context-Dependent*:
-    - Depending on the software type, different software test approaches might be appropriate.
-  - *Absence of Errors Fallacy*:
-    - There is no moderately large or complex software without defects.
+  - *Testing shows the presence of defects*: - on the contrary, it does not show the absence of defects.
+  - *Exhaustive Testing is not possible*: in order to test all paths and states in a moderately large or complex software, you might be inclined to test all paths and states. This would most probably result in an almost close to infinite number of test cases, which renders this task impossible.
+  - *Early Testing*: tests should be run early and often to give rapid feedback.
+  - *Defect Clustering*: often defects tend to occur in clusters which means if you found a defect in one particular unit, it is very likely that you will find more defects there.
+  - *Pesticide Paradox*: running the same tests abundantly will not give any further insights. It is important to add new test cases in order to find new defects.
+  - *Testing is Context-Dependent*: depending on the software type, different software test approaches might be appropriate.
+  - *Absence of Errors Fallacy*: there is no moderately large or complex software without defects.
 
 ### Solutions
 
