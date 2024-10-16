@@ -17,7 +17,7 @@ training:
 
 ### Description
 
-Code or [**software testing**][software-testing] is the process of evaluating code to identify errors or issues, ensuring that the software behaves as expected. 
+[**Code testing**][software-testing] is the process of evaluating code to identify errors or issues, ensuring that the software behaves as expected. 
 It is an essential part of software development, aiming to verify that the code functions correctly, meets specified requirements, and performs as intended in various scenarios.
 
 ### Considerations
