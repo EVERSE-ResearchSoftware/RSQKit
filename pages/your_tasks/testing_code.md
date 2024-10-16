@@ -159,7 +159,7 @@ A few examples are the following:
 
 ### Solutions
 
-- [**Test Automation**][test-automation]
+- [**Testing Frameworks**][test-automation]
   - Test automation frameworks are utilized to control the execution of tests and the comparison of actual outcomes with predicted outcomes.
 - [**Continuous Integration**][continuous-integration]
   - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.
