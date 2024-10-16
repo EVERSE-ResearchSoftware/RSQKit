@@ -229,7 +229,7 @@ To be added.
 
   
 ## References <!-- do not delete this heading and write your text below it -->
-If work has been inspired or derived from other content (e.g., pages in RDMKit) make sure to reference it here. 
+
 
 [software-testing]: https://en.wikipedia.org/wiki/Software_testing
 [software-quality-assurance]: https://en.wikipedia.org/wiki/Software_quality_assurance
