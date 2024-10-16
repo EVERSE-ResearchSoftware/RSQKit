@@ -87,7 +87,8 @@ Since computers are very good and efficient at automating repetitive tasks, we s
 
 #### Automated testing
 
-Automated testing involves using tools or scripts to execute test cases automatically.
+Automated testing involves using tools or scripts to execute test cases. 
+They can be further automated by using automated testing tools and frameworks (e.g., JUnit, pytest, Selenium) to run tests frequently and consistently.
 
 There are three main types of automated tests:
 
