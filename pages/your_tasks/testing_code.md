@@ -29,10 +29,6 @@ Key aspects of code testing include:
 - Ensuring quality: testing verifies that the software meets the quality standards.
 - Improving code: testing helps developers refactor code and optimise it by identifying parts that can be improved.
 
-### Solutions
-
--  Use various [software testing](#how-do-we-test-our-code) methods and tools to ensure that your software functions in a way that is intended and defined by its specification.
-
 ## Why is it important to test our code?
 
 ### Description
@@ -56,19 +52,14 @@ Having well-defined tests for our software is crucial for several reasons, as it
 - Software testing improves the reusability of our code - well-written software tests capture the expected behaviour of our code and can be used alongside documentation to help other developers quickly make sense of our code. In addition, a well-tested codebase allows developers to experiment with new features safe in the knowledge that tests will reveal if their changes have broken any existing functionality.
 - Software testing underpins the FAIR practices and improves software quality by giving us the confidence to engage in open research practices - if we are not sure that our code works as intended and produces accurate results, we are unlikely to feel confident about sharing our code with others.
 
-### Solutions
-
-- [**Software Quality Assurance**][software-quality-assurance] - a comprehensive and systematic process that ensures the quality of the overall software develoment process by monitoring its development, testing, and maintenance and ensures that the final software product meets the specified requirements and quality standards.
-- [Software testing][software-testing] - a specific activity within the Software Quality Assurance process that involves evaluating software to identify discrepancies between expected and actual behavior and testing code to find and fix defects.
-- **Quality Gates** - in software development these are predefined checkpoints or criteria that code or software must meet before moving to the next phase in the development lifecycle. They act as "gates" or approval points that help ensure quality at each stage of the development process. If the software fails to meet the requirements of a quality gate, it is not allowed to proceed, and corrective actions are needed.
-
-## How do we test our code?
+## What types of software tests exist? 
 
 ### Description
 
-Testing code involves checking whether the software behaves as expected. 
-This process can be divided into two main styles: [**functional testing**][functional-testing] and [**non-functional testing**][non-functional-testing]. 
-Each style addresses different aspects of the software’s performance and quality. 
+As we have already seen, testing code involves checking whether it behaves as expected. 
+There are two main types of testing: [**functional testing**][functional-testing] and [**non-functional testing**][non-functional-testing]. 
+Each type addresses different aspects of the software’s performance and quality and can be achieved via different tests. 
+Both need to be used when testing our software.
 
 #### Functional testing
 
@@ -103,6 +94,28 @@ identifying areas that cause confusion.
 - [**Security tests**][security-testing] check for vulnerabilities in the system and ensure data and system are protected from intrusion by hackers.
 For example checking for weak password policies.
 - [**Compatibility tests**][compatibility-testing] ensures the software works across different environments (e.g., browsers, operating systems, devices).
+- [**Compliance with standards tests**] are used if the software needs to meet certain regulatory or quality standards (e.g., accessibility standards for web applications).
+
+### Considerations
+
+Which tests should you use?
+
+- Start with functional testing - this is typically done first to ensure that all the features work correctly according to the requirements. Functional testing is essential for any software, regardless of its type or usage.
+- Add non-functional testing based on requirements - e.g. if the software needs to handle many users or heavy traffic, consider performance and load testing; if user experience is important, run usability testing;
+if the software needs to run on multiple platforms, perform compatibility testing.
+
+### Solutions
+
+- [**Software Quality Assurance**][software-quality-assurance] - a comprehensive and systematic process that ensures the quality of the overall software develoment process by monitoring its development, testing, and maintenance and ensures that the final software product meets the specified requirements and quality standards.
+- [Software testing][software-testing] - a specific activity within the Software Quality Assurance process that involves evaluating software to identify discrepancies between expected and actual behavior and testing code to find and fix defects. Using both functional and non-functional tests in combination to ensure not only that the software functions correctly and according to its specification but also performs well, is secure, and offers a good user experience.
+- **Quality Gates** - in software development these are predefined checkpoints or criteria that code or software must meet before moving to the next phase in the development lifecycle. They act as "gates" or approval points that help ensure quality at each stage of the development process. If the software fails to meet the requirements of a quality gate, it is not allowed to proceed, and corrective actions are needed.
+
+
+### Solutions
+
+-  
+
+## How do we test our code?
 
 #### Informal testing
 
@@ -171,6 +184,7 @@ Automated testing involves using special testing frameworks (e.g. RTest for R, P
 - Aim for high code coverage (percentage of the code that is tested) to reduce the likelihood of undetected bugs, but avoid focusing solely on achieving 100% coverage as some code may not be relevant to test (e.g. built-in functions for your programming language or functions imported from well-known and well-tested libraries) and test coverage of 100% does not mean that your code is bug-free. Prioritise testing of critical paths through your code, complex logic, edge cases, and parts of our code that carry the greatest “reputational risk”, i.e. that could affect the accuracy of your reported results.
 - Write clear, understandable and independent tests - ensure test cases are easy to understand and maintain, use descriptive names for test functions and methods that clearly convey their purpose, and make each test independent (tests should not rely on the results or state of other tests to function correctly)
 - Consider [**Software Testing Tactics**][software-testing-tactics] - choosing the right software testing tactics for your software and software quality criteria is essential for improving the software quality of your software
+
 
 ## How do we automate code testing?
 
