@@ -165,7 +165,7 @@ The use of a testing framework becomes particuarly important if your code grows 
 
 #### Use testing frameworks to automate testing
 
-Automated testing involves using special testing frameworks (e.g. RTest for R, Pytest for Python, JUnit for Java) to automatically execute all test cases and run tests frequently and consistently.
+Automated testing involves using special testing frameworks (e.g. testthat for R, Pytest for Python, JUnit for Java) to automatically execute all test cases and run tests frequently and consistently.
 A testing framework is a set of guidelines or rules used for creating and designing test cases together with tools that are designed to help run test more efficiently.
 
 Testing frameworks typically automatically discover tests based on specific file and function naming patterns (e.g. they look for files or functions that start with “test_” or end with “_test”).
@@ -222,8 +222,12 @@ testing and increasing the pace with which the software is developed
 To be added.
 
 ## Tools and resources <!-- do not delete this heading and write your text below it -->
-List of relevant tools and resources for this task.
 
+- [Python testing framework Pytest][pytest]
+- [Unit Testing for R - testthat][testthat]
+- [GitHub Actions CI infrastructure][github-actions]
+
+  
 ## References <!-- do not delete this heading and write your text below it -->
 If work has been inspired or derived from other content (e.g., pages in RDMKit) make sure to reference it here. 
 
@@ -250,3 +254,5 @@ If work has been inspired or derived from other content (e.g., pages in RDMKit) 
 [continuous-integration]: https://en.wikipedia.org/wiki/Continuous_integration
 [github-actions]: https://docs.github.com/en/actions
 [gitlab-ci-cd]: https://docs.gitlab.com/ee/topics/build_your_application.html
+[pytest]: https://docs.pytest.org/en/stable/
+[testthat]: https://testthat.r-lib.org/
