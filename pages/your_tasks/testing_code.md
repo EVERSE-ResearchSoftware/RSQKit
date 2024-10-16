@@ -83,7 +83,7 @@ Common types of functional testing include:
 For example: asking end-users to test a new feature before releasing it to a wider audience.
 - [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made. For example: re-running tests after a bug fix to verify that no new issues were introduced.
 
-[Tactics][software-testing-tactics] for functional testing include:
+Some [software testing tactics][software-testing-tactics] for functional testing include:
 
 - **Black-box testing** tests the functionality of the software without knowledge of the internal code or structure.
 - **White-box testing** tests with knowledge of the internal workings of the code, focusing on specific paths or conditions.
