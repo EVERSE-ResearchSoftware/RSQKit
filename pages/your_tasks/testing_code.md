@@ -165,9 +165,24 @@ The use of a testing framework becomes particuarly important if your code grows 
 
 #### Use testing frameworks to automate testing
 
+### Description
+
 Automated testing involves using special testing frameworks (e.g. RTest for R, Pytest for Python, JUnit for Java) to automatically execute all test cases and run tests frequently and consistently.
+A testing framework is a set of guidelines or rules used for creating and designing test cases together with tools that are designed to help run test more efficiently.
+
+Testing frameworks typically automatically discover tests based on specific file and function naming patterns (e.g. they look for files or functions that start with “test_” or end with “_test”).
+Such test files are typically located in a special sub-folder (e.g. called `tests`) within a software project, and are version controlled and shared along with the rest of the code.
 
 #### Considerations
+
+Benefits of using a testing framework:
+
+- Improved test efficiency and develoment speed - it allows for the quick execution of repetitive and complex test cases, significantly speeding up the testing process compared to manual or informal
+testing and increasing the pace with which the software is developed
+- Lower maintenance costs - it enables early error detection so less develooment time is spent on debugging and fixing errors in code
+- Minimal manual intervention - it automates repetitive test cases and reduces the amount of manual testing effort required. This frees up developers' time to focus on more complex scenarios, exploratory testing, or new feature development.
+- Maximum test coverage - it enables the execution of a large number of test cases, including various test scenarios, edge cases and configurations that would be difficult to cover with manual testing.
+- Increased reusability of code - it reduces the effort required to write new test scripts for similar test cases and promotes a modular approach to testing.
 
 #### Solutions
 
