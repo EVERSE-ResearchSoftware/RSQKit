@@ -94,7 +94,7 @@ identifying areas that cause confusion.
 - [**Security tests**][security-testing] check for vulnerabilities in the system and ensure data and system are protected from intrusion by hackers.
 For example checking for weak password policies.
 - [**Compatibility tests**][compatibility-testing] ensures the software works across different environments (e.g., browsers, operating systems, devices).
-- [**Compliance with standards tests**] are used if the software needs to meet certain regulatory or quality standards (e.g., accessibility standards for web applications).
+- **Compliance with standards tests** are used if the software needs to meet certain regulatory or quality standards (e.g., accessibility standards for web applications).
 
 ### Considerations
 
