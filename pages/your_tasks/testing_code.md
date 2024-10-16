@@ -199,16 +199,14 @@ Popular examples of CI infrastructure are [GitHub Actions][github-actions] and [
 
 ### Considerations 
 
-Benefits of using a testing framework:
+Benefits of using automated testing frameworks:
 
 - Improved test efficiency and develoment speed - it allows for the quick execution of repetitive and complex test cases, significantly speeding up the testing process compared to manual or informal
 testing and increasing the pace with which the software is developed
 - Lower maintenance costs - it enables early error detection so less develooment time is spent on debugging and fixing errors in code
 - Minimal manual intervention - it automates repetitive test cases and reduces the amount of manual testing effort required. This frees up developers' time to focus on more complex scenarios, exploratory testing, or new feature development.
-- Maximum test coverage - it enables the execution of a large number of test cases, including various test scenarios, edge cases and configurations that would be difficult to cover with manual testing.
+- Maximum test coverage - it enables the execution of a large number of test cases, including various test scenarios, edge cases and configurations (operating systems, environments, platforms, etc.) that would be difficult to cover with manual testing.
 - Increased reusability of code - it reduces the effort required to write new test scripts for similar test cases and promotes a modular approach to testing.
-
-Also utilise the CI infrastructure for fully automating the code testing process.
 
 ### Solutions
 
