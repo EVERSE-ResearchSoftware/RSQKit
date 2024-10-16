@@ -226,6 +226,7 @@ To be added.
 - [Python testing framework Pytest][pytest]
 - [Unit Testing for R - testthat][testthat]
 - [GitHub Actions CI infrastructure][github-actions]
+- [GitLab CI/CD infrastructure][gitlab-ci-cd]
 
   
 ## References <!-- do not delete this heading and write your text below it -->
