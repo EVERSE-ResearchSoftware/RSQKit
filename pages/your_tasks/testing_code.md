@@ -31,8 +31,7 @@ Key aspects of code testing include:
 
 ### Solutions
 
-- [**Software testing**][software-testing]
-  - Software testing ensures that your software functions in a way that is reflected by the software tests and thereby promotes trust that your software behaves as defined by its specification.
+- Various [**software testing**][software-testing] methods and tools to ensure that your software functions in a way that is intended and defined by its specification.
 
 ## Why is it important to test our code?
 
@@ -59,11 +58,8 @@ Having well-defined tests for our software is crucial for several reasons, as it
 
 ### Solutions
 
-- [**Software Quality Assurance**][software-quality-assurance]
-  - Software testing improves the quality of your software and thereby ensures that the software is behaving according to its specification.
-- **Quality Gates**
-  - Quality Gates are points in time in a software development life cycle at which the quality is checked and the software develoment process does not pass these gates if the quality is not sufficient.
-  - Software testing can be a quality gate, i.e. the software should not be accepted and used unless it is possible to demonstrate its software quality by software tests.
+- [**Software Quality Assurance**][software-quality-assurance] - a systematic process that ensures the quality of software by monitoring its development, testing, and maintenance and ensures that the final software product meets the specified requirements and quality standards.
+- **Quality Gates** - in time in a software development life cycle at which the quality is checked and the software develoment process does not pass these gates if the quality is not sufficient. Software testing can be a quality gate, i.e. the software should not be accepted and used unless it is possible to demonstrate its software quality by software tests.
 
 ## How do we test our code?
 
@@ -146,8 +142,13 @@ A few examples are the following:
 
 ### Solutions
 
-- [**Software Testing Tactics**][software-testing-tactics]
-  - Choosing the right software testing tactics for your software and software quality criteria is essential for improving the software quality of your software.
+- Write tests early and often - begin testing as early as possible in the development process as writing tests alongside code development helps catch defects sooner and reduces the cost of fixing them.
+- Use a combination of testing types, if possible, but at least use unit testing to test individual functions or methods of your code in isolation to ensure they perform as expected.
+- Use automated testing tools and frameworks (e.g., JUnit, pytest, Selenium) to run tests frequently and consistently - automating repetitive tests saves time and ensures tests are run consistently across different environments.
+- Maintain a balance between automated and manual testing; use manual testing for exploratory or usability testing where human judgment is essential.
+- Aim for high code coverage (percentage of the code that is tested) to reduce the likelihood of undetected bugs, but avoid focusing solely on achieving 100% coverage as some code may not be relevant to test (e.g. built-in functions for your programming language or functions imported from well-known and well-tested libraries) and test coverage of 100% does not mean that your code is bug-free. Prioritise testing of critical paths through your code, complex logic, edge cases, and parts of our code that carry the greatest “reputational risk”, i.e. that could affect the accuracy of your reported results.
+- Write clear, understandable and independent tests - ensure test cases are easy to understand and maintain, use descriptive names for test functions and methods that clearly convey their purpose, and make each test independent (tests should not rely on the results or state of other tests to function correctly)
+- Consider [**Software Testing Tactics**][software-testing-tactics] - choosing the right software testing tactics for your software and software quality criteria is essential for improving the software quality of your software
 
 ## How do we automate code testing?
 
