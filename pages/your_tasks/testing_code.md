@@ -158,12 +158,12 @@ We can take this approach one step further by writing a test suite for our code 
 reduce the risk of human error. 
 The use of a testing framework becomes particuarly important if your code grows beyond a one or two scripts.
 
-#### Use testing frameworks to automate testing
+#### Use test frameworks to automate testing
 
-Automated testing involves using special testing frameworks (e.g. testthat for R, Pytest for Python, JUnit for Java) to automatically execute all test cases and run tests frequently and consistently.
-A testing framework is a set of guidelines or rules used for creating and designing test cases together with tools that are designed to help run test more efficiently.
-
-Testing frameworks typically automatically discover tests based on specific file and function naming patterns (e.g. they look for files or functions that start with “test_” or end with “_test”).
+Automated testing involves using special testing frameworks (e.g. testthat for R, Pytest for Python, JUnit for Java) to automate and control the execution of tests (which is software separate from the software being tested)
+and the comparison of actual with predicted outcomes. 
+A test framework comprises a set of rules for creating and designing test cases together with tools that are designed to run these tests efficiently.
+For example, test frameworks typically automatically discover tests based on specific file and function naming patterns (e.g. they look for files or functions that start with “test_” or end with “_test”).
 Such test files are typically located in a special sub-folder (e.g. called `tests`) within a software project, and are version controlled and shared along with the rest of the code.
 
 Check out the [section "How do we automate code testing?"](#how-do-we-automate-code-testing) for more details.
@@ -175,24 +175,29 @@ Check out the [section "How do we automate code testing?"](#how-do-we-automate-c
 - Use both functional and non-functional tests in combination to ensure not only that the software functions correctly and according to its specification but also performs well, is secure, and offers a good user experience. At a minumum write unit tests to test individual functions or methods of your code in isolation and ensure they perform as expected.
 - Maintain a balance between automated and manual testing; use manual testing for exploratory or usability testing where human judgment is essential.
 - Aim for high code coverage (percentage of the code that is tested) to reduce the likelihood of undetected bugs, but avoid focusing solely on achieving 100% coverage as some code may not be relevant to test (e.g. built-in functions for your programming language or functions imported from well-known and well-tested libraries). Remember, test coverage of 100% does not mean that your code is bug-free. Prioritise testing of critical paths through your code, complex logic, edge cases, and parts of our code that carry the greatest “reputational risk”, i.e. that could affect the accuracy of your reported results.
-- Use [automated testing frameworks](#how-do-we-automate-code-testing) to run tests frequently and consistently.
+- Use [automated test frameworks](#how-do-we-automate-code-testing) to run tests frequently and consistently.
 
 
 ## How do we automate code testing?
 
 ### Description 
 
-In test automation we usually use [test automation frameworks][test-automation-frameworks] to let the computer execute our test cases, in contrast to [manual testing][manual-testing] in which a human being is executing test cases manually.
-These frameworks accept list of test cases that need to be executed, execute them, compare the actual output by the required output and summarize the test results.
-While manual testing is cost expensive and time consuming, test automation is much more optimized with respect to cost and time efficiency.
-Automation saves not only time in the mid- and long-term but also renders the test process less error prone.
+In test automation, we usually use [test automation frameworks][test-automation-frameworks] to let the computer execute our test cases. 
+Thus is in contrast to [manual testing][manual-testing], where a person is executing test cases by hand.
+Test automation frameworks typically accept a list of test cases that need to be executed, run them, compare the actual output with the extected output and summarise the test results in a report.
+Compared to manual testing, test automation can cover a larger number of test cases, is less costly, less time-consuming and less error prone.
+Test automation is also critical for [Continuous Integration (CI)][continuous-integration] (including continuous testing) and Continuous Delivery (CD).
 
-[Continuous Integration (CI)][continuous-integration] is the process of integrating code changes into the mainline of your repository early and often and thereby the integration machine also executes steps like building and testing the software.
-Testing has always been an integral part and widely accepted use case of CI.
-Testing in a CI pipeline goes one step further compared to the ad-hoc use of test automation frameworks.
-Beside executing the test automation framework manually and locally, CI determines when and how to execute our test cases automatically and runs them on an integration machine.
-For example, as soon as a commit is pushed or a merge to the default branch is done the integration machine will start a CI pipeline and execute the test cases and report the test results in the so-called CI job log.
-Popular examples of CI infrastructure are [GitHub Actions][github-actions] and [GitLab CI/CD][gitlab-ci-cd].
+[Continuous Integration (CI)][continuous-integration] is the process of integrating code changes into the main development branch of your software 
+early and often. 
+For this to be possible, we need to be able to executes steps such as building and testing the software automatically each time there is a change in code.
+Hence, testing is an integral part and a widely accepted use case of CI.
+Testing in a CI pipeline goes one step further compared to the sole use of test automation frameworks.
+In addition to using the test automation framework locally and starting the execution of test within it manually, 
+CI determines when and how to execute our test cases automatically and runs them on an integration machine.
+For example, as soon as a commit is pushed or a merge to a software development branch is performed, the integration machine starts a CI pipeline and 
+executes the test cases and reports the test results in the so-called CI job log.
+Popular examples of CI infrastructures include [GitHub Actions][github-actions] and [GitLab CI/CD][gitlab-ci-cd].
 
 ### Considerations 
 
