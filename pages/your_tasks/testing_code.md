@@ -70,10 +70,10 @@ Common types of functional testing include:
 
 - [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. For example, testing a function that calculates the sum of two numbers to confirm it returns the correct value.
 - [**Integration tests**][integration-testing] work at a higher level and test functional paths through your code verifying that different modules or components work together correctly. For example, testing the interaction between a web application’s frontend and backend.
-- **End-to-end** or [**system tests**][system-testing] are a special type of integration testing which checks that the complete application as a whole behaves as expected and all features work and are meeting the specified requirements. For example, testing an entire login workflow, from user input to authentication and redirection to a welcome page tp simulate a real world scenario.
+- **End-to-end** or [**system tests**][system-testing] are a special type of integration testing which checks that the complete application as a whole behaves as expected and all features work and are meeting the specified requirements. For example, testing an entire login workflow, from user input to authentication and redirection to a welcome page to simulate a real world scenario.
 - [**User acceptance tests**][acceptance-testing] verify that specific needs and requirements of users and business processes are met. Acceptance critera are defined by users or customers which determine whether to accept the system.
 For example: asking end-users to test a new feature before releasing it to a wider audience.
-- [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made. For example: re-running tests after a bug fix to verify that no new issues were introduced.
+- [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes to your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made. For example: re-running tests after a bug fix to verify that no new issues were introduced.
 
 Some [**software testing tactics**][software-testing-tactics] for functional testing include:
 
@@ -106,7 +106,7 @@ if the software needs to run on multiple platforms, perform compatibility testin
 - Depending on the context and purpose of the software tests different [software testing tactics][software-testing-tactics] can be chosen.
 - **Test-First Policy** in [**Test Driven Development**][test-driven-development] is one promising approach to ensure to the testability of software under test (SUT).
   Tests are written just before writing the code that make the tests pass.
-  By following this approach the software is written in and refactored into small testable units right from the start.
+  By following this approach the software is written in and refactored into small testable units right from the start instead of refactoring the code for testability afterwards when tests are added to already existing implementations.
 - **F.I.R.S.T. Principles of Testing** describe beneficial properties of software tests:
   - *Fast*: tests should run fast to ensure rapid feedback to detect errors fast and early.
   - *Isolated/Independent*: tests should focus on one particular responsibility or aspect in a software unit, other factors should not influence the result of the tests.
@@ -114,7 +114,7 @@ if the software needs to run on multiple platforms, perform compatibility testin
   - *Self-validating/Self-checking*: tests should be automated and no manual steps should be made to check the test results. 
   - *Thorough/Timely*: tests should not only test the happy paths and not only aim for 100% of statement coverage. On the other hand, tests should be written at the right point in time and according to the Test-First Policy.
 - Fundamental **Software Testing Principles** to be aware of:
-  - *Testing shows the presence of defects*: - on the contrary, it does not show the absence of defects.
+  - *Testing shows the presence of defects*: on the contrary, it does not show the absence of defects.
   - *Exhaustive Testing is not possible*: in order to test all paths and states in a moderately large or complex software, you might be inclined to test all paths and states. This would most probably result in an almost close to infinite number of test cases, which renders this task impossible.
   - *Early Testing*: tests should be run early and often to give rapid feedback.
   - *Defect Clustering*: often defects tend to occur in clusters which means if you found a defect in one particular unit, it is very likely that you will find more defects there.
@@ -122,7 +122,7 @@ if the software needs to run on multiple platforms, perform compatibility testin
   - *Testing is Context-Dependent*: depending on the software type, different software test approaches might be appropriate.
   - *Absence of Errors Fallacy*: there is no moderately large or complex software without defects.
 - Consider [**software testing tactics**][software-testing-tactics] - choosing the right software testing tactics for your software and software quality criteria is essential for improving the software quality of your software.
-- Use [**Software Quality Assurance (SQA)**][software-quality-assurance] - a comprehensive and systematic process that ensures the quality of the overall software develoment process by monitoring its development, testing, and maintenance and ensures that the final software product meets the specified requirements and quality standards. [Software testing][software-testing] is a specific activity within the SQA process that involves evaluating software to identify discrepancies between expected and actual behavior and testing code to find and fix defects, but do check other aspects of SQA too.
+- Use [**Software Quality Assurance (SQA)**][software-quality-assurance] - a comprehensive and systematic process that ensures the quality of the overall software development process by monitoring its development, testing, and maintenance and ensures that the final software product meets the specified requirements and quality standards. [Software testing][software-testing] is a specific activity within the SQA process that involves evaluating software to identify discrepancies between expected and actual behavior and testing code to find and fix defects, but checks other aspects of SQA too.
 - Use **Quality Gates** - in software development these are predefined checkpoints or criteria that code or software must meet before moving to the next phase in the development lifecycle. They act as "gates" or approval points that help ensure quality at each stage of the development process. If the software fails to meet the requirements of a quality gate, it is not allowed to proceed, and corrective actions are needed.
 
 ## How do we test our code?
@@ -141,8 +141,8 @@ Manual testing is also well-suited to testing aspects such as graphical user int
 However, even with a good test plan, informal and manual testing is prone to error, is very time consuming and suffers from certain other limitations:
 
 - We must reload our functions and repeat our tests each time we change our code
-- We must rely on memory to keep track of how we have tested our code, e.g. what input values we tried
-- We must rely on memory to keep track of which functions (parts of the code) have been tested and which have not (informal testing may work well on smaller pieces of code but it becomes unpractical for a large codebase)
+- We must rely on our memory to keep track of how we have tested our code, e.g. what input values we tried
+- We must rely on our memory to keep track of which functions (parts of the code) have been tested and which have not (informal testing may work well on smaller pieces of code but it becomes unpractical for a large codebase)
 - Once we close our development environment, we lose all the manual test scenarios we have tried
 
 #### Writing test functions
@@ -156,7 +156,7 @@ If our code changes - it is now much easier to change our test functions, compar
 
 We can take this approach one step further by writing a test suite for our code as part of a testing framework - a set of tools used to fully automate the process of running tests and further 
 reduce the risk of human error. 
-The use of a testing framework becomes particuarly important if your code grows beyond a one or two scripts.
+The use of a testing framework becomes particuarly important if your code grows beyond one or two scripts.
 
 #### Use test frameworks to automate testing
 
@@ -190,7 +190,7 @@ Test automation is also critical for [Continuous Integration (CI)][continuous-in
 
 [Continuous Integration (CI)][continuous-integration] is the process of integrating code changes into the main development branch of your software 
 early and often. 
-For this to be possible, we need to be able to executes steps such as building and testing the software automatically each time there is a change in code.
+For this to be possible, we need to be able to execute steps such as building and testing the software automatically each time there is a change in the code.
 Hence, testing is an integral part and a widely accepted use case of CI.
 Testing in a CI pipeline goes one step further compared to the sole use of test automation frameworks.
 In addition to using the test automation framework locally and starting the execution of test within it manually, 
@@ -203,7 +203,7 @@ Popular examples of CI infrastructures include [GitHub Actions][github-actions] 
 
 Benefits of using automated testing frameworks:
 
-- Improved test efficiency and develoment speed - it allows for the quick execution of repetitive and complex test cases, significantly speeding up the testing process compared to manual or informal testing and increasing the pace with which the software is developed.
+- Improved test efficiency and development speed - it allows for the quick execution of repetitive and complex test cases, significantly speeding up the testing process compared to manual or informal testing and increasing the pace with which the software is developed.
 - Lower maintenance costs - it enables early error detection so less development time is spent on debugging and fixing errors in code.
 - Minimal manual intervention - it automates repetitive test cases and reduces the amount of manual testing effort required. This frees up developers' time to focus on more complex scenarios, exploratory testing, or new feature development.
 - Maximum test coverage - it enables the execution of a large number of test cases, including various test scenarios, edge cases and configurations (operating systems, environments, platforms, etc.) that would be difficult to cover with manual testing.
@@ -235,8 +235,8 @@ Here are a few examples of these principles:
 ### Solutions
 
 - [**Testing Frameworks**][test-automation]
-  - Test automation frameworks are utilized to control the execution of test, the comparison of actual outcomes with predicted outcomes, and also the reporting of the test results back to the user.
-  - Use automated testing frameworks to run tests frequently and consistently
+  - Test automation frameworks are utilized to control the execution of tests, the comparison of actual outcomes with predicted outcomes, and also the reporting of the test results back to the user.
+  - Use test automation frameworks to run tests frequently and consistently
 - [**Continuous Integration**][continuous-integration]
   - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.
   - Continuous Integration automates repetitive tests, saves time and ensures tests are run consistently across different environments and platforms.
@@ -252,7 +252,6 @@ To be added.
 - [GitHub Actions CI infrastructure][github-actions]
 - [GitLab CI/CD infrastructure][gitlab-ci-cd]
 
-  
 ## References <!-- do not delete this heading and write your text below it -->
 
 
