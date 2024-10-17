@@ -24,7 +24,7 @@ closer to the gold standard of fully reproducible research.
 
 ### Findable
 - Create a description of your software to make it discoverable by search engines and other search tools
-- Use standards (such as [CodeMeta][codemeta]) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmg-1])
+- Use standards (such as [CodeMeta][codemeta]) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
 - Place your software in a public software repository (and ideally register it in a [general-purpose or domain-specific software registry][software-registries])
 - Use a unique and persistent identifier (DOI) for your software (e.g. by depositing your code on [Zenodo][zenodo]), 
 which is also useful for citations - note that depositing your data/code on GitHub and similar software repositories 
@@ -203,7 +203,7 @@ The table below provides a summary of how different tools and practices help wit
 [fair-rs-evaluator]: https://openebench.bsc.es/observatory/Evaluation
 [fair-rs-test]: https://github.com/marioa/fair-test?tab=readme-ov-file
 [codemeta]: (https://codemeta.github.io/)
-[rsmd-1]: https://fair-impact.github.io/RSMD-guidelines/1.General/
+[rsmd-g1]: https://fair-impact.github.io/RSMD-guidelines/1.General/
 [software-heritage]: https://www.softwareheritage.org/
 [swhid]: https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html
 [figshare]: https://figshare.com/
