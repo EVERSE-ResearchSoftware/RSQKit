@@ -130,9 +130,9 @@ A citation file can be a plain text (CITATION.txt) or a Markdown file (CITATION.
 to using use a special file format called the [Citation File Format (CFF)][cff], which provides a way to include richer 
 metadata about code (or datasets) we want to cite, making it easy for both humans and machines to use this information.
 
-### Code- and project- level documentation
+### Code- and project-level documentation
 
-Documentation comes in many forms - from **software-level documentation** including descriptive names of variables and functions and 
+Documentation comes in many forms - from **code-level documentation** including descriptive names of variables and functions and 
 additional comments that explain lines of your code, to **project-level documentation** (including README, LICENCE, CITATION, CONTRIBUTING, etc. files) 
 that help to discover it, explain the legal terms of reusing it, describe its functionality and how to install, run and contribute to it, 
 to whole websites full of documentation with function definitions, usage examples, tutorials and guides. 
