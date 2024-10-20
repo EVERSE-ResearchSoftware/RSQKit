@@ -52,7 +52,7 @@ These aspects should be addressed in different sections of the README.
 * A good README should describe how to execute and to use the code. 
 * In a research context, a good README should indicate how the software should be cited.
 * In a research context, a good README should indicate the funding agency and the proper acknowledgements.
-* In the context of scientific experiments, a good README should facilitate its reproducibility.
+* In the context of a scientific experiment, a good README should facilitate its reproducibility.
 
 ### Solutions <!-- do not delete this heading and write your text below it -->
 
