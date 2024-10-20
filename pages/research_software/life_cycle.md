@@ -4,7 +4,7 @@ title: Research Software lifecycle
 
 ## The Research Software Lifecycle
 
-{% include image.html file="lifecycle.png" inline=true alt="EThe Research Software Lifecycle" %}
+![The Research Software Lifecycle](/images/lifecycle.png)
 
 The research software lifecycle, shown in the figure above, provides a model for understanding the different phases encountered duing the development of research software. 
 This lifecycle was developed as part of The EOSC Task Force [Infrastructure for quality research software](https://eosc.eu/advisory-groups/infrastructures-quality-research-software/) and described in detail in [this](https://doi.org/10.5281/zenodo.8324828) document. 
