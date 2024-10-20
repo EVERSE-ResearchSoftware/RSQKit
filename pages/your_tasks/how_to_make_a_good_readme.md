@@ -18,7 +18,7 @@ training:
  
 ### Description <!-- do not delete this heading and write your text below it -->
 
-The README file is the entry point to the documentation associated with a software. The main purpose of the README is:
+The README file is the entry point to the documentation associated with a software. The main purpose of the README is to:
 * Describe the structure of the project and its purpose.
 * Facilitate the installation and execution of the software stored in the repository.
 * Detail the use of the software.
