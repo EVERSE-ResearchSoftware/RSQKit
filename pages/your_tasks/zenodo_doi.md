@@ -1,15 +1,15 @@
 ---
 title: Adding a DOI in your code releases with Zenodo
 search_exclude: true
-description: Covers how to obtain a DOI via Zenodo for your code releases 
-contributors: ["Shoaib Sufi"] 
+description: This page explains how to obtain a DOI via Zenodo for your code releases 
+contributors: ["Shoaib Sufi", "Daniel Garijo"] 
 page_id: zenodo_doi
 related_pages: []
 ---
 ## How can I get a Digital Object Identifier (DOI) for my code release?
 
 ### Description 
-Obtaining a DOI (a type of persistent identifier) for your software has become [increasingly popular][datacite-doi-software]. So, how do you obtain a DOI (a type of persistent identifier) to refer to your software releases? And what are the benefits; this could be because you or another user of the code would like to refer to it in a publication or you would like a global repository independent way of referring to it. 
+Obtaining a DOI (a type of persistent identifier) for your software has become [increasingly popular][datacite-doi-software] to indicate others how to cite your software (either in a publication or as an independent way of referring to your software versions). In this document we describe how to obtain a DOI to refer to your software releases.
 
 ### Considerations 
 * You use [GitHub][github] as your software repository
@@ -28,10 +28,10 @@ Obtaining a DOI (a type of persistent identifier) for your software has become [
 	* Choose which repository you would like to create a DOI for under the repositories sections
 		* You may need to scroll down to find the repository if you have access to many repositories
 
-* Create a GitHub release for the repository you have enabled
-	* Go to your repository
+* [Create a GitHub release](https://everse.software/RSQKit/releasing_code) for the repository you have enabled. 
+<!-->	* Go to your repository
 	* Click on releases and then on Draft a new release
-	* Remember to use a version number (semantic versioning is the common standard but there are other schemes such as [CalVer][calver] which is date based)
+	* Remember to use a version number (semantic versioning is the common standard but there are other schemes such as [CalVer][calver] which is date based)-->
 	
 * Zenodo will automatically archive this release:
 	* Once your GitHub repository is linked to Zenodo, any new release you publish on GitHub will be archived by Zenodo
