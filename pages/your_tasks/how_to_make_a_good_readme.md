@@ -99,7 +99,7 @@ Research software should be a collaborative effort, so a mechanism to allow othe
 
 **Acknowledgement**
 
-Funders of the research software must be mentioned in the README. There will be a high variety of funders, from public/private institutions to national/international governments. You will have to include all of them. Check the acknowledgement policy of each institution to do it properly.
+All funders of the research software should be mentioned in the README - check the acknowledgement policy of each institution for how best to do it.
 
 **Citation**
 
