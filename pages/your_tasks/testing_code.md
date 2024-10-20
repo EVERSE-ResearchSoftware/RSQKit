@@ -1,6 +1,5 @@
 ---
 title: Testing Code
-search_exclude: false
 description: Explains useful aspects about why and how to test code.
 contributors: ["Aleksandra Nenadic", "Christian Hüser"]
 page_id: testing_code
