@@ -69,16 +69,19 @@ Implementing version control in a research context involves more than just choos
    * Periodically clean up old branches and review access permissions
 
 ## How to cite this page
-Giacomo Peru, TO-DO
+To be added.
+
+## Credit
+This page draws on widely accepted practices in version control and research software engineering. While not based on specific external sources, it represents common principles found in many educational resources in this field.
 
 ## Tools and resources
-* Git: https://git-scm.com/
-* GitHub: https://github.com/
-* GitLab: https://about.gitlab.com/
-* Mercurial: https://www.mercurial-scm.org/
-* Subversion: https://subversion.apache.org/
-* Perforce: https://www.perforce.com/
-* Git Large File Storage: https://git-lfs.github.com/
+* [Git](https://git-scm.com/)
+* [GitHub](https://github.com/)
+* [GitLab](https://about.gitlab.com/)
+* [Mercurial](https://www.mercurial-scm.org/)
+* [Subversion](https://subversion.apache.org/)
+* [Perforce](https://www.perforce.com/)
+* [Git Large File Storage](https://git-lfs.github.com/)
 
 ## References
 [List any references used in creating this content]
