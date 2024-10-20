@@ -68,7 +68,7 @@ In this section, you can include the requirements needed to install and to execu
 
 This is a non exhaustive list of requirements categories that you can consider:
 Operating system version
-Operative System libraries version
+Operating system libraries version
 Version of the interpreter (e.g. Python 3.9, Java 7, etc.)
 Additional software needed to execute the software. For example, a database, a workflow engine, etc.
 Infrastructure requirements (e.g. number of CPUs, memory, disk, etc.)  
