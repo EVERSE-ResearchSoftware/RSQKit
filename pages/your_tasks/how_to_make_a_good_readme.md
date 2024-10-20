@@ -42,7 +42,7 @@ A README file is the first document that a researchers read when they are intere
 
 A basic software documentation emphasizes these aspects[^2] :
 * Understandability: a user can comprehend the structure and the purpose of the software.
-* Usability: a user can understant how to use the software.
+* Usability: a user can understand how to use the software.
 * Attribution: how a user must cite the software.
 
 These aspects should be addressed in different sections of the README. 
