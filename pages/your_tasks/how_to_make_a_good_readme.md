@@ -87,7 +87,7 @@ Sometimes, software needs to be configured to be executed. Usually, this task is
 
 **Usage**
 
-In this section, you will include all the steps needed to use the application. For example, if it is a command line tool, you will need to describe all the parameters. As we mentioned in the installation section, you have to assume no skills in the user, so you will need to be exhaustive.
+In this section, you should include all the steps needed to use the application. For example, if it is a command line tool, you will need to describe all the parameters. As we mentioned in the installation section, you have to assume no skills in the user, so you will need to be exhaustive.
 
 It is recommended to add examples of the application usage in order to illustrate users in the software management. This information can be complemented with links to tutorials in different formats (e.g. video, PDF, notebooks, etc.)  
 
