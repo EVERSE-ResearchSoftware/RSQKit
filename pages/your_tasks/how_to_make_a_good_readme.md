@@ -2,7 +2,7 @@
 title: How to make a good README
 search_exclude: true
 description: Description of good practice to make a good README for research software.
-contributors: ["Esteban González"]
+contributors: ["Esteban González", "Aleksandra Nenadic", "Daniel Garijo"]
 page_id: good_README
 related_pages: []
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
@@ -14,7 +14,7 @@ training:
 ---
 <!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
 
-## Why is it important a good README file? <!-- example: how to version control my code? -->
+## Why is it important to have a good README file? <!-- example: how to version control my code? -->
  
 ### Description <!-- do not delete this heading and write your text below it -->
 
@@ -67,11 +67,11 @@ In this section, you will have to describe the purpose and the features of your 
 In this section, you can include the requirements needed to install and to execute the software. These requirements can be software (e.g. operative system) or hardware (e.g. CPU, memory, etc.). There is no need to include low level requirements like language library dependencies. These requirements must be provided with the appropriate mechanism of each language. For example, in Python by using the requirements.txt file. 
 
 This is a non exhaustive list of requirements categories that you can consider:
-Operating system version
-Operating system libraries version
-Version of the interpreter (e.g. Python 3.9, Java 7, etc.)
-Additional software needed to execute the software. For example, a database, a workflow engine, etc.
-Infrastructure requirements (e.g. number of CPUs, memory, disk, etc.)  
+- Operating system version
+- Operating system libraries version 
+- Version of the interpreter (e.g. Python 3.9, Java 7, etc.)
+- Additional software needed to execute the software. For example, a database, a workflow engine, etc.
+- Infrastructure requirements (e.g. number of CPUs, memory, disk, etc.)  
 
 **Installation process**
 
@@ -103,19 +103,24 @@ All funders of the research software should be mentioned in the README - check t
 
 **Citation**
 
-Citation is fundamental in a research context. In this section, you can add how you want your software to be cited in a publication. It is a common practice to add this information in a CITATION.cff file but it is a recommended practice to add it to the README file too. 
+Citation is fundamental in a research context. In this section, you can add how you want your software to be cited in a publication. It is a common practice to add this information in a `CITATION.cff` file but it is a recommended practice to add it to the README file too (e.g., in Bibtex format). 
 
 Remember that you can include badges in your README file to add visual information about your software project. You can see a list of them used to make your project more fair in the [Howfairis project](https://github.com/fair-software/howfairis). 
 
+**License**
+
+Software without a license cannot be reused in other applications. While having a [license file](https://everse.software/RSQKit/licensing_software) is a common practice in code repositories, you may also add this information explicitly as a section of your README file. For more informations, see [our guidelines](https://everse.software/RSQKit/licensing_software) on how to select an appropriate license.
+
 
 ## How to cite this page <!-- do not delete this heading and write your text below it -->
-González E., [URL](https://everse.software/RSQKit/good_README). October, 16th 2024
+<!--González E., [URL](https://everse.software/RSQKit/good_README). October, 16th 2024-->
+TO DO
 
 
 ## Tools and resources <!-- do not delete this heading and write your text below it -->
-* [SOMEF](https://github.com/KnowledgeCaptureAndDiscovery/somef). SOMEF is a tool to extract information from README files. It is not an assessment tool for README files, but can be used for detecting missing parts of a README file. 
-* [Guidelines for creating a README file](https://data.4tu.nl/s/documents/Guidelines_for_creating_a_README_file.pdf)
 * [README best practices](https://tilburgsciencehub.com/topics/collaborate-share/share-your-work/content-creation/readme-best-practices/)
+* [Guidelines for creating a README file](https://data.4tu.nl/s/documents/Guidelines_for_creating_a_README_file.pdf)
+* [SOMEF](https://github.com/KnowledgeCaptureAndDiscovery/somef). SOMEF is a tool to extract information from README files. It is not an assessment tool for README files, but can be used for detecting missing parts of a README file. 
 * [Howfairis](https://github.com/fair-software/howfairis) 
 
 ## References <!-- do not delete this heading and write your text below it -->
