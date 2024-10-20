@@ -39,10 +39,12 @@ Obtaining a DOI (a type of persistent identifier) for your software has become [
 
 * Get the DOI:
 	* After the GitHub release, go to Zenodo, where you will see your repository archived with a DOI assigned to it. Your badge is available in "Details":
+
 {% include image.html file="badge_zenodo.png" inline=true alt="Badge in Zenodo" %}
 
 * Copy the badge in your README file:
 	* Now you can add the Zenodo badge in your GitHub repository. Click on the blue DOI and copy the markdown in your README. It will show as follows:
+
 {% include image.html file="badge_in_repo.png" inline=true alt="Badge in GitHub repository" %}
 
 ## Tools and resources 
