@@ -1,6 +1,5 @@
 ---
 title: Adding a DOI in your code releases with Zenodo
-search_exclude: true
 description: This page explains how to obtain a DOI via Zenodo for your code releases 
 contributors: ["Shoaib Sufi", "Daniel Garijo"] 
 page_id: zenodo_doi
