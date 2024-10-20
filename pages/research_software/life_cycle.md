@@ -4,14 +4,12 @@ title: Research Software lifecycle
 
 ## The Research Software Lifecycle
 
-![The Research Software Lifecycle](./lifecycle.png)
+{% include image.html file="lifecycle.png" inline=true alt="EThe Research Software Lifecycle" %}
 
 The research software lifecycle, shown in the figure above, provides a model for understanding the different phases encountered duing the development of research software. 
-This lifecycle was developed as part of The EOSC Task Force [Infrastructure for quality research software](https://eosc.eu/advisory-groups/infrastructures-quality-research-software/)
-and described in detail in [this](https://doi.org/10.5281/zenodo.8324828) document. 
+This lifecycle was developed as part of The EOSC Task Force [Infrastructure for quality research software](https://eosc.eu/advisory-groups/infrastructures-quality-research-software/) and described in detail in [this](https://doi.org/10.5281/zenodo.8324828) document. 
 
-There is a close link between the this software lifecycle and the [Three tiers model](http://everse.software/RSQKit/three_tier_view). Depending on the tier of software, 
-the length of the lifecycle, or number of iterations through the lifecycle may vary. 
+There is a close link between the this software lifecycle and the [Three tiers model](http://everse.software/RSQKit/three_tier_view). Depending on the tier of software,  the length of the lifecycle, or number of iterations through the lifecycle may vary. 
 
 **Analysis Code (Tier 1 software)** typically represent software created for personal use and with a small scope, such as analysis scripts. The development of such software is directly driven 
 by a research question, and requires only little planning and software engineering effort as well as limited documentation and testing. Once the software is finished, and the research question 
