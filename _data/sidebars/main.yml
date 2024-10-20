@@ -42,24 +42,26 @@ subitems:
         url: /readable_code
       - title: Creating a readthedocs file
         url: /creating_readthedocs
+      - title: Creating code releases  
+        url: /releasing_code
+      - title: Environmental sustainability  
+        url: /environmental_sustainability
       - title: How to write a good README
         url: /how_to_make_a_good_readme
       - title: How to choose a programming language?
         url: /how_to_make_a_good_readme
-      - title: Reproducible software environments
-        url: /virtual_dev_environments
+      - title: How to write a CodeMeta file?
+        url: /codemeta
       - title: Licensing software
         url: /licensing_software
-      - title: Environmental sustainability  
-        url: /environmental_sustainability
-      - title: Creating code releases  
-        url: /releasing_code
+      - title: Obtaining a DOI for your code  
+        url: /zenodo_doi
+      - title: Reproducible software environments
+        url: /virtual_dev_environments
       - title: Testing your code  
         url: /testing_code
       - title: Version control  
         url: /version_control
-      - title: Obtaining a DOI for your code  
-        url: /zenodo_doi
   - title: Your science domain
     url: /science_domains_communities
     subitems:
