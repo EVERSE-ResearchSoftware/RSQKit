@@ -67,7 +67,7 @@ In this section, you will have to describe the purpose and the features of your 
 In this section, you can include the requirements needed to install and to execute the software. These requirements can be software (e.g. operative system) or hardware (e.g. CPU, memory, etc.). There is no need to include low level requirements like language library dependencies. These requirements must be provided with the appropriate mechanism of each language. For example, in Python by using the requirements.txt file. 
 
 This is a non exhaustive list of requirements categories that you can consider:
-Operative System version
+Operating system version
 Operative System libraries version
 Version of the interpreter (e.g. Python 3.9, Java 7, etc.)
 Additional software needed to execute the software. For example, a database, a workflow engine, etc.
