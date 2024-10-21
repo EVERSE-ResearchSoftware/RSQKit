@@ -1,7 +1,7 @@
 ---
 title: Releasing code
 description: Useful aspects about creating code releases.
-contributors: ["Christian Huser"]
+contributors: ["Christian Huser", "Shoaib Sufi", "Daniel Garijo"]
 page_id: releasing_code
 related_pages: []
 
@@ -23,8 +23,11 @@ Software Project Management Platforms like [GitHub][github] and [GitLab][gitlab]
 
 ### Solutions
 
-* GitHub
-  * Small to large and closed-source to open-source software projects
+* GitHub: Small to large and closed-source to open-source software projects
+  * Go to your source code repository.
+  * Click on releases and then on "Draft a new release"
+  * Remember to use a version number with the considerations listed above.
+  * Click on "Publish release"
 
 ## How to cite this page
 
