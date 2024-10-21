@@ -90,6 +90,7 @@ Software documentation is an essential part of the software development process,
 * Since your documentation is a crucial component of your code, it should also be under version control. 
 * Store your documentation within your [Git repository](https://docs.github.com/en/get-started/using-git/about-git#about-repositories) alongside your other files. This approach allows you to access your documentation at any stage of the project’s history. 
 * Services like [Read the Docs](https://about.readthedocs.com/?ref=readthedocs.org) and [Zenodo](https://zenodo.org/) facilitate this process by archiving a fully rendered version of your documentation each time you release a new version of your software.
+* Here are details about [how to create a readthedocs page](https://everse.software/RSQKit/creating_readthedocs). 
 
 * A noteworthy example of a bioinformatics library effectively managing version control for its documentation is [khmer](https://github.com/dib-lab/khmer/). This library features a comprehensive changelog that details new features, bug fixes (categorized based on relevance to users or developers), known issues, and a list of contributors for each release . 
 
