@@ -1,5 +1,16 @@
 # Contribution guidelines
 
+## Startup phase
+
+The RSQKit is still under heavy development.
+This means structure and content may still change a lot.
+During this phase, we organize contributions through EVERSE internal documents and communication channels.
+At some point we will likely move towards a more GitHub-centered contribution workflow, as outlined below.
+
+Specifically, the main "location" for assigning authors to contributions is the spreadsheet.
+Authors are to self organize (e.g. through Mattermost) in order to do collaborative writing.
+At the end, a single PR is submitted.
+
 ## How to contribute 
 
 **Note:** This section is work in progress
