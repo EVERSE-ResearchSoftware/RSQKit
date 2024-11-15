@@ -9,7 +9,7 @@ At some point we will likely move towards a more GitHub-centered contribution wo
 
 Specifically, the main "location" for assigning authors to contributions is the spreadsheet.
 Authors are to self organize (e.g., through Mattermost) in order to do collaborative writing.
-At the end, a single PR is submitted.
+At the end, a PR is submitted as described below.
 
 ## How to contribute 
 
@@ -23,7 +23,7 @@ You can create new pages or report errors by opening a pull request:
  
  3. When you are satisfied with with your first draft of the content, head to the “Propose changes” section at the end of the page and write a title and a brief explanation of your changes.
 
-4. You will be directed to the Pull Reqest (PR) page, then click on "Create Pull Request", once submitted, the editors will then review your request.
+4. You will be directed to the Pull Request (PR) page, then click on "Create Pull Request", once submitted, the editors will then review your request.
   
 5. You can request review, usually if a normall pull request, a review will be automatically requested. If your request is still in draft you can request a review.
 
