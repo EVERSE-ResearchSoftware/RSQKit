@@ -10,7 +10,7 @@ At some point we will likely move towards a more GitHub-centered contribution wo
 Specifically, the main "location" for assigning authors to contributions is the spreadsheet.
 Authors are to self organize (e.g., through Mattermost) in order to do collaborative writing.
 At the end, a PR is submitted as described below.
-
+If you have any questions about the process or contributing then you can contact the [RSQKit editorial board](mailto:rsqkit@lists.certh.gr)
 ## How to contribute 
 
 **Note:** This section is work in progress
