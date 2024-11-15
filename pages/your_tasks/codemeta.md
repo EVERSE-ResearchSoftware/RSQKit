@@ -12,7 +12,7 @@ related_pages: [zenodo_doi]
 
 ### Description <!-- do not delete this heading and write your text below it -->
 
-By adding a `codemeta.json` file in your root source code repository, you will ease metadata propagation between different archival infrastructures. For example, when [obtaining DOIs for your code releases](https://everse.software/RSQKit/zenodo_doi), you won't need to fill in the corresponsing software metadata again. CodeMeta is recognized and used by major code repositories and registries like [Zenodo](https://zenodo.org/) ([Invenio RDM](https://inveniosoftware.org/products/rdm/)) and [Software Heritage](https://www.softwareheritage.org/).
+By adding a `codemeta.json` file in your root source code repository, you will ease metadata propagation between different archival infrastructures. For example, when [obtaining DOIs for your code releases](https://everse.software/RSQKit/zenodo_doi), you won't need to fill in the corresponding software metadata again. CodeMeta is recognised and used by major code repositories and registries like [Zenodo](https://zenodo.org/) ([Invenio RDM](https://inveniosoftware.org/products/rdm/)) and [Software Heritage](https://www.softwareheritage.org/).
 
 But how to create a `codemeta.json` file?
 

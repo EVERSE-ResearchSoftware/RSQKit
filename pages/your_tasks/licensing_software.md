@@ -165,7 +165,7 @@ Otherwise, create a new file called, e.g. LICENSE, in the root directory to your
 | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | [Choose an open license tool](https://choosealicense.com/)                                                  | A guided tool to help you choose a license for your resource  |
 | [license selector for software](https://ufal.github.io/public-license-selector)                             | A question-guided tool to help you choose a software license  |
-| [Spdx](https://spdx.org/licenses/) list of licenses                                                         | A list of commonly recognized licenses used in software       |
+| [Spdx](https://spdx.org/licenses/) list of licenses                                                         | A list of commonly recognised licenses used in software       |
 | [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) | Guidelines on changing and editing licenses                   |
 
 

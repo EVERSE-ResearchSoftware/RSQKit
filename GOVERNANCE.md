@@ -20,7 +20,7 @@ This is a meritocratic, consensus-based community project. Anyone with an intere
 
 ### 2.1 Software developer
 ### 2.2 Researcher
-(include expectations for special cases: early careers, phd students, PIs)
+(include expectations for special cases: early careers, PhD students, PIs)
 Add examples of cases using these stages, mostly as a demonstrator.
 ### 2.3 Research Software Engineers
 ### 2.4 Infrastructure provider
