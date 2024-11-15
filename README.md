@@ -9,7 +9,17 @@ Research Software Quality Kit (RSQKit), developed as part of [EVERSE project](ht
 > Any content should not be considered final at this stage.
 
 ## Contributing
-Please see our [contribution guidelines](CONTRIBUTING.md) and consider joining RSQKit Editorial Board if you want to add new content into RSQKit.
+
+The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot. During this phase, we organise contributions through the EVERSE project's internal documents and communication channels, and welcome reports on issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
+
+The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board](http://everse.software/RSQKit/editorial_board), who are also acting as the current Maintainers of the RSQKit repository. 
+The RSQKit Editorial Board Members work together with general Contributors to identify where and how and their contribution fits best in RSQKit.
+
+Please see our [contribution guidelines](CONTRIBUTING.md) for more details on how to contribute to RSQKit.
+
+## Contact
+
+Please get in touch with the [RSQKit Editorial Board & Maintainers][mailto:mailto:rsqkit@lists.certh.gr] with any questions about this lesson.
 
 ## Acknowledegments
 

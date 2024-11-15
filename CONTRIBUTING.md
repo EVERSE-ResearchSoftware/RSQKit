@@ -1,81 +1,124 @@
-# Contribution guidelines
+## Contribution guidelines
 
-## Startup phase
+The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot.
+During this phase, we organise contributions through the EVERSE project's internal documents and communication channels, and welcome reports on 
+issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
+At some point in the future, we will move towards a fully GitHub-centered contribution workflow.
 
-The RSQKit is still under heavy development.
-This means structure and content may still change a lot.
-During this phase, we organize contributions through EVERSE internal documents and communication channels.
-At some point we will likely move towards a more GitHub-centered contribution workflow, as outlined below.
+The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board][editorial-board], who are also acting as the 
+Maintainers of the RSQKit repository.
+The RSQKit Editorial Board Members work together with Internal Contributors from the EVERSE project and External Contributors (jointly known as Contributors) 
+to identify where and how and their contribution fits best in RSQKit.
 
-Specifically, the main "location" for assigning authors to contributions is the spreadsheet.
-Authors are to self organize (e.g., through Mattermost) in order to do collaborative writing.
-At the end, a PR is submitted as described below.
+### Contributor Agreement
 
-## How to contribute 
+By contributing, you agree that we may redistribute your work under [our
+license](LICENSE). In exchange, we will address your issues and/or assess
+your change proposal as promptly as we can.
 
-**Note:** This section is work in progress
+### How to Contribute
 
-You can create new pages or report errors by opening a pull request:
-  
- 1. Open an issue with the type of content you would like to see in RSQKit.
-  
- 2. When you and the editor have agreed on what you will do, you can edit on the github repository by clicking on the pencil icon.
- 
- 3. When you are satisfied with with your first draft of the content, head to the “Propose changes” section at the end of the page and write a title and a brief explanation of your changes.
+The easiest way to get started is to file an issue to tell us about a spelling
+mistake, some awkward wording, or a factual error.
 
-4. You will be directed to the Pull Request (PR) page, then click on "Create Pull Request", once submitted, the editors will then review your request.
-  
-5. You can request review, usually if a normall pull request, a review will be automatically requested. If your request is still in draft you can request a review.
+1. If you do not have a [GitHub][github] account, you can [send us comments by
+   email][contact]. However, we will be able to respond more quickly if you use
+   one of the other methods described below.
 
-6. Address editor's comments. when addressed, the editor will mark the conversation as "Resolved" and the proposed changes as "Approved".
- 
- <!-- Not yet ready: - Use the GitHub web interface ([How to contribute](https://rdmkit.elixir-europe.org/how_to_contribute))-->
+2. If you have a [GitHub][github] account, or are willing to [create
+   one][github-join], but do not know how to use Git, you can report problems
+   or suggest improvements by [creating an issue][issues]. This allows us to
+   assign the item to someone and to respond to it in a threaded discussion.
 
-### Reporting a bug or a typo 
+3. If you are comfortable with GitHub, and would like to add or change material,
+   you can submit a pull request (PR). Instructions for doing this are
+   [included below](#creating-a-pull-request).
 
-Bugs or remarks are tracked as [GitHub issues](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues). You can create an issue and a reviewer will assign a label for it. you can do so by doing the following:
+### What to Contribute
 
-- **Describing the bug**
-A clear and concise description of what the bug is.
+At this moment, we welcome:
 
-- **To Reproduce**
-    Steps for the editor to reproduce the behavior:
-    1. Go to '...'
-    2. Click on '...'
-    3. Scroll down to '...'
-    4. See error
+- [reports on issues, bugs and typos][#reporting-an-issue] in RSQKit content via [GitHub's issues][issues] or via [Editorial Board email][contact]
+- suggestions for new content via [GitHub's issues][issues] or via [Editorial Board email][contact]
+- comments on [existing issues][issues] and reviews of [pull requests][pull-requests]
+- [pull requests][#creating-a-pull-request] to fix issues, bug and typos in the RSQKit content
 
-- **What is the expected Behavior**
-    A clear and concise description of what you expected to happen.
+If you plan to submit a pull request that adds new content or significantly changes existing content, 
+please [contact the Editorial Board][contact] to discuss this first so that 
+the effort is not spent by making a change that may not be accepted.
 
-- **Screenshots**
-    If applicable, add screenshots to help explain your problem.
+### What *Not* to Contribute
 
-- **Desktop information(please complete the following information):**
-   - OS: [e.g. iOS]
-   - Browser [e.g. chrome, safari]
-   - Version [e.g. 22]
+At this point, we do not welcome contributions that create or change data files in `_data/` folder in the repository,
+`_config.yml` and other infrastructure files (such as CSS files, page templates and files in the `_includes/` folder).
+If you think some of these files should be changed, please [contact the Editorial Board][contact].
 
-- **Additional context**
-    Add any other context about the problem here.
+### Reporting an issue 
 
-## Contibutor responsibilities
+Issues, bugs or remarks are tracked as [GitHub issues][issues]. 
+You can create an issue and a member of the Editorial Board will review it and assign a person responsible for looking into it. 
+
+Here are some guidelines for reporting issues.
+
+- Add a clear and concise description of what the issue is.
+- Provide a URL of the page where the issue occurs, if applicable
+- If applicable, add screenshots to help explain the issue
+- Platform information, for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2)
+- Add any additional context that may be helpful
+
+### Creating a pull request
+
+If you choose to contribute via GitHub's pull requests, you may want to look at [How to Contribute to an Open Source Project on GitHub][how-contribute]. 
+
+1. Open an issue for your pull request first (unless already opened).
+2. Create a new branch in your fork of this repository for each significant change (pull request).
+3. Make sure that your changes are tested and render in the Web page correctly.
+4. Submit a pull request from that branch to the this repository.
+5. If you receive feedback, make changes on your fork/branch and your pull request will update automatically.
+
+Editorial Board Members will review pull requests and have a final say over what gets merged into RSQKit.
+
+
+## Contributor responsibilities
+
 When contributing to this project, please keep in mind the following:
 
-- It is your responsibility to make sure that the content you provide respects copyright.
-  
-- To avoid having to resolve many issues during the revison process, please check the Editor checklist and make sure you have complied with the requirements.
-  
+- It is your responsibility to make sure that the content you provide respects copyright. 
+- To avoid having to resolve many issues during the revision process, please check the Editor checklist and make sure you have complied with the requirements.
 - If others assisted with your contribution by writing or supplying resources like diagrams or links, be sure to acknowledge them after obtaining their permission.
 
-## Acknowledgement of contributors
+## Acknowledgement of Contributions
 
-Contributors will appear at the bottom of the page if they are listed in the metadata of the markdown file. All contributors will also be displayed on the contributors page. To get your GitHub account, ORCID, or email address linked, please add your name and corresponding information to the CONTRIBUTORS file
+Contributors will appear at the bottom of the Web page they contributed to. 
+For that to happen, they need to be added to [CONTRIBUTORS.yaml][contributors] and then listed in the metadata of the Markdown source file for the page. 
+
+If you are doing a contribution via a pull request, you can also include adding yourself to [CONTRIBUTORS.yaml][contributors] and the pages you changed.
+
+You do not have to contribute via GitHub to be included as a Contributor - any significant discussion or contributions via other methods 
+(e.g. email, internal project documents used to collect information, etc.) are accepted too.
+In this case, email the [Editorial Board][contact] with your GitHub account/handle, ORCID, and preferred email address and a short explanation of your contributions 
+and you will be added to [CONTRIBUTORS.yaml][contributors] and appropriately acknowledged in relevant pages. 
+
 
 ## Ownership of content
 
-No individual contributor or editor owns the project's content or has the authority to dictate its content. The RSQkit content is a collaborative effort, with contributions from many people. Decisions are made by consensus among the contributors and editors.
+No individual Contributor owns the project's content or has the authority to dictate its content. 
+The RSQKit content is a collaborative effort, with contributions from many people. 
+At the moment, decisions are made by consensus among the [Editorial Board Members][editorial-board].
 
-The content is periodically updated, meaning that if you create content for RSQKit, others may modify it without notifying you. However, RSQKit editors ensure that any changes are made for valid reasons. They strive to accommodate the legitimate concerns and diverse viewpoints of all contributors and ensure that the content reflects the most widely accepted consensus on any topic.
+The content is periodically updated, meaning that if you create content for RSQKit, others may modify it without notifying you. 
+However, the [Editorial Board][editorial-board] ensures that any changes are made for valid reasons. 
+They strive to accommodate the legitimate concerns and diverse viewpoints of all contributors and ensure that the content reflects the most widely accepted consensus on any topic.
 
 If you find any content unsatisfactory, please feel free to report about it by "creating an issue" request.
+
+[contact]: mailto:rsqkit@lists.certh.gr
+[github]: https://github.com
+[github-flow]: https://guides.github.com/introduction/flow/
+[github-join]: https://github.com/join
+[how-contribute]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
+[issues]: https://github.com/EVERSE-ResearchSoftware/RSQKit/issues
+[editorial-board]: http://everse.software/RSQKit/editorial_board
+[contributors]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yaml
+[pull-requests]: https://github.com/EVERSE-ResearchSoftware/RSQKit/pulls
+
