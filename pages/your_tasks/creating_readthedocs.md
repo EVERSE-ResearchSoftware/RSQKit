@@ -24,12 +24,12 @@ After importing the project it is built and published automatically.
 - In a ReadTheDocs project you need to use a configuration file `.readthedocs.yaml`.
 - A Git repository can be used to version control the project and a remote repository can be hosted on GitHub or GitLab.
 - Tools such as Sphinx or MkDocs can be used write the static documentation pages.
-- CI that is offered by GitHub and GitLab helps automating the import task. Changes can be imported on different occations, e.g. on each push to the repository or merge to the default branch.
+- CI that is offered by GitHub and GitLab helps automating the import task. Changes can be imported on different occasions, e.g. on each push to the repository or merge to the default branch.
 
 ### Solutions
 
 - ReadTheDocs
-  - Publish static documentaiton pages publicly.
+  - Publish static documentation pages publicly.
 - Sphinx
   - Write static documentation pages based on reStructuredText.
 - MkDocs
