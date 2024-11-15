@@ -9,7 +9,7 @@ related_pages: []
 
 ## Why is it important to make your code readable?
 
-**Code readability** contributes to the *accessibility* and *reusability* of your code (the "A" and "R" in the [FAIR reseach software principles][fair-rs-principles][^1]) - 
+**Code readability** contributes to the *accessibility* and *reusability* of your code (the "A" and "R" in the [FAIR research software principles][fair-rs-principles][^1]) - 
 once people freely, legally and easily obtain a copy your software - they need to be able to read and understand it to reuse and extend it. 
 So, readable code helps create more reusable scientific software and can empower collaboration between researchers.
 
