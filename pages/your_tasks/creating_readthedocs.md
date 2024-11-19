@@ -17,7 +17,7 @@ Documentation is often an essential part of software projects. Typically, this d
 - In a ReadTheDocs project you need to use a configuration file `.readthedocs.yaml`.
 - A Git repository can be used to version control the project and a remote repository can be hosted on GitHub or GitLab.
 - Tools such as Sphinx or MkDocs can be used write the static documentation pages.
-- CI that is offered by GitHub and GitLab helps automating the import task. Changes can be imported on different occations, e.g. on each push to the repository or merge to the default branch.
+- CI that is offered by GitHub and GitLab helps automating the import task. Changes can be imported on different occasions, e.g. on each push to the repository or merge to the default branch.
 
 ### Solutions
 
@@ -115,13 +115,10 @@ After a successful build, the documentation will be published and publicly acces
 * You can always trigger new builds from the ReadTheDocs dashboard or via new commits to your repository.
 
 
+**For further information, please refer to the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html). Additionally, check out [our page on software documentation](Software_documentation.md) for more insights.**
 
 
-
-
-#### For further information, please refer to the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html). Additionally, check out [our page on software documentation](Software_documentation.md) for more insights.
-
-## How to cite this Page
+## How to cite this page
 
 To be added.
 

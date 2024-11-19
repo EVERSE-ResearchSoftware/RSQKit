@@ -1,6 +1,6 @@
 ---
 title: Environmental Sustainability of Research Software
-description: Guide to improving environmental sustainabilty of software
+description: Guide to improving environmental sustainability of software
 contributors: ["Kirsty Pringle"]
 page_id: environmental_sustainability
 

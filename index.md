@@ -4,7 +4,7 @@ layout: page
 
 {% include callout.html type="warning" content="The current version of RSQKit is a work in progress. Any content should not be considered final at this stage." %}
 
-# Reseach Software Quality Kit (RSQKit)
+# Research Software Quality Kit (RSQKit)
 
 ![EVERSE Banner](images/markus-spiske-Skf7HxARcoc-unsplash.jpg)
 
