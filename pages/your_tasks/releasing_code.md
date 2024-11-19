@@ -19,7 +19,7 @@ Software Project Management Platforms like [GitHub][github] and [GitLab][gitlab]
 
 * Naming schemes for the version of the release can be very diverse serving different purposes, for example [Semantic Versioning][semantic-versioning] (SemVer; e.g. "1.0.0") and [Calendar Versioning][calendar-versioning] (CalVer; e.g. "24.10").
 * A Changelog can be given with the release to describe the changes made.
-* Attachments like built binaries or packages or other software artfiacts can be provided.
+* Attachments like built binaries or packages or other software artefacts can be provided.
 
 ### Solutions
 

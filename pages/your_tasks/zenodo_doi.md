@@ -28,7 +28,7 @@ Obtaining a DOI (a type of persistent identifier) for your software has become [
 		* You may need to scroll down to find the repository if you have access to many repositories
 
 * [Create a GitHub release](https://everse.software/RSQKit/releasing_code) for the repository you have enabled. 
-<!-->	* Go to your repository
+	* Go to your repository
 	* Click on releases and then on Draft a new release
 	* Remember to use a version number (semantic versioning is the common standard but there are other schemes such as [CalVer][calver] which is date based)-->
 	
@@ -67,5 +67,6 @@ Obtaining a DOI (a type of persistent identifier) for your software has become [
 [semantic-versioning]: (https://semver.org/) 
 [what-are-pids]: (https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs)
 [zenodo]: (https://zenodo.org/)
+[your-zenodo-github]: (https://zenodo.org/account/settings/github/)
 
 

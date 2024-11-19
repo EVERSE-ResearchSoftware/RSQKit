@@ -17,18 +17,18 @@ Like the language of your research articles, the programming language determines
 
 By _frameworks_ we mean abstraction layers written in certain languages (or with interfaces in certain languages).
 These layers typically consist of classes, functions and other structures that are often used for some particular problem or in some particular domain.
-Examples are frameworks for web development, like [React](https://react.dev), machine learning, like [PyTorch](https://pytorch.org), workflows and data analysis, like [Galaxy](https://galaxyproject.org), or data processing and statistical modeling, like [ROOT](https://root.cern).
+Examples are frameworks for web development, like [React](https://react.dev), machine learning, like [PyTorch](https://pytorch.org), workflows and data analysis, like [Galaxy](https://galaxyproject.org), or data processing and statistical modelling, like [ROOT](https://root.cern).
 Note that we use this term loosely.
 There may well be overlap with terms like "library", "toolkit", "platform" or "API".
 The main point is that someone did the work on useful abstractions in a certain domain and that you can use them in your research software or code.
 
 _Technologies_ more broadly describe the different kinds of software (or even hardware) that you may want to integrate into or apply in your applications.
 These typically require some background knowledge to use in an optimal way.
-Examples are database technologies, accelerator hardware programming (e.g. general purpose GPU programming, or programming FPGAs), machine learning, web and user interface design, analytics (statistics, visualization, etc.), .
+Examples are database technologies, accelerator hardware programming (e.g. general purpose GPU programming, or programming FPGAs), machine learning, web and user interface design, analytics (statistics, visualisation, etc.), .
 Again, the term is used somewhat imprecisely and one may in some cases prefer terms like "expertise" or "skill set" and "tool" or "service" in other cases.
 The point is that we speak here of a broader, more topical, more knowledge-oriented set of techniques than with the much more programming-oriented frameworks.
 
-Regardless of the exact categorization, all these software-related topics can mean defining choices in a (research) software project.
+Regardless of the exact categorisation, all these software-related topics can mean defining choices in a (research) software project.
 
 ### Considerations
 
@@ -37,7 +37,7 @@ Most of the following considerations apply to software languages, frameworks and
 #### People and community
 - What software is used widely in your field already? It may make sense for interoperability and reusability (the I and R in [FAIR](fair_rs)) to choose the same software, if possible.
 - Similarly, what existing practices and experience are available in your community? Can you benefit from this?
-   * Also look at the expertise available at your institute/organization.
+   * Also look at the expertise available at your institute/organisation.
      Having an expert at a nearby desk to ask questions or even coach you can be invaluable.
 - What languages, frameworks or technologies do you know already? Which ones do you like? Take into account personal preference and expertise.
    * If you have project partners, work in a team or plan to do so, make sure you take their preferences into account as well.
@@ -82,11 +82,11 @@ When starting fresh, there are a few languages with a proven track record and ac
 - R: statistical analysis, in particular for social sciences, medical research and the like.
 
 If you're excited by the prospect of having to pioneer a bit more due to a smaller and somewhat less mature ecosystem of available modules, the following are popular modern choices:
-- Julia: great for mathematical modeling, has very elegant semantics (e.g. multiple dispatch). It is JIT compiled, meaning you can use it interactively like Python, but it compiles each statement before running, so that it can run fast.
+- Julia: great for mathematical modelling, has very elegant semantics (e.g. multiple dispatch). It is JIT compiled, meaning you can use it interactively like Python, but it compiles each statement before running, so that it can run fast.
 - Rust: high performance, safety-first. Rust is sometimes described as "C++ done right". It is more focused on functional programming and lacks some core object oriented paradigm support like classes.
 
 A few special purpose languages that are also good to consider are:
-- CUDA/OpenCL: general purpose GPU programming, for accelerating parallelizable computations using GPU hardware.
+- CUDA/OpenCL: general purpose GPU programming, for accelerating parallelisable computations using GPU hardware.
 - Shell scripting (e.g. Bash, PowerShell): for simple tasks around text processing, setting up runtime environments and automating running of multiple commands in a simple pipeline, shell scripts are still unsurpassed. Unlocking the full power of shell scripting also requires knowledge of command line tools.
 
 
@@ -112,7 +112,7 @@ Template communities can be places where best practices are discussed and set, i
 Note that alternatives that perform a similar function can be as simple as finding some copy-pasteable snippets, but also IDEs and AI assistants (LLM-based or otherwise) offer basic templates and inline autocompletion that can help you adhere to good programming practices.
 Using these is definitely encouraged, as these are useful in their own right.
 
-Full-blown project boilerplate generators still offer a good starting point, especially when they are tailormade for your field or for research software specifically, and hence include aspects that may not be readily available from generic programming tools and guides.
+Full-blown project boilerplate generators still offer a good starting point, especially when they are tailor-made for your field or for research software specifically, and hence include aspects that may not be readily available from generic programming tools and guides.
 
 Some interesting templates to consider for research software:
 - [The Netherlands eScience Center Python template](https://github.com/NLeSC/python-template): create a Python package that follows research software best practices
