@@ -56,15 +56,17 @@ Example GitHub steps:
 
 After importing your project into ReadTheDocs, to manage project settings and dependencies, create a `.readthedocs.yaml` file in the root of your repository. This configuration file tells ReadTheDocs how to build your documentation. 
 
-1. **Create the `.readthedocs.yaml` File**  
-   In the root directory of your project, create a new file named `.readthedocs.yaml`.
+**4.1. Create the `.readthedocs.yaml` File**  
+In the root directory of your project, create a new file named `.readthedocs.yaml`.
 
-2. **Define the Version**  
-   Start by specifying the version of the configuration file, `ReadTheDocs` currently uses version 2.  
+**4.2. Define the Version**  
+Start by specifying the version of the configuration file, `ReadTheDocs` currently uses version 2.  
 
-3. **Specify the Python Environment (optional)**
-If your documentation requires specific Python packages, you can define the required Python version and any dependencies. 
+**4.3. Specify the Python Environment (optional)**
+If your documentation requires specific Python packages, you can define the required Python version and any dependencies.
+
 ```yaml
+
 python:
   version: 3.8  # Specify the Python version
   install:
@@ -72,26 +74,27 @@ python:
 
  ```
 
- 4. **Choose a documentation builder:**
- * You need to specify which documentation tool you are using, such as Sphinx or MkDocs.
+ **4.4 Choose a documentation builder:**
+You need to specify which documentation tool you are using, such as Sphinx or MkDocs.
 
 **Sphinx**
+
 ```yaml
 sphinx:
   configuration: docs/conf.py  # If using Sphinx, specify the configuration file path
-  ```
-  Or 
+```
 
-  **MKDocs**
- ```
- yaml
- mkdocs:
+Or 
+
+**MKDocs**
+
+```yaml
+mkdocs:
   config: mkdocs.yml  # If using MkDocs, specify the config file
- ```
+```
 
 
 #### 5. Set Up Webhooks for Automatic Builds
-
 
 Integrate your project with Continuous Integration (CI) to automatically rebuild your documentation whenever changes are made:
 
