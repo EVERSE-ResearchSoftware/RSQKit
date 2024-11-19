@@ -21,7 +21,7 @@ Documentation is often an essential part of software projects. Typically, this d
 
 ### Solutions
 
-### Steps to Create a ReadTheDocs Page
+Follow steps below to create a ReadTheDocs page.
 
 #### 1. Create a Documentation Source
 
@@ -130,6 +130,6 @@ To be added.
 * [GitHub](https://github.com): Hosts repositories with built-in CI for documentation updates.
 * [GitLab](https://about.gitlab.com): Offers CI/CD pipelines for automated builds.
 
-**References**  
+## References
 
 * [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html)
