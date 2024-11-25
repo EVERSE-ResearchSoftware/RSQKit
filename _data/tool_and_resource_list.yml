@@ -6,3 +6,47 @@
     fairsharing-coll: bsg-d001254
     tess: Docker
   url: https://www.docker.com/
+- description: Command line tool to analyze a GitHub or GitLab repository's compliance with the fair-software.eu recommendations.
+  id: howfairis
+  name: howfairis
+  url: https://github.com/fair-software/howfairis
+- description: Create documentation for packages.
+  id: sphinx
+  name: Sphinx
+  url: https://www.sphinx-doc.org/en/master/
+- description: Development platform.
+  id: github
+  name: GitHub
+  url: https://github.com/
+- description: Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes.
+  id: zenodo
+  name: Zenodo
+  url: https://zenodo.org/
+- description: Version control and development platform.
+  id: gitlab
+  name: GitLab
+  url: https://gitlab.com/
+- description: Visual Studio Code, also commonly referred to as VS Code,[9] is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
+  id: vscode
+  name: VSCode
+  url: https://code.visualstudio.com/
+- description: Integrated development environment (IDE) written in Java.
+  id: intellij idea
+  name: IntelliJ IDEA
+  url: https://www.jetbrains.com/fr-fr/idea/
+- description: Python packaging and dependency management.
+  id: poetry
+  name: Poetry
+  url: https://python-poetry.org/
+- description: The official third-party software repository for Python.
+  id: pypi
+  name: PyPi
+  url: https://pypi.org/
+- description: The eOSSR is the Python library to programmatically manage the ESCAPE OSSR. It also includes CodeMeta generator and validator.
+  id: eossr
+  name: eOSSR
+  url: https://gitlab.com/escape-ossr/eossr
+- description: A generative artificial intelligence chatbot developed by OpenAI and able to produce code or answer questions on code.
+  id: chatgpt
+  name: ChatGPT
+  url: https://chatgpt.com/
