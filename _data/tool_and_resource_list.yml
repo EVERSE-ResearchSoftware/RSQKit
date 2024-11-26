@@ -50,3 +50,52 @@
   id: chatgpt
   name: ChatGPT
   url: https://chatgpt.com/
+- description: Automates documentation.
+  id: deoxygen
+  name: Deoxygen
+  url: https://www.doxygen.nl/
+- description: Automate documentation for Java code.
+  id: javadoc
+  name: JavaDoc
+  url: https://www.oracle.com/java/technologies/javase/javadoc-tool.html
+- description: Static website generation based on Go.
+  id: hugo
+  name: Hugo
+  url: https://gohugo.io/
+- description: Static website generation based on Python.
+  id: pelican
+  name: Pelican
+  url: https://getpelican.com/
+- description: Publish static websites directly from GitLab repository.
+  id: gitlabpages
+  name: GitLab Pages
+  url: https://docs.gitlab.com/ee/user/project/pages/
+- description: Publish static websites directly from GitHub repository.
+  id: githubpages
+  name: GitHub Pages
+  url: https://pages.github.com/
+- description: Publish static websites directly from GitHub repository.
+  id: githubpages
+  name: GitHub Pages
+  url: https://pages.github.com/
+- description: Integration, Delivery and Deployment.
+  id: github actions
+  name: GitHub Actions
+  url: https://github.com/features/actions
+- description: Bandit is a tool designed to find common security issues in Python code.
+  id: bandit
+  name: Bandit
+  url: https://github.com/PyCQA/bandit
+- description: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+  id: playwrite
+  name: Playwrite
+  url: https://playwright.dev/docs/intro
+- description: The Score-P (Scalable Performance Measurement Infrastructure for Parallel Codes) measurement infrastructure is a highly scalable and easy-to-use tool suite for profiling and event trace recording of HPC applications.
+  id: scorep
+  name: Score-P
+  url: https://gitlab.com/score-p/scorep
+- description: Original version for automated assessment of data FAIRness; extended version (POC only - not all metrics are implemented) for research software based on the FAIR4RS principles.
+  id: fuji
+  name: F-UJI
+  url: https://github.com/softwaresaved/fuji/
+
