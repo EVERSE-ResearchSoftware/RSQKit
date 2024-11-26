@@ -48,5 +48,4 @@ To become part of the editorial team, please provide:
 * A summary of your experience in RSQ.
 * List of the RSQKit sections that you are most interested in (or feel are missing).
 
-Please, send your application to rsqkit@lists.certh.gri .
-
+Please, send your application to rsqkit@lists.certh.gri.
