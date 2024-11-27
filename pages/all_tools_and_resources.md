@@ -2,4 +2,10 @@
 title: All tools and resources
 ---
 
-This will be the main tool and resource list of our website.
+# Tool Information
+
+| **Name**      | **Description**                                                                                       | **URL**                                                              |
+|---------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+{% for tool in data.tool_and_resource_list.tools %}
+| **{{ tool.name }}** | {{ tool.description }} | [{{ tool.name }}]({{ tool.url }}) |
+{% endfor %}
