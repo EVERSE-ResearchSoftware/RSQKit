@@ -6,6 +6,6 @@ title: All tools and resources
 
 | **Name**      | **Description**                                                                                       | **URL**                                                              |
 |---------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-{% for tool in data.tool_and_resource_list.tools %}
+{% for tool in site.data.tool_and_resource_list.tools %}
 | **{{ tool.name }}** | {{ tool.description }} | [{{ tool.name }}]({{ tool.url }}) |
 {% endfor %}
