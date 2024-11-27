@@ -115,7 +115,7 @@
   name: SOMEF
   url: https://github.com/KnowledgeCaptureAndDiscovery/somef
 - description: Software Quality Assessment as a Service. The Quality Assessment & Awarding building block analyses the level of completeness with the FAIR4RS reference criteria for any given release of your software.
-  id: sqaas
+  id: sqaaas
   name: SQAaas
   url: https://sqaaas.eosc-synergy.eu/
 - description: A site to provide non-judgmental guidance on choosing a license for your open source project
@@ -146,39 +146,115 @@
   id: creativecommons
   name: Creative Commons
   url: https://chooser-beta.creativecommons.org/
-- description: 
-  id:
-  name:
-  url:
-- description: 
-  id:
-  name:
-  url:
-- description: 
-  id:
-  name:
-  url:
-- description: 
-  id:
-  name:
-  url:
-- description: 
-  id:
-  name:
-  url:
-- description: 
-  id:
-  name:
-  url:
-- description: 
-  id:
-  name:
-  url:
-- description: 
-  id:
-  name:
-  url:
-- description: 
-  id:
-  name:
-  url:
+- description: Create static documentation for software projects.
+  id: mkdocs
+  name: MKDocs
+  url: https://www.mkdocs.org/
+- description: Python testing tool.
+  id: pytest
+  name: PyTest
+  url: https://docs.pytest.org/en/latest/
+- description: Python testing tool.
+  id: tox
+  name: tox
+  url: https://tox.wiki/en/4.23.2/
+- description: Java testing tool.
+  id: junit
+  name: JUnit
+  url: https://junit.org/junit5/
+- description: CPP testing tool.
+  id: cppunit
+  name: CPPUnit
+  url: https://freedesktop.org/wiki/Software/cppunit/
+- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments.
+  id: apptainer
+  name: APPTAINER
+  url: https://apptainer.org/
+- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments.
+  id: singularityce
+  name: SingularityCE
+  url: https://sylabs.io/singularity/
+- description: An extremely fast Python linter and code formatter, written in Rust.
+  id: ruff
+  name: Ruff
+  url: https://docs.astral.sh/ruff/
+- description: Static code analysis for Python.
+  id: pylint
+  name: Pylint
+  url: https://pylint.readthedocs.io/en/stable/
+- description: Dockerfile linter.
+  id: hadolint
+  name: Hadolint
+  url: https://github.com/hadolint/hadolint
+- description: Static code analysis tool for Python.
+  id: flake8
+  name: Flake8
+  url: https://flake8.pycqa.org/en/latest/
+- description: Static code analysis tool for Java.
+  id: checkstyle
+  name: Checkstyle
+  url: https://sourceforge.net/projects/checkstyle/
+- description: Code coverage analysis tool.
+  id: gcov
+  name: Gcov
+  url: https://gcc.gnu.org/onlinedocs/gcc/Gcov.html
+- description: Detect memory management and threading bugs, run profiling to see how to speed up your programs.
+  id: valgrind
+  name: Valgrind
+  url: https://valgrind.org/
+- description: Data Version Control, Manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow.
+  id: dvc
+  name: DVC
+  url: https://dvc.org/
+- description: Generate automated pull requests updating dependencies for projects.
+  id: dependabot
+  name: Dependabot
+  url: https://github.com/dependabot/dependabot-core
+- description: Continuous inspection of code quality to perform automatic reviews for static analysis of code.
+  id: sonarqube
+  name: SonarQube
+  url: https://www.sonarsource.com/products/sonarqube/
+- description: The selenium package is used to automate web browser interaction from Python. Selenium WebDriver is often used as a basis for testing web applications.
+  id: selenium
+  name: Selenium
+  url: https://pypi.org/project/selenium/
+- description: For building publication-quality books and documents from computational material.
+  id: jupyterbook
+  name: Jupyter-Book
+  url: https://pypi.org/project/jupyter-book/
+- description: Distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+  id: git
+  name: Git
+  url: https://git-scm.com/
+- description: Automation server to support building, testing and deploying software.
+  id: jenkins
+  name: Jenkins
+  url: https://www.jenkins.io/
+- description: CI platform to support building, testing and deploying software.
+  id: travis
+  name: Travis
+  url: https://www.travis-ci.com/
+- description: Automating deployment, scaling, and management of containerized applications.
+  id: kubernetes
+  name: Kubernetes
+  url: https://kubernetes.io/
+- description: Software Build System.
+  id: cmake
+  name: CMake
+  url: https://cmake.org/
+- description: Unique approach to package management and system configuration.
+  id: nix
+  name: Nix
+  url: https://nixos.org/
+- description: Package manager.
+  id: guix
+  name: Guix
+  url: https://guix.gnu.org/
+- description: Package manager. 
+  id: rpm
+  name: RPM
+  url: https://rpm.org/
+- description: Helpdesk software, ticketing system.
+  id: zammad
+  name: Zammad
+  url: https://zammad.com/en
