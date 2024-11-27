@@ -196,7 +196,7 @@ The table below provides a summary of how different tools and practices help wit
 [zenodo]: https://zenodo.org/
 [software-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [github]: https://github.com
-[biotools]: https://biotools.us/
+[biotools]: https://bio.tools
 [pypi]: https://pypi.org/
 [cran]: https://cran.r-project.org/web/packages/
 [gitlab]: https://about.gitlab.com/
