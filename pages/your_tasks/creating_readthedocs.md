@@ -3,7 +3,7 @@ title: Creating a ReadTheDocs Page
 description: Explain aspects about creating a ReadTheDocs page.
 contributors: ["Christian Hüser","Azza Gamgami"]
 page_id: creating_readthedocs
-related_pages: []
+related_pages: [Software_documentation]
 ---
 
 ## How to Create a ReadTheDocs Page

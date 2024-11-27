@@ -1,6 +1,10 @@
 ---
 title: All tools and resources
+datatable: true
+toc: false
+custom_editme: pages/contribute/tool_resource_update.md
 ---
+
 
 # Tool Information
 
@@ -9,3 +13,7 @@ title: All tools and resources
 {% for tool in data.tool_and_resource_list.tools %}
 | **{{ tool.name }}** | {{ tool.description }} | [{{ tool.name }}]({{ tool.url }}) |
 {% endfor %}
+
+
+{% include resource-table-all.html %}
+
