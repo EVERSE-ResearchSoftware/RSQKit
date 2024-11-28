@@ -258,3 +258,7 @@
   id: zammad
   name: Zammad
   url: https://zammad.com/en
+- description: Tool that helps identify and manage open-source components in software by scanning for licenses, vulnerabilities, and compliance risks.
+  id: scanoss
+  name: SCANOSS
+  url: https://www.scanoss.com/
