@@ -44,9 +44,9 @@ defaults:
         search_exclude: true
         no_robots: true
 
-markdown_extensions:
-  - toc:
-      permalink: true
+# markdown_extensions:
+#   - toc:
+#       permalink: true
 
 theme_variables:
   topnav:

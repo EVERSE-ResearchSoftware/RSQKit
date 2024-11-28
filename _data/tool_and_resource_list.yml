@@ -1,261 +1,261 @@
 tools:
-  - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
-    id: docker
-    name: Docker
-    registry:
-      fairsharing: afc2b3
-      fairsharing-coll: bsg-d001254
-      tess: Docker
-    url: https://www.docker.com/
-  - description: Command line tool to analyze a GitHub or GitLab repository's compliance with the fair-software.eu recommendations.
-    id: howfairis
-    name: howfairis
-    url: https://github.com/fair-software/howfairis
-  - description: Create documentation for packages.
-    id: sphinx
-    name: Sphinx
-    url: https://www.sphinx-doc.org/en/master/
-  - description: Development platform.
-    id: github
-    name: GitHub
-    url: https://github.com/
-  - description: Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes.
-    id: zenodo
-    name: Zenodo
-    url: https://zenodo.org/
-  - description: Version control and development platform.
-    id: gitlab
-    name: GitLab
-    url: https://gitlab.com/
-  - description: Visual Studio Code, also commonly referred to as VS Code,[9] is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
-    id: vscode
-    name: VSCode
-    url: https://code.visualstudio.com/
-  - description: Integrated development environment (IDE) written in Java.
-    id: intellij idea
-    name: IntelliJ IDEA
-    url: https://www.jetbrains.com/fr-fr/idea/
-  - description: Python packaging and dependency management.
-    id: poetry
-    name: Poetry
-    url: https://python-poetry.org/
-  - description: The official third-party software repository for Python.
-    id: pypi
-    name: PyPi
-    url: https://pypi.org/
-  - description: The eOSSR is the Python library to programmatically manage the ESCAPE OSSR. It also includes CodeMeta generator and validator.
-    id: eossr
-    name: eOSSR
-    url: https://gitlab.com/escape-ossr/eossr
-  - description: A generative artificial intelligence chatbot developed by OpenAI and able to produce code or answer questions on code.
-    id: chatgpt
-    name: ChatGPT
-    url: https://chatgpt.com/
-  - description: Automates documentation.
-    id: deoxygen
-    name: Deoxygen
-    url: https://www.doxygen.nl/
-  - description: Automate documentation for Java code.
-    id: javadoc
-    name: JavaDoc
-    url: https://www.oracle.com/java/technologies/javase/javadoc-tool.html
-  - description: Static website generation based on Go.
-    id: hugo
-    name: Hugo
-    url: https://gohugo.io/
-  - description: Static website generation based on Python.
-    id: pelican
-    name: Pelican
-    url: https://getpelican.com/
-  - description: Publish static websites directly from GitLab repository.
-    id: gitlabpages
-    name: GitLab Pages
-    url: https://docs.gitlab.com/ee/user/project/pages/
-  - description: Publish static websites directly from GitHub repository.
-    id: githubpages
-    name: GitHub Pages
-    url: https://pages.github.com/
-  - description: Integration, Delivery and Deployment.
-    id: github actions
-    name: GitHub Actions
-    url: https://github.com/features/actions
-  - description: Bandit is a tool designed to find common security issues in Python code.
-    id: bandit
-    name: Bandit
-    url: https://github.com/PyCQA/bandit
-  - description: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
-    id: playwrite
-    name: Playwrite
-    url: https://playwright.dev/docs/intro
-  - description: The Score-P (Scalable Performance Measurement Infrastructure for Parallel Codes) measurement infrastructure is a highly scalable and easy-to-use tool suite for profiling and event trace recording of HPC applications.
-    id: scorep
-    name: Score-P
-    url: https://gitlab.com/score-p/scorep
-  - description: Original version for automated assessment of data FAIRness; extended version (POC only - not all metrics are implemented) for research software based on the FAIR4RS principles.
-    id: fuji
-    name: F-UJI
-    url: https://github.com/softwaresaved/fuji/
-  - description: Bearer CLI is a static application security testing (SAST) tool that scans your source code and analyzes your data flows to discover, filter and prioritize security and privacy risks.
-    id: bearer
-    name: Bearer
-    url: https://github.com/bearer/bearer
-  - decription: The HERMES workflow enables automated publication of rich research software metadata and artifacts to publication repositories using open source tooling.
-    id: hermesworkflows
-    name: Hermes Workflows
-    url: https://docs.software-metadata.pub/en/latest/
-  - descrption: Generate software citation metadata files with ease. CITATION.cff files are plain text files with human- and machine-readable citation information for software (and datasets).
-    id: cffinitgenerator
-    name: CFFINIT Generator
-    url: https://citation-file-format.github.io/cff-initializer-javascript/#/
-  - description: Generate useful CodeMeta documents for your software.
-    id: codemetagenerator
-    name: CodeMeta Generator
-    url: https://codemeta.github.io/codemeta-generator/
-  - decription: Software Metadata Extraction Framework. A command line interface for automatically extracting relevant information from readme files.
-    id: somef
-    name: SOMEF
-    url: https://github.com/KnowledgeCaptureAndDiscovery/somef
-  - description: Software Quality Assessment as a Service. The Quality Assessment & Awarding building block analyses the level of completeness with the FAIR4RS reference criteria for any given release of your software.
-    id: sqaaas
-    name: SQAaas
-    url: https://sqaaas.eosc-synergy.eu/
-  - description: A site to provide non-judgmental guidance on choosing a license for your open source project
-    id: choosealicense
-    name: choosealicense
-    url: https://choosealicense.com/
-  - description: Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, API keys, and tokens in git repos. Gitleaks is an easy-to-use, all-in-one solution for detecting secrets, past or present, in your code.
-    id: gitleaks
-    name: gitleaks
-    url: https://github.com/gitleaks/gitleaks
-  - description: Black is the uncompromising Python code formatter. By using it, you agree to cede control over minutiae of hand-formatting. In return, Black gives you speed, determinism, and freedom from pycodestyle nagging about formatting.
-    id: black
-    name: Black
-    url: https://github.com/psf/black
-  - description: A framework for managing and maintaining multi-language pre-commit hooks.
-    id: precommit
-    name: precommit
-    url: https://pre-commit.com/
-  - description: Automate the declaring of copyright and licensing for software projects with SPDX Tags.
-    id: reuse
-    name: REUSE
-    url: https://reuse.software/
-  - description: Guided approach to assess the FAIRness of data.
-    id: fairaware
-    name: FAIR Aware
-    url: https://fairaware.dans.knaw.nl/
-  - description: License chooser dialog window to select an appropriate Creative Commons license.
-    id: creativecommons
-    name: Creative Commons
-    url: https://chooser-beta.creativecommons.org/
-  - description: Create static documentation for software projects.
-    id: mkdocs
-    name: MKDocs
-    url: https://www.mkdocs.org/
-  - description: Python testing tool.
-    id: pytest
-    name: PyTest
-    url: https://docs.pytest.org/en/latest/
-  - description: Python testing tool.
-    id: tox
-    name: tox
-    url: https://tox.wiki/en/4.23.2/
-  - description: Java testing tool.
-    id: junit
-    name: JUnit
-    url: https://junit.org/junit5/
-  - description: CPP testing tool.
-    id: cppunit
-    name: CPPUnit
-    url: https://freedesktop.org/wiki/Software/cppunit/
-  - description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments.
-    id: apptainer
-    name: APPTAINER
-    url: https://apptainer.org/
-  - description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments.
-    id: singularityce
-    name: SingularityCE
-    url: https://sylabs.io/singularity/
-  - description: An extremely fast Python linter and code formatter, written in Rust.
-    id: ruff
-    name: Ruff
-    url: https://docs.astral.sh/ruff/
-  - description: Static code analysis for Python.
-    id: pylint
-    name: Pylint
-    url: https://pylint.readthedocs.io/en/stable/
-  - description: Dockerfile linter.
-    id: hadolint
-    name: Hadolint
-    url: https://github.com/hadolint/hadolint
-  - description: Static code analysis tool for Python.
-    id: flake8
-    name: Flake8
-    url: https://flake8.pycqa.org/en/latest/
-  - description: Static code analysis tool for Java.
-    id: checkstyle
-    name: Checkstyle
-    url: https://sourceforge.net/projects/checkstyle/
-  - description: Code coverage analysis tool.
-    id: gcov
-    name: Gcov
-    url: https://gcc.gnu.org/onlinedocs/gcc/Gcov.html
-  - description: Detect memory management and threading bugs, run profiling to see how to speed up your programs.
-    id: valgrind
-    name: Valgrind
-    url: https://valgrind.org/
-  - description: Data Version Control, Manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow.
-    id: dvc
-    name: DVC
-    url: https://dvc.org/
-  - description: Generate automated pull requests updating dependencies for projects.
-    id: dependabot
-    name: Dependabot
-    url: https://github.com/dependabot/dependabot-core
-  - description: Continuous inspection of code quality to perform automatic reviews for static analysis of code.
-    id: sonarqube
-    name: SonarQube
-    url: https://www.sonarsource.com/products/sonarqube/
-  - description: The selenium package is used to automate web browser interaction from Python. Selenium WebDriver is often used as a basis for testing web applications.
-    id: selenium
-    name: Selenium
-    url: https://pypi.org/project/selenium/
-  - description: For building publication-quality books and documents from computational material.
-    id: jupyterbook
-    name: Jupyter-Book
-    url: https://pypi.org/project/jupyter-book/
-  - description: Distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-    id: git
-    name: Git
-    url: https://git-scm.com/
-  - description: Automation server to support building, testing and deploying software.
-    id: jenkins
-    name: Jenkins
-    url: https://www.jenkins.io/
-  - description: CI platform to support building, testing and deploying software.
-    id: travis
-    name: Travis
-    url: https://www.travis-ci.com/
-  - description: Automating deployment, scaling, and management of containerized applications.
-    id: kubernetes
-    name: Kubernetes
-    url: https://kubernetes.io/
-  - description: Software Build System.
-    id: cmake
-    name: CMake
-    url: https://cmake.org/
-  - description: Unique approach to package management and system configuration.
-    id: nix
-    name: Nix
-    url: https://nixos.org/
-  - description: Package manager.
-    id: guix
-    name: Guix
-    url: https://guix.gnu.org/
-  - description: Package manager. 
-    id: rpm
-    name: RPM
-    url: https://rpm.org/
-  - description: Helpdesk software, ticketing system.
-    id: zammad
-    name: Zammad
-    url: https://zammad.com/en
+- description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
+  id: docker
+  name: Docker
+  registry:
+    fairsharing: afc2b3
+    fairsharing-coll: bsg-d001254
+    tess: Docker
+  url: https://www.docker.com/
+- description: Command line tool to analyze a GitHub or GitLab repository's compliance with the fair-software.eu recommendations.
+  id: howfairis
+  name: howfairis
+  url: https://github.com/fair-software/howfairis
+- description: Create documentation for packages.
+  id: sphinx
+  name: Sphinx
+  url: https://www.sphinx-doc.org/en/master/
+- description: Development platform.
+  id: github
+  name: GitHub
+  url: https://github.com/
+- description: Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes.
+  id: zenodo
+  name: Zenodo
+  url: https://zenodo.org/
+- description: Version control and development platform.
+  id: gitlab
+  name: GitLab
+  url: https://gitlab.com/
+- description: Visual Studio Code, also commonly referred to as VS Code,[9] is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
+  id: vscode
+  name: VSCode
+  url: https://code.visualstudio.com/
+- description: Integrated development environment (IDE) written in Java.
+  id: intellij idea
+  name: IntelliJ IDEA
+  url: https://www.jetbrains.com/fr-fr/idea/
+- description: Python packaging and dependency management.
+  id: poetry
+  name: Poetry
+  url: https://python-poetry.org/
+- description: The official third-party software repository for Python.
+  id: pypi
+  name: PyPi
+  url: https://pypi.org/
+- description: The eOSSR is the Python library to programmatically manage the ESCAPE OSSR. It also includes CodeMeta generator and validator.
+  id: eossr
+  name: eOSSR
+  url: https://gitlab.com/escape-ossr/eossr
+- description: A generative artificial intelligence chatbot developed by OpenAI and able to produce code or answer questions on code.
+  id: chatgpt
+  name: ChatGPT
+  url: https://chatgpt.com/
+- description: Automates documentation.
+  id: deoxygen
+  name: Deoxygen
+  url: https://www.doxygen.nl/
+- description: Automate documentation for Java code.
+  id: javadoc
+  name: JavaDoc
+  url: https://www.oracle.com/java/technologies/javase/javadoc-tool.html
+- description: Static website generation based on Go.
+  id: hugo
+  name: Hugo
+  url: https://gohugo.io/
+- description: Static website generation based on Python.
+  id: pelican
+  name: Pelican
+  url: https://getpelican.com/
+- description: Publish static websites directly from GitLab repository.
+  id: gitlabpages
+  name: GitLab Pages
+  url: https://docs.gitlab.com/ee/user/project/pages/
+- description: Publish static websites directly from GitHub repository.
+  id: githubpages
+  name: GitHub Pages
+  url: https://pages.github.com/
+- description: Integration, Delivery and Deployment.
+  id: github actions
+  name: GitHub Actions
+  url: https://github.com/features/actions
+- description: Bandit is a tool designed to find common security issues in Python code.
+  id: bandit
+  name: Bandit
+  url: https://github.com/PyCQA/bandit
+- description: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+  id: playwrite
+  name: Playwrite
+  url: https://playwright.dev/docs/intro
+- description: The Score-P (Scalable Performance Measurement Infrastructure for Parallel Codes) measurement infrastructure is a highly scalable and easy-to-use tool suite for profiling and event trace recording of HPC applications.
+  id: scorep
+  name: Score-P
+  url: https://gitlab.com/score-p/scorep
+- description: Original version for automated assessment of data FAIRness; extended version (POC only - not all metrics are implemented) for research software based on the FAIR4RS principles.
+  id: fuji
+  name: F-UJI
+  url: https://github.com/softwaresaved/fuji/
+- description: Bearer CLI is a static application security testing (SAST) tool that scans your source code and analyzes your data flows to discover, filter and prioritize security and privacy risks.
+  id: bearer
+  name: Bearer
+  url: https://github.com/bearer/bearer
+- decription: The HERMES workflow enables automated publication of rich research software metadata and artifacts to publication repositories using open source tooling.
+  id: hermesworkflows
+  name: Hermes Workflows
+  url: https://docs.software-metadata.pub/en/latest/
+- descrption: Generate software citation metadata files with ease. CITATION.cff files are plain text files with human- and machine-readable citation information for software (and datasets).
+  id: cffinitgenerator
+  name: CFFINIT Generator
+  url: https://citation-file-format.github.io/cff-initializer-javascript/#/
+- description: Generate useful CodeMeta documents for your software.
+  id: codemetagenerator
+  name: CodeMeta Generator
+  url: https://codemeta.github.io/codemeta-generator/
+- decription: Software Metadata Extraction Framework. A command line interface for automatically extracting relevant information from readme files.
+  id: somef
+  name: SOMEF
+  url: https://github.com/KnowledgeCaptureAndDiscovery/somef
+- description: Software Quality Assessment as a Service. The Quality Assessment & Awarding building block analyses the level of completeness with the FAIR4RS reference criteria for any given release of your software.
+  id: sqaaas
+  name: SQAaas
+  url: https://sqaaas.eosc-synergy.eu/
+- description: A site to provide non-judgmental guidance on choosing a license for your open source project
+  id: choosealicense
+  name: choosealicense
+  url: https://choosealicense.com/
+- description: Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, API keys, and tokens in git repos. Gitleaks is an easy-to-use, all-in-one solution for detecting secrets, past or present, in your code.
+  id: gitleaks
+  name: gitleaks
+  url: https://github.com/gitleaks/gitleaks
+- description: Black is the uncompromising Python code formatter. By using it, you agree to cede control over minutiae of hand-formatting. In return, Black gives you speed, determinism, and freedom from pycodestyle nagging about formatting.
+  id: black
+  name: Black
+  url: https://github.com/psf/black
+- description: A framework for managing and maintaining multi-language pre-commit hooks.
+  id: precommit
+  name: precommit
+  url: https://pre-commit.com/
+- description: Automate the declaring of copyright and licensing for software projects with SPDX Tags.
+  id: reuse
+  name: REUSE
+  url: https://reuse.software/
+- description: Guided approach to assess the FAIRness of data.
+  id: fairaware
+  name: FAIR Aware
+  url: https://fairaware.dans.knaw.nl/
+- description: License chooser dialog window to select an appropriate Creative Commons license.
+  id: creativecommons
+  name: Creative Commons
+  url: https://chooser-beta.creativecommons.org/
+- description: Create static documentation for software projects.
+  id: mkdocs
+  name: MKDocs
+  url: https://www.mkdocs.org/
+- description: Python testing tool.
+  id: pytest
+  name: PyTest
+  url: https://docs.pytest.org/en/latest/
+- description: Python testing tool.
+  id: tox
+  name: tox
+  url: https://tox.wiki/en/4.23.2/
+- description: Java testing tool.
+  id: junit
+  name: JUnit
+  url: https://junit.org/junit5/
+- description: CPP testing tool.
+  id: cppunit
+  name: CPPUnit
+  url: https://freedesktop.org/wiki/Software/cppunit/
+- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments.
+  id: apptainer
+  name: APPTAINER
+  url: https://apptainer.org/
+- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments.
+  id: singularityce
+  name: SingularityCE
+  url: https://sylabs.io/singularity/
+- description: An extremely fast Python linter and code formatter, written in Rust.
+  id: ruff
+  name: Ruff
+  url: https://docs.astral.sh/ruff/
+- description: Static code analysis for Python.
+  id: pylint
+  name: Pylint
+  url: https://pylint.readthedocs.io/en/stable/
+- description: Dockerfile linter.
+  id: hadolint
+  name: Hadolint
+  url: https://github.com/hadolint/hadolint
+- description: Static code analysis tool for Python.
+  id: flake8
+  name: Flake8
+  url: https://flake8.pycqa.org/en/latest/
+- description: Static code analysis tool for Java.
+  id: checkstyle
+  name: Checkstyle
+  url: https://sourceforge.net/projects/checkstyle/
+- description: Code coverage analysis tool.
+  id: gcov
+  name: Gcov
+  url: https://gcc.gnu.org/onlinedocs/gcc/Gcov.html
+- description: Detect memory management and threading bugs, run profiling to see how to speed up your programs.
+  id: valgrind
+  name: Valgrind
+  url: https://valgrind.org/
+- description: Data Version Control, Manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow.
+  id: dvc
+  name: DVC
+  url: https://dvc.org/
+- description: Generate automated pull requests updating dependencies for projects.
+  id: dependabot
+  name: Dependabot
+  url: https://github.com/dependabot/dependabot-core
+- description: Continuous inspection of code quality to perform automatic reviews for static analysis of code.
+  id: sonarqube
+  name: SonarQube
+  url: https://www.sonarsource.com/products/sonarqube/
+- description: The selenium package is used to automate web browser interaction from Python. Selenium WebDriver is often used as a basis for testing web applications.
+  id: selenium
+  name: Selenium
+  url: https://pypi.org/project/selenium/
+- description: For building publication-quality books and documents from computational material.
+  id: jupyterbook
+  name: Jupyter-Book
+  url: https://pypi.org/project/jupyter-book/
+- description: Distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+  id: git
+  name: Git
+  url: https://git-scm.com/
+- description: Automation server to support building, testing and deploying software.
+  id: jenkins
+  name: Jenkins
+  url: https://www.jenkins.io/
+- description: CI platform to support building, testing and deploying software.
+  id: travis
+  name: Travis
+  url: https://www.travis-ci.com/
+- description: Automating deployment, scaling, and management of containerized applications.
+  id: kubernetes
+  name: Kubernetes
+  url: https://kubernetes.io/
+- description: Software Build System.
+  id: cmake
+  name: CMake
+  url: https://cmake.org/
+- description: Unique approach to package management and system configuration.
+  id: nix
+  name: Nix
+  url: https://nixos.org/
+- description: Package manager.
+  id: guix
+  name: Guix
+  url: https://guix.gnu.org/
+- description: Package manager. 
+  id: rpm
+  name: RPM
+  url: https://rpm.org/
+- description: Helpdesk software, ticketing system.
+  id: zammad
+  name: Zammad
+  url: https://zammad.com/en
