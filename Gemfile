@@ -15,5 +15,4 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag', '~> 2.8'
   gem 'jekyll-scholar', '~> 7.1.3'
   gem 'jekyll-remote-theme'
-  gem 'jekyll-feed'
 end

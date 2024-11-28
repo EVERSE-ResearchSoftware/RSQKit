@@ -1,4 +1,3 @@
-tools:
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
   name: Docker
