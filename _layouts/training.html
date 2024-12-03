@@ -1,0 +1,56 @@
+<!-- ---
+layout: default
+--- -->
+
+<h1>{{ page.title }}</h1>
+
+<div class="table-wrapper-scroll-y">
+  <table class="table">
+    <thead>
+      <tr>
+        {% assign headers = "Resource Name,Description,Domain,Public,Contact" | split: "," %}
+        {% for header in headers %}
+          <th scope="col">{{ header }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for resource in site.data.cleaned_training_resources %}
+        <tr>
+          <td>
+            {% if resource.url %}
+              <a href="{{ resource.url }}">{{ resource.name }}</a>
+            {% else %}
+              {{ resource.name }}
+            {% endif %}
+          </td>
+          <td>{{ resource.description }}</td>
+          <td>{{ resource.domain }}</td>
+          <td>{{ resource.public }}</td>
+          <td>{{ resource.contact }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<style>
+.table-wrapper-scroll-y {
+  display: block;
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-spacing: 0;
+}
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+  white-space: normal;
+  min-width: 150px;
+}
+</style>
