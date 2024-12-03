@@ -6,6 +6,6 @@ Changes proposed in this pull request:
 
 * list your changes here
 
-Notes to reviewers: 
+Notes for reviewers: 
 
-* list your notes here
+* provide additional information for the reviewers here (if needed)
