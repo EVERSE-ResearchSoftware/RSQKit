@@ -4,7 +4,7 @@ search_exclude: true
 description: A guide to creating clear and useful software documentation for developers and end-users.
 contributors: ["Azza Gamgami"]
 page_id: Software_documentation
-related_pages: [<!---REPLACE THIS with the page comma-separated page IDs of the pages that are related to the current page--->]
+related_pages: [creating_readthedocs]
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 training:
   - name:
