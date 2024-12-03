@@ -1,6 +1,6 @@
-# Pull request title
+# Provide a pull request title here
 
-Fixes: #issue
+Fixes: #issue_number_here
 
 Changes proposed in this pull request:
 
