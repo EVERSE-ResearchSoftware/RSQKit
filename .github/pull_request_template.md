@@ -1,10 +1,14 @@
-# Provide a pull request title here
+Fixes #issue_number.
 
-Fixes: #issue
+*Please make sure you have checked CONTRIBUTING.md guidelines before creating a pull request.*
+*Is there a related issue for the fix you are providing? If not, please consider adding one.*
+*If you are changing files in `data/` or `_includes` folder or `config.yaml` file - please make sure you ahve discussed this with the maintainers in the relevant issue.*
 
 Changes proposed in this pull request:
 
 * list your changes here
+* list another change
+* and so on
 
 Notes for reviewers: 
 
