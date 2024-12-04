@@ -38,7 +38,7 @@ We want to keep the editorial board at a manageable number, therefore we are loo
 * The applicant must be interested in effective digital communication of best practices and guidelines.
 * The applicant should be willing to spend some time on evaluation of content.
 * The applicant should be open to discuss topics with other editorial board members and to accept feedback.
-* The applicant should have basic knowledge of Github.
+* The applicant should have basic knowledge of GitHub.
 
 **Application**
 
