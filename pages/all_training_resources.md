@@ -1,7 +1,8 @@
 ---
 title: All training resources
+datatable: true
+toc: false
 ---
 
-This will be where all training resources used or referenced in this website will be listed.
 
-<!-- {% include section-navigation-tiles.html type="your_tasks" search=true col=3 %} -->
+{% include training-table-all.html %}
