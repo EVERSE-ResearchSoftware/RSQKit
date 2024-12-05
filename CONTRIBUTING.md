@@ -38,10 +38,10 @@ mistake, some awkward wording, or a factual error.
 
 At this moment, we welcome:
 
-- [reports on issues, bugs and typos][#reporting-an-issue] in RSQKit content
-- suggestions for new content by creating a [new issue][#reporting-an-issue] for discussion
+- [reports on issues, bugs and typos](#reporting-an-issue) in RSQKit content
+- suggestions for new content by creating a [new issue](#reporting-an-issue) for discussion
 - comments on [existing issues][issues] and reviews of [existing pull requests][pull-requests]
-- [pull requests][#creating-a-pull-request] to fix issues, bug and typos in the RSQKit content
+- [pull requests](#creating-a-pull-request) to fix issues, bug and typos in the RSQKit content
 
 If you plan to submit a pull request that adds new content or significantly changes existing content, 
 please [contact the Editorial Board][contact] to discuss this first so that 
@@ -126,7 +126,7 @@ The content is periodically updated, meaning that if you create content for RSQK
 However, the [Editorial Board][editorial-board] ensures that any changes are made for valid reasons. 
 They strive to accommodate the legitimate concerns and diverse viewpoints of all contributors and ensure that the content reflects the most widely accepted consensus on any topic.
 
-If you find any content unsatisfactory, please feel free to report about it by "creating an issue" request.
+If you find any content unsatisfactory, please feel free to report about it by [creating an issue](#reporting-an-issue).
 
 [contact]: mailto:rsqkit@lists.certh.gr
 [github]: https://github.com
