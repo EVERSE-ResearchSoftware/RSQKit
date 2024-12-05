@@ -75,14 +75,18 @@ way is to create a branch in your fork for each significant change (pull request
 Editorial Board Members will review pull requests and have a final say over what gets merged into RSQKit.
 
 > [!NOTE]
-> The reason why we recommend working in your own forks of this repository versus a branch of this repository is mainly 
-> because by having a separate fork, you can render your own version of RSQKit as a website and see what your changes will look like
+> The reason why we recommend working in your own forks versus in a branch of this repository for collaborators who have push/write
+> permissions to RSQKit repository is primarily because you can render your own forked version of RSQKit as a Web site more easily
+> (which you cannot on the RSQKit repository which hosts a live/production Web site) and test what your changes will look like
 > before creating a pull request. 
-> It also allows reviewers to easily check and test your changes and make sure everything is correct before merging to the main branch.
-> 
-> Working in GitHub interface is convenient, but does not allow for spelling checks and loads of typos creap in this way.
-> If you can - a better way of working would be to clone your fork locally on your machine, and edit files 
-> in a good IDE or text editor with spelling checking capabilities.
+> It also allows reviewers to more easily check and test your changes and make sure everything is correct before merging to the main branch of RSQKit.
+>
+> [Another perspective on why you should fork][github-why-should-i-fork] - this will keep the RSQKit repository in a clean condition, having only official
+> branches and tags and cluttered by a large number of development or feature branches.
+>
+> Finally, working in GitHub interface is convenient, but does not allow for spelling checks and loads of typos creap in this way.
+> If you can - clone your fork and set up RSQKit locally on your machine, and edit files 
+> in a good text editor with spelling checking capabilities.
 
 ### What *Not* to Contribute
 
@@ -133,4 +137,5 @@ If you find any content unsatisfactory, please feel free to report about it by "
 [editorial-board]: http://everse.software/RSQKit/editorial_board
 [contributors]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yaml
 [pull-requests]: https://github.com/EVERSE-ResearchSoftware/RSQKit/pulls
+[github-why-should-i-fork]: https://stackoverflow.com/questions/31209669/github-why-should-i-fork
 
