@@ -66,12 +66,23 @@ Here are some guidelines for reporting issues.
 If you choose to contribute via GitHub's pull requests, you may want to look at [How to Contribute to an Open Source Project on GitHub][how-contribute]. 
 
 1. Open an issue for your pull request first (unless already opened).
-2. Create a new branch in your fork of this repository for each significant change (pull request).
-3. Make sure that your changes are tested and render in the Web page correctly.
-4. Submit a pull request from that branch to the this repository.
-5. If you receive feedback, make changes on your fork/branch and your pull request will update automatically.
+2. Create your own fork of RSQKit repository and set it up to render RSQKit pages as a Web site. An even better 
+way is to create a branch in your fork for each significant change (pull request), as then you can create multiple pull requests in parallel.
+3. Make sure that your changes in your fork/branch are tested and render correctly in the Web site.
+4. Submit a pull request from your fork to RSQKit repository (this repository).
+5. If you receive feedback, make changes on your fork and your pull request will update automatically.
 
 Editorial Board Members will review pull requests and have a final say over what gets merged into RSQKit.
+
+> [!INFO]
+> The reason why we recommend working in your own forks of this repository versus a branch of this repository is mainly 
+> because by having a separate fork, you can render your own version of RSQKit as a website and see what your changes will look like
+> before creating a pull request. 
+> It also allows reviewers to easily check and test your changes and make sure everything is correct before merging to the main branch.
+> 
+> Working in GitHub interface is convenient, but does not allow for spelling checks and loads of typos creap in this way.
+> If you can - a better way of working would be to clone your fork locally on your machine, and edit files 
+> in a good IDE or text editor with spelling checking capabilities.
 
 ### What *Not* to Contribute
 
