@@ -9,4 +9,4 @@ maintenance tasks or challenges. You will find:
 - Links to task-specific training materials.
 - A summary table of tools and resources relevant for the specific task and recommended by communities.
 
-{% include section-navigation-tiles.html type="your_tasks" search=true col=3 %}
+{% include section-navigation-tiles.html type="your_tasks" search=true col=3 except="TEMPLATE_your_tasks.md"%}
