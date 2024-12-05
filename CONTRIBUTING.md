@@ -84,7 +84,7 @@ Editorial Board Members will review pull requests and have a final say over what
 > [Another perspective on why you should fork][github-why-should-i-fork] - this will keep the RSQKit repository in a clean condition, having only official
 > branches and tags and not cluttered by a large number of development or feature branches.
 >
-> Finally, working in GitHub interface is convenient, but does not allow for spelling checks and loads of typos creap in this way.
+> Finally, working in GitHub interface is convenient, but does not allow for spelling checking and lots of spelling mistakes can creep in this way.
 > If you can - clone your fork and set up RSQKit locally on your machine, and edit files 
 > in a good text editor with spelling checking capabilities.
 
