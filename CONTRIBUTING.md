@@ -38,35 +38,30 @@ mistake, some awkward wording, or a factual error.
 
 At this moment, we welcome:
 
-- [reports on issues, bugs and typos][#reporting-an-issue] in RSQKit content via [GitHub's issues][issues] or via [Editorial Board email][contact]
-- suggestions for new content via [GitHub's issues][issues] or via [Editorial Board email][contact]
-- comments on [existing issues][issues] and reviews of [pull requests][pull-requests]
+- [reports on issues, bugs and typos][#reporting-an-issue] in RSQKit content
+- suggestions for new content by creating a [new issue][#reporting-an-issue] for discussion
+- comments on [existing issues][issues] and reviews of [existing pull requests][pull-requests]
 - [pull requests][#creating-a-pull-request] to fix issues, bug and typos in the RSQKit content
 
 If you plan to submit a pull request that adds new content or significantly changes existing content, 
 please [contact the Editorial Board][contact] to discuss this first so that 
 the effort is not spent by making a change that may not be accepted.
 
-### What *Not* to Contribute
+#### Reporting an issue
 
-At this point, we do not welcome contributions that create or change data files in `_data/` folder in the repository,
-`_config.yml` and other infrastructure files (such as CSS files, page templates and files in the `_includes/` folder).
-If you think some of these files should be changed, please [contact the Editorial Board][contact].
-
-### Reporting an issue 
-
-Issues, bugs or remarks are tracked as [GitHub issues][issues]. 
+Issues, bugs or remarks or suggestions for new content are tracked via [GitHub's issues][issues].
 You can create an issue and a member of the Editorial Board will review it and assign a person responsible for looking into it. 
+Alternatively, you can [email the Editorial Board][contact] and they will create a GitHub issue on your behalf.
 
 Here are some guidelines for reporting issues.
 
 - Add a clear and concise description of what the issue is.
 - Provide a URL of the page where the issue occurs, if applicable
-- If applicable, add screenshots to help explain the issue
-- Platform information, for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2)
-- Add any additional context that may be helpful
+- Add screenshots to help explain the issue, if applicable
+- For bug reports, provide platform information used, for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2)
+- Add any additional context that may be helpful in addressing the issue
 
-### Creating a pull request
+#### Creating a pull request
 
 If you choose to contribute via GitHub's pull requests, you may want to look at [How to Contribute to an Open Source Project on GitHub][how-contribute]. 
 
@@ -78,6 +73,12 @@ If you choose to contribute via GitHub's pull requests, you may want to look at 
 
 Editorial Board Members will review pull requests and have a final say over what gets merged into RSQKit.
 
+### What *Not* to Contribute
+
+At this point, we do not welcome contributions that create or change the underlying RSQKit infrastructure - for example, 
+data files in `_data/` folder in the repository, `_config.yml` and other infrastructure files 
+(such as CSS files, page templates and files in the `_includes/` folder).
+If you think some of these files should be updated, please [contact the Editorial Board][contact].
 
 ## Contributor responsibilities
 
