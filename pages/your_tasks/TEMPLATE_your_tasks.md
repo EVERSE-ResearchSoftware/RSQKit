@@ -1,5 +1,5 @@
 ---
-title: Problem title (e.g. version control)
+title: "A title for the task or a problem you are trying to solve"
 search_exclude: true # set to false if you want this page to show up in search results
 description: "" # Add a short description of the page
 contributors: [] # A comma separated list of contributors' ids
