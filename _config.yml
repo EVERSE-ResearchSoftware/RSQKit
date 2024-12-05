@@ -11,6 +11,14 @@ description: "The Research Software Quality Kit is a resource to help researcher
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme
 
+baseurl: ""
+url: "http://localhost:4000"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 sass:
   style: compressed
@@ -20,6 +28,13 @@ exclude:
   - README.md
   - Gemfile
 
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults
 defaults:
   -
     scope:

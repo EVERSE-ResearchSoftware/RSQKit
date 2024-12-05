@@ -1,0 +1,412 @@
+- name: Software Carpentries
+  url: https://software-carpentry.org
+  domain: Domain agnostic
+  contact: Aleksandra Nenadic
+  public: 'Yes'
+  description: Foundational computational skills - shell, Git, Python/R
+- name: Data Carpentry
+  url: https://datacarpentry.org/
+  domain: Domain agnostic
+  contact: Aleksandra Nenadic
+  public: 'Yes'
+  description: Foundational data skills
+- name: TeSS Elixir
+  url: https://tess.elixir-europe.org/
+  contact: Aleksandra Nenadic
+  public: 'yes'
+  description: Registry of life sciences training materials
+- name: Tools and practices for FAIR research software
+  url: https://carpentries-incubator.github.io/fair-research-software/
+  contact: Aleksandra Nenadic
+  public: Yes, Release in June '24
+  description: FAIR research software training course by Software sustainabilioty
+    Institute
+- name: ASTERICS programming school
+  url: https://github.com/Asterics2020-Obelics/School2019
+  cluster: ESCAPE
+  domain: Mostly agnostic+some domain specific course
+  contact: Thomas Vuillaume
+- name: ESCAPE data science school
+  url: https://escape2020.github.io/school2021/
+  cluster: ESCAPE
+  domain: Mostly agnostic+some domain specific course
+  contact: Thomas Vuillaume
+- name: Gray Scott battle school
+  url: https://indico.in2p3.fr/event/29755/
+  cluster: ESCAPE
+  domain: Domain agnostic
+  contact: Thomas Vuillaume
+  description: Programming heterogeneous hardware
+  comments: As of next year taught in English
+- name: HIFIS RSE Training
+  url: https://hifis.net/services/software/training.html
+  contact: Guido Juckeland
+- name: FAIR Principles for Research Software
+  url: https://www.rd-alliance.org/group/fair-research-software-fair4rs-wg/outcomes/fair-principles-research-software-fair4rs
+  contact: Neil Chue Hong, Daniel Garijo
+  public: 'yes'
+- name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary context
+  url: https://pure.knaw.nl/portal/en/publications/d52-metrics-for-automated-fair-software-assessment-in-a-disciplin
+  contact: Neil Chue Hong, Daniel Garijo
+  public: 'yes'
+- name: EOSC Task Force for infrastructure for code quality
+  url: https://zenodo.org/records/10723608
+  contact: Daniel Garijo
+  public: 'yes'
+- name: Codemeta terms
+  url: https://codemeta.github.io/terms/
+  contact: Daniel Garijo
+  public: 'yes'
+- name: FAIR for Machine Learning IG
+  url: https://www.rd-alliance.org/groups/fair-machine-learning-fair4ml-ig
+  contact: Fotis, Daniel Garijo
+- name: eScience center training
+  url: https://www.esciencecenter.nl/digital-skills/
+  contact: Mateusz Kuzak
+- name: NL RS Training
+  url: https://researchsoftwaretraining.nl/
+  contact: Mateusz Kuzak
+- name: Software Mgmt Plans Guide
+  url: https://www.esciencecenter.nl/national-guidelines-for-software-management-plans/
+  contact: Mateusz Kuzak
+- name: ELIXIR-STEERS
+  url: https://elixir-europe.org/about-us/how-funded/eu-projects/steers
+  contact: Silvio Tosatto / Damiano Piovesan
+- name: ELIXIR Data Platform
+  url: https://elixir-europe.org/platforms/data
+  contact: Silvio Tosatto / Damiano Piovesan
+- name: ELIXIR IDP Community
+  url: https://elixir-europe.org/communities/intrinsically-disordered-proteins
+  contact: Damiano Piovesan
+- name: ENVRI Knowledge base
+  contact: Zhiming Zhao
+- name: LifeWatch ERIC Training Platform
+  url: https://training.lifewatch.eu/
+  contact: Alberto Basset / Eleonora Parisi
+- name: LifeWatch ERIC summer schools
+  url: https://training.lifewatch.eu/biodiversity-ecampus/resources/?category=14
+  contact: Alberto Basset / Eleonora Parisi
+- name: e-Biodiversity and ecosystem sciences training
+  url: https://training.lifewatch.eu:9001/pluginfile.php/1047/mod_resource/content/1/Masters%20EBES%20Brochure%2022.pdf
+  contact: Alberto Basset / Eleonora Parisi
+- name: HEP Software Foundation Training WG
+  url: https://hepsoftwarefoundation.org/workinggroups/training.html
+  cluster: ESCAPE
+  domain: agnostic
+  contact: Stefan Roiser
+  public: 'yes'
+  description: Self-taught and instructor based set of course on tools and languages
+    in software engineering
+- name: EIROforum WG Training and Career Development
+  url: https://www.eiroforum.org/about-eiroforum/governance/
+  cluster: ESCAPE
+  domain: agnostic
+  contact: Stefan Roiser
+  public: probably (currenty being setup)
+  description: Exchange of information about training activities and best practices
+- name: CERN schools on computing
+  url: https://csc.web.cern.ch/
+  cluster: ESCAPE
+  domain: partialy specific
+  contact: Stefan Roiser
+  public: 'yes'
+  description: various thematic and general computing schools
+- name: HEP C++ Course and Hands-on Training
+  url: https://github.com/hsf-training/cpluspluscourse
+  cluster: ESCAPE
+  domain: agnostic
+  contact: Stefan Roiser
+  public: planned for the future
+  description: hybrid 3 day courses on different levels on C++ programming
+- name: NextGen Triggers training
+  url: https://nextgentriggers.web.cern.ch/
+  cluster: ESCAPE
+  domain: TBD
+  contact: Stefan Roiser
+  public: started in Jan '24
+  description: aim to create a curriculum for software development
+- name: Good Enough Practices in Scientific Computing
+  url: https://carpentries-lab.github.io/good-enough-practices/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+  description: This lesson is targeted at a broad audience of researchers who want
+    to learn how to be more efficient and effective in their data analysis and computing,
+    whatever their career stage.
+- name: UNIVERSE-HPC
+  url: https://www.universe-hpc.ac.uk/
+  domain: agnostic
+  contact: Neii Chue Hong
+  public: 'yes'
+  description: Developing curriculum and course for RSEs specialising in large scale
+    computing (simulation & modelling and data science)
+- name: Bioconductor training material
+  url: https://bioconductor.org/help/
+  domain: specific
+  contact: Fotis Psomopoulos
+  public: 'yes'
+- name: Git repositories with bioinformatics training material
+  url: https://glittr.org/
+  domain: specific
+  contact: Fotis Psomopoulos
+  public: 'yes'
+- name: Code Refinery
+  url: https://coderefinery.org/lessons/from-coderefinery/
+  domain: agnositc
+  public: 'yes'
+  description: Workshop / self-study training materials in basic computational science
+    skills (version control, notebooks, social coding, etc)
+- name: Ed-DaSH
+  url: https://edcarp.github.io/Ed-DaSH/
+  domain: specific
+  contact: Giacomo Peru
+- name: Posit (Data science resources - R, Python)
+  url: https://posit.co/resources/
+  domain: agnositc
+  contact: Fotis Psomopoulos
+  public: 'yes'
+- name: A Beginner’s Guide to Conducting Reproducible Research, Jesse M. Alston, Jessica
+    A. Rick, Bulletin of The Ecological Society of America 102 (2) (2021), https://doi.org/10.1002/bes2.1801
+  url: https://esajournals.onlinelibrary.wiley.com/doi/10.1002/bes2.1801
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: 'The Turing Way Community. (2022). The Turing Way: A handbook for reproducible,
+    ethical and collaborative research. Zenodo. https://doi.org/10.5281/zenodo.3233853'
+  url: https://the-turing-way.netlify.app/index.html
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: 'The Turing Way’s “Guide for Reproducible Research”, online book - part of
+    the The Turing Way: A handbook for reproducible, ethical and collaborative research'
+  url: https://the-turing-way.netlify.app/reproducible-research/reproducible-research
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: “Ten reproducible research things” tutorial
+  url: https://guereslib.github.io/ten-reproducible-research-things/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Reproducibility for Everyone’s (R4E) resources, community-led education initiative
+    to increase adoption of open research practices at scale
+  url: https://www.repro4everyone.org/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Training materials on different aspects of research software engineering (including
+    open source, reproducibility, research software testing, engineering, design,
+    continuous integration, collaboration, version control, packaging, etc.), compiled
+    by the INTERSECT project
+  url: https://intersect-training.org/training-links/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: “Good Enough Practices in Scientific Computing” course
+  url: https://intersect-training.org/training-links/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Curated resources by the Framework for Open and Reproducible Research Training
+    (FORRT)
+  url: https://forrt.org/resources/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Barker, M., Chue Hong, N.P., Katz, D.S. et al.  Introducing the FAIR Principles
+    for research software. Sci Data 9, 622 (2022). https://doi.org/10.1038/s41597-022-01710-x
+  url: https://www.nature.com/articles/s41597-022-01710-x
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Wilkinson, M., Dumontier, M., Aalbersberg, I. et al.  The FAIR Guiding Principles
+    for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18.
+  url: https://www.nature.com/articles/sdata201618
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: The FAIR Cookbook, online recipes for life scientists that help make and keep
+    data FAIR
+  url: https://faircookbook.elixir-europe.org/content/home.html
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Top 10 FAIR Data & Software Things - brief guides for different disciplines
+    that can be used by the research community to understand how they can make their
+    research (data and software) more FAIR
+  url: https://librarycarpentry.org/Top-10-FAIR/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: 10 easy things to make your research software FAIR, poster, part of Top 10
+    FAIR Data & Software Things
+  url: https://librarycarpentry.org/Top-10-FAIR/files/poster_10things_FAIRsoftware.pdf
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Five recommendations for FAIR software, by the Netherlands eScience Center
+    and DANS
+  url: https://fair-software.eu/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Short online courses on various aspects of research software (including FAIR),
+    by the NESC Research Software Support
+  url: https://esciencecenter-digital-skills.github.io/software-support-essentials/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Awesome Research Software Registries, a list of research software registries
+    (by country, organisation, domain and programming language) where research software
+    can be registered to help promote its discovery
+  url: https://github.com/NLeSC/awesome-research-software-registries
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Software Carpentry’s Git Novice lesson
+  url: https://swcarpentry.github.io/git-novice
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: “How Git Works” course on Pluralsight
+  url: https://www.pluralsight.com/courses/how-git-works
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: A cookiecutter software project template to kickstart a modern best-practice
+    Python project with FAIR metadata
+  url: https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: A self-assessment checklist for FAIR research software, by the Netherlands
+    eScience Center and Australian Research Data Commons
+  url: https://fairsoftwarechecklist.net/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Open source definition, by the Open Source Initiative
+  url: https://opensource.org/osd/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: CODECHECK, an approach for independent execution of computations underlying
+    research articles
+  url: https://codecheck.org.uk/project/
+  domain: agnostic
+  contact: Aleks Nenadic
+  public: 'yes'
+- name: Introduction to R
+  url: https://carpentries-lab.github.io/metagenomics-R/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Super Basic Introdution to R programming
+- name: Introduction to the Command Line for Metagenomics
+  url: https://carpentries-lab.github.io/metagenomics-shell/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Introduction into using command lines to navigate and work inside the
+    file system
+- name: 'Tutorial: Workflows - Combining Tools for Data Analysis'
+  url: https://www.ebi.ac.uk/training/online/courses/workflows-combining-tools-for-data-analysis/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Understand the use of a Workflow and the tools to do it
+- name: 'Course: ResOps - Cloud-native Tools and Technology for Researchers'
+  url: https://tsi-ccdoc.readthedocs.io/en/master/ResOps/2020/Agenda-2020.html#introduction
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Gaining practical experience in building, deploying and running applications
+    in cloud platforms
+- name: 'BSC Training Course: introduction to CUDA Programming @ BSC'
+  url: https://events.prace-ri.eu/event/1534/
+  domain: Agnostic
+  contact: Jacky Bossey
+  description: Introduction to developing applications software for processors with
+    massively parallel computing resources.
+- name: PUMPS+I Summer School
+  url: https://pumps.bsc.es/2024/about-pumps-ai
+  domain: Agnostic
+  contact: Jacky Bossey
+  description: aimed at enriching the skills of researchers, graduate students and
+    instructors with cutting-edge technique and hands-on experience in developing
+    applications for many-core processors with massively parallel computing resources
+    like GPU accelerators, with a special focus on artificial intelligence
+- name: Ensembl REST API
+  url: https://www.ebi.ac.uk/training/online/courses/ensembl-rest-api/
+  domain: Specific
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Introduction to using Esembl REST API using Jupyter Notebooks
+- name: Introduction to User Experience Design
+  url: https://www.ebi.ac.uk/training/online/courses/user-experience-design/what-is-user-experience-design/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: An Introduction to UX and it's benefits as well as tools and resources
+- name: 'BSC Training Course: introdution to OpenACC'
+  url: https://www.bsc.es/education/training/bsc-training/bsc-training-course-introduction-openacc
+  domain: Agnostic
+  contact: Jacky Bossey
+  description: Introduction to using OpenACC in GPU computing
+- name: The CodeMeta Project
+  url: https://codemeta.github.io/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Tools to create standardized MetaData
+- name: RSE Toolkit
+  url: https://github.com/RSEToolkit/rse-competencies-toolkit
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Support RSEs in tracking and managing their development
+- name: Intermediate Research Software Development
+  url: https://carpentries-incubator.github.io/python-intermediate-development/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Intermediate course focused on the development of research software
+- name: Basic Lab Skills for Research Computing
+  url: https://software-carpentry.org/lessons/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+- name: SSI training hub
+  url: https://www.software.ac.uk/training/training-hub
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Multiple courses and tutorial on various topics
+- name: eScience Center - Research Software Support
+  url: https://esciencecenter-digital-skills.github.io/software-support-essentials/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: FAIR4RS Pinciples and Guidance for RSE
+- name: US-RSE - RSE Training Resources
+  url: https://us-rse.org/wg/education_training/training/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+- name: The Alan Turing Institute - Research Software Engineering with Python
+  url: https://alan-turing-institute.github.io/rse-course/html/index.html
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Complete 0 to advanced course in python for RSE
+- name: Interesect Research Software Engineering Training
+  url: https://intersect-training.org/curriculum/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
+  description: Complete curriculum segmented on various mmodules
+- name: VersionControl with Git
+  url: https://swcarpentry.github.io/git-novice/
+  domain: Agnostic
+  contact: Jacky Bossey
+  public: 'Yes'
