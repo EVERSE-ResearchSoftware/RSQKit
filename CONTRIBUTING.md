@@ -1,11 +1,11 @@
-## Contribution guidelines
+## Contribution Guidelines
 
 The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot.
 During this phase, we organise contributions through the EVERSE project's internal documents and communication channels, and welcome reports on 
 issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
 At some point in the future, we will move towards a fully GitHub-centered contribution workflow.
 
-The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board][editorial-board], who are also acting as the 
+The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board][editorial-board], who are also acting as the current 
 Maintainers of the RSQKit repository.
 The RSQKit Editorial Board Members work together with Internal Contributors from the EVERSE project and External Contributors (jointly known as Contributors) 
 to identify where and how and their contribution fits best in RSQKit.
@@ -47,7 +47,7 @@ If you plan to submit a pull request that adds new content or significantly chan
 please [contact the Editorial Board][contact] to discuss this first so that 
 the effort is not spent by making a change that may not be accepted.
 
-#### Reporting an issue
+#### Reporting an Issue
 
 Issues, bugs or remarks or suggestions for new content are tracked via [GitHub's issues][issues].
 You can create an issue and a member of the Editorial Board will review it and assign a person responsible for looking into it. 
@@ -61,7 +61,7 @@ Here are some guidelines for reporting issues.
 - For bug reports, provide platform information used, for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2)
 - Add any additional context that may be helpful in addressing the issue
 
-#### Creating a pull request
+#### Creating a Pull Request
 
 If you choose to contribute via GitHub's pull requests, you may want to look at [How to Contribute to an Open Source Project on GitHub][how-contribute]. 
 
@@ -101,7 +101,7 @@ In this case, email the [Editorial Board][contact] with your GitHub account/hand
 and you will be added to [CONTRIBUTORS.yaml][contributors] and appropriately acknowledged in relevant pages. 
 
 
-## Ownership of content
+## Ownership of Content
 
 No individual Contributor owns the project's content or has the authority to dictate its content. 
 The RSQKit content is a collaborative effort, with contributions from many people. 
