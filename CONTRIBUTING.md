@@ -112,8 +112,8 @@ If you are doing a contribution via a pull request, you can also include adding 
 
 You do not have to contribute via GitHub to be included as a Contributor - any significant discussion or contributions via other methods 
 (e.g. email, internal project documents used to collect information, etc.) are accepted too.
-In this case, email the [Editorial Board][contact] with your GitHub account/handle, ORCID, and preferred email address and a short explanation of your contributions 
-and you will be added to [CONTRIBUTORS.yaml][contributors] and appropriately acknowledged in relevant pages. 
+In this case, email the [Editorial Board][contact] with your profile information that you are happy to share (e.g. email, GitHub account/handle or ORCID) 
+and a short explanation of your contributions and you will be added to [CONTRIBUTORS.yaml][contributors] and appropriately acknowledged in relevant pages. 
 
 
 ## Ownership of Content
