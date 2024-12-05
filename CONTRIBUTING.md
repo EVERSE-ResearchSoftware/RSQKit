@@ -74,7 +74,7 @@ way is to create a branch in your fork for each significant change (pull request
 
 Editorial Board Members will review pull requests and have a final say over what gets merged into RSQKit.
 
-> [!INFO]
+> [!NOTE]
 > The reason why we recommend working in your own forks of this repository versus a branch of this repository is mainly 
 > because by having a separate fork, you can render your own version of RSQKit as a website and see what your changes will look like
 > before creating a pull request. 
