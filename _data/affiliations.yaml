@@ -10,3 +10,8 @@
   expose: true
   type: institution
   url: https://www.upm.es/
+- name: Square Kilometre Array Observatory
+  image_url: /images/institutions/skao.jpg
+  expose: true
+  type: organisation
+  url: https://www.skao.int/en

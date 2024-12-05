@@ -9,7 +9,7 @@ related_pages: []
 
 ## Why is it important to make your code readable?
 
-**Code readability** contributes to the *accessibility* and *reusability* of your code (the "A" and "R" in the [FAIR reseach software principles][fair-rs-principles][^1]) - 
+**Code readability** contributes to the *accessibility* and *reusability* of your code (the "A" and "R" in the [FAIR research software principles][fair-rs-principles][^1]) - 
 once people freely, legally and easily obtain a copy your software - they need to be able to read and understand it to reuse and extend it. 
 So, readable code helps create more reusable scientific software and can empower collaboration between researchers.
 
@@ -40,11 +40,11 @@ While a group of developers may choose to write and agree upon a new style guide
 which is adopted almost universally by the communities around the world. 
 For example, see [PEP 8 style guide for Python][pep8] and [Google’s R Style Guide][r-guidelines].
 
-Another good practice to help readiability is to [create code that is modular][modular-code] - structured and split into small, reusable functions that are easier to read, understand and test.
+Another good practice to help readability is to [create code that is modular][modular-code] - structured and split into small, reusable functions that are easier to read, understand and test.
 Functions with a common goal are further grouped into reusable libraries and packages. 
 Use the [common code patterns][design-patterns] for creating software - [design patterns][design-patterns-book] describe a relatively small, well-defined aspect (i.e. functionality) of code intended to leverage an 
 existing concept/solution rather than re-inventing it. 
-This can decrease the time to develop software and increase the quality of the resulting coe and its readability.
+This can decrease the time to develop software and increase the quality of the resulting code and its readability.
 
 Expanding on the code structure theme, following conventions on consistent and informative directory structure for your projects will ensure people will immediately know 
 where to find things within your project, especially helpful for long-term research projects or when working in teams. 
@@ -84,7 +84,7 @@ on consistent and informative directory structure for your software or research 
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | [PEP 8 style guide for Python][pep8]                                            | Python Enhancement Proposal 8, Style Guide for Python Code                 |
 | [Python code style conventions](https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/15-coding-conventions/index.html)     |  A chapter on Python Code Style Conventions from ["Intermediate Research Software Development" course][intermediate-rs-dev]                  | 
-| [FAIR Reseach Software Principles][fair-rs-principles] | An introduction to the FAIR Principles for research software |
+| [FAIR Research Software Principles][fair-rs-principles] | An introduction to the FAIR Principles for research software |
 | [Google’s R Style Guide][r-guidelines] | R Programming Style Guide|
 | [Code linters][code-linters]           | Static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs | 
 

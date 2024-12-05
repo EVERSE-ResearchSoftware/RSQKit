@@ -34,6 +34,10 @@ The content is periodically updated, which means that if you create content in a
 
 If you find any content unsatisfactory, please feel free to [create an issue](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues/new) about it.
 
+## Interested in joining the editorial board
+
+If you know about research software quality and are interested in shaping the future of RSQKit then [consider joining the editorial board](editorial_board).
+
 ## Credit
 
 The contents of this page have been adapted from the ["How to contribute" activity page](https://rdmkit.elixir-europe.org/how_to_contribute) in the [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/).

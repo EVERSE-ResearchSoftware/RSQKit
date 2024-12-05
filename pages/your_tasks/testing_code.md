@@ -39,7 +39,7 @@ So when writing software we need to ask ourselves some key questions:
 - Can we (and others) verify these assertions for themselves?
 - Perhaps most importantly, to what extent are we confident of the accuracy of results that software produces?
 
-If we are unable to demonstrate that our software fulfills these criteria, why would anyone use it?
+If we are unable to demonstrate that our software fulfils these criteria, why would anyone use it?
 
 ### Considerations
 
@@ -70,7 +70,7 @@ Common types of functional testing include:
 - [**Unit tests**][unit-testing] are tests for fairly small and specific units of functionality, e.g. determining that a particular function returns output as expected given specific inputs. For example, testing a function that calculates the sum of two numbers to confirm it returns the correct value.
 - [**Integration tests**][integration-testing] work at a higher level and test functional paths through your code verifying that different modules or components work together correctly. For example, testing the interaction between a web application’s frontend and backend.
 - **End-to-end** or [**system tests**][system-testing] are a special type of integration testing which checks that the complete application as a whole behaves as expected and all features work and are meeting the specified requirements. For example, testing an entire login workflow, from user input to authentication and redirection to a welcome page to simulate a real world scenario.
-- [**User acceptance tests**][acceptance-testing] verify that specific needs and requirements of users and business processes are met. Acceptance critera are defined by users or customers which determine whether to accept the system.
+- [**User acceptance tests**][acceptance-testing] verify that specific needs and requirements of users and business processes are met. Acceptance criteria are defined by users or customers which determine whether to accept the system.
 For example: asking end-users to test a new feature before releasing it to a wider audience.
 - [**Regression tests**][regression-testing] make sure that your software’s output has not changed over time, for example after making changes to your code to add new functionality or fix a bug. They involve checking whether a program or part of a program still generates the same results after changes have been made. For example: re-running tests after a bug fix to verify that no new issues were introduced.
 
@@ -121,7 +121,7 @@ if the software needs to run on multiple platforms, perform compatibility testin
   - *Testing is Context-Dependent*: depending on the software type, different software test approaches might be appropriate.
   - *Absence of Errors Fallacy*: there is no moderately large or complex software without defects.
 - Consider [**software testing tactics**][software-testing-tactics] - choosing the right software testing tactics for your software and software quality criteria is essential for improving the software quality of your software.
-- Use [**Software Quality Assurance (SQA)**][software-quality-assurance] - a comprehensive and systematic process that ensures the quality of the overall software development process by monitoring its development, testing, and maintenance and ensures that the final software product meets the specified requirements and quality standards. [Software testing][software-testing] is a specific activity within the SQA process that involves evaluating software to identify discrepancies between expected and actual behavior and testing code to find and fix defects, but checks other aspects of SQA too.
+- Use [**Software Quality Assurance (SQA)**][software-quality-assurance] - a comprehensive and systematic process that ensures the quality of the overall software development process by monitoring its development, testing, and maintenance and ensures that the final software product meets the specified requirements and quality standards. [Software testing][software-testing] is a specific activity within the SQA process that involves evaluating software to identify discrepancies between expected and actual behaviour and testing code to find and fix defects, but checks other aspects of SQA too.
 - Use **Quality Gates** - in software development these are predefined checkpoints or criteria that code or software must meet before moving to the next phase in the development lifecycle. They act as "gates" or approval points that help ensure quality at each stage of the development process. If the software fails to meet the requirements of a quality gate, it is not allowed to proceed, and corrective actions are needed.
 
 ## How do we test our code?
@@ -155,7 +155,7 @@ If our code changes - it is now much easier to change our test functions, compar
 
 We can take this approach one step further by writing a test suite for our code as part of a testing framework - a set of tools used to fully automate the process of running tests and further 
 reduce the risk of human error. 
-The use of a testing framework becomes particuarly important if your code grows beyond one or two scripts.
+The use of a testing framework becomes particularly important if your code grows beyond one or two scripts.
 
 #### Use test frameworks to automate testing
 
@@ -171,8 +171,8 @@ Check out the [section "How do we automate code testing?"](#how-do-we-automate-c
 
 - Write clear, understandable and independent tests - ensure test cases are easy to understand and maintain, use descriptive names for test functions and methods that clearly convey their purpose, and make each test independent (tests should not rely on the results or state of other tests to function correctly).
 - Write tests early and often - begin testing as early as possible in the development process as writing tests alongside code development helps catch defects sooner and reduces the cost of fixing them.
-- Use both functional and non-functional tests in combination to ensure not only that the software functions correctly and according to its specification but also performs well, is secure, and offers a good user experience. At a minumum write unit tests to test individual functions or methods of your code in isolation and ensure they perform as expected.
-- Maintain a balance between automated and manual testing; use manual testing for exploratory or usability testing where human judgment is essential.
+- Use both functional and non-functional tests in combination to ensure not only that the software functions correctly and according to its specification but also performs well, is secure, and offers a good user experience. At a minimum write unit tests to test individual functions or methods of your code in isolation and ensure they perform as expected.
+- Maintain a balance between automated and manual testing; use manual testing for exploratory or usability testing where human judgement is essential.
 - Aim for high code coverage (percentage of the code that is tested) to reduce the likelihood of undetected bugs, but avoid focusing solely on achieving 100% coverage as some code may not be relevant to test (e.g. built-in functions for your programming language or functions imported from well-known and well-tested libraries). Remember, test coverage of 100% does not mean that your code is bug-free. Prioritise testing of critical paths through your code, complex logic, edge cases, and parts of our code that carry the greatest “reputational risk”, i.e. that could affect the accuracy of your reported results.
 - Use [automated test frameworks](#how-do-we-automate-code-testing) to run tests frequently and consistently.
 
@@ -183,7 +183,7 @@ Check out the [section "How do we automate code testing?"](#how-do-we-automate-c
 
 In test automation, we usually use [test automation frameworks][test-automation-frameworks] to let the computer execute our test cases. 
 Thus is in contrast to [manual testing][manual-testing], where a person is executing test cases by hand.
-Test automation frameworks typically accept a list of test cases that need to be executed, run them, compare the actual output with the extected output and summarise the test results in a report.
+Test automation frameworks typically accept a list of test cases that need to be executed, run them, compare the actual output with the expected output and summarise the test results in a report.
 Compared to manual testing, test automation can cover a larger number of test cases, is less costly, less time-consuming and less error prone.
 Test automation is also critical for [Continuous Integration (CI)][continuous-integration] (including continuous testing) and Continuous Delivery (CD).
 
@@ -214,11 +214,11 @@ Here are a few examples of these principles:
 - *Fully Automated*:
   - To make most use of test automation it is the best idea to fully automate the testing, so that no manual steps are involved.
 - *Self-Checking*:
-  - Everything that is needed to compare the actual output with the predictied output is encoded in the test.
+  - Everything that is needed to compare the actual output with the predicted output is encoded in the test.
 - *Repeatable Test*:
   - Each run of a test should result in the same output given the same input.
 - *Robust Test*:
-  - As the test base grows we try to minimize the impact of a change in one test case on other test cases and thereby minimize the overlap between the tests.
+  - As the test base grows we try to minimise the impact of a change in one test case on other test cases and thereby minimise the overlap between the tests.
   - We also ensure that the test environment does not impact our tests by isolating the system under test (SUT) from the environment as much as possible.
 - *Simple Test*:
   - Keep the tests small and they should test only one thing at a time.
@@ -228,13 +228,13 @@ Here are a few examples of these principles:
   - Tests should not do harm and introduce risks that's why we must not add tests to the production environment, they should only be added to the test environment.
 - *Verify One Condition per Test*:
   - Tests need to be focused and to make them better understood they should only verify one condition per test.
-- *Keep Tests Indepdentend*:
+- *Keep Tests Independent*:
   - Tests must not interact and influence each other, they need to be independent.
 
 ### Solutions
 
 - [**Testing Frameworks**][test-automation]
-  - Test automation frameworks are utilized to control the execution of tests, the comparison of actual outcomes with predicted outcomes, and also the reporting of the test results back to the user.
+  - Test automation frameworks are utilised to control the execution of tests, the comparison of actual outcomes with predicted outcomes, and also the reporting of the test results back to the user.
   - Use test automation frameworks to run tests frequently and consistently
 - [**Continuous Integration**][continuous-integration]
   - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.

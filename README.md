@@ -21,9 +21,9 @@ Please see our [contribution guidelines](CONTRIBUTING.md) for more details on ho
 
 ## Contact
 
-Please get in touch with the [RSQKit Editorial Board & Maintainers][mailto:mailto:rsqkit@lists.certh.gr] with any questions about this lesson.
+Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this lesson.
 
-## Acknowledegments
+## Acknowledgements
 
 [RSQKit website](http://everse.software/RSQKit/) is heavily inspired and replicating the work done by ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/) within the research software space and is built using the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/).
 

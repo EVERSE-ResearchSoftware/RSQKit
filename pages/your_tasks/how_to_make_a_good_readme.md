@@ -30,9 +30,9 @@ In the case of research software, additional features must be taken into account
 
 
 ### Considerations <!-- do not delete this heading and write your text below it -->
-* A good README favors the use of your software[^1].
+* A good README favours the use of your software[^1].
 * A good README increments the transparency of your research.
-* A good README will help you to mantain the software during the software lifecycle.
+* A good README will help you to maintain the software during the software lifecycle.
  
 
 ## Which sections should be addressed in a good README? <!-- example: how to name a software release? -->
@@ -40,7 +40,7 @@ In the case of research software, additional features must be taken into account
 ### Description <!-- do not delete this heading and write your text below it -->
 A README file is the first document that a researchers read when they are interested on using a software. For this reason, should contain all the relevant information to install and to execute it. It includes references to additional information such as API documentation, specifications, scientific publications related, tutorials, guidelines, etc.
 
-A basic software documentation emphasizes these aspects[^2] :
+A basic software documentation emphasises these aspects[^2] :
 * Understandability: a user can comprehend the structure and the purpose of the software.
 * Usability: a user can understand how to use the software.
 * Attribution: how a user should cite the software.
@@ -109,7 +109,7 @@ Remember that you can include badges in your README file to add visual informati
 
 **License**
 
-Software without a license cannot be reused in other applications. While having a [license file](https://everse.software/RSQKit/licensing_software) is a common practice in code repositories, you may also add this information explicitly as a section of your README file. For more informations, see [our guidelines](https://everse.software/RSQKit/licensing_software) on how to select an appropriate license.
+Software without a license cannot be reused in other applications. While having a [license file](https://everse.software/RSQKit/licensing_software) is a common practice in code repositories, you may also add this information explicitly as a section of your README file. For more information, see [our guidelines](https://everse.software/RSQKit/licensing_software) on how to select an appropriate license.
 
 
 ## How to cite this page <!-- do not delete this heading and write your text below it -->

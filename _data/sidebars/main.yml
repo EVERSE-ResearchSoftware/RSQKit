@@ -62,8 +62,8 @@ subitems:
         url: /testing_code
       - title: Version control  
         url: /version_control
-  - title: Your science domain
-    url: /science_domains_communities
+  - title: Research communities
+    url: /research_communities
     subitems:
       - title: Physics & astronomy
         url: /physics_astronomy

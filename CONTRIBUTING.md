@@ -95,12 +95,12 @@ data files in `_data/` folder in the repository, `_config.yml` and other infrast
 (such as CSS files, page templates and files in the `_includes/` folder).
 If you think some of these files should be updated, please [contact the Editorial Board][contact].
 
-## Contributor responsibilities
+## Contributor Responsibilities
 
 When contributing to this project, please keep in mind the following:
 
 - It is your responsibility to make sure that the content you provide respects copyright. 
-- To avoid having to resolve many issues during the revision process, please check the Editor checklist and make sure you have complied with the requirements.
+- To avoid having to resolve many issues during the revision process, please check the [Editor checklist](./EDITORS_CHECKLIST.md) and make sure you have complied with the requirements.
 - If others assisted with your contribution by writing or supplying resources like diagrams or links, be sure to acknowledge them after obtaining their permission.
 
 ## Acknowledgement of Contributions
