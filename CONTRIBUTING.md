@@ -66,7 +66,7 @@ Here are some guidelines for reporting issues.
 If you choose to contribute via GitHub's pull requests, you may want to look at [How to Contribute to an Open Source Project on GitHub][how-contribute]. 
 
 1. Open an issue for your pull request first (unless already opened).
-2. Create your own fork of RSQKit repository and set it up to render RSQKit pages as a Web site. An even better 
+2. Create your own fork of RSQKit repository (even if you have write access to the RSQKit repository) and set it up to render RSQKit pages as a Web site. An even better 
 way is to create a branch in your fork for each significant change (pull request), as then you can create multiple pull requests in parallel.
 3. Make sure that your changes in your fork/branch are tested and render correctly in the Web site.
 4. Submit a pull request from your fork to RSQKit repository (this repository).
