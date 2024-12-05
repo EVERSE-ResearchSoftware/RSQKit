@@ -10,7 +10,9 @@ Research Software Quality Kit (RSQKit), developed as part of [EVERSE project](ht
 
 ## Contributing
 
-The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot. During this phase, we organise contributions through the EVERSE project's internal documents and communication channels, and welcome reports on issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
+The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot. 
+During this phase, we mainly organise contributions through the EVERSE project's internal documents and communication channels, although it is possible for people external to the project to contribute. 
+We particularly welcome reports on issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
 
 The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board](http://everse.software/RSQKit/editorial_board), who are also acting as the current Maintainers of the RSQKit repository. 
 The RSQKit Editorial Board Members work together with general Contributors to identify where and how and their contribution fits best in RSQKit.
