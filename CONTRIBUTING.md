@@ -45,7 +45,7 @@ At this moment, we welcome:
 
 If you plan to submit a pull request that adds new content or significantly changes existing content, 
 please [contact the Editorial Board][contact] to discuss this first so that 
-the effort is not spent by making a change that may not be accepted.
+the effort is only spent on making a change that will be be accepted.
 
 #### Reporting an Issue
 
