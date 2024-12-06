@@ -8,7 +8,7 @@ At some point in the future, we will move towards a fully GitHub-centered contri
 The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board][editorial-board], who are also acting as the official 
 **Maintainers** of the RSQKit repository.
 The RSQKit **Editorial Board Members** work together with Internal Contributors from the EVERSE project and External Contributors (jointly known as **Contributors**) 
-to identify where and how and their contribution fits best in RSQKit.
+to identify where and how their contribution fits best in RSQKit.
 
 ### Contributor Agreement
 
