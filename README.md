@@ -15,7 +15,7 @@ During this phase, we mainly organise contributions through the EVERSE project's
 We particularly welcome reports on issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
 
 The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board](http://everse.software/RSQKit/editorial_board), who are also acting as the official **Maintainers** of the RSQKit repository. 
-The RSQKit **Editorial Board Members** work together with general **Contributors** to identify where and how and their contribution fits best in RSQKit.
+The RSQKit **Editorial Board Members** work together with general **Contributors** to identify where and how their contribution fits best in RSQKit.
 
 Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute to RSQKit.
 
