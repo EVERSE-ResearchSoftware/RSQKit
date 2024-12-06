@@ -5,10 +5,10 @@ During this phase, we organise contributions through the EVERSE project's intern
 issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
 At some point in the future, we will move towards a fully GitHub-centered contribution workflow.
 
-The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board][editorial-board], who are also acting as the current 
-Maintainers of the RSQKit repository.
-The RSQKit Editorial Board Members work together with Internal Contributors from the EVERSE project and External Contributors (jointly known as Contributors) 
-to identify where and how and their contribution fits best in RSQKit.
+The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board][editorial-board], who are also acting as the official 
+**Maintainers** of the RSQKit repository.
+The RSQKit **Editorial Board Members** work together with Internal Contributors from the EVERSE project and External Contributors (jointly known as **Contributors**) 
+to identify where and how their contribution fits best in RSQKit.
 
 ### Contributor Agreement
 
@@ -38,7 +38,7 @@ mistake, some awkward wording, or a factual error.
 
 At this moment, we welcome:
 
-- [reports on issues, bugs and typos](#reporting-an-issue) in RSQKit content
+- [reports on issues, bugs and typos](#reporting-an-issue) in the RSQKit content
 - suggestions for new content by creating a [new issue](#reporting-an-issue) for discussion
 - comments on [existing issues][issues] and reviews of [existing pull requests][pull-requests]
 - [pull requests](#creating-a-pull-request) to fix issues, bug and typos in the RSQKit content
@@ -55,10 +55,10 @@ Alternatively, you can [email the Editorial Board][contact] and they will create
 
 Here are some guidelines for reporting issues.
 
-- Add a clear and concise description of what the issue is.
+- Add a clear and concise description of what the issue is
 - Provide a URL of the page where the issue occurs, if applicable
 - Add screenshots to help explain the issue, if applicable
-- For bug reports, provide platform information used, for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2)
+- For bug reports, provide the platform information you used when bug was detected - for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2)
 - Add any additional context that may be helpful in addressing the issue
 
 #### Creating a Pull Request
@@ -66,10 +66,10 @@ Here are some guidelines for reporting issues.
 If you choose to contribute via GitHub's pull requests, you may want to look at [How to Contribute to an Open Source Project on GitHub][how-contribute]. 
 
 1. Open an issue for your pull request first (unless already opened).
-2. Create your own fork of RSQKit repository (even if you have write access to the RSQKit repository) and set it up to render RSQKit pages as a Web site. An even better 
+2. Create your own fork of the RSQKit repository (even if you have write/push access to the RSQKit repository) and set it up to render RSQKit pages as a Web site. An even better 
 way is to create a branch in your fork for each significant change (pull request), as then you can create multiple pull requests in parallel.
 3. Make sure that your changes in your fork/branch are tested and render correctly in the Web site.
-4. Submit a pull request from your fork to RSQKit repository (this repository).
+4. Submit a pull request from your fork to the RSQKit repository (this repository).
 5. If you receive feedback, make changes on your fork and your pull request will update automatically.
 
 Editorial Board Members will review pull requests and have a final say over what gets merged into RSQKit.
@@ -86,7 +86,7 @@ Editorial Board Members will review pull requests and have a final say over what
 >
 > Finally, working in GitHub interface is convenient, but does not allow for spelling checking and lots of spelling mistakes can creep in this way.
 > If you can - clone your fork and set up RSQKit locally on your machine, and edit files 
-> in a good text editor with spelling checking capabilities.
+> in a text editor with spelling checking capabilities.
 
 ### What *Not* to Contribute
 
