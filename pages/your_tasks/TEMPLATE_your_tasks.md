@@ -1,11 +1,10 @@
 ---
-title: Problem title (e.g. version control)
-search_exclude: true <!--- REMOVE THIS LINE, it's only for template file --->
-description: <!---REPLACE THIS with a one sentence description of the page--->
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_id: <!---REPLACE THIS with a shortened page name. The shortened page name should be in lowercase and separated by underscore(s) if needed. For example, page_id of version control page should be version_control--->
-related_pages: [<!---REPLACE THIS with the page comma-separated page IDs of the pages that are related to the current page--->]
-# More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
+title: "A title for the task or a problem you are trying to solve"
+search_exclude: true # set to false if you want this page to show up in search results
+description: "" # Add a short description of the page
+contributors: [] # A comma separated list of contributors' ids
+page_id: # unique page id, e.g. lowercase title words separated by underscore(s) - for example page_id of 'version control' page could be version_control
+related_pages: [] # A comma-separated page_ids of the pages that are related to the current page
 training:
   - name:
     registry:
