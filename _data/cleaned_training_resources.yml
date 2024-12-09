@@ -136,7 +136,7 @@
 - name: UNIVERSE-HPC
   url: https://www.universe-hpc.ac.uk/
   domain: agnostic
-  contact: Neii Chue Hong
+  contact: Neil Chue Hong
   public: 'yes'
   description: Developing curriculum and course for RSEs specialising in large scale
     computing (simulation & modelling and data science)

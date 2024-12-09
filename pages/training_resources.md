@@ -35,7 +35,7 @@ title: Training Resources
 | [HEP C++ Course and Hands-on Training](https://github.com/hsf-training/cpluspluscourse) | hybrid 3 day courses on different levels on C++ programming | agnostic | planned for the future | Stefan Roiser |
 | [NextGen Triggers training](https://nextgentriggers.web.cern.ch/) | aim to create a curriculum for software development | TBD | started in Jan '24 | Stefan Roiser |
 | [Good Enough Practices in Scientific Computing](https://carpentries-lab.github.io/good-enough-practices/) | This lesson is targeted at a broad audience of researchers who want to learn how to be more efficient and effective in their data analysis and computing, whatever their career stage. | agnostic | yes | Aleks Nenadic |
-| [UNIVERSE-HPC](https://www.universe-hpc.ac.uk/) | Developing curriculum and course for RSEs specialising in large scale computing (simulation & modelling and data science) | agnostic | yes | Neii Chue Hong |
+| [UNIVERSE-HPC](https://www.universe-hpc.ac.uk/) | Developing curriculum and course for RSEs specialising in large scale computing (simulation & modelling and data science) | agnostic | yes | Neil Chue Hong |
 | [Bioconductor training material](https://bioconductor.org/help/) |  | specific | yes | Fotis Psomopoulos |
 | [Git repositories with bioinformatics training material](https://glittr.org/) |  | specific | yes | Fotis Psomopoulos |
 | [Code Refinery](https://coderefinery.org/lessons/from-coderefinery/) | Workshop / self-study training materials in basic computational science skills (version control, notebooks, social coding, etc) | agnositc | yes |  |
