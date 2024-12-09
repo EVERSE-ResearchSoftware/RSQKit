@@ -104,8 +104,10 @@ If you think some of these files should be updated, please [contact the Editoria
 
 When contributing to this project, please keep in mind the following:
 
-- It is your responsibility to make sure that the content you provide respects copyright. 
-- To avoid having to resolve many issues during the revision process, please check the [Editor checklist](./EDITORS_CHECKLIST.md) and make sure you have complied with the requirements.
+- Follow our [style guide](./STYLE_GUIDELINES.md) for the sake of page consistency.
+- Check our [metadata gudielines](./METADATA_GUIDELINES.md) in order to be able to fill in the data and page metadata and to format the layout correctly.
+- Make sure that the content you provide respects copyright. 
+- Check the [Editor checklist](./EDITORS_CHECKLIST.md) and make sure you have complied with the requirements, to avoid having to resolve many issues during the revision process.
 - If others assisted with your contribution by writing or supplying resources like diagrams or links, be sure to acknowledge them after obtaining their permission.
 
 ## Acknowledgement of Contributions
