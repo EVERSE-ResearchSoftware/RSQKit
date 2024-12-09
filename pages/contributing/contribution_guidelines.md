@@ -7,7 +7,7 @@ title: Contribution Guidelines
 We provide detailed guidelines on how to contribute to RSQKit, what to contribute and what not to contribute in 
 the [Contributing Guidelines](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/CONTRIBUTING.md).
 
-That document also outlines [Contributor responsibilities](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/CONTRIBUTING.md#contributor-responsibilities) as well as how we [acknowledge Contributors]().
+That document also outlines [Contributor responsibilities](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/CONTRIBUTING.md#acknowledgement-of-contributions) as well as how we [acknowledge Contributors]().
 
 ## Ownership of Content
 
