@@ -43,6 +43,13 @@ defaults:
         sitemap: false
         search_exclude: true
         no_robots: true
+  -
+    scope:
+      path: "pages/contributing"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: contributing
 
 theme_variables:
   topnav:

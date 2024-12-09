@@ -1,9 +1,9 @@
 ---
-title: Editorial board
+title: Editorial Board
 ---
 
 ## Meet the editorial board members
-{% include contributor-carousel-selection.html custom="Aleksandra Nenadic, Daniel Garijo, Fotis Psomopoulos, Jason Maassen, Laura Portell Silva, Patrick Bos, Shoaib Ahmed Sufi, Zhiming Zhao" %}
+{% include contributor-carousel-selection.html %}
 
 ## Join as editorial board member
 
