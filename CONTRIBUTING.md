@@ -34,6 +34,11 @@ mistake, some awkward wording, or a factual error.
    you can submit a pull request (PR). Instructions for doing this are
    [included below](#creating-a-pull-request).
 
+   
+Note that you do not have to contribute via GitHub to be included as a Contributor - any significant discussion or contributions via other methods 
+(e.g. email, internal project documents used to collect information, etc.) are accepted.
+Email the [Editorial Board][contact] with a short explanation of your contributions and you will be appropriately acknowledged in relevant pages. 
+
 ### What to Contribute
 
 At this moment, we welcome:
@@ -105,16 +110,11 @@ When contributing to this project, please keep in mind the following:
 
 ## Acknowledgement of Contributions
 
-Contributors will appear at the bottom of the Web page they contributed to. 
-For that to happen, they need to be added to [CONTRIBUTORS.yaml][contributors] and then listed in the metadata of the Markdown source file for the page. 
+Contributors will appear at the bottom of every Web page they contributed to. 
+For that to happen, they need to be added to [CONTRIBUTORS.yaml][contributors] and then listed in the metadata of the Markdown source file for each of the pages they contributed to. 
+Editorial Board Members will make sure that this is done at the time the contributions are merged into RSQKit. 
 
-If you are doing a contribution via a pull request, you can also include adding yourself to [CONTRIBUTORS.yaml][contributors] and the pages you changed.
-
-You do not have to contribute via GitHub to be included as a Contributor - any significant discussion or contributions via other methods 
-(e.g. email, internal project documents used to collect information, etc.) are accepted too.
-In this case, email the [Editorial Board][contact] with your profile information that you are happy to share (e.g. email, GitHub account/handle or ORCID) 
-and a short explanation of your contributions and you will be added to [CONTRIBUTORS.yaml][contributors] and appropriately acknowledged in relevant pages. 
-
+We request the following (optional) information from the Contributors: email, GitHub account/handle, ORCID, website, affiliation. 
 
 ## Ownership of Content
 
