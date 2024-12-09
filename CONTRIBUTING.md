@@ -114,8 +114,6 @@ Contributors will appear at the bottom of every Web page they contributed to.
 For that to happen, they need to be added to [CONTRIBUTORS.yaml][contributors] and then listed in the metadata of the Markdown source file for each of the pages they contributed to. 
 Editorial Board Members will make sure that this is done at the time the contributions are merged into RSQKit. 
 
-We request the following (optional) information from the Contributors: email, GitHub account/handle, ORCID, website, affiliation. 
-
 ## Ownership of Content
 
 No individual Contributor owns the project's content or has the authority to dictate its content. 
