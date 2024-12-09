@@ -9,7 +9,7 @@ the [Contributing Guidelines](https://github.com/EVERSE-ResearchSoftware/RSQKit/
 
 That document also outlines [Contributor responsibilities](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/CONTRIBUTING.md#contributor-responsibilities) as well as how we [acknowledge Contributors]().
 
-## Ownership of content
+## Ownership of Content
 
 No single Contributor or Editor owns the content of the site, or has the right to dictate what the content should be. 
 The content on the RSQKit is a community effort, with many contributors. 
