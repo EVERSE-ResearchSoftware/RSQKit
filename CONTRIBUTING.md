@@ -37,7 +37,7 @@ mistake, some awkward wording, or a factual error.
    
 Note that you do not have to contribute via GitHub to be included as a Contributor - any significant discussion or contributions via other methods 
 (e.g. email, internal project documents used to collect information, etc.) are accepted.
-Email the [Editorial Board][contact] with a short explanation of your contributions and you will be appropriately acknowledged in relevant pages. 
+Email the [Editorial Board][contact] with a short explanation of your contributions and you will be appropriately acknowledged. 
 
 ### What to Contribute
 
