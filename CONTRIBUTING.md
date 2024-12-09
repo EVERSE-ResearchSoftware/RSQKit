@@ -63,7 +63,7 @@ Here are some guidelines for reporting issues.
 - Add a clear and concise description of what the issue is
 - Provide a URL of the page where the issue occurs, if applicable
 - Add screenshots to help explain the issue, if applicable
-- For bug reports, provide the platform information you used when bug was detected - for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2)
+- For bug reports, provide the platform information you used when a bug was detected - for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2)
 - Add any additional context that may be helpful in addressing the issue
 
 #### Creating a Pull Request
