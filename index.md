@@ -13,3 +13,5 @@ It contains a collection of curated training resources, tools and guidelines on 
 
 {: .note .info}
 While the content of this page is work in progress, the EVERSE partners will constantly update and add things. If you, however, find things missing or want to comment, please feel free to open a GitHub issue or pull request.
+
+TESTY MCTESTINGSON, NETLIFY FYING THE NETLS
