@@ -2,7 +2,9 @@
 subitems:
   - title: About
     url: /about
-  - title: Contribute
-    url: /how_to_contribute
+  - title: Get involved
+    url: /how_to_get_involved
+  - title: Contact us
+    url: /contact
  
     
