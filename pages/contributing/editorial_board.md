@@ -13,7 +13,7 @@ the research and creative sector who produce software, code or scripts to enable
 
 ## Editorial Board Members
 
-{% include contributor-carousel-selection.html %}
+{% include contributor-carousel-selection.html role="Editor"%}
 
 ## Join the Editorial Board
 
