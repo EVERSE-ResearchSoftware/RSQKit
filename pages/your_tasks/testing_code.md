@@ -1,6 +1,6 @@
 ---
-title: Testing Code
-description: Explains useful aspects about why and how to test code.
+title: Testing code
+description: Why and how to test your code
 contributors: ["Aleksandra Nenadic", "Christian Hüser"]
 page_id: testing_code
 related_pages: []

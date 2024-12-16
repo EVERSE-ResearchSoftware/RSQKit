@@ -1,6 +1,6 @@
 ---
-title: Adding a DOI in your code releases with Zenodo
-description: This page explains how to obtain a DOI via Zenodo for your code releases 
+title: Obtaining a DOI for software
+description: How to obtain a DOI via Zenodo for your code releases 
 contributors: ["Shoaib Sufi", "Daniel Garijo"] 
 page_id: zenodo_doi
 related_pages: []

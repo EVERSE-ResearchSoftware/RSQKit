@@ -1,6 +1,6 @@
 ---
 title: Licensing software
-description: Applying a license to research software
+description: How to apply a license to research software
 contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi"]
 page_id: licensing_software
 related_pages: []

@@ -38,30 +38,32 @@ subitems:
     url: /your_tasks
     image_url: /assets/img/section-icons/tick.svg
     subitems:
-      - title: Creating readable code
+      - title: Writing readable code
         url: /readable_code
-      - title: Creating a readthedocs file
+      - title: "Creating a 'Read the Docs' Page"
         url: /creating_readthedocs
-      - title: Creating code releases  
+      - title: Releasing code
         url: /releasing_code
-      - title: Environmental sustainability  
+      - title: Environmental sustainability of research software
         url: /environmental_sustainability
-      - title: How to write a good README
+      - title: Creating README documents for software
         url: /how_to_make_a_good_readme
-      - title: How to choose a programming language, framework or technology?
+      - title: Languages, frameworks & technologies
         url: /languages_frameworks_technologies
-      - title: How to write a CodeMeta file?
+      - title: Writing a CodeMeta file
         url: /codemeta
       - title: Licensing software
         url: /licensing_software
-      - title: Obtaining a DOI for your code  
+      - title: Obtaining a DOI for software
         url: /zenodo_doi
-      - title: Reproducible software environments
+      - title: Reproducible virtual software development environments
         url: /virtual_dev_environments
-      - title: Testing your code  
+      - title: Testing code
         url: /testing_code
-      - title: Version control  
+      - title: Version control
         url: /version_control
+      - title: Software documentation
+        url: software_documentation
   - title: Research communities
     url: /research_communities
     subitems:

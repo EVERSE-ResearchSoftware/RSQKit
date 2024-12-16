@@ -1,6 +1,6 @@
 ---
 title: Languages, frameworks & technologies
-description: Deciding on which programming languages, frameworks and technologies to use, and getting started with templates
+description: How to decide on which programming languages, frameworks and technologies to use, and getting started with templates
 contributors: ["Patrick Bos"]
 page_id: languages_frameworks_technologies
 related_pages: [three_tier_view, life_cycle, fair, research_software_engineer]
