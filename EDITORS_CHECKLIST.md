@@ -5,7 +5,7 @@ summary: Checklist for Editors before approving and merging a pull request (PR).
 
 ## Editors Checklist
 
-### General guidelines for Approving Pull Requests
+### General Guidelines for Approving Pull Requests
 
 Before approving and merging a pull request (PR), the Editors will check that:
 
