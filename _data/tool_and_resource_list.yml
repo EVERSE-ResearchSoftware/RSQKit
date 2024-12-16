@@ -1,3 +1,16 @@
+# List of tools and resources
+#
+# When referencing tools and resources use the following notion e.g. on Task pages -  {% tool "github" %} and not a markdown link
+# for this to work the tool has to be listed here.
+#
+# description: A short description of the purpose of the tool or resource
+# id: This is the id by which the tool will be references on other pages e.g. for GitHub the id is github so we use {% tool "github"%} to refer to it
+# name: This is the name of the tool or resource email: email adress
+# registry: This is a list of registry:search-string combinations 
+#    tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
+# url: the homepage of the tools
+#   
+
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
   name: Docker
