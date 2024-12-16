@@ -1,6 +1,6 @@
 ---
 title: Reproducible virtual software development environments
-description: Virtual software development environments for reproducible research 
+description: What are virtual software development environments for reproducible research and how to use them?
 contributors: ["Aleksandra Nenadic"]
 page_id: virtual_environments
 related_pages: []

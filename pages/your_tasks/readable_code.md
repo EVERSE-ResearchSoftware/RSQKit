@@ -1,6 +1,6 @@
 ---
-title: How to make your code readable
-description: Good practices to make your code readable
+title: Writing readable code
+description: How to write code readable and understandable by others
 contributors: ["Aleksandra Nenadic"]
 page_id: readable_code
 related_pages: []
