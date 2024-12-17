@@ -3,12 +3,12 @@
 # When referencing tools and resources use the following notion e.g. on Task pages -  {% tool "github" %} and not a markdown link
 # for this to work the tool has to be listed here.
 #
-# description: A short description of the purpose of the tool or resource
-# id: This is the id by which the tool will be references on other pages e.g. for GitHub the id is github so we use {% tool "github"%} to refer to it
-# name: This is the name of the tool or resource email: email adress
-# registry: This is a list of registry:search-string combinations 
-#    tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
-# url: the homepage of the tools
+# - description: A short description of the purpose of the tool or resource
+#   id: This is the id by which the tool will be references on other pages e.g. for GitHub the id is github so we use {% tool "github"%} to refer to it
+#   name: This is the name of the tool or resource email: email adress
+#   registry: This is a list of registry:search-string combinations 
+#       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
+#   url: the homepage of the tool/resource
 #   
 
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
@@ -271,8 +271,29 @@
   id: zammad
   name: Zammad
   url: https://zammad.com/en
-- description: A turn-key research data management (RDM) repository based on Invenio Framework and Zenodo
+- description: A turn-key research data management (RDM) repository based on Invenio Framework and Zenodo.
   id: inveniordm
   name: InvenioRDM
   url: https://inveniosoftware.org/products/rdm/
-- description: Collects, preserves, curates and makes available software in source code form as cultural heritage
+- description: Collects, preserves, curates and makes available software in source code form as cultural heritage.
+  id: softwareheritage
+  name: Software Heritage
+  url: https://www.softwareheritage.org
+- description: An online form to help manually create and validate CodeMeta files.
+  id: codemetagenerator
+  name: CodeMeta Generator
+  url: https://codemeta.github.io/codemeta-generator
+- description: Service to validate JSON-LD files.
+  id: jasonldvalidator
+  name: JSON-LD validator
+  url: https://json-ld.org/playground
+- description: The Software Metadata extraction framework (SOMEEF) is a Library designed to extract CodeMeta files from source code documentation.
+  id: somef
+  name: SOMEF
+  url: https://github.com/KnowledgeCaptureAndDiscovery/somef/
+- description: A service running SOMEF to obtain CodeMeta files
+  id: somefvider
+  name: SOMEF Vider
+  url: https://somef.linkeddata.es/
+
+
