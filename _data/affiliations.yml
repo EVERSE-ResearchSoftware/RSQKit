@@ -1,6 +1,5 @@
 - name: The University of Manchester
   image_url: /images/institutions/logo-university-of-manchester.svg
-  pid: https://ror.org/02aswte26
   expose: true
   type: institution
   url: https://www.manchester.ac.uk/
