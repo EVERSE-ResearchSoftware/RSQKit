@@ -1,9 +1,9 @@
 - name: The University of Manchester
   image_url: /images/institutions/logo-university-of-manchester.svg
-  pid: https://ror.org/02aswte26
   expose: true
   type: institution
   url: https://www.manchester.ac.uk/
+  pid: https://ror.org/027m9bs27
 - name: Universidad Politecnica de Madrid
   image_url: /images/institutions/upm.png
   pid: https://ror.org/03n6nwv02
