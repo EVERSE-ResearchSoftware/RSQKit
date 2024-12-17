@@ -39,7 +39,7 @@ Briefly describe the use of specific tools or resources to solve the problem - e
 Make sure to add the tools and resources mentioned in the text in the "tools and resources" data file and then
 tag the page with such entries.
 
-Repeat the same structure for other problems you wish to mention on the page.
+Repeat the same structure for other problems you wish to mention on the page, as needed, e.g. as follows.
 
 ## Concrete problem 2, formulated as a question <!-- example: how to use GitHub to share code ? -->
  
