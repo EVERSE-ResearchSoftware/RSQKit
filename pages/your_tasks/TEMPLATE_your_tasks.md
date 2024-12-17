@@ -5,7 +5,7 @@ description: "" # a description of the page
 contributors: [] # a comma separated list of contributors' names, as found in _data/CONTRIBUTORS.yml
 page_id: # unique page id, e.g. lowercase title words separated by underscore(s) - for example page_id of 'version control' page could be version_control
 related_pages: [] # A comma-separated page_ids of the pages that are related to the current page
-training:
+training: # A list of training resources relevant for this task or problem (e.g from TeSS registry or elsewhere)
   - name:
     registry:
     url:
