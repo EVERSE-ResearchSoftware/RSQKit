@@ -1,7 +1,6 @@
 ---
-title: How to make a good README
-search_exclude: true
-description: Description of good practices on how to make a good README for research software.
+title: Creating README documents for software
+description: How to make a good README document for research software projects
 contributors: ["Esteban González", "Aleksandra Nenadic", "Daniel Garijo"]
 page_id: good_README
 related_pages: []

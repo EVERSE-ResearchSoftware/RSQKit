@@ -1,6 +1,6 @@
 ---
 title: Releasing code
-description: Useful aspects about creating code releases.
+description: How to create software releases
 contributors: ["Christian Huser", "Shoaib Sufi", "Daniel Garijo"]
 page_id: releasing_code
 related_pages: []
