@@ -19,6 +19,11 @@ The RSQKit **Editorial Board Members** work together with general **Contributors
 
 Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute to RSQKit.
 
+## License
+
+All metadata in this repository in made available under a CC-0 license. Documents and data are made available under a CC-BY license. Software are made available under an MIT license. More information about our license can be found on our [license](LICENSE) page.
+
+
 ## Contact
 
 Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this lesson.
