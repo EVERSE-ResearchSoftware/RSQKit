@@ -19,7 +19,7 @@
 - identifier: Do1 # Note: everse will mint an URI for this indicator under: https://w3id.org/everse/indicators/{identifier}
   description: >
     Software includes clear contribution instructions, software purpose on project website, feedback channels, and version control practices.
-  contact: Daniel Garijo # see CONTRIBUTORS.yaml to declare indicators
+  contact: Daniel Garijo # see CONTRIBUTORS.yaml to declare contacts
   name: Contribution Process and Project Purpose
   keywords:
     - contribution guidelines
