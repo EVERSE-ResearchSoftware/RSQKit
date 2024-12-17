@@ -16,6 +16,10 @@ sass:
   style: compressed
   sourcemap: never
 
+matomo: https://matomo.research.software/
+# Matomo domain where Matomo is running
+matomo_id: 7
+
 exclude:
   - README.md
   - Gemfile
