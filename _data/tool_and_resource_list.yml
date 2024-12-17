@@ -271,3 +271,8 @@
   id: zammad
   name: Zammad
   url: https://zammad.com/en
+- description: A turn-key research data management (RDM) repository based on Invenio Framework and Zenodo
+  id: inveniordm
+  name: InvenioRDM
+  url: https://inveniosoftware.org/products/rdm/
+- description: Collects, preserves, curates and makes available software in source code form as cultural heritage
