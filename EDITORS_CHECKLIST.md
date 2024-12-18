@@ -20,7 +20,7 @@ PR in RSQKit, or downloading and checking the PR branch locally on the Editor's 
 
 - All relevant metadata fields in a specific page or data file are correctly filled in - check the [Metadata Guidelines][metadata_guidlines].
 - If needed, the new page is linked in the appropriate sidebar menu. When adding the page to the sidebar navigation, ensure that the sidebar entry's 'title' matches the page's 'title'."
-- Make sure that all tools and resources mentioned on a page are added to the ["tools and resources" data file](./_data/tools_and_resources.yml) and then tagged in the text of the page
+- Make sure that all tools and resources mentioned on a page are added to the ["tools and resources" data file](./_data/tool_and_resource_list.yml) and then tagged in the text of the page
 using the `{% raw  %}{% tool 'tool_or_resource_id' %}{% endraw  %}` directive.
 
 ### Specific Checks for Contributors' Data
