@@ -3,8 +3,8 @@
 The RSQKit makes all of their materials publicly available under open source licenses, in summary:
 
 - All metadata are made available under the CC-0 license.
-- Documentation, data and page content are made available under a CC-BY license.
-- Software is made available under an MIT license.
+- Documentation, data and page content are made available under the CC-BY license.
+- Software is made available under the MIT license.
 
 The license text listed below (describing both CC-BY and MIT licenses as well as their usage in the RSQkit) is reused under a CC-BY license from The Turing Way community materials, 
 specifically from the [The Turing Way](https://github.com/alan-turing-institute/the-turing-way/blob/master/LICENSE.md). 
