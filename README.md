@@ -21,7 +21,7 @@ Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on ho
 
 ## License
 
-All metadata in this repository in made available under a CC-0 license. Documents and data are made available under a CC-BY license. Software are made available under an MIT license. More information about our license can be found on our [license](LICENSE) page.
+Information about the licenses that apply to RSQKit can be found in [LICENSE.md](LICENSE.md).
 
 
 ## Contact
