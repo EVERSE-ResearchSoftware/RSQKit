@@ -35,10 +35,6 @@
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
-- description: Version control and development platform.
-  id: gitlab
-  name: GitLab
-  url: https://gitlab.com/
 - description: Visual Studio Code, also commonly referred to as VS Code,[9] is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
   id: vscode
   name: VSCode
@@ -295,5 +291,22 @@
   id: somefvider
   name: SOMEF Vider
   url: https://somef.linkeddata.es/
+- description: Automatically hosts and rebuilds documentation.
+  id: readthedocs
+  name: Read the Docs
+  url: https://readthedocs.org
+- description: For generating documentation from reStructuredText files.
+  id: sphinx
+  name: Sphinx
+  url: https://www.sphinx-doc.org
+- description: A light weight static site generator that uses Markdown
+  id: mkdocs
+  name: MKDocs
+  url: https://www.mkdocs.org
+- description: DevOps platform that enables teams to collaborate, plan, develop, test, and deploy software using an integrated toolset for version control, CI/CD, and project management.
+  id: gitlab
+  name: GitLab
+  url: https://about.gitlab.com
+
 
 
