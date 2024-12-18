@@ -1,11 +1,11 @@
 ---
-title: Obtaining a DOI for software
-description: How to obtain a DOI via Zenodo for your code releases 
-contributors: ["Shoaib Sufi", "Daniel Garijo"] 
-page_id: zenodo_doi
-related_pages: []
+title: Obtaining a DOI for software hosted on GitHub
+description: How to obtain a DOI via Zenodo for your code releases on GitHub
+contributors: ["Shoaib Sufi", "Daniel Garijo", "Thomas Vuillaume"] 
+page_id: github_zenodo
+related_pages: [gitlab_zenodo, releasing_code]
 ---
-## How can I get a Digital Object Identifier (DOI) for my code release?
+## How can I get a Digital Object Identifier (DOI) for my code release on GitHub?
 
 ### Description 
 Obtaining a DOI (a type of persistent identifier) for your software has become [increasingly popular][datacite-doi-software] to indicate others how to cite your software (either in a publication or as an independent way of referring to your software versions). In this document we describe how to obtain a DOI to refer to your software releases.
