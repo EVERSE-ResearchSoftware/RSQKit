@@ -7,7 +7,7 @@
 # - description: A short description of the purpose of the tool or resource
 #   id: This is the id by which the tool will be references on other pages e.g. for GitHub the id is github so we use {% tool "github"%} to refer to it
 #   name: This is the name of the tool or resource
-#   registry: This is a list of registry:search-string combinations 
+#   registry: This is followed by a list of registry-tag:search-string combinations indented below which search for further information about this tool  
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
 #   qualityIndicator:  Research Software Quality indicator (see indicators.yaml in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
@@ -36,7 +36,7 @@
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
-- description: Visual Studio Code, also commonly referred to as VS Code,[9] is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
+- description: Visual Studio Code, also commonly referred to as VS Code, is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
   id: vscode
   name: VSCode
   url: https://code.visualstudio.com/
