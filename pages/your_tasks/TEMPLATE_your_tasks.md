@@ -36,7 +36,7 @@ Briefly describe the use of specific tools or resources to solve the problem - e
   - Sub-point
 - Solution 2
 
-Make sure to add the tools and resources mentioned in the text in the "tools and resources" data file and then
+Make sure to add the tools and resources mentioned in the text in the `_data/tool_and_resource_list.yml` file and then
 tag the page with such entries.
 
 Repeat the same structure for other problems you wish to mention on the page, as needed, e.g. as follows.
