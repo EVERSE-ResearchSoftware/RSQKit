@@ -1,14 +1,15 @@
 # List of contributors
 #
-# reference maintainers/contributors by their name used in contributors metadata section on the pages.
-# Extra metadata that is possible to add:
 # Full Name:
-#    git: github id
+#    git: github id (required)
 #    email: email adress
-#    orcid: ocrid id
-#    role: the role of the contributor
+#    orcid: orcid id
+#    role: the role of the contributor (current possible values "editor" or leave empty)
 #    affiliation: affiliation
-#    image_url: absolute path to image (default image from github)
+#    image_url: absolute path to image (defaults to image from GitHub)
+# 
+# You can reference contributors by their name in the fromntmatter section of content pages using parameter "contributors".
+
 
 Laura Portell-Silva:
     git: lauportell
