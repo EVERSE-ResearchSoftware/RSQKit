@@ -1,3 +1,17 @@
+# List of tools and resources
+# Conforms to https://w3id.org/everse/rs/0.0.1
+#
+# When referencing tools and resources use the following notion e.g. on Task pages -  {% tool "github" %} and not a markdown link
+# for this to work the tool has to be listed here.
+#
+# - description: A short description of the purpose of the tool or resource
+#   id: This is the id by which the tool will be references on other pages e.g. for GitHub the id is github so we use {% tool "github"%} to refer to it
+#   name: This is the name of the tool or resource
+#   registry: This is a list of registry:search-string combinations 
+#       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
+#   url: the homepage of the tool/resource
+#   qualityIndicator:  Research Software Quality indicator (see indicators.yaml in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
+
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
   name: Docker
@@ -22,10 +36,6 @@
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
-- description: Version control and development platform.
-  id: gitlab
-  name: GitLab
-  url: https://gitlab.com/
 - description: Visual Studio Code, also commonly referred to as VS Code,[9] is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
   id: vscode
   name: VSCode
@@ -258,3 +268,62 @@
   id: zammad
   name: Zammad
   url: https://zammad.com/en
+- description: A turn-key research data management (RDM) repository based on Invenio Framework and Zenodo.
+  id: inveniordm
+  name: InvenioRDM
+  url: https://inveniosoftware.org/products/rdm/
+- description: Collects, preserves, curates and makes available software in source code form as cultural heritage.
+  id: softwareheritage
+  name: Software Heritage
+  url: https://www.softwareheritage.org
+- description: An online form to help manually create and validate CodeMeta files.
+  id: codemetagenerator
+  name: CodeMeta Generator
+  url: https://codemeta.github.io/codemeta-generator
+- description: Service to validate JSON-LD files.
+  id: jasonldvalidator
+  name: JSON-LD validator
+  url: https://json-ld.org/playground
+- description: The Software Metadata extraction framework (SOMEEF) is a Library designed to extract CodeMeta files from source code documentation.
+  id: somef
+  name: SOMEF
+  url: https://github.com/KnowledgeCaptureAndDiscovery/somef/
+- description: A service running SOMEF to obtain CodeMeta files
+  id: somefvider
+  name: SOMEF Vider
+  url: https://somef.linkeddata.es/
+- description: Automatically hosts and rebuilds documentation.
+  id: readthedocs
+  name: Read the Docs
+  url: https://readthedocs.org
+- description: For generating documentation from reStructuredText files.
+  id: sphinx
+  name: Sphinx
+  url: https://www.sphinx-doc.org
+- description: A light weight static site generator that uses Markdown
+  id: mkdocs
+  name: MKDocs
+  url: https://www.mkdocs.org
+- description: DevOps platform that enables teams to collaborate, plan, develop, test, and deploy software using an integrated toolset for version control, CI/CD, and project management.
+  id: gitlab
+  name: GitLab
+- description: An online tool to estimate the carbon footprint of computational tasks using a web calculator.
+  id: greenalgorithms
+  name: Green Algorithms
+  url: https://www.green-algorithms.org/
+- description: A software package that integrates into Python codebase. It estimates the amount of carbon dioxide (CO2) produced by the cloud or personal computing resources used to execute the code.
+  id: codecarbon
+  name: CodeCarbon
+  url: https://codecarbon.io/
+- description: Measures energy usage and resource efficiency in web and mobile applications.
+  id: greenspectorstudio
+  name: Greenspector Studio
+  url: https://greenspector.com/en/greenspector-studio-it-environmental-footprint-websites-applications/
+- description: Tracks and predicts the energy consumption and carbon footprint of training deep learning models.
+  id: carbontracker
+  name: carbontracker
+  url: https://github.com/lfwa/carbontracker
+- description: Evaluates website sustainability based on design and operational efficiency
+  id: ecograder
+  name: Ecograder
+  url: https://ecograder.com/
