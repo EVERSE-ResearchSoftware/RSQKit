@@ -26,7 +26,7 @@
     - feedback channel
     - software purpose
   qualityDimension:
-    - documentation # This is an identifier (see dimensions.yaml)
+    - documentation # This is an identifier (see quality_dimensions.yaml)
   source: https://www.bestpractices.dev/en/criteria/0
   status: Active
   # created: (no date is available for this indicaror)
