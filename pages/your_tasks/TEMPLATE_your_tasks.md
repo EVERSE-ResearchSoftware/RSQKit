@@ -56,7 +56,4 @@ If this page has been inspired or derived from other resources, make sure to ref
 There is no need to reference other relevant pages from RSQKit here - rather list them in the page's *frontmatter* 
 using parameter `related_pages` and they will be listed in the page automatically under "Related pages" section.
 
-
-## How to cite this page <!-- do not delete this heading and write your text below it -->
-Add a citation entry for this specific page, if it exists.
  
