@@ -5,7 +5,7 @@
 #
 # - description: A short description of the purpose of the tool or resource
 #   id: This is the id by which the tool will be references on other pages e.g. for GitHub the id is github so we use {% tool "github"%} to refer to it
-#   name: This is the name of the tool or resource email: email adress
+#   name: This is the name of the tool or resource
 #   registry: This is a list of registry:search-string combinations 
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
