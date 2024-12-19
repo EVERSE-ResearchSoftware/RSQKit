@@ -7,11 +7,19 @@
 # - description: A short description of the purpose of the tool or resource
 #   id: This is the id by which the tool will be references on other pages e.g. for GitHub the id is github so we use {% tool "github"%} to refer to it
 #   name: This is the name of the tool or resource
-#   registry: This is a list of registry:search-string combinations 
+#   registry: This is followed by a list of registry-tag:search-string combinations indented below which search for further information about this tool  
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
 #   qualityIndicator:  Research Software Quality indicator (see indicators.yaml in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
 
+- description: Python is an interpreted, high-level, object-oriented programming language known for its dynamic typing, readability, and extensive standard library, making it ideal for rapid development and modular, reusable code.
+  id: python
+  name: Python
+  url: https://www.python.org/
+- description: Java is a versatile, object-oriented programming language designed to be platform-independent, with its “write once, run anywhere” capability enabled by the Java Virtual Machine (JVM).
+  id: java
+  name: Java
+  url: https://www.java.com/en/
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
   name: Docker
@@ -36,7 +44,7 @@
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
-- description: Visual Studio Code, also commonly referred to as VS Code,[9] is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
+- description: Visual Studio Code, also commonly referred to as VS Code, is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
   id: vscode
   name: VSCode
   url: https://code.visualstudio.com/

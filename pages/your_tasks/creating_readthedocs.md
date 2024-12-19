@@ -120,9 +120,5 @@ After a successful build, the documentation will be published and publicly acces
 
 **For further information, please refer to the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html). Additionally, check out [our page on software documentation](software_documentation) for more insights.**
 
-
-## How to cite this page
-TO DO.
-
 ## References
 * [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html)

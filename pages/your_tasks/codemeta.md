@@ -28,9 +28,6 @@ But how to create a `codemeta.json` file?
   * Manually, by using the following [template](https://github.com/codemeta/codemeta/blob/master/codemeta.json) as a reference. JSON-LD files can be validated with services like the {% tool "jasonldvalidator" %}.
 * Copy the file in your source code root directory.
 
-## How to cite this page <!-- do not delete this heading and write your text below it -->
- TO DO.
-
 ## References <!-- do not delete this heading and write your text below it -->
 <!--If work has been inspired or derived from other content (e.g., pages in RDMKit) make sure to reference it here. -->
 TO DO. 

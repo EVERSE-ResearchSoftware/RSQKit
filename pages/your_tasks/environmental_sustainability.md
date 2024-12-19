@@ -50,10 +50,6 @@ Similarly, the GREENER software principles ([https://www.nature.com/articles/s43
     * {% tool "greenspectorstudio" %} measures energy usage and resource efficiency in web and mobile applications.
     * {% tool "ecograder" %} evaluates website sustainability based on design and operational efficiency.
 
-
-## How to cite this page <!-- do not delete this heading and write your text below it -->
-TO DO.
-
 ## References <!-- do not delete this heading and write your text below it -->
 TO DO.
  
