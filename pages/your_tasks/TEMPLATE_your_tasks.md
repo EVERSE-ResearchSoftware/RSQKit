@@ -36,7 +36,7 @@ Briefly describe the use of specific tools or resources to solve the problem - e
   - Sub-point
 - Solution 2
 
-Make sure to add the tools and resources mentioned in the text in the `_data/tool_and_resource_list.yml` file and then
+Make sure to add the tools and resources mentioned in the text in the [_data/tool_and_resource_list.yml](_data/tool_and_resource_list.yml) file and then
 tag the page with such entries.
 
 Repeat the same structure for other problems you wish to mention on the page, as needed, e.g. as follows.
@@ -48,7 +48,6 @@ Repeat the same structure for other problems you wish to mention on the page, as
 ### Considerations <!-- do not delete this heading and write your text below it -->
 
 ### Solutions <!-- do not delete this heading and write your text below it -->
-
 
 
 ## References <!-- do not delete this heading and write your text below it -->
