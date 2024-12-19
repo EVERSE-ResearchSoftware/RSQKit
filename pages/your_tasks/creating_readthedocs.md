@@ -122,7 +122,7 @@ After a successful build, the documentation will be published and publicly acces
 
 
 ## How to cite this page
-To be added.
+TO DO.
 
 ## References
 * [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html)

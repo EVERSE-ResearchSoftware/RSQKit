@@ -306,7 +306,23 @@
 - description: DevOps platform that enables teams to collaborate, plan, develop, test, and deploy software using an integrated toolset for version control, CI/CD, and project management.
   id: gitlab
   name: GitLab
-  url: https://about.gitlab.com
-
-
-
+- description: An online tool to estimate the carbon footprint of computational tasks using a web calculator.
+  id: greenalgorithms
+  name: Green Algorithms
+  url: https://www.green-algorithms.org/
+- description: A software package that integrates into Python codebase. It estimates the amount of carbon dioxide (CO2) produced by the cloud or personal computing resources used to execute the code.
+  id: codecarbon
+  name: CodeCarbon
+  url: https://codecarbon.io/
+ - description: Measures energy usage and resource efficiency in web and mobile applications.
+  id: greenspectorstudio
+  name: Greenspector Studio
+  url: https://greenspector.com/en/greenspector-studio-it-environmental-footprint-websites-applications/
+- description: Tracks and predicts the energy consumption and carbon footprint of training deep learning models.
+  id: carbontracker
+  name: carbontracker
+  url: https://github.com/lfwa/carbontracker
+- description: Evaluates website sustainability based on design and operational efficiency
+  id: ecograder
+  name: Ecograder
+  url: https://ecograder.com/
