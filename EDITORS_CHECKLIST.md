@@ -28,4 +28,4 @@ using the `{% raw  %}{% tool 'tool_or_resource_id' %}{% endraw  %}` directive.
 - A Contributor has provided at least their GitHub username/handle, as GitHub IDs are used to uniquely identify Contributors in RSQKit.
 - A Contributor is listed in the [CONTRIBUTORS file](_data/CONTRIBUTORS.yaml) and each page they contributed to (in the [page metadata][metadata_guidlines]).
 
-[metadata_guidlines]: http://everse.software/RSQKit/metadata_guidelines
+[metadata_guidlines]: https://everse.software/RSQKit/metadata_guidelines
