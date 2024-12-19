@@ -58,8 +58,8 @@ In this document, we describe how to automatically archive a snapshot of your co
 
 ![Badge in Zenodo](../../images/badge_zenodo.png)
 
-* Copy the badge in your README file:
-   * Now you can add the Zenodo badge in your GitHub repository. Click on the blue DOI and copy the markdown in your README. It will show as follows:
+* You may copy the badge in your README file:
+   * Now you can add the Zenodo badge in your GitLab repository. Click on the blue DOI and copy the markdown in your README. It will show as follows:
 
 ![Badge in your repository](../../images/badge_in_repo.png)
 
