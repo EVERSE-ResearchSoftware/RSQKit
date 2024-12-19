@@ -50,14 +50,6 @@ Repeat the same structure for other problems you wish to mention on the page, as
 ### Solutions <!-- do not delete this heading and write your text below it -->
 
 
-## Concrete problem 3, formulated as a question <!-- example: how to use GitHub to share code ? -->
-
-### Description <!-- do not delete this heading and write your text below it -->
-
-### Considerations <!-- do not delete this heading and write your text below it -->
-
-### Solutions <!-- do not delete this heading and write your text below it -->
-
 
 ## References <!-- do not delete this heading and write your text below it -->
 If this page has been inspired or derived from other resources, make sure to reference them here.
