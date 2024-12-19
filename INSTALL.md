@@ -24,7 +24,7 @@ git clone git@github.com:EVERSE-ResearchSoftware/RSQKit.git
 Next, you will need to install the dependencies of the RSQKit itself:
 
 ```
-cd RSQkit
+cd RSQKit
 bundle install
 ```
 
