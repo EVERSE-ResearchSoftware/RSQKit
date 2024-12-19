@@ -1,0 +1,33 @@
+# Conforms to: https://w3id.org/everse/rsqi/0.0.1
+# Summary of the metadata fields for software quality indicators: 
+# identifier: Identifier associated with the indicator
+# contact: Contact person or organization associated with the indicator in EVERSE
+# name: Name of the indicator (title)
+# description: A brief text stating: 
+  ## What is being measured? 
+  ## Why should we measure it?
+  ## What must be provided for the measurement? (e.g., a Zenodo record)
+  ## How is the measurement executed? Exact process for assessing the indicator
+  ## What is/are considered valid result(s)?
+# keywords: keywords to ease finding the indicator
+# qualityDimension: Research Software quality dimension associated with the indicator (see https://w3id.org/everse/rsqi for a full list) 
+# version: If the indicator has a version (some ISO standards may evolve indicators), it should be indicated here
+# source: The standard or reference document where the indicator was first proposed
+# status: States whether the indicator is still used or not (deprecated, obsolete, active, etc.)
+# created: Date of creation of the indicator
+
+- identifier: Do1 # Note: everse will mint an URI for this indicator under: https://w3id.org/everse/indicators/{identifier}
+  description: >
+    Software includes clear contribution instructions, software purpose on project website, feedback channels, and version control practices.
+  contact: Daniel Garijo # see CONTRIBUTORS.yml to declare contacts
+  name: Contribution Process and Project Purpose
+  keywords:
+    - contribution guidelines
+    - feedback channel
+    - software purpose
+  qualityDimension:
+    - documentation # This is an identifier (see quality_dimensions.yaml)
+  source: https://www.bestpractices.dev/en/criteria/0
+  status: Active
+  # created: (no date is available for this indicaror)
+  # version: 0.0.1 (no version is provided for this indicator)
