@@ -1,5 +1,5 @@
 ---
-title: Obtaining a DOI for software hosted on GitLab
+title: Publishing software from GitLab to Zenodo
 search_exclude: true
 description: How to obtain a DOI via Zenodo for your code releases on GitLab
 contributors: ["Thomas Vuillaume"]

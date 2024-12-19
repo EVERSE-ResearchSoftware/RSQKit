@@ -1,5 +1,5 @@
 ---
-title: Obtaining a DOI for software hosted on GitHub
+title: Publishing software from GitHub to Zenodo
 description: How to obtain a DOI via Zenodo for your code releases on GitHub
 contributors: ["Shoaib Sufi", "Daniel Garijo", "Thomas Vuillaume"] 
 page_id: github_zenodo
