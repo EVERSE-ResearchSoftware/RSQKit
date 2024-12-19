@@ -1,4 +1,5 @@
 # List of tools and resources
+# Conforms to https://w3id.org/everse/rs/0.0.1
 #
 # When referencing tools and resources use the following notion e.g. on Task pages -  {% tool "github" %} and not a markdown link
 # for this to work the tool has to be listed here.
