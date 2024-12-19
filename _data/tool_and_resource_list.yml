@@ -12,6 +12,14 @@
 #   url: the homepage of the tool/resource
 #   qualityIndicator:  Research Software Quality indicator (see indicators.yaml in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
 
+- description: Python is an interpreted, high-level, object-oriented programming language known for its dynamic typing, readability, and extensive standard library, making it ideal for rapid development and modular, reusable code.
+  id: python
+  name: Python
+  url: https://www.python.org/
+- description: Java is a versatile, object-oriented programming language designed to be platform-independent, with its “write once, run anywhere” capability enabled by the Java Virtual Machine (JVM).
+  id: java
+  name: Java
+  url: https://www.java.com/en/
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
   name: Docker
