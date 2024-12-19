@@ -9,7 +9,7 @@
 #   registry: This is a list of registry:search-string combinations 
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
-#   
+#   qualityIndicator:  Research Software Quality indicator (see indicators.yaml in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
 
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
