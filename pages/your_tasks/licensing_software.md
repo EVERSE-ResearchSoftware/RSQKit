@@ -8,8 +8,8 @@ related_pages: []
 
 ## What is copyright and licensing?
 
-Copyright allows a creator to state that they own the work they have created. This declaration is optional - even if the creator 
-does not explicitly assert it, copyright of the work exists from the moment of creation. 
+Copyright allows a creator to state that they own the work they have created. This declaration is optional - even if the creator does not explicitly assert it, copyright of the work exists from the moment of creation. 
+
 A license is a legal document which sets down the terms under which the creator is releasing what they have created for others to use, modify, extend or exploit. 
 
 
@@ -19,14 +19,17 @@ A license is a legal document which sets down the terms under which the creator 
 
 A license defines what others are allowed to do with your software. This will take into account ownership rights (copyright).
 
-There are large differences between how copyrights and subject rights are to be addressed.
+There are large differences between how copyright (controlling the exploitation of a creative work) and subject rights (preserving the moral and personal interests of creators in how their works are to be used) are to be addressed.
 
 Complying with copyright is primarily the responsibility of the user of the software. 
 Copyright laws allow only the creator of a work to reproduce and use it. If anyone else wants to use the work, then that person needs explicit permission from the holder of the copyright. 
+
 A license describes the nature of this agreement, and does not need a signature: the user can never deny the existence of any conditions, because without the license they would not be able to use the work at all.
 
-Licensing is an important aspect of meeting the principle of reusability (the R in FAIR) in FAIR for Research Software (R1.1. Software is given a clear and accessible license[^1]). 
+Licensing is an important aspect of meeting the principle of reusability (the R in FAIR) in FAIR for Research Software (R1.1. Software is given a clear and accessible license[^1]).
+
 As part of the publication process, you need to decide under which license your software is made available to others. 
+
 If this information is not provided, people will not be able to legally reuse your software, even if this was not your intention.
 
 
@@ -61,8 +64,7 @@ Here are the most commonly used ones that will likely satisfy your needs.
 
 #### Public domain
 
-While not strictly a license, [public domain](https://en.wikipedia.org/wiki/Public_domain) is a concept that enables you to waive all your interests that may 
-exist in your work and declare your work not protected by copyright. 
+While not strictly a license, [public domain](https://en.wikipedia.org/wiki/Public_domain) is a concept that enables you to waive all your interests that may exist in your work and declare your work not protected by copyright. 
 The [public domain](https://en.wikipedia.org/wiki/Public_domain) consists of all the creative work to which no exclusive intellectual property rights apply. 
 Because no one holds the exclusive rights, anyone can legally use or reference those works without permission. 
 Note that not having a license is not the same as releasing your work into the public domain - the former means no one can reuse your work whereas the latter means everyone can. 
@@ -139,14 +141,15 @@ In addition to the licenses above, Creative Commons also offers [CC0](https://cr
 
 ### Solutions
 
-* [Choose an open license](https://choosealicense.com/) website is a great tool to help you choose a license that is appropriate for your needs.
+* {% tool "choosealicense" %} is a great tool to help you choose a license that is appropriate for your needs.
+    * The {% tool "spdx" %} is a long list of commonly found licenses.
 
 ## How do I add a license to my code repository?
 
 ### Description 
 
 Once you have decided on the license to choose, you may add it as part of your code base. 
-This is usually done by adding a file LICENSE with the text of the license. LICENSE.txt or LICENSE.md or LICENCE.txt or LICENCE.md are also commonly used variations for the license file name.
+This is usually done by adding a file LICENSE with the text of the license. LICENSE.txt or LICENSE.md are also commonly used variations for the license file name.
 
 
 ### Considerations 
@@ -158,25 +161,12 @@ This is usually done by adding a file LICENSE with the text of the license. LICE
 
 * If your software is located in GitHub, follow [GitHub's documentation for adding a license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
 Otherwise, create a new file called, e.g. LICENSE, in the root directory to your code base and copy the text of your chosen license into it.
-* See an example from the [RSQkit](https://github.com/EVERSE-ResearchSoftware/RSQKit) which uses the Apache 2.0 license: [https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE). 
-* In case you want or need to apply licenses per files, we recommend you have a look at [REUSE recommendations](https://reuse.software/)
+* See an example from the {% tool "rsqkit" %} which specifies different licences for the metadata, content and software [https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE). 
+* In case you want or need to apply licenses per files, we recommend you have a look at {% tool "reuse" %}.
 
 
-## Tools and resources
-
-| Tool or resource                                                                                            | Description                                                   |
-| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [Choose an open license tool](https://choosealicense.com/)                                                  | A guided tool to help you choose a license for your resource  |
-| [license selector for software](https://ufal.github.io/public-license-selector)                             | A question-guided tool to help you choose a software license  |
-| [Spdx](https://spdx.org/licenses/) list of licenses                                                         | A list of commonly recognised licenses used in software       |
-| [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) | Guidelines on changing and editing licenses                   |
-| [REUSE](https://reuse.software/) | Guidelines and tool to use several licenses in your software in an easy, comprehensive, unambiguous, and machine-readable way |
-
-
-## How to cite this page
-
-To be added.
-
+## Further guidance
+* [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) Guidelines on changing and editing licenses 
 
 ## Credit
 

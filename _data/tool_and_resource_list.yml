@@ -11,6 +11,19 @@
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
 #   qualityIndicator:  Research Software Quality indicator (see indicators.yaml in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
+- description: A open source license selector
+- description: The SPDX License List is an integral part of the SPDX Specification. The SPDX License List itself is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation
+  id: spdx
+  name: SPDX License List
+  url: https://spdx.org/licenses/
+- description: RSQKit is a platform that curates quality practices in research software. It links to tools, resources, quality metrics, and training to support implementing these practices, while also highlighting the importance of roles like Research Software Engineers (RSEs) and career development in the field.
+  id: rsqkit
+  name: RSQKit
+  url: https://everse.software/RSQKit/ 
+- description: A tool to help you choose an open source license for your software
+  id: choosealicense
+  name: Choose an open source license
+  url: https://choosealicense.com/
 - description: Bash, which stands for - Bourne Again SHell, is a command-line interface and scripting language commonly used in Unix and Unix-like operating systems. It provides a powerful environment for executing commands, managing files, and automating tasks through scripts.
   id: bash
   name: Bash
@@ -175,10 +188,6 @@
   id: sqaaas
   name: SQAaas
   url: https://sqaaas.eosc-synergy.eu/
-- description: A site to provide non-judgmental guidance on choosing a license for your open source project
-  id: choosealicense
-  name: choosealicense
-  url: https://choosealicense.com/
 - description: Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, API keys, and tokens in git repos. Gitleaks is an easy-to-use, all-in-one solution for detecting secrets, past or present, in your code.
   id: gitleaks
   name: gitleaks
