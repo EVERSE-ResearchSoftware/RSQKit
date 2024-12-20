@@ -11,7 +11,46 @@
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
 #   qualityIndicator:  Research Software Quality indicator (see indicators.yaml in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
-
+- description: Bash, which stands for - Bourne Again SHell, is a command-line interface and scripting language commonly used in Unix and Unix-like operating systems. It provides a powerful environment for executing commands, managing files, and automating tasks through scripts.
+  id: bash
+  name: Bash
+  url: https://www.gnu.org/software/bash/
+- description: PowerShell is a task automation and configuration management framework from Microsoft, featuring a command-line shell and a scripting language. It is designed to help system administrators and power users control and automate the administration of Windows and other Microsoft technologies.
+  id: powershell
+  name: PowerShell
+  url: https://learn.microsoft.com/en-gb/powershell/
+- description: OpenCL (Open Computing Language) is an open standard for parallel programming across various platforms, including CPUs, GPUs, and other processors. It enables developers to write programs that execute across heterogeneous computing systems, allowing for high-performance computing in applications like scientific simulations, image processing, and machine learning.
+  id: opencl
+  name: OpenCL
+  url: https://www.khronos.org/opencl/
+- descpription: CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platform and programming model that enables developers to use GPU-accelerated computing for general-purpose processing. It provides a software layer that gives direct access to the GPU's virtual instruction set and parallel computational elements, allowing dramatic performance increases for compute-intensive applications.
+  id: cuda
+  name: CUDA
+  url: https://developer.nvidia.com/cuda-zone
+- description: Rust is a systems programming language focused on memory safety, concurrency, and performance without using garbage collection, enforcing memory safety through its unique ownership system and borrowing rules. It combines low-level control with high-level abstractions, making it suitable for everything from operating systems to WebAssembly applications.
+  id: rust
+  name: Rust
+  url: https://www.rust-lang.org/
+- description: Julia is a high-performance programming language designed for numerical and scientific computing that combines the speed of C with the ease of use of Python. It features multiple dispatch, optional typing, and excellent parallel processing capabilities, making it particularly strong for mathematical computations, data science, and machine learning applications.
+  id: julia
+  name: Julia
+  url: https://julialang.org/
+- description: R is a programming language and environment designed for statistical computing and graphics, widely used by data scientists, statisticians, and researchers. Known for its extensive libraries and rich visualization capabilities, R excels in data analysis, modeling, and reproducible research
+  id: r
+  name: R
+  url: https://www.r-project.org/
+- description: TypeScript is a strongly typed superset of JavaScript that adds static typing and advanced tooling capabilities, enhancing code quality and developer productivity. Designed for building scalable applications, TypeScript compiles to plain JavaScript, ensuring compatibility with existing JavaScript environments.
+  id: typescript
+  name: TypeScript
+  url: https://www.typescriptlang.org/
+- description: JavaScript is a lightweight, high-level programming language primarily used to create interactive and dynamic content on web pages, running seamlessly in browsers. Known for its versatility, JavaScript supports event-driven, functional, and object-oriented programming, making it essential for modern web development and widely used alongside HTML and CSS.
+  id: javascript
+  name: JavaScript
+  url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- description: C++ is a high-performance, general-purpose programming language that supports both procedural and object-oriented paradigms, offering fine-grained control over system resources. Known for its versatility and efficiency, C++ is widely used in applications requiring high speed and precision, such as game development, operating systems, and real-time simulations.
+  id: cpp
+  name: C++
+  url: https://isocpp.org/
 - description: Python is an interpreted, high-level, object-oriented programming language known for its dynamic typing, readability, and extensive standard library, making it ideal for rapid development and modular, reusable code.
   id: python
   name: Python
