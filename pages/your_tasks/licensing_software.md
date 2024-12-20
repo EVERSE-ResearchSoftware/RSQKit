@@ -1,7 +1,7 @@
 ---
 title: Licensing software
 description: How to apply a license to research software
-contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi"]
+contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi", "Thomas Vuillaume"]
 page_id: licensing_software
 related_pages: []
 ---
@@ -151,12 +151,15 @@ This is usually done by adding a file LICENSE with the text of the license. LICE
 
 ### Considerations 
 
+* You may license your entire codebase under a single license (this is recommended in most cases and for software of small to moderate sizes), or use different ones for different parts of it (this can be interesting for large codebases requiring different licenses for different parts)
+
 
 ### Solutions 
 
 * If your software is located in GitHub, follow [GitHub's documentation for adding a license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
 Otherwise, create a new file called, e.g. LICENSE, in the root directory to your code base and copy the text of your chosen license into it.
 * See an example from the [RSQkit](https://github.com/EVERSE-ResearchSoftware/RSQKit) which uses the Apache 2.0 license: [https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE). 
+* In case you want or need to apply licenses per files, we recommend you have a look at [REUSE recommendations](https://reuse.software/)
 
 
 ## Tools and resources
@@ -167,6 +170,7 @@ Otherwise, create a new file called, e.g. LICENSE, in the root directory to your
 | [license selector for software](https://ufal.github.io/public-license-selector)                             | A question-guided tool to help you choose a software license  |
 | [Spdx](https://spdx.org/licenses/) list of licenses                                                         | A list of commonly recognised licenses used in software       |
 | [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) | Guidelines on changing and editing licenses                   |
+| [REUSE](https://reuse.software/) | Guidelines and tool to use several licenses in your software in an easy, comprehensive, unambiguous, and machine-readable way |
 
 
 ## How to cite this page

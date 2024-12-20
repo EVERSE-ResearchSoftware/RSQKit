@@ -19,6 +19,11 @@ The RSQKit **Editorial Board Members** work together with general **Contributors
 
 Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute to RSQKit.
 
+## License
+
+Information about the licenses that apply to RSQKit can be found in [LICENSE.md](LICENSE.md).
+
+
 ## Contact
 
 Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this lesson.

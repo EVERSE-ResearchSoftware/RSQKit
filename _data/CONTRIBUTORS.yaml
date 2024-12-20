@@ -1,16 +1,17 @@
 # List of contributors
 #
-# reference maintainers/contributors by their name used in contributors metadata section on the pages.
-# Extra metadata that is possible to add:
 # Full Name:
-#    git: github id
+#    git: github id (required)
 #    email: email adress
-#    orcid: ocrid id
-#    role: the role of the contributor
+#    orcid: orcid id
+#    role: the role of the contributor (current possible values "editor" or leave empty)
 #    affiliation: affiliation
-#    image_url: absolute path to image (default image from github)
+#    image_url: absolute path to image (defaults to image from GitHub)
+# 
+# You can reference contributors by their name in the fromntmatter section of content pages using parameter "contributors".
 
-Laura Portell Silva:
+
+Laura Portell-Silva:
     git: lauportell
     email: laura.portell@bsc.es
     orcid: 0000-0003-0390-3208
@@ -24,6 +25,7 @@ Fotis Psomopoulos:
     git: fpsom
     orcid: 0000-0002-0222-4273
     email: fpsom@certh.gr
+    role: editor
     affiliation: Institute of Applied Biosciences(INAB|CERTH) / ELIXIR-GR 
 Salvador Capella-Gutierrez:
     email: salvador.capella@bsc.es 
@@ -43,7 +45,6 @@ Daniel Garijo:
 Shraddha Bajare:
     git: shraddha-bajare
     email: shraddha.bajare@skao.int
-    role: editor
     affiliation: Square Kilometre Array Observatory
 Aleksandra Nenadic:
     git: anenadic
@@ -55,3 +56,24 @@ Shoaib Sufi:
     orcid: 0000-0001-6390-2616
     affiliation: The University of Manchester / Software Sustainability Institute
     role: editor
+Jason Maassen:
+    git: jmaassen
+    email: J.Maassen@esciencecenter.nl
+    role: editor
+    affiliation: Netherlands eScience Center
+Zhiming Zhao:
+    git: zmzhao
+    email: z.zhao@uva.nl
+    role: editor
+    affiliation: Universiteit van Amsterdam
+Christian Hüser:
+    git: christianhueserhzdr
+    affiliation: HZDR
+Azza Gamgami:
+    git: azza-max
+Kirsty Pringle:
+    git: KirstyPringle
+Esteban González:
+    git: esgg
+Giacomo Peru:
+    git: gperu

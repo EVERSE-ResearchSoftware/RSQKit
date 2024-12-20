@@ -20,11 +20,12 @@ PR in RSQKit, or downloading and checking the PR branch locally on the Editor's 
 
 - All relevant metadata fields in a specific page or data file are correctly filled in - check the [Metadata Guidelines][metadata_guidlines].
 - If needed, the new page is linked in the appropriate sidebar menu. When adding the page to the sidebar navigation, ensure that the sidebar entry's 'title' matches the page's 'title'."
-- Make sure that relevant tools, resources, training and related pages are tagged in the text of the updated pages.
+- Make sure that all tools and resources mentioned on a page are added to the ["tools and resources" data file](./_data/tool_and_resource_list.yml) and then tagged in the text of the page
+using the `{% raw  %}{% tool 'tool_or_resource_id' %}{% endraw  %}` directive.
 
 ### Specific Checks for Contributors' Data
 
 - A Contributor has provided at least their GitHub username/handle, as GitHub IDs are used to uniquely identify Contributors in RSQKit.
 - A Contributor is listed in the [CONTRIBUTORS file](_data/CONTRIBUTORS.yaml) and each page they contributed to (in the [page metadata][metadata_guidlines]).
 
-[metadata_guidlines]: http://everse.software/RSQKit/metadata_guidelines
+[metadata_guidlines]: https://everse.software/RSQKit/metadata_guidelines

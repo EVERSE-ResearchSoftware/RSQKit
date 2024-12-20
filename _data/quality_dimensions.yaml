@@ -1,0 +1,15 @@
+# Conforms to: https://w3id.org/everse/rsqd/0.0.1
+# Summary of the metadata fields for software quality indicator dimensions: 
+# identifier: Identifier associated with the dimension
+# description: A brief text describing the dimension
+# name: Name of the indicator (title)
+# source: The standard(s) or reference document(s) where the dimension was proposed, or adapted from
+
+- identifier: documentation # Note: everse will mint an URI for this dimension under: https://w3id.org/everse/dimensions/{identifier}
+  description: >
+    Ability of the system to provide information helpful for identifying and resolving issues when it fails to work correctly. Existence of a helpdesk or issue tracking, bug reporting, enhancements and general support
+  name: Documentation and Supportability
+  source: 
+    - https://www.iso.org/standard/35733.html
+    - https://doi.org/10.5281/zenodo.10723608
+  
