@@ -84,15 +84,15 @@
   id: howfairis
   name: howfairis
   url: https://github.com/fair-software/howfairis
-- description: Create documentation for packages.
+- description: A tool for creating documentation for packages
   id: sphinx
   name: Sphinx
   url: https://www.sphinx-doc.org/en/master/
-- description: Development platform.
+- description: Software development, sharing and version control platform
   id: github
   name: GitHub
   url: https://github.com/
-- description: Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes.
+- description: Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
@@ -216,7 +216,7 @@
   id: mkdocs
   name: MKDocs
   url: https://www.mkdocs.org/
-- description: Python testing tool.
+- description: Python testing tool
   id: pytest
   name: PyTest
   url: https://docs.pytest.org/en/latest/
@@ -224,11 +224,11 @@
   id: tox
   name: tox
   url: https://tox.wiki/en/4.23.2/
-- description: Java testing tool.
+- description: Java testing tool
   id: junit
   name: JUnit
   url: https://junit.org/junit5/
-- description: CPP testing tool.
+- description: CPP testing tool
   id: cppunit
   name: CPPUnit
   url: https://freedesktop.org/wiki/Software/cppunit/
@@ -244,7 +244,7 @@
   id: ruff
   name: Ruff
   url: https://docs.astral.sh/ruff/
-- description: Static code analysis for Python.
+- description: Static code analysis tool for Python
   id: pylint
   name: Pylint
   url: https://pylint.readthedocs.io/en/stable/
@@ -383,3 +383,15 @@
   id: ecograder
   name: Ecograder
   url: https://ecograder.com/
+- description: Style guide for Python code
+  id: pep8
+  name: PEP8
+  url: https://peps.python.org/pep-0008/
+- description: Google’s R code style guide
+  id: r-language-guideline
+  name: R Style Guide
+  url: https://google.github.io/styleguide/Rguide.html
+- description: Static code analysis tools
+  id: code-linters
+  name: code linters
+  url: https://en.wikipedia.org/wiki/Lint_%28software%29
