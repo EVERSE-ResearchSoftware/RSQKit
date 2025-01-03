@@ -7,11 +7,71 @@
 # - description: A short description of the purpose of the tool or resource
 #   id: This is the id by which the tool will be references on other pages e.g. for GitHub the id is github so we use {% tool "github"%} to refer to it
 #   name: This is the name of the tool or resource
-#   registry: This is a list of registry:search-string combinations 
+#   registry: This is followed by a list of registry-tag:search-string combinations indented below which search for further information about this tool  
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
 #   qualityIndicator:  Research Software Quality indicator (see indicators.yaml in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
-
+- description: A open source license selector
+- description: The SPDX License List is an integral part of the SPDX Specification. The SPDX License List itself is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation
+  id: spdx
+  name: SPDX License List
+  url: https://spdx.org/licenses/
+- description: RSQKit is a platform that curates quality practices in research software. It links to tools, resources, quality metrics, and training to support implementing these practices, while also highlighting the importance of roles like Research Software Engineers (RSEs) and career development in the field.
+  id: rsqkit
+  name: RSQKit
+  url: https://everse.software/RSQKit/ 
+- description: A tool to help you choose an open source license for your software
+  id: choosealicense
+  name: Choose an open source license
+  url: https://choosealicense.com/
+- description: Bash, which stands for - Bourne Again SHell, is a command-line interface and scripting language commonly used in Unix and Unix-like operating systems. It provides a powerful environment for executing commands, managing files, and automating tasks through scripts.
+  id: bash
+  name: Bash
+  url: https://www.gnu.org/software/bash/
+- description: PowerShell is a task automation and configuration management framework from Microsoft, featuring a command-line shell and a scripting language. It is designed to help system administrators and power users control and automate the administration of Windows and other Microsoft technologies.
+  id: powershell
+  name: PowerShell
+  url: https://learn.microsoft.com/en-gb/powershell/
+- description: OpenCL (Open Computing Language) is an open standard for parallel programming across various platforms, including CPUs, GPUs, and other processors. It enables developers to write programs that execute across heterogeneous computing systems, allowing for high-performance computing in applications like scientific simulations, image processing, and machine learning.
+  id: opencl
+  name: OpenCL
+  url: https://www.khronos.org/opencl/
+- descpription: CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platform and programming model that enables developers to use GPU-accelerated computing for general-purpose processing. It provides a software layer that gives direct access to the GPU's virtual instruction set and parallel computational elements, allowing dramatic performance increases for compute-intensive applications.
+  id: cuda
+  name: CUDA
+  url: https://developer.nvidia.com/cuda-zone
+- description: Rust is a systems programming language focused on memory safety, concurrency, and performance without using garbage collection, enforcing memory safety through its unique ownership system and borrowing rules. It combines low-level control with high-level abstractions, making it suitable for everything from operating systems to WebAssembly applications.
+  id: rust
+  name: Rust
+  url: https://www.rust-lang.org/
+- description: Julia is a high-performance programming language designed for numerical and scientific computing that combines the speed of C with the ease of use of Python. It features multiple dispatch, optional typing, and excellent parallel processing capabilities, making it particularly strong for mathematical computations, data science, and machine learning applications.
+  id: julia
+  name: Julia
+  url: https://julialang.org/
+- description: R is a programming language and environment designed for statistical computing and graphics, widely used by data scientists, statisticians, and researchers. Known for its extensive libraries and rich visualization capabilities, R excels in data analysis, modeling, and reproducible research
+  id: r
+  name: R
+  url: https://www.r-project.org/
+- description: TypeScript is a strongly typed superset of JavaScript that adds static typing and advanced tooling capabilities, enhancing code quality and developer productivity. Designed for building scalable applications, TypeScript compiles to plain JavaScript, ensuring compatibility with existing JavaScript environments.
+  id: typescript
+  name: TypeScript
+  url: https://www.typescriptlang.org/
+- description: JavaScript is a lightweight, high-level programming language primarily used to create interactive and dynamic content on web pages, running seamlessly in browsers. Known for its versatility, JavaScript supports event-driven, functional, and object-oriented programming, making it essential for modern web development and widely used alongside HTML and CSS.
+  id: javascript
+  name: JavaScript
+  url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- description: C++ is a high-performance, general-purpose programming language that supports both procedural and object-oriented paradigms, offering fine-grained control over system resources. Known for its versatility and efficiency, C++ is widely used in applications requiring high speed and precision, such as game development, operating systems, and real-time simulations.
+  id: cpp
+  name: C++
+  url: https://isocpp.org/
+- description: Python is an interpreted, high-level, object-oriented programming language known for its dynamic typing, readability, and extensive standard library, making it ideal for rapid development and modular, reusable code.
+  id: python
+  name: Python
+  url: https://www.python.org/
+- description: Java is a versatile, object-oriented programming language designed to be platform-independent, with its “write once, run anywhere” capability enabled by the Java Virtual Machine (JVM).
+  id: java
+  name: Java
+  url: https://www.java.com/en/
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
   name: Docker
@@ -24,21 +84,21 @@
   id: howfairis
   name: howfairis
   url: https://github.com/fair-software/howfairis
-- description: Create documentation for packages.
+- description: Documentation generator primarily for Python, but also supports other languages - C++, C, JavaScript.
   id: sphinx
   name: Sphinx
   url: https://www.sphinx-doc.org/en/master/
-- description: Development platform.
+- description: Software development, sharing and version control platform
   id: github
   name: GitHub
   url: https://github.com/
-- description: Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes.
+- description: Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
-- description: Visual Studio Code, also commonly referred to as VS Code,[9] is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
+- description: An Integrated Development Environment (IDE) (commonly referred to as VS Code) developed by Microsoft
   id: vscode
-  name: VSCode
+  name: Visual Studio Code
   url: https://code.visualstudio.com/
 - description: Integrated development environment (IDE) written in Java.
   id: intellij idea
@@ -76,7 +136,7 @@
   id: pelican
   name: Pelican
   url: https://getpelican.com/
-- description: Publish static websites directly from GitLab repository.
+- description: A GitLab tool that publishes static websites directly from a GitLab repository
   id: gitlabpages
   name: GitLab Pages
   url: https://docs.gitlab.com/ee/user/project/pages/
@@ -128,10 +188,6 @@
   id: sqaaas
   name: SQAaas
   url: https://sqaaas.eosc-synergy.eu/
-- description: A site to provide non-judgmental guidance on choosing a license for your open source project
-  id: choosealicense
-  name: choosealicense
-  url: https://choosealicense.com/
 - description: Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, API keys, and tokens in git repos. Gitleaks is an easy-to-use, all-in-one solution for detecting secrets, past or present, in your code.
   id: gitleaks
   name: gitleaks
@@ -156,11 +212,11 @@
   id: creativecommons
   name: Creative Commons
   url: https://chooser-beta.creativecommons.org/
-- description: Create static documentation for software projects.
+- description: A tool for creating static documentation for software projects
   id: mkdocs
   name: MKDocs
   url: https://www.mkdocs.org/
-- description: Python testing tool.
+- description: Python testing tool
   id: pytest
   name: PyTest
   url: https://docs.pytest.org/en/latest/
@@ -168,11 +224,11 @@
   id: tox
   name: tox
   url: https://tox.wiki/en/4.23.2/
-- description: Java testing tool.
+- description: Java testing tool
   id: junit
   name: JUnit
   url: https://junit.org/junit5/
-- description: CPP testing tool.
+- description: CPP testing tool
   id: cppunit
   name: CPPUnit
   url: https://freedesktop.org/wiki/Software/cppunit/
@@ -188,7 +244,7 @@
   id: ruff
   name: Ruff
   url: https://docs.astral.sh/ruff/
-- description: Static code analysis for Python.
+- description: Static code analysis tool for Python
   id: pylint
   name: Pylint
   url: https://pylint.readthedocs.io/en/stable/
@@ -292,7 +348,7 @@
   id: somefvider
   name: SOMEF Vider
   url: https://somef.linkeddata.es/
-- description: Automatically hosts and rebuilds documentation.
+- description: A documentation building and hosting platform aimed at helping developers create documentation from code
   id: readthedocs
   name: Read the Docs
   url: https://readthedocs.org
@@ -307,6 +363,7 @@
 - description: DevOps platform that enables teams to collaborate, plan, develop, test, and deploy software using an integrated toolset for version control, CI/CD, and project management.
   id: gitlab
   name: GitLab
+  url: https://about.gitlab.com/
 - description: An online tool to estimate the carbon footprint of computational tasks using a web calculator.
   id: greenalgorithms
   name: Green Algorithms
@@ -327,3 +384,47 @@
   id: ecograder
   name: Ecograder
   url: https://ecograder.com/
+- description: Style guide for Python code
+  id: pep8
+  name: PEP8
+  url: https://peps.python.org/pep-0008/
+- description: Google’s R code style guide
+  id: r-language-style-guide
+  name: R Style Guide
+  url: https://google.github.io/styleguide/Rguide.html
+- description: Static code analysis tools
+  id: code-linters
+  name: code linters
+  url: https://en.wikipedia.org/wiki/Lint_%28software%29
+- description: Style guidelines used for Google code
+  id: google-programming-style-guide
+  name: Google’s programming style guide
+  url: https://google.github.io/styleguide/
+- description: Free Python Integrated Development Environment (IDE) for application, data science and web development
+  id: pycharm
+  name: PyCharm
+  url: https://www.jetbrains.com/pycharm/
+- description: Free and open-source Integrated Development Environment (IDE) used for Java development, with support for developing applications in other programming languages too
+  id: eclipse
+  name: Eclipse
+  url: https://eclipseide.org/
+- description: An API documentation generator for JavaScript, similar to Javadoc
+  id: jsdoc
+  name: JSDoc
+  url: https://jsdoc.app/
+- description: Python Docstring Generator for Visual Studio Code
+  id: python-docstring-generator
+  name: Python Docstring Generator
+  url: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+- description: Documentation generator tool in software development for C++ (and also C, Python, PHP, Java, C#, Objective-C, Fortran, VHDL, Splice, IDL, and Lex)
+  id: doxygen
+  name: Doxygen
+  url: https://www.doxygen.nl/
+- description: A suite of tools for API developers that generate APIs from code (and the basis for the OpenAPI Specification)
+  id: swagger
+  name: Swagger
+  url: https://swagger.io/
+- description: Documentation generator tool in software development for R
+  id: roxygen
+  name: Roxygen
+  url: https://github.com/r-lib/roxygen2
