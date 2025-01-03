@@ -9,6 +9,8 @@ related_pages: []
 
 ## Why is it important to make your code readable?
 
+### Description
+
 **Code readability** contributes to *reusability* of code (the "R" in the [FAIR research software principles][fair-rs-principles][^1]) - 
 once people obtain a copy your software, they need to be able to understand it to reuse and extend it. 
 
@@ -33,7 +35,7 @@ and saves future developers' time and effort.
 - Readable code can also make it better and more secure in a way, as it is easier for reviewers to pick out errors.
 
 
-## Solutions
+### Solutions
 
 What practices are there to help us improve code readability?
 
@@ -47,7 +49,10 @@ to ensure that everyone contributing to the same project is producing code which
 While a group of developers may choose to write and agree upon a new style guide unique to each project, 
 in practice many programming languages have a single style guide which is adopted almost universally by the communities 
 around the world. 
-For example, see {% tool "pep8" %} (style guide for Python) or {% tool "r-language-guideline" %}.
+
+For example, see {% tool "pep8" %} (style guide for Python) or {% tool "r-language-style-guide" %}.
+{% tool "google-programming-style-guide" %} offers recommendations for style guides for various programming languages, 
+including Python, Java, R, C++, and Shell.
 
 Another good practice to help readability is to [create code that is modular][modular-code] - structured and split into 
 small, reusable functions that are easier to read, understand and test.
@@ -77,7 +82,7 @@ Consistency with a style guide is important but consistency within a project or 
 are joining an existing project, look at the existing code and make sure to adopt whatever practices are already in place.
 - Follow [guidelines and conventions](https://carpentries-incubator.github.io/fair-research-software/07-code-structure.html#directory-structure-for-software-projects)
   on consistent and informative directory structure for your software or research projects - this way, people will immediately know where to find things within your project
-- Automate style checks to help ensure your code is consistent. Many modern Integrated Development Environments (IDEs), 
+- Automate style checks to help ensure your code is consistent. Many modern Integrated Development Environments (IDEs), such as {% tool "vscode" %}, {% tool "pycharm" %} or {% tool "eclipse" %}, 
 have built-in support for checking conformance to style conventions and they will warn you when you deviate or even autocorrect things for you.
 - Use {% tool "code-linters" %} - static code analysis tools (such as {% tool "pylint" %}) used to flag code consistency issues, stylistic errors, suspicious language constructs, and even programming errors and bugs.
 - Organise code into reusable and modular functions that achieve a singular purpose and are more easier to understand, test and reuse.

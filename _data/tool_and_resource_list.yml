@@ -84,7 +84,7 @@
   id: howfairis
   name: howfairis
   url: https://github.com/fair-software/howfairis
-- description: A tool for creating documentation for packages
+- description: Documentation generator primarily for Python, but also supports other languages - C++, C, JavaScript.
   id: sphinx
   name: Sphinx
   url: https://www.sphinx-doc.org/en/master/
@@ -96,9 +96,9 @@
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
-- description: Visual Studio Code, also commonly referred to as VS Code, is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
+- description: An Integrated Development Environment (IDE) (commonly referred to as VS Code) developed by Microsoft
   id: vscode
-  name: VSCode
+  name: Visual Studio Code
   url: https://code.visualstudio.com/
 - description: Integrated development environment (IDE) written in Java.
   id: intellij idea
@@ -136,7 +136,7 @@
   id: pelican
   name: Pelican
   url: https://getpelican.com/
-- description: Publish static websites directly from GitLab repository.
+- description: A GitLab tool that publishes static websites directly from a GitLab repository
   id: gitlabpages
   name: GitLab Pages
   url: https://docs.gitlab.com/ee/user/project/pages/
@@ -212,7 +212,7 @@
   id: creativecommons
   name: Creative Commons
   url: https://chooser-beta.creativecommons.org/
-- description: Create static documentation for software projects.
+- description: A tool for creating static documentation for software projects
   id: mkdocs
   name: MKDocs
   url: https://www.mkdocs.org/
@@ -348,7 +348,7 @@
   id: somefvider
   name: SOMEF Vider
   url: https://somef.linkeddata.es/
-- description: Automatically hosts and rebuilds documentation.
+- description: A documentation building and hosting platform aimed at helping developers create documentation from code
   id: readthedocs
   name: Read the Docs
   url: https://readthedocs.org
@@ -363,6 +363,7 @@
 - description: DevOps platform that enables teams to collaborate, plan, develop, test, and deploy software using an integrated toolset for version control, CI/CD, and project management.
   id: gitlab
   name: GitLab
+  url: https://about.gitlab.com/
 - description: An online tool to estimate the carbon footprint of computational tasks using a web calculator.
   id: greenalgorithms
   name: Green Algorithms
@@ -388,10 +389,42 @@
   name: PEP8
   url: https://peps.python.org/pep-0008/
 - description: Google’s R code style guide
-  id: r-language-guideline
+  id: r-language-style-guide
   name: R Style Guide
   url: https://google.github.io/styleguide/Rguide.html
 - description: Static code analysis tools
   id: code-linters
   name: code linters
   url: https://en.wikipedia.org/wiki/Lint_%28software%29
+- description: Style guidelines used for Google code
+  id: google-programming-style-guide
+  name: Google’s programming style guide
+  url: https://google.github.io/styleguide/
+- description: Free Python Integrated Development Environment (IDE) for application, data science and web development
+  id: pycharm
+  name: PyCharm
+  url: https://www.jetbrains.com/pycharm/
+- description: Free and open-source Integrated Development Environment (IDE) used for Java development, with support for developing applications in other programming languages too
+  id: eclipse
+  name: Eclipse
+  url: https://eclipseide.org/
+- description: An API documentation generator for JavaScript, similar to Javadoc
+  id: jsdoc
+  name: JSDoc
+  url: https://jsdoc.app/
+- description: Python Docstring Generator for Visual Studio Code
+  id: python-docstring-generator
+  name: Python Docstring Generator
+  url: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+- description: Documentation generator tool in software development for C++ (and also C, Python, PHP, Java, C#, Objective-C, Fortran, VHDL, Splice, IDL, and Lex)
+  id: doxygen
+  name: Doxygen
+  url: https://www.doxygen.nl/
+- description: A suite of tools for API developers that generate APIs from code (and the basis for the OpenAPI Specification)
+  id: swagger
+  name: Swagger
+  url: https://swagger.io/
+- description: Documentation generator tool in software development for R
+  id: roxygen
+  name: Roxygen
+  url: https://github.com/r-lib/roxygen2

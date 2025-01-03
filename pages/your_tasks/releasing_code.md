@@ -13,7 +13,8 @@ related_pages: []
 
 Software needs to be released regularly.
 The points in time are described by the software development life cycle.
-Software Project Management Platforms like [GitHub][github] and [GitLab][gitlab] offer features to release your software.
+Software Project Management Platforms like [GitHub][github] and [GitLab][gitlab] offer features to help you 
+release your software.
 
 ### Considerations
 
@@ -29,9 +30,6 @@ Software Project Management Platforms like [GitHub][github] and [GitLab][gitlab]
   * Remember to use a version number with the considerations listed above.
   * Click on "Publish release"
 
-## How to cite this page
-
-To be added.
 
 ## Tools and resources
 
