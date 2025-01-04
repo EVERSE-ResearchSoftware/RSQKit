@@ -82,7 +82,7 @@ Consistency with a style guide is important but consistency within a project or 
 are joining an existing project, look at the existing code and make sure to adopt whatever practices are already in place.
 - Follow [guidelines and conventions](https://carpentries-incubator.github.io/fair-research-software/07-code-structure.html#directory-structure-for-software-projects)
   on consistent and informative directory structure for your software or research projects - this way, people will immediately know where to find things within your project
-- Automate style checks to help ensure your code is consistent. Many modern Integrated Development Environments (IDEs), such as {% tool "vscode" %}, {% tool "pycharm" %} or {% tool "eclipse" %}, 
+- Automate style checks to help ensure your code is consistent. Many modern Integrated Development Environments (IDEs), such as {% tool "vscode" %}, {% tool "pycharm" %}, {% tool "rstudio" %} or {% tool "eclipse" %}, 
 have built-in support for checking conformance to style conventions and they will warn you when you deviate or even autocorrect things for you.
 - Use {% tool "code-linters" %} - static code analysis tools (such as {% tool "pylint" %}) used to flag code consistency issues, stylistic errors, suspicious language constructs, and even programming errors and bugs.
 - Organise code into reusable and modular functions that achieve a singular purpose and are more easier to understand, test and reuse.

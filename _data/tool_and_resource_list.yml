@@ -222,7 +222,7 @@
   url: https://www.mkdocs.org/
 - description: Test automation framework for Python
   id: pytest
-  name: PyTest
+  name: Pytest
   url: https://docs.pytest.org/en/latest/
 - description: Unit Testing for R
   id: testthat
@@ -402,7 +402,7 @@
   url: https://google.github.io/styleguide/Rguide.html
 - description: Static code analysis tools
   id: code-linters
-  name: code linters
+  name: Code Linters
   url: https://en.wikipedia.org/wiki/Lint_%28software%29
 - description: Style guidelines used for Google code
   id: google-programming-style-guide
@@ -436,3 +436,23 @@
   id: roxygen
   name: Roxygen
   url: https://github.com/r-lib/roxygen2
+- description: Distributed source control management tool - it efficiently handles projects of any size and offers an easy and intuitive interface
+  id: mercurial
+  name: Mercurial
+  url: https://www.mercurial-scm.org/
+- description: Version control system
+  id: subversion
+  name: Subversion
+  url: https://github.com/r-lib/roxygen2
+- description: Highly scalable development and DevOps solutions designed to deliver dynamic development, intelligent testing and risk management environment
+  id: perforce
+  name: Perforce
+  url: https://www.perforce.com/
+- description: An open source Git extension for versioning large files, such as audio samples, videos, datasets, and graphics
+  id: git-lfs
+  name: Git Large File Storage
+  url: https://git-lfs.github.com/
+- description: Integrated Development Environment (IDE) for R, a programming language for statistical computing and graphics
+  id: rstudio
+  name: RStudio
+  url: https://posit.co/download/rstudio-desktop/
