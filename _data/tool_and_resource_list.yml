@@ -104,35 +104,31 @@
   id: intellij idea
   name: IntelliJ IDEA
   url: https://www.jetbrains.com/fr-fr/idea/
-- description: Python packaging and dependency management.
+- description: Python packaging and dependency management tool
   id: poetry
   name: Poetry
   url: https://python-poetry.org/
-- description: The official third-party software repository for Python.
+- description: Official third-party software repository for Python packages
   id: pypi
-  name: PyPi
+  name: Python Package Index (PyPi)
   url: https://pypi.org/
-- description: The eOSSR is the Python library to programmatically manage the ESCAPE OSSR. It also includes CodeMeta generator and validator.
+- description: Python library to programmatically manage the ESCAPE OSSR; also includes a CodeMeta generator and validator
   id: eossr
   name: eOSSR
   url: https://gitlab.com/escape-ossr/eossr
-- description: A generative artificial intelligence chatbot developed by OpenAI and able to produce code or answer questions on code.
+- description: Generative artificial intelligence chatbot developed by OpenAI and able to produce code or answer questions on code
   id: chatgpt
   name: ChatGPT
   url: https://chatgpt.com/
-- description: Automates documentation.
-  id: deoxygen
-  name: Deoxygen
-  url: https://www.doxygen.nl/
-- description: Automate documentation for Java code.
+- description: Documentation generator for Java used to generate API documentation in HTML format from Java source code
   id: javadoc
   name: JavaDoc
   url: https://www.oracle.com/java/technologies/javase/javadoc-tool.html
-- description: Static website generation based on Go.
+- description: Static website generation based on Go
   id: hugo
   name: Hugo
   url: https://gohugo.io/
-- description: Static website generation based on Python.
+- description: Static website generation based on Python
   id: pelican
   name: Pelican
   url: https://getpelican.com/
@@ -140,7 +136,7 @@
   id: gitlab-pages
   name: GitLab Pages
   url: https://docs.gitlab.com/ee/user/project/pages/
-- description: Publish static websites directly from GitHub repository.
+- description: Publish static websites directly from GitHub repository
   id: github-pages
   name: GitHub Pages
   url: https://pages.github.com/
@@ -156,7 +152,7 @@
   id: bandit
   name: Bandit
   url: https://github.com/PyCQA/bandit
-- description: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+- description: Framework for Web testing and automation, allowing testing using Chromium, Firefox and WebKit with a single API
   id: playwrite
   name: Playwrite
   url: https://playwright.dev/docs/intro
@@ -184,37 +180,37 @@
   id: codemetagenerator
   name: CodeMeta Generator
   url: https://codemeta.github.io/codemeta-generator/
-- decription: Software Metadata Extraction Framework. A command line interface for automatically extracting relevant information from readme files.
+- decription: Software Metadata Extraction Framework - a command line interface for automatically extracting relevant information from README files
   id: somef
   name: SOMEF
   url: https://github.com/KnowledgeCaptureAndDiscovery/somef
-- description: Software Quality Assessment as a Service. The Quality Assessment & Awarding building block analyses the level of completeness with the FAIR4RS reference criteria for any given release of your software.
+- description: Software Quality Assessment as a Service - the Quality Assessment & Awarding building block analysing the level of completeness with the FAIR4RS reference criteria for any given release of your software
   id: sqaaas
   name: SQAaas
   url: https://sqaaas.eosc-synergy.eu/
-- description: Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, API keys, and tokens in git repos. Gitleaks is an easy-to-use, all-in-one solution for detecting secrets, past or present, in your code.
+- description: SAST tool for detecting and preventing hardcoded secrets like passwords, API keys, and tokens in code stored in Git repositories
   id: gitleaks
   name: gitleaks
   url: https://github.com/gitleaks/gitleaks
-- description: Black is the uncompromising Python code formatter. By using it, you agree to cede control over minutiae of hand-formatting. In return, Black gives you speed, determinism, and freedom from pycodestyle nagging about formatting.
+- description: Automated Python code formatter
   id: black
   name: Black
   url: https://github.com/psf/black
-- description: A framework for managing and maintaining multi-language pre-commit hooks.
+- description: A framework for managing and maintaining multi-language pre-commit hooks
   id: precommit
   name: precommit
   url: https://pre-commit.com/
-- description: Automate the declaring of copyright and licensing for software projects with SPDX Tags.
+- description: Automate the declaring of copyright and licensing for software projects with SPDX Tags
   id: reuse
   name: REUSE
   url: https://reuse.software/
-- description: Guided approach to assess the FAIRness of data.
+- description: Guided approach to assess the FAIRness of data
   id: fairaware
   name: FAIR Aware
   url: https://fairaware.dans.knaw.nl/
-- description: License chooser dialog window to select an appropriate Creative Commons license.
-  id: creativecommons
-  name: Creative Commons
+- description: Creative Commons license chooser to help you select an appropriate Creative Commons license
+  id: creativecommons-licence-chooser
+  name: Creative Commons License Chooser
   url: https://chooser-beta.creativecommons.org/
 - description: A tool for creating static documentation for software projects
   id: mkdocs
@@ -240,15 +236,15 @@
   id: cppunit
   name: CPPUnit
   url: https://freedesktop.org/wiki/Software/cppunit/
-- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments.
+- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments
   id: apptainer
   name: APPTAINER
   url: https://apptainer.org/
-- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments.
+- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments
   id: singularityce
   name: SingularityCE
   url: https://sylabs.io/singularity/
-- description: An extremely fast Python linter and code formatter, written in Rust.
+- description: An extremely fast Python linter and code formatter written in Rust
   id: ruff
   name: Ruff
   url: https://docs.astral.sh/ruff/
@@ -256,59 +252,59 @@
   id: pylint
   name: Pylint
   url: https://pylint.readthedocs.io/en/stable/
-- description: Dockerfile linter.
+- description: Dockerfile linter
   id: hadolint
   name: Hadolint
   url: https://github.com/hadolint/hadolint
-- description: Static code analysis tool for Python.
+- description: Static code analysis tool for Python
   id: flake8
   name: Flake8
   url: https://flake8.pycqa.org/en/latest/
-- description: Static code analysis tool for Java.
+- description: Static code analysis tool for Java
   id: checkstyle
   name: Checkstyle
   url: https://sourceforge.net/projects/checkstyle/
-- description: Code coverage analysis tool.
+- description: Code coverage analysis tool
   id: gcov
   name: Gcov
   url: https://gcc.gnu.org/onlinedocs/gcc/Gcov.html
-- description: Detect memory management and threading bugs, run profiling to see how to speed up your programs.
+- description: Detect memory management and threading bugs, run profiling to see how to speed up your programs
   id: valgrind
   name: Valgrind
   url: https://valgrind.org/
-- description: Data Version Control, Manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow.
+- description: Data Version Control - to help you manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow
   id: dvc
   name: DVC
   url: https://dvc.org/
-- description: Generate automated pull requests updating dependencies for projects.
+- description: Generate automated pull requests updating dependencies for projects
   id: dependabot
   name: Dependabot
   url: https://github.com/dependabot/dependabot-core
-- description: Continuous inspection of code quality to perform automatic reviews for static analysis of code.
+- description: Continuous inspection of code quality to perform automatic reviews for static analysis of code
   id: sonarqube
   name: SonarQube
   url: https://www.sonarsource.com/products/sonarqube/
-- description: The selenium package is used to automate web browser interaction from Python. Selenium WebDriver is often used as a basis for testing web applications.
+- description: Automates Web browser interaction from Python - Selenium WebDriver is often used as a basis for testing Web applications
   id: selenium
   name: Selenium
   url: https://pypi.org/project/selenium/
-- description: For building publication-quality books and documents from computational material.
+- description: For building publication-quality books and documents from computational material
   id: jupyterbook
   name: Jupyter-Book
   url: https://pypi.org/project/jupyter-book/
-- description: Distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+- description: Distributed version control system designed to handle everything from small to very large projects with speed and efficiency
   id: git
   name: Git
   url: https://git-scm.com/
-- description: Automation server to support building, testing and deploying software.
+- description: Automation server to support building, testing and deploying software
   id: jenkins
   name: Jenkins
   url: https://www.jenkins.io/
-- description: CI platform to support building, testing and deploying software.
+- description: CI platform to support building, testing and deploying software
   id: travis
   name: Travis
   url: https://www.travis-ci.com/
-- description: Automating deployment, scaling, and management of containerized applications.
+- description: Automating deployment, scaling, and management of containerized applications
   id: kubernetes
   name: Kubernetes
   url: https://kubernetes.io/
@@ -316,7 +312,7 @@
   id: cmake
   name: CMake
   url: https://cmake.org/
-- description: Unique approach to package management and system configuration.
+- description: Unique approach to package management and system configuration
   id: nix
   name: Nix
   url: https://nixos.org/
@@ -328,27 +324,27 @@
   id: rpm
   name: RPM
   url: https://rpm.org/
-- description: Helpdesk software, ticketing system.
+- description: Helpdesk software, ticketing system
   id: zammad
   name: Zammad
   url: https://zammad.com/en
-- description: A turn-key research data management (RDM) repository based on Invenio Framework and Zenodo.
+- description: A turn-key research data management (RDM) repository based on Invenio Framework and Zenodo
   id: inveniordm
   name: InvenioRDM
   url: https://inveniosoftware.org/products/rdm/
-- description: Collects, preserves, curates and makes available software in source code form as cultural heritage.
+- description: Collects, preserves, curates and makes available software in source code form as cultural heritage
   id: softwareheritage
   name: Software Heritage
   url: https://www.softwareheritage.org
-- description: An online form to help manually create and validate CodeMeta files.
+- description: An online form to help manually create and validate CodeMeta files
   id: codemetagenerator
   name: CodeMeta Generator
   url: https://codemeta.github.io/codemeta-generator
-- description: Service to validate JSON-LD files.
+- description: Service to validate JSON-LD files
   id: jasonldvalidator
   name: JSON-LD validator
   url: https://json-ld.org/playground
-- description: The Software Metadata extraction framework (SOMEEF) is a Library designed to extract CodeMeta files from source code documentation.
+- description: The Software Metadata extraction framework (SOMEEF) is a Library designed to extract CodeMeta files from source code documentation
   id: somef
   name: SOMEF
   url: https://github.com/KnowledgeCaptureAndDiscovery/somef/
@@ -360,7 +356,7 @@
   id: readthedocs
   name: Read the Docs
   url: https://readthedocs.org
-- description: For generating documentation from reStructuredText files.
+- description: For generating documentation from reStructuredText files
   id: sphinx
   name: Sphinx
   url: https://www.sphinx-doc.org
@@ -372,19 +368,19 @@
   id: gitlab
   name: GitLab
   url: https://about.gitlab.com/
-- description: An online tool to estimate the carbon footprint of computational tasks using a web calculator.
+- description: An online tool to estimate the carbon footprint of computational tasks using a web calculator
   id: greenalgorithms
   name: Green Algorithms
   url: https://www.green-algorithms.org/
-- description: A software package that integrates into Python codebase. It estimates the amount of carbon dioxide (CO2) produced by the cloud or personal computing resources used to execute the code.
+- description: A software package that integrates into Python codebase - estimating the amount of carbon dioxide (CO2) produced by the cloud or personal computing resources used to execute the code
   id: codecarbon
   name: CodeCarbon
   url: https://codecarbon.io/
-- description: Measures energy usage and resource efficiency in web and mobile applications.
+- description: A tool that measures energy usage and resource efficiency in web and mobile applications
   id: greenspectorstudio
   name: Greenspector Studio
   url: https://greenspector.com/en/greenspector-studio-it-environmental-footprint-websites-applications/
-- description: Tracks and predicts the energy consumption and carbon footprint of training deep learning models.
+- description: Tracks and predicts the energy consumption and carbon footprint of training deep learning models
   id: carbontracker
   name: carbontracker
   url: https://github.com/lfwa/carbontracker
@@ -456,3 +452,23 @@
   id: rstudio
   name: RStudio
   url: https://posit.co/download/rstudio-desktop/
+- description: Package installer for Python
+  id: pip
+  name: Pip
+  url: https://pypi.org/project/pip/
+- description: Python module for creating lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories
+  id: venv
+  name: Venv
+  url: https://docs.python.org/3/library/venv.html
+- description: Package that helps you create reproducible environments for your R projects - use renv to make your R projects more isolated, portable and reproducible
+  id: renv
+  name: Renv
+  url: https://rstudio.github.io/renv/index.html
+- description: Open-source, cross-platform, language-agnostic package manager and environment management system - originally developed to solve package management challenges faced by Python data scientists
+  id: conda
+  name: Conda
+  url: https://anaconda.org/anaconda/conda
+- description: Python project and dependency management and packaging tool
+  id: poetry
+  name: Poetry
+  url: https://python-poetry.org/
