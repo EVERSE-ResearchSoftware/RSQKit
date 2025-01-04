@@ -137,17 +137,21 @@
   name: Pelican
   url: https://getpelican.com/
 - description: A GitLab tool that publishes static websites directly from a GitLab repository
-  id: gitlabpages
+  id: gitlab-pages
   name: GitLab Pages
   url: https://docs.gitlab.com/ee/user/project/pages/
 - description: Publish static websites directly from GitHub repository.
-  id: githubpages
+  id: github-pages
   name: GitHub Pages
   url: https://pages.github.com/
-- description: Integration, Delivery and Deployment.
-  id: github actions
+- description: GitHub's infrastructure for continuous integration, deployment and delivery
+  id: github-actions
   name: GitHub Actions
   url: https://github.com/features/actions
+- description: GitLab's infrastructure for continuous integration, deployment and delivery
+  id: gitlab-ci-cd
+  name: GitLab CI/CD
+  url: https://docs.gitlab.com/ee/topics/build_your_application.html
 - description: Bandit is a tool designed to find common security issues in Python code.
   id: bandit
   name: Bandit
@@ -216,15 +220,19 @@
   id: mkdocs
   name: MKDocs
   url: https://www.mkdocs.org/
-- description: Python testing tool
+- description: Test automation framework for Python
   id: pytest
   name: PyTest
   url: https://docs.pytest.org/en/latest/
-- description: Python testing tool.
+- description: Unit Testing for R
+  id: testthat
+  name: testthat
+  url: https://testthat.r-lib.org/
+- description: Python testing tool
   id: tox
   name: tox
   url: https://tox.wiki/en/4.23.2/
-- description: Java testing tool
+- description: Test automation framework for Java
   id: junit
   name: JUnit
   url: https://junit.org/junit5/
