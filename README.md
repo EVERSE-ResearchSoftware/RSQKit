@@ -17,7 +17,7 @@ We particularly welcome reports on issues and problems with existing pages, fixe
 The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board](http://everse.software/RSQKit/editorial_board), who are also acting as the official **Maintainers** of the RSQKit repository. 
 The RSQKit **Editorial Board Members** work together with general **Contributors** to identify where and how their contribution fits best in RSQKit.
 
-Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute to RSQKit.
+Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute to RSQKit or [INSTALLATION GUIDE](INSTALL.md) on how to install and run RSQKit locally.
 
 ## Contact
 
