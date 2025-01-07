@@ -83,5 +83,5 @@ subitems:
           url: /sshoc
   - title: All tools and resources
     url: /all_tools_and_resources
-#  - title: All training resources
-#    url: /all_training_resources
+  - title: All training resources
+    url: /all_training_resources
