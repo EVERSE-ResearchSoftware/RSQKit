@@ -472,3 +472,11 @@
   id: poetry
   name: Poetry
   url: https://python-poetry.org/
+- description: Semantic versioning (SemVer) is a widely-adopted version scheme that encodes a version of a project by a three-part version number (Major. Minor. Patch), an optional pre-release tag, and an optional build meta tag.
+  id: semantic-versioning
+  name: Semantic Versioning
+  url: https://semver.org/
+- description: Calendar Versioning (CalVer) is a versioning convention based on your project's release calendar, instead of arbitrary numbers.
+  id: calendar-versioning
+  name: Calendar Versioning
+  url: https://calver.org/

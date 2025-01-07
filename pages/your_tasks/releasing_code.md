@@ -20,7 +20,7 @@ development, testing, deployment, and maintenance.
 * A software release is a new version of a software product, and a **release log** (changelog) is a document that records the changes 
 made to the software over time and is published with the software at the time of the release.
 * **Software versioning** is the process of assigning either unique version names or unique version numbers to software releases. 
-Naming schemes can vary - for example [Semantic Versioning][semantic-versioning] (e.g. "1.0.2") and [Calendar Versioning][calendar-versioning] (e.g. "24.10").
+Naming schemes can vary - for example {% tool "semantic-versioning" %} (e.g. "1.0.2") and {% tool "calendar-versioning" %} (e.g. "24.10").
 * Attachments like built binaries or packages or other software artefacts can be provided with the release.
 
 ### Solutions
@@ -38,8 +38,3 @@ For example, to perform a software release on GitHub:
 - Click on `Publish release`.
 - If your repository is [integrated with Zenodo](./zenodo_doi) - a new DOI for this software release will automatically 
 be minted by {% tool "zenodo" %}.
-
-
-
-[semantic-versioning]: https://semver.org/
-[calendar-versioning]: https://calver.org/
