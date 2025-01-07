@@ -3,7 +3,8 @@ title: "Creating a 'Read the Docs' Page"
 description: How to create 'Read the Docs' pages to describe software
 contributors: ["Christian Hüser","Azza Gamgami"]
 page_id: creating_readthedocs
-related_pages: [Software_documentation]
+related_pages:
+  your_tasks: [Software_documentation]
 ---
 
 ## How to Create a ReadTheDocs Page
