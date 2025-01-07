@@ -39,7 +39,6 @@ defaults:
     values:
       type: your_tasks
       type_img: /assets/img/section-icons/tick.svg
-      include_citation: true
   -
     scope:
       path: "pages/your_tasks/TEMPLATE_your_tasks.md"
