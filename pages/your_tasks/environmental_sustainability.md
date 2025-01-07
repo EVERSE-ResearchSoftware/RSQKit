@@ -49,7 +49,4 @@ Similarly, the GREENER software principles ([https://www.nature.com/articles/s43
     * {% tool "carbontracker" %} is a tool that monitors and predicts energy and carbon footprint for training machine learning models.
     * {% tool "greenspectorstudio" %} measures energy usage and resource efficiency in web and mobile applications.
     * {% tool "ecograder" %} evaluates website sustainability based on design and operational efficiency.
-
-## References <!-- do not delete this heading and write your text below it -->
-TO DO.
  
