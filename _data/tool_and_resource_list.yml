@@ -84,10 +84,6 @@
   id: howfairis
   name: howfairis
   url: https://github.com/fair-software/howfairis
-- description: Documentation generator primarily for Python, but also supports other languages - C++, C, JavaScript.
-  id: sphinx
-  name: Sphinx
-  url: https://www.sphinx-doc.org/en/master/
 - description: Software development, sharing and version control platform
   id: github
   name: GitHub
@@ -212,7 +208,7 @@
   id: creativecommons-licence-chooser
   name: Creative Commons License Chooser
   url: https://chooser-beta.creativecommons.org/
-- description: A tool for creating static documentation for software projects
+- description: A tool for creating static documentation for software projects from Markdown
   id: mkdocs
   name: MKDocs
   url: https://www.mkdocs.org/
@@ -356,14 +352,10 @@
   id: readthedocs
   name: Read the Docs
   url: https://readthedocs.org
-- description: For generating documentation from reStructuredText files
+- description: Documentation generator from reStructuredText files primarily for Python, but also supports other languages - C++, C, JavaScript.
   id: sphinx
   name: Sphinx
   url: https://www.sphinx-doc.org
-- description: A light weight static site generator that uses Markdown
-  id: mkdocs
-  name: MKDocs
-  url: https://www.mkdocs.org
 - description: DevOps platform that enables teams to collaborate, plan, develop, test, and deploy software using an integrated toolset for version control, CI/CD, and project management.
   id: gitlab
   name: GitLab

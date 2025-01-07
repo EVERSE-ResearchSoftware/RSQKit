@@ -117,5 +117,3 @@ Of course, the RSQkit itself also uses templates to create pages, like [the one 
 
 ## Credit
 The first version of this page was inspired by content in and discussions on the [Netherlands eScience Center Guide to software development](https://guide.esciencecenter.nl).
-
-## References

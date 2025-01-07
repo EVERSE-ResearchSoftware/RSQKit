@@ -33,7 +33,7 @@ A license describes the nature of this agreement, and does not need a signature:
 of any conditions, because without the license they would not be able to use the work at all.
 
 Licensing is an important aspect of meeting the principle of reusability (the "R" in FAIR) in FAIR for 
-Research Software (see - "R1.1. Software is given a clear and accessible license"[^1]).
+Research Software (see principle "R1.1. Software is given a clear and accessible license"[^1]).
 
 As part of the publication process, you need to decide under which license your software is made available to others. 
 If this information is not provided, people will not be able to legally reuse your software, even if this was not your intention.
