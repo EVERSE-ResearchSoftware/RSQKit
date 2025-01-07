@@ -90,7 +90,7 @@ Editorial Board Members will review pull requests and have a final say over what
 > branches and tags and not cluttered by a large number of development or feature branches.
 >
 > Finally, working in GitHub interface is convenient, but does not allow for spelling checking and lots of spelling mistakes can creep in this way.
-> If you can - clone your fork and set up RSQKit locally on your machine, and edit files 
+> If you can - clone your [fork and set up RSQKit locally on your machine](./INSTALL.md), and edit files 
 > in a text editor with spelling checking capabilities.
 
 ### What *Not* to Contribute
