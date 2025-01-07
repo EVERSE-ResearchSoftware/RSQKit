@@ -3,7 +3,8 @@ title: Creating README documents for software
 description: How to make a good README document for research software projects
 contributors: ["Esteban González", "Aleksandra Nenadic", "Daniel Garijo"]
 page_id: how_to_make_a_good_readme
-related_pages: []
+related_pages:
+  your_tasks: []
 ---
 
 ## Why is it important to have a good README file? 

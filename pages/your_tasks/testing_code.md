@@ -3,11 +3,8 @@ title: Testing code
 description: Why and how to test your code
 contributors: ["Aleksandra Nenadic", "Christian Hüser"]
 page_id: testing_code
-related_pages: []
-training:
-  - name:
-    registry:
-    url:
+related_pages:
+  your_tasks: []
 ---
 
 ## What is code testing?

@@ -3,7 +3,8 @@ title: Writing readable code
 description: How to write code readable and understandable by others
 contributors: ["Aleksandra Nenadic"]
 page_id: readable_code
-related_pages: []
+related_pages:
+  your_tasks: []
 ---
 
 
