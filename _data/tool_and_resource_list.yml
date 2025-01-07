@@ -10,7 +10,7 @@
 #   registry: This is followed by a list of registry-tag:search-string combinations indented below which search for further information about this tool  
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
-#   qualityIndicator:  Research Software Quality indicator (see indicators.yaml in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
+#   qualityIndicator:  Research Software Quality indicator (see quality_indicators.yml file in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
 - description: A open source license selector
 - description: The SPDX License List is an integral part of the SPDX Specification. The SPDX License List itself is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation
   id: spdx
