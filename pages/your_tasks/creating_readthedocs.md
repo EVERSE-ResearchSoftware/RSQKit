@@ -27,8 +27,8 @@ Follow steps below to create a ReadTheDocs page.
 
 To begin, you need to generate the source files for your documentation:
 
-* **Sphinx**: Run `sphinx-quickstart` to initialize the project. This will create configuration files and folder structure for your documentation.
-* **MkDocs**: Install MkDocs and run `mkdocs new my-project` to create a basic structure with Markdown files.
+* {% tool "sphinx" %}: run `sphinx-quickstart` to initialize the project. This will create configuration files and folder structure for your documentation.
+* {% tool "mkdocs" %}: Install MkDocs and run `mkdocs new my-project` to create a basic structure with Markdown files.
 
 #### 2. Host the Project on GitHub or GitLab
 
@@ -98,9 +98,9 @@ mkdocs:
 
 Integrate your project with Continuous Integration (CI) to automatically rebuild your documentation whenever changes are made:
 
-* **GitHub Actions**: Set up a workflow that triggers on every `push` or `pull request`. This helps automate the process of updating the documentation whenever you make changes to the source files.
+* {% tool "github-actions" %}: set up a workflow that triggers on every `push` or `pull request`. This helps automate the process of updating the documentation whenever you make changes to the source files.
   
-* **GitLab CI/CD**: Similar to GitHub, you can configure GitLab CI pipelines to handle automatic updates.
+* {% tool "gitlab-ci-cd" %}: similarly to GitHub, you can configure GitLab CI pipelines to handle automatic updates.
 
 #### 6. Customize and Build Documentation
 
@@ -117,12 +117,7 @@ After a successful build, the documentation will be published and publicly acces
 
 * You can always trigger new builds from the ReadTheDocs dashboard or via new commits to your repository.
 
-
-**For further information, please refer to the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html). Additionally, check out [our page on software documentation](software_documentation) for more insights.**
-
-
-## How to cite this page
-TO DO.
+For further information, please refer to the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html). Additionally, check out [our page on software documentation](software_documentation) for more insights.
 
 ## References
 * [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html)
