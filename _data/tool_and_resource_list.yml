@@ -10,8 +10,7 @@
 #   registry: This is followed by a list of registry-tag:search-string combinations indented below which search for further information about this tool  
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
-#   qualityIndicator:  Research Software Quality indicator (see indicators.yaml in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
-- description: A open source license selector
+#   qualityIndicator:  Research Software Quality indicator (see quality_indicators.yml file in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
 - description: The SPDX License List is an integral part of the SPDX Specification. The SPDX License List itself is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation
   id: spdx
   name: SPDX License List
@@ -172,14 +171,10 @@
   id: cffinitgenerator
   name: CFFINIT Generator
   url: https://citation-file-format.github.io/cff-initializer-javascript/#/
-- description: Generate useful CodeMeta documents for your software.
+- description: A free, open-source project that creates a minimal metadata schema for research software and code
   id: codemetagenerator
   name: CodeMeta Generator
-  url: https://codemeta.github.io/codemeta-generator/
-- decription: Software Metadata Extraction Framework - a command line interface for automatically extracting relevant information from README files
-  id: somef
-  name: SOMEF
-  url: https://github.com/KnowledgeCaptureAndDiscovery/somef
+  url: https://codemeta.github.io/codemeta-generator
 - description: Software Quality Assessment as a Service - the Quality Assessment & Awarding building block analysing the level of completeness with the FAIR4RS reference criteria for any given release of your software
   id: sqaaas
   name: SQAaas
@@ -332,18 +327,14 @@
   id: softwareheritage
   name: Software Heritage
   url: https://www.softwareheritage.org
-- description: An online form to help manually create and validate CodeMeta files
-  id: codemetagenerator
-  name: CodeMeta Generator
-  url: https://codemeta.github.io/codemeta-generator
 - description: Service to validate JSON-LD files
   id: jasonldvalidator
   name: JSON-LD validator
   url: https://json-ld.org/playground
-- description: The Software Metadata extraction framework (SOMEEF) is a Library designed to extract CodeMeta files from source code documentation
+- decription: Software Metadata Extraction Framework (SOMEF) is a command line interface for automatically extracting relevant information from README files
   id: somef
   name: SOMEF
-  url: https://github.com/KnowledgeCaptureAndDiscovery/somef/
+  url: https://github.com/KnowledgeCaptureAndDiscovery/somef
 - description: A service running SOMEF to obtain CodeMeta files
   id: somefvider
   name: SOMEF Vider
