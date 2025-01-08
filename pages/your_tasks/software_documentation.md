@@ -3,11 +3,8 @@ title: Software documentation
 description: How to write clear and useful software documentation for developers and end-users
 contributors: ["Azza Gamgami"]
 page_id: software_documentation
-related_pages: [creating_readthedocs, how_to_make_a_good_readme]
-training:
-  - name:
-    registry:
-    url:
+related_pages:
+  your_tasks: [creating_readthedocs, how_to_make_a_good_readme]
 ---
 
 ## How to create good software documentation?

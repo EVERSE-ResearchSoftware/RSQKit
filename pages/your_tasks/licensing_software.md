@@ -3,7 +3,8 @@ title: Licensing software
 description: How to apply a license to research software
 contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi", "Thomas Vuillaume"]
 page_id: licensing_software
-related_pages: []
+related_pages:
+  your_tasks: []
 ---
 
 ## What is copyright and licensing?

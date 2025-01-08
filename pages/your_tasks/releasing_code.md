@@ -3,7 +3,8 @@ title: Releasing code
 description: How to create software releases
 contributors: ["Christian Hüser", "Shoaib Sufi", "Daniel Garijo"]
 page_id: releasing_code
-related_pages: [zenodo_doi]
+related_pages:
+  your_tasks: [zenodo_doi]
 
 ---
 

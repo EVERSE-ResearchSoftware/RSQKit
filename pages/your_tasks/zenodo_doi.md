@@ -3,7 +3,8 @@ title: Digital Software Identifiers (DOI) for Software
 description: Obtaining a DOI via Zenodo for software 
 contributors: ["Shoaib Sufi", "Daniel Garijo"] 
 page_id: zenodo_doi
-related_pages: [releasing_code]
+related_pages:
+  your_tasks: [releasing_code]
 ---
 
 ## What is a Digital Object Identifier?
