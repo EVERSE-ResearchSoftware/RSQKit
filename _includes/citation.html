@@ -2,11 +2,11 @@
 <h2>How to cite this page</h2>
 <div>
     {% if page.contributors %}
-    {{ page.contributors | join: ", " }}.
+    {{ page.contributors | join: ", " }},
     {% endif %}
-    <strong>{{ page.title }} ({{ site.title }} material)</strong>.
+    "<em>{{ page.title }}</em>".
+    {{ site.url }}.
     {% assign page_url = page.url | absolute_url %}
-    Online: <a href="{{ page_url }}">{{ page_url }}</a>.
-    Accessed {{ site.time | date: "%d %B, %Y" }}.
+    <a href="{{ page_url }}">{{ page_url }}</a> (accessed {{ site.time | date: "%d %B, %Y" }}).
 </div>
 {% endif %}
