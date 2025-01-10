@@ -1,3 +1,76 @@
+# List of tools and resources
+# Conforms to https://w3id.org/everse/rs/0.0.1
+#
+# When referencing tools and resources use the following notion e.g. on Task pages -  {% tool "github" %} and not a markdown link
+# for this to work the tool has to be listed here.
+#
+# - description: A short description of the purpose of the tool or resource
+#   id: This is the id by which the tool will be references on other pages e.g. for GitHub the id is github so we use {% tool "github"%} to refer to it
+#   name: This is the name of the tool or resource
+#   registry: This is followed by a list of registry-tag:search-string combinations indented below which search for further information about this tool  
+#       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
+#   url: the homepage of the tool/resource
+#   qualityIndicator:  Research Software Quality indicator (see quality_indicators.yml file in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
+- description: The SPDX License List is an integral part of the SPDX Specification. The SPDX License List itself is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation
+  id: spdx
+  name: SPDX License List
+  url: https://spdx.org/licenses/
+- description: RSQKit is a platform that curates quality practices in research software. It links to tools, resources, quality metrics, and training to support implementing these practices, while also highlighting the importance of roles like Research Software Engineers (RSEs) and career development in the field.
+  id: rsqkit
+  name: RSQKit
+  url: https://everse.software/RSQKit/ 
+- description: A tool to help you choose an open source license for your software
+  id: choosealicense
+  name: Choose an open source license
+  url: https://choosealicense.com/
+- description: Bash, which stands for - Bourne Again SHell, is a command-line interface and scripting language commonly used in Unix and Unix-like operating systems. It provides a powerful environment for executing commands, managing files, and automating tasks through scripts.
+  id: bash
+  name: Bash
+  url: https://www.gnu.org/software/bash/
+- description: PowerShell is a task automation and configuration management framework from Microsoft, featuring a command-line shell and a scripting language. It is designed to help system administrators and power users control and automate the administration of Windows and other Microsoft technologies.
+  id: powershell
+  name: PowerShell
+  url: https://learn.microsoft.com/en-gb/powershell/
+- description: OpenCL (Open Computing Language) is an open standard for parallel programming across various platforms, including CPUs, GPUs, and other processors. It enables developers to write programs that execute across heterogeneous computing systems, allowing for high-performance computing in applications like scientific simulations, image processing, and machine learning.
+  id: opencl
+  name: OpenCL
+  url: https://www.khronos.org/opencl/
+- descpription: CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platform and programming model that enables developers to use GPU-accelerated computing for general-purpose processing. It provides a software layer that gives direct access to the GPU's virtual instruction set and parallel computational elements, allowing dramatic performance increases for compute-intensive applications.
+  id: cuda
+  name: CUDA
+  url: https://developer.nvidia.com/cuda-zone
+- description: Rust is a systems programming language focused on memory safety, concurrency, and performance without using garbage collection, enforcing memory safety through its unique ownership system and borrowing rules. It combines low-level control with high-level abstractions, making it suitable for everything from operating systems to WebAssembly applications.
+  id: rust
+  name: Rust
+  url: https://www.rust-lang.org/
+- description: Julia is a high-performance programming language designed for numerical and scientific computing that combines the speed of C with the ease of use of Python. It features multiple dispatch, optional typing, and excellent parallel processing capabilities, making it particularly strong for mathematical computations, data science, and machine learning applications.
+  id: julia
+  name: Julia
+  url: https://julialang.org/
+- description: R is a programming language and environment designed for statistical computing and graphics, widely used by data scientists, statisticians, and researchers. Known for its extensive libraries and rich visualization capabilities, R excels in data analysis, modeling, and reproducible research
+  id: r
+  name: R
+  url: https://www.r-project.org/
+- description: TypeScript is a strongly typed superset of JavaScript that adds static typing and advanced tooling capabilities, enhancing code quality and developer productivity. Designed for building scalable applications, TypeScript compiles to plain JavaScript, ensuring compatibility with existing JavaScript environments.
+  id: typescript
+  name: TypeScript
+  url: https://www.typescriptlang.org/
+- description: JavaScript is a lightweight, high-level programming language primarily used to create interactive and dynamic content on web pages, running seamlessly in browsers. Known for its versatility, JavaScript supports event-driven, functional, and object-oriented programming, making it essential for modern web development and widely used alongside HTML and CSS.
+  id: javascript
+  name: JavaScript
+  url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- description: C++ is a high-performance, general-purpose programming language that supports both procedural and object-oriented paradigms, offering fine-grained control over system resources. Known for its versatility and efficiency, C++ is widely used in applications requiring high speed and precision, such as game development, operating systems, and real-time simulations.
+  id: cpp
+  name: C++
+  url: https://isocpp.org/
+- description: Python is an interpreted, high-level, object-oriented programming language known for its dynamic typing, readability, and extensive standard library, making it ideal for rapid development and modular, reusable code.
+  id: python
+  name: Python
+  url: https://www.python.org/
+- description: Java is a versatile, object-oriented programming language designed to be platform-independent, with its “write once, run anywhere” capability enabled by the Java Virtual Machine (JVM).
+  id: java
+  name: Java
+  url: https://www.java.com/en/
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
   name: Docker
@@ -10,79 +83,71 @@
   id: howfairis
   name: howfairis
   url: https://github.com/fair-software/howfairis
-- description: Create documentation for packages.
-  id: sphinx
-  name: Sphinx
-  url: https://www.sphinx-doc.org/en/master/
-- description: Development platform.
+- description: Software development, sharing and version control platform
   id: github
   name: GitHub
   url: https://github.com/
-- description: Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes.
+- description: Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
-- description: Version control and development platform.
-  id: gitlab
-  name: GitLab
-  url: https://gitlab.com/
-- description: Visual Studio Code, also commonly referred to as VS Code,[9] is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
+- description: An Integrated Development Environment (IDE) (commonly referred to as VS Code) developed by Microsoft
   id: vscode
-  name: VSCode
+  name: Visual Studio Code
   url: https://code.visualstudio.com/
 - description: Integrated development environment (IDE) written in Java.
   id: intellij idea
   name: IntelliJ IDEA
   url: https://www.jetbrains.com/fr-fr/idea/
-- description: Python packaging and dependency management.
+- description: Python packaging and dependency management tool
   id: poetry
   name: Poetry
   url: https://python-poetry.org/
-- description: The official third-party software repository for Python.
+- description: Official third-party software repository for Python packages
   id: pypi
-  name: PyPi
+  name: Python Package Index (PyPi)
   url: https://pypi.org/
-- description: The eOSSR is the Python library to programmatically manage the ESCAPE OSSR. It also includes CodeMeta generator and validator.
+- description: Python library to programmatically manage the ESCAPE OSSR; also includes a CodeMeta generator and validator
   id: eossr
   name: eOSSR
   url: https://gitlab.com/escape-ossr/eossr
-- description: A generative artificial intelligence chatbot developed by OpenAI and able to produce code or answer questions on code.
+- description: Generative artificial intelligence chatbot developed by OpenAI and able to produce code or answer questions on code
   id: chatgpt
   name: ChatGPT
   url: https://chatgpt.com/
-- description: Automates documentation.
-  id: deoxygen
-  name: Deoxygen
-  url: https://www.doxygen.nl/
-- description: Automate documentation for Java code.
+- description: Documentation generator for Java used to generate API documentation in HTML format from Java source code
   id: javadoc
   name: JavaDoc
   url: https://www.oracle.com/java/technologies/javase/javadoc-tool.html
-- description: Static website generation based on Go.
+- description: Static website generation based on Go
   id: hugo
   name: Hugo
   url: https://gohugo.io/
-- description: Static website generation based on Python.
+- description: Static website generation based on Python
   id: pelican
   name: Pelican
   url: https://getpelican.com/
-- description: Publish static websites directly from GitLab repository.
-  id: gitlabpages
+- description: A GitLab tool that publishes static websites directly from a GitLab repository
+  id: gitlab-pages
   name: GitLab Pages
   url: https://docs.gitlab.com/ee/user/project/pages/
-- description: Publish static websites directly from GitHub repository.
-  id: githubpages
+- description: Publish static websites directly from GitHub repository
+  id: github-pages
   name: GitHub Pages
   url: https://pages.github.com/
-- description: Integration, Delivery and Deployment.
-  id: github actions
+- description: GitHub's infrastructure for continuous integration, deployment and delivery
+  id: github-actions
   name: GitHub Actions
   url: https://github.com/features/actions
+- description: GitLab's infrastructure for continuous integration, deployment and delivery
+  id: gitlab-ci-cd
+  name: GitLab CI/CD
+  url: https://docs.gitlab.com/ee/topics/build_your_application.html
 - description: Bandit is a tool designed to find common security issues in Python code.
   id: bandit
   name: Bandit
   url: https://github.com/PyCQA/bandit
-- description: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+- description: Framework for Web testing and automation, allowing testing using Chromium, Firefox and WebKit with a single API
   id: playwrite
   name: Playwrite
   url: https://playwright.dev/docs/intro
@@ -106,135 +171,131 @@
   id: cffinitgenerator
   name: CFFINIT Generator
   url: https://citation-file-format.github.io/cff-initializer-javascript/#/
-- description: Generate useful CodeMeta documents for your software.
+- description: A free, open-source project that creates a minimal metadata schema for research software and code
   id: codemetagenerator
   name: CodeMeta Generator
-  url: https://codemeta.github.io/codemeta-generator/
-- decription: Software Metadata Extraction Framework. A command line interface for automatically extracting relevant information from readme files.
-  id: somef
-  name: SOMEF
-  url: https://github.com/KnowledgeCaptureAndDiscovery/somef
-- description: Software Quality Assessment as a Service. The Quality Assessment & Awarding building block analyses the level of completeness with the FAIR4RS reference criteria for any given release of your software.
+  url: https://codemeta.github.io/codemeta-generator
+- description: Software Quality Assessment as a Service - the Quality Assessment & Awarding building block analysing the level of completeness with the FAIR4RS reference criteria for any given release of your software
   id: sqaaas
   name: SQAaas
   url: https://sqaaas.eosc-synergy.eu/
-- description: A site to provide non-judgmental guidance on choosing a license for your open source project
-  id: choosealicense
-  name: choosealicense
-  url: https://choosealicense.com/
-- description: Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, API keys, and tokens in git repos. Gitleaks is an easy-to-use, all-in-one solution for detecting secrets, past or present, in your code.
+- description: SAST tool for detecting and preventing hardcoded secrets like passwords, API keys, and tokens in code stored in Git repositories
   id: gitleaks
   name: gitleaks
   url: https://github.com/gitleaks/gitleaks
-- description: Black is the uncompromising Python code formatter. By using it, you agree to cede control over minutiae of hand-formatting. In return, Black gives you speed, determinism, and freedom from pycodestyle nagging about formatting.
+- description: Automated Python code formatter
   id: black
   name: Black
   url: https://github.com/psf/black
-- description: A framework for managing and maintaining multi-language pre-commit hooks.
+- description: A framework for managing and maintaining multi-language pre-commit hooks
   id: precommit
   name: precommit
   url: https://pre-commit.com/
-- description: Automate the declaring of copyright and licensing for software projects with SPDX Tags.
+- description: Automate the declaring of copyright and licensing for software projects with SPDX Tags
   id: reuse
   name: REUSE
   url: https://reuse.software/
-- description: Guided approach to assess the FAIRness of data.
+- description: Guided approach to assess the FAIRness of data
   id: fairaware
   name: FAIR Aware
   url: https://fairaware.dans.knaw.nl/
-- description: License chooser dialog window to select an appropriate Creative Commons license.
-  id: creativecommons
-  name: Creative Commons
+- description: Creative Commons license chooser to help you select an appropriate Creative Commons license
+  id: creativecommons-licence-chooser
+  name: Creative Commons License Chooser
   url: https://chooser-beta.creativecommons.org/
-- description: Create static documentation for software projects.
+- description: A tool for creating static documentation for software projects from Markdown
   id: mkdocs
   name: MKDocs
   url: https://www.mkdocs.org/
-- description: Python testing tool.
+- description: Test automation framework for Python
   id: pytest
-  name: PyTest
+  name: Pytest
   url: https://docs.pytest.org/en/latest/
-- description: Python testing tool.
+- description: Unit Testing for R
+  id: testthat
+  name: testthat
+  url: https://testthat.r-lib.org/
+- description: Python testing tool
   id: tox
   name: tox
   url: https://tox.wiki/en/4.23.2/
-- description: Java testing tool.
+- description: Test automation framework for Java
   id: junit
   name: JUnit
   url: https://junit.org/junit5/
-- description: CPP testing tool.
+- description: CPP testing tool
   id: cppunit
   name: CPPUnit
   url: https://freedesktop.org/wiki/Software/cppunit/
-- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments.
+- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments
   id: apptainer
   name: APPTAINER
   url: https://apptainer.org/
-- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments.
+- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments
   id: singularityce
   name: SingularityCE
   url: https://sylabs.io/singularity/
-- description: An extremely fast Python linter and code formatter, written in Rust.
+- description: An extremely fast Python linter and code formatter written in Rust
   id: ruff
   name: Ruff
   url: https://docs.astral.sh/ruff/
-- description: Static code analysis for Python.
+- description: Static code analysis tool for Python
   id: pylint
   name: Pylint
   url: https://pylint.readthedocs.io/en/stable/
-- description: Dockerfile linter.
+- description: Dockerfile linter
   id: hadolint
   name: Hadolint
   url: https://github.com/hadolint/hadolint
-- description: Static code analysis tool for Python.
+- description: Static code analysis tool for Python
   id: flake8
   name: Flake8
   url: https://flake8.pycqa.org/en/latest/
-- description: Static code analysis tool for Java.
+- description: Static code analysis tool for Java
   id: checkstyle
   name: Checkstyle
   url: https://sourceforge.net/projects/checkstyle/
-- description: Code coverage analysis tool.
+- description: Code coverage analysis tool
   id: gcov
   name: Gcov
   url: https://gcc.gnu.org/onlinedocs/gcc/Gcov.html
-- description: Detect memory management and threading bugs, run profiling to see how to speed up your programs.
+- description: Detect memory management and threading bugs, run profiling to see how to speed up your programs
   id: valgrind
   name: Valgrind
   url: https://valgrind.org/
-- description: Data Version Control, Manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow.
+- description: Data Version Control - to help you manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow
   id: dvc
   name: DVC
   url: https://dvc.org/
-- description: Generate automated pull requests updating dependencies for projects.
+- description: Generate automated pull requests updating dependencies for projects
   id: dependabot
   name: Dependabot
   url: https://github.com/dependabot/dependabot-core
-- description: Continuous inspection of code quality to perform automatic reviews for static analysis of code.
+- description: Continuous inspection of code quality to perform automatic reviews for static analysis of code
   id: sonarqube
   name: SonarQube
   url: https://www.sonarsource.com/products/sonarqube/
-- description: The selenium package is used to automate web browser interaction from Python. Selenium WebDriver is often used as a basis for testing web applications.
+- description: Automates Web browser interaction from Python - Selenium WebDriver is often used as a basis for testing Web applications
   id: selenium
   name: Selenium
   url: https://pypi.org/project/selenium/
-- description: For building publication-quality books and documents from computational material.
+- description: For building publication-quality books and documents from computational material
   id: jupyterbook
   name: Jupyter-Book
   url: https://pypi.org/project/jupyter-book/
-- description: Distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+- description: Distributed version control system designed to handle everything from small to very large projects with speed and efficiency
   id: git
   name: Git
   url: https://git-scm.com/
-- description: Automation server to support building, testing and deploying software.
+- description: Automation server to support building, testing and deploying software
   id: jenkins
   name: Jenkins
   url: https://www.jenkins.io/
-- description: CI platform to support building, testing and deploying software.
+- description: CI platform to support building, testing and deploying software
   id: travis
   name: Travis
   url: https://www.travis-ci.com/
-- description: Automating deployment, scaling, and management of containerized applications.
+- description: Automating deployment, scaling, and management of containerized applications
   id: kubernetes
   name: Kubernetes
   url: https://kubernetes.io/
@@ -242,7 +303,7 @@
   id: cmake
   name: CMake
   url: https://cmake.org/
-- description: Unique approach to package management and system configuration.
+- description: Unique approach to package management and system configuration
   id: nix
   name: Nix
   url: https://nixos.org/
@@ -254,7 +315,151 @@
   id: rpm
   name: RPM
   url: https://rpm.org/
-- description: Helpdesk software, ticketing system.
+- description: Helpdesk software, ticketing system
   id: zammad
   name: Zammad
   url: https://zammad.com/en
+- description: A turn-key research data management (RDM) repository based on Invenio Framework and Zenodo
+  id: inveniordm
+  name: InvenioRDM
+  url: https://inveniosoftware.org/products/rdm/
+- description: Collects, preserves, curates and makes available software in source code form as cultural heritage
+  id: softwareheritage
+  name: Software Heritage
+  url: https://www.softwareheritage.org
+- description: Service to validate JSON-LD files
+  id: jasonldvalidator
+  name: JSON-LD validator
+  url: https://json-ld.org/playground
+- decription: Software Metadata Extraction Framework (SOMEF) is a command line interface for automatically extracting relevant information from README files
+  id: somef
+  name: SOMEF
+  url: https://github.com/KnowledgeCaptureAndDiscovery/somef
+- description: A service running SOMEF to obtain CodeMeta files
+  id: somefvider
+  name: SOMEF Vider
+  url: https://somef.linkeddata.es/
+- description: A documentation building and hosting platform aimed at helping developers create documentation from code
+  id: readthedocs
+  name: Read the Docs
+  url: https://readthedocs.org
+- description: Documentation generator from reStructuredText files primarily for Python, but also supports other languages - C++, C, JavaScript.
+  id: sphinx
+  name: Sphinx
+  url: https://www.sphinx-doc.org
+- description: DevOps platform that enables teams to collaborate, plan, develop, test, and deploy software using an integrated toolset for version control, CI/CD, and project management.
+  id: gitlab
+  name: GitLab
+  url: https://about.gitlab.com/
+- description: An online tool to estimate the carbon footprint of computational tasks using a web calculator
+  id: greenalgorithms
+  name: Green Algorithms
+  url: https://www.green-algorithms.org/
+- description: A software package that integrates into Python codebase - estimating the amount of carbon dioxide (CO2) produced by the cloud or personal computing resources used to execute the code
+  id: codecarbon
+  name: CodeCarbon
+  url: https://codecarbon.io/
+- description: A tool that measures energy usage and resource efficiency in web and mobile applications
+  id: greenspectorstudio
+  name: Greenspector Studio
+  url: https://greenspector.com/en/greenspector-studio-it-environmental-footprint-websites-applications/
+- description: Tracks and predicts the energy consumption and carbon footprint of training deep learning models
+  id: carbontracker
+  name: carbontracker
+  url: https://github.com/lfwa/carbontracker
+- description: Evaluates website sustainability based on design and operational efficiency
+  id: ecograder
+  name: Ecograder
+  url: https://ecograder.com/
+- description: Style guide for Python code
+  id: pep8
+  name: PEP8
+  url: https://peps.python.org/pep-0008/
+- description: Google’s R code style guide
+  id: r-language-style-guide
+  name: R Style Guide
+  url: https://google.github.io/styleguide/Rguide.html
+- description: Static code analysis tools
+  id: code-linters
+  name: Code Linters
+  url: https://en.wikipedia.org/wiki/Lint_%28software%29
+- description: Style guidelines used for Google code
+  id: google-programming-style-guide
+  name: Google’s programming style guide
+  url: https://google.github.io/styleguide/
+- description: Free Python Integrated Development Environment (IDE) for application, data science and web development
+  id: pycharm
+  name: PyCharm
+  url: https://www.jetbrains.com/pycharm/
+- description: Free and open-source Integrated Development Environment (IDE) used for Java development, with support for developing applications in other programming languages too
+  id: eclipse
+  name: Eclipse
+  url: https://eclipseide.org/
+- description: An API documentation generator for JavaScript, similar to Javadoc
+  id: jsdoc
+  name: JSDoc
+  url: https://jsdoc.app/
+- description: Python Docstring Generator for Visual Studio Code
+  id: python-docstring-generator
+  name: Python Docstring Generator
+  url: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+- description: Documentation generator tool in software development for C++ (and also C, Python, PHP, Java, C#, Objective-C, Fortran, VHDL, Splice, IDL, and Lex)
+  id: doxygen
+  name: Doxygen
+  url: https://www.doxygen.nl/
+- description: A suite of tools for API developers that generate APIs from code (and the basis for the OpenAPI Specification)
+  id: swagger
+  name: Swagger
+  url: https://swagger.io/
+- description: Documentation generator tool in software development for R
+  id: roxygen
+  name: Roxygen
+  url: https://github.com/r-lib/roxygen2
+- description: Distributed source control management tool - it efficiently handles projects of any size and offers an easy and intuitive interface
+  id: mercurial
+  name: Mercurial
+  url: https://www.mercurial-scm.org/
+- description: Version control system
+  id: subversion
+  name: Subversion
+  url: https://github.com/r-lib/roxygen2
+- description: Highly scalable development and DevOps solutions designed to deliver dynamic development, intelligent testing and risk management environment
+  id: perforce
+  name: Perforce
+  url: https://www.perforce.com/
+- description: An open source Git extension for versioning large files, such as audio samples, videos, datasets, and graphics
+  id: git-lfs
+  name: Git Large File Storage
+  url: https://git-lfs.github.com/
+- description: Integrated Development Environment (IDE) for R, a programming language for statistical computing and graphics
+  id: rstudio
+  name: RStudio
+  url: https://posit.co/download/rstudio-desktop/
+- description: Package installer for Python
+  id: pip
+  name: Pip
+  url: https://pypi.org/project/pip/
+- description: Python module for creating lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories
+  id: venv
+  name: Venv
+  url: https://docs.python.org/3/library/venv.html
+- description: Package that helps you create reproducible environments for your R projects - use renv to make your R projects more isolated, portable and reproducible
+  id: renv
+  name: Renv
+  url: https://rstudio.github.io/renv/index.html
+- description: Open-source, cross-platform, language-agnostic package manager and environment management system - originally developed to solve package management challenges faced by Python data scientists
+  id: conda
+  name: Conda
+  url: https://anaconda.org/anaconda/conda
+- description: Python project and dependency management and packaging tool
+  id: poetry
+  name: Poetry
+  url: https://python-poetry.org/
+- description: Semantic versioning (SemVer) is a widely-adopted version scheme that encodes a version of a project by a three-part version number (Major. Minor. Patch), an optional pre-release tag, and an optional build meta tag.
+  id: semantic-versioning
+  name: Semantic Versioning
+  url: https://semver.org/
+- description: Calendar Versioning (CalVer) is a versioning convention based on your project's release calendar, instead of arbitrary numbers.
+  id: calendar-versioning
+  name: Calendar Versioning
+  url: https://calver.org/
