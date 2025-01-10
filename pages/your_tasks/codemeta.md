@@ -13,7 +13,7 @@ related_pages:
 
 ### Description <!-- do not delete this heading and write your text below it -->
 
-By adding a `codemeta.json` file in your root source code repository, you will ease metadata propagation between different archival infrastructures. For example, when [obtaining DOIs for your code releases](https://everse.software/RSQKit/github_zenodo), you won't need to fill in the corresponding software metadata again. CodeMeta is recognised and used by major code repositories and registries like {% tool "zenodo" %}, {% tool "inveniordm" %} and {% tool "softwareheritage" %}.
+By adding a `codemeta.json` file in your root source code repository, you will ease metadata propagation between different archival infrastructures. For example, when [obtaining DOIs for your code releases](https://everse.software/RSQKit/zenodo_doi), you won't need to fill in the corresponding software metadata again. CodeMeta is recognised and used by major code repositories and registries like {% tool "zenodo" %}, {% tool "inveniordm" %} and {% tool "softwareheritage" %}.
 
 But how to create a `codemeta.json` file?
 
