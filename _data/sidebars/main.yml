@@ -54,10 +54,8 @@ subitems:
         url: /codemeta
       - title: Licensing software
         url: /licensing_software
-      - title: Publishing software from GitHub to Zenodo
-        url: /github_zenodo
-      - title: Publishing software from GitLab to Zenodo
-        url: /gitlab_zenodo
+      - title: Obtaining a DOI via Zenodo for software
+        url: /zenodo_doi
       - title: Reproducible virtual software development environments
         url: /virtual_dev_environments
       - title: Testing code
