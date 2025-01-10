@@ -111,7 +111,7 @@ Here we describe how to obtain a DOI for your software hosted on {% tool "gitlab
   
 * Get a [Zenodo token](https://zenodo.org/account/settings/applications/tokens/new/) with publishing rights (`deposit:actions` and `deposit:write` scopes).
 
-* Add the [eossr](https://escape-ossr.gitlab.io/eossr/gitlab_to_zenodo.html) or the [gitlab2zenodo](https://gitlab.com/sbeniamine/gitlab2zenodo) libraries in  your [GitLab-CI pipeline](https://docs.gitlab.com/ee/ci/yaml/) to automatically archive your code on Zenodo whenever you create a new release.
+* Add the {% tool "eossr" %} or the [gitlab2zenodo](https://gitlab.com/sbeniamine/gitlab2zenodo) libraries in  your [GitLab-CI pipeline](https://docs.gitlab.com/ee/ci/yaml/) to automatically archive your code on Zenodo whenever you create a new release.
   * Note that if using gitlab2zenodo, you will need to convert your `codemeta.json` file to a `.zenodo.json` file, e.g. using the eossr.
 
 * [Create a GitLab release](https://everse.software/RSQKit/releasing_code) in your repository.
