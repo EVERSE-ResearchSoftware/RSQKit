@@ -17,7 +17,12 @@ We particularly welcome reports on issues and problems with existing pages, fixe
 The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board](http://everse.software/RSQKit/editorial_board), who are also acting as the official **Maintainers** of the RSQKit repository. 
 The RSQKit **Editorial Board Members** work together with general **Contributors** to identify where and how their contribution fits best in RSQKit.
 
-Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute to RSQKit.
+Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute to RSQKit or [Installation Guide](INSTALL.md) on how to install and run RSQKit locally.
+
+## License
+
+Information about the licenses that apply to RSQKit can be found in [LICENSE.md](LICENSE.md).
+
 
 ## Contact
 
@@ -28,4 +33,4 @@ Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailt
 [RSQKit website](http://everse.software/RSQKit/) is heavily inspired and replicating the work done by ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/) within the research software space and is built using the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/).
 
 ## Funding
-[EVERSE project](https://everse.software/) is funded by the European Commission HORIZON-INFRA-2023-EOSC-01-02 call. 
+EVERSE project is funded by the [European Commission HORIZON-INFRA-2023-EOSC-01-02](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2023-eosc-01-02).

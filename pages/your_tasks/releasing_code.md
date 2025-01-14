@@ -1,9 +1,10 @@
 ---
 title: Releasing code
-description: Useful aspects about creating code releases.
-contributors: ["Christian Huser", "Shoaib Sufi", "Daniel Garijo"]
+description: How to create software releases
+contributors: ["Christian Hüser", "Shoaib Sufi", "Daniel Garijo"]
 page_id: releasing_code
-related_pages: []
+related_pages:
+  your_tasks: [zenodo_doi]
 
 ---
 
@@ -11,36 +12,30 @@ related_pages: []
  
 ### Description
 
-Software needs to be released regularly.
-The points in time are described by the software development life cycle.
-Software Project Management Platforms like [GitHub][github] and [GitLab][gitlab] offer features to release your software.
+A software release is the process of making a new or updated version of software available to users. 
+It's an important phase in software development cycle that involves several other stages, including: planning, 
+development, testing, deployment, and maintenance.
 
 ### Considerations
 
-* Naming schemes for the version of the release can be very diverse serving different purposes, for example [Semantic Versioning][semantic-versioning] (SemVer; e.g. "1.0.0") and [Calendar Versioning][calendar-versioning] (CalVer; e.g. "24.10").
-* A Changelog can be given with the release to describe the changes made.
-* Attachments like built binaries or packages or other software artefacts can be provided.
+* A software release is a new version of a software product, and a **release log** (changelog) is a document that records the changes 
+made to the software over time and is published with the software at the time of the release.
+* **Software versioning** is the process of assigning either unique version names or unique version numbers to software releases. 
+Naming schemes can vary - for example {% tool "semantic-versioning" %} (e.g. "1.0.2") and {% tool "calendar-versioning" %} (e.g. "24.10").
+* Attachments like built binaries or packages or other software artefacts can be provided with the release.
 
 ### Solutions
 
-* GitHub: Small to large and closed-source to open-source software projects
-  * Go to your source code repository.
-  * Click on releases and then on "Draft a new release"
-  * Remember to use a version number with the considerations listed above.
-  * Click on "Publish release"
+Software Project Management Platforms like {% tool "github" %} and {% tool "gitlab" %} offer features to help 
+with releasing software automatically.
 
-## How to cite this page
+For example, to perform a software release on GitHub:
 
-To be added.
-
-## Tools and resources
-
-* [GitHub][github]
-* [GitLab][gitlab]
-* [Semantic Versioning][semantic-versioning]
-* [Calendar Versioning][calendar-versioning]
-
-[github]: https://github.com/
-[gitlab]: https://about.gitlab.com/
-[semantic-versioning]: https://semver.org/
-[calendar-versioning]: https://calver.org/
+- Go to your source code repository on GitHub.
+- Prepare changelog ahead of the release process.
+- Click on `Releases` and then on `Draft a new release` button.
+- Decide on a software versioning scheme you will use and use a unique name or number for this release.
+- Add release notes - a short and non overly technical summary of the changelog intended for end-users.
+- Click on `Publish release`.
+- If your repository is [integrated with Zenodo](./zenodo_doi) - a new DOI for this software release will automatically 
+be minted by {% tool "zenodo" %}.

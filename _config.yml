@@ -9,7 +9,7 @@ topnav_banner: "The current version of RSQKit is a work in progress. Any content
 description: "The Research Software Quality Kit is a resource to help researchers that code, Research Software Engineers, and anyone in between learn about and apply best practices in creating research software and code."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.2.0
 
 baseurl: ""
 url: "http://localhost:4000"
@@ -23,6 +23,10 @@ kramdown:
 sass:
   style: compressed
   sourcemap: never
+
+matomo: https://matomo.research.software/
+# Matomo domain where Matomo is running
+matomo_id: 7
 
 exclude:
   - README.md
@@ -50,6 +54,7 @@ defaults:
     values:
       type: your_tasks
       type_img: /assets/img/section-icons/tick.svg
+      include_citation: true
   -
     scope:
       path: "pages/your_tasks/TEMPLATE_your_tasks.md"

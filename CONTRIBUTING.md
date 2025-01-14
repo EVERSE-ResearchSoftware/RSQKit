@@ -90,7 +90,7 @@ Editorial Board Members will review pull requests and have a final say over what
 > branches and tags and not cluttered by a large number of development or feature branches.
 >
 > Finally, working in GitHub interface is convenient, but does not allow for spelling checking and lots of spelling mistakes can creep in this way.
-> If you can - clone your fork and set up RSQKit locally on your machine, and edit files 
+> If you can - clone your [fork and set up RSQKit locally on your machine](INSTALL.md), and edit files 
 > in a text editor with spelling checking capabilities.
 
 ### What *Not* to Contribute
@@ -107,8 +107,9 @@ When contributing to this project, please keep in mind the following:
 - Follow our [style guide](./STYLE_GUIDELINES.md) for the sake of page consistency.
 - Check our [metadata gudielines](./METADATA_GUIDELINES.md) in order to be able to fill in the data and page metadata and to format the layout correctly.
 - Make sure that the content you provide respects copyright. 
-- Check the [Editor checklist](./EDITORS_CHECKLIST.md) and make sure you have complied with the requirements, to avoid having to resolve many issues during the revision process.
+- Check the [Editors Checklist](./EDITORS_CHECKLIST.md) and make sure you have complied with the requirements, to avoid having to resolve many issues during the revision process.
 - If others assisted with your contribution by writing or supplying resources like diagrams or links, be sure to acknowledge them after obtaining their permission.
+- Check [installation guide](INSTALL.md) if you want to develop and test changes locally on your machine.
 
 ## Acknowledgement of Contributions
 

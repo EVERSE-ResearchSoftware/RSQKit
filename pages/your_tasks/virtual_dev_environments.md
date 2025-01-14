@@ -1,9 +1,10 @@
 ---
 title: Reproducible virtual software development environments
-description: Virtual software development environments for reproducible research 
+description: What are virtual software development environments for reproducible research and how to use them?
 contributors: ["Aleksandra Nenadic"]
 page_id: virtual_environments
-related_pages: []
+related_pages:
+  your_tasks: []
 ---
 
 ## What are virtual software development environments?
@@ -74,13 +75,14 @@ Sometimes, a package manager combines both of these functionalities and you only
 
 ### Considerations
 
-- There are often multiple package and environment management tools for a single programming language.
-  - For example, commonly used tools for managing Python packages and virtual environments are `pip` (Python package manager tool which interacts and obtains the packages
-  from the central repository called Python Package Index (PyPI)) and `venv` (Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3).
-  One alternative is to use `poetry` - a modern Python packaging tool which also installs Python packages from PyPI and handles virtual environments automatically.
-  - If your Python code relies on non-Python packages, for instance when some C++ libraries must also be installed and you want to support multiple platforms, a better choice may be `conda` -
-  a Python package and environment management system part of the Anaconda Python distribution (often used by the scientific community). `conda` has its own repository system separate from
-  (but compatible with) PyPI that distributes non-Python packages packages as well and has its own non-`venv`-based virtual environment system.
+- There are often multiple package and environment management tools even for a single programming language:
+  - For example, commonly used tools for managing Python packages and virtual environments are {% tool "pip" %} (Python package manager tool which interacts and obtains the packages
+  from the central repository called {% tool "pypi" %}) and {% tool "venv" %} (Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3).
+  One alternative is to use {% tool "poetry" %} - a modern Python packaging tool which also installs Python packages from PyPI and handles virtual environments automatically.
+  - If your Python code relies on non-Python packages, for instance when some C++ libraries must also be installed and you want to support multiple platforms, a better choice may be {% tool "conda" %} -
+  a Python package and environment management system part of the Anaconda Python distribution (often used by the scientific community). {% tool "conda" %} has its own repository system separate from
+  (but compatible with) PyPI that distributes non-Python packages packages as well and has its own non-venv-based virtual environment system.
+  - If you are using R - consider {% tool "renv" %} that will help you build reproducible environments for your R projects
 - You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
 already using (so you can get help when you need it). Not using virtual environments at all and mixing different tools to manage them could lead to
 a [bad example of a spaghetti setup][python-env-hell], not knowing which dependencies are being used and causing issues when running and debugging code.
@@ -89,29 +91,6 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 
 * Decide on and start using a package manager tool and a virtual environment management tool for your programming language.
 
-
-## Tools and resources
-
-| Tool or resource                                                                 | Description                                                                        |
-| ---------------------------------------------------------------------------------| ---------------------------------------------------------------------------------- |
-| [Install Python packages in a virtual environment using pip and venv][pip-venv]  | A guide on creating and activating virtual environments using venv and pip         |
-| [Reproducible environments for your R projects][renv]                            | A guide on using renv to make R projects more isolated, portable and reproducible. |
-
-
-## How to cite this page
-
-To be added.
-
-
-## Credit
-
-The contents of this page have been inspired by the ["Tools and Practices for FAIR Research Software" course][fair-rs][^1] 
-and the ["Intermediate Research Software Development" course][intermediate-rs-dev][^2] developed by the [Software Sustainability Institute][ssi].
-
-      
-## References
-[^1]: [Aleksandra Nenadic, Steve Crouch, et al. (2024). carpentries-incubator/python-intermediate-development: beta-May2024 (beta-May2024). Zenodo. https://doi.org/10.5281/zenodo.11368608]
-[^2]: [Gibson, S., Jaffa, S., Kopec-Harding, K., Nenadic, A., & Sauze, C. (2024). Tools and Practices for FAIR Research Software Course (alpha-July-2024). Zenodo. https://doi.org/10.5281/zenodo.12666089]
 
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software

@@ -1,9 +1,10 @@
 ---
 title: Languages, frameworks & technologies
-description: Deciding on which programming languages, frameworks and technologies to use, and getting started with templates
+description: How to decide on which programming languages, frameworks and technologies to use, and getting started with templates
 contributors: ["Patrick Bos"]
 page_id: languages_frameworks_technologies
-related_pages: [three_tier_view, life_cycle, fair, research_software_engineer]
+related_pages:
+   your_tasks: [three_tier_view, life_cycle, fair, research_software_engineer]
 ---
 
 ## How to choose programming languages, frameworks and technologies?
@@ -58,11 +59,11 @@ We highlight three typical cases, related loosely to the [three tiers of researc
 1. _Rapid prototyping: quickly testing an approach to a problem for the first time._
    In this situation, you'll typically want to go with a language, framework or technology you already know or a new one you want to try out.
    The key part here is that your preference weighs more heavily than in "higher" tiers or later life cycle stages.
-   If you don't know any programming language yet, getting familiar with Python is a good choice for rapid prototyping.
+   If you don't know any programming language yet, getting familiar with {% tool "python" %} is a good choice for rapid prototyping.
 2. _Starting a new development project._
    When you get past the rough sketching stage, the considerations in the rest of this document apply.
    This means there are a lot of factors to weigh, not just on the feature-side but also taking social and personal aspects into account.
-   [Always remember Betamax](https://en.wikipedia.org/wiki/Videotape_format_war): it is hard to predict the success of a project purely based on technical merits.
+   [Always remember Betamax](https://en.wikipedia.org/wiki/Videotape_format_war): it is hard to predict that as project will succeed based solely on technical merit.
 3. _Joining an existing project._
    In this case, you are typically not free to choose.
    Projects sometimes switch languages, but not often.
@@ -76,24 +77,18 @@ What follows is a somewhat opinionated list of good starting choices of programm
 Your mileage may vary, but you will not be far off choosing the following languages for the listed purposes and domains.
 
 When starting fresh, there are a few languages with a proven track record and active communities in research:
-- Python: Quick prototyping (interactive, not compiled), gluing other code together, data analysis, ML. A general purpose language that is easy to get started in, that can yield very good and efficient software (especially when using the many available efficient externally packaged modules) and that is easily adoptable by many scientific communities.
-- C++: high performance (compiled), strongly typed, multi-paradigm (many "dialects": C-style, object oriented, functional, templated), considered unsafe (though using modern standards instead of raw pointers avoids that)
-- JavaScript/TypeScript: anything with a serious web component, also possibly UI for non-web applications.
-- R: statistical analysis, in particular for social sciences, medical research and the like.
+- {% tool "python" %}: Quick prototyping (interactive, not compiled), gluing other code together, data analysis, ML. A general purpose language that is easy to get started in, that can yield very good and efficient software (especially when using the many available efficient externally packaged modules) and that is easily adoptable by many scientific communities.
+- {% tool "cpp" %}: high performance (compiled), strongly typed, multi-paradigm (many "dialects": C-style, object oriented, functional, templated), considered unsafe (though using modern standards instead of raw pointers avoids that)
+- {% tool "javascript" %}/{% tool "typescript" %}: anything with a serious web component, also possibly UI for non-web applications.
+- {% tool "r" %}: statistical analysis, in particular for social sciences, medical research and the like.
 
 If you're excited by the prospect of having to pioneer a bit more due to a smaller and somewhat less mature ecosystem of available modules, the following are popular modern choices:
-- Julia: great for mathematical modelling, has very elegant semantics (e.g. multiple dispatch). It is JIT compiled, meaning you can use it interactively like Python, but it compiles each statement before running, so that it can run fast.
-- Rust: high performance, safety-first. Rust is sometimes described as "C++ done right". It is more focused on functional programming and lacks some core object oriented paradigm support like classes.
+- {% tool "julia" %}: great for mathematical modelling, has very elegant semantics (e.g. multiple dispatch). It is JIT compiled, meaning you can use it interactively like Python, but it compiles each statement before running, so that it can run fast.
+- {% tool "rust" %}: high performance, safety-first. Rust is sometimes described as "C++ done right". It is more focused on functional programming and lacks some core object oriented paradigm support like classes.
 
 A few special purpose languages that are also good to consider are:
-- CUDA/OpenCL: general purpose GPU programming, for accelerating parallelisable computations using GPU hardware.
-- Shell scripting (e.g. Bash, PowerShell): for simple tasks around text processing, setting up runtime environments and automating running of multiple commands in a simple pipeline, shell scripts are still unsurpassed. Unlocking the full power of shell scripting also requires knowledge of command line tools.
-
-
-<!-- TODO -->
-<!-- ### Choosing frameworks and technologies -->
-
-
+- {% tool "cuda" %}/{% tool "opencl" %}: general purpose GPU programming, for accelerating parallelisable computations using GPU hardware.
+- Shell scripting (e.g. {% tool "bash" %}, {% tool "powershell" %}): for simple tasks around text processing, setting up runtime environments and automating running of multiple commands in a simple pipeline, shell scripts are still unsurpassed. Unlocking the full power of shell scripting also requires knowledge of command line tools.
 
 ### Getting off to a flying start
 
@@ -121,19 +116,5 @@ Some interesting templates to consider for research software:
 
 Of course, the RSQkit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md)!
 
-
-<!-- ## Tools and resources -->
-
-<!-- | Tool or resource                                                                                            | Description                                                   |
-| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [Choose an open license tool](https://choosealicense.com/)                                                  | A guided tool to help you choose a license for your resource  | -->
-
-
-## How to cite this page
-To be added.
-
 ## Credit
 The first version of this page was inspired by content in and discussions on the [Netherlands eScience Center Guide to software development](https://guide.esciencecenter.nl).
-
-## References
-<!-- [^1]: [https://zenodo.org/records/6623556#.YqCJTJNBwlw](https://zenodo.org/records/6623556#.YqCJTJNBwlw) page 12 -->

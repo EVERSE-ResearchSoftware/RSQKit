@@ -1,16 +1,20 @@
 ---
 title: Licensing software
-description: Applying a license to research software
-contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi"]
+description: How to apply a license to research software
+contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi", "Thomas Vuillaume"]
 page_id: licensing_software
-related_pages: []
+related_pages:
+  your_tasks: []
 ---
 
 ## What is copyright and licensing?
 
-Copyright allows a creator to state that they own the work they have created. This declaration is optional - even if the creator 
-does not explicitly assert it, copyright of the work exists from the moment of creation. 
-A license is a legal document which sets down the terms under which the creator is releasing what they have created for others to use, modify, extend or exploit. 
+Copyright allows a creator to state that they own the work they have created. 
+This declaration is optional - even if the creator does not explicitly assert it, copyright of the work exists from the 
+moment of creation. 
+
+A license is a legal document which sets down the terms under which the creator is releasing what they have created for 
+others to use, modify, extend or exploit. 
 
 
 ## Why should you assign a license to your research software? 
@@ -19,13 +23,19 @@ A license is a legal document which sets down the terms under which the creator 
 
 A license defines what others are allowed to do with your software. This will take into account ownership rights (copyright).
 
-There are large differences between how copyrights and subject rights are to be addressed.
+There are large differences between how copyright (controlling the exploitation of a creative work) and subject rights 
+(preserving the moral and personal interests of creators in how their works are to be used) are to be addressed.
 
 Complying with copyright is primarily the responsibility of the user of the software. 
-Copyright laws allow only the creator of a work to reproduce and use it. If anyone else wants to use the work, then that person needs explicit permission from the holder of the copyright. 
-A license describes the nature of this agreement, and does not need a signature: the user can never deny the existence of any conditions, because without the license they would not be able to use the work at all.
+Copyright laws allow only the creator of a work to reproduce and use it. 
+If anyone else wants to use the work, then that person needs explicit permission from the holder of the copyright. 
 
-Licensing is an important aspect of meeting the principle of reusability (the R in FAIR) in FAIR for Research Software (R1.1. Software is given a clear and accessible license[^1]). 
+A license describes the nature of this agreement, and does not need a signature: the user can never deny the existence 
+of any conditions, because without the license they would not be able to use the work at all.
+
+Licensing is an important aspect of meeting the principle of reusability (the "R" in FAIR) in FAIR for 
+Research Software (see principle "R1.1. Software is given a clear and accessible license"[^1]).
+
 As part of the publication process, you need to decide under which license your software is made available to others. 
 If this information is not provided, people will not be able to legally reuse your software, even if this was not your intention.
 
@@ -61,8 +71,7 @@ Here are the most commonly used ones that will likely satisfy your needs.
 
 #### Public domain
 
-While not strictly a license, [public domain](https://en.wikipedia.org/wiki/Public_domain) is a concept that enables you to waive all your interests that may 
-exist in your work and declare your work not protected by copyright. 
+While not strictly a license, [public domain](https://en.wikipedia.org/wiki/Public_domain) is a concept that enables you to waive all your interests that may exist in your work and declare your work not protected by copyright. 
 The [public domain](https://en.wikipedia.org/wiki/Public_domain) consists of all the creative work to which no exclusive intellectual property rights apply. 
 Because no one holds the exclusive rights, anyone can legally use or reference those works without permission. 
 Note that not having a license is not the same as releasing your work into the public domain - the former means no one can reuse your work whereas the latter means everyone can. 
@@ -139,40 +148,29 @@ In addition to the licenses above, Creative Commons also offers [CC0](https://cr
 
 ### Solutions
 
-* [Choose an open license](https://choosealicense.com/) website is a great tool to help you choose a license that is appropriate for your needs.
+* {% tool "choosealicense" %} is a great tool to help you choose a license that is appropriate for your needs.
+* {% tool "spdx" %} is a long list of commonly found licenses.
+* Check the [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) for guidelines on changing and editing licenses.
 
 ## How do I add a license to my code repository?
 
 ### Description 
 
 Once you have decided on the license to choose, you may add it as part of your code base. 
-This is usually done by adding a file LICENSE with the text of the license. LICENSE.txt or LICENSE.md or LICENCE.txt or LICENCE.md are also commonly used variations for the license file name.
+This is usually done by adding a file LICENSE with the text of the license. LICENSE.txt or LICENSE.md are also commonly used variations for the license file name.
 
 
 ### Considerations 
+
+* You may license your entire codebase under a single license (this is recommended in most cases and for software of small to moderate sizes), or use different ones for different parts of it (this can be interesting for large codebases requiring different licenses for different parts)
 
 
 ### Solutions 
 
 * If your software is located in GitHub, follow [GitHub's documentation for adding a license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
 Otherwise, create a new file called, e.g. LICENSE, in the root directory to your code base and copy the text of your chosen license into it.
-* See an example from the [RSQkit](https://github.com/EVERSE-ResearchSoftware/RSQKit) which uses the Apache 2.0 license: [https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE). 
-
-
-## Tools and resources
-
-| Tool or resource                                                                                            | Description                                                   |
-| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [Choose an open license tool](https://choosealicense.com/)                                                  | A guided tool to help you choose a license for your resource  |
-| [license selector for software](https://ufal.github.io/public-license-selector)                             | A question-guided tool to help you choose a software license  |
-| [Spdx](https://spdx.org/licenses/) list of licenses                                                         | A list of commonly recognised licenses used in software       |
-| [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) | Guidelines on changing and editing licenses                   |
-
-
-## How to cite this page
-
-To be added.
-
+* See the [LICENSE file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE) from the {% tool "rsqkit" %} which specifies different licences for the metadata, content and software. 
+* In case you want or need to apply licenses per files, we recommend you have a look at {% tool "reuse" %}.
 
 ## Credit
 
@@ -181,6 +179,6 @@ The contents of this page have been adapted from the ["Licensing" activity page]
       
 ## References
 
-[^1]: [https://zenodo.org/records/6623556#.YqCJTJNBwlw](https://zenodo.org/records/6623556#.YqCJTJNBwlw) page 12
+[^1]: Chue Hong, N. P., Katz, D. S., Barker, M., Lamprecht, A.-L., Martinez, C., Psomopoulos, F. E., Harrow, J., Castro, L. J., Gruenpeter, M., Martinez, P. A., Honeyman, T., Struck, A., Lee, A., Loewe, A., van Werkhoven, B., Jones, C., Garijo, D., Plomp, E., Genova, F., … RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). Zenodo. [https://doi.org/10.15497/RDA00068](https://zenodo.org/records/6623556#.YqCJTJNBwlw)
 
  

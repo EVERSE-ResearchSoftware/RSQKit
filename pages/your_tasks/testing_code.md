@@ -1,15 +1,10 @@
 ---
-title: Testing Code
-description: Explains useful aspects about why and how to test code.
+title: Testing code
+description: Why and how to test your code
 contributors: ["Aleksandra Nenadic", "Christian Hüser"]
 page_id: testing_code
-related_pages: []
-# More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
-training:
-  - name:
-    registry:
-    url:
-# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+related_pages:
+  your_tasks: []
 ---
 
 ## What is code testing?
@@ -159,7 +154,7 @@ The use of a testing framework becomes particularly important if your code grows
 
 #### Use test frameworks to automate testing
 
-Automated testing involves using special testing frameworks (e.g. testthat for R, Pytest for Python, JUnit for Java) to automate and control the execution of tests (which is software separate from the software being tested)
+Automated testing involves using special testing frameworks (e.g. {% tool "testthat" %} for R, {% tool "pytest" %} for Python, {% tool "junit" %} for Java) to automate and control the execution of tests (which is software separate from the software being tested)
 and the comparison of actual with predicted outcomes. 
 A test framework comprises a set of rules for creating and designing test cases together with tools that are designed to run these tests efficiently.
 For example, test frameworks typically automatically discover tests based on specific file and function naming patterns (e.g. they look for files or functions that start with “test_” or end with “_test”).
@@ -196,7 +191,7 @@ In addition to using the test automation framework locally and starting the exec
 CI determines when and how to execute our test cases automatically and runs them on an integration machine.
 For example, as soon as a commit is pushed or a merge to a software development branch is performed, the integration machine starts a CI pipeline and 
 executes the test cases and reports the test results in the so-called CI job log.
-Popular examples of CI infrastructures include [GitHub Actions][github-actions] and [GitLab CI/CD][gitlab-ci-cd].
+Popular examples of CI infrastructures include {% tool "github-actions" %} and {% tool "gitlab-ci-cd" %}.
 
 ### Considerations 
 
@@ -211,24 +206,24 @@ Benefits of using automated testing frameworks:
 [**Test Patterns**][test-patterns] describe good practices that can be applied to your test automation as well as test cases. 
 Here are a few examples of these principles:
 
-- *Fully Automated*:
+- *Fully automated*:
   - To make most use of test automation it is the best idea to fully automate the testing, so that no manual steps are involved.
-- *Self-Checking*:
+- *Self-checking*:
   - Everything that is needed to compare the actual output with the predicted output is encoded in the test.
 - *Repeatable Test*:
   - Each run of a test should result in the same output given the same input.
-- *Robust Test*:
+- *Robust test*:
   - As the test base grows we try to minimise the impact of a change in one test case on other test cases and thereby minimise the overlap between the tests.
   - We also ensure that the test environment does not impact our tests by isolating the system under test (SUT) from the environment as much as possible.
-- *Simple Test*:
+- *Simple test*:
   - Keep the tests small and they should test only one thing at a time.
-- *Expressive Tests*:
+- *Expressive tests*:
   - Tests should be as expressive as possible, so that they are easily understood.
-- *Do No Harm*:
+- *Do no harm*:
   - Tests should not do harm and introduce risks that's why we must not add tests to the production environment, they should only be added to the test environment.
-- *Verify One Condition per Test*:
+- *Verify one condition per test*:
   - Tests need to be focused and to make them better understood they should only verify one condition per test.
-- *Keep Tests Independent*:
+- *Keep tests independent*:
   - Tests must not interact and influence each other, they need to be independent.
 
 ### Solutions
@@ -239,19 +234,6 @@ Here are a few examples of these principles:
 - [**Continuous Integration**][continuous-integration]
   - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.
   - Continuous Integration automates repetitive tests, saves time and ensures tests are run consistently across different environments and platforms.
-
-## How to cite this page
-
-To be added.
-
-## Tools and resources <!-- do not delete this heading and write your text below it -->
-
-- [Python testing framework Pytest][pytest]
-- [Unit Testing for R - testthat][testthat]
-- [GitHub Actions CI infrastructure][github-actions]
-- [GitLab CI/CD infrastructure][gitlab-ci-cd]
-
-## References <!-- do not delete this heading and write your text below it -->
 
 
 [software-testing]: https://en.wikipedia.org/wiki/Software_testing

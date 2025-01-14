@@ -1,18 +1,11 @@
 ---
-title: Environmental Sustainability of Research Software
+title: Environmental sustainability of research software
 description: Guide to improving environmental sustainability of software
 contributors: ["Kirsty Pringle"]
 page_id: environmental_sustainability
-
-related_pages: [<!---REPLACE THIS with the page comma-separated page IDs of the pages that are related to the current page--->]
-# More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
-training:
-  - name:
-    registry:
-    url:
-# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+related_pages:
+  your_tasks: []
 ---
-<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
 
 ## How to monitor and reduce the environmental impact of my software? 
  
@@ -32,7 +25,7 @@ The Green Software Foundation suggests three aspects to consider:
 
 There are a number of tools and programming techniques which can be used to first monitor then improve the energy efficiency of software (detailed below).  Hardware efficacy considers emissions from the creation and disposal of the hardware used (embodied emissions), this can be maximised by extending the lifetime of hardware and (for cloud and HPC) increasing the utilisation of the device.  Finally, the amount of clean electricity in an energy supply depends on location and time of the use. Software that is carbon aware tries to shift usage away from energy that is low in clean energy, through shifting in either time or space. 
 
-Similarly, the GREENER software principles ([https://www.nature.com/articles/s43588-023-00461-y](https://www.nature.com/articles/s43588-023-00461-y)) sets out a series of principles to help guide the  transition to more environmentally responsible computing including:
+Similarly, the [GREENER software principles](https://www.nature.com/articles/s43588-023-00461-y) sets out a series of principles to help guide the  transition to more environmentally responsible computing including:
 
 * Governance and Responsibility: All stakeholders, including grassroots movements, institutions, funding bodies, and industry partners, must take responsibility for reducing greenhouse gas (GHG) emissions in computational science. Both top-down and bottom-up approaches are necessary.
 * Estimation: It is crucial to estimate and report the energy consumption and carbon footprints of computational processes to identify inefficiencies and raise awareness of environmental impacts.
@@ -52,19 +45,9 @@ Similarly, the GREENER software principles ([https://www.nature.com/articles/s43
 * Evaluation Frameworks
     * [Software Carbon Intensity (SCI) Specification](https://greensoftware.foundation/standards/sci) is an assessment framework for assessing and reducing software carbon intensity.
 * Tools to monitor emissions
-    * [CodeCarbon](https://codecarbon.io/) estimates the CO2 emissions from computing resources used by software. 
-    * [Green Algorithm](http://www.green-algorithms.org) is an online tool to estimate the carbon footprint of computational tasks using a web calculator. Currently being extended for use on HPC platforms. 
-    * Carbontracker is a tool that monitors and predicts energy and carbon footprint for training machine learning models.
-    * [EcoInfo](https://ecoinfo.green) (formerly Greenspector) measures energy usage and resource efficiency in web and mobile applications.
-    * [EcoGrader](https://www.ecograder.com) evaluates website sustainability based on design and operational efficiency.
-
-
-## How to cite this page <!-- do not delete this heading and write your text below it -->
-TODO
-
-## Tools and resources <!-- do not delete this heading and write your text below it -->
-TODO
-
-## References <!-- do not delete this heading and write your text below it -->
-TODO
+    * {% tool "codecarbon" %} estimates the CO2 emissions from computing resources used by software. 
+    * {% tool "greenalgorithms" %} is an online tool to estimate the carbon footprint of computational tasks using a web calculator. Currently being extended for use on HPC platforms. 
+    * {% tool "carbontracker" %} is a tool that monitors and predicts energy and carbon footprint for training machine learning models.
+    * {% tool "greenspectorstudio" %} measures energy usage and resource efficiency in web and mobile applications.
+    * {% tool "ecograder" %} evaluates website sustainability based on design and operational efficiency.
  
