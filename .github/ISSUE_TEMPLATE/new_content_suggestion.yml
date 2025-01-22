@@ -21,8 +21,8 @@ body:
       label: Is this a new task page suggestion?
       multiple: true
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true  
   - type: markdown
