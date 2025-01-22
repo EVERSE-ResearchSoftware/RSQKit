@@ -8,10 +8,10 @@ body:
       description: Please provide details, to make it easier for the Maintainers to address the issue.
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: location
     attributes:
-      label: Location of problem (optional)
+      label: Location of the problem (optional)
       description: Where is the problem that needs to be fixed? (e.g. the name of the source file or the URL(s) of the webpage(s))
   - type: markdown
     attributes:
