@@ -5,7 +5,7 @@ body:
     id: details
     attributes:
       label: What is the problem?
-      description: Please provide details, to make it easier for the Maintainers and other community members to address the issue.
+      description: Please provide details, to make it easier for the Maintainers to address the issue.
     validations:
       required: true
   - type: input
