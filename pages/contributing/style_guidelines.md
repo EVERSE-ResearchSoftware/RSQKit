@@ -34,23 +34,23 @@ If in doubt when creating new content, have a look at other existing content of 
 * **Etc.** should be avoided. Try using ‘for example’ or ‘such as’ or ‘including’ at the start of a listing. If etc. is used, put a comma before it if it is in a list, like "A, B, etc.". 
 * **Gender:** avoid using gender-specific words like "he" or "she".
 * **Headings:**
- * Only the first word is capitalised unless other words are proper nouns.
- * Headings must be hierarchical. They must go down in order (level one, level two, level three) and not skip a level. It is fine to skip levels when moving back up, e.g. you can skip from level four to level two.
+   * Only the first word is capitalised unless other words are proper nouns.
+   * Headings must be hierarchical. They must go down in order (level one, level two, level three) and not skip a level. It is fine to skip levels when moving back up, e.g. you can skip from level four to level two.
 * **-ise/-ize:** use the "-ise" form.
 * **Life cycle:** two separate words (not "lifecycle").
 * **Links:** make the link text say where the link goes, e.g. "the Contribute page", not "click here". Avoid using the url as the link text.
 * **Lists:** 
- * _A list of short items_: introduce with a colon, start each bullet point with a capital and don't use punctuation at the end of each bullet point:
-  * Item 1
-  * Item 2
-  * _A list of longer items following an incomplete introductory sentence (e.g. a sentence ending in a colon)_: each item ends with a semi-colon and the final item ends with a full stop. Do not capitalise the first letter of each item, e.g. This is the first part of a sentence that includes:
-   * a longer item 1;
-   * a longer item 2;
-   * a longer item 3.
-  * _A list following a complete sentence (with a full stop)_: each item ends with a full stop, and each point begins with a capital letter, e.g. This a complete sentence.
-   * This is item 1 of the list.
-   * This is item 2 of the list.
-   * This is item 3 of the list.
+   * _A list of short items_: introduce with a colon, start each bullet point with a capital and don't use punctuation at the end of each bullet point:
+      * Item 1
+      * Item 2
+    * _A list of longer items following an incomplete introductory sentence (e.g. a sentence ending in a colon)_: each item ends with a semi-colon and the final item ends with a full stop. Do not capitalise the first letter of each item, e.g. This is the first part of a sentence that includes:
+       * a longer item 1;
+       * a longer item 2;
+       * a longer item 3.
+    * _A list following a complete sentence (with a full stop)_: each item ends with a full stop, and each point begins with a capital letter, e.g. This a complete sentence.
+       * This is item 1 of the list.
+       * This is item 2 of the list.
+       * This is item 3 of the list.
 * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc.).
 * **Quotations:** use double quotes for quotations and single quotes for quotes within quotes.
 * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
