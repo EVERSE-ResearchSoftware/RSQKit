@@ -13,6 +13,13 @@ Below are the style guidelines specific to the pages in RSQKit (adapted from [RD
   * Remember that the site is there to help people, so make it clear to the readers how the information can benefit them.
   * Use the words your readers would use. Think of the terms they would use when searching for their problem, and use those terms.
 
+## Page templates
+  
+  We provide page templates for certain content types in RSQKit to keep the structure of such pages consistent: 
+    *  [Task page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md)
+
+  If in doubt when creating new content, have a look at other existing content of the same type and try to mimic that.
+  
 ## Content
 
   * **Acronyms:** spell them out the first time they are mentioned.
@@ -45,8 +52,6 @@ Below are the style guidelines specific to the pages in RSQKit (adapted from [RD
       * This is item 3 of the list.
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc.).
   * **Quotations:** use double quotes for quotations and single quotes for quotes within quotes.
-  * **Templates:** keep the structure of the pages consistent by using the site templates (and have a look at other existing content and try to mimic that):
-    *  [Task page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md)
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause, and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
