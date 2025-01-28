@@ -2,4 +2,4 @@
 title: List of page IDs
 ---
 
-{% include pageids-overview.html sidebar="main" %}
+{% include pageids-overview.html sidebar="contributing" %}
