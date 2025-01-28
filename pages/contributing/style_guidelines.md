@@ -11,6 +11,7 @@ Below are the style guidelines specific to the pages in RSQKit (adapted from [RD
 * Use short, active sentences and short paragraphs (3-4 sentences).
 * Make use of headings and bullet points to break text up so it is easy to scan.
 * Remember that the site is there to help people, so make it clear to the readers how the information can benefit them.
+* Try to make the content concise, avoid repeating things that have been well described and documented elsewhere - instead point out to these external resources.
 * Use the words your readers would use. Think of the terms they would use when searching for their problem, and use those terms.
 
 ## Page templates
