@@ -69,7 +69,7 @@ If in doubt when creating new content, have a look at other existing content of 
   * **Illustrations:** Try to use the icons sepcified above in your illustrations, if possible. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues) on GitHub or [email us](mailto:rsqkit@lists.certh.gr).
   * **Images:**
     * Do not use images to display text.
-    * Include an 'alt' attribute in images.
+    * Include an 'alt-text' attribute in images to explain what is represented in the image.
    
 ## Naming of files, tags, keywords, and navigation titles
 
