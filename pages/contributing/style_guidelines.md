@@ -66,7 +66,7 @@ If in doubt when creating new content, have a look at other existing content of 
   * **Colours:** The official colours of the EVERSE projects are still to be decided. In the meantime, we recommend to take into account accessibility of those who are colour blind when choosing colours used in graphs and tables. 
   * **Fonts:** [Exo 2 font](https://fonts.google.com/specimen/Exo+2) (licensed under the SIL Open Font License version 1.1) is used for headings and main branding font, Open Sans for body text.
   * **Icons:** Icons used by RSQKit are either desigined by [Xènia Pérez Sitjà](https://github.com/sitjart) for [RDMKit](https://github.com/elixir-europe/rdmkit?tab=readme-ov-file#custom-icons) or come from [Font Awesome](https://fontawesome.com/).
-  * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). Please use these icons in any illustrations. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
+  * **Illustrations:** Try to use the icons sepcified above in your illustrations, if possible. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues) on GitHub or [email us](mailto:rsqkit@lists.certh.gr).
   * **Images:**
     * Do not use images to display text.
     * Include an 'alt' attribute in images.
