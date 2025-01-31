@@ -63,7 +63,7 @@ If in doubt when creating new content, have a look at other existing content of 
 ## Page graphics
 
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
-  * **Colours:** To be decided
+  * **Colours:** We recommend for graphs and tables where possible to take into account those who are colour blind. 
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
   * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and the right to publish them without attribution. Other icons on this site are either desgined by Xènia Pérez Sitjà or come from [Font Awesome](https://fontawesome.com/).
   * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). Please use these icons in any illustrations. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
