@@ -33,7 +33,7 @@ If in doubt when creating new content, have a look at other existing content of 
 * **Email:** not "e-mail".
 * **Email addresses:** spell these out and make the email address the link, e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
 * **Etc.** should be avoided. Try using ‘for example’ or ‘such as’ or ‘including’ at the start of a listing. If etc. is used, put a comma before it if it is in a list, like "A, B, etc.". 
-* **Gender:** avoid using gender-specific words like "he" or "she".
+* **Gender:** avoid using gender-specific words like "he" or "she", use "they" instead.
 * **Headings:**
    * Only the first word is capitalised unless other words are proper nouns.
    * Headings must be hierarchical. They must go down in order (level one, level two, level three) and not skip a level. It is fine to skip levels when moving back up, e.g. you can skip from level four to level two.
