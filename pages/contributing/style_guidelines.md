@@ -19,7 +19,7 @@ Below are the style guidelines specific to the pages in RSQKit (adapted from [RD
 We provide page templates for certain content types in RSQKit to keep the structure of such pages consistent. 
 If in doubt when creating new content, have a look at other existing content of the same type and try to mimic that.
   
-* [Task page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md) for pages addressing common issues or describing commonly performed tasks around reseach software. For an example - see ["How to make a good README" task page](https://everse.software/RSQKit/how_to_make_a_good_readme).
+* [Task page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md) for pages addressing common issues or describing commonly performed tasks around research software quality. For an example - see ["How to make a good README" task page](https://everse.software/RSQKit/how_to_make_a_good_readme).
 
   
 ## Content
