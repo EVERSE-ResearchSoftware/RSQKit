@@ -72,7 +72,7 @@ Whichever contribution route you choose, we welcome the following types of contr
 - [reports on issues, bugs and typos](#reporting-an-issue) in the RSQKit content
 - suggestions for new content by creating a [new issue](#reporting-an-issue) for discussion
 - comments on [existing issues][issues] and reviews of [existing pull requests][pull-requests]
-- [pull requests](#creating-a-pull-request) to fix issues, bug and typos in the RSQKit content
+- [pull requests](#creating-a-pull-request) to fix issues, bugs and typos in the RSQKit content
 
 If you plan to submit a pull request that adds new content or significantly changes existing content,
 please [contact the Editorial Board][contact] to discuss this first so that
@@ -92,7 +92,7 @@ Here are some guidelines for reporting issues.
 - For bug reports, provide the platform information you used when a bug was detected - for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2)
 - Add any additional context that may be helpful in addressing the issue
 
-### Creating a Pull Request to Fix an Issue or Contribute Content
+### Creating a Pull Request
 
 If you choose to contribute via Git/GitHub's pull requests, you may want to look at [How to Contribute to an Open Source Project on GitHub][how-contribute].
 
