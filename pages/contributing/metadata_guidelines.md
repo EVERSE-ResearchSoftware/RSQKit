@@ -1,5 +1,4 @@
 ---
 title: Metadata Guidelines
+summary: Descriptions of different metadata schemas used to describe various resources and pages in RSQKit
 ---
-
-TODO: descriptions of different metadata used to describe various resources and pages in RSQKit.
