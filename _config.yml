@@ -59,7 +59,7 @@ defaults:
 theme_variables:
   topnav:
     brand_logo: assets/img/everse_logo.png
-    twitter: https://twitter.com/eosc_everse
+    bluesky: https://bsky.app/profile/eosc-everse.bsky.social
 
 plugins:
   - elixir-toolkit-theme-plugins
