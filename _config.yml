@@ -59,10 +59,10 @@ defaults:
 theme_variables:
   topnav:
     brand_logo: assets/img/everse_logo.png
+#    twitter: https://twitter.com/eosc_everse
     bluesky: https://bsky.app/profile/eosc-everse.bsky.social
     linkedin: https://www.linkedin.com/company/eosc-everse
-    fosstodon: https://fosstodon.org/@eosc_everse
-
+#    fosstodon: https://fosstodon.org/@eosc_everse
 plugins:
   - elixir-toolkit-theme-plugins
   - jemoji
