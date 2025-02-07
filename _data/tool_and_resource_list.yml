@@ -83,7 +83,7 @@
   id: howfairis
   name: howfairis
   url: https://github.com/fair-software/howfairis
-- description: GitHub is a developer platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control. GitHub provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
+- description: GitHub is a platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control. GitHub provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
   id: github
   name: GitHub
   url: https://github.com/
