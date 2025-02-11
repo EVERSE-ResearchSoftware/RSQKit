@@ -85,7 +85,7 @@ project_name/
 └── ...
 ```
 
-Checkout the {% tool "fair-python-coockiecutter" %} - a template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality.
+Checkout the {% tool 'fair-python-coockiecutter' %} - a template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality.
 
 [how_to_make_a_good_readme]: /how_to_make_a_good_readme
 [licensing_software]: /licensing_software
