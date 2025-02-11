@@ -4,7 +4,7 @@ description: Good practice for organising files in a software project (or a rese
 contributors: ["Aleksandra Nenadic"]
 page_id: organising_software_project
 related_pages:
-  your_tasks: [how_to_make_a_good_readme, licensing_software, releasing_code, software_documentation]
+  your_tasks: [how_to_make_a_good_readme, version_control, licensing_software, releasing_code, software_documentation]
 ---
 
 ## Why does it matter how we organise our software project's directory?
