@@ -22,11 +22,10 @@ Software has no title page, however. The relevant information to cite software i
 that should be cited as authors? What version of the software should be cited? Is there a paper about the software that should be cited instead? If you want people to cite your research software, you will 
 need to help them do it properly.
 
-By adding a `CITATION.cff` file in your source code repository, you can provide all of this information in a concise and structured way. Not only does this give your users all the right information to 
-cite your software correctly, but is also enables other tools and services such as 
-[GitHub](https://github.blog/news-insights/company-news/enhanced-support-citations-github/),
-[Zenodo](https://support.zenodo.org/help/en-gb/24-github-integration/96-how-does-a-citation-cff-file-affect-metadata-of-my-github-release) and 
-[Zotero](https://www.zotero.org/) to re-use the citation metadata you provide. 
+By adding a `CITATION.cff` file in your source code repository, you can provide all relevant citation information in a concise and structured way. Not only does this give your users all the right 
+information to cite your software correctly, but is also enables other tools and services, such as [GitHub](https://github.blog/news-insights/company-news/enhanced-support-citations-github/), 
+[Zenodo](https://support.zenodo.org/help/en-gb/24-github-integration/96-how-does-a-citation-cff-file-affect-metadata-of-my-github-release) and [Zotero](https://www.zotero.org/), to re-use the citation 
+metadata you provide.
 
 But how do you create a `CITATION.cff` file?
 
