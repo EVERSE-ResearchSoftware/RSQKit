@@ -463,3 +463,8 @@
   id: calendar-versioning
   name: Calendar Versioning
   url: https://calver.org/
+- description: FAIR Python Coockiecutter is a "cookiecutter template" command-line tool to help you kickstart a modern best-practice Python project with FAIR metadata
+  id: fair-python-coockiecutter
+  name: FAIR Python Coockiecutter
+  url: https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter
+  
