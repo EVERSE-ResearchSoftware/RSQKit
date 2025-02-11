@@ -87,9 +87,12 @@ project_name/
 
 Checkout the {% tool 'fair-python-coockiecutter' %} - a template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality.
 
+Check out [the Turing Way Project's Guide for project design][turing-project-design] for best practices and guidance for designing research projects in particular focussed on data. 
+
 [how_to_make_a_good_readme]: /how_to_make_a_good_readme
 [licensing_software]: /licensing_software
 [releasing_code]: /releasing_code
 [software_documentation]: /software_documentation
 [version_control]: /version_control
 [citing_software]: https://citation-file-format.github.io/
+[turing-project-design]: https://book.the-turing-way.org/project-design/project-repo/project-repo-advanced.html
