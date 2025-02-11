@@ -97,7 +97,7 @@
   url: https://code.visualstudio.com/
 - description: Integrated development environment (IDE) written in Java.
   id: intellij-idea
-  name: IntelliJ IDE
+  name: IntelliJ IDEA
   url: https://www.jetbrains.com/fr-fr/idea/
 - description: Python packaging and dependency management tool
   id: poetry
