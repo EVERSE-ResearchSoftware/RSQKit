@@ -40,5 +40,5 @@ to get an overview of all supported metadata. Keep in mind that you do not have 
   * manually copying and pasting the [example snippet](https://github.com/citation-file-format/citation-file-format?tab=readme-ov-file#structure) and adapting it to your needs. You can then use [cffconvert](https://pypi.org/project/cffconvert/) to validate your `CITATION.cff` file. 
 * Once you have created a correct `CITATION.cff` file, you can add it to the root directory or your source code repository.
 
-A more detailed description on how to create `CITATTION.cff` files can be found on the [Turing Way](https://book.the-turing-way.org/communication/citable/citable-cff.html). You can find a list of 
-additional tools to create, validate and convert `CITATION.cff` files [here](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench).
+A more detailed description on how to create `CITATION.cff` files can be found on the [Turing Way](https://book.the-turing-way.org/communication/citable/citable-cff.html). You can find a list of 
+additional tools to create, validate and convert `CITATION.cff` files in the [CFF GitHub Repository](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench).
