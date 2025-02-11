@@ -38,8 +38,9 @@ code, data, results, tests, auxiliary information and metadata.
 - **Top-level directory of the project**
   - Put all files related to a project into a single directory. 
   - Choose a meaningful name that reflects the project’s purpose or topic.
-  - Add a README file to describe the project and instructions on installing and running the code and reproducing the results - see more on creating [README files][how_to_make_a_good_readme].
-  - Add a LICENSE file to describe the how others can reuse your software or work - see more on [licensing software][licensing_software].
+  - Add README file to describe the project and instructions on installing and running the code and reproducing the results - see more on creating [README files][how_to_make_a_good_readme].
+  - Add LICENSE file to describe the how others can reuse your software or work - see more on [licensing software][licensing_software].
+  - Add CITATION.cff file to describe how to cite the project - see more on [citing software][citing_software].
 - **Subdirectories of the project** - organise the project into sub-directories clearly labelled based on the type of their content content, for example:
   - `data` - for storing your data. Further organise raw, cleaned, intermediate, and/or processed data in separate subdirectories (e.g. `data/raw`, `data/clean`, `data/processed`) to maintain clarity and prevent overwriting or losing the original raw data. 
   - `code` (or `scripts` or `src`) - for storing your source code.
@@ -84,9 +85,11 @@ project_name/
 └── ...
 ```
 
+Checkout the {% tool "fair-python-coockiecutter" %} - a template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality.
 
 [how_to_make_a_good_readme]: /how_to_make_a_good_readme
 [licensing_software]: /licensing_software
 [releasing_code]: /releasing_code
 [software_documentation]: /software_documentation
 [version_control]: /version_control
+[citing_software]: https://citation-file-format.github.io/
