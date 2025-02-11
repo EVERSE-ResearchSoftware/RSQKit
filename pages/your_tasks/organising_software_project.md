@@ -52,7 +52,7 @@ code, data, results, tests, auxiliary information and metadata.
   - Avoid special characters or spaces (they can cause errors when read by computers); use underscores (_) or hyphens (-) to separate words instead
   - Name files to reflect their contents, version, or date (or, even better, use version control to track different versions).
 - **Version control**
-  - If possible, you should put the whole software project under version control and in its own repository
+  - If possible, you should put the whole software project under [version control][version_control] and in its own repository
   - At the very least, code (and data) sub-directories should be version controlled; you can also version control documentation, manuscripts, results, etc. - i.e. anything that is written manually and not generated automatically
   - If data files are too large (or contain sensitive information) to track by version control and expose in public repositories, you should untrack them (e.g. using `.gitignore` file in Git). The same goes if you are storing passwords in files - they should not be version controlled.
   - Use tags or [releases][releasing_code] to mark specific versions of results (a version submitted to a journal, dissertation version, poster version, etc.) so as to avoid using version numbers in file names and proliferation of different files.
@@ -89,3 +89,4 @@ project_name/
 [licensing_software]: /licensing_software
 [releasing_code]: /releasing_code
 [software_documentation]: /software_documentation
+[version_control]: /version_control
