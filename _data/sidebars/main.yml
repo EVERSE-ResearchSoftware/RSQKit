@@ -72,9 +72,9 @@ subitems:
       - title: ESCAPE
         url: /escape
       - title: PANOSC
-	url: /panosc
+        url: /panosc
       - title: SSHOC
-	url: /sshoc
+        url: /sshoc
   - title: All tools and resources
     url: /all_tools_and_resources
 #  - title: All training resources
