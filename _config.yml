@@ -16,6 +16,11 @@ sass:
   style: compressed
   sourcemap: never
 
+matomo: https://matomo.research.software/
+# Matomo domain where Matomo is running
+matomo_id: 7
+matomo_cookies: false
+
 exclude:
   - README.md
   - Gemfile
@@ -35,6 +40,7 @@ defaults:
     values:
       type: your_tasks
       type_img: /assets/img/section-icons/tick.svg
+      page_citation: true
   -
     scope:
       path: "pages/your_tasks/TEMPLATE_your_tasks.md"
@@ -43,12 +49,21 @@ defaults:
         sitemap: false
         search_exclude: true
         no_robots: true
+  -
+    scope:
+      path: "pages/contributing"
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: contributing
 
 theme_variables:
   topnav:
     brand_logo: assets/img/everse_logo.png
-    twitter: https://twitter.com/eosc_everse
-
+#    twitter: https://twitter.com/eosc_everse
+    bluesky: https://bsky.app/profile/eosc-everse.bsky.social
+    linkedin: https://www.linkedin.com/company/eosc-everse
+#    fosstodon: https://fosstodon.org/@eosc_everse
 plugins:
   - elixir-toolkit-theme-plugins
   - jemoji

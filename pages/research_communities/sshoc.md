@@ -2,9 +2,9 @@
 title: SSH Open Cluster
 ---
 
-The social sciences and humanities (SSH) bring together researchers from a wide range of disciplines and methodological backgrounds, spanning from those studying cultural heritage using 3D digital technologies to interdisciplinary scholars exploring innovative approaches to analyze existing data. In today's digital age, advancing research in these fields increasingly depends on the development of specialized tools and environments that facilitate cutting-edge work both within and across disciplines.
+The social sciences and humanities (SSH) bring together researchers from a wide range of disciplines and methodological backgrounds, spanning from those studying cultural heritage using 3D digital technologies to interdisciplinary scholars exploring innovative approaches to analyse existing data. In today's digital age, advancing research in these fields increasingly depends on the development of specialised tools and environments that facilitate cutting-edge work both within and across disciplines.
 
-The SSH Open Cluster builds upon the foundation of the SSHOC project, which has forged collaborations between 20 partner organizations across six research infrastructures (RIs): CESSDA, ESS Survey, DARIAH, CLARIN, SHARE, and E-RIHS.
+The SSH Open Cluster builds upon the foundation of the SSHOC project, which has forged collaborations between 20 partner organisations across six research infrastructures (RIs): CESSDA, ESS Survey, DARIAH, CLARIN, SHARE, and E-RIHS.
 
 Software tools play a crucial role in enabling the use of data in the social sciences and humanities. These tools are often distributed in a manner similar to research data, as data packages with attached metadata descriptions.
 

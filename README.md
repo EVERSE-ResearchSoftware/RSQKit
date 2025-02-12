@@ -9,11 +9,28 @@ Research Software Quality Kit (RSQKit), developed as part of [EVERSE project](ht
 > Any content should not be considered final at this stage.
 
 ## Contributing
-Please see our [contribution guidelines](CONTRIBUTING.md) and consider joining RSQKit Editorial Board if you want to add new content into RSQKit.
 
-## Acknowledegments
+The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot. 
+During this phase, we mainly organise contributions through the EVERSE project's internal documents and communication channels, although it is possible for people external to the project to contribute. 
+We particularly welcome reports on issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
+
+The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board](http://everse.software/RSQKit/editorial_board), who are also acting as the official **Maintainers** of the RSQKit repository. 
+The RSQKit **Editorial Board Members** work together with general **Contributors** to identify where and how their contribution fits best in RSQKit.
+
+Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on how to contribute to RSQKit or [Installation Guide](INSTALL.md) on how to install and run RSQKit locally.
+
+## License
+
+Information about the licenses that apply to RSQKit can be found in [LICENSE.md](LICENSE.md).
+
+
+## Contact
+
+Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this lesson.
+
+## Acknowledgements
 
 [RSQKit website](http://everse.software/RSQKit/) is heavily inspired and replicating the work done by ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/) within the research software space and is built using the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/).
 
 ## Funding
-[EVERSE project](https://everse.software/) is funded by the European Commission HORIZON-INFRA-2023-EOSC-01-02 call. 
+EVERSE project is funded by the [European Commission HORIZON-INFRA-2023-EOSC-01-02](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2023-eosc-01-02).

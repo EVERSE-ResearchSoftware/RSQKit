@@ -1,11 +1,27 @@
-copyright: Copyright EVERSE consortium
-extra_line: 
+copyright: Copyright of content remains with authors or their organisations. Content is licensed under a [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+extra_line:
 columns:
   - type: image
     image_width: 150px
     width: 3
     src: 'assets/img/everse_logo.png'
     alt: EVERSE logo
+  - type: links
+    width: 1
+    children:
+      - url_text: Get involved
+        url: /how_to_get_involved
+      - url_text: EVERSE
+        url: https://everse.software
+  - type: links
+    width: 1
+    children:
+      - url_text: About
+        url: /about
+      - url_text: Contact
+        url: /contact
+      - url_text: Privacy
+        url: /privacy
   - type: image
     image_width: 100px
     width: 2
