@@ -83,6 +83,11 @@ subitems:
         subitems:
         - title: SSHOC
           url: /sshoc
+      - title: Environmental sciences
+        url: /environmental_sciences
+        subitems:
+        - title: ENVRI
+          url: /envri
   - title: All tools and resources
     url: /all_tools_and_resources
 #  - title: All training resources
