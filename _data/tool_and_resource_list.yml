@@ -96,7 +96,7 @@
   name: Visual Studio Code
   url: https://code.visualstudio.com/
 - description: Integrated development environment (IDE) written in Java.
-  id: intellij idea
+  id: intellij-idea
   name: IntelliJ IDEA
   url: https://www.jetbrains.com/fr-fr/idea/
 - description: Python packaging and dependency management tool
@@ -463,3 +463,8 @@
   id: calendar-versioning
   name: Calendar Versioning
   url: https://calver.org/
+- description: FAIR Python Cookiecutter is a cookiecutter template command-line tool to help you kickstart a modern best-practice Python project with FAIR metadata
+  id: fair-python-coockiecutter
+  name: FAIR Python Coockiecutter
+  url: https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter
+  

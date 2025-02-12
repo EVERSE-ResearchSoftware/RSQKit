@@ -38,6 +38,8 @@ subitems:
     url: /your_tasks
     image_url: /assets/img/section-icons/tick.svg
     subitems:
+      - title: "Organising your software project's directory"
+        url: /organising_software_project
       - title: Writing readable code
         url: /readable_code
       - title: "Creating a 'Read the Docs' Page"
