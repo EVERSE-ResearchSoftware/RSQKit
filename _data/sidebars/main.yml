@@ -71,7 +71,7 @@ subitems:
     subitems:
       - title: ESCAPE
         url: /escape
-      - title: PANOSC
+      - title: PaNOSC
         url: /panosc
       - title: SSHOC
         url: /sshoc

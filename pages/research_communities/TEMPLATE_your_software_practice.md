@@ -9,6 +9,9 @@ type: research_community
 
 <!-- Please keep all sections and fill them in, if this is not possible you may remove them (you will need to explain to the editorial board in your pull request why certain sections are not present). The text describing what is needed in the sections can be removed. (this comment can be deleted in your final page)-->
 
+<!-- Once you have completed your research community entry - please add it to _data/sidebars/main.yml under the reseach communities entry (this comment can be deleted in your final page)  -->
+
+
 ## The Problem <!-- do not delete this heading and write your text below it -->
 
 Describe the problem your software is trying to solve for your community.
