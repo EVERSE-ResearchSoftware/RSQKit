@@ -1,12 +1,11 @@
 ---
 title: "The title of you research community or initative" # short title
 search_exclude: true # set to false if you want this page to show up in search results
-description: "" # a description of the page
+description: "" # a description of the page - start this with the overall area under which the community sits e.g. 'Physics & Astronomy -', 'Biomedical sciences -', 'Social Sciences & humanities -', 'Life Sciences -', 'Environmental science -' or other if those do not encompass the more specific community you are addressing
 contributors: [] # a comma separated list of contributors' names, as found in _data/CONTRIBUTORS.yml
 page_id: # unique page id, e.g. lowercase title words separated by underscore(s) - for example page_id of 'ELIXIR' page could be elixir
+type: research_community
 ---
-
-<!-- Make sure to add the tools and resources mentioned in the text in the [_data/tool_and_resource_list.yml](_data/tool_and_resource_list.yml) file and then tag the page with such entries - e.g. {% tool "github" %} rather than using a markdown link formatting (this comment can be deleted in your final page)-->
 
 <!-- Please keep all sections and fill them in, if this is not possible you may remove them (you will need to explain to the editorial board in your pull request why certain sections are not present). The text describing what is needed in the sections can be removed. (this comment can be deleted in your final page)-->
 

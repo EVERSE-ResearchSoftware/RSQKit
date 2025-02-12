@@ -2,7 +2,8 @@
 title: Research communities
 ---
 
-This section lists research communities and software uses within those communities. 
+This section lists software uses within reserch communities. 
 
 
-{% include section-navigation-tiles.html type="research_communities" search=true col=3 %}
+{% include section-navigation-tiles.html type="research_community" search=true col=3 %}
+
