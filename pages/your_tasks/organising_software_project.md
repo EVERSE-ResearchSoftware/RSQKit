@@ -1,5 +1,5 @@
 ---
-title: How to organise your software project's directory
+title: How to organise your software project
 description: Good practice for organising files in a software project (or a research project in general) 
 contributors: ["Aleksandra Nenadic"]
 page_id: organising_software_project
