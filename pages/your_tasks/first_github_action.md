@@ -1,24 +1,16 @@
 ---
 title: How to add your first GitHub action
-search_exclude: true
-description: This document provides a step-by-step guide on how to set up a GitHub Action in your repository. It covers the basics of creating workflows, using pre-built actions from the GitHub Marketplace, and automating testing with GitHub Actions.
+search_exclude: false
+description: Step-by-step guide that covers workflow creation, using pre-built actions from the GitHub Marketplace, and automating testing with GitHub Actions.
 contributors: [Eva Martín del Pico]
 page_id: first_github_action
-related_pages: [<!---REPLACE THIS with the page comma-separated page IDs of the pages that are related to the current page--->]
-# More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
-training:
-  - name:
-    registry:
-    url:
-# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+related_pages: 
+  your_tasks: []
 ---
-<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
 
 ## How to add an action to my GitHub repository?
  
 ### Description
-
-Short explanation of what this problem is about.
 
 GitHub Actions is a powerful automation tool that allows you to define workflows for your repository. It helps automate tasks such as testing, building, and deploying code. Setting up your first GitHub Action enables you to streamline development processes and improve efficiency.
 
