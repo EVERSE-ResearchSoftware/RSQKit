@@ -33,10 +33,11 @@ in effective digital communication, who can help in keeping the quality of conte
 
 * Careful consideration and examination of topics proposed by Contributors, to make sure it is relevant for the RSQKit.
 * Work together with Contributors to identify where and how and their contribution fits best in RSQKit.
-* Provide timely feedback for improving the quality of the content, according to the RSQKit metadata and style guides.
+* Before approving changes to RSQKit content, go through the [**Editors Checklist**][editors_checklist] to make sure all conditions are met.
+* Provide timely feedback for improving the quality of the content, according to the RSQKit [**Metadata Guidelines**][metadata_guidlines] and [**Page Style Guidelines**][page_style_guidelines].
 * Formatting content according to RSQKit templates.
 * Join the weekly Editorial Board meeting.
-* Maintain the RSQKit GitHub repository.
+* Maintain the [RSQKit GitHub][rsqkit-repo] repository.
 
 ### Requirements
 
@@ -57,3 +58,10 @@ To become part of the Editorial Board, please provide:
 * List of the RSQKit sections that you are most interested in (or feel are missing).
 
 Email your application to the [Editorial Board](mailto: rsqkit@lists.certh.gr).
+
+
+[metadata_guidlines]: ./metadata_guidelines
+[page_style_guidelines]: ./page_style_guidelines
+[editors_checklist]: ./editors_checklist
+[contributors]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yml
+[rsqkit-repo]: https://github.com/EVERSE-ResearchSoftware/RSQKit

@@ -11,7 +11,7 @@
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
 #   qualityIndicator:  Research Software Quality indicator (see quality_indicators.yml file in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
-- description: The SPDX License List is an integral part of the SPDX Specification. The SPDX License List itself is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation
+- description: The System Package Data Exchange (SPDX) License List is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation, and is an integral part of the SPDX Specification.
   id: spdx
   name: SPDX License List
   url: https://spdx.org/licenses/
@@ -19,7 +19,7 @@
   id: rsqkit
   name: RSQKit
   url: https://everse.software/RSQKit/ 
-- description: A tool to help you choose an open source license for your software
+- description: Choose an open source license is a tool to help you choose an open source license for your software. An open source license protects contributors, users and developers.
   id: choosealicense
   name: Choose an open source license
   url: https://choosealicense.com/
@@ -27,7 +27,7 @@
   id: bash
   name: Bash
   url: https://www.gnu.org/software/bash/
-- description: PowerShell is a task automation and configuration management framework from Microsoft, featuring a command-line shell and a scripting language. It is designed to help system administrators and power users control and automate the administration of Windows and other Microsoft technologies.
+- description: PowerShell is a Microsoft task automation and configuration management framework, featuring a command-line shell and a scripting language. It is designed to help system administrators and power users control and automate the administration of Windows and other Microsoft technologies.
   id: powershell
   name: PowerShell
   url: https://learn.microsoft.com/en-gb/powershell/
@@ -47,7 +47,7 @@
   id: julia
   name: Julia
   url: https://julialang.org/
-- description: R is a programming language and environment designed for statistical computing and graphics, widely used by data scientists, statisticians, and researchers. Known for its extensive libraries and rich visualization capabilities, R excels in data analysis, modeling, and reproducible research
+- description: R is a programming language and environment designed for statistical computing and graphics, widely used by data scientists, statisticians, and researchers. Known for its extensive libraries and rich visualization capabilities, R excels in data analysis, modelling, and reproducible research.
   id: r
   name: R
   url: https://www.r-project.org/
@@ -71,7 +71,7 @@
   id: java
   name: Java
   url: https://www.java.com/en/
-- description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
+- description: Docker is a software for executing applications in virtualized environments called containers. Docker allows developers to build, share, run and verify applications easily. It is linked to DockerHub, a library for sharing container images.
   id: docker
   name: Docker
   registry:
@@ -79,24 +79,24 @@
     fairsharing-coll: bsg-d001254
     tess: Docker
   url: https://www.docker.com/
-- description: Command line tool to analyze a GitHub or GitLab repository's compliance with the fair-software.eu recommendations.
+- description: Howfariris is a command line tool to analyze a GitHub or GitLab repository's compliance with the EU FAIR software recommendations.
   id: howfairis
   name: howfairis
   url: https://github.com/fair-software/howfairis
-- description: Software development, sharing and version control platform
+- description: GitHub is a platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control. GitHub provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
   id: github
   name: GitHub
   url: https://github.com/
-- description: Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes
+- description: Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN. It allows researchers to deposit research papers, data sets, research software, reports, and other research-related digital artefacts.
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
-- description: An Integrated Development Environment (IDE) (commonly referred to as VS Code) developed by Microsoft
+- description: Visual Studio Code, commonly referred to as VS Code, is an Integrated Development Environment (IDE) developed by Microsoft that includes support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded version control with Git.
   id: vscode
   name: Visual Studio Code
   url: https://code.visualstudio.com/
 - description: Integrated development environment (IDE) written in Java.
-  id: intellij idea
+  id: intellij-idea
   name: IntelliJ IDEA
   url: https://www.jetbrains.com/fr-fr/idea/
 - description: Python packaging and dependency management tool
@@ -463,3 +463,8 @@
   id: calendar-versioning
   name: Calendar Versioning
   url: https://calver.org/
+- description: FAIR Python Cookiecutter is a cookiecutter template command-line tool to help you kickstart a modern best-practice Python project with FAIR metadata
+  id: fair-python-coockiecutter
+  name: FAIR Python Coockiecutter
+  url: https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter
+  

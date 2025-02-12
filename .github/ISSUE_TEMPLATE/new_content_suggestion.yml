@@ -1,0 +1,29 @@
+name: Suggest new content (e.g. a new task page)
+description: Tell us what new content you are suggesting
+body:
+  - type: textarea
+    id: title
+    attributes:
+      label: What is the topic of the new content?
+      description: Please provide the suggested title
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Description of the new content      
+      description: Please provide details of the suggested new content and where it would fit in RSQKit
+    validations:
+      required: true  
+  - type: textarea
+    id: location
+    attributes:
+      label: Section within RSQKit for the new content      
+      description: Which section of RSQKit should this content appear under?
+    validations:
+      required: true   
+  - type: markdown
+    attributes:
+      value: >
+        Thank you for taking time to suggest an improvement to this repository.        
+        Please keep in mind that lesson Maintainers may be some time before they can respond to your contribution.

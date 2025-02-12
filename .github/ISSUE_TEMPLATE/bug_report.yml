@@ -1,0 +1,21 @@
+name: Report a problem
+description: Tell us about something that needs to be fixed
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: What is the problem?
+      description: Please provide details, to make it easier for the Maintainers to address the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location of the problem (optional)
+      description: Where is the problem that needs to be fixed? (e.g. the name of the source file or the URL(s) of the webpage(s))
+  - type: markdown
+    attributes:
+      value: >
+        Thank you for taking time to tell us about a problem in this repository.
+        Please keep in mind that Maintainers may take some time before they can respond to your contribution. 
+  
