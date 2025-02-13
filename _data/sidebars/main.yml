@@ -69,25 +69,14 @@ subitems:
   - title: Research communities
     url: /research_communities
     subitems:
-      - title: Physics & astronomy
-        url: /physics_astronomy
-        subitems:
-        - title: ESCAPE
-          url: /escape
-        - title: PANOSC
-          url: /panosc
-      - title: Biomedical sciences
-        url: /biomed_sciences
-      - title: Social sciences & humanities
-        url: /soc_sciences_humanities
-        subitems:
-        - title: SSHOC
-          url: /sshoc
-      - title: Environmental sciences
-        url: /environmental_sciences
-        subitems:
-        - title: ENVRI
-          url: /envri
+      - title: ESCAPE
+        url: /escape
+      - title: PaNOSC
+        url: /panosc
+      - title: SSHOC
+        url: /sshoc
+      - title: ENVRI
+        url: /envri
   - title: All tools and resources
     url: /all_tools_and_resources
 #  - title: All training resources

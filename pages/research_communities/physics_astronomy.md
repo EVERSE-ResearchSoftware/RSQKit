@@ -1,3 +1,0 @@
----
-title: Physics & Astronomy
----
