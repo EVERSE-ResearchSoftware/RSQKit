@@ -23,6 +23,8 @@ This is not an exact science, and by all means the list below is not exhaustive,
 but any of the practices that you employ in your research software workflow will bring you
 closer to the gold standard of fully reproducible research.
 
+[Five Recommendations for FAIR Software](https://fair-software.eu/) is a quick overview of what is making software more FAIR entails.
+
 ### Findable
 - Create a description of your software to make it discoverable by search engines and other search tools
 - Use standards (such as [CodeMeta][codemeta]) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
