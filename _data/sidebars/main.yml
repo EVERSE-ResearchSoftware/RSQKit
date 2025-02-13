@@ -69,6 +69,8 @@ subitems:
   - title: Research communities
     url: /research_communities
     subitems:
+      - title: ENVRI
+        url: /envri
       - title: ESCAPE
         url: /escape
       - title: PaNOSC
