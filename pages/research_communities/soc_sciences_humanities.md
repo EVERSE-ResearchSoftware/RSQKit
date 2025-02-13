@@ -1,3 +1,0 @@
----
-title: Social Sciences & Humanities
----
