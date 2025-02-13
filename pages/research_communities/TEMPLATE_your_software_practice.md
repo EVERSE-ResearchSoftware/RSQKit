@@ -62,7 +62,7 @@ Describe the community that use your software (e.g. in your pilot, exeplar or ho
 
 ## Sustainability <!-- do not delete this heading and write your text below it -->
 
-- How is the software production manageda e.g. are there governance structures
+- How is the software production managed, e.g. are there any governance structures in place
 - How is it funded
 - Who are active contributors
 
