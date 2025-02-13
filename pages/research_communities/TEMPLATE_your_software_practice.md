@@ -1,7 +1,7 @@
 ---
 title: "The title of you research community or initative" # short title
 search_exclude: true # set to false if you want this page to show up in search results
-description: "" # a description of the page - start this with the overall area under which the community sits e.g. 'Physics & astronomy -', 'Biomedical sciences -', 'Social sciences & humanities -', 'Life sciences -', 'Environmental science -' or other if those do not encompass the more specific community you are addressing
+description: "" # a description of the page - start this with the overall area under which the community sits e.g. 'Physics & astronomy -', 'Biomedical sciences -', 'Social sciences & humanities -', 'Life sciences -', 'Environmental sciences -' or other if those do not encompass the more specific community you are addressing
 contributors: [] # a comma separated list of contributors' names, as found in _data/CONTRIBUTORS.yml
 page_id: # unique page id, e.g. lowercase title words separated by underscore(s) - for example page_id of 'ELIXIR' page could be elixir
 type: research_community
