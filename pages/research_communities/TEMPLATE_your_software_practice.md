@@ -23,7 +23,7 @@ Describe the community that use your software (e.g. in your pilot, exeplar or ho
 - Describe how the development is organised (e.g. is it one person, many, how are they organised)
 - Who are the users - how experienced are they
 
-## Technical aspects <!-- do not delete this heading and write your text below it -->
+## Technical Aspects <!-- do not delete this heading and write your text below it -->
 
 - What is the tier(s) of software involved (e.g. Tier1: Analysis code; Tier 2: Prototype Tools; Tool 3: Research software infrastructure (including services))
 - Techical specifications:
@@ -31,7 +31,7 @@ Describe the community that use your software (e.g. in your pilot, exeplar or ho
    - any measures of the codebase (e.g. size, complexity, activity, how long it's been running)
    - deployment requirements (e.g. does it need a HPC - what compute/data or contextual requirements does it require)
 
-## Software practices <!-- do not delete this heading and write your text below it -->
+## Software Practices <!-- do not delete this heading and write your text below it -->
 
 - What practices do you use to develop the software (e.g. version control, contribution policy, other practices)
 
@@ -66,7 +66,7 @@ Describe the community that use your software (e.g. in your pilot, exeplar or ho
 - How is it funded
 - Who are active contributors
 
-## Commnity or Domain resources <!-- do not delete this heading and write your text below it -->
+## Commnity or Domain Resources <!-- do not delete this heading and write your text below it -->
 
 - Are there any guides, training or other resources that are referred to for developing software in your community.
 - Are there any guides, training or other resources for the software produced for your community
@@ -75,7 +75,7 @@ Describe the community that use your software (e.g. in your pilot, exeplar or ho
 
 How are developers and contributors to the software rewarded in your community (e.g. is their increased recognition, does it help with careers)
 
-## Libraries and system <!-- do not delete this heading and write your text below it -->
+## Libraries and Systems <!-- do not delete this heading and write your text below it -->
 
 Please list any domain/community specific libraries and systems you make use of in this software solution.
 
