@@ -66,7 +66,7 @@ Describe the community that use your software (e.g. in your pilot, exeplar or ho
 - How is it funded
 - Who are active contributors
 
-## Commnity or Domain Resources <!-- do not delete this heading and write your text below it -->
+## Community or Domain Resources <!-- do not delete this heading and write your text below it -->
 
 - Are there any guides, training or other resources that are referred to for developing software in your community.
 - Are there any guides, training or other resources for the software produced for your community
