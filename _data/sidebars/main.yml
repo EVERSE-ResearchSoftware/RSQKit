@@ -69,14 +69,14 @@ subitems:
   - title: Research communities
     url: /research_communities
     subitems:
+      - title: ENVRI
+        url: /envri
       - title: ESCAPE
         url: /escape
       - title: PaNOSC
         url: /panosc
       - title: SSHOC
         url: /sshoc
-      - title: ENVRI
-        url: /envri
   - title: All tools and resources
     url: /all_tools_and_resources
 #  - title: All training resources
