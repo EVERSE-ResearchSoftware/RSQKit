@@ -26,6 +26,17 @@ subitems:
         url: /sustainability
       - title: Open Source Software
         url: /open_source
+  - title: Research communities
+    url: /research_communities
+    subitems:
+      - title: ENVRI
+        url: /envri
+      - title: ESCAPE
+        url: /escape
+      - title: PaNOSC
+        url: /panosc
+      - title: SSHOC
+        url: /sshoc
   - title: Your role
     description: Definition of the different persona types associated with Research Software
     url: /your_role
@@ -66,17 +77,6 @@ subitems:
         url: /version_control
       - title: Software documentation
         url: software_documentation
-  - title: Research communities
-    url: /research_communities
-    subitems:
-      - title: ENVRI
-        url: /envri
-      - title: ESCAPE
-        url: /escape
-      - title: PaNOSC
-        url: /panosc
-      - title: SSHOC
-        url: /sshoc
   - title: All tools and resources
     url: /all_tools_and_resources
 #  - title: All training resources
