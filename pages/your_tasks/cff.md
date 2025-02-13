@@ -36,9 +36,9 @@ to get an overview of all supported metadata. Keep in mind that you do not have 
 
 ### Solutions <!-- do not delete this heading and write your text below it -->
 * Create a `CITATION.cff` file by either:
-  * using the [CFFinit](https://citation-file-format.github.io/cff-initializer-javascript/#/) online tool, which will help you create a valid `CITATION.cff` file which you can download. You can also use the CFFinit tool to update an existing `CITATION.cff` file by pasting its contents in the tool's online form, upadating the fields and saving it.
+  * using the [CFFinit](https://citation-file-format.github.io/cff-initializer-javascript/#/) online tool, which will help you create a valid `CITATION.cff` file which you can download. You can also use the CFFinit tool to update an existing `CITATION.cff` file by pasting its contents in the tool's online form, updating the fields and saving it.
   * manually copying and pasting the [example snippet](https://github.com/citation-file-format/citation-file-format?tab=readme-ov-file#structure) and adapting it to your needs. You can then use [cffconvert](https://pypi.org/project/cffconvert/) to validate your `CITATION.cff` file. 
-* Once you have created a correct `CITATION.cff` file, you can add it to the root directory or your source code repository.
+* Once you have created a correct `CITATION.cff` file, you can add it to the root directory of your source code repository.
 
 A more detailed description on how to create `CITATION.cff` files can be found on the [Turing Way](https://book.the-turing-way.org/communication/citable/citable-cff.html). You can find a list of 
 additional tools to create, validate and convert `CITATION.cff` files in the [CFF GitHub Repository](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench).
