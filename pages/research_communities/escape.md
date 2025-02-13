@@ -26,4 +26,4 @@ The [Open-source Scientific Software and Service Repository](https://escape-ossr
 
 ### Other services
 
-More services for citizen science, open data and data analysis can be found in the [ESCAPE services catalogue](https://projectescape.eu/services)
+More services for citizen science, open data and data analysis can be found in the [ESCAPE services catalogue](https://projectescape.eu/services).
