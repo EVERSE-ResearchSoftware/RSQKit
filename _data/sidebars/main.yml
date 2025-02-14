@@ -57,6 +57,8 @@ subitems:
         url: /creating_readthedocs
       - title: Releasing code
         url: /releasing_code
+      - title: Creating a CITATION.cff file
+        url: /cff
       - title: Environmental sustainability of research software
         url: /environmental_sustainability
       - title: Creating README documents for software
