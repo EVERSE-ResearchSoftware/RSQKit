@@ -69,7 +69,7 @@ subitems:
         url: /codemeta
       - title: Licensing software
         url: /licensing_software
-      - title: Obtaining a DOI for software
+      - title: Obtaining a DOI via Zenodo for software
         url: /zenodo_doi
       - title: Reproducible virtual software development environments
         url: /virtual_dev_environments
