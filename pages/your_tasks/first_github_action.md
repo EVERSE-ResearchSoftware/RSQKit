@@ -12,7 +12,7 @@ related_pages:
  
 ### Description
 
-GitHub Actions is a powerful automation tool that allows you to define workflows for your repository. It helps automate tasks such as testing, building, and deploying code. Setting up your first GitHub Action enables you to streamline development processes and improve efficiency.
+{% tool "github-actions" %} is a powerful automation tool that allows you to define workflows for your repository. It helps automate tasks such as testing, building, and deploying code. Setting up your first GitHub Action enables you to streamline development processes and improve efficiency.
 
 ### Considerations
 
