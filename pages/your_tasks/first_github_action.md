@@ -99,7 +99,6 @@ GitHub Actions is a powerful automation tool that allows you to define workflows
       ```
     
 
- Eva Martín del Pico, [](). [Last date of access]. 
 
 ## Tools and resources 
 
