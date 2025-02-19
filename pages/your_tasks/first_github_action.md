@@ -100,7 +100,7 @@ related_pages:
     
 
 
-## Tools and resources 
+## Further guidance
 
 * **General documentation:**
 
