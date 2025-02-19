@@ -66,6 +66,7 @@ GitHub Actions is a powerful automation tool that allows you to define workflows
   * Copy the code provided under the **"Use latest version"** section and add it to your workflow file.   
 
   * For example, you could decide to use the [pre-built Python setup action](https://github.com/marketplace/actions/setup-python) to ensure the correct Python version is available for running scripts, tests, or installations. Copy the following `step` into your workflow file:
+    
     ```yaml
     - name: Setup Python
       uses: actions/setup-python@v4
