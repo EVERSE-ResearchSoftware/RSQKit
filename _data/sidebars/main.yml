@@ -79,6 +79,8 @@ subitems:
         url: /version_control
       - title: Software documentation
         url: software_documentation
+      - title: How to add your first GitHub action
+        url: first_github_action
   - title: All tools and resources
     url: /all_tools_and_resources
 #  - title: All training resources
