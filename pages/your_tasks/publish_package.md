@@ -2,7 +2,7 @@
 title: "Publishing a package in a package repository" # short title
 search_exclude: true # set to false if you want this page to show up in search results
 description: "" # a description of the page
-contributors: [] # a comma separated list of contributors' names, as found in _data/CONTRIBUTORS.yml
+contributors: [Eva Martín del Pico] # a comma separated list of contributors' names, as found in _data/CONTRIBUTORS.yml
 page_id: # unique page id, e.g. lowercase title words separated by underscore(s) - for example page_id of 'version control' page could be version_control
 related_pages:
   your_tasks: [] # A comma-separated page_ids of the task pages that are related to the current page
