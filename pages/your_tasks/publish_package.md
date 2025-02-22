@@ -38,7 +38,7 @@ This document specifically covers publishing Python packages to **{% tool "pypi"
 
 * Ensure all dependencies are correctly listed and compatible.
 
-* You can use semantic versioning (SemVer) to indicate changes clearly.
+* You can use {% tool "semantic-versioning" %} to indicate changes clearly.
 
 * Include a valid open-source or commercial license and relevant documentation for users. 
 
