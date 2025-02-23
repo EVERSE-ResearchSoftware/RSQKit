@@ -11,6 +11,9 @@
 # You can reference contributors by their name in the fromntmatter section of content pages using parameter "contributors".
 
 
+Eva Martín del Pico:
+    git: EvaMart
+    orcid: 0000-0001-8324-2897
 Laura Portell-Silva:
     git: lauportell
     email: laura.portell@bsc.es
