@@ -94,7 +94,7 @@ This document specifically covers publishing Python packages to **{% tool "pypi"
     password = YOUR_PYPI_API_TOKEN
     ```
 
-  * Install `twine` and upload the package: 
+  * Install `twine` (allows secure upload to PyPI) and upload the package: 
 
     ```bash
     pip install twine
