@@ -81,6 +81,8 @@ subitems:
         url: software_documentation
       - title: How to add your first GitHub action
         url: first_github_action
+      - title: Publishing a package in a package repository
+        url: publish_package
   - title: All tools and resources
     url: /all_tools_and_resources
 #  - title: All training resources
