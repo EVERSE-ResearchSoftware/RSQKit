@@ -160,7 +160,7 @@ Fotis Psomopoulos:
 
 
 ## Metadata attributes of an affiliation
-Finally, the an affiliation may be described with the following metadata:
+An affiliation may be described with the following metadata:
 
 * `name`: Name of the institution. The name will be used as an identifier from other pages.
 * `expose`: Flag to indicate whether to show the affiliation or not
