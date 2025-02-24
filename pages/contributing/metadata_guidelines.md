@@ -59,7 +59,6 @@ Pages will often include references to existing tools, which are further describ
 ```
 {% endraw %}
 
-For an example, see a [sample task page](https://raw.githubusercontent.com/EVERSE-ResearchSoftware/RSQKit/refs/heads/main/pages/your_tasks/zenodo_doi.md)
 
 Tools that are mentioned this way will be described in the mains tools and resources table. If you are confused about using the syntax, please [use a sample task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/zenodo_doi.md) as reference, or ask for help to the reviewers when contributing your content. The metadata attributes of a tool may be browsed below.
 
