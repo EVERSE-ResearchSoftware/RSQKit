@@ -137,7 +137,7 @@ Dimensions are maintained in [https://github.com/EVERSE-ResearchSoftware/RSQKit/
 
 
 ## Metadata attributes of a contributor
-Contributors are maintained in the [`CONTRIBUTORS.yaml` file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yml). Each contributor supports the metadata fields outlined below:
+Contributors are maintained in the [`CONTRIBUTORS.yml` file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yml). Each contributor supports the metadata fields outlined below:
 
 * `Full Name`: full name and surname of the contributor. It serves as an identifier.
 * `git`: GitHub user id.
