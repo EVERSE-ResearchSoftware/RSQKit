@@ -46,7 +46,6 @@ When creating a new page in RSQKit, the following metadata attributes may be edi
   related_pages: 
     - your_tasks: [page_id1, page_id2]
     - your_domain: [page_id1, page_id2]
-    - tool_assembly: [page_id1, page_id2]
   ``` 
 
 
