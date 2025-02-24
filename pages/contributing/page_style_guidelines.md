@@ -3,7 +3,7 @@ title: Page Style Guidelines
 ---
 
 In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and their more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf). 
-Below are the style guidelines specific to the pages in RSQKit (adapted from [RDKkit Style Guide](https://rdmkit.elixir-europe.org/style_guide)). 
+Below are the style guidelines specific to the pages in RSQKit (adapted from [RDMkit Style Guide](https://rdmkit.elixir-europe.org/style_guide)). 
 
 ## General style and tone
 

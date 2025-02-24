@@ -2,3 +2,181 @@
 title: Metadata Guidelines
 summary: Descriptions of different metadata schemas used to describe various resources and pages in RSQKit
 ---
+
+In this page we describe the metadata schemas  used to describe various resources and pages in the RSQKit (adapted from the [RDMKit page metadata guide](https://rdmkit.elixir-europe.org/page_metadata)).
+
+## Metadata attributes of a page
+When creating a new page in RSQKit, the following metadata attributes may be edited:
+
+* `title`: Specify here the title of the page. This wil be the H1 title (replacing the top level title using the # in markdown )
+
+* `summary`: Using this attribute it is possible to specify a summary which will be displayed under the title of the page. This summary will also be used as description of your page when the page is tagged.
+
+* `description`: Short sentence about the page starting with a lowercase. This sentence is visualized when pages are automatically listed using a tag.
+
+* `contributors`: list here all the contributors that helped in establishing the page. This will be the full name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information (see below for contributor metadata).
+
+* `search_exclude`: by setting this field true, the page will not end up in the search results of the searchbar. By default this is false.
+
+* `sitemap`: let the page appear in the sitemap.xml. Default: true
+
+* `no_robots`: by setting this field to true, the page will not end up in the search results of google or any other search engine.
+
+* `hide_sidebar`: When true, the sidebar will be hidden. Default: false.
+
+* `custom_editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button.
+
+* `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page, lowercase.
+
+* `sidebar`: Specify here an alternative sidebar. Default: main.
+
+* `toc`: When set to false, the table of contents in the beginning of the page will not be generated.
+
+* `page_id`: Unique identifier of a page. It is usually a shortened version of the page name or title, with small letters and spaces, or an acronym, with capital and small letters. Used to list `Related` pages.
+
+* `datatable`: use this attribute to activate the pagination + sorting + searching in tables
+
+### Related pages
+
+* `related_pages`: List here the `page_id` of {{site.title}} pages that you want to display as Related pages, grouped by section.
+
+  If you want pages from the specific section (Your tasks, Your domain, Tool assembly) to be shown here as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
+
+  ```yml
+  related_pages: 
+    - your_tasks: [page_id1, page_id2]
+    - your_domain: [page_id1, page_id2]
+    - tool_assembly: [page_id1, page_id2]
+  ``` 
+
+
+### Tools and resources
+
+Pages will often include references to existing tools, which are further described in the RSQKit. To refer to a tool, first make sure they exist  in the [tool and resource list file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/tool_and_resource_list.yml). Then, link to the tool from your page by using the following syntax:
+
+```
+{% tool "tool name" %}
+```
+
+Tools that are mentioned this way will be described in the mains tools and resources table. If you are confused about using the syntax, please [use a sample task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/zenodo_doi.md) as reference, or ask for help to the reviewers when contributing your content. The metadata attributes of a tool can be browsed below.
+
+## Metadata attributes of a tool
+Tools are maintained in the [tool and resource list file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/tool_and_resource_list.yml). A tool may have the following attributes: 
+
+* `description`: A short description of the purpose of the tool or resource
+* `id`: Identifier by which the tool will be references on other pages.
+* `name`: Name of the tool or resource
+* `registry`: This is followed by a list of registry-tag:search-string combinations indented below which search for further information about this tool  
+       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
+* `url`: Homepage of the tool/resource
+* `qualityIndicator`: Research Software Quality indicator (see [quality_indicators.yml](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_indicators.yml)) associated with this tool. More than one quality indicator may be declared per tool (in a list).
+
+These attributes are a subset of the [EVERSE RS metadata schema](https://w3id.org/everse/rs#).
+
+An example of a tool can be seen below:
+```yml
+- description: The System Package Data Exchange (SPDX) License List is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation, and is an integral part of the SPDX Specification.
+  id: spdx
+  name: SPDX License List
+  url: https://spdx.org/licenses/
+```
+
+## Metadata attributes of a research software quality indicator
+Just like tools, indicators are described in the RSQKit. We currently support the following descriptions of indicators (following the [RS indicator metadata schema](https://w3id.org/everse/rsqi/)): 
+
+* `identifier`: Identifier associated with the indicator.
+* `contact`: Contact person or organization associated with the indicator in EVERSE.
+* `name`: Name of the indicator (title).
+* `description`: A brief description of the indicator, stating its purpose and how to measure it. 
+* `keywords`: keywords to ease finding the indicator
+* `qualityDimension`: Research Software quality dimension associated with the indicator (see https://w3id.org/everse/rsqi for a full list) 
+* `version`: If the indicator has a version (some ISO standards may evolve indicators), it should be indicated here
+* `source`: The standard or reference document where the indicator was first proposed
+* `status`: States whether the indicator is still used or not (deprecated, obsolete, active, etc.)
+* `created`: Date of creation of the indicator
+
+Indicators are maintained in [https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_indicators.yml](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_indicators.yml). Example of an indicator:
+
+```yml
+- identifier: Do1 
+  description: >
+    Software includes clear contribution instructions, software purpose on project website, feedback channels, and version control practices.
+  contact: Daniel Garijo # see CONTRIBUTORS.yml to declare contacts
+  name: Contribution Process and Project Purpose
+  keywords:
+    - contribution guidelines
+    - feedback channel
+    - software purpose
+  qualityDimension:
+    - documentation 
+  source: https://www.bestpractices.dev/en/criteria/0
+  status: Active
+```
+
+## Metadata attributes of a research software quality dimension 
+Indicators can be grouped according to common categories or quality dimensions (defined following the [RS quality dimension metadata schema](https://w3id.org/everse/rsqd/)): 
+
+* `identifier`: Identifier associated with the dimension
+* `description`: A brief text describing the dimension
+* `name`: Name of the indicator (title)
+* `source`: The standard(s) or reference document(s) where the dimension was proposed, or adapted from
+
+Dimensions are maintained in [https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_dimensions.yml](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_dimensions.yml). En example dimension can be seen below:
+
+```yml
+- identifier: documentation 
+  description: >
+    Ability of the system to provide information helpful for identifying and resolving issues when it fails to work correctly. Existence of a helpdesk or issue tracking, bug reporting, enhancements and general support
+  name: Documentation and Supportability
+  source: 
+    - https://www.iso.org/standard/35733.html
+    - https://doi.org/10.5281/zenodo.10723608
+```
+
+
+## Metadata attributes of a contributor
+Contributors are maintained in the [`CONTRIBUTORS.yaml` file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yml). Each contributor supports the metadata fields outlined below:
+
+* `Full Name`: full name and surname of the contributor. It serves as an identifier.
+* `git`: GitHub user id.
+* `orcid`: ORCID user id.
+* `role`: the role of the contributor in the RSQKit (editor or leave empty)
+* `affiliation`: affiliation information. An identifier for the `affiliations.yml` file should be used.
+* `image_url`: absolute path to image (defaults to image from GitHub)
+
+You can reference contributors by their name in the fromntmatter section of content pages using parameter "contributors". An example of a contributor can be seen below:
+
+Example of a contributor: 
+```yml
+Fotis Psomopoulos:
+    git: fpsom
+    orcid: 0000-0002-0222-4273
+    email: email.@org.edu
+    role: editor
+    affiliation: Institute of Applied Biosciences(INAB|CERTH) / ELIXIR-GR
+```
+
+
+## Metadata attributes of an affiliation
+Finally, the an affiliation may be described with the following metadata:
+
+* `name`: Name of the institution. The name will be used as an identifier from other pages.
+* `expose`: Flag to indicate whether to show the affiliation or not
+* `type`: Type of affiliation. E.g., `institution`.
+* `url`: URL of the affiliation
+* `pid`: Persistent identifier of the affiliation (e.g., ROR id)
+* `image_url`: absolute path to image
+
+Institutions are maintained in the [`affiliations.yml` file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/affiliations.yml). A sample institution can be seen below:
+
+```yml
+- name: The University of Manchester
+  image_url: /images/institutions/logo-university-of-manchester.svg
+  expose: true
+  type: institution
+  url: https://www.manchester.ac.uk/
+  pid: https://ror.org/027m9bs27
+```
+
+
+
