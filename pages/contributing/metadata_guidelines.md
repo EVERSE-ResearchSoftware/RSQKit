@@ -55,7 +55,7 @@ Pages will often include references to existing tools, which are further describ
 
 {% raw %}
 ```
-{% tool "Tool name" %}
+{% tool "Tool id" %}
 ```
 {% endraw %}
 
