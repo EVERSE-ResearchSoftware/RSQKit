@@ -52,9 +52,17 @@ When creating a new page in RSQKit, the following metadata attributes may be edi
 
 ### Tools and resources
 
-Pages will often include references to existing tools, which are further described in the RSQKit. To refer to a tool, first make sure they exist  in the [tool and resource list file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/tool_and_resource_list.yml). Then, link to the tool from your page by using the following syntax `{%` followed by `tool` and the toolname, and closed by `%}`. For an example, see a [sample task page](https://raw.githubusercontent.com/EVERSE-ResearchSoftware/RSQKit/refs/heads/main/pages/your_tasks/zenodo_doi.md)
+Pages will often include references to existing tools, which are further described in the RSQKit. To refer to a tool, first make sure they exist  in the [tool and resource list file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/tool_and_resource_list.yml). Then, link to the tool from your page by using the following syntax:
 
-Tools that are mentioned this way will be described in the mains tools and resources table. If you are confused about using the syntax, please [use a sample task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/zenodo_doi.md) as reference, or ask for help to the reviewers when contributing your content. The metadata attributes of a tool can be browsed below.
+{% raw %}
+```
+{% tool "Tool name" %}
+```
+{% endraw %}
+
+For an example, see a [sample task page](https://raw.githubusercontent.com/EVERSE-ResearchSoftware/RSQKit/refs/heads/main/pages/your_tasks/zenodo_doi.md)
+
+Tools that are mentioned this way will be described in the mains tools and resources table. If you are confused about using the syntax, please [use a sample task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/zenodo_doi.md) as reference, or ask for help to the reviewers when contributing your content. The metadata attributes of a tool may be browsed below.
 
 ## Metadata attributes of a tool
 Tools are maintained in the [tool and resource list file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/tool_and_resource_list.yml). A tool may have the following attributes: 
