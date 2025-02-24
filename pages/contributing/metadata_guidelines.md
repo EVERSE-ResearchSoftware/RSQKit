@@ -92,7 +92,7 @@ Just like tools, indicators are described in the RSQKit. We currently support th
 * `description`: A brief description of the indicator, stating its purpose and how to measure it. 
 * `keywords`: keywords to ease finding the indicator
 * `qualityDimension`: Research Software quality dimension associated with the indicator (see https://w3id.org/everse/rsqi for a full list) 
-* `version`: If the indicator has a version (some ISO standards may evolve indicators), it should be indicated here
+* `version`: If the indicator has a version (e.g., some ISO standards specify indicators), it should be included here
 * `source`: The standard or reference document where the indicator was first proposed
 * `status`: States whether the indicator is still used or not (deprecated, obsolete, active, etc.)
 * `created`: Date of creation of the indicator
