@@ -146,7 +146,7 @@ Contributors are maintained in the [`CONTRIBUTORS.yml` file](https://github.com/
 * `affiliation`: affiliation information. An identifier for the `affiliations.yml` file should be used.
 * `image_url`: absolute path to image (defaults to image from GitHub)
 
-You can reference contributors by their name in the fromntmatter section of content pages using parameter "contributors". An example of a contributor can be seen below:
+You can reference contributors by their name in the page metadata section of content pages using parameter "contributors:". An example of a contributor can be seen below:
 
 Example of a contributor: 
 ```yml
