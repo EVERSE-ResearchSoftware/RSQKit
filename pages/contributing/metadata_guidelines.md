@@ -120,7 +120,7 @@ Indicators can be grouped according to common categories or quality dimensions (
 
 * `identifier`: Identifier associated with the dimension
 * `description`: A brief text describing the dimension
-* `name`: Name of the indicator (title)
+* `name`: Name of the dimension (title)
 * `source`: The standard(s) or reference document(s) where the dimension was proposed, or adapted from
 
 Dimensions are maintained in [https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_dimensions.yml](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_dimensions.yml). En example dimension can be seen below:
