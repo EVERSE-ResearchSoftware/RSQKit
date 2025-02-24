@@ -14,7 +14,7 @@ When creating a new page in RSQKit, the following metadata attributes may be edi
 
 * `description`: Short sentence about the page starting with a lowercase. This sentence is visualized when pages are automatically listed using a tag.
 
-* `contributors`: list here all the contributors that helped in establishing the page. This will be the full name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information (see below for contributor metadata).
+* `contributors`: list here all the contributors that helped in establishing the page. This will be the full name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yml file in the _data directory if you want to link the GitHub ID and other contact information (see below for contributor metadata).
 
 * `search_exclude`: by setting this field true, the page will not end up in the search results of the searchbar. By default this is false.
 
