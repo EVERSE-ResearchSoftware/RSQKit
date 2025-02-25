@@ -451,10 +451,6 @@
   id: conda
   name: Conda
   url: https://anaconda.org/anaconda/conda
-- description: Python project and dependency management and packaging tool
-  id: poetry
-  name: Poetry
-  url: https://python-poetry.org/
 - description: Semantic versioning (SemVer) is a widely-adopted version scheme that encodes a version of a project by a three-part version number (Major. Minor. Patch), an optional pre-release tag, and an optional build meta tag.
   id: semantic-versioning
   name: Semantic Versioning
@@ -463,6 +459,22 @@
   id: calendar-versioning
   name: Calendar Versioning
   url: https://calver.org/
+- description: Pkg.jl is a package manager for the Julia programming language.
+  id: pkg-jl
+  name: Pkg.jl
+  url: https://pkgdocs.julialang.org/v1/
+- description: Conan is an open source, decentralised and multi-platform package manager for C and C++ that allows for creating and sharing native binaries.
+  id: conan
+  name: Conan
+  url: https://conan.io/
+- description: Maven is a software project management and build automation tool used primarily for Java, but can also be used to build and manage projects written in C#, Ruby, Scala, and other programming languages.
+  id: maven
+  name: Maven
+  url: https://maven.apache.org/
+- description: Bundler is a Ruby gems and environment management tool for Ruby projects.
+  id: bundler
+  name: Bundler
+  url: https://bundler.io/
 - description: FAIR Python Cookiecutter is a cookiecutter template command-line tool to help you kickstart a modern best-practice Python project with FAIR metadata
   id: fair-python-coockiecutter
   name: FAIR Python Coockiecutter
@@ -471,3 +483,7 @@
   id: Documenter.jl
   name: Documenter.jl
   url: https://documenter.juliadocs.org/stable/  
+- description: Prettier is a code formatter to enforce a consistent style with its own rules for different languages, including JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular, GraphQL, Markdown, and YAML.
+  id: prettier-code-formatter
+  name: Prettier
+  url: https://prettier.io/  
