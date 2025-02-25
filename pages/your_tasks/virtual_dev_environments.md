@@ -1,7 +1,7 @@
 ---
 title: Reproducible virtual software development environments
 description: What are virtual software development environments for reproducible research and how to use them?
-contributors: ["Aleksandra Nenadic"]
+contributors: ["Aleksandra Nenadic", "Simon Christ"]
 page_id: virtual_environments
 related_pages:
   your_tasks: []
@@ -64,8 +64,7 @@ They also enable you to use a specific older version of a package for your proje
 
 Most modern programming languages use some kind of virtual environments or a similar mechanism to isolate libraries or dependencies for a specific project, 
 making it easier to develop, run, test and share code with others. 
-Some examples include Bundler for Ruby, Conan for C++, or Maven with classpath for Java. 
-This can also be achieved with more generic package (dependency) managers like Spack, which is used extensively in HPC settings to resolve complex dependencies. 
+Some examples can be seen in our [overview](#Overview). 
 
 Part of managing a virtual software development environment involves installing, updating and removing external packages on your system. 
 You would need a package manager tool for your programming language to be able to do that - this is typically a command line tool that you invoke from 
@@ -91,6 +90,18 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 
 * Decide on and start using a package manager tool and a virtual environment management tool for your programming language.
 
+### Overview
+
+| Programming language | Virtual environment frameworks |
+---
+| Python | {% tool "venv" %}, {% tool "poetry" %}, {% tool "conda" %} |
+| R | {% tool "conda" %}, {% tool "renv" %} |
+| Julia | {% tool "Pkg.jl" %} |
+| Ruby  | Bundler |
+| C++   | Conan   |
+| Java  | Maven   |
+| Generic | Spack, nix, guix |
+
 
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software
@@ -98,3 +109,4 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 [renv]: https://rstudio.github.io/renv/index.html
 [ssi]: https://www.software.ac.uk/
 [python-env-hell]: https://xkcd.com/1987/
+[Pkg.jl]: https://pkgdocs.julialang.org/v1/
