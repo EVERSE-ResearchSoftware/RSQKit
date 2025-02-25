@@ -471,4 +471,7 @@
   id: prettier-code-formatter
   name: Prettier
   url: https://prettier.io/
-  
+- description: Fast, Declarative, Reproducible and Composable Developer Environments using Nix
+  id: devenv
+  name: devenv
+  url: https://devenv.sh
