@@ -32,9 +32,9 @@ and saves future developers' time and effort.
 
 - Code is read much more often than it is written - [some sources][code-is-read-more-than-it-is-written] report that in a typical project the code 
 "read vs write" ratio is 7:1, i.e. code is read seven times more than it is written.
-- Readable code is easier to understand, maintain, debug and extend (reuse) - saving time and effort.
+- Readable code is easier to understand, maintain, debug, and extend (reuse) - saving time and effort.
 - Readable code can also make it better and more secure in a way, as it is easier for reviewers to pick out errors.
-
+- Typed code
 
 ### Solutions
 
@@ -71,6 +71,8 @@ creating a clear and logical layout for files and data, ensuring easy navigation
 
 Here is the summary of some of the practices to follow to make your code more readable:
 
+- If possible use type-annotations for untyped languages like, for example, python or java-script. In non-trivially sized software projects type annotations are a great help to understand code. Use a type-checker to validate your code, for example, {% tool "mypy" %} for python. This will reduce the risk of faulty type-annotations (it will also improve the quality of your code by detecting faulty assumptions).
+- If sufficient test coverage is provided, refactor your code to improve readability. 
 - Use consistent formatting - consistent indentation and spacing make code easier to understand and parse. 
 - Break code into sections - use blank lines to separate different parts of your code, like classes and functions. 
 - Use descriptive names for function, class and variable names that help explain their purpose.
@@ -86,6 +88,7 @@ are joining an existing project, look at the existing code and make sure to adop
 - Automate style checks to help ensure your code is consistent. Many modern Integrated Development Environments (IDEs), such as {% tool "vscode" %}, {% tool "pycharm" %}, {% tool "rstudio" %} or {% tool "eclipse" %}, 
 have built-in support for checking conformance to style conventions and they will warn you when you deviate or even autocorrect things for you.
 - Use {% tool "code-linters" %} - static code analysis tools (such as {% tool "pylint" %}) used to flag code consistency issues, stylistic errors, suspicious language constructs, and even programming errors and bugs.
+- Use automated code formatters (such as {% tool "black" %}) to enforce code styles and formatting rules.
 - Organise code into reusable and modular functions that achieve a singular purpose and are more easier to understand, test and reuse.
 - Use existing and well-tested libraries or packages for common functionality and tasks (e.g. reading and writing data in standard formats) to avoid duplication and reimplementing
 functionality in custom, more error-prone code.
@@ -103,7 +106,8 @@ functionality in custom, more error-prone code.
 [r-guidelines]: https://google.github.io/styleguide/Rguide.html
 [code-linters]: https://en.wikipedia.org/wiki/Lint_%28software%29
 [modular-code]: https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html
-[design-patterns-book]: https://refactoring.guru/design-pattern
+[static-vs-dynamic-typing]: https://quorumlanguage.com/evidence.html
+[design-patterns-book]: https://refactoring.guru/design-patterns
 [design-patterns]: https://en.wikipedia.org/wiki/Software_design_pattern
 [code-is-read-more-than-it-is-written]: https://primalskill.blog/code-is-read-more-than-it-is-written
-
+[clean-code-book]: https://www.oreilly.com/library/view/clean-code-a/9780136083238/
