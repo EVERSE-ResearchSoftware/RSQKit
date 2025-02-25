@@ -96,7 +96,7 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 ---
 | Python | {% tool "venv" %}, {% tool "poetry" %}, {% tool "conda" %} |
 | R | {% tool "conda" %}, {% tool "renv" %} |
-| Julia | {% tool "Pkg.jl" %} |
+| Julia | {% tool "pkg-jl" %} |
 | Ruby  | Bundler |
 | C++   | Conan   |
 | Java  | Maven   |
