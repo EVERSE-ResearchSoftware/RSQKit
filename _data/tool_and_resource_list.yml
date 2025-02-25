@@ -463,7 +463,7 @@
   id: calendar-versioning
   name: Calendar Versioning
   url: https://calver.org/
-- description: Pkg.jl: Julia's package manager.
+- description: "Pkg.jl: Julia's package manager."
   id: "Pkg.jl"
   name: "Pkg.jl"
   url: https://pkgdocs.julialang.org/v1/
