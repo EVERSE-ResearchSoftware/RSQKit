@@ -64,7 +64,6 @@ They also enable you to use a specific older version of a package for your proje
 
 Most modern programming languages use some kind of virtual environments or a similar mechanism to isolate libraries or dependencies for a specific project, 
 making it easier to develop, run, test and share code with others. 
-Some examples can be seen in our [overview](#Overview). 
 
 Part of managing a virtual software development environment involves installing, updating and removing external packages on your system. 
 You would need a package manager tool for your programming language to be able to do that - this is typically a command line tool that you invoke from 
@@ -82,6 +81,8 @@ Sometimes, a package manager combines both of these functionalities and you only
   a Python package and environment management system part of the Anaconda Python distribution (often used by the scientific community). {% tool "conda" %} has its own repository system separate from
   (but compatible with) PyPI that distributes non-Python packages packages as well and has its own non-venv-based virtual environment system.
   - If you are using R - consider {% tool "renv" %} that will help you build reproducible environments for your R projects
+  - For Julia programming language - check {% tool "pkg-jl" %}; for C++ - check {% tool "conan" %}, for Java - check {% tool "maven" %}, for Ruby - check {% tool "bundler" %}.
+  - There are some some generic tools to have a look at as well - e.g. [Spack][spack], [nix][nix], [guix][guix].
 - You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
 already using (so you can get help when you need it). Not using virtual environments at all and mixing different tools to manage them could lead to
 a [bad example of a spaghetti setup][python-env-hell], not knowing which dependencies are being used and causing issues when running and debugging code.
@@ -90,17 +91,6 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 
 * Decide on and start using a package manager tool and a virtual environment management tool for your programming language.
 
-### Overview of (some) virtual environment tools
-
-| Programming language | Virtual environment tools |
-| --- | --- |
-| Python | venv, poetry, conda |
-| R | conda, renv |
-| Julia | Pkg.jl  |
-| Ruby  | Bundler |
-| C++   | Conan   |
-| Java  | Maven   |
-| Generic | Spack, nix, guix |
 
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software
@@ -108,4 +98,6 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 [renv]: https://rstudio.github.io/renv/index.html
 [ssi]: https://www.software.ac.uk/
 [python-env-hell]: https://xkcd.com/1987/
-[Pkg.jl]: https://pkgdocs.julialang.org/v1/
+[guix]: https://hpc.guix.info/
+[nix]: https://nixos.org/
+[spack]: https://spack.io/
