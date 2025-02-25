@@ -1,7 +1,7 @@
 ---
 title: Testing code
 description: Why and how to test your code
-contributors: ["Aleksandra Nenadic", "Christian Hüser"]
+contributors: ["Aleksandra Nenadic", "Christian Hüser", "Graeme A Stewart"]
 page_id: testing_code
 related_pages:
   your_tasks: []
@@ -46,7 +46,7 @@ Having well-defined tests for our software is crucial for several reasons, as it
 - Software testing improves the reusability of our code - well-written software tests capture the expected behaviour of our code and can be used alongside documentation to help other developers quickly make sense of our code. In addition, a well-tested codebase allows developers to experiment with new features safe in the knowledge that tests will reveal if their changes have broken any existing functionality.
 - Software testing underpins the FAIR practices and improves software quality by giving us the confidence to engage in open research practices - if we are not sure that our code works as intended and produces accurate results, we are unlikely to feel confident about sharing our code with others.
 
-## What types of software tests exist? 
+## What types of software tests exist?
 
 ### Description
 
@@ -76,7 +76,7 @@ Some [**software testing tactics**][software-testing-tactics] for functional tes
 
 #### Non-Functional testing
 
-Non-functional testing evaluates the software's quality attributes, such as performance, usability, security, and scalability. 
+Non-functional testing evaluates the software's quality attributes, such as performance, usability, security, and scalability.
 It focuses on how well the software operates rather than just checking if it produces the correct outputs.
 
 Some types of non-functional testing are:
@@ -154,7 +154,7 @@ The use of a testing framework becomes particularly important if your code grows
 
 #### Use test frameworks to automate testing
 
-Automated testing involves using special testing frameworks (e.g. {% tool "testthat" %} for R, {% tool "pytest" %} for Python, {% tool "junit" %} for Java) to automate and control the execution of tests (which is software separate from the software being tested)
+Automated testing involves using special testing frameworks (e.g. {% tool "testthat" %} for R, {% tool "pytest" %} for Python, {% tool "junit" %} for Java, {% tool "test-jl" %} module for Julia) to automate and control the execution of tests (which is software separate from the software being tested)
 and the comparison of actual with predicted outcomes. 
 A test framework comprises a set of rules for creating and designing test cases together with tools that are designed to run these tests efficiently.
 For example, test frameworks typically automatically discover tests based on specific file and function naming patterns (e.g. they look for files or functions that start with “test_” or end with “_test”).
@@ -171,12 +171,11 @@ Check out the [section "How do we automate code testing?"](#how-do-we-automate-c
 - Aim for high code coverage (percentage of the code that is tested) to reduce the likelihood of undetected bugs, but avoid focusing solely on achieving 100% coverage as some code may not be relevant to test (e.g. built-in functions for your programming language or functions imported from well-known and well-tested libraries). Remember, test coverage of 100% does not mean that your code is bug-free. Prioritise testing of critical paths through your code, complex logic, edge cases, and parts of our code that carry the greatest “reputational risk”, i.e. that could affect the accuracy of your reported results.
 - Use [automated test frameworks](#how-do-we-automate-code-testing) to run tests frequently and consistently.
 
-
 ## How do we automate code testing?
 
 ### Description 
 
-In test automation, we usually use [test automation frameworks][test-automation-frameworks] to let the computer execute our test cases. 
+In test automation, we usually use [test automation frameworks][test-automation-frameworks] to let the computer execute our test cases.
 Thus is in contrast to [manual testing][manual-testing], where a person is executing test cases by hand.
 Test automation frameworks typically accept a list of test cases that need to be executed, run them, compare the actual output with the expected output and summarise the test results in a report.
 Compared to manual testing, test automation can cover a larger number of test cases, is less costly, less time-consuming and less error prone.
