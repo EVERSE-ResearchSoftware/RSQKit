@@ -168,6 +168,7 @@ Here are some tools that can check your software and provide an assessment of it
 
 - [FAIRsoft evaluator][fair-rs-evaluator]
 - [FAIR software test][fair-rs-test]
+- [FAIR Software Checklist - self-assessment tool][fair-rs-checklist]
 - [`How FAIR is your software` - command line tool to evaluate a software repository's compliance with the FAIR principles][howfairis]
 
 ### Summary
@@ -205,6 +206,7 @@ The table below provides a summary of how different tools and practices help wit
 [awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [fair-rs-evaluator]: https://openebench.bsc.es/observatory/Evaluation
 [fair-rs-test]: https://github.com/marioa/fair-test?tab=readme-ov-file
+[fair-rs-checklist]: https://ardc.edu.au/resource/fair-software-checklist/
 [codemeta]: (https://codemeta.github.io/)
 [rsmd-g1]: https://fair-impact.github.io/RSMD-guidelines/1.General/
 [software-heritage]: https://www.softwareheritage.org/
