@@ -467,4 +467,7 @@
   id: fair-python-coockiecutter
   name: FAIR Python Coockiecutter
   url: https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter
-  
+- description: A documentation generator for Julia.
+  id: Documenter.jl
+  name: Documenter.jl
+  url: https://documenter.juliadocs.org/stable/  
