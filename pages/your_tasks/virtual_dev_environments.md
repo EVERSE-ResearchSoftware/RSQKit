@@ -90,9 +90,9 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 
 * Decide on and start using a package manager tool and a virtual environment management tool for your programming language.
 
-### Overview
+### Overview of (some) virtual environment tools
 
-| Programming language | Virtual environment frameworks |
+| Programming language | Virtual environment tools |
 | --- | --- |
 | Python | {% tool "venv" %}, {% tool "poetry" %}, {% tool "conda" %} |
 | R | {% tool "conda" %}, {% tool "renv" %} |
@@ -101,6 +101,7 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 | C++   | Conan   |
 | Java  | Maven   |
 | Generic | Spack, nix, guix |
+| --- | --- |
 
 
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
