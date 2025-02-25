@@ -154,7 +154,7 @@ The use of a testing framework becomes particularly important if your code grows
 
 #### Use test frameworks to automate testing
 
-Automated testing involves using special testing frameworks (e.g. {% tool "testthat" %} for R, {% tool "pytest" %} for Python, {% tool "junit" %} for Java, {% tool "Test.jl" } module for Julia) to automate and control the execution of tests (which is software separate from the software being tested)
+Automated testing involves using special testing frameworks (e.g. {% tool "testthat" %} for R, {% tool "pytest" %} for Python, {% tool "junit" %} for Java, {% tool "Test.jl" %} module for Julia) to automate and control the execution of tests (which is software separate from the software being tested)
 and the comparison of actual with predicted outcomes. 
 A test framework comprises a set of rules for creating and designing test cases together with tools that are designed to run these tests efficiently.
 For example, test frameworks typically automatically discover tests based on specific file and function naming patterns (e.g. they look for files or functions that start with “test_” or end with “_test”).
