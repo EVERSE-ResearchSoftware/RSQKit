@@ -110,6 +110,7 @@ While no software can completely write software documentation for you, several t
 * {% tool "mkdocs" %} enables the creation of professional-looking documentation websites using Markdown.
 * {% tool "swagger" %} automatically generates API documentation, providing user-friendly interfaces for developers.
 * Leverage CI/DC tools, offered by platforms such as {% tool "github" %} and {% tool "gitlab" %} to automate quality assurance and release of your updated documentation to the public.
+  * As an example you can take a look at the [GitHub actions in the RSQKit repository](https://github.com/EVERSE-ResearchSoftware/RSQKit/actions). 
 
 #### State how to cite your software
 
