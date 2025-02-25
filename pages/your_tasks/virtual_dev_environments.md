@@ -93,7 +93,7 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 ### Overview
 
 | Programming language | Virtual environment frameworks |
----
+| --- | --- |
 | Python | {% tool "venv" %}, {% tool "poetry" %}, {% tool "conda" %} |
 | R | {% tool "conda" %}, {% tool "renv" %} |
 | Julia | {% tool "pkg-jl" %} |
