@@ -467,4 +467,8 @@
   id: fair-python-coockiecutter
   name: FAIR Python Coockiecutter
   url: https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter
+- description: Prettier is a code formatter to enforce a consistent style with its own rules for different languages, including JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular, GraphQL, Markdown, and YAML.
+  id: prettier-code-formatter
+  name: Prettier
+  url: https://prettier.io/
   
