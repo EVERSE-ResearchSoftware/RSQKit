@@ -463,9 +463,9 @@
   id: calendar-versioning
   name: Calendar Versioning
   url: https://calver.org/
-- description: "Pkg.jl: Julia's package manager."
-  id: "Pkg.jl"
-  name: "Pkg.jl"
+- description: Pkg.jl: Julia's package manager.
+  id: pkg-jl
+  name: Pkg.jl
   url: https://pkgdocs.julialang.org/v1/
 - description: FAIR Python Cookiecutter is a cookiecutter template command-line tool to help you kickstart a modern best-practice Python project with FAIR metadata
   id: fair-python-coockiecutter
