@@ -13,7 +13,7 @@ related_pages:
 ### Description
 
 **Code readability** contributes to *reusability* of code (the "R" in the [FAIR research software principles][fair-rs-principles][^1]) - 
-once people obtain a copy your software, they need to be able to understand it to reuse and extend it. 
+once people obtain a copy of your software, they need to be able to understand it to reuse and extend it. 
 
 In order to develop readable code, we should ask ourselves: 
 
