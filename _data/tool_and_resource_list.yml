@@ -216,8 +216,8 @@
   name: testthat
   url: https://testthat.r-lib.org/
 - description: Test module for Julia
-  id: test.jl
-  name: Test.jl
+  id: "test.jl"
+  name: "Test.jl"
   url: https://docs.julialang.org/en/v1/stdlib/Test/
 - description: Python testing tool
   id: tox
