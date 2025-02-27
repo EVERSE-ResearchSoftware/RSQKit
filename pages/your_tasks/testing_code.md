@@ -1,7 +1,7 @@
 ---
 title: Testing code
 description: Why and how to test your code
-contributors: ["Aleksandra Nenadic", "Christian Hüser", "Graeme A Stewart"]
+contributors: ["Aleksandra Nenadic", "Christian Hüser"]
 page_id: testing_code
 related_pages:
   your_tasks: []
