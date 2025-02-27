@@ -480,7 +480,7 @@
   name: FAIR Python Coockiecutter
   url: https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter
 - description: A documentation generator for Julia.
-  id: Documenter.jl
+  id: documenter-jl
   name: Documenter.jl
   url: https://documenter.juliadocs.org/stable/  
 - description: Prettier is a code formatter to enforce a consistent style with its own rules for different languages, including JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular, GraphQL, Markdown, and YAML.
