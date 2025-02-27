@@ -206,7 +206,7 @@ The table below provides a summary of how different tools and practices help wit
 [awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [fair-rs-evaluator]: https://openebench.bsc.es/observatory/Evaluation
 [fair-rs-test]: https://github.com/marioa/fair-test?tab=readme-ov-file
-[fair-rs-checklist]: https://ardc.edu.au/resource/fair-software-checklist/
+[fair-rs-checklist]: https://fairsoftwarechecklist.net
 [codemeta]: (https://codemeta.github.io/)
 [rsmd-g1]: https://fair-impact.github.io/RSMD-guidelines/1.General/
 [software-heritage]: https://www.softwareheritage.org/
