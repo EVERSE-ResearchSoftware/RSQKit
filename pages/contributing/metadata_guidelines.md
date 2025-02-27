@@ -176,8 +176,9 @@ An example of an RS Quality dimension definition is given below:
 ```yml
 - identifier: documentation 
   description: >
-    Ability of the system to provide information helpful for identifying and resolving issues when it fails to work correctly. 
-    Existence of a helpdesk or issue tracking, bug reporting, enhancements and general support
+    Ability of the system to provide information helpful for identifying and resolving issues 
+    when it fails to work correctly. Existence of a helpdesk or issue tracking, bug reporting, 
+    enhancements and general support
   name: Documentation and Supportability
   source: 
     - https://www.iso.org/standard/35733.html
