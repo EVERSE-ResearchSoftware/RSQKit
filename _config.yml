@@ -39,7 +39,7 @@ defaults:
       path: "pages/your_tasks/"
     values:
       type: your_tasks
-      type_img: /assets/img/section-icons/tick.svg
+      type_img: /assets/img/font-awesome-free/list-check-solid.svg
       page_citation: true
   -
     scope:
@@ -51,7 +51,13 @@ defaults:
         no_robots: true
   -
     scope:
-      path: "pages/contributing"
+      path: "pages/research_communities/"
+    values:
+      type: research_community
+      type_img: /assets/img/font-awesome-free/comment-nodes-solid.svg
+  -
+    scope:
+      path: "pages/contributing/"
       type: "pages"
     values:
       layout: "page"
