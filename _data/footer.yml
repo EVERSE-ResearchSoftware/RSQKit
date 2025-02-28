@@ -6,24 +6,24 @@ columns:
     width: 3
     src: 'assets/img/everse_logo.png'
     alt: EVERSE logo
+    link: https://everse.software/
   - type: links
     width: 1
     children:
       - url_text: Get involved
-        url: /how_to_get_involved
-      - url_text: EVERSE
-        url: https://everse.software
+        url: /get_involved
+      - url_text: Contributors
+        url: /contributors
   - type: links
     width: 1
     children:
       - url_text: About
         url: /about
-      - url_text: Contact
-        url: /contact
       - url_text: Privacy
         url: /privacy
   - type: image
-    image_width: 100px
+    image_width: 150px
     width: 2
-    src: 'assets/img/Flag_of_Europe.svg'
+    src: "assets/img/EN_FundedbytheEU_RGB_Monochrome.png"
     alt: European flag
+    link: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities_en

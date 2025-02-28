@@ -1,5 +1,6 @@
 ---
 title: Contribution Guidelines
+summary: Detailed guidelines for various contributions to RSQKit.
 ---
 
 The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot.
