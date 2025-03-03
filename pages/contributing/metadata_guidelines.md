@@ -1,5 +1,6 @@
 ---
 title: Metadata Guidelines
+summary: Descriptions of different metadata schemas used to describe various resources and pages in RSQKit.
 ---
 
 This page explains the metadata that can be used to describe various resources and pages in RSQKit. 
@@ -8,14 +9,15 @@ and [tools and resources guide](https://elixir-belgium.github.io/elixir-toolkit-
 
 ## Contributor metadata
 
-Contributors are listed in the [`_data/CONTRIBUTORS.yml` file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yml)
+Contributors are listed in the [contributors file (`_data/CONTRIBUTORS.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yml)
 starting with the contributor's full name, followed by the following optional metadata/attributes:
 
-* `git`: contributor's GitHub id (serving as a unique identifier together with contributor's full name).
+* `git`: contributor's GitHub id (serving as an identifier together with contributor's full name).
 * `orcid`: contributor's ORCID id.
-* `role`: role of the contributor in the RSQKit (e.g. `editor`)
-* `affiliation`: contributor's affiliation described using the name attribute from `_data/affiliations.yml`.
-* `image_url`: absolute path to contributor's image or avatar (defaults to image from GitHub)
+* `role`: role of the contributor in the RSQKit (e.g. `editor`).
+* `affiliation`: contributor's affiliation(s) as a single string (if multiple affiliations need to be listed, use a separator - e.g. "/". 
+Also note that while affiliations should match those listed in the [affiliations file (`_data/affiliations.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/affiliations.yml) (see below) this is not enforced.
+* `image_url`: absolute path to contributor's image or avatar (defaults to contributor's GitHub profile image if GitHub id is provided).
 
 You can reference contributors by their name in the metadata section of content pages using parameter `contributors` - see [page metadata section](#page-metadata) for more details. 
 
@@ -32,11 +34,13 @@ Fotis Psomopoulos:
 
 ## Affiliation metadata
 
-Affiliations are described in the [`_data/affiliations.yml` file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/affiliations.yml)
-using the following metadata/attributes:
+Affiliations are listed in the [affiliations file (`_data/affiliations.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/affiliations.yml)
+and can be used as means of listing all institutions in the project or institutions/affiliations of all contributors. 
 
-* `name`: name of the institution, also serving as an identifier for referencing.
-* `expose`: flag to indicate whether to show the affiliation or not.
+Affiliations can be described using the following metadata/attributes (all of which are optional apart from the `name`):
+
+* `name`: name of the institution.
+* `expose`: flag to indicate whether to show the affiliation in affiliation listings or not.
 * `type`: type of affiliation, e.g. `institution`.
 * `url`: URL of the affiliation.
 * `pid`: persistent identifier of the affiliation (e.g. Research Organization Registry (ROR) id).
@@ -59,34 +63,22 @@ Each page in RSQKit can be described with the following metadata/attributes (whi
 in the "front matter" header of the page or applied to a group of pages via `_config.yml` repository file):
 
 * `title`: page title (used as the H1 HTML header in the rendered version of the page).
-
-* `description`: a short page description, used at different locations in the website - e.g. under the title/H1 header of the page, in sidebar navigation (depending on page type) or in lists of page "tiles" in search results.
-
+* `summary`: a short page summary, displayed under the page title.
+* `description`: a short page description, used when pages are listed as "tiles" (e.g. in search results, related pages sections or when all pages of certain type are listed).
 * `type`: page type, used to classify pages into categories. Each page type is displayed differently in the website. Possible values: `research_community`, `task_page`.
-
 * `contributors`: a list of contributors that authored or contributed significantly to the page in some way (e.g. via discussions). Each contributor must also be listed in the `_data/CONTRIBUTORS.yml` repository file.
-
 * `search_exclude`: a boolean value indicating if the page should be excluded from search results. Default: `false`.
-
 * `sitemap`: a boolean value indicating if the page should appear in the `sitemap.xml`. Default: `true`.
-
 * `no_robots`: a boolean value indicating if the page should not end up in the search results of Google or any other search engines. Default: `false`.
-
 * `hide_sidebar`: a boolean value indicating if the page should not appear in the sidebar. Default: `false`.
-
 * `custom_editme`: specify an alternative file/link when clicking on the `edit-me` button.
-
 * `keywords`: a list of lowercase keywords that can be used to find the page using the search facility of RSQKit.
-
 * `sidebar`: name of the left-hand side navigation sidebar that should be displayed for the page. Default sidebar: `main`. The sidebar file `<SIDEBAR_NAME.md>` named after the sidebar must exist under `_data/sidebars/` in the repository.
-
 * `toc`: a boolean value indicating if a table of contents should be included at the top of the page. Default: `false`.
-
 * `page_id`: unique identifier of the page, usually a shortened version of the page title (with words separated with underscores or dashes and spaces avoided). This identifier is used in `related_pages` parameter to list pages related to this page. 
-
-* `datatable`: a boolean value indicating the activation of the pagination + sorting + searching in tables.
-
+* `datatable`: a boolean value indicating the activation of the pagination, sorting and searching in tabular representations of pages.
 * `related_pages`: a list of `page_id`s that are related to this page and will appear under "Related pages" section on the page, grouped by page type.
+* `page_citation`: When set to true, it will cause the citation section for the page to be generated in the format: "<author names>. <page title>. <site domain>. <page URL>. <date accessed>".
 
 ## Tools and resources metadata
 
@@ -97,7 +89,8 @@ following attributes (a subset of the [EVERSE Research Software metadata schema]
 * `description`: a short description of the tool or resource.
 * `id`: identifier used to refer to the tool or resource in pages.
 * `url`: URL of the tool or resource
-* `quality_indicator`:  a list of research software quality indicators (defined in [`_data/quality_indicators.yml`](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_indicators.yml)) associated with this tool.
+* `quality_indicator`:  research software quality indicators associated with this tool. We have not settled 100% on the format of attribute yet - this is still work in progress. 
+Most likely it will be a list of research software quality indicators (defined in the [quality indicators data file (`_data/quality_indicators.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_indicators.yml)).
 
 An example of a tool definition is given below:
 
@@ -134,12 +127,12 @@ following attributes (a subset of the [EVERSE Research Software indicator metada
 * `contact`: contact person or organisation associated with the indicator.
 * `name`: name of the indicator (title).
 * `description`: a brief description of the indicator, stating its purpose and how to measure it. 
-* `keywords`: keywords to ease finding the indicator
-* `quality_dimension`: Research Software Quality (RS Quality) dimension associated with the indicator (see https://w3id.org/everse/rsqi for a full list) 
-* `version`: if the indicator has a version (e.g., some ISO standards specify indicators), it should be included here
-* `source`: the standard or reference document where the indicator was first proposed
-* `status`: status of the indicator (e.g. deprecated, obsolete, active, etc.)
-* `created`: date of creation of the indicator
+* `keywords`: keywords to ease finding the indicator.
+* `quality_dimension`: Research Software Quality (RS Quality) dimension associated with the indicator (see https://w3id.org/everse/rsqi for a full list).
+* `version`: if the indicator has a version (e.g., some ISO standards specify indicators), it should be included here.
+* `source`: the standard or reference document where the indicator was first proposed.
+* `status`: status of the indicator (e.g. deprecated, obsolete, active, etc.).
+* `created`: date of creation of the indicator.
 
 An example of an RS Quality indicator definition is given below:
 
@@ -166,10 +159,10 @@ Research Software Quality indicators can be grouped according to common categori
 Research Software Quality dimensions are described in the [quality dimensions data file (`_data/quality_dimensions.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_dimensions.yml) using the
 following attributes from the [EVERSE Research Software dimension metadata schema](https://w3id.org/everse/rsqd/): 
 
-* `identifier`: identifier associated with the dimension
-* `description`: description of the dimension
-* `name`: name of the dimension (title)
-* `source`: the standard(s) or reference document(s) where the dimension was proposed, or adapted from
+* `identifier`: identifier associated with the dimension.
+* `description`: description of the dimension.
+* `name`: name of the dimension (title).
+* `source`: the standard(s) or reference document(s) where the dimension was proposed, or adapted from.
 
 An example of an RS Quality dimension definition is given below:
 
