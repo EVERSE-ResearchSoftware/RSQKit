@@ -1,5 +1,6 @@
 ---
 title: Page Style Guidelines
+summary: Comprehensive guidelines for page style and formatting.
 ---
 
 In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and their more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf). 
