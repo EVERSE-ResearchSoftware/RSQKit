@@ -71,7 +71,7 @@
   id: java
   name: Java
   url: https://www.java.com/en/
-- description: Docker is a software for executing applications in virtualized environments called containers. Docker allows developers to build, share, run and verify applications easily. It is linked to DockerHub, a library for sharing container images.
+- description: Docker is a platform that uses OS-level virtualisation to deliver software in packages called containers. It allow developers to build, share, and run container applications. It is linked to DockerHub, a library for sharing container images.
   id: docker
   name: Docker
   registry:
