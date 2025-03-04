@@ -490,4 +490,8 @@
 - description: Prettier is a code formatter to enforce a consistent style with its own rules for different languages, including JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular, GraphQL, Markdown, and YAML.
   id: prettier-code-formatter
   name: Prettier
-  url: https://prettier.io/  
+  url: https://prettier.io/
+- description: Keras is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only) to build and train models for computer vision, natural language processing, audio processing, timeseries forecasting, recommender systems, etc.
+  id: keras
+  name: Keras
+  url: https://github.com/keras-team/keras
