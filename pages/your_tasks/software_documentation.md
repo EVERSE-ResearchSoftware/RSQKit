@@ -18,11 +18,13 @@ It helps align the expectations and goals of all parties, while also ensuring th
 ### Considerations
 
 * Software documentation should be clear, consistent, regularly updated, cover all key software aspects, encourage feedback, and ideally be auto-generated to a large extent.
-* Each piece of documentation should have a distinct purpose.
-* There are two types of software documentation:
-   * Product documentation targets both internal and external users (e.g., requirements documents, high-level software description in README files; source code documentation, end-user documentation such as user guides and API references).
-   * Process documentation is primarily intended for the development team (e.g., plans; progress reports that track progress; working papers that capture ideas and notes from the team).
-
+* Each piece of documentation should have a distinct purpose, based on the intended users. Different users of software can largely be categorised into the following (often overlapping) groups, based on their roles, needs, and level of expertise:
+  * *end users* (general users) - individuals who use software for personal or work-related tasks.
+  * *administrators* - responsible for installing, configuring, managing, and maintaining software systems.
+  * *developers* (programmers) - who create, modify, and debug software applications.
+* Software documentation can vary in focus depending on the specific aspect of the software it addresses.
+  * *product documentation* refers to a comprehensive set of documents that provide information about a software product, including its features, functionality, usage, and maintenance (e.g., requirements documents, high-level software description in README files; source code documentation, end user documentation such as user guides and API references). It targets all users - end users, administrators, and developers - and ensures that they can effectively understand, operate, and troubleshoot the software.
+  * *process documentation* is primarily intended for the development team (e.g., plans; progress reports that track progress; working papers that capture ideas and notes from the team).
 
 ### Solutions
 
@@ -30,12 +32,12 @@ It helps align the expectations and goals of all parties, while also ensuring th
 
 * Think about who will be using the documentation and what is its purpose. 
 * Understanding the purpose allows you to tailor the content accordingly. For example:
-  * A developer-facing document will need in-depth technical details.
-  * An end-user guide should focus on usability and clarity, offering step-by-step instructions.
-  * A deployment and administration guide should cover reproducible ways to install and run the software on various infrastructures.
-* Create personas to represent your audience for better-targeted technical content - it helps categorize your help documentation.
+  * *user documentation* (e.g. end user guides) -  should explain clearly what the software does and how it should be used, focussing on usability and clarity and offering step-by-step instructions. 
+  * *developer documentation* (including software specification, docstrings, in-line comments, etc.) - covers in-depth techincal details about the software and should explain how the software can be modified, tested, and contributed to (governance, code of conduct, contributing guidelines, etc.).
+  * *deployment documentation* (e.g. installation and administration guide) - should explain system requirements (e.g. dependencies) for installing/deploying and running the software on various platforms/infrastructures and instructions for installation and testing.
+* Create personas to represent your audience for better-targeted technical content - it helps categorise your help documentation.
 
-#### Write comments as you code
+#### Write comments and docstrings as you code
 
 * Ensure you strike a balance in the amount of commenting - you do not have to explain each line of your code
 * Focus on the *why* and the *how* of your code - avoid using comments to explain what your code does. If your code is too 
@@ -51,7 +53,6 @@ To help your users troubleshoot issues when using your software, error messages 
 * What went wrong
 * The state of the software at that point
 * How to fix it or where to find relevant information or solution in your documentation.
-
 
 #### Include examples of code usages 
 
@@ -83,10 +84,10 @@ A good example of a bioinformatics library effectively managing version control 
 This library features a comprehensive changelog that details new features, bug fixes (categorized based on relevance to users or developers), 
 known issues, and a list of contributors for each release. 
 
-#### Document the CLI or the API
+#### Document the Command Line Interface (CLI) or the Application Programming Interface (API) of your software
 
 If your software has a Command Line Interface (CLI) or an Application Programming Interface (API) - make sure you describe its usage, as it 
-will serve as a reference for your users.
+will serve as a reference for your users as well as developers.
 
 An effective way to document the CLI is to implement a `help` command that provides instructions on how to use the software so that users do not have to search for documentation to complete basic tasks.
 
@@ -99,8 +100,10 @@ The `help` command should cover:
 * And ideally, some examples.
 
 Tools like [Click](https://click.palletsprojects.com/en/8.1.x/) for Python can assist you not only in creating your help command but also in building your interface.
-
 A great example of a good CLI is the one included with the [Magic-BLAST](https://ncbi.github.io/magicblast/) bioinformatics tool.
+
+The [OpenAPI Specification][open-ai], previously known as the Swagger Specification, is a specification for a machine-readable API definition language for describing, producing, consuming and visualising web services.
+{% tool "swagger" %} is a set of open-source tools built around the OpenAPI Specification that can help you design, build, document, and consume REST APIs. 
 
 #### Use automated documentation tools
 
@@ -108,7 +111,7 @@ While no software can completely write software documentation for you, several t
 
 * {% tool "sphinx" %} (for Python and other languages), {% tool "doxygen" %} (for C++ and other languages), {% tool "roxygen" %} (for R) and {% tool "jsdoc" %} (for JavaScript) can generate documentation in multiple formats (HTML, PDF) and automatically extract comments from annotated code in your codebase.
 * {% tool "mkdocs" %} enables the creation of professional-looking documentation websites using Markdown.
-* {% tool "swagger" %} automatically generates API documentation, providing user-friendly interfaces for developers.
+* {% tool "swagger" %} can automate the generation of client libraries, server stubs, and API documentation efficiently based on API definitions. 
 * {% tool "documenter-jl" %} is a Julia package for building documentation from docstrings in code and Markdown files.
 * Leverage CI/DC tools, offered by platforms such as {% tool "github" %} and {% tool "gitlab" %} to automate quality assurance and release of your updated documentation to the public. For example, take a look at the [GitHub actions in the RSQKit repository](https://github.com/EVERSE-ResearchSoftware/RSQKit/actions) 
 for some automated tasks. 
@@ -124,3 +127,5 @@ for some automated tasks.
 3. [Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost FdV, et al. Ten Simple Rules for Taking Advantage of Git and GitHub](https://doi.org/10.1371/journal.pcbi.1004947)
 4. [How to Write Software Documentation in 7 Simple Steps](https://technicalwriterhq.com/documentation/software-documentation/how-to-write-software-documentation/)
 
+
+[open-ai]: https://swagger.io/specification/
