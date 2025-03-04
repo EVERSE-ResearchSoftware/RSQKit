@@ -71,7 +71,7 @@ It also acts as a homepage for your project on code sharing platforms such as {%
 
 * Examples help users understand and experiment with the software and showcase different aspects of your software. 
 * If your documentation becomes too cluttered, consider moving examples to a dedicated section. 
-* For instance, [Keras](https://github.com/keras-team/keras/tree/master/examples)  provides example scripts to demonstrate its functionalities along with a README file that outlines.
+* For instance, {% tool "keras" %} provides example scripts to demonstrate its functionalities along with a README file that outlines them.
 
 #### Version control software documentation
 
