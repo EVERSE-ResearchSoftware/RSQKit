@@ -39,6 +39,9 @@ It helps align the expectations and goals of all parties, while also ensuring th
 
 #### Write comments and documentation strings as you code
 
+A documentation string is a string literal specified in source code that is used, like a comment, to document a specific segment of code.
+The difference is that the documentation string is visible to the outside world, while comments are not. 
+Documentations strings are for helping people use the code, while comments are meant for people modifying the code - yourself and other developers. 
 
 * Ensure you strike a balance in the amount of commenting - you do not have to explain each line of your code
 * Focus on the *why* and the *how* of your code - avoid using comments to explain what your code does. If your code is too 
