@@ -54,12 +54,6 @@ To help your users troubleshoot issues when using your software, error messages 
 * The state of the software at that point
 * How to fix it or where to find relevant information or solution in your documentation.
 
-#### Include examples of code usages 
-
-* Examples help users understand and experiment with the software and showcase different aspects of your software. 
-* If your documentation becomes too cluttered, consider moving examples to a dedicated section. 
-* For instance, [Keras](https://github.com/keras-team/keras/tree/master/examples)  provides example scripts to demonstrate its functionalities along with a README file that outlines.
-
 #### Include a quickstart guide
 
 * A quickstart guide enables users to move quickly from idea to experimentation. This can take the form of an example, tutorial, or a video. 
@@ -71,6 +65,12 @@ For instance, [a quickstart guide for TPOT (Tree-Based Pipeline Optimization) to
 It also acts as a homepage for your project on code sharing platforms such as {% tool "github" %} and {% tool "gitlab" %}. 
 * README should include a link to the full software documentation. 
 * See more details on [how to create a good README file](how_to_make_a_good_readme.md).
+
+#### Include examples of code usages 
+
+* Examples help users understand and experiment with the software and showcase different aspects of your software. 
+* If your documentation becomes too cluttered, consider moving examples to a dedicated section. 
+* For instance, [Keras](https://github.com/keras-team/keras/tree/master/examples)  provides example scripts to demonstrate its functionalities along with a README file that outlines.
 
 #### Version control software documentation
 
@@ -99,7 +99,7 @@ The `help` command should cover:
 * Applicable environment variables
 * And ideally, some examples.
 
-Tools like [Click](https://click.palletsprojects.com/en/8.1.x/) for Python can assist you not only in creating your help command but also in building your interface.
+Tools like [Click](https://click.palletsprojects.com/en/stable/) for Python can assist you not only in creating your help command but also in building your interface.
 A great example of a good CLI is the one included with the [Magic-BLAST](https://ncbi.github.io/magicblast/) bioinformatics tool.
 
 The [OpenAPI Specification][open-ai], previously known as the Swagger Specification, is a specification for a machine-readable API definition language for describing, producing, consuming and visualising web services.
@@ -123,7 +123,7 @@ for some automated tasks.
 
 ## References
 1. [Lee B. D., Ten Simple Rules for documenting scientific software](https://doi.org/10.1371/journal.pcbi.1006561)
-2. [Wilson, G., Aruliah, D. A., Brown, C. T., Chue Hong, N. P., Davis, M., Guy, R. T., Haddock, S. H., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P.Best Practices for Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745)
+2. [Wilson, G., Aruliah, D. A., Brown, C. T., Chue Hong, N. P., Davis, M., Guy, R. T., Haddock, S. H., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P. Best Practices for Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745)
 3. [Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost FdV, et al. Ten Simple Rules for Taking Advantage of Git and GitHub](https://doi.org/10.1371/journal.pcbi.1004947)
 4. [How to Write Software Documentation in 7 Simple Steps](https://technicalwriterhq.com/documentation/software-documentation/how-to-write-software-documentation/)
 
