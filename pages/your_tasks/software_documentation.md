@@ -129,4 +129,5 @@ for some automated tasks.
 4. [How to Write Software Documentation in 7 Simple Steps](https://technicalwriterhq.com/documentation/software-documentation/how-to-write-software-documentation/)
 
 
-[open-ai]: https://swagger.io/specification/
+[open-api]: https://swagger.io/specification/
+
