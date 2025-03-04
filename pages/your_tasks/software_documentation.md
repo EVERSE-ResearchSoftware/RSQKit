@@ -32,6 +32,7 @@ It helps align the expectations and goals of all parties, while also ensuring th
 * Understanding the purpose allows you to tailor the content accordingly. For example:
   * A developer-facing document will need in-depth technical details.
   * An end-user guide should focus on usability and clarity, offering step-by-step instructions.
+  * A deployment and administration guide should cover reproducible ways to install and run the software on various infrastructures.
 * Create personas to represent your audience for better-targeted technical content - it helps categorize your help documentation.
 
 #### Write comments as you code
@@ -109,14 +110,13 @@ While no software can completely write software documentation for you, several t
 * {% tool "mkdocs" %} enables the creation of professional-looking documentation websites using Markdown.
 * {% tool "swagger" %} automatically generates API documentation, providing user-friendly interfaces for developers.
 * {% tool "documenter-jl" %} is a Julia package for building documentation from docstrings in code and Markdown files.
-
-
+* Leverage CI/DC tools, offered by platforms such as {% tool "github" %} and {% tool "gitlab" %} to automate quality assurance and release of your updated documentation to the public. For example, take a look at the [GitHub actions in the RSQKit repository](https://github.com/EVERSE-ResearchSoftware/RSQKit/actions) 
+for some automated tasks. 
 
 #### State how to cite your software
 
 * Ensure that your documentation includes clear instructions on how to cite your work.
 * See more on [how to cite your code repository using Citation File Format (CFF)].
-
 
 ## References
 1. [Lee B. D., Ten Simple Rules for documenting scientific software](https://doi.org/10.1371/journal.pcbi.1006561)
