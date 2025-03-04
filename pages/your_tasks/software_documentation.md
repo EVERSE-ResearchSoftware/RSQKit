@@ -109,8 +109,9 @@ While no software can completely write software documentation for you, several t
 * {% tool "sphinx" %} (for Python and other languages), {% tool "doxygen" %} (for C++ and other languages), {% tool "roxygen" %} (for R) and {% tool "jsdoc" %} (for JavaScript) can generate documentation in multiple formats (HTML, PDF) and automatically extract comments from annotated code in your codebase.
 * {% tool "mkdocs" %} enables the creation of professional-looking documentation websites using Markdown.
 * {% tool "swagger" %} automatically generates API documentation, providing user-friendly interfaces for developers.
-* Leverage CI/DC tools, offered by platforms such as {% tool "github" %} and {% tool "gitlab" %} to automate quality assurance and release of your updated documentation to the public.
-  * As an example you can take a look at the [GitHub actions in the RSQKit repository](https://github.com/EVERSE-ResearchSoftware/RSQKit/actions). 
+* {% tool "documenter-jl" %} is a Julia package for building documentation from docstrings in code and Markdown files.
+* Leverage CI/DC tools, offered by platforms such as {% tool "github" %} and {% tool "gitlab" %} to automate quality assurance and release of your updated documentation to the public. For example, take a look at the [GitHub actions in the RSQKit repository](https://github.com/EVERSE-ResearchSoftware/RSQKit/actions) 
+for some automated tasks. 
 
 #### State how to cite your software
 

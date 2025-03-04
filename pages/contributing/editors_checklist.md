@@ -1,11 +1,11 @@
 ---
 title: Editors Checklist
-summary: Checklist for Editors before approving and merging a pull request (PR).
+summary: Checklist for Editors before approving changes to RSQKit content and infrastructure.
 ---
 
 ### General Guidelines for Approving Pull Requests
 
-Before approving and merging a pull request (PR), the Editors will check that:
+Before approving and merging a pull request (PR), the Editors (members of the [Editorial Board](./editorial_board.md)) will check that:
 
 - The modified page(s) layout looks correct on the RSQKit website (either by checking Netlify's "Deploy Preview" on the 
 PR in RSQKit, or downloading and checking the PR branch locally on the Editor's machine, or checking the deployment or a PR in a fork in GitHub).
@@ -14,7 +14,7 @@ PR in RSQKit, or downloading and checking the PR branch locally on the Editor's 
 - The PR is linked to related issues and can be merged into the main branch with no conflicts.
 
 
-### Specific Checkst for Metadata
+### Specific Checklist for Metadata
 
 - All relevant metadata fields in a specific page or data files are correctly filled in - check the [**Metadata Guidelines**][metadata_guidlines].
 - In particular, ids should not contain spaces - rather use hyphens (-) or underscores (_) to separate words.

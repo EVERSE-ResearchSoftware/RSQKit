@@ -1,5 +1,6 @@
 ---
 title: Page Style Guidelines
+summary: Comprehensive guidelines for page style and formatting.
 ---
 
 In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and their more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf). 
@@ -63,13 +64,13 @@ If in doubt when creating new content, have a look at other existing content of 
 ## Page graphics
 
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
-  * **Colours:** The official colours of the EVERSE projects are still to be decided. In the meantime, we recommend to take into account accessibility of those who are colour blind when choosing colours used in graphs and tables. 
+  * **Colours:** official colours of the EVERSE projects are still to be decided. In the meantime, we recommend to take into account accessibility of those who are colour blind when choosing colours used in graphs and tables. 
   * **Fonts:** [Exo 2 font](https://fonts.google.com/specimen/Exo+2) (licensed under the SIL Open Font License version 1.1) is used for headings and main branding font, Open Sans for body text.
-  * **Icons:** Icons used by RSQKit are either desigined by [Xènia Pérez Sitjà](https://github.com/sitjart) for [RDMKit](https://github.com/elixir-europe/rdmkit?tab=readme-ov-file#custom-icons) or come from [Font Awesome](https://fontawesome.com/).
-  * **Illustrations:** Try to use the icons specified above in your illustrations, if possible. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues) on GitHub or [email us](mailto:rsqkit@lists.certh.gr).
+  * **Icons:** icons used by RSQKit come from [Font Awesome](https://fontawesome.com/).
+  * **Illustrations:** try to use the icons specified above in your illustrations, if possible. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues) on GitHub or [email us](mailto:rsqkit@lists.certh.gr).
   * **Images:**
-    * Do not use images to display text.
-    * Include an 'alt-text' attribute in images to explain what is represented in the image for screen readers to use.
+    * do not use images to display text.
+    * include an 'alt-text' attribute in image tags (used by for screen readers) to describe what the image represents.
    
 ## Naming of files, tags, keywords, and navigation titles
 

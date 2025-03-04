@@ -1,6 +1,6 @@
 ---
 title: Metadata Guidelines
-summary: Descriptions of different metadata schemas used to describe various resources and pages in RSQKit
+summary: Descriptions of different metadata schemas used to describe various resources and pages in RSQKit.
 ---
 
 In this page we describe the metadata schemas  used to describe various resources and pages in the RSQKit (adapted from the [RDMKit page metadata guide](https://rdmkit.elixir-europe.org/page_metadata)).

@@ -11,5 +11,7 @@ subitems:
     url: /editorial_board
   - title: Editors Checklist
     url: /editors_checklist
+  - title: Contributors
+    url: /contributors
   - title: List of all pages
     url: /page_ids
