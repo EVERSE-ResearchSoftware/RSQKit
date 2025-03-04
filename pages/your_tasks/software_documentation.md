@@ -37,7 +37,8 @@ It helps align the expectations and goals of all parties, while also ensuring th
   * *deployment documentation* (e.g. installation and administration guide) - should explain system requirements (e.g. dependencies) for installing/deploying and running the software on various platforms/infrastructures and instructions for installation and testing.
 * Create personas to represent your audience for better-targeted technical content - it helps categorise your help documentation.
 
-#### Write comments and docstrings as you code
+#### Write comments and documentation strings as you code
+
 
 * Ensure you strike a balance in the amount of commenting - you do not have to explain each line of your code
 * Focus on the *why* and the *how* of your code - avoid using comments to explain what your code does. If your code is too 
