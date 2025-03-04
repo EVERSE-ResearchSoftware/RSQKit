@@ -102,7 +102,8 @@ The `help` command should cover:
 Tools like [Click](https://click.palletsprojects.com/en/stable/) for Python can assist you not only in creating your help command but also in building your interface.
 A great example of a good CLI is the one included with the [Magic-BLAST](https://ncbi.github.io/magicblast/) bioinformatics tool.
 
-The [OpenAPI Specification][open-ai], previously known as the Swagger Specification, is a specification for a machine-readable API definition language for describing, producing, consuming and visualising web services.
+The [OpenAPI Specification][open-api], previously known as the Swagger Specification, is a specification for a machine-readable API definition language for describing, producing, consuming and visualising web services.
+
 {% tool "swagger" %} is a set of open-source tools built around the OpenAPI Specification that can help you design, build, document, and consume REST APIs. 
 
 #### Use automated documentation tools
