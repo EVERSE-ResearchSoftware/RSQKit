@@ -1,6 +1,6 @@
 ---
 title: SSH Open Cluster - Social Science & Humanities Resources
-description: The social sciences and humanies (SSH) cluster bring together a range of disciplines and methodological backgrounds.
+description: The social sciences and humanities (SSH) cluster bring together a range of disciplines and methodological backgrounds.
 search_exclude: false
 type: research_community
 ---
