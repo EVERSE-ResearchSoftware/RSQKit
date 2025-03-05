@@ -1,8 +1,8 @@
 ---
-title: Releasing code
-description: How to create software releases
+title: Releasing software
+description: How to release your software for reuse?
 contributors: ["Christian Hüser", "Shoaib Sufi", "Daniel Garijo"]
-page_id: releasing_code
+page_id: releasing_software
 related_pages:
   your_tasks: [zenodo_doi]
 

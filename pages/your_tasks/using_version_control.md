@@ -1,8 +1,8 @@
 ---
-title: Version control
-description: Version control systems in research software engineering
+title: Using version control
+description: How to version control your software?
 contributors: ["Giacomo Peru"]
-page_id: version_control
+page_id: using_version_control
 related_pages:
   your_tasks: []
 ---

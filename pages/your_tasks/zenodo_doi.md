@@ -64,7 +64,7 @@ If you already have a {% tool "zenodo" %} account that is not linked to your {% 
 	* Authorise Zenodo to access your GitHub account
 	* Choose which repository you would like to create a DOI for under the repositories sections
 		* You may need to scroll down to find the repository if you have access to many repositories
-* From Github, [create a release](./releasing_code) for the software repository you have enabled: 
+* From Github, [create a release](./releasing_software) for the software repository you have enabled: 
 	* Go to your repository software repository on GitHub.
 	* Click on `Releases` and then `Draft a new release` button.
 	* Remember to use a version number ([semantic versioning][semantic-versioning] is commonly used  but there are other schemes such as [CalVer][calver] which is date based)
@@ -114,7 +114,7 @@ Here we describe how to obtain a DOI for your software hosted on {% tool "gitlab
 * Add the {% tool "eossr" %} or the [gitlab2zenodo](https://gitlab.com/sbeniamine/gitlab2zenodo) libraries in  your [GitLab-CI pipeline](https://docs.gitlab.com/ee/ci/yaml/) to automatically archive your code on Zenodo whenever you create a new release.
   * Note that if using gitlab2zenodo, you will need to convert your `codemeta.json` file to a `.zenodo.json` file, e.g. using the eossr.
 
-* [Create a GitLab release](./releasing_code) in your repository.
+* [Create a GitLab release](./releasing_software) in your repository.
   * Go to your repository
   * Click on releases and then on New release
   * Use the same version number as specified in your metadata (e.g. `1.0.0`).

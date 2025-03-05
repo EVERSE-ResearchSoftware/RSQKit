@@ -1,6 +1,6 @@
 ---
 title: Writing a CodeMeta file
-description: What is CodeMeta and how to write a CodeMeta file for your software
+description: What is CodeMeta and how to write a CodeMeta file for your software?
 contributors: ["Daniel Garijo"]
 page_id: codemeta
 related_pages:

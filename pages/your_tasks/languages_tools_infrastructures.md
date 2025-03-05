@@ -1,8 +1,8 @@
 ---
-title: Languages, frameworks & technologies
-description: How to decide on which programming languages, frameworks and technologies to use, and getting started with templates
+title: Choosing languages, tools & infrastructures
+description: How to decide which programming languages, tools and infrastructures to use?
 contributors: ["Patrick Bos"]
-page_id: languages_frameworks_technologies
+page_id: languages_tools_infrastructures
 related_pages:
    your_tasks: [three_tier_view, life_cycle, fair, research_software_engineer]
 ---

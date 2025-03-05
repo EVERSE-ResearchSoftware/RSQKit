@@ -1,11 +1,12 @@
 ---
-title: Creating a CITATION.cff file
-description: What is the Citation File Format and how to create a CITATION.cff for your software
+title: Citing software
+description: How to enable citing your software?
 contributors: ["Jason Maassen"]
-page_id: cff
+page_id: citing_software
 related_pages:
   your_tasks: [zenodo_doi, codemeta]
 ---
+
 ## What is the Citation File Format?
 The [Citation File Format](https://citation-file-format.github.io/) lets you provide citation information for software by creating a `CITATION.cff` file in your source code 
 repository. A `CITATION.cff` file is a plaintext file (using the [YAML format](https://yaml.org/spec/1.2.2/)) that is easy to read by both humans and machines. Using a list of properties, you can provide all 

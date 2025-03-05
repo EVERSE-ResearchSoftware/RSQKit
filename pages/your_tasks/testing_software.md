@@ -1,8 +1,8 @@
 ---
-title: Testing code
-description: Why and how to test your code
+title: Testing software
+description: How to test your software?
 contributors: ["Aleksandra Nenadic", "Christian Hüser"]
-page_id: testing_code
+page_id: testing_software
 related_pages:
   your_tasks: []
 ---

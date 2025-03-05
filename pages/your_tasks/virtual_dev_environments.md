@@ -1,8 +1,8 @@
 ---
-title: Reproducible virtual software development environments
-description: What are virtual software development environments for reproducible research and how to use them?
+title: Reproducible software environments
+description: How to create a development environment for your software so others can run and contribute to your software?
 contributors: ["Aleksandra Nenadic", "Simon Christ"]
-page_id: virtual_environments
+page_id: reproducible_software_environments
 related_pages:
   your_tasks: []
 ---

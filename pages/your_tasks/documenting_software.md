@@ -1,8 +1,8 @@
 ---
-title: Software documentation
-description: How to write clear and useful software documentation for developers and end-users
+title: Documenting software
+description: How to document your software project and your source code?
 contributors: ["Azza Gamgami"]
-page_id: software_documentation
+page_id: documenting_software
 related_pages:
   your_tasks: [creating_readthedocs, how_to_make_a_good_readme]
 ---
@@ -116,7 +116,7 @@ for some automated tasks.
 #### State how to cite your software
 
 * Ensure that your documentation includes clear instructions on how to cite your work.
-* See more on [how to cite your code repository using Citation File Format (CFF)].
+* See more on [how to cite your code repository using Citation File Format (CFF)](citing_software).
 
 ## References
 1. [Lee B. D., Ten Simple Rules for documenting scientific software](https://doi.org/10.1371/journal.pcbi.1006561)

@@ -1,10 +1,10 @@
 ---
-title: How to organise your software project
-description: Good practice for organising files in a software project (or a research project in general) 
+title: Organising software project
+description: How to organise your software project?
 contributors: ["Aleksandra Nenadic"]
 page_id: organising_software_project
 related_pages:
-  your_tasks: [how_to_make_a_good_readme, version_control, licensing_software, releasing_code, software_documentation]
+  your_tasks: [software_documentation, how_to_make_a_good_readme]
 ---
 
 ## Why does it matter how you organise your software project's directory?
@@ -91,8 +91,8 @@ Check out [the Turing Way Project's Guide for project design][turing-project-des
 
 [how_to_make_a_good_readme]: /how_to_make_a_good_readme
 [licensing_software]: /licensing_software
-[releasing_code]: /releasing_code
-[software_documentation]: /software_documentation
-[version_control]: /version_control
+[releasing_code]: /releasing_software
+[software_documentation]: /documenting_software
+[version_control]: /using_version_control
 [citing_software]: https://citation-file-format.github.io/
 [turing-project-design]: https://book.the-turing-way.org/project-design/project-repo/project-repo-advanced.html
