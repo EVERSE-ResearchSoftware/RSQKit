@@ -1,8 +1,8 @@
 ---
-title: Creating README documents for software
-description: How to make a good README document for research software projects?
+title: Creating a README for software
+description: How to create a good README document for software projects?
 contributors: ["Esteban González", "Aleksandra Nenadic", "Daniel Garijo"]
-page_id: how_to_make_a_good_readme
+page_id: creating_readme
 related_pages:
   your_tasks: []
 ---

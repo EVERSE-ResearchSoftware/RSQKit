@@ -4,7 +4,7 @@ description: How to organise your software project?
 contributors: ["Aleksandra Nenadic"]
 page_id: organising_software_projects
 related_pages:
-  your_tasks: [software_documentation, how_to_make_a_good_readme]
+  your_tasks: [software_documentation, creating_readme]
 ---
 
 ## Why does organising your software project matter?
@@ -38,7 +38,7 @@ code, data, results, tests, auxiliary information and metadata.
 - **Top-level directory of the project**
   - Put all files related to a project into a single directory. 
   - Choose a meaningful name that reflects the project’s purpose or topic.
-  - Add README file to describe the project and instructions on installing and running the code and reproducing the results - see more on creating [README files][how_to_make_a_good_readme].
+  - Add README file to describe the project and instructions on installing and running the code and reproducing the results - see more on creating [README files][creating_readme].
   - Add LICENSE file to describe the how others can reuse your software or work - see more on [licensing software][licensing_software].
   - Add CITATION.cff file to describe how to cite the project - see more on [citing software][citing_software].
 - **Subdirectories of the project** - organise the project into sub-directories clearly labelled based on the type of their content content, for example:
@@ -89,7 +89,7 @@ Checkout the {% tool 'fair-python-coockiecutter' %} - a template tool that can h
 
 Check out [the Turing Way Project's Guide for project design][turing-project-design] for best practices and guidance for designing research projects in particular focussed on data. 
 
-[how_to_make_a_good_readme]: /how_to_make_a_good_readme
+[how_to_make_a_good_readme]: /creating_readme
 [licensing_software]: /licensing_software
 [releasing_code]: /releasing_software
 [software_documentation]: /documenting_software
