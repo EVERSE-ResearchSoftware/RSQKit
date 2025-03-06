@@ -490,4 +490,8 @@
 - description: Prettier is a code formatter to enforce a consistent style with its own rules for different languages, including JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular, GraphQL, Markdown, and YAML.
   id: prettier-code-formatter
   name: Prettier
-  url: https://prettier.io/  
+  url: https://prettier.io/
+- description: Modern Fortran is high-performance parallel programming language that is especially suited to numeric computation and scientific computing.
+  id: fortran
+  name: Fortran
+  url: https://fortran-lang.org/

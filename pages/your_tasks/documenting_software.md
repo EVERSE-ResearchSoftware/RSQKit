@@ -1,6 +1,6 @@
 ---
 title: Documenting software
-description: How to document your software project and your source code?
+description: How to document your software project?
 contributors: ["Azza Gamgami"]
 page_id: documenting_software
 related_pages:

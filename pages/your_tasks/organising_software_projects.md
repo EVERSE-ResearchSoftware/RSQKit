@@ -1,13 +1,13 @@
 ---
-title: Organising software project
+title: Organising software projects
 description: How to organise your software project?
 contributors: ["Aleksandra Nenadic"]
-page_id: organising_software_project
+page_id: organising_software_projects
 related_pages:
   your_tasks: [software_documentation, how_to_make_a_good_readme]
 ---
 
-## Why does it matter how you organise your software project's directory?
+## Why does organising your software project matter?
 
 ### Description
 

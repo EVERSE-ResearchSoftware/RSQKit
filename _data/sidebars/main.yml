@@ -51,24 +51,26 @@ subitems:
     subitems:
       - title: "Choosing languages, tools & infrastructures"
         url: /languages_tools_infrastructures
-      - title: "Organising software project"
-        url: /organising_software_project
-      - title: "Testing software"
-        url: /testing_software
+      - title: "Organising software projects"
+        url: /organising_software_projects
       - title: "Using version control"
         url: /using_version_control
       - title: "Reproducible software environments"
         url: /reproducible_software_environments
       - title: "Writing readable code"
         url: /writing_readable_code
-      - title: "Citing software"
-        url: /citing_software
+      - title: "Testing software"
+        url: /testing_software
       - title: "Licensing software"
         url: /licensing_software
+      - title: "Citing software"
+        url: /citing_software
       - title: "Software identifiers"
         url: /software_identifiers
       - title: "Documenting software"
         url: documenting_software
+      - title: "Software metadata"
+        url: software_metadata
       - title: "Packaging & releasing software"
         url: packaging_releasing_software
       - title: "Improving environmental sustainability"

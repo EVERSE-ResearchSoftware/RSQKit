@@ -1,8 +1,8 @@
 ---
-title: Writing a CodeMeta file
-description: What is CodeMeta and how to write a CodeMeta file for your software?
+title: Software metadata
+description: How to describe your software using metadata?
 contributors: ["Daniel Garijo"]
-page_id: codemeta
+page_id: software_metadata
 related_pages:
   your_tasks: [zenodo_doi]
 ---

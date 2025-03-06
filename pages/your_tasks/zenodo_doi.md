@@ -107,7 +107,7 @@ Here we describe how to obtain a DOI for your software hosted on {% tool "gitlab
 
 ### Solutions
 
-* Provide software metadata in a `codemeta.json` file at the root of your repository. See [codemeta](./codemeta) for more information.
+* Provide software metadata in a `codemeta.json` file at the root of your repository. See [codemeta](./software_metadata) for more information.
   
 * Get a [Zenodo token](https://zenodo.org/account/settings/applications/tokens/new/) with publishing rights (`deposit:actions` and `deposit:write` scopes).
 

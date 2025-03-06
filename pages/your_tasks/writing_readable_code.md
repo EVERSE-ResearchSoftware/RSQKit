@@ -4,11 +4,11 @@ description: How to write code readable and understandable by others?
 contributors: ["Aleksandra Nenadic"]
 page_id: writing_readable_code
 related_pages:
-  your_tasks: []
+  your_tasks: [documenting_software]
 ---
 
 
-## Why is it important to make your code readable?
+## Why is it important to make your source code readable?
 
 ### Description
 
@@ -40,11 +40,14 @@ and saves future developers' time and effort.
 
 What practices are there to help us improve code readability?
 
-One of the most important things we can do to make sure our code is readable by others (and ourselves a few months down 
-the line) is to make sure that it is commented, cleanly and consistently formatted and uses sensible, 
-descriptive names for variable, function, class and module names. 
+One of the most important things we can do to make sure your source code is readable by others (and ourselves a few months down 
+the line) is to make sure that the code is:
+* **well commented** (and well documented - [see more on documenting your software](./documenting_software.md)), 
+* **cleanly and consistently formatted** and uses sensible,
+* **modular** - split into smaller, reusable pieces of code (modules), and
+* uses **descriptive names** for variable, function, class and module names.
 
-In order to help us format our code, we generally follow guidelines known as a style guide. 
+In order to help us format our code, we generally follow guidelines known as a **style guide**. 
 A style guide is a set of conventions that the community of developers or colleagues on a project agree upon, 
 to ensure that everyone contributing to the same project is producing code which looks similar in style. 
 While a group of developers may choose to write and agree upon a new style guide unique to each project, 
@@ -76,13 +79,13 @@ Here is the summary of some of the practices to follow to make your code more re
 - Use descriptive names for function, class and variable names that help explain their purpose.
 - Keep lines short - avoid long lines, and instead write blocks of lines that are horizontally short and vertically long. 
 - Use indentation to show the hierarchy of your code and mark the beginning and end of control structures. 
-- Write informative comments and docstrings for functions to provide more detail about what the code and is doing, transmit understanding and context 
+- Write informative comments and documentation strings for functions to provide more detail about what the code and is doing, 
+transmit understanding and context. In addition to documenting your source code - [see more on documenting your software project](./documenting_software.md) which will help people understand its functionality better and help with reuse.
 - Follow a code style guide for your programming language that is agreed upon by the community and other programmers will find easy to read. 
 Style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code. 
 Consistency with a style guide is important but consistency within a project or a module is more important - if you 
 are joining an existing project, look at the existing code and make sure to adopt whatever practices are already in place.
-- Follow [guidelines and conventions](https://carpentries-incubator.github.io/fair-research-software/07-code-structure.html#directory-structure-for-software-projects)
-  on consistent and informative directory structure for your software or research projects - this way, people will immediately know where to find things within your project
+- Follow [guidelines and conventions on consistent and informative directory structure](./organising_software_projects.md) for your software or research projects - this way, people will immediately know where to find things within your project.
 - Automate style checks to help ensure your code is consistent. Many modern Integrated Development Environments (IDEs), such as {% tool "vscode" %}, {% tool "pycharm" %}, {% tool "rstudio" %} or {% tool "eclipse" %}, 
 have built-in support for checking conformance to style conventions and they will warn you when you deviate or even autocorrect things for you.
 - Use {% tool "code-linters" %} - static code analysis tools (such as {% tool "pylint" %}) used to flag code consistency issues, stylistic errors, suspicious language constructs, and even programming errors and bugs.
