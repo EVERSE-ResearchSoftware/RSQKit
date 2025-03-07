@@ -1,37 +1,47 @@
 ---
-title: Creating a README for software
+title: Creating a good README for software
 description: How to create a good README document for software projects?
 contributors: ["Esteban González", "Aleksandra Nenadic", "Daniel Garijo"]
-page_id: creating_readme
+page_id: creating_good_readme
 related_pages:
-  your_tasks: []
+  your_tasks: [documenting_software]
 ---
 
 ## Why is it important to have a good README file? 
  
 ### Description 
 
-The README file is the entry point to the documentation associated with a software. The main purpose of the README is to:
-* Describe the structure of the project and its purpose.
-* Facilitate the installation and execution of the software stored in the repository.
-* Detail the use of the software.
+A README file is a key document in a software project that provides an overview of the software to help developers and 
+users understand the project quickly. It is typically written in plain text or Markdown format and placed in the 
+project's root directory and shared along with code. For software shared in a public software repository -
+the README file serves as the project's homepage and a central reference for documentation, aiding software's 
+accessibility and promoting engagement for open source projects.
 
-In the case of research software, additional features must be taken into account:
-* Document the process to reproduce/replicate of experiments.
-* Citation information (it can be included in the file or in an additional file)
-* Relation with other research outputs such as publications, datasets, etc. These research outputs can be in the repository or in external repositories.
+The README file is the entry point to the [documentation associated with a software][documenting_software]. 
+The main purpose of the README is to:
 
+- Describe the software project and its purpose.
+- Facilitate the installation and explain the use of the software - including installation instructions, 
+dependencies and usage guidelines.
+- Include contribution guidelines to help community understand how to contribute to the project and ensure smooth collaboration. 
+This may cover coding standards, pull request procedures, issue reporting, and community rules.
 
-### Considerations 
-* A good README favours the use of your software[^1].
-* A good README increments the transparency of your research.
-* A good README will help you to maintain the software during the software lifecycle.
- 
+For research software, additional aspects should be considered and README should also:
 
-## Which sections should be addressed in a good README? 
+- Document the process for reproducing or replicating research method or experiments.
+- Include citation information, either within the README or a pointer to a separate CITATION document.
+- Describe connections to other research outputs, such as publications and datasets.
+
+### Considerations
+
+- A well-written README promotes the adoption of your software[^1].
+- A well-written enhances the transparency of your research.
+- A well-written supports software maintenance throughout its lifecycle.
+
+## What key sections should a README include?
  
 ### Description 
-A README file is the first document that a researchers read when they are interested on using a software. For this reason, should contain all the relevant information to install and to execute it. It includes references to additional information such as API documentation, specifications, scientific publications related, tutorials, guidelines, etc.
+A README file is the first document that a researchers read when they are interested on using a software. For this reason, it should contain all the relevant information to install and to execute it. It includes references to additional information such as API documentation, specifications, scientific publications related, tutorials, guidelines, etc.
 
 A basic software documentation emphasises these aspects[^2] :
 * Understandability: a user can comprehend the structure and the purpose of the software.
@@ -114,4 +124,4 @@ Software without a license cannot be reused in other applications. While having 
 [^1]:Wang, T., Wang, S., & Chen, T. H. P. (2023). Study the correlation between the readme file of GitHub projects and their popularity. Journal of Systems and Software, 205, 111806.
 [^2]: Mao, A., Garijo, D., & Fakhraei, S. (2019, December). SoMEF: A framework for capturing scientific software metadata from its documentation. In 2019 IEEE International Conference on Big Data (Big Data) (pp. 3032-3037). IEEE.
 
- 
+[documenting_software]: ./documenting_software
