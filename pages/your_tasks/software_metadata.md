@@ -4,7 +4,7 @@ description: How to describe your software using metadata?
 contributors: ["Daniel Garijo"]
 page_id: software_metadata
 related_pages:
-  your_tasks: [zenodo_doi]
+  your_tasks: [software_identifiers]
 ---
 ## What is CodeMeta?
 [CodeMeta](https://codemeta.github.io/terms/) is a community standard for interchanging software metadata records. It consists on a set of properties that extend [Schema.org](https://schema.org) (a popular vocabulary designed to describe Digital Objects on the Web) with software-specific metadata (e.g., maintainer, build instructions, software documentation, etc.)
@@ -13,7 +13,8 @@ related_pages:
 
 ### Description <!-- do not delete this heading and write your text below it -->
 
-By adding a `codemeta.json` file in your root source code repository, you will ease metadata propagation between different archival infrastructures. For example, when [obtaining DOIs for your code releases](./zenodo_doi), you won't need to fill in the corresponding software metadata again. CodeMeta is recognised and used by major code repositories and registries like {% tool "zenodo" %}, {% tool "inveniordm" %} and {% tool "softwareheritage" %}.
+By adding a `codemeta.json` file in your root source code repository, you will ease metadata propagation between different archival infrastructures. 
+For example, when [obtaining DOIs for your code releases](./software_identifiers), you won't need to fill in the corresponding software metadata again. CodeMeta is recognised and used by major code repositories and registries like {% tool "zenodo" %}, {% tool "inveniordm" %} and {% tool "softwareheritage" %}.
 
 But how to create a `codemeta.json` file?
 

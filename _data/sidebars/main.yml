@@ -69,7 +69,7 @@ subitems:
         url: /software_identifiers
       - title: "Documenting software"
         url: documenting_software
-      - title: "Creating a good README for software"
+      - title: "Creating a good README"
         url: /creating_good_readme
       - title: "Software metadata"
         url: software_metadata

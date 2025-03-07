@@ -4,7 +4,7 @@ description: How to enable citing your software?
 contributors: ["Jason Maassen"]
 page_id: citing_software
 related_pages:
-  your_tasks: [zenodo_doi, codemeta]
+  your_tasks: [software_identifiers, codemeta]
 ---
 
 ## What is the Citation File Format?
