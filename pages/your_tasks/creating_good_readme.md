@@ -51,11 +51,13 @@ A basic software documentation emphasises these aspects[^2] :
 These aspects should be addressed in different sections of the README. 
 
 ### Considerations 
-* A good README should describe the purpose and the features of the software.
-* A good README should describe how to execute and to use the code. 
-* In a research context, a good README should indicate how the software should be cited.
-* In a research context, a good README should indicate the funding agency and the proper acknowledgements.
-* In the context of a scientific experiment, a good README should facilitate its reproducibility.
+
+A README document should:
+
+* describe the purpose and features of the software.
+* describe how to run and use the code and (optionally) reproduce the scientific experiment it implements. 
+* acknowledge the funding bodies and contributors.
+* indicate how the software should be cited or acknowledged.
 
 ### Solutions 
 
