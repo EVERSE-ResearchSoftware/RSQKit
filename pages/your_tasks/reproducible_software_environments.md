@@ -7,6 +7,35 @@ related_pages:
   your_tasks: []
 ---
 
+
+## What are reproducible software environments?
+
+Reproducible software environments are crucial for ensuring that software behaves consistently across different systems, 
+especially when it comes to research. 
+
+Here are some popular tools and approaches for creating reproducible software environments based on their scope and usage:
+
+- **Programming language-specific environments** - focus on managing dependencies and development/runtime environments 
+for specific programming languages, ensuring consistent behavior of software across different systems. 
+- **Containerised environments** - use containers to encapsulate software and its dependencies, ensuring the software runs consistently across different systems regardless of the underlying host operating system.
+  - {% tool "docker" %} - creates lightweight, isolated containers for packaging software and its dependencies.
+  - Singularity - focuses on containerisation for high-performance computing (HPC) and scientific computing.
+  - Docker Compose - manages multi-container Docker applications, facilitating reproducible environments with multiple services.
+- **System-level environments** - work at the system level, ensuring that the entire system, including the operating system and application configurations, is reproducible.
+  - Vagrant - creates reproducible virtualised environments using configuration scripts to define virtual machines.
+  - {% tool "nix" %} - ensures reproducible environments with declarative package management, tracking all system dependencies and configurations.
+  - Packer - automates the creation of consistent machine images, supporting multiple platforms.
+- **Workflow-oriented environments** - geared toward creating reproducible environments for scientific research, bioinformatics, and complex workflows.
+  - Workflow Description Language (WDL): a language to define reproducible research workflows, ensuring that bioinformatics pipelines run consistently across systems.
+  - Galaxy - open-source platform for FAIR data analysis that enables users to access and collect data from reference databases, external repositories and other data sources;
+    use tools from various domains
+
+Code produced by researchers is sometimes not packaged in a library, package or container that you can readily run 
+on your system. Sometimes you also may want to look at the source code and be able to make modifications. 
+In these cases, you need to download the code and reproduce its programming language-specific environment in order to 
+run in. 
+In the rest of this document, we focus on programming language-specific environments - also known as **virtual software development environments**.
+
 ## What are virtual software development environments?
 
 A virtual software development environment helps us create an **isolated working copy** of a software project that uses a specific 
