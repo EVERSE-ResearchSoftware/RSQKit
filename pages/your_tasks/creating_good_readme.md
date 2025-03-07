@@ -1,5 +1,5 @@
 ---
-title: Creating a good README for software
+title: Creating a good README
 description: How to create a good README document for software projects?
 contributors: ["Esteban González", "Aleksandra Nenadic", "Daniel Garijo"]
 page_id: creating_good_readme

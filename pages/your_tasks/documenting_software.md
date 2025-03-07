@@ -19,7 +19,7 @@ ensuring the software is easy to understand and use.
 
 * Software documentation should be accessible, clear, consistent, regularly updated, cover all key software aspects (source code, software structure, APIs, usage, etc.), 
 encourage feedback, and ideally be auto-generated to a large extent.
-* Software documentation should use standard formats – (R)Markdown, HTML, PDF, or wikis.
+* Software documentation should use standard formats – (R)Markdown, reStructuredText, HTML, PDF, or wikis.
 * Each piece of documentation has a distinct purpose, different audience 
 (e.g. developers, administrators, testers, users and project managers), tone and level of detail (developer-facing documentation provides 
 in-depth and complex technical details; an end-user guide focuses on usability and clarity, offering step-by-step instructions for usage).
@@ -28,11 +28,12 @@ in-depth and complex technical details; an end-user guide focuses on usability a
 
 * Create and maintain different types of software documentation - based on its purpose and intended audiences. 
 * Include usage examples to help users understand and experiment with the software and showcase different aspects of your software.
-* Automate generating of documentation from your code where possible and publishing it online by using specialised tools 
-(e.g. using {% tool "readthedocs" %}).
+* Automate generation and publishing of documentation from your code where possible using specialised tools 
+(e.g. see general purpose documentation generation, hosting and publishing tool {% tool "readthedocs" %} or [programming language specific documentation tools](#interface-documentation)).
 * Store your documentation with your software project and track it using version control. 
-  * {% tool "readthedocs" %} integrates with the version control workflow you likely already use for your code (such as Git and GitHub). 
-  By treating documentation like code, your team can leverage familiar tools, making it easier to keep your documentation up-to-date. Read more on [how to create a *Read the Docs* page](https://everse.software/RSQKit/creating_readthedocs).
+  * {% tool "readthedocs" %} tool [integrates with the version control workflow](https://docs.readthedocs.com/platform/stable/reference/git-integration.html) you likely already use for your code. 
+  By treating documentation like code, your team can leverage familiar tools, making it easier to keep your documentation up-to-date. 
+  Read more on [how to use *Read the Docs*][creating_readthedocs].
   * Publishing service {% tool "zenodo" %} integrates with GitHub and can archive your software's documentation automatically with 
   each new release of your software.
 
@@ -96,9 +97,9 @@ It may include some of the following documentation types.
 
 #### Technical documentation
 
-- Software requirement specifications – functional and non-functional requirements of the software
-- System architecture – high-level system design, how different modules and components interact and key technologies used
-- API (Application Programming Interface) documentation – if the software provides an API, detailed API specs
+- Software requirement specifications – functional and non-functional requirements of the software.
+- System architecture – high-level system design, how different modules and components interact and key technologies used.
+- API (Application Programming Interface) documentation – if the software provides an API, detailed API specs.
 - Deployment guide – instructions on installing, configuring, and deploying the software for administrators.
 
 #### User documentation
@@ -126,14 +127,14 @@ Project documentation should include the following:
 - README - a text or Markdown file that introduces and explains a project and explains the basic functionality, dependencies and usage of your software. README 
 also acts as a homepage for your project on code sharing platforms such as {% tool "github" %} and {% tool "gitlab" %}.
 See more on [how to create a good README document for your software project][creating_good_readme].
-- Contributing guidelines - describes how people can contribute to the development of software and get involved in the project
-- Roadmap - an overview of the current and future development plans and milestones
-- Changelog and release notes - a text file that contains a record of what notable changes are made between versions of software
+- Contributing guidelines - describes how people can contribute to the development of software and get involved in the project.
+- Roadmap - an overview of the current and future development plans and milestones.
+- Changelog and release notes - a text file that contains a record of what notable changes are made between versions of software.
 - Licensing - lets users know under what legal conditions they are allowed to use the software.
 - Code of Conduct - to create and maintain a collaboration environment that promotes participation, collaboration and exchange of ideas, 
-while fostering respect among developers
+while fostering respect among developers.
 - Software citation - let people know how to cite your software, see more on [how to cite your software project](./citing_software)
-- List of all authors and contributors to the software 
+- List of all authors and contributors to the software.
 - Pointers to various other documentation about your software.
 
 ## References
@@ -147,3 +148,4 @@ while fostering respect among developers
 [licensing_software]: /licensing_software
 [releasing_code]: /releasing_software
 [software_documentation]: /documenting_software
+[creating_readthedocs]: ./creating_readthedocs
