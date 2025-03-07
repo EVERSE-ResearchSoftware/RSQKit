@@ -148,4 +148,4 @@ while fostering respect among developers.
 [licensing_software]: /licensing_software
 [releasing_code]: /releasing_software
 [software_documentation]: /documenting_software
-[creating_readthedocs]: ./creating_readthedocs
+[creating_readthedocs]: ./documenting_software_readthedocs

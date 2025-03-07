@@ -1,10 +1,10 @@
 ---
-title: "Creating a 'Read the Docs' Page"
-description: How to create 'Read the Docs' pages to describe software
+title: "Documenting software using 'ReadTheDocs'"
+description: How to use 'ReadTheDocs' tool for software documentation?
 contributors: ["Christian Hüser","Azza Gamgami"]
-page_id: creating_readthedocs
+page_id: documenting_software_readthedocs
 related_pages:
-  your_tasks: [Software_documentation]
+  your_tasks: [documenting_software]
 ---
 
 ## How to Create a ReadTheDocs Page

@@ -61,6 +61,8 @@ subitems:
         url: /writing_readable_code
       - title: "Testing software"
         url: /testing_software
+      - title: "Task automation using GitHub Actions"
+        url: /task_automation_github_actions
       - title: "Licensing software"
         url: /licensing_software
       - title: "Citing software"
@@ -69,12 +71,16 @@ subitems:
         url: /software_identifiers
       - title: "Documenting software"
         url: documenting_software
+      - title: "Documenting software using 'ReadTheDocs'"
+        url: documenting_software_readthedocs
       - title: "Creating a good README"
         url: /creating_good_readme
       - title: "Software metadata"
         url: software_metadata
       - title: "Packaging & releasing software"
         url: packaging_releasing_software
+      - title: Continuous Integration and Continuous Delivery/Deployment
+        url: /ci_cd
       - title: "Improving environmental sustainability"
         url: /improving_environmental_sustainability
   - title: All tools and resources
