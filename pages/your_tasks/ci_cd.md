@@ -1,13 +1,13 @@
 ---
 title: Continuous Integration and Continuous Delivery/Deployment
-description: What is Continuous Integration and Continuous Delivery/Deployment?
+description: How can you use CI/CD in software development?
 contributors: ["Aleksandra Nenadic"]
 page_id: ci_cd
 related_pages: 
   your_tasks: [task_automation_github_actions]
 ---
 
-## CI/CD: Continuous Integration and Continuous Delivery/Deployment
+## How can you use CI/CD in software development?
 
 ### Description 
 
@@ -40,6 +40,8 @@ Continuous Deployment goes a step further than Continuous Delivery by automating
 
 ### Considerations
 
+CI/CD practices and tools support various aspects of software development and usage, including:
+
 - Automated builds - every change triggers an automatic build process, including compilation and tests.
 - Version control integration - CI/CD systems typically integrate with version control systems that trigger CI/CD 
 workflows on each commit, ensuring no major conflicts or issues accumulate.
@@ -52,7 +54,9 @@ to ensure the software works across different environments and platforms.
 
 ### Solutions
 
-- Version Control System (VCS) are essential for managing code and version control. Some such tools (like GitHub, GitLab, Bitbucket)
+CI/CD tools and platforms for different stages of code development and deployment include:
+
+- Version Control Systems (VCS) are essential for managing code and version control. Some such tools (like GitHub, GitLab, Bitbucket)
 also provide CI/CD processes and services built around code repositories - e.g. GitHub Actions, GitLab CI/CD and BitBucket Pipelines.
 - CI/CD pipelines - automate the entire process from code integration to deployment. Common tools include:
   - GitHub Actions - integrated CI/CD directly within GitHub, with [easy-to-set-up workflows (called actions)][task_automation_github_actions].
