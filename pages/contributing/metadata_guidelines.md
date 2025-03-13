@@ -74,7 +74,7 @@ in the "front matter" header of the page or applied to a group of pages via `_co
 * `custom_editme`: specify an alternative file/link when clicking on the `edit-me` button.
 * `keywords`: a list of lowercase keywords that can be used to find the page using the search facility of RSQKit.
 * `sidebar`: name of the left-hand side navigation sidebar that should be displayed for the page. Default sidebar: `main`. The sidebar file `<SIDEBAR_NAME.md>` named after the sidebar must exist under `_data/sidebars/` in the repository.
-* `toc`: a boolean value indicating if a table of contents should be included at the top of the page. Default: `false`.
+* `toc`: a boolean value indicating if a table of contents should be included at the top right of the page. Default: `false`.
 * `page_id`: unique identifier of the page, usually a shortened version of the page title (with words separated with underscores or dashes and spaces avoided). This identifier is used in `related_pages` parameter to list pages related to this page. 
 * `datatable`: a boolean value indicating the activation of the pagination, sorting and searching in tabular representations of pages.
 * `related_pages`: a list of `page_id`s that are related to this page and will appear under "Related pages" section on the page, grouped by page type.
