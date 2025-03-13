@@ -128,7 +128,7 @@ following attributes (a subset of the [EVERSE Research Software indicator metada
 * `name`: name of the indicator (title).
 * `description`: a brief description of the indicator, stating its purpose and how to measure it. 
 * `keywords`: keywords to ease finding the indicator.
-* `quality_dimension`: Research Software Quality (RS Quality) dimension associated with the indicator (see https://w3id.org/everse/rsqi for a full list).
+* `quality_dimension`: Research Software Quality (RS Quality) dimension associated with the indicator (see [https://w3id.org/everse/rsqd](https://w3id.org/everse/rsqd) for a full list).
 * `version`: if the indicator has a version (e.g., some ISO standards specify indicators), it should be included here.
 * `source`: the standard or reference document where the indicator was first proposed.
 * `status`: status of the indicator (e.g. deprecated, obsolete, active, etc.).
