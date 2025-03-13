@@ -78,7 +78,7 @@ in the "front matter" header of the page or applied to a group of pages via `_co
 * `page_id`: unique identifier of the page, usually a shortened version of the page title (with words separated with underscores or dashes and spaces avoided). This identifier is used in `related_pages` parameter to list pages related to this page. 
 * `datatable`: a boolean value indicating the activation of the pagination, sorting and searching in tabular representations of pages.
 * `related_pages`: a list of `page_id`s that are related to this page and will appear under "Related pages" section on the page, grouped by page type.
-* `page_citation`: When set to true, it will cause the citation section for the page to be generated in the format: "<author names>. <page title>. <site domain>. <page URL>. <date accessed>".
+* `page_citation`: When set to `true`, it will cause the citation section for the page to be generated in the format: "<author names>. <page title>. <site domain>. <page URL>. <date accessed>". Defaults to `true` for task pages; `false` for other page types.
 
 ## Tools and resources metadata
 
