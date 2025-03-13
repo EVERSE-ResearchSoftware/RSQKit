@@ -105,7 +105,7 @@ An example of a tool definition is given below:
 ```
 
 Pages in RSQKit can include references to tools and resources. Such references will appear visually different on a page - 
-with a little wrench icon and a pop-up window which shows up on hover over and includes the tool/resource description.
+with a little wrench icon and a pop-up window which shows up on hover over and includes the tool/resource description and a website link.
 
 To refer to a tool or a resource in a page, use the following syntax:
 
