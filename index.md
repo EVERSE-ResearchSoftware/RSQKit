@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% include callout.html type="warning" content="The current version of RSQKit is a work in progress. Any content should not be considered final at this stage." %}
+{% include callout.html type="note" content="The current version of RSQKit is still a work in progress - any content should not be considered final at this stage. If you find something missing or want to comment, please get in touch with the [RSQKit Editoral Board](https://everse.software/RSQKit/editorial_board)." %}
 
 # Research Software Quality Kit (RSQKit)
 
@@ -19,5 +19,3 @@ Research community use cases and usage of software practices is highlighted acro
 Research software roles (e.g. Research Software Engineers (RSEs) and Researchers who code) are included to document the sources and practitioners of research software. This brings attention to the need for credit and career paths for research software related roles.
 
 RSQKit is currently developed as part of the [EVERSE](https://everse.software) project, with external engagement with the wider community through the open [EVERSE Network](https://everse.software/network/).
-
-{% include callout.html type="note" content="The content of RSQKit is work in progress - the EVERSE project partners will constantly update and add things. If you find things missing or want to comment, please get in touch with the [RSQKit Editoral Board](https://everse.software/RSQKit/editorial_board)." %}
