@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% include callout.html type="note" content="The current version of RSQKit is still a work in progress - any content should not be considered final at this stage. If you find something missing or want to comment, please get in touch with the [RSQKit Editoral Board](https://everse.software/RSQKit/editorial_board)." %}
+{% include callout.html type="note" content="The current version of RSQKit is still work in progress - any content should not be considered final at this stage. If you find something missing or want to comment, please get in touch with the [RSQKit Editoral Board](https://everse.software/RSQKit/editorial_board)." %}
 
 # Research Software Quality Kit (RSQKit)
 
