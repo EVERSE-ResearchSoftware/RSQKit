@@ -7,7 +7,7 @@ title: Three tier model
 The three-tier model of research software provides a framework for understanding the diverse landscape of software in research. This model distinguishes three tiers of research software, each spanning the entire software development journey:
 
 ![Three-Tier Model of Research Software](../../images/three-tier-model.png)
-*Screenshot taken from Psomopoulos (2025).*
+*Diagram from [Psomopoulos, F. (2025, February 18). EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence. PowerPoint slides.](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf)*
 
 Analysis code: This includes research software that captures computational research processes and methodology, often used in simulation, data generation, preparation, analysis and visualisation. It typically represents software created for personal use with a small scope, such as analysis scripts. For example, Nipype, a Python-based framework for neuroimaging data processing, began as a collection of analysis scripts before evolving into a more comprehensive tool (<https://doi.org/10.3389/fninf.2016.00013>).
 
