@@ -7,7 +7,7 @@ title: Three tier model
 The three-tier model of research software provides a framework for understanding the diverse landscape of software in research. This model distinguishes three tiers of research software, each spanning the entire software development journey:
 
 ![Three-Tier Model of Research Software](../../images/three-tier-model.png)
-*Diagram from [Psomopoulos, F. (2025, February 18). EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence. PowerPoint slides.](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf)*
+*Diagram from [Psomopoulos, F. (2025, February 18)][^1]*
 
 Analysis code: This includes research software that captures computational research processes and methodology, often used in simulation, data generation, preparation, analysis and visualisation. It typically represents software created for personal use with a small scope, such as analysis scripts. For example, Nipype, a Python-based framework for neuroimaging data processing, began as a collection of analysis scripts before evolving into a more comprehensive tool (<https://doi.org/10.3389/fninf.2016.00013>).
 
@@ -33,7 +33,10 @@ The Three-Tier Model of Research Software aligns closely with practical Software
 
 ## References
 
-- [^1]: Psomopoulos, F. (2025, February 18). EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence. [PowerPoint slides](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf). INAB, CERTH.
-- [^2]: Australian Research Data Commons. (2022). A National Agenda for Research Software (Version 1.0). Zenodo. [https://doi.org/10.5281/zenodo.6378082](https://doi.org/10.5281/zenodo.6378082)
-- [^3]: Chue Hong, N. P., et al. (2022). FAIR Principles for Research Software (FAIR4RS Principles). Scientific Data, 9, 622. https://doi.org/10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
-- [^4]: Schlauch, T., Meinel, M., & Haupt, C. (2018). DLR Software Engineering Guidelines (Version 1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.1344612](https://doi.org/10.5281/zenodo.1344612)
+[^1]: Psomopoulos, F. (2025, February 18). EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence. [PowerPoint slides](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf). INAB, CERTH.
+
+[^2]: Australian Research Data Commons. (2022). A National Agenda for Research Software (Version 1.0). Zenodo. [https://doi.org/10.5281/zenodo.6378082](https://doi.org/10.5281/zenodo.6378082)
+
+[^3]: Chue Hong, N. P., et al. (2022). FAIR Principles for Research Software (FAIR4RS Principles). Scientific Data, 9, 622. https://doi.org/10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
+
+[^4]: Schlauch, T., Meinel, M., & Haupt, C. (2018). DLR Software Engineering Guidelines (Version 1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.1344612](https://doi.org/10.5281/zenodo.1344612)
