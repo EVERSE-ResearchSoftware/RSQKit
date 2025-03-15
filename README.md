@@ -5,7 +5,7 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
-Research Software Quality Kit (RSQKit), developed as part of [EVERSE project](https://everse.software/), curated best practices in improving the quality of research software. It is intended for use by researchers, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.  
+Research Software Quality Kit (RSQKit), developed as part of the [EVERSE project](https://everse.software/), contains curated best practices in improving the quality of research software. It is intended for use by researchers, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.  
 
 > [!NOTE]
 > The current version of RSQKit is still work in progress - any content should not be considered final at this stage.
