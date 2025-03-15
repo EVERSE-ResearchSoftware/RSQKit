@@ -1,13 +1,13 @@
 ---
-title: Three tier model
+title: Three-Tier Model of Research Software
 ---
 
 ## Three-Tier Model of Research Software
 
 The three-tier model of research software provides a framework for understanding the diverse landscape of software in research. This model distinguishes three tiers of research software, each spanning the entire software development journey:
 
-![Three-Tier Model of Research Software](../../images/three-tier-model.png)
-*Diagram from Psomopoulos, F. (2025, February 18)[^1]*
+![Three-tier model of research software](../../images/three-tier-model.png)
+*Diagram from ["EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence" presentation](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf) by F. Psomopoulos, February 2025*
 
 Analysis code: This includes research software that captures computational research processes and methodology, often used in simulation, data generation, preparation, analysis and visualisation. It typically represents software created for personal use with a small scope, such as analysis scripts. For example, Nipype, a Python-based framework for neuroimaging data processing, began as a collection of analysis scripts before evolving into a more comprehensive tool (<https://doi.org/10.3389/fninf.2016.00013>).
 
@@ -19,26 +19,13 @@ The essence of the three-tier model is that software in different tiers has dist
 
 ## Context and History
 
-The three-tier model originated from the Australian Research Data Commons (ARDC) as part of their "A National Agenda for Research Software"[^2]. It emerged from the need to better categorise and support different types of research software, recognising that a one-size-fits-all approach is inadequate for the varied purposes and stakeholders involved in research software.
-
+The three-tier model originated from the Australian Research Data Commons (ARDC) as part of their ["A National Agenda for Research Software"](https://doi.org/10.5281/zenodo.6378082](https://doi.org/10.5281/zenodo.6378082). It emerged from the need to better categorise and support different types of research software, recognising that a one-size-fits-all approach is inadequate for the varied purposes and stakeholders involved in research software.
 The model acknowledges a relationship between the tiers: software at higher tiers builds on the existence and stability of software in lower tiers, while the existence of higher-tier software reinforces the value of lower-tier software. This interconnectedness highlights the importance of supporting all levels of research software development.
 
-Since its introduction, the model has gained international recognition. It has been referenced in various contexts, including the FAIR Principles for Research Software (FAIR4RS Principles)[^3] work. Similar tiered approaches have been adopted by other organisations, such as the German Aerospace Center (DLR) in their "Software Engineering Guidelines"[^4].
+Since its introduction, the model has gained international recognition. It has been referenced in various contexts, including the ["FAIR Principles for Research Software (FAIR4RS Principles)"](https://doi.org/10.1038/s41597-022-01710-x). Similar tiered approaches have been adopted by other organisations, such as the German Aerospace Center (DLR) in their ["Software Engineering Guidelines"](https://doi.org/10.5281/zenodo.1344612](https://doi.org/10.5281/zenodo.1344612).
 
 The three-tier model aligns with a broader vision of recognising research software as a first-class output of research. It provides a framework for addressing specific challenges at each tier, from increasing transparency in analysis code to enabling broad impact through quality prototype tools and ensuring sustained support for research software infrastructure.
 
 For initiatives like EVERSE, the three-tier model offers a valuable lens through which to view research software quality and excellence. It suggests that practices, tools, and assessment criteria may need to be adjusted based on the tier of software being considered, contributing to a more comprehensive framework for research software quality that can be applied across diverse research contexts.
 
-The Three-Tier Model of Research Software aligns closely with practical Software Management Plan (SMP) frameworks. As outlined in the "Practical Guide to Software Management Plans"[^5], SMPs can be tailored to low, medium, and high management levels, corresponding to analysis code, prototype tools, and research software infrastructure respectively. This alignment demonstrates how the Three-Tier Model can guide the development of appropriate management practices for different types of research software, ensuring that software management efforts are appropriately scaled to the nature and intended use of the software. By mapping specific SMP requirements to each tier, researchers and institutions can enhance the quality and sustainability of research software across all levels of complexity and scope.
-
-## References
-
-[^1]: Psomopoulos, F. (2025, February 18). EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence. [PowerPoint slides](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf). INAB, CERTH.
-
-[^2]: Australian Research Data Commons. (2022). A National Agenda for Research Software (Version 1.0). Zenodo. [https://doi.org/10.5281/zenodo.6378082](https://doi.org/10.5281/zenodo.6378082)
-
-[^3]: Chue Hong, N. P., et al. (2022). FAIR Principles for Research Software (FAIR4RS Principles). Scientific Data, 9, 622. https://doi.org/10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
-
-[^4]: Schlauch, T., Meinel, M., & Haupt, C. (2018). DLR Software Engineering Guidelines (Version 1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.1344612](https://doi.org/10.5281/zenodo.1344612)
-
-[^5]: Martinez-Ortiz, C., Martinez Lavanchy, P., Sesink, L., Olivier, B. G., Meakin, J., de Jong, M., & Cruz, M. (2022). Practical guide to Software Management Plans (1.0). Zenodo. [https://doi.org/10.5281/zenodo.7248877](https://doi.org/10.5281/zenodo.7248877)
+The three-tier of research software aligns closely with practical Software Management Plan (SMP) frameworks. As outlined in the ["Practical Guide to Software Management Plans"](https://doi.org/10.5281/zenodo.7248877](https://doi.org/10.5281/zenodo.7248877), SMPs can be tailored to low, medium, and high management levels, corresponding to analysis code, prototype tools, and research software infrastructure respectively. This alignment demonstrates how the three-tier model can guide the development of appropriate management practices for different types of research software, ensuring that software management efforts are appropriately scaled to the nature and intended use of the software. By mapping specific SMP requirements to each tier, researchers and institutions can enhance the quality and sustainability of research software across all levels of complexity and scope.
