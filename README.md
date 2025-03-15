@@ -28,7 +28,7 @@ Information about the licenses that apply to RSQKit can be found in [LICENSE.md]
 
 ## Contact
 
-Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this lesson.
+Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this project or content.
 
 ## Acknowledgements
 
