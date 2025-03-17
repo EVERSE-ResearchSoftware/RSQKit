@@ -1,6 +1,6 @@
 ---
 title: ENVRI - environmental sciences
-description: European Environmental Research Infrastructures (ENVRI) is a science cluster bringing together communities & research infrastructure in the area of Earth & environmental sciences.
+description: European Environmental Research Infrastructures (ENVRI) is a science cluster bringing together communities & research infrastructure in the area of Earth & environmental sciences
 type: research_community
 ---
 
