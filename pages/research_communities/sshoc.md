@@ -1,6 +1,6 @@
 ---
 title: SSHOC - social sciences & humanities
-description: Social Sciences and Humanities Open Cluster (SSHOC) cluster bring together a range of disciplines and methodological backgrounds.
+description: Social Sciences and Humanities Open Cluster (SSHOC) cluster bring together a range of disciplines and methodological backgrounds
 type: research_community
 ---
 
