@@ -33,8 +33,7 @@ If anyone else wants to use the work, then that person needs explicit permission
 A license describes the nature of this agreement, and does not need a signature: the user can never deny the existence 
 of any conditions, because without the license they would not be able to use the work at all.
 
-Licensing is an important aspect of meeting the principle of reusability (the "R" in FAIR) in FAIR for 
-Research Software (see principle "R1.1. Software is given a clear and accessible license"[^1]).
+Licensing is an important aspect of meeting the principle of reusability (the "R" in FAIR) in [FAIR for Research Software Principles][fair-rs-principles] (see principle "R1.1. Software is given a clear and accessible license").
 
 As part of the publication process, you need to decide under which license your software is made available to others. 
 If this information is not provided, people will not be able to legally reuse your software, even if this was not your intention.
@@ -134,7 +133,7 @@ Combinations of various rights that are granted give us the following six Creati
 * [CC BY-ND](https://creativecommons.org/licenses/by-nd/4.0/) - Creative Commons No Derivatives
 * [CC BY-ND-NC](https://creativecommons.org/licenses/by-nc-nd/4.0/) - Creative Commons No Derivatives Non Commercial
 
-In addition to the licenses above, Creative Commons also offers [CC0](https://creativecommons.org/publicdomain/zero/1.0/) - a public dedication tool, which enables creators to give up their copyright and put their works into the worldwide public domain. 
+In addition to the licenses above, Creative Commons also offers [CC0][cc0] - a public dedication tool, which enables creators to give up their copyright and put their works into the worldwide public domain. 
 
 ### Considerations
 
@@ -149,7 +148,7 @@ In addition to the licenses above, Creative Commons also offers [CC0](https://cr
 ### Solutions
 
 * {% tool "choosealicense" %} is a great tool to help you choose a license that is appropriate for your needs.
-* {% tool "spdx" %} is a long list of commonly found licenses.
+* {% tool "spdx" %} (System Package Data Exchange - open standard project) provides a long list of [commonly used licenses][spdx-licences].
 * Check the [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) for guidelines on changing and editing licenses.
 
 ## How do I add a license to my code repository?
@@ -177,8 +176,6 @@ Otherwise, create a new file called, e.g. LICENSE, in the root directory to your
 The contents of this page have been adapted from the ["Licensing" activity page](https://rdmkit.elixir-europe.org/licensing) in the [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/), contributed by Minna Ahokas, Nicola Soranzo, Rob Hooft and Siiri Fuchs.
 
       
-## References
-
-[^1]: Chue Hong, N. P., Katz, D. S., Barker, M., Lamprecht, A.-L., Martinez, C., Psomopoulos, F. E., Harrow, J., Castro, L. J., Gruenpeter, M., Martinez, P. A., Honeyman, T., Struck, A., Lee, A., Loewe, A., van Werkhoven, B., Jones, C., Garijo, D., Plomp, E., Genova, F., … RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). Zenodo. [https://doi.org/10.15497/RDA00068](https://zenodo.org/records/6623556#.YqCJTJNBwlw)
-
- 
+[spdx-licences]: https://spdx.org/licenses/
+[fair-rs-principles]: https://doi.org/10.15497/RDA00068
+[cc0]: https://creativecommons.org/publicdomain/zero/1.0/

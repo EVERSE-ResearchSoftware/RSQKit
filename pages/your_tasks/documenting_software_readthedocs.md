@@ -1,6 +1,6 @@
 ---
-title: "Documenting software using 'ReadTheDocs'"
-description: How to use 'ReadTheDocs' tool for software documentation?
+title: "Documenting software using 'Read The Docs'"
+description: How to use 'Read The Docs' tool for software documentation?
 contributors: ["Christian Hüser","Azza Gamgami"]
 page_id: documenting_software_readthedocs
 related_pages:

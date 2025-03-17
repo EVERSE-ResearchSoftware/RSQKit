@@ -71,8 +71,6 @@ subitems:
         url: /software_identifiers
       - title: "Documenting software"
         url: documenting_software
-      - title: "Documenting software using 'ReadTheDocs'"
-        url: documenting_software_readthedocs
       - title: "Creating a good README"
         url: /creating_good_readme
       - title: "Software metadata"

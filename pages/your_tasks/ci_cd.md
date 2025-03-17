@@ -69,9 +69,9 @@ also provide CI/CD processes and services built around code repositories - e.g. 
 - Testing tools - automated testing tools like JUnit, Selenium, Cypress, and Postman integrate with CI/CD workflows/pipelines to ensure the code meets quality standards.
 - Artifact repositories - tools like Artifactory or Nexus Repository store build artifacts (e.g., Docker images, binaries) for deployment.
 - Containerisation and orchestration
-  - {% tool "docker" %} containers help standardise environments across stages.
-  - {% tool "kubernetes" %} - for orchestration, enabling deployment, scaling, and management of containerized applications.
+  - {% tool "docker" %} - to help standardise environments for applications by packaging them in containers.
+  - {% tool "kubernetes" %} - for orchestration, enabling deployment, scaling and management of containerised applications.
 - Monitoring - tools like Prometheus, Grafana, and New Relic are used for real-time monitoring in production to ensure system health.
-- Infrastructure as Code (IaC) - tools like Terraform or Ansible automate infrastructure provisioning and configuration, ensuring consistency across environments.
+- Infrastructure as Code (IaC) - tools like {% tool "terraform" %}, {% tool "vagrant" %} or {% tool "ansible" %} automate infrastructure provisioning and configuration, ensuring consistency across environments.
 
 [task_automation_github_actions]: ./task_automation_github_actions

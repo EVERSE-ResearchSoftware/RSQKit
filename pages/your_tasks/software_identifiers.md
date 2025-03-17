@@ -117,7 +117,7 @@ Check out other relevant documentation:
 
 If your software is stored on GitLab, below is the procedure to obtain a DOI for your software via Zenodo.
 
-* Provide software metadata in a `codemeta.json` file at the root of your repository. See [codemeta](./software_metadata) for more information.
+* Provide software metadata in a CodeMeta file (`codemeta.json`) at the root of your software repository. See more on [software metadata](./software_metadata) and {% tool "codemeta" %} standard.
 * Get a [Zenodo token](https://zenodo.org/account/settings/applications/tokens/new/) with publishing rights (`deposit:actions` and `deposit:write` scopes).
 * Add the {% tool "eossr" %} or the [gitlab2zenodo](https://gitlab.com/sbeniamine/gitlab2zenodo) libraries in  your [GitLab-CI pipeline](https://docs.gitlab.com/ee/ci/yaml/) to automatically archive your code on Zenodo whenever you create a new release.
   * Note that if using gitlab2zenodo, you will need to convert your `codemeta.json` file to a `.zenodo.json` file, e.g. using the `eossr`.

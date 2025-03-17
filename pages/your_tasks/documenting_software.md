@@ -4,7 +4,7 @@ description: How to document your software project?
 contributors: ["Azza Gamgami", "Aleksandra Nenadic"]
 page_id: documenting_software
 related_pages:
-  your_tasks: [writing_readable_code, creating_readthedocs, creating_good_readme]
+  your_tasks: [writing_readable_code, documenting_software_readthedocs, creating_good_readme]
 ---
 
 ## How to document your software project?
@@ -33,7 +33,7 @@ in-depth and complex technical details; an end-user guide focuses on usability a
 * Store your documentation with your software project and track it using version control. 
   * {% tool "readthedocs" %} tool [integrates with the version control workflow](https://docs.readthedocs.com/platform/stable/reference/git-integration.html) you likely already use for your code. 
   By treating documentation like code, your team can leverage familiar tools, making it easier to keep your documentation up-to-date. 
-  Read more on [how to use *Read the Docs*][creating_readthedocs].
+  Read more on [how to use *Read the Docs*][creating_readthedocs] to document your software project.
   * Publishing service {% tool "zenodo" %} integrates with GitHub and can archive your software's documentation automatically with 
   each new release of your software.
 

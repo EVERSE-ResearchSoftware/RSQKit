@@ -22,11 +22,11 @@ are developing or modifying other people's software.
   - {% tool "docker" %} - creates lightweight, isolated containers for packaging software and its dependencies.
   - {% tool "singularity" %}, {% tool "apptainer" %} - focuses on containerisation for high-performance computing (HPC) and scientific computing.
   - {% tool "docker-compose" %} - manages multi-container Docker applications, facilitating reproducible environments with multiple services.
-- **System-level environments** - work at the operating system level, ensuring that the entire system, including the operating system and application configurations, is reproducible.
+- **System-level environments** - work at the system level, ensuring that the entire system, including the operating system and application configurations, is reproducible.
   - {% tool "vagrant" %} - creates reproducible virtualised environments using configuration scripts to define virtual machines.
   - {% tool "nixos" %} - ensures reproducible environments with declarative package management, tracking all system dependencies and configurations - 
   embodying the "operating system as code" philosophy which treats the entire operating system, including its configuration and infrastructure, as code that can be managed, versioned, and deployed like any other software application.
-  - {% tool "packer" %} - automates the creation of consistent machine images, supporting multiple platforms. 
+  - {% tool "packer" %} - automates the creation of consistent machine images, supporting multiple platforms.
 - **Workflow-oriented environments** - geared toward creating reproducible environments for scientific research, bioinformatics, and complex workflows.
   - {% tool "wdl" %} - a language to define reproducible research workflows, ensuring that pipelines run consistently across systems.
   - {% tool "galaxy" %} - open-source platform for FAIR data analysis that enables users to access and collect data from reference databases, external repositories and other data sources;
