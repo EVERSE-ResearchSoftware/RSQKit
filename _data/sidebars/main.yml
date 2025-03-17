@@ -77,7 +77,7 @@ subitems:
         url: software_metadata
       - title: "Packaging & releasing software"
         url: packaging_releasing_software
-      - title: Continuous Integration/Deployment
+      - title: Continuous Integration & Deployment
         url: /ci_cd
       - title: "Improving environmental sustainability"
         url: /improving_environmental_sustainability
