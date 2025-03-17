@@ -7,7 +7,7 @@ related_pages:
   your_tasks: [documenting_software]
 ---
 
-## How to Create a ReadTheDocs Page
+## How to use 'Read The Docs' for your software documentation
  
 ### Description
 
