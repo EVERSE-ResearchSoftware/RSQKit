@@ -29,6 +29,8 @@ subitems:
   - title: Research communities
     url: /research_communities
     subitems:
+      - title: LS-RI
+        url: /ls-ri
       - title: ENVRI
         url: /envri
       - title: ESCAPE
