@@ -16,25 +16,27 @@ especially when it comes to research.
 Here are some popular tools and approaches for creating reproducible software environments based on their scope and usage:
 
 - **Programming language-specific environments** - focus on managing dependencies and development/runtime environments 
-for specific programming languages, ensuring consistent behavior of software across different systems. 
+for specific programming languages, ensuring consistent behavior of software across different systems. Extremely useful when you
+are developing or modifying other people's software.
 - **Containerised environments** - use containers to encapsulate software and its dependencies, ensuring the software runs consistently across different systems regardless of the underlying host operating system.
   - {% tool "docker" %} - creates lightweight, isolated containers for packaging software and its dependencies.
-  - Singularity - focuses on containerisation for high-performance computing (HPC) and scientific computing.
-  - Docker Compose - manages multi-container Docker applications, facilitating reproducible environments with multiple services.
-- **System-level environments** - work at the system level, ensuring that the entire system, including the operating system and application configurations, is reproducible.
-  - Vagrant - creates reproducible virtualised environments using configuration scripts to define virtual machines.
-  - {% tool "nix" %} - ensures reproducible environments with declarative package management, tracking all system dependencies and configurations.
-  - Packer - automates the creation of consistent machine images, supporting multiple platforms.
+  - {% tool "singularity" %}, {% tool "apptainer" %} - focuses on containerisation for high-performance computing (HPC) and scientific computing.
+  - {% tool "docker-compose" %} - manages multi-container Docker applications, facilitating reproducible environments with multiple services.
+- **System-level environments** - work at the operating system level, ensuring that the entire system, including the operating system and application configurations, is reproducible.
+  - {% tool "vagrant" %} - creates reproducible virtualised environments using configuration scripts to define virtual machines.
+  - {% tool "nixos" %} - ensures reproducible environments with declarative package management, tracking all system dependencies and configurations - 
+  embodying the "operating system as code" philosophy which treats the entire operating system, including its configuration and infrastructure, as code that can be managed, versioned, and deployed like any other software application.
+  - {% tool "packer" %} - automates the creation of consistent machine images, supporting multiple platforms. 
 - **Workflow-oriented environments** - geared toward creating reproducible environments for scientific research, bioinformatics, and complex workflows.
-  - Workflow Description Language (WDL): a language to define reproducible research workflows, ensuring that bioinformatics pipelines run consistently across systems.
-  - Galaxy - open-source platform for FAIR data analysis that enables users to access and collect data from reference databases, external repositories and other data sources;
+  - {% tool "wdl" %} - a language to define reproducible research workflows, ensuring that pipelines run consistently across systems.
+  - {% tool "galaxy" %} - open-source platform for FAIR data analysis that enables users to access and collect data from reference databases, external repositories and other data sources;
     use tools from various domains
 
 Code produced by researchers is sometimes not packaged in a library, package or container that you can readily run 
 on your system. Sometimes you also may want to look at the source code and be able to make modifications. 
 In these cases, you need to download the code and reproduce its programming language-specific environment in order to 
 run in. 
-In the rest of this document, we focus on programming language-specific environments - also known as **virtual software development environments**.
+In the rest of this document, we focus on the **programming language-specific environments** - also known as the **virtual software development environments**.
 
 ## What are virtual software development environments?
 
@@ -111,7 +113,7 @@ Sometimes, a package manager combines both of these functionalities and you only
   (but compatible with) PyPI that distributes non-Python packages packages as well and has its own non-venv-based virtual environment system.
   - If you are using R - consider {% tool "renv" %} that will help you build reproducible environments for your R projects
   - For Julia programming language - check {% tool "pkg-jl" %}; for C++ - check {% tool "conan" %}, for Java - check {% tool "maven" %}, for Ruby - check {% tool "bundler" %}.
-  - There are some some generic tools to have a look at as well - e.g. [Spack][spack], [nix][nix], [guix][guix].
+  - There are some some generic tools to have a look at as well - e.g. [Spack][spack], {% tool "nixos" %}, [guix][guix].
 - You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
 already using (so you can get help when you need it). Not using virtual environments at all and mixing different tools to manage them could lead to
 a [bad example of a spaghetti setup][python-env-hell], not knowing which dependencies are being used and causing issues when running and debugging code.
@@ -128,5 +130,4 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 [ssi]: https://www.software.ac.uk/
 [python-env-hell]: https://xkcd.com/1987/
 [guix]: https://hpc.guix.info/
-[nix]: https://nixos.org/
 [spack]: https://spack.io/

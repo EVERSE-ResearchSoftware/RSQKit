@@ -71,14 +71,16 @@
   id: java
   name: Java
   url: https://www.java.com/en/
-- description: Docker is a software for executing applications in virtualized environments called containers. Docker allows developers to build, share, run and verify applications easily. It is linked to DockerHub, a library for sharing container images.
+- description: "Docker is a tool for creating isolated environments (application isolation) for software development called containers to enable consistent software running across platforms. 
+  Docker allows developers to build, share, run and verify applications easily. DockerHub is a repository for sharing and managing container images."
   id: docker
   name: Docker
   registry:
-    fairsharing: afc2b3
-    fairsharing-coll: bsg-d001254
-    tess: Docker
   url: https://www.docker.com/
+- description: "Docker Compose is a tool for defining and running multi-container applications for streamlined and efficient development and deployment experience."
+  id: docker-compose
+  name: Docker Compose
+  url: https://docs.docker.com/compose/
 - description: Howfariris is a command line tool to analyze a GitHub or GitLab repository's compliance with the EU FAIR software recommendations.
   id: howfairis
   name: howfairis
@@ -231,14 +233,20 @@
   id: cppunit
   name: CPPUnit
   url: https://freedesktop.org/wiki/Software/cppunit/
-- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments
+- description: "Apptainer (formerly Singularity) simplifies the creation and execution of containers, ensuring software components are encapsulated for portability and reproducibility, especially in High Performance Computing (HPC) environments."
   id: apptainer
-  name: APPTAINER
+  name: Apptainer
   url: https://apptainer.org/
-- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments
-  id: singularityce
-  name: SingularityCE
+- description: "Singularity is an open source container platform allows us to create and run containers that package up pieces of software in a way that is portable and reproducible.
+  Singularity is designed for ease-of-use on shared multiuser systems and in High Performance Computing (HPC) environments. Singularity is compatible with all Docker images and it can be used with GPUs and MPI applications."
+  id: singularity
+  name: Singularity
   url: https://sylabs.io/singularity/
+- description: "Packer is an automated build system to manage the creation of identical images for containers and virtual machines (multiple platforms) from a single source configuration, encapsulating 'Images as Code' philosophy. 
+  Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel."
+  id: packer
+  name: Packer
+  url: https://www.packer.io/
 - description: An extremely fast Python linter and code formatter written in Rust
   id: ruff
   name: Ruff
@@ -267,7 +275,7 @@
   id: valgrind
   name: Valgrind
   url: https://valgrind.org/
-- description: Data Version Control - to help you manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow
+- description: Data Version Control - to help you manage and version images, audio, video, and text files in storage and organise your ML modeling process into a reproducible workflow
   id: dvc
   name: DVC
   url: https://dvc.org/
@@ -307,9 +315,10 @@
   id: cmake
   name: CMake
   url: https://cmake.org/
-- description: Unique approach to package management and system configuration
-  id: nix
-  name: Nix
+- description: "NixOS is a free and open-source Linux distribution based on the Nix package manager. 
+  It uses declarative configuration (using the Nix language) to manage packages and the entire system environment - allowing for reproducibility and portability."
+  id: nixos
+  name: NixOS
   url: https://nixos.org/
 - description: Package manager.
   id: guix
@@ -495,3 +504,15 @@
   id: fortran
   name: Fortran
   url: https://fortran-lang.org/
+- description: Vagrant is a tool that simplifies and provides a single workflow for the creation and management of virtual machines, and provides full VM isolation.
+  id: vagrant
+  name: Vagrant
+  url: https://www.vagrantup.com/
+- description: Workflow Description Language (WDL) is an open standard for describing data processing workflows with a human-readable and writeable syntax.
+  id: wdl
+  name: Workflow Description Language
+  url: https://openwdl.org/
+- description: Galaxy is a free, open-source system for analysing data, authoring workflows, training and education, publishing tools, and managing infrastructure.
+  name: Galaxy
+  id: galaxy
+  url: https://galaxyproject.org/
