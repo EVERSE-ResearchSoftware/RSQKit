@@ -1,7 +1,6 @@
 ---
-title: ESCAPE
-description: Physics & astronomy - ESCAPE is a science cluster bringing together communities & research infrastructure in the area of astronomy and particle physics.
-search_exclude: false
+title: ESCAPE - physics & astronomy
+description: ESCAPE is a science cluster bringing together communities & research infrastructure in the area of astronomy and particle physics
 type: research_community
 ---
 

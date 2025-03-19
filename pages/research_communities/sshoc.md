@@ -1,7 +1,6 @@
 ---
-title: SSH Open Cluster - Social Science & Humanities Resources
-description: The social sciences and humanities (SSH) cluster bring together a range of disciplines and methodological backgrounds.
-search_exclude: false
+title: SSHOC - social sciences & humanities
+description: Social Sciences and Humanities Open Cluster (SSHOC) cluster bring together a range of disciplines and methodological backgrounds
 type: research_community
 ---
 
