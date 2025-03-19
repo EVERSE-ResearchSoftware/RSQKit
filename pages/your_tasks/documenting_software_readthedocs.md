@@ -1,13 +1,13 @@
 ---
-title: "Creating a 'Read the Docs' Page"
-description: How to create 'Read the Docs' pages to describe software
+title: "Documenting software using 'Read The Docs'"
+description: How to use 'Read The Docs' tool for software documentation?
 contributors: ["Christian Hüser","Azza Gamgami"]
-page_id: creating_readthedocs
+page_id: documenting_software_readthedocs
 related_pages:
-  your_tasks: [Software_documentation]
+  your_tasks: [documenting_software]
 ---
 
-## How to Create a ReadTheDocs Page
+## How to use 'Read The Docs' for your software documentation
  
 ### Description
 
@@ -118,7 +118,7 @@ After a successful build, the documentation will be published and publicly acces
 
 * You can always trigger new builds from the ReadTheDocs dashboard or via new commits to your repository.
 
-For further information, please refer to the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html). Additionally, check out [our page on software documentation](software_documentation) for more insights.
+For further information, please refer to the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html). Additionally, check out [our page on software documentation](documenting_software) for more insights.
 
 ## References
 * [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html)

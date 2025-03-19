@@ -1,18 +1,20 @@
 ---
-title: How to add your first GitHub action
-search_exclude: false
-description: Step-by-step guide that covers workflow creation, using pre-built actions from the GitHub Marketplace, and automating testing with GitHub Actions.
-contributors: [Eva Martín del Pico]
-page_id: first_github_action
+title: Task automation using GitHub Actions
+description: How to set up GitHub Actions on software repositories for task automation
+summary: Step-by-step guide that covers workflow creation, using pre-built actions from the GitHub Marketplace, and automating testing with GitHub Actions.
+contributors: ["Eva Martín del Pico"]
+page_id: task_automation_github_actions
 related_pages: 
-  your_tasks: []
+  your_tasks: [ci_cd]
 ---
 
-## How to add an action to my GitHub repository?
+## Task automation using GitHub Actions
  
 ### Description
 
-{% tool "github-actions" %} is a powerful automation tool that allows you to define workflows for your repository. It helps automate tasks such as testing, building, and deploying code. Setting up your first {% tool "github" %}  Action enables you to streamline development processes and improve efficiency.
+{% tool "github-actions" %} is a powerful [automation tool](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions) ([continuous integration (CI)](https://docs.github.com/en/actions/about-github-actions/about-continuous-integration-with-github-actions)
+and [continuous delivery (CD)](https://docs.github.com/en/actions/about-github-actions/about-continuous-deployment-with-github-actions) platform) that allows you to define workflows (called `actions`) for your repository 
+that help automate tasks such as building, testing and deploying code. GitHub Actions enable you to streamline development processes and improve efficiency.
 
 ### Considerations
 
@@ -23,7 +25,6 @@ related_pages:
 * Understanding basic YAML syntax is essential for configuring GitHub Actions correctly.
 * The workflow execution environment supports different operating systems, including Ubuntu, Windows, and macOS.
 * Review the repository's security settings to control access to sensitive information, such as API keys and credentials, stored as secrets.
-
 
 ### Solutions
 
@@ -104,10 +105,10 @@ related_pages:
 
 * **General documentation:**
 
-  * [GitHub Actions Documentation](https://docs.github.com/en/actions) - Official documentation covering all aspects of GitHub Actions.
-  * [GitHub Marketplace for Actions](https://github.com/marketplace/actions) - Browse and search for actions to use in your workflows.
-  * [GitHub Actions Examples](https://github.com/actions) - Collection of sample workflows and configurations.
-  * [YAML Syntax Guide](https://yaml.org/) - Learn YAML syntax for writing workflow files.
+  * [GitHub Actions documentation](https://docs.github.com/en/actions) - Official documentation covering all aspects of GitHub Actions.
+  * [GitHub marketplace for actions](https://github.com/marketplace/actions) - Browse and search for actions to use in your workflows.
+  * [GitHub actions examples](https://github.com/actions) - Collection of sample workflows and configurations.
+  * [YAML syntax guide](https://yaml.org/) - Learn YAML syntax for writing workflow files.
 
 * **Specific tools used in the examples:** 
 
