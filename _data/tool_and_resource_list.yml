@@ -456,10 +456,14 @@
   id: rstudio
   name: RStudio
   url: https://posit.co/download/rstudio-desktop/
-- description: Package installer for Python
+- description: Package manager for Python packages
   id: pip
   name: Pip
   url: https://pypi.org/project/pip/
+- description: UV is extremely fast Python package and project manager, written in Rust.
+  id: uv
+  name: UV
+  url: https://github.com/astral-sh/uv
 - description: Python module for creating lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories
   id: venv
   name: Venv

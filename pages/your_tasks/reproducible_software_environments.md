@@ -107,7 +107,7 @@ Sometimes, a package manager combines both of these functionalities and you only
 - There are often multiple package and environment management tools even for a single programming language:
   - For example, commonly used tools for managing Python packages and virtual environments are {% tool "pip" %} (Python package manager tool which interacts and obtains the packages
   from the central repository called {% tool "pypi" %}) and {% tool "venv" %} (Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3).
-  One alternative is to use {% tool "poetry" %} - a modern Python packaging tool which also installs Python packages from PyPI and handles virtual environments automatically.
+  One alternative is to use {% tool "poetry" %} - a modern Python packaging tool which also installs Python packages from PyPI and handles virtual environments automatically. Also check {% tool "uv" %} - a single and fast Python package and project manager, built to replace {% tool "pip" %} and {% tool "venv" %}.
   - If your Python code relies on non-Python packages, for instance when some C++ libraries must also be installed and you want to support multiple platforms, a better choice may be {% tool "conda" %} -
   a Python package and environment management system part of the Anaconda Python distribution (often used by the scientific community). {% tool "conda" %} has its own repository system separate from
   (but compatible with) PyPI that distributes non-Python packages packages as well and has its own non-venv-based virtual environment system.
