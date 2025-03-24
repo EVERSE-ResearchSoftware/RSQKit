@@ -25,6 +25,13 @@ Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on ho
 
 Information about the licenses that apply to RSQKit can be found in [LICENSE.md](LICENSE.md).
 
+## Citation
+
+You can cite RSQKit as follows:
+
+  > RSQKit Community. (2025). Research Software Quality Kit (RSQKit) (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.14923573
+
+See also [CITATION.cff](CITATION.cff).
 
 ## Contact
 
