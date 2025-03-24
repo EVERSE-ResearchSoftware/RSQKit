@@ -46,9 +46,14 @@
     </div>
     <div class="copyright py-4">
         <div class="container g-lg-5 d-flex justify-content-between flex-column flex-lg-row">
-            {%- unless site.data.footer.copyright == nil %}
-            <div class="d-flex align-items-center mb-3 mb-lg-0 mx-auto mx-lg-0 text-center">{{ site.data.footer.copyright | markdownify }}</div>
-            {%- endunless %}
+            <div class="d-flex align-items-center mb-3 mb-lg-0 mx-auto mx-lg-0 text-center">
+                {%- unless site.data.footer.copyright == nil %}
+                {{ site.data.footer.copyright | markdownify }}<br />
+                {%- endunless %}
+                {%- unless site.data.footer.citation == nil %}
+                {{ site.data.footer.citation | markdownify }}<br />
+                {%- endunless %}    
+            </div>    
             <div class="d-flex align-items-center mx-auto ms-lg-4 me-lg-0">
                 <a id="ett-logo" class="text-nowrap me-lg-5 me-xxlg-0" href="https://elixir-belgium.github.io/elixir-toolkit-theme">Built with
                     <svg data-name="ETT logo" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 77.2 77.12">
