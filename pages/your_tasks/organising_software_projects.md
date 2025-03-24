@@ -4,7 +4,7 @@ description: How to organise your software project?
 contributors: ["Aleksandra Nenadic"]
 page_id: organising_software_projects
 related_pages:
-  your_tasks: [software_documentation, creating_good_readme]
+  your_tasks: [citing_software, creating_good_readme, documenting_software]
 ---
 
 ## Why does organising your software project matter?
@@ -40,7 +40,7 @@ code, data, results, tests, auxiliary information and metadata.
   - Choose a meaningful name that reflects the project’s purpose or topic.
   - Add README file to describe the project and instructions on installing and running the code and reproducing the results - see more on creating good [README files][creating_good_readme].
   - Add LICENSE file to describe the how others can reuse your software or work - see more on [licensing software][licensing_software].
-  - Add CITATION.cff file to describe how to cite the project - see more on [citing software][citing_software].
+  - Add [CITATION.cff][cff] file to describe how to cite the project - see more on [citing software][citing_software].
 - **Subdirectories of the project** - organise the project into sub-directories clearly labelled based on the type of their content content, for example:
   - `data` - for storing your data. Further organise raw, cleaned, intermediate, and/or processed data in separate subdirectories (e.g. `data/raw`, `data/clean`, `data/processed`) to maintain clarity and prevent overwriting or losing the original raw data. 
   - `code` (or `scripts` or `src`) - for storing your source code.
@@ -64,6 +64,7 @@ Below is an example of a directory structure for a generic research project.
 project_name/
 ├── README                # overview of the project
 ├── LICENSE               # license (reuse terms) for the project as a whole
+├── CITATION.cff          # citation information for the project
 ├── data/                 # data files used in the project
 │   ├── README            # describe the origin of your data
 │   ├── raw/              # store your raw data and do not modify it
@@ -94,5 +95,6 @@ Check out [the Turing Way Project's Guide for project design][turing-project-des
 [releasing_code]: /releasing_software
 [software_documentation]: /documenting_software
 [version_control]: /using_version_control
-[citing_software]: https://citation-file-format.github.io/
+[cff]: https://citation-file-format.github.io/
+[citing_software]: /citing_software
 [turing-project-design]: https://book.the-turing-way.org/project-design/project-repo/project-repo-advanced.html
