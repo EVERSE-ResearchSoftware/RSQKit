@@ -1,7 +1,7 @@
 ---
 title: Testing software
 description: How to test your software?
-contributors: ["Aleksandra Nenadic", "Christian Hüser"]
+contributors: ["Aleksandra Nenadic", "Christian Hüser", "Patrick Bos"]
 page_id: testing_software
 related_pages:
   your_tasks: []
@@ -233,6 +233,12 @@ Here are a few examples of these principles:
 - [**Continuous Integration**][continuous-integration]
   - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.
   - Continuous Integration automates repetitive tests, saves time and ensures tests are run consistently across different environments and platforms.
+
+
+## References
+
+We recommend also reading [the Turing Way chapter on testing research code](https://book.the-turing-way.org/reproducible-research/testing).
+It elaborates on the motivation for writing tests within research (with some very convincing examples), on many of the topics mentioned above and also adds advice on a few very common research-related topics like [how to deal with testing random or stochastic code](https://book.the-turing-way.org/reproducible-research/testing/testing-exceptions).
 
 
 [software-testing]: https://en.wikipedia.org/wiki/Software_testing
