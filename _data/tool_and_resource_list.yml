@@ -548,33 +548,17 @@
   id: somesy
   name: Somesy
   url: https://github.com/Materials-Data-Science-and-Informatics/somesy
-- description: A site to provide non-judgmental guidance on choosing a license for your open source project.
-  id: choosealicense
-  name: choosealicense
-  url: https://choosealicense.com/
-- description: Zenodo archives your repository and issues a new DOI each time you create a new GitHub release.
-  id: zenodo-github-integration
-  name: Zenodo GitHub Integration
-  url: https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content
-- description: Guided approaches to assess the FAIRness of research software, Asking a series of questions to a human. You assess yourself as to whether your resources satisfy FAIR principles. Does not explicitly se FAIR4RS principles.
-  id: five-recommendations-for-fair-software
-  name: Five Recommendations for FAIR Software
-  url: https://fair-software.nl/
-- description: Guided approach to assess the FAIRness of data.
-  id: use-the-fair-aware-tool
-  name: Use the FAIR-Aware tool
-  url: https://dans.knaw.nl/en/satifyd/
-- description: A generative artificial intelligence chatbot developed by Anthropic and able to produce code or answer questions on code.
-  id: cluade
+- description: Claude is a a generative artificial intelligence chatbot developed by Anthropic and able to produce code or answer questions on code.
+  id: claude
   name: Claude
   url: https://claude.ai/new
-- description: Code completion and automatic programming tool developed by GitHub and OpenAI that assists users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code.
+- description: Github Copilot is a code completion and automatic programming tool developed by GitHub and OpenAI that assists users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code.
   id: github-copilot
   name: Gihub Copilot
   url: https://github.com/features/copilot
-- description: For building publication-quality books and documents from computational material.
-  id: jupyter
-  name: Jupyter
+- description: Jupyter book is a tool to build publication quality books and documents from computational material.
+  id: jupyter-book 
+  name: Jupyter Book
   url: https://pypi.org/project/jupyter-book/
 - description: Tool that helps identify and manage open-source components in software by scanning for licenses, vulnerabilities, and compliance risks.
   id: scanoss
