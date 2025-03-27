@@ -8,19 +8,6 @@ Therefore, it is generally not necessary to install the RSQKit locally and contr
 
 Nevertheless, if you do wish to run the RSQKit website locally for development and testing purposes, please follow the instructions below.
 
-## Using Docker
-
-Prerequisites : Docker installed on your machine
-
-Run the following commands
-
-``` bash
-docker-compose build
-docker-compose up
-```
-
-You can now access your local copy of the RSQKit on <http://0.0.0.0:4000>.
-
 ## Directly on your machine
 
 ### Installing Dependencies
@@ -57,3 +44,16 @@ bundle exec jekyll serve
 ```
 
 You can now access your local copy of the RSQKit on <http://127.0.0.1:4000>.
+
+## Using Docker
+
+Prerequisites : Docker installed on your machine
+
+Run the following commands
+
+``` bash
+docker-compose build
+docker-compose up
+```
+
+You can now access your local copy of the RSQKit on <http://0.0.0.0:4000>.
