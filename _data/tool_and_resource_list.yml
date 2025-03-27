@@ -540,7 +540,7 @@
   id: keras
   name: Keras
   url: https://github.com/keras-team/keras
-- description: Github action to run licence analysis on a github repository.
+- description: Tortellini Action is github action to run licence analysis on a github repository.
   id: tortellini-action
   name: tortellini-action
   url: https://github.com/marketplace/actions/tortellini-action
@@ -554,7 +554,7 @@
   url: https://claude.ai/new
 - description: Github Copilot is a code completion and automatic programming tool developed by GitHub and OpenAI that assists users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code.
   id: github-copilot
-  name: Gihub Copilot
+  name: Github Copilot
   url: https://github.com/features/copilot
 - description: Jupyter book is a tool to build publication quality books and documents from computational material.
   id: jupyter-book 
