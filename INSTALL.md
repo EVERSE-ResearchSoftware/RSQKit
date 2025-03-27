@@ -19,7 +19,7 @@ docker-compose build
 docker-compose up
 ```
 
-You can now access your local copy of the RSQKit on <http://127.0.0.1:4000>.
+You can now access your local copy of the RSQKit on <http://0.0.0.0:4000>.
 
 ## Directly on your machine
 
