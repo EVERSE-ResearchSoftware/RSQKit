@@ -45,7 +45,41 @@ bundle exec jekyll serve
 
 You can now access your local copy of the RSQKit on <http://127.0.0.1:4000>.
 
-## Using Docker
+## MacOS users
+
+Some MacOS users (especially M4 users) were finding trouble installing a local version of RSQKit. We are proposing you two ways to set up your local version either by changing your local ruby version, or by using Docker.
+
+### Changing your local Ruby version
+
+You will need `brew` to install a Ruby version manager called `rbenv`. Courtesy of [Gadão L.](https://dev.to/luizgadao/easy-way-to-change-ruby-version-in-mac-m1-m2-and-m3-16hl)
+
+``` bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Install rbenv:
+
+``` bash
+brew install rbenv ruby-build
+```
+
+Install Ruby 3.3.7 version and use it globally:
+
+``` bash
+rbenv install 3.3.7
+rbenv global 3.3.7
+```
+
+In your RSQKit directory, remove `Gemfile.lock` if present then run:
+
+``` bash
+bundle install
+bundle exec jekyll serve
+```
+
+You can now access your local copy of the RSQKit on <http://127.0.0.1:4000>.
+
+### Using Docker
 
 Prerequisites : Docker installed on your machine
 
