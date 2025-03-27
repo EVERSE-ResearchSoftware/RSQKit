@@ -560,7 +560,7 @@
   id: jupyter-book 
   name: Jupyter Book
   url: https://pypi.org/project/jupyter-book/
-- description: Tool that helps identify and manage open-source components in software by scanning for licenses, vulnerabilities, and compliance risks.
+- description: SCANOSS is a tool that helps identify and manage open-source components in software by scanning for licenses, vulnerabilities, and compliance risks.
   id: scanoss
   name: SCANOSS
   url: https://www.scanoss.com/
