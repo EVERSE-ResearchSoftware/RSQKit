@@ -556,7 +556,7 @@
   id: github-copilot
   name: Github Copilot
   url: https://github.com/features/copilot
-- description: Jupyter book is a tool to build publication quality books and documents from computational material.
+- description: Jupyter Book is a tool to build publication quality books and documents from computational material.
   id: jupyter-book 
   name: Jupyter Book
   url: https://pypi.org/project/jupyter-book/
