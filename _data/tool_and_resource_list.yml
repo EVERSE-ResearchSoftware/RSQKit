@@ -540,7 +540,7 @@
   id: keras
   name: Keras
   url: https://github.com/keras-team/keras
-- description: Tortellini Action is github action to run licence analysis on a github repository.
+- description: Tortellini Action is GitHub action to run licence analysis on a GitHub repository.
   id: tortellini-action
   name: tortellini-action
   url: https://github.com/marketplace/actions/tortellini-action
