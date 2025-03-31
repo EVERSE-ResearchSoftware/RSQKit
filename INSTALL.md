@@ -53,7 +53,7 @@ instructions](https://docs.docker.com/compose/install/) for your setup.
 
 We provide `docker-compose.yml` file for RSQKit container to help you set up.
 
-After successfully installing `docker`, run the following commands.
+After successfully setting up `docker` and `docker-compose`, run the following commands.
 
 ``` bash
 docker-compose build
