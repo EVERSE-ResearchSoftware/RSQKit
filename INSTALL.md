@@ -35,9 +35,7 @@ cd RSQKit
 bundle install
 ```
 
-### Building the RSQkit
-
-Once the prerequisite tools are successfully installed, you can build and run the RSQKit locally using the following command from within the RSQKit folder:
+You can build and run the RSQKit locally using the following command from within the RSQKit folder:
 
 ``` bash
 bundle exec jekyll serve
@@ -47,9 +45,13 @@ You should now be able to access your local copy of RSQKit on <http://127.0.0.1:
 
 ### Installing RSQKit using a Docker container
 
-**Prerequisites:** `docker`.
+**Prerequisites:** `docker` and `docker-compose`.
 
 To install a Docker engine locally, follow the [official installation instructions](https://docs.docker.com/engine/install/).
+Docker Compose is available natively on Docker Desktop, as a Docker Engine plugin, and as a standalone tool - check [Compose installation
+instructions](https://docs.docker.com/compose/install/) for your setup.
+
+We provide `docker-compose.yml` file for RSQKit container to help you set up.
 
 After successfully installing `docker`, run the following commands.
 
