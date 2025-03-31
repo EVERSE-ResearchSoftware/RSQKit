@@ -540,3 +540,27 @@
   id: keras
   name: Keras
   url: https://github.com/keras-team/keras
+- description: Tortellini Action is GitHub action to run licence analysis on a GitHub repository.
+  id: tortellini-action
+  name: tortellini-action
+  url: https://github.com/marketplace/actions/tortellini-action
+- description: Somesy (software metadata sync) is a CLI tool to avoid messy software project metadata by keeping it in sync.
+  id: somesy
+  name: Somesy
+  url: https://github.com/Materials-Data-Science-and-Informatics/somesy
+- description: Claude is a a generative artificial intelligence chatbot developed by Anthropic and able to produce code or answer questions on code.
+  id: claude
+  name: Claude
+  url: https://claude.ai/new
+- description: Github Copilot is a code completion and automatic programming tool developed by GitHub and OpenAI that assists users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code.
+  id: github-copilot
+  name: Github Copilot
+  url: https://github.com/features/copilot
+- description: Jupyter Book is a tool to build publication quality books and documents from computational material.
+  id: jupyter-book 
+  name: Jupyter Book
+  url: https://pypi.org/project/jupyter-book/
+- description: SCANOSS is a tool that helps identify and manage open-source components in software by scanning for licenses, vulnerabilities, and compliance risks.
+  id: scanoss
+  name: SCANOSS
+  url: https://www.scanoss.com/
