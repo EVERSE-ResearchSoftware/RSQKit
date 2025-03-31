@@ -43,7 +43,7 @@ bundle exec jekyll serve
 
 You should now be able to access your local copy of RSQKit on <http://127.0.0.1:4000>.
 
-### Installing RSQKit using a Docker container
+## Installing RSQKit using a Docker container
 
 **Prerequisites:** `docker` and `docker-compose`.
 
