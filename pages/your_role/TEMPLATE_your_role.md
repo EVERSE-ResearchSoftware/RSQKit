@@ -14,12 +14,12 @@ training: # A list of training resources relevant for this task or problem (e.g 
 
 ## Introduction
 
-Provide a brief overview of the role's relevance to Research Software Quality.
+Provide a brief overview of the role and how research software and Research Software Quality are relevant to it.
 
-## Key responsabilities
+## Tasks & responsibilities
 
-Outline the main responsibilities of the role in relation to Research Software Quality.
+Outline the main tasks and responsibilities of the role in relation to Research Software Quality and highlight common challenges.
 
-## Challenges and solutions
+## Guidance
 
-Highlight common challenges faced by the role and how RSQKit can help overcome them.
+Highlight some guidance or how RSQKit could help overcome your challenges.
