@@ -4,7 +4,7 @@ title: "RSQKit: Research Software Quality Kit"
 topnav_title: "RSQKit: Research Software Quality Kit"
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
-topnav_banner: "The current version of RSQKit is a work in progress. Any content should not be considered final at this stage."
+topnav_banner:
 
 description: "The Research Software Quality Kit is a resource to help researchers that code, Research Software Engineers, and anyone in between learn about and apply best practices in creating research software and code."
 # Metadata description of the website
