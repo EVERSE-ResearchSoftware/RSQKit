@@ -14,7 +14,10 @@ starting with the contributor's full name, followed by the following optional me
 
 * `git`: contributor's GitHub id (serving as an identifier together with contributor's full name).
 * `orcid`: contributor's ORCID id.
-* `role`: role of the contributor in the RSQKit (at the moment, we only support the role `editor`, but more may be added in the future; leave blank if the role is not `editor`).
+* `role`: role of the contributor in the RSQKit; possible values:
+  * `editor` - member of the [Editorial Board](./editorial_board)
+  * `author` - someone who creates content, e.g. task and other pages
+  * `contributor` - everyone else contributing to RSQKit who is not an editor or author, e.g. with edits and fixes in pages (adding/fixing links, tools and resources, typo and style fixes, curating pages), significant discussions, etc.
 * `affiliation`: contributor's affiliation(s) as a single string (if multiple affiliations need to be listed, use a separator - e.g. "/". 
 Also note that while affiliations should match those listed in the [affiliations file (`_data/affiliations.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/affiliations.yml) (see below) this is not enforced.
 * `image_url`: absolute path to contributor's image or avatar (defaults to contributor's GitHub profile image if GitHub id is provided).

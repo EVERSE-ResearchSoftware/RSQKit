@@ -1,6 +1,6 @@
 ---
 title: Editors Checklist
-summary: Checklist for Editors before approving changes to RSQKit content and infrastructure.
+summary: Checklist for editors (Editorial Board members) before approving changes to RSQKit content and infrastructure.
 ---
 
 ### General Guidelines for Approving Pull Requests
