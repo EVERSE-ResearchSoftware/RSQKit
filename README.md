@@ -8,7 +8,7 @@
 Research Software Quality Kit (RSQKit), developed as part of the [EVERSE project](https://everse.software/), contains curated best practices in improving the quality of research software. It is intended for use by researchers, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.  
 
 > [!NOTE]
-> The content in RSQKit is still work in progress.
+> The content of RSQKit is still work in progress.
 
 ## Contributing
 
