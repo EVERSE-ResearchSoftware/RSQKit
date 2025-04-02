@@ -25,7 +25,7 @@ Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on ho
 ## License
 
 Information about the licenses that apply to RSQKit can be found in [LICENSE.md](LICENSE.md).
-
+ 
 
 ## Contact
 
