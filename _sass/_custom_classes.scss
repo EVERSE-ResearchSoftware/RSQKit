@@ -1,0 +1,22 @@
+// Search box
+
+section#search-section {
+  form {
+    max-width: 600px;
+  }
+
+  #search-results {
+    right: unset;
+  }
+  .input-group-text {
+    font-size: 1.5rem;
+  }
+}
+
+.homepage-heading{
+  color: $primary !important;
+}
+
+.homepage-text{
+  color: $blue;
+}
