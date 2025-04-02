@@ -74,7 +74,6 @@ in the "front matter" header of the page or applied to a group of pages via `_co
 * `sitemap`: a boolean value indicating if the page should appear in the `sitemap.xml`. Default: `true`.
 * `no_robots`: a boolean value indicating if the page should not end up in the search results of Google or any other search engines. Default: `false`.
 * `hide_sidebar`: a boolean value indicating if the page should not appear in the sidebar. Default: `false`.
-* `custom_editme`: specify an alternative file/link when clicking on the `edit-me` button.
 * `keywords`: a list of lowercase keywords that can be used to find the page using the search facility of RSQKit.
 * `sidebar`: name of the left-hand side navigation sidebar that should be displayed for the page. Default sidebar: `main`. The sidebar file `<SIDEBAR_NAME.md>` named after the sidebar must exist under `_data/sidebars/` in the repository.
 * `toc`: a boolean value indicating if a table of contents should be included at the top right of the page. Default: `false`.
