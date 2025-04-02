@@ -70,6 +70,11 @@ theme_variables:
     bluesky: https://bsky.app/profile/eosc-everse.bsky.social
     linkedin: https://www.linkedin.com/company/eosc-everse
 #    fosstodon: https://fosstodon.org/@eosc_everse
+    fonts:
+      - https://fonts.googleapis.com/css?family=Roboto&display=swap
+      - https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap
+
+
 plugins:
   - elixir-toolkit-theme-plugins
   - jemoji
