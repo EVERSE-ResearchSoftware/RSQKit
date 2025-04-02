@@ -14,7 +14,7 @@ starting with the contributor's full name, followed by the following optional me
 
 * `git`: contributor's GitHub id (serving as an identifier together with contributor's full name).
 * `orcid`: contributor's ORCID id.
-* `role`: role of the contributor in the RSQKit; possible values:
+* `role`: role of the contributor in the RSQKit. Possible values:
   * `editor` - member of the [Editorial Board](./editorial_board)
   * `author` - someone who creates content, e.g. task and other pages
   * `contributor` - everyone else contributing to RSQKit who is not an editor or author, e.g. with edits and fixes in pages (adding/fixing links, tools and resources, typo and style fixes, curating pages), significant discussions, etc.
