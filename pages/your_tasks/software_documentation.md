@@ -4,7 +4,7 @@ description: How to write clear and useful software documentation for developers
 contributors: ["Azza Gamgami"]
 page_id: software_documentation
 related_pages:
-  your_tasks: [creating_readthedocs, how_to_make_a_good_readme]
+  your_tasks: [documenting_software_readthedocs, creating_good_readme]
 ---
 
 ## How to create good software documentation?
@@ -81,8 +81,8 @@ It also acts as a homepage for your project on code sharing platforms such as {%
 * Since your documentation is a crucial component of your code, it should also be under version control. 
 Store your documentation within your software's repository alongside code and other files. 
 * Services like {% tool "readthedocs" %} and {% tool "zenodo" %} can help by automatically generating documentation from your code and archiving your software's documentation with each new release of your software.
-* *Read the Docs* used the Git workflow you already use for code - treating documentation like code lets your team use tools they already know, and makes keeping your docs updated easier. 
-Read more on [how to create a *Read the Docs* page](https://everse.software/RSQKit/creating_readthedocs). 
+* {% tool "readthedocs" %} uses the Git workflow you already use for code - treating documentation like code lets your team use tools they already know, and makes keeping your docs updated easier. 
+Read more on [how to use *Read the Docs* for your software project](documenting_software_readthedocs.md). 
 
 A good example of a bioinformatics library effectively managing version control for its documentation is [khmer](https://github.com/dib-lab/khmer/). 
 This library features a comprehensive changelog that details new features, bug fixes (categorized based on relevance to users or developers), 
@@ -103,8 +103,8 @@ The `help` command should cover:
 * Applicable environment variables
 * And ideally, some examples.
 
-Tools like [Click](https://click.palletsprojects.com/en/stable/) for Python can assist you not only in creating your help command but also in building your interface.
-A great example of a good CLI is the one included with the [Magic-BLAST](https://ncbi.github.io/magicblast/) bioinformatics tool.
+Tools like [Click][click] for Python can assist you not only in creating your help command but also in building your interface.
+A great example of a good CLI is the one included with the [Magic-BLAST][magicblast] bioinformatics tool.
 
 The [OpenAPI Specification][open-api], previously known as the Swagger Specification, is a specification for a machine-readable API definition language for describing, producing, consuming and visualising web services.
 
@@ -134,4 +134,6 @@ for some automated tasks.
 
 
 [open-api]: https://swagger.io/specification/
+[click]: https://click.palletsprojects.com/en/stable/
+[magicblast]: https://ncbi.github.io/magicblast/
 

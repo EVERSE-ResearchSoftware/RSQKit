@@ -1,29 +1,30 @@
 ---
-title: Languages, frameworks & technologies
-description: How to decide on which programming languages, frameworks and technologies to use, and getting started with templates
+title: Choosing languages, tools & infrastructures
+description: How to decide which programming languages, tools and infrastructures to use?
 contributors: ["Patrick Bos"]
-page_id: languages_frameworks_technologies
+page_id: languages_tools_infrastructures
 related_pages:
    your_tasks: [three_tier_view, life_cycle, fair, research_software_engineer]
 ---
 
-## How to choose programming languages, frameworks and technologies?
+## How to choose programming languages, tools and infrastructures?
 
 There are many different kinds of software-related choices to make over the course of a research software project.
 We briefly describe some main categories before going into the considerations of making choices.
 
 Code written in _programming languages_ are the main form of expression of the [research software engineer](research_software_engineer).
-Some [examples of often used languages in research](#good-default-languages) are listed below.
-Like the language of your research articles, the programming language determines not only the contents (i.e. the functionality) of your research software, but also its [readability](readable_code) - depending on how complex the language is and how many people know it - and its expressiveness - which may or may not allow you to formulate your "thoughts" efficiently and effectively and hence may determine the pace of your project.
+Some [examples of programming languages often used in research](#good-default-languages) are listed below.
+Like the language of your research articles, the programming language determines not only the contents (i.e. the functionality) 
+of your research software, but also its [readability](writing_readable_code) - depending on how complex the language is and how many people know it - and its expressiveness - which may or may not allow you to formulate your "thoughts" efficiently and effectively and hence may determine the pace of your project.
 
-By _frameworks_ we mean abstraction layers written in certain languages (or with interfaces in certain languages).
+By _tools_ and _frameworks_ we mean abstraction layers written in certain languages (or with interfaces in certain languages).
 These layers typically consist of classes, functions and other structures that are often used for some particular problem or in some particular domain.
 Examples are frameworks for web development, like [React](https://react.dev), machine learning, like [PyTorch](https://pytorch.org), workflows and data analysis, like [Galaxy](https://galaxyproject.org), or data processing and statistical modelling, like [ROOT](https://root.cern).
 Note that we use this term loosely.
 There may well be overlap with terms like "library", "toolkit", "platform" or "API".
 The main point is that someone did the work on useful abstractions in a certain domain and that you can use them in your research software or code.
 
-_Technologies_ more broadly describe the different kinds of software (or even hardware) that you may want to integrate into or apply in your applications.
+_Infrastructures_ more broadly describe the different kinds of software (or even hardware) that you may want to integrate into or apply in your applications.
 These typically require some background knowledge to use in an optimal way.
 Examples are database technologies, accelerator hardware programming (e.g. general purpose GPU programming, or programming FPGAs), machine learning, web and user interface design, analytics (statistics, visualisation, etc.), .
 Again, the term is used somewhat imprecisely and one may in some cases prefer terms like "expertise" or "skill set" and "tool" or "service" in other cases.
@@ -77,12 +78,13 @@ What follows is a somewhat opinionated list of good starting choices of programm
 Your mileage may vary, but you will not be far off choosing the following languages for the listed purposes and domains.
 
 When starting fresh, there are a few languages with a proven track record and active communities in research:
-- {% tool "python" %}: Quick prototyping (interactive, not compiled), gluing other code together, data analysis, ML. A general purpose language that is easy to get started in, that can yield very good and efficient software (especially when using the many available efficient externally packaged modules) and that is easily adoptable by many scientific communities.
+- {% tool "python" %}: quick prototyping (interactive, not compiled), gluing other code together, data analysis, ML. A general purpose language that is easy to get started in, that can yield very good and efficient software (especially when using the many available efficient externally packaged modules) and that is easily adoptable by many scientific communities.
 - {% tool "cpp" %}: high performance (compiled), strongly typed, multi-paradigm (many "dialects": C-style, object oriented, functional, templated), considered unsafe (though using modern standards instead of raw pointers avoids that)
 - {% tool "javascript" %}/{% tool "typescript" %}: anything with a serious web component, also possibly UI for non-web applications.
 - {% tool "r" %}: statistical analysis, in particular for social sciences, medical research and the like.
+- {% tool "fortran" %}: computationally intensive numerical simulations, particularly in scientific and engineering applications where high performance computing (HPC) is required due to its excellent ability to handle large arrays and optimize complex mathematical calculations with high speed and precision.
 
-If you're excited by the prospect of having to pioneer a bit more due to a smaller and somewhat less mature ecosystem of available modules, the following are popular modern choices:
+If you are excited by the prospect of having to pioneer a bit more due to a smaller and somewhat less mature ecosystem of available modules, the following are popular modern choices:
 - {% tool "julia" %}: great for mathematical modelling, has very elegant semantics (e.g. multiple dispatch). It is JIT compiled, meaning you can use it interactively like Python, but it compiles each statement before running, so that it can run fast.
 - {% tool "rust" %}: high performance, safety-first. Rust is sometimes described as "C++ done right". It is more focused on functional programming and lacks some core object oriented paradigm support like classes.
 

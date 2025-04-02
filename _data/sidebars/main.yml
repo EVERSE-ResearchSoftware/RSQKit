@@ -29,6 +29,8 @@ subitems:
   - title: Research communities
     url: /research_communities
     subitems:
+      - title: LS-RI
+        url: /ls-ri
       - title: ENVRI
         url: /envri
       - title: ESCAPE
@@ -49,40 +51,38 @@ subitems:
     url: /your_tasks
     image_url: /assets/img/section-icons/tick.svg
     subitems:
-      - title: "Organising your software project's directory"
-        url: /organising_software_project
-      - title: Writing readable code
-        url: /readable_code
-      - title: "Creating a 'Read the Docs' Page"
-        url: /creating_readthedocs
-      - title: Releasing code
-        url: /releasing_code
-      - title: Creating a CITATION.cff file
-        url: /cff
-      - title: Environmental sustainability of research software
-        url: /environmental_sustainability
-      - title: Creating README documents for software
-        url: /how_to_make_a_good_readme
-      - title: Languages, frameworks & technologies
-        url: /languages_frameworks_technologies
-      - title: Writing a CodeMeta file
-        url: /codemeta
-      - title: Licensing software
+      - title: "Choosing languages, tools & infrastructures"
+        url: /languages_tools_infrastructures
+      - title: "Organising software projects"
+        url: /organising_software_projects
+      - title: "Using version control"
+        url: /using_version_control
+      - title: "Reproducible software environments"
+        url: /reproducible_software_environments
+      - title: "Writing readable code"
+        url: /writing_readable_code
+      - title: "Testing software"
+        url: /testing_software
+      - title: "Task automation using GitHub Actions"
+        url: /task_automation_github_actions
+      - title: "Licensing software"
         url: /licensing_software
-      - title: Obtaining a DOI via Zenodo for software
-        url: /zenodo_doi
-      - title: Reproducible virtual software development environments
-        url: /virtual_dev_environments
-      - title: Testing code
-        url: /testing_code
-      - title: Version control
-        url: /version_control
-      - title: Software documentation
-        url: software_documentation
-      - title: How to add your first GitHub action
-        url: first_github_action
-      - title: Publishing a package in a package repository
-        url: publish_package
+      - title: "Citing software"
+        url: /citing_software
+      - title: "Software identifiers"
+        url: /software_identifiers
+      - title: "Documenting software"
+        url: documenting_software
+      - title: "Creating a good README"
+        url: /creating_good_readme
+      - title: "Software metadata"
+        url: software_metadata
+      - title: "Packaging & releasing software"
+        url: packaging_releasing_software
+      - title: Continuous Integration & Deployment
+        url: /ci_cd
+      - title: "Improving environmental sustainability"
+        url: /improving_environmental_sustainability
   - title: All tools and resources
     url: /all_tools_and_resources
 #  - title: All training resources

@@ -1,10 +1,10 @@
 ---
-title: Releasing code
-description: How to create software releases
+title: Releasing software
+description: How to release your software for reuse?
 contributors: ["Christian Hüser", "Shoaib Sufi", "Daniel Garijo"]
-page_id: releasing_code
+page_id: releasing_software
 related_pages:
-  your_tasks: [zenodo_doi]
+  your_tasks: [software_identifiers]
 
 ---
 
@@ -37,5 +37,8 @@ For example, to perform a software release on GitHub:
 - Decide on a software versioning scheme you will use and use a unique name or number for this release.
 - Add release notes - a short and non overly technical summary of the changelog intended for end-users.
 - Click on `Publish release`.
-- If your repository is [integrated with Zenodo](./zenodo_doi) - a new DOI for this software release will automatically 
-be minted by {% tool "zenodo" %}.
+- If your repository is integrated with Zenodo - a new [DOI][software_identifiers] for this software release will automatically 
+be issued by {% tool "zenodo" %}.
+
+
+[software_identifiers]: ./software_identifiers

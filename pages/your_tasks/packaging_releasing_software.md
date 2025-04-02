@@ -1,15 +1,11 @@
 ---
-title: "Publishing a package in a package repository" # short title
-search_exclude: false # set to false if you want this page to show up in search results
-description: "How and why to publish a package to a package repository using Python as an example" # a description of the page
-contributors: [Eva Martín del Pico] # a comma separated list of contributors' names, as found in _data/CONTRIBUTORS.yml
-page_id: publish_package # unique page id, e.g. lowercase title words separated by underscore(s) - for example page_id of 'version control' page could be version_control
+title: "Packaging & releasing software" 
+search_exclude: false 
+description: "How to package and release your software for distribution and reuse?" 
+contributors: ["Eva Martín del Pico"] 
+page_id: packaging_releasing_software 
 related_pages:
-  your_tasks: [] # A comma-separated page_ids of the task pages that are related to the current page
-training: # A list of training resources relevant for this task or problem (e.g from TeSS registry or elsewhere)
-  - name:
-    registry:
-    url:
+  your_tasks: [releasing_software] 
 ---
 
 ## How to publish your software package to a package repository? 

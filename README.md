@@ -5,11 +5,10 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
-Research Software Quality Kit (RSQKit), developed as part of [EVERSE project](https://everse.software/), contains a collection of curated training resources, tools and guidelines on research software quality that align, adapt, and extend to the specific needs of various research communities. It also aims to establish a recognition framework that rewards scientists and trainers for their contributions to research software by providing recognition/credit attribution.
+Research Software Quality Kit (RSQKit), developed as part of the [EVERSE project](https://everse.software/), contains curated best practices in improving the quality of research software. It is intended for use by researchers, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.  
 
-> [!WARNING]
-> The current version of RSQKit is a work in progress. 
-> Any content should not be considered final at this stage.
+> [!NOTE]
+> The content of RSQKit is still work in progress.
 
 ## Contributing
 
@@ -25,11 +24,18 @@ Please see our [Contribution Guidelines](CONTRIBUTING.md) for more details on ho
 ## License
 
 Information about the licenses that apply to RSQKit can be found in [LICENSE.md](LICENSE.md).
- 
+
+## Citation
+
+You can cite RSQKit as follows:
+
+  > RSQKit Community. (2025). Research Software Quality Kit (RSQKit) (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.14923573
+
+See also [CITATION.cff](CITATION.cff).
 
 ## Contact
 
-Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this lesson.
+Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this project or content.
 
 ## Acknowledgements
 

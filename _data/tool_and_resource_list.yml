@@ -11,9 +11,9 @@
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
 #   qualityIndicator:  Research Software Quality indicator (see quality_indicators.yml file in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
-- description: The System Package Data Exchange (SPDX) License List is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation, and is an integral part of the SPDX Specification.
+- description: System Package Data Exchange (SPDX) is an open standard for representing systems with software components as SBOMs (Software Bill of Materials) and other AI, data and security references supporting a range of risk management use cases.
   id: spdx
-  name: SPDX License List
+  name: SPDX
   url: https://spdx.org/licenses/
 - description: RSQKit is a platform that curates quality practices in research software. It links to tools, resources, quality metrics, and training to support implementing these practices, while also highlighting the importance of roles like Research Software Engineers (RSEs) and career development in the field.
   id: rsqkit
@@ -71,14 +71,16 @@
   id: java
   name: Java
   url: https://www.java.com/en/
-- description: Docker is a software for executing applications in virtualized environments called containers. Docker allows developers to build, share, run and verify applications easily. It is linked to DockerHub, a library for sharing container images.
+- description: "Docker is a tool for creating isolated environments (application isolation) for software development called containers to enable consistent software running across platforms. 
+  Docker allows developers to build, share, run and verify applications easily. DockerHub is a repository for sharing and managing container images."
   id: docker
   name: Docker
   registry:
-    fairsharing: afc2b3
-    fairsharing-coll: bsg-d001254
-    tess: Docker
   url: https://www.docker.com/
+- description: "Docker Compose is a tool for defining and running multi-container applications for streamlined and efficient development and deployment experience."
+  id: docker-compose
+  name: Docker Compose
+  url: https://docs.docker.com/compose/
 - description: Howfariris is a command line tool to analyze a GitHub or GitLab repository's compliance with the EU FAIR software recommendations.
   id: howfairis
   name: howfairis
@@ -91,6 +93,10 @@
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
+- description: Figshare is a provider of open research repository infrastructure for sharing, showcasing and managing all research outputs in a discoverable, citable, reportable and transparent way.
+  id: figshare
+  name: FigShare
+  url: https://figshare.com/
 - description: Visual Studio Code, commonly referred to as VS Code, is an Integrated Development Environment (IDE) developed by Microsoft that includes support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded version control with Git.
   id: vscode
   name: Visual Studio Code
@@ -175,6 +181,10 @@
   id: codemetagenerator
   name: CodeMeta Generator
   url: https://codemeta.github.io/codemeta-generator
+- description: CodeMeta is a community standard and initiative focused on creating a minimal metadata schema for scientific software and code, promoting their findability, preservation, and reuse through machine-readable metadata in JSON-LD format.
+  id: codemeta
+  name: CodeMeta
+  url: https://codemeta.github.io/
 - description: Software Quality Assessment as a Service - the Quality Assessment & Awarding building block analysing the level of completeness with the FAIR4RS reference criteria for any given release of your software
   id: sqaaas
   name: SQAaas
@@ -231,14 +241,20 @@
   id: cppunit
   name: CPPUnit
   url: https://freedesktop.org/wiki/Software/cppunit/
-- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments
+- description: "Apptainer (formerly Singularity) simplifies the creation and execution of containers, ensuring software components are encapsulated for portability and reproducibility, especially in High Performance Computing (HPC) environments."
   id: apptainer
-  name: APPTAINER
+  name: Apptainer
   url: https://apptainer.org/
-- description: Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments
-  id: singularityce
-  name: SingularityCE
+- description: "Singularity is an open source container platform allows us to create and run containers that package up pieces of software in a way that is portable and reproducible.
+  Singularity is designed for ease-of-use on shared multiuser systems and in High Performance Computing (HPC) environments. Singularity is compatible with all Docker images and it can be used with GPUs and MPI applications."
+  id: singularity
+  name: Singularity
   url: https://sylabs.io/singularity/
+- description: "Packer is an automated build system to manage the creation of identical images for containers and virtual machines (multiple platforms) from a single source configuration, encapsulating 'Images as Code' philosophy. 
+  Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel."
+  id: packer
+  name: Packer
+  url: https://www.packer.io/
 - description: An extremely fast Python linter and code formatter written in Rust
   id: ruff
   name: Ruff
@@ -267,7 +283,7 @@
   id: valgrind
   name: Valgrind
   url: https://valgrind.org/
-- description: Data Version Control - to help you manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow
+- description: Data Version Control - to help you manage and version images, audio, video, and text files in storage and organise your ML modeling process into a reproducible workflow
   id: dvc
   name: DVC
   url: https://dvc.org/
@@ -299,7 +315,7 @@
   id: travis
   name: Travis
   url: https://www.travis-ci.com/
-- description: Automating deployment, scaling, and management of containerized applications
+- description: Kubernetes is a container orchestration platform that manages the deployment, scaling, and operation of containerised applications.
   id: kubernetes
   name: Kubernetes
   url: https://kubernetes.io/
@@ -307,9 +323,10 @@
   id: cmake
   name: CMake
   url: https://cmake.org/
-- description: Unique approach to package management and system configuration
-  id: nix
-  name: Nix
+- description: "NixOS is a free and open-source Linux distribution based on the Nix package manager. 
+  It uses declarative configuration (using the Nix language) to manage packages and the entire system environment - allowing for reproducibility and portability."
+  id: nixos
+  name: NixOS
   url: https://nixos.org/
 - description: Package manager.
   id: guix
@@ -335,7 +352,7 @@
   id: jasonldvalidator
   name: JSON-LD validator
   url: https://json-ld.org/playground
-- decription: Software Metadata Extraction Framework (SOMEF) is a command line interface for automatically extracting relevant information from README files
+- description: Software Metadata Extraction Framework (SOMEF) is a command line tool for automatically extracting relevant software information from README files
   id: somef
   name: SOMEF
   url: https://github.com/KnowledgeCaptureAndDiscovery/somef
@@ -439,10 +456,14 @@
   id: rstudio
   name: RStudio
   url: https://posit.co/download/rstudio-desktop/
-- description: Package installer for Python
+- description: Package manager for Python packages
   id: pip
   name: Pip
   url: https://pypi.org/project/pip/
+- description: UV is extremely fast Python package and project manager, written in Rust.
+  id: uv
+  name: UV
+  url: https://github.com/astral-sh/uv
 - description: Python module for creating lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories
   id: venv
   name: Venv
@@ -455,7 +476,7 @@
   id: conda
   name: Conda
   url: https://anaconda.org/anaconda/conda
-- description: Semantic versioning (SemVer) is a widely-adopted version scheme that encodes a version of a project by a three-part version number (Major. Minor. Patch), an optional pre-release tag, and an optional build meta tag.
+- description: Semantic versioning (SemVer) is a widely-adopted version scheme that encodes a version of a project by a three-part version number (MAJOR.MINOR.PATCH), an optional pre-release tag, and an optional build meta tag.
   id: semantic-versioning
   name: Semantic Versioning
   url: https://semver.org/
@@ -491,7 +512,55 @@
   id: prettier-code-formatter
   name: Prettier
   url: https://prettier.io/
+- description: Modern Fortran is high-performance parallel programming language that is especially suited to numeric computation and scientific computing.
+  id: fortran
+  name: Fortran
+  url: https://fortran-lang.org/
+- description: Vagrant is a tool that simplifies and provides a single workflow for the creation and management of virtual machines, and provides full VM isolation.
+  id: vagrant
+  name: Vagrant
+  url: https://www.vagrantup.com/
+- description: Ansible is a suite of open source command line tools (written in Python) that enables Infrastructure as Code (IaC) - including configuring systems, deploying software, and orchestrating workflows, known for its simplicity and ease of use.
+  id: ansible
+  name: Ansible
+  url: https://docs.ansible.com/ansible/latest/getting_started/index.html
+- description: Terraform is a powerful and one of the most popular Infrastructure as Code (IaC) tools that enables infrastructure management across multiple cloud providers using a simple, declarative language,
+  id: terraform
+  name: Terraform
+  url: https://www.terraform.io/
+- description: Workflow Description Language (WDL) is an open standard for describing data processing workflows with a human-readable and writeable syntax.
+  id: wdl
+  name: Workflow Description Language
+  url: https://openwdl.org/
+- description: Galaxy is a free, open-source system for analysing data, authoring workflows, training and education, publishing tools, and managing infrastructure.
+  name: Galaxy
+  id: galaxy
+  url: https://galaxyproject.org/
 - description: Keras is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only) to build and train models for computer vision, natural language processing, audio processing, timeseries forecasting, recommender systems, etc.
   id: keras
   name: Keras
   url: https://github.com/keras-team/keras
+- description: Tortellini Action is GitHub action to run licence analysis on a GitHub repository.
+  id: tortellini-action
+  name: tortellini-action
+  url: https://github.com/marketplace/actions/tortellini-action
+- description: Somesy (software metadata sync) is a CLI tool to avoid messy software project metadata by keeping it in sync.
+  id: somesy
+  name: Somesy
+  url: https://github.com/Materials-Data-Science-and-Informatics/somesy
+- description: Claude is a a generative artificial intelligence chatbot developed by Anthropic and able to produce code or answer questions on code.
+  id: claude
+  name: Claude
+  url: https://claude.ai/new
+- description: Github Copilot is a code completion and automatic programming tool developed by GitHub and OpenAI that assists users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code.
+  id: github-copilot
+  name: Github Copilot
+  url: https://github.com/features/copilot
+- description: Jupyter Book is a tool to build publication quality books and documents from computational material.
+  id: jupyter-book 
+  name: Jupyter Book
+  url: https://pypi.org/project/jupyter-book/
+- description: SCANOSS is a tool that helps identify and manage open-source components in software by scanning for licenses, vulnerabilities, and compliance risks.
+  id: scanoss
+  name: SCANOSS
+  url: https://www.scanoss.com/

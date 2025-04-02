@@ -1,8 +1,8 @@
 ---
-title: Environmental sustainability of research software
-description: Guide to improving environmental sustainability of software
+title: Improving environmental sustainability
+description: How to measure and improve environmental sustainability of software?
 contributors: ["Kirsty Pringle"]
-page_id: environmental_sustainability
+page_id: improving_environmental_sustainability
 related_pages:
   your_tasks: []
 ---

@@ -20,6 +20,12 @@ Laura Portell-Silva:
     orcid: 0000-0003-0390-3208
     role: editor
     affiliation: Barcelona Supercomputing Center / ELIXIR-ES
+Pablo Martinez-Diaz:
+    git: PMartinezBSC
+    email: pablo.martinez@bsc.es
+    orcid: 0009-0000-0005-4437
+    role: editor
+    affiliation: Barcelona Supercomputing Center / ELIXIR-ES
 Carole Goble:
     git: CaroleGoble
     orcid: 0000-0003-1219-2137
@@ -49,6 +55,7 @@ Shraddha Bajare:
     git: shraddha-bajare
     email: shraddha.bajare@skao.int
     affiliation: Square Kilometre Array Observatory
+    role: editor
 Aleksandra Nenadic:
     git: anenadic
     orcid: 0000-0002-2269-3894
@@ -100,3 +107,23 @@ Jan Küster:
     git: jankapunkt
     affiliation: Universität Bremen
     orcid: 0009-0008-8088-9837
+Kenneth Rioja:
+   git: kennethrioja
+   email: kenneth.brian.rioja@cern.ch
+   orcid: 0000-0002-5177-0019
+   affiliation: CERN
+Thomas Vuillaume:
+   git: vuillaut
+   affiliation: LAPP, University Savoie Mont-Blanc, CNRS
+   orcid: 0000-0002-5686-2078
+   email: thomas.vuillaume@lapp.in2p3.fr
+Elena Breitmoser:
+    git: ebreitmo
+    email: e.breitmoser@epcc.ed.ac.uk
+    orcid: 0000-0003-1295-9326
+    affiliation: University of Edinburgh
+Michael Sparks:
+    git: sparkslabs
+    email: sparks.m@gmail.com
+    affiliation: The University of Manchester / Software Sustainability Institute
+    role: editor
