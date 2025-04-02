@@ -9,7 +9,7 @@ layout: home
         <div>
             <h1 class="text-center">Research Software Quality Toolkit for Sciences</h1>
             <p class="text-center mt-2">
-                Research Software Quality Toolkit (RSQKit) lists curated best practices, tools and resources for improving the quality of research software.
+                Research Software Quality Toolkit (RSQKit) lists curated best practices, tools and resources for improving the quality of research software
             </p>
         </div>
     </section>
