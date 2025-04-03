@@ -41,4 +41,4 @@ RSQKit uses [Font Awesome Free Icons](https://fontawesome.com/search?ic=free).
 
 ## Contact us
 
-[Get in touch](/contact) with us on different channels.
+[Get in touch](./contact) with us on different channels.
