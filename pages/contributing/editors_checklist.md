@@ -12,7 +12,7 @@ PR in RSQKit, or downloading and checking the PR branch locally on the Editor's 
 - The Contributors implemented the requested changes and comments, if needed.
 - The Contributors are acknowledged and thanked for their efforts and informed about the publication of their content.
 - The PR is linked to related issues and can be merged into the main branch with no conflicts.
-
+- Page URLs are kept static. Only in well motivated exceptional cases should this rule be broken. Static URLs are important for external sources to refer to our content.
 
 ### Specific Checklist for Metadata
 
