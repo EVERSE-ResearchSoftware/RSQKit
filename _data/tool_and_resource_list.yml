@@ -452,25 +452,25 @@
   id: git-lfs
   name: Git Large File Storage
   url: https://git-lfs.github.com/
-- description: Integrated Development Environment (IDE) for R, a programming language for statistical computing and graphics
+- description: RStudio is an Integrated Development Environment (IDE) for R, a programming language for statistical computing and graphics
   id: rstudio
   name: RStudio
   url: https://posit.co/download/rstudio-desktop/
-- description: Package manager for Python packages
+- description: pip is the package installer for Python. It allows you to install and manage additional libraries and dependencies that are not part of the Python standard library.
   id: pip
-  name: Pip
+  name: pip
   url: https://pypi.org/project/pip/
-- description: UV is extremely fast Python package and project manager, written in Rust.
+- description: uv is an extremely fast Python package and project manager, written in Rust.
   id: uv
-  name: UV
+  name: uv
   url: https://github.com/astral-sh/uv
-- description: Python module for creating lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories
+- description: venv is a Python module for creating lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories
   id: venv
-  name: Venv
+  name: venv
   url: https://docs.python.org/3/library/venv.html
-- description: Package that helps you create reproducible environments for your R projects - use renv to make your R projects more isolated, portable and reproducible
+- description: renv is an R package that helps you create reproducible environments for your R projects - use renv to make your R projects more isolated, portable and reproducible
   id: renv
-  name: Renv
+  name: renv
   url: https://rstudio.github.io/renv/index.html
 - description: Open-source, cross-platform, language-agnostic package manager and environment management system - originally developed to solve package management challenges faced by Python data scientists
   id: conda
@@ -504,7 +504,7 @@
   id: fair-python-coockiecutter
   name: FAIR Python Coockiecutter
   url: https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter
-- description: A documentation generator for Julia.
+- description: Documenter.jl is a documentation generator for Julia, a package for building documentation from docstrings and markdown files.
   id: documenter-jl
   name: Documenter.jl
   url: https://documenter.juliadocs.org/stable/  
