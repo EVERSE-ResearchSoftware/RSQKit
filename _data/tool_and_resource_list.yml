@@ -440,19 +440,19 @@
   id: mercurial
   name: Mercurial
   url: https://www.mercurial-scm.org/
-- description: Version control system
+- description: Subversion is a centralized version control system used to manage and track changes to files and directories over time. It is particularly popular for managing source code in software development but can be used for any type of file.
   id: subversion
   name: Subversion
-  url: https://github.com/r-lib/roxygen2
+  url: https://github.com/apache/subversion
 - description: Highly scalable development and DevOps solutions designed to deliver dynamic development, intelligent testing and risk management environment
   id: perforce
   name: Perforce
   url: https://www.perforce.com/
-- description: An open source Git extension for versioning large files, such as audio samples, videos, datasets, and graphics
+- description: Git Large File Storage is an open source Git extension for versioning large files, such as audio samples, videos, datasets, and graphics.
   id: git-lfs
   name: Git Large File Storage
   url: https://git-lfs.github.com/
-- description: RStudio is an Integrated Development Environment (IDE) for R, a programming language for statistical computing and graphics
+- description: RStudio is an Integrated Development Environment (IDE) for R, a programming language for statistical computing and graphics.
   id: rstudio
   name: RStudio
   url: https://posit.co/download/rstudio-desktop/
