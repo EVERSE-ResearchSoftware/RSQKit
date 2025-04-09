@@ -340,11 +340,11 @@
   id: zammad
   name: Zammad
   url: https://zammad.com/en
-- description: A turn-key research data management (RDM) repository based on Invenio Framework and Zenodo
+- description: InvenioRDM is a turn-key research data management (RDM) repository based on Invenio Framework and Zenodo
   id: inveniordm
   name: InvenioRDM
   url: https://inveniosoftware.org/products/rdm/
-- description: Collects, preserves, curates and makes available software in source code form as cultural heritage
+- description: Software Heritage archive is the largest public collection of source code in existence. It Collects, preserves, curates and makes available software in source code form as cultural heritage
   id: softwareheritage
   name: Software Heritage
   url: https://www.softwareheritage.org
@@ -356,14 +356,14 @@
   id: somef
   name: SOMEF
   url: https://github.com/KnowledgeCaptureAndDiscovery/somef
-- description: A service running SOMEF to obtain CodeMeta files
+- description: Somef Vider is a web application that retrieves the metadata of the given GitHub repository through the Software Metadata Extraction Framework (SOMEF) and shows it in a user-friendly way.
   id: somefvider
   name: SOMEF Vider
   url: https://somef.linkeddata.es/
-- description: A documentation building and hosting platform aimed at helping developers create documentation from code
+- description: Read the Docs serves as a documentation building and hosting platform aimed at helping developers create documentation from code
   id: readthedocs
   name: Read the Docs
-  url: https://readthedocs.org
+  url: https://about.readthedocs.com/
 - description: Documentation generator from reStructuredText files primarily for Python, but also supports other languages - C++, C, JavaScript.
   id: sphinx
   name: Sphinx
@@ -376,15 +376,15 @@
   id: greenalgorithms
   name: Green Algorithms
   url: https://www.green-algorithms.org/
-- description: A software package that integrates into Python codebase - estimating the amount of carbon dioxide (CO2) produced by the cloud or personal computing resources used to execute the code
+- description: CodeCarbon is a software package that integrates into Python codebase and estimates the amount of carbon dioxide (CO2) produced by the cloud or personal computing resources used to execute the code
   id: codecarbon
   name: CodeCarbon
   url: https://codecarbon.io/
-- description: A tool that measures energy usage and resource efficiency in web and mobile applications
+- description: Greenspector is a tool that measures energy usage and resource efficiency in web and mobile applications
   id: greenspectorstudio
   name: Greenspector Studio
-  url: https://greenspector.com/en/greenspector-studio-it-environmental-footprint-websites-applications/
-- description: Tracks and predicts the energy consumption and carbon footprint of training deep learning models
+  url: https://greenspector.com/en/home/
+- description: carbontracker tracks and predicts the energy consumption and carbon footprint of training deep learning models
   id: carbontracker
   name: carbontracker
   url: https://github.com/lfwa/carbontracker
@@ -404,27 +404,27 @@
   id: code-linters
   name: Code Linters
   url: https://en.wikipedia.org/wiki/Lint_%28software%29
-- description: Style guidelines used for Google code
+- description: Style guidelines (a set of conventions about how to write code for a project) used for Google code.
   id: google-programming-style-guide
   name: Google’s programming style guide
   url: https://google.github.io/styleguide/
-- description: Free Python Integrated Development Environment (IDE) for application, data science and web development
+- description: PyCharm is a free Python Integrated Development Environment (IDE) for application, data science and web development.
   id: pycharm
   name: PyCharm
   url: https://www.jetbrains.com/pycharm/
-- description: Free and open-source Integrated Development Environment (IDE) used for Java development, with support for developing applications in other programming languages too
+- description: Eclipse is a free and open-source Integrated Development Environment (IDE) used for Java development, with support for developing applications in other programming languages too.
   id: eclipse
   name: Eclipse
   url: https://eclipseide.org/
-- description: An API documentation generator for JavaScript, similar to Javadoc
+- description: JSDoc is a tool and a markup language that serves as an API documentation generator for JavaScript, similar to Javadoc.
   id: jsdoc
   name: JSDoc
   url: https://jsdoc.app/
-- description: Python Docstring Generator for Visual Studio Code
+- description: Python Docstring Generator (autoDocstring) is a Visual Studio Code extension to quickly generate docstrings for python functions.
   id: python-docstring-generator
   name: Python Docstring Generator
   url: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
-- description: Documentation generator tool in software development for C++ (and also C, Python, PHP, Java, C#, Objective-C, Fortran, VHDL, Splice, IDL, and Lex)
+- description: Doxygen is a documentation generator tool in software development for C++ (and also C, Python, PHP, Java, C#, Objective-C, Fortran, VHDL, Splice, IDL, and Lex)
   id: doxygen
   name: Doxygen
   url: https://www.doxygen.nl/
@@ -432,11 +432,11 @@
   id: swagger
   name: Swagger
   url: https://swagger.io/
-- description: Documentation generator tool in software development for R
+- description: Roxygen2 is an R package that makes it easier to document R code, especially functions, datasets, and packages.
   id: roxygen
   name: Roxygen
-  url: https://github.com/r-lib/roxygen2
-- description: Distributed source control management tool - it efficiently handles projects of any size and offers an easy and intuitive interface
+  url: https://roxygen2.r-lib.org/
+- description: Mercurial is a free, distributed source control management tool. Ιt efficiently handles projects of any size and offers an easy and intuitive interface
   id: mercurial
   name: Mercurial
   url: https://www.mercurial-scm.org/
