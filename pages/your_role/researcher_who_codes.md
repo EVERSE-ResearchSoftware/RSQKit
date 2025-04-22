@@ -17,4 +17,4 @@ In your role of researcher who codes, you may need to:
 - work independently or with small teams, focusing on specific hypotheses or experiments
 - use or build on top of existing tools and scripts to test hypotheses or analyse data
 - document and test your code
-- write code that is research-specific and make it more suitable for reuse
+- make your research-specific code more reproducible and suitable for reuse by others
