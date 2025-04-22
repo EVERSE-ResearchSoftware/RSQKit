@@ -18,7 +18,7 @@ into robust software solutions and are often required to work across multiple pr
 Main responsibilities and common challenges of your role in relation to research software development and Research Software Quality include:
 
 - Collaboration with researchers: translating research problems into technical requirements and help implement solutions
-- Software development: writing and maintaining code for research projects (prototyping, optimization, refactoring)
+- Software development: writing and maintaining code for research projects (prototyping, optimisation, refactoring)
 - Code quality and best practices: applying best practices like version control, testing, documentation, and continuous integration
 - Reproducibility & sustainability: ensuring research outputs are reproducible and software is maintainable
 - Training: educating researchers and early career RSEs on coding practices and tools
