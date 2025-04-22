@@ -13,7 +13,7 @@ conduct novel research and use code to solve domain-specific problems and you fo
 
 In your role of researcher who codes, you may need to:
 
-- write code for short-term use (e.g., analysis scripts, simulations) within a single project
+- write code for short-term use (e.g., analysis scripts, simulations, prototype code) within a single project
 - work independently or with small teams, focusing on specific hypotheses or experiments
 - use or build on top of existing tools and scripts to test hypotheses or analyse data
 - document and test your code
