@@ -62,7 +62,7 @@ defaults:
       path: "pages/your_role/"
     values:
       type: your_role
-      type_img: /assets/img/section-icons/role-id.svg
+      type_img: /assets/img/font-awesome-free/user-solid.svg
   -
     scope:
       path: "pages/research_communities/"
