@@ -61,6 +61,8 @@ subitems:
         url: /reproducible_software_environments
       - title: "Writing readable code"
         url: /writing_readable_code
+      - title: "Code review"
+        url: /code_review
       - title: "Testing software"
         url: /testing_software
       - title: "Task automation using GitHub Actions"
