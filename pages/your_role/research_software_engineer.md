@@ -58,7 +58,7 @@ Environmental sciences:
 - visualise geospatial data using GIS tools
 
 
-## Guidance
+## Software quality guidance
 
 - Code quality best practices - [version control](./using_version_control), [testing](./testing_software), [documentation](./documenting_software) and [licencing](./licensing_software)
 - [Organising software projects](./organising_software_projects) - a well-structured project directory facilitates collaboration, maintenance, and reproducibility
