@@ -16,7 +16,7 @@ training: # A list of training resources relevant for this task or problem (e.g 
 
 Provide a brief overview of the role and how research software and Research Software Quality are relevant to it.
 
-## Tasks & responsibilities
+## Software responsibilities, challanges & tasks
 
 Outline the main tasks and responsibilities of the role in relation to Research Software Quality and highlight common challenges.
 
