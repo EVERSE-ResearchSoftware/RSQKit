@@ -46,6 +46,8 @@ subitems:
     subitems:
       - title: Research Software Engineer
         url: /research_software_engineer
+      - title: Researcher Who Codes
+        url: /researcher_who_codes    
   - title: Your tasks
     description: Find guidelines and solutions for tackling common software tasks
     url: /your_tasks
