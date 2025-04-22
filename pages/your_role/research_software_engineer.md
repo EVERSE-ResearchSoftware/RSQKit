@@ -13,7 +13,7 @@ to support research is robust, sustainable, reliable, reusable, and efficient.
 You have an understanding of engineering practices, performance, software quality and tooling	and works alongside researchers to translate scientific problems 
 into robust software solutions and are often required to work across multiple projects or domains.
 
-## Responsibilities, tasks & challenges
+## Software responsibilities, challenges & tasks
 
 Main responsibilities and common challenges of your role in relation to research software development and Research Software Quality include:
 
