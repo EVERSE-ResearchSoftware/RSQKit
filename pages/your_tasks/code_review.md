@@ -1,0 +1,58 @@
+---
+title: Code review
+description: How do you review code?
+contributors: ["Aleksandra Nenadic"]
+page_id: code_review
+related_pages:
+  your_tasks: []
+---
+
+## Code Review in Research Software Development
+
+### What is Code Review?
+
+Code review is the process of systematically examining someone else’s code (or your own, after some time) to find bugs, improve quality, and ensure adherence to coding standards. It’s a collaborative practice aimed at improving software reliability, readability, and maintainability.
+Why It Matters in Research
+
+In research settings, where software often evolves rapidly and is reused over long periods, code review helps:
+
+- catch errors early before they affect research outcomes
+- promote reproducibility by ensuring clarity and documentation
+- encourage best practices like modular design and testing
+- facilitate collaboration, especially in multi-disciplinary teams
+- support onboarding of new team members with shared knowledge
+
+### What to look for in a review?
+
+- Correctness – does the code do what it is supposed to?
+- Style and consistency – are naming conventions, formatting, and structure consistent?
+- Testing – are there tests? Do they cover expected use cases and edge cases?
+- Documentation – are functions, classes, and scripts clearly documented?
+- Modularity – is the code organised into reusable and testable components?
+- Performance – is the code efficient enough for the task?
+
+
+### What not to look for in a code review? 
+
+While code reviews are essential for quality, it is just as important to avoid nitpicking or overstepping. 
+Here are things that should not be the focus of a code review:
+
+- Personal style preferences - avoid debating minor style choices (e.g., single vs. double quotes) if the team has not agreed on a standard. Let linters and formatters handle those.
+- Rewriting everything - do not suggest rewriting large sections of code unless there is a clear and necessary reason (like a bug or major design issue). Aim to improve, not take over.
+- Blaming or criticising individuals - the goal is to improve the code, not judge the coder. Always keep feedback constructive and kind.
+- Perfecting on the first try - code does not need to be perfect before it is merged. If it is functional, well-tested, and clear, minor improvements can come later.
+- Marking non-Blocking comments as blocking - ff a suggestion is minor or subjective, label it as such. Do not hold up progress for tweaks that can be addressed later.
+- Expecting mastery of everything - especially in research, people have varying backgrounds. Do not expect full knowledge of advanced software engineering concepts from domain experts/reseachers who code.  
+
+### Code review tips & tools
+
+- Use Pull Requests - in systems like GitHub or GitLab, use pull/merge requests to structure reviews.
+- Keep it constructive - offer clear, kind feedback. Ask questions rather than criticise.
+- Automate where possible - use linters and formatters to catch simple issues before review.
+- Focus on learning - code reviews are a two-way street—reviewers can learn as much as authors!
+
+Tools that help:
+
+- {% tool "github %} and {% tool "gitlab %} have built-in review tools for code review discussions and suggestions
+- Code linters (e.g., flake8, eslint) ensure code style consistency
+- [CI pipelines](./ci_cd) automatically run tests and checks on submitted codee
