@@ -20,7 +20,7 @@ The main responsibilities and common challenges of the RSE role in relation to r
 - Reproducibility & sustainability: ensure research outputs are reproducible and software is maintainable
 - Training: educate researchers and early career RSEs on coding practices and tools
 - Data management: handle data wrangling, storage, format conversions, and pipeline automation
-- Performance optimization: improve performance of simulations, analyses, or computational workflows
+- Performance optimisation: improve performance of simulations, analyses, or computational workflows
 - Tool integration: help integrate existing tools and frameworks into research environments
 
 ### Domain-specific tasks
