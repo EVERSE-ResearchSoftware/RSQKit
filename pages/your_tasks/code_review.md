@@ -9,7 +9,7 @@ related_pages:
 
 ## Code Review in Research Software Development
 
-### What is Code Review?
+### Description - What is Code Review?
 
 Code review is the process of systematically examining someone else’s code (or your own, after some time) to find bugs, improve quality, and ensure adherence to coding standards. It’s a collaborative practice aimed at improving software reliability, readability, and maintainability.
 Why It Matters in Research
@@ -22,7 +22,7 @@ In research settings, where software often evolves rapidly and is reused over lo
 - facilitate collaboration, especially in multi-disciplinary teams
 - support onboarding of new team members with shared knowledge
 
-### What to look for in a review?
+### Consideration - What to look for in a review?
 
 - Correctness – does the code do what it is supposed to?
 - Style and consistency – are naming conventions, formatting, and structure consistent?
@@ -32,7 +32,7 @@ In research settings, where software often evolves rapidly and is reused over lo
 - Performance – is the code efficient enough for the task?
 
 
-### What not to look for in a code review? 
+### Consideration - What not to look for in a code review? 
 
 While code reviews are essential for quality, it is just as important to avoid nitpicking or overstepping. 
 Here are things that should not be the focus of a code review:
@@ -44,7 +44,7 @@ Here are things that should not be the focus of a code review:
 - Marking non-Blocking comments as blocking - ff a suggestion is minor or subjective, label it as such. Do not hold up progress for tweaks that can be addressed later.
 - Expecting mastery of everything - especially in research, people have varying backgrounds. Do not expect full knowledge of advanced software engineering concepts from domain experts/reseachers who code.  
 
-### Code review tips & tools
+### Solutions - Code Review Tips & Tools
 
 - Use Pull Requests - in systems like GitHub or GitLab, use pull/merge requests to structure reviews.
 - Keep it constructive - offer clear, kind feedback. Ask questions rather than criticise.
