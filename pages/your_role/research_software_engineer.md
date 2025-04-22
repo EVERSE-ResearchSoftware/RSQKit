@@ -64,4 +64,4 @@ Environmental sciences:
 - [Organising software projects](./organising_software_projects) - a well-structured project directory facilitates collaboration, maintenance, and reproducibility
 - [Software testing practices](./testing_software) and automating tests using [Continuous Integration](./ci_cd) (CI)
 - [Adopting FAIR principles](./fair_rs) promotes transparency and facilitates wider adoption of research software
-- Engaging in code reviews - regular code reviews contribute to code quality and facilitate knowledge sharing among team members​
+- Engaging in [code reviews](./code_review) - regular code reviews contribute to code quality and facilitate knowledge sharing among team members​
