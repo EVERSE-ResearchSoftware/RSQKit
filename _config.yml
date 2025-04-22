@@ -59,6 +59,12 @@ defaults:
       no_robots: true   
   -
     scope:
+      path: "pages/your_role/"
+    values:
+      type: your_role
+      type_img: /assets/img/section-icons/role-id.svg
+  -
+    scope:
       path: "pages/research_communities/"
     values:
       type: research_community
