@@ -31,15 +31,15 @@ Life & health sciences:
 
 - process and analyse genomic or proteomic data
 - develop tools for sequence alignment, gene expression analysis, or CRISPR design
-- optimize bioinformatics pipelines using tools like Snakemake or Nextflow
+- optimise bioinformatics pipelines using tools like Snakemake or Nextflow
 - build machine learning pipelines for medical imaging or patient data
 - support integration with electronic health record systems
 
 Physics & astronomy:
 
 - implement or optimise simulations (e.g., quantum mechanics)
-- parallelize code for HPC (using MPI/OpenMP)
-- analyse big data
+- parallelise code for HPC (using MPI/OpenMP)
+- analyse big data (massive datasets) produced by modern telescopes
 - visualise simulation results
 
 Social sciences & digital humanities:
