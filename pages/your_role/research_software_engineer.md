@@ -62,6 +62,6 @@ Environmental sciences:
 
 - Code quality best practices - [version control](./using_version_control), [testing](./testing_software), [documentation](./documenting_software) and [licencing](./licensing_software)
 - [Organising software projects](./organising_software_projects) - a well-structured project directory facilitates collaboration, maintenance, and reproducibility
-- Software testing practices automating tests using continuous integration (CI)
-- Adopting FAIR principles promotes transparency and facilitates wider adoption of research software
+- [Software testing practices](./testing_software) and automating tests using [Continuous Integration](./ci_cd) (CI)
+- [Adopting FAIR principles](./fair_rs) promotes transparency and facilitates wider adoption of research software
 - Engaging in code reviews - regular code reviews contribute to code quality and facilitate knowledge sharing among team members​
