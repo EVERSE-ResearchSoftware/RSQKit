@@ -22,4 +22,4 @@ Outline the main tasks and responsibilities of the role in relation to Research 
 
 ## Guidance
 
-Highlight some guidance or how RSQKit could help overcome your challenges.
+Highlight some guidance or how RSQKit could help overcome your challenges, e.g. provide links to RDMKit pages with guidance.
