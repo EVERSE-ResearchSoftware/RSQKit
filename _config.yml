@@ -49,6 +49,14 @@ defaults:
         sitemap: false
         search_exclude: true
         no_robots: true
+   -
+    scope:
+      path: "pages/your_role/TEMPLATE_your_role.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true   
   -
     scope:
       path: "pages/research_communities/"
