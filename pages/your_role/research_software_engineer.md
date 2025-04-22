@@ -14,14 +14,14 @@ Their tasks and responsibilities can vary significantly depending on the researc
 
 The main responsibilities and common challenges of the RSE role in relation to reseach software development and Research Software Quality include:
 
-- Software development: write and maintain code for research projects (prototyping, optimization, refactoring).
-- Collaboration with researchers: Translate research problems into technical requirements and help implement solutions.
-- Code quality and best practices: apply best practices like version control, testing, documentation, and continuous integration.
-- Reproducibility & sustainability: ensure research outputs are reproducible and software is maintainable.
-- Training: educate researchers and early career RSEs on coding practices and tools.
-- Data management: handle data wrangling, storage, format conversions, and pipeline automation.
-- Performance optimization: improve performance of simulations, analyses, or computational workflows.
-- Tool integration: help integrate existing tools and frameworks into research environments.
+- Collaboration with researchers: translate research problems into technical requirements and help implement solutions
+- Software development: write and maintain code for research projects (prototyping, optimization, refactoring)
+- Code quality and best practices: apply best practices like version control, testing, documentation, and continuous integration
+- Reproducibility & sustainability: ensure research outputs are reproducible and software is maintainable
+- Training: educate researchers and early career RSEs on coding practices and tools
+- Data management: handle data wrangling, storage, format conversions, and pipeline automation
+- Performance optimization: improve performance of simulations, analyses, or computational workflows
+- Tool integration: help integrate existing tools and frameworks into research environments
 
 ### Domain-specific tasks
 
