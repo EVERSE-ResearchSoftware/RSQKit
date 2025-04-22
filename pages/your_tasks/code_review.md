@@ -53,6 +53,6 @@ Here are things that should not be the focus of a code review:
 
 Tools that help:
 
-- {% tool "github %} and {% tool "gitlab %} have built-in review tools for code review discussions and suggestions
+- {% tool "github" %} and {% tool "gitlab" %} have built-in review tools for code review discussions and suggestions
 - {% tool "code-linters" %} (e.g., flake8, eslint, {% tool "pylint" %}) ensure code style consistency
 - [CI pipelines](./ci_cd) automatically run tests and checks on submitted codee
