@@ -20,6 +20,6 @@ Provide a brief overview of the role and how research software and Research Soft
 
 Outline the main tasks and responsibilities of the role in relation to Research Software Quality and highlight common challenges.
 
-## Guidance
+## Software quality guidance
 
 Highlight some guidance or how RSQKit could help overcome your challenges, e.g. provide links to RDMKit pages with guidance.
