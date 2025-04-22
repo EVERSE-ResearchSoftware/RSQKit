@@ -1,5 +1,5 @@
 ---
-title: Code review
+title: Performing a code review
 description: How do you review code?
 contributors: ["Aleksandra Nenadic"]
 page_id: code_review
