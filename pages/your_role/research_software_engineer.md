@@ -60,70 +60,8 @@ Environmental sciences:
 
 ## Guidance
 
-- Code quality best practices: version control, testing, documentation, and continuous integration
-
-
-
-Organising Software Projects
-
-A well-structured project directory facilitates collaboration, maintenance, and reproducibility. RSQKit recommends:
-
-    Creating a top-level directory with a meaningful name.
-
-    Including essential files such as:
-
-        README: Describes the project and provides instructions for installation and usage.
-
-        LICENSE: Specifies the terms under which the software can be used and redistributed.
-
-        CITATION.cff: Provides citation information for the software.
-
-    Organising subdirectories by content type, for example:
-
-        data/: Raw and processed datasets.
-
-        src/: Source code.
-
-        tests/: Testing scripts.
-
-        docs/: Documentation files.
-
-This structure enhances clarity and facilitates easier navigation and collaboration.
-
-Implementing Testing Practices
-
-Incorporating testing into the development workflow ensures software reliability. RSQKit advocates for:
-
-    Developing unit tests to verify individual components.
-
-    Creating integration tests to assess combined parts of the application.
-
-    Automating tests using continuous integration (CI) tools to detect issues early.​
-    GitHub+1GitHub+1
-    GitHub
-
-These practices help maintain code quality and facilitate easier debugging and maintenance.
-
-Adhering to FAIR Principles
-
-Ensuring that software is Findable, Accessible, Interoperable, and Reusable (FAIR) enhances its utility and longevity. RSQKit suggests:
-
-    Using persistent identifiers (e.g., DOIs) for software releases.
-
-    Providing clear licensing information.
-
-    Including comprehensive metadata and documentation.​
-
-Adopting FAIR principles promotes transparency and facilitates wider adoption of research software.
-
-Engaging in Code Reviews
-
-Regular code reviews contribute to code quality by:
-
-    Identifying bugs and potential issues.
-
-    Ensuring adherence to coding standards.
-
-    Facilitating knowledge sharing among team members.​
-
-RSQKit encourages establishing a culture of constructive code reviews to enhance software robustness.
+- Code quality best practices - version control, testing, documentation, and continuous integration
+- Organising software projects - a well-structured project directory facilitates collaboration, maintenance, and reproducibility
+- Software testing practices automating tests using continuous integration (CI)
+- Adopting FAIR principles promotes transparency and facilitates wider adoption of research software
+- Engaging in code reviews - regular code reviews contribute to code quality and facilitate knowledge sharing among team members​
