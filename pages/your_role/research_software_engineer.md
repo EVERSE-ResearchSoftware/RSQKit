@@ -7,16 +7,16 @@ page_id: research_software_engineer
 ## Introduction
 
 A Research Software Engineer (RSE) plays a crucial role in bridging the gap between research and software development. 
-Your tasks and responsibilities in this role can vary significantly depending on the research domain, but they generally 
-focus on ensuring that software you develop to support research is robust, sustainable, reliable, reusable, and efficient.
+The tasks and responsibilities in this role can vary significantly depending on the research domain, but they generally 
+focus on ensuring that software they develop to support research is robust, sustainable, reliable, reusable, and efficient.
 
-You have an understanding of engineering practices, performance, software quality and tooling and work alongside 
+RSEs have a deeper understanding of engineering practices, performance, software quality and tooling and work alongside 
 researchers to translate scientific problems into robust software solutions and are often required to work across 
 multiple projects or domains.
 
 ## Software responsibilities, challenges & tasks
 
-Main responsibilities and common challenges of your role in relation to research software development and Research Software Quality include:
+Main responsibilities and common challenges of this role in relation to research software development and Research Software Quality include:
 
 - Collaboration with researchers: translating research problems into technical requirements and help implement solutions
 - Software development: writing and maintaining code for research projects (prototyping, optimisation, refactoring)
