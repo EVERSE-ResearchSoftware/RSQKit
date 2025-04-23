@@ -1,6 +1,7 @@
 ---
 title: Research Software Engineer
 page_id: research_software_engineer
+description: Software development and quality guidance for Research Software Engineers (RSEs)
 ---
 
 
@@ -14,7 +15,7 @@ RSEs have a deeper understanding of engineering practices, performance, software
 researchers to translate scientific problems into robust software solutions and are often required to work across 
 multiple projects or domains.
 
-## Software responsibilities, challenges & tasks
+## Software development & quality responsibilities, challenges & tasks
 
 Main responsibilities and common challenges of this role in relation to research software development and Research Software Quality include:
 
@@ -57,7 +58,7 @@ Environmental sciences:
 - visualise geospatial data using GIS tools
 
 
-## Software quality guidance
+## Software development & quality guidance
 
 - [Organising software projects](./organising_software_projects) - a well-structured project directory facilitates collaboration, maintenance, and reproducibility
 - [Adopting FAIR principles](./fair_rs) promotes transparency and facilitates wider adoption of research software

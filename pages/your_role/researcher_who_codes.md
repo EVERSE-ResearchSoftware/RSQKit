@@ -2,6 +2,7 @@
 title: Researcher Who Codes
 page_id: researcher_who_codes
 contributors: ["Robert Speck", "Aleksandra Nenadic"]
+description: Software development and quality guidance for researchers who code
 ---
 
 Researchers who code are academics or research domain experts who write software or scripts as part of their research workflow. 
@@ -30,7 +31,7 @@ Primary focus and responsibilities of Research Software Engineers (RSEs) and res
 | Aims to develop general-purpose tools or infrastuctures usable by others                   | Writes code that is usually designed to support one research project or paper, and may not be intended for reuse by others |
 | Employs software engineering practices - software architecture, documentation and testing  | Prioritises results over engineering - the emphasis is on getting results that support research goals                      |
 
-## Software responsibilities, challenges & tasks
+## Software development & quality responsibilities, challenges & tasks
 
 These are the key software-related things a researcher who codes is typically responsible for:
 
@@ -42,7 +43,7 @@ These are the key software-related things a researcher who codes is typically re
 - Validating results via debugging or comparing outcomes across test cases
 - When projects grow more complex, researchers who code often benefit from working with [RSEs](./research_software_engineer) to improve code quality, scalability, and reusability.
 
-## Software quality guidance
+## Software development & quality guidance
 
 - [Organising software projects](./organising_software_projects) - a well-structured project directory facilitates collaboration, maintenance, and reproducibility
 - [Adopting FAIR principles](./fair_rs) promotes transparency and facilitates wider adoption of research software
