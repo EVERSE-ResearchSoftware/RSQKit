@@ -54,6 +54,8 @@ subitems:
         url: /principal_investigator
       - title: Policy maker
         url: /policy_maker
+      - title: Trainer
+        url: /trainer
   - title: Your tasks
     description: Guidelines and solutions for tackling common software tasks
     url: /your_tasks
