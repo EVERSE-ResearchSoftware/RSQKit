@@ -7,11 +7,12 @@ page_id: research_software_engineer
 ## Introduction
 
 A Research Software Engineer (RSE) plays a crucial role in bridging the gap between research and software development. 
-Your tasks and responsibilities in this role can vary significantly depending on the research domain, but they generally focus on ensuring that software you develop 
-to support research is robust, sustainable, reliable, reusable, and efficient.
+Your tasks and responsibilities in this role can vary significantly depending on the research domain, but they generally 
+focus on ensuring that software you develop to support research is robust, sustainable, reliable, reusable, and efficient.
 
-You have an understanding of engineering practices, performance, software quality and tooling	and works alongside researchers to translate scientific problems 
-into robust software solutions and are often required to work across multiple projects or domains.
+You have an understanding of engineering practices, performance, software quality and tooling and work alongside 
+researchers to translate scientific problems into robust software solutions and are often required to work across 
+multiple projects or domains.
 
 ## Software responsibilities, challenges & tasks
 
@@ -21,14 +22,12 @@ Main responsibilities and common challenges of your role in relation to research
 - Software development: writing and maintaining code for research projects (prototyping, optimisation, refactoring)
 - Code quality and best practices: applying best practices like version control, testing, documentation, and continuous integration
 - Reproducibility & sustainability: ensuring research outputs are reproducible and software is maintainable
-- Training: educating researchers and early career RSEs on coding practices and tools
 - Data management: handling data wrangling, storage, format conversions, and pipeline automation
 - Performance optimisation: improving performance of simulations, analyses, or computational workflows
 - Tool integration: helping integrate existing tools and frameworks into research environments
+- Training: educating researchers and early career RSEs on coding practices and tools
 
-### Domain-specific tasks
-
-Soma example domain specific tasks of RSEs are listed below.
+Some example domain-specific tasks of RSEs are listed below.
 
 Life & health sciences:
 
@@ -60,8 +59,8 @@ Environmental sciences:
 
 ## Software quality guidance
 
-- Code quality best practices - [version control](./using_version_control), [testing](./testing_software), [documentation](./documenting_software) and [licencing](./licensing_software)
 - [Organising software projects](./organising_software_projects) - a well-structured project directory facilitates collaboration, maintenance, and reproducibility
-- [Software testing practices](./testing_software) and automating tests using [Continuous Integration](./ci_cd) (CI)
 - [Adopting FAIR principles](./fair_rs) promotes transparency and facilitates wider adoption of research software
-- Engaging in [code reviews](./code_review) - regular code reviews contribute to code quality and facilitate knowledge sharing among team members​
+- Code quality best practices - [version control](./using_version_control), [testing](./testing_software), [documentation](./documenting_software) and [licencing](./licensing_software)
+- [Software testing practices](./testing_software) and automating tests using [Continuous Integration](./ci_cd) (CI)
+- Engaging in [code reviews](./code_review) - regular code reviews contribute to code quality and facilitate knowledge sharing among team members
