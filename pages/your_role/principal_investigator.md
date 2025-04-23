@@ -12,9 +12,6 @@ that includes software development. Increasingly, funders are requiring a Softwa
 encouraging PIs to proactively consider key aspects of software development and long-term sustainability from the very 
 start of the project.  
 
-Funders often refer to the FAIR principles. Applying these principles to your research data would greatly ease reusing 
-and repurposing of data, either by you or others, and enable automation of processes.
-
 ## Software development & quality responsibilities, challenges & tasks
 
 As a Principal Investigator (PI), your responsibilities in relation to software development and quality may include:
