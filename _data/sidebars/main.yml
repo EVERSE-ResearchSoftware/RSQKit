@@ -42,7 +42,7 @@ subitems:
       - title: SSHOC
         url: /sshoc
   - title: Your role
-    description: Resources tailored to different roles in research software development
+    description: Resources tailored to different roles in research software funding & development
     url: /your_role
     image_url: /assets/img/font-awesome-free/user-solid.svg
     subitems:
