@@ -1,7 +1,8 @@
 ---
-title: Research Software Engineer
+title: Research Software Engineer (RSE)
 page_id: research_software_engineer
 description: Software development and quality guidance for Research Software Engineers (RSEs)
+contributors: ["Aleksandra Nenadic"]
 ---
 
 

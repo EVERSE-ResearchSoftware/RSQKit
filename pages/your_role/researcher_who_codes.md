@@ -1,5 +1,5 @@
 ---
-title: Researcher Who Codes
+title: Researcher who codes
 page_id: researcher_who_codes
 contributors: ["Robert Speck", "Aleksandra Nenadic"]
 description: Software development and quality guidance for researchers who code
