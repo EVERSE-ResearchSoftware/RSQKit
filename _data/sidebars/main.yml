@@ -46,10 +46,12 @@ subitems:
     url: /your_role
     image_url: /assets/img/font-awesome-free/user-solid.svg
     subitems:
+      - title: Researcher Who Codes
+        url: /researcher_who_codes
       - title: Research Software Engineer
         url: /research_software_engineer
-      - title: Researcher Who Codes
-        url: /researcher_who_codes    
+      - title: Principal Investigator
+        url: /principal_investigator
   - title: Your tasks
     description: Guidelines and solutions for tackling common software tasks
     url: /your_tasks
