@@ -42,7 +42,7 @@ subitems:
       - title: SSHOC
         url: /sshoc
   - title: Your role
-    description: Different persona types associated with research software
+    description: Resources tailored to different roles in research software development
     url: /your_role
     image_url: /assets/img/font-awesome-free/user-solid.svg
     subitems:
