@@ -9,9 +9,9 @@ related_pages:
 
 ## Code Review in Research Software Development
 
-### Description - what is code review?
+### Description
 
-Code review is the process of systematically examining someone else’s code (or your own, after some time) to find bugs, improve quality, and ensure adherence to coding standards. It’s a collaborative practice aimed at improving software reliability, readability, and maintainability.
+What is code review? Code review is the process of systematically examining someone else’s code (or your own, after some time) to find bugs, improve quality, and ensure adherence to coding standards. It’s a collaborative practice aimed at improving software reliability, readability, and maintainability.
 Why It Matters in Research
 
 In research settings, where software often evolves rapidly and is reused over long periods, code review helps:
@@ -24,6 +24,8 @@ In research settings, where software often evolves rapidly and is reused over lo
 
 ### Consideration - what to look for in a review?
 
+When conducting a code review, you should focus on checking the following:
+
 - Correctness – does the code do what it is supposed to?
 - Style and consistency – are naming conventions, formatting, and structure consistent?
 - Testing – are there tests? Do they cover expected use cases and edge cases?
@@ -31,8 +33,7 @@ In research settings, where software often evolves rapidly and is reused over lo
 - Modularity – is the code organised into reusable and testable components?
 - Performance – is the code efficient enough for the task?
 
-
-### Consideration - what not to look for in a code review? 
+### Consideration - what not to look for in a review?
 
 While code reviews are essential for quality, it is just as important to avoid nitpicking or overstepping. 
 Here are things that should not be the focus of a code review:
