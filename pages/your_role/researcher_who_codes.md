@@ -6,7 +6,7 @@ description: Software development and quality guidance for researchers who code
 ---
 
 Researchers who code are academics or research domain experts who write software or scripts as part of their research workflow. 
-Their focus is research, not the software — but coding is often essential for data analysis, simulations, modeling or automation.
+Their main focus is research, not the software — but coding is often essential for data analysis, simulations, modeling or automation in research.
 They may come from disciplines like physics, life sciences, environmental sciences, humanities, etc. and their 
 coding skills are often self-taught and developed organically out of necessity rather than formal training.
 When compared to the role of an [Research Software Engineer (RSE)](./research_software_engineer) - whose primary goal is to build sustainable, reliable, 
@@ -24,7 +24,7 @@ Primary focus and responsibilities of Research Software Engineers (RSEs) and res
 
 | RSE                                                                                        | Researcher who codes                                                                                                       |
 |--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Has deeper knowledge of software development practices (e.g., testing, CI/CD, versioning)  | Often Has basic to intermediate programming knowledge; often self-taught , may have more advanced skills and knowledge but not realise it                                                        |
+| Has deeper knowledge of software development practices (e.g., testing, CI/CD, versioning)  | Has basic to intermediate programming knowledge (often self-taught); but may have more advanced skills and knowledge without realising it                                                         |
 | Writes modular, maintainable, and reusable code, often across multiple projects or domains | Often writes code for short-term use (e.g., analysis scripts, simulations, prototype code) within a single project, some are more advanced in their practice               |
 | Works alongside researchers to translate scientific problems into robust software          | Works independently or with small teams, focusing on specific hypotheses or experiments                                    |
 | Builds workflows, automation pipelines, and scalable systems                               | Builds own scripts or uses existing tools and scripts to test hypotheses or analyse data                                   |
