@@ -26,9 +26,9 @@ Primary focus and responsibilities of Research Software Engineers (RSEs) and res
 |--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Has deeper knowledge of software development practices (e.g., testing, CI/CD, versioning)  | Has basic to intermediate programming knowledge (often self-taught); but may have more advanced skills and knowledge without realising it                                                         |
 | Writes modular, maintainable, and reusable code, often across multiple projects or domains | Often writes code for short-term use (e.g., analysis scripts, simulations, prototype code) within a single project, some are more advanced in their practice               |
-| Works alongside researchers to translate scientific problems into robust software          | Works independently or with small teams, focusing on specific hypotheses or experiments                                    |
+| Works alongside researchers to translate scientific problems into robust software          | Often works independently or with small teams, focusing on specific hypotheses or experiments                                    |
 | Builds workflows, automation pipelines, and scalable systems                               | Builds own scripts or uses existing tools and scripts to test hypotheses or analyse data                                   |
-| Aims to develop general-purpose tools or infrastuctures usable by others                   | Writes code that is usually designed to support one research project or paper, and may not be intended for reuse by others |
+| Aims to develop general-purpose tools or infrastuctures usable by others                   | Writes code that is usually designed to support one research project or paper, and may not be intended for reuse by others (but this is also changing as focus shifts to sharing and reusability) |
 | Employs software engineering practices - software architecture, documentation and testing  | Prioritises results over engineering - the emphasis is on getting results that support research goals                      |
 
 ## Software development & quality responsibilities, challenges & tasks
