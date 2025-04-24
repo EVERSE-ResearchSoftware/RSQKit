@@ -29,7 +29,7 @@ Primary focus and responsibilities of Research Software Engineers (RSEs) and res
 | Works alongside researchers to translate scientific problems into robust software          | Often works independently or with small teams, focusing on specific hypotheses or experiments                                    |
 | Builds workflows, automation pipelines, and scalable systems                               | Builds own scripts or uses existing tools and scripts to test hypotheses or analyse data                                   |
 | Aims to develop general-purpose tools or infrastuctures usable by others                   | Writes code that is usually designed to support one research project or paper, and may not be intended for reuse by others (but this is also changing as focus shifts to sharing and reusability) |
-| Employs software engineering practices - software architecture, documentation and testing  | Prioritises results over engineering - the emphasis is on getting results that support research goals                      |
+| Employs software engineering practices - software architecture, documentation and testing  | Often prioritises results over engineering - the emphasis is on getting results that support research goals                      |
 
 ## Software development & quality responsibilities, challenges & tasks
 
