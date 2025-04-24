@@ -14,7 +14,7 @@ and reusable software to support research often in different domains - the prima
 conduct novel research and use code to solve domain-specific problems and they focus on scientific questions, experimentation, and data interpretation.
 
 While the term RSE is well established in many countries, not everyone involved in writing research software identifies with it. 
-Many researchers—whether they are physicists, biologists, engineers, or social scientists—prefer to define themselves by 
+Many researchers—whether they are physicists, biologists, engineers, or social scientists — prefer to define themselves by 
 their domain rather than by their software contributions. This broad community may not formally fall under the RSE label, 
 but they still benefit greatly from adopting research software engineering practices. 
 Whether it is publishing code, choosing a license, or writing tests, these skills are essential for anyone developing 
