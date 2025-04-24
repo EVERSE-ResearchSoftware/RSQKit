@@ -46,6 +46,20 @@ defaults:
         no_robots: true
   -
     scope:
+      path: "pages/your_role/TEMPLATE_your_role.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true   
+  -
+    scope:
+      path: "pages/your_role/"
+    values:
+      type: your_role
+      type_img: /assets/img/font-awesome-free/user-solid.svg
+  -
+    scope:
       path: "pages/research_communities/"
     values:
       type: research_community
