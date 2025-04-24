@@ -24,7 +24,7 @@ Primary focus and responsibilities of Research Software Engineers (RSEs) and res
 
 | RSE                                                                                        | Researcher who codes                                                                                                       |
 |--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Has deeper knowledge of software development practices (e.g., testing, CI/CD, versioning)  | Has basic to intermediate programming knowledge; often self-taught                                                         |
+| Has deeper knowledge of software development practices (e.g., testing, CI/CD, versioning)  | Often Has basic to intermediate programming knowledge; often self-taught , may have more advanced skills and knowledge but not realise it                                                        |
 | Writes modular, maintainable, and reusable code, often across multiple projects or domains | Writes code for short-term use (e.g., analysis scripts, simulations, prototype code) within a single project               |
 | Works alongside researchers to translate scientific problems into robust software          | Works independently or with small teams, focusing on specific hypotheses or experiments                                    |
 | Builds workflows, automation pipelines, and scalable systems                               | Builds own scripts or uses existing tools and scripts to test hypotheses or analyse data                                   |
