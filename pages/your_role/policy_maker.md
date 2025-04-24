@@ -22,7 +22,7 @@ Your responsibilities focus on enabling, guiding, and incentivising good softwar
 
 - Recognising software as a research output - acknowledge and treat software as a first-class product of research, alongside publications and data.
 - Mandate or encourage Software Management Plans (SMPs) - require grant applicants to outline how software will be developed, maintained, shared, and sustained.
-- Support software sustainability - require funding for long-term software maintenance, not just initial development.
+- Support software sustainability - encourage funding for long-term software maintenance, not just initial development.
 - Promote quality and reproducibility - encourage good practices such as version control, documentation, testing, and use of open repositories.
 - Align with FAIR software principles - recommend or adopt guidelines to make research software Findable, Accessible, Interoperable, and Reusable.
 - Fund Research Software Engineer (RSE) roles - support dedicated technical roles in research teams to improve software quality and impact.
