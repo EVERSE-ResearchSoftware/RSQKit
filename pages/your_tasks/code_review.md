@@ -42,7 +42,7 @@ Here are things that should not be the focus of a code review:
 - Rewriting everything - do not suggest rewriting large sections of code unless there is a clear and necessary reason (like a bug or major design issue). Aim to improve, not take over.
 - Blaming or criticising individuals - the goal is to improve the code, not judge the coder. Always keep feedback constructive and kind.
 - Perfecting on the first try - code does not need to be perfect before it is merged. If it is functional, well-tested, and clear, minor improvements can come later.
-- Marking non-Blocking comments as blocking - ff a suggestion is minor or subjective, label it as such. Do not hold up progress for tweaks that can be addressed later.
+- Marking non-Blocking comments as blocking - if a suggestion is minor or subjective, label it as such. Do not hold up progress for tweaks that can be addressed later.
 - Expecting mastery of everything - especially in research, people have varying backgrounds. Do not expect full knowledge of advanced software engineering concepts from domain experts/reseachers who code.  
 
 ### Solution - code review tips & tools
