@@ -25,7 +25,7 @@ European Commission (Horizon Europe) and many national funding bodies strongly e
 (e.g., developer, maintainer, reviewer, documenter, tester, early adopter) to foster accountability, collaboration, and efficient workflows across the project lifecycle.
 - Addressing ethical, environmental, and legal considerations early:
   - Ethical: promote responsible use of software and data, ensure transparency, and consider contributing improvements or reusable components back to the community.
-  - Environmental: be aware of the energy demands and carbon footprint of your software—opt for efficient algorithms, cloud providers using renewable energy, or local computing where feasible.
+  - Environmental: be aware of the energy demands and carbon footprint of your software - e.g. opt for energy-efficient algorithms, cloud providers using renewable energy.
   - Legal: ensure proper licensing, manage intellectual property appropriately, and comply with license terms when using third-party software.
 - Ensuring reproducibility - plan for reproducibility by documenting your software, workflows, and computational environment thoroughly. This allows others to verify, reuse, and build upon your work.
 - Promoting openness and reuse - wherever possible, make your software and code publicly accessible to enable transparency, foster collaboration, and reduce duplication of effort. This aligns with open science principles and is often required or encouraged by funding bodies.
