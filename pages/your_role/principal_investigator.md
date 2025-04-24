@@ -44,3 +44,4 @@ Key guidance for PIs on research software development:
 - [Software development best practices for life sciences by ELIXIR](https://elixir-europe.org/platforms/tools/software-best-practices) - producing and promoting information standards and best practices in software development.
 - [Data Stewardship Wizard by ELIXIR](https://ds-wizard.org/) now includes [software planning templates](https://ds-wizard.org/beyond-data-management-plans) and is being extended into shaping [Software Management Wizard](https://smw.dsw.elixir-europe.org/wizard/)
 - [FAIR Principles for Research Software (FAIR4RS Working Group)](  https://www.rd-alliance.org/group/fair-research-software-fair4rs-wg/outcomes/fair-principles-research-software)
+- [How to monitor the environmental impact of software](./improving_environmental_sustainability)
