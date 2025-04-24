@@ -51,7 +51,7 @@ Here are things that should not be the focus of a code review:
 - Use pull requests - in systems like GitHub or GitLab, use pull/merge requests to structure reviews.
 - Keep it constructive - offer clear, kind feedback. Ask questions rather than criticise.
 - Automate where possible - use linters and formatters to catch simple issues before review.
-- Focus on learning - code reviews are a two-way street—reviewers can learn as much as authors!
+- Focus on learning - code reviews are a two-way street—reviewers can learn as much as authors
 
 Tools that can help:
 
