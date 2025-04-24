@@ -11,17 +11,20 @@ related_pages:
 
 ### Description
 
-What is code review? Code review is the process of systematically examining someone else’s code (or your own, after some time) to find bugs, improve quality, and ensure adherence to coding standards. It’s a collaborative practice aimed at improving software reliability, readability, and maintainability.
+What is code review? Code review is a software quality assurance practice and the process of systematically examining someone else’s code (or your own, after some time) to find bugs, improve quality, and ensure adherence to coding standards. It’s a collaborative practice aimed at improving software reliability, readability, and maintainability.
 
-#### Why It Matters in Research
+#### Why it matters in research?
+
+Rigorous inspections can remove 60-90% of errors from the code even before the first tests are run (Fagan, 1976). Furthermore, the cost to remedy a defect in the early (design) stage is 10 to 100 times less compared to fixing the same defect in the development and maintenance stages, respectively. Since the cost of bug fixes grows in orders of magnitude throughout the software lifecycle, it is far more efficient to find and fix defects as close as possible to the point where they were introduced.
 
 In research settings, where software often evolves rapidly and is reused over long periods, code review helps:
 
 - catch errors early before they affect research outcomes
-- promote reproducibility by ensuring clarity and documentation
+- increase knowledge within a team - someone checks your design or code for errors and gets to learn from your solution; having to explain code to someone else clarifies your rationale and design decisions in your mind too.
+- promote code reusability and reproducibility of the research it implements by ensuring clarity and documentation
 - encourage best practices like modular design and testing
 - facilitate collaboration, especially in multi-disciplinary teams
-- support onboarding of new team members with shared knowledge
+- support onboarding of new team members with shared knowledge and best coding practices used in the team.
 
 ### Consideration - what to look for in a review?
 
