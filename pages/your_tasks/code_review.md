@@ -12,6 +12,7 @@ related_pages:
 ### Description
 
 What is code review? Code review is the process of systematically examining someone else’s code (or your own, after some time) to find bugs, improve quality, and ensure adherence to coding standards. It’s a collaborative practice aimed at improving software reliability, readability, and maintainability.
+
 #### Why It Matters in Research
 
 In research settings, where software often evolves rapidly and is reused over long periods, code review helps:
@@ -47,12 +48,12 @@ Here are things that should not be the focus of a code review:
 
 ### Solution - code review tips & tools
 
-- Use Pull Requests - in systems like GitHub or GitLab, use pull/merge requests to structure reviews.
+- Use pull requests - in systems like GitHub or GitLab, use pull/merge requests to structure reviews.
 - Keep it constructive - offer clear, kind feedback. Ask questions rather than criticise.
 - Automate where possible - use linters and formatters to catch simple issues before review.
 - Focus on learning - code reviews are a two-way street—reviewers can learn as much as authors!
 
-Tools that help:
+Tools that can help:
 
 - {% tool "github" %} and {% tool "gitlab" %} have built-in review tools for code review discussions and suggestions
 - {% tool "code-linters" %} (e.g., flake8, eslint, {% tool "pylint" %}) ensure code style consistency
