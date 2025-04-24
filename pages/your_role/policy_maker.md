@@ -7,7 +7,7 @@ page_id: policy_maker
 
 ## Introduction
 
-As a policy maker at a funding agency, research institution, or governmental bod, you play a crucial role in shaping
+As a policy maker at a funding agency, research institution, or governmental body, you play a crucial role in shaping
 the ecosystem around research software. You are responsible for the development of a strategic software development 
 policies and quality assurance frameworks and the coordination and implementation of research software development guidelines and practices.
 
