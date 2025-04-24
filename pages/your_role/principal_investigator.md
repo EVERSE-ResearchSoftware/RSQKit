@@ -23,7 +23,7 @@ is Findable, Accessible, Interoperable, and Reusable to support transparency, co
 European Commission (Horizon Europe) and many national funding bodies strongly encourage adherence to the FAIR principles for both data and software. 
 - Establishing roles and responsibilities - identify and assign software-related roles within your team 
 (e.g., developer, maintainer, reviewer, documenter, tester, early adopter) to foster accountability, collaboration, and efficient workflows across the project lifecycle.
-- Addressing ethical, environmental, and legal considerations early:
+- Addressing ethical, environmental, and legal considerations (also known as [ESG (Environmental, Social and Governance)](https://www.british-business-bank.co.uk/business-guidance/guidance-articles/sustainability/what-is-esg-a-guide-for-smaller-businesses) in industry) early:
   - Ethical: promote responsible use of software and data, ensure transparency, and consider contributing improvements or reusable components back to the community.
   - Environmental: be aware of the energy demands and carbon footprint of your software - e.g. opt for energy-efficient algorithms, cloud providers using renewable energy.
   - Legal: ensure proper licensing, manage intellectual property appropriately, and comply with license terms when using third-party software.
