@@ -14,7 +14,10 @@ starting with the contributor's full name, followed by the following optional me
 
 * `git`: contributor's GitHub id (serving as an identifier together with contributor's full name).
 * `orcid`: contributor's ORCID id.
-* `role`: role of the contributor in the RSQKit (at the moment, we only support the role `editor`, but more may be added in the future; leave blank if the role is not `editor`).
+* `role`: role of the contributor in the RSQKit. Possible values:
+  * `editor` - member of the [Editorial Board](./editorial_board)
+  * `author` - someone who creates content, e.g. task and other pages
+  * `contributor` - everyone else contributing to RSQKit who is not an editor or author, e.g. with edits and fixes in pages (adding/fixing links, tools and resources, typo and style fixes, curating pages), significant discussions, etc.
 * `affiliation`: contributor's affiliation(s) as a single string (if multiple affiliations need to be listed, use a separator - e.g. "/". 
 Also note that while affiliations should match those listed in the [affiliations file (`_data/affiliations.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/affiliations.yml) (see below) this is not enforced.
 * `image_url`: absolute path to contributor's image or avatar (defaults to contributor's GitHub profile image if GitHub id is provided).
@@ -71,7 +74,6 @@ in the "front matter" header of the page or applied to a group of pages via `_co
 * `sitemap`: a boolean value indicating if the page should appear in the `sitemap.xml`. Default: `true`.
 * `no_robots`: a boolean value indicating if the page should not end up in the search results of Google or any other search engines. Default: `false`.
 * `hide_sidebar`: a boolean value indicating if the page should not appear in the sidebar. Default: `false`.
-* `custom_editme`: specify an alternative file/link when clicking on the `edit-me` button.
 * `keywords`: a list of lowercase keywords that can be used to find the page using the search facility of RSQKit.
 * `sidebar`: name of the left-hand side navigation sidebar that should be displayed for the page. Default sidebar: `main`. The sidebar file `<SIDEBAR_NAME.md>` named after the sidebar must exist under `_data/sidebars/` in the repository.
 * `toc`: a boolean value indicating if a table of contents should be included at the top right of the page. Default: `false`.
