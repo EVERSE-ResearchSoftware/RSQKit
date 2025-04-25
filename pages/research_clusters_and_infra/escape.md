@@ -1,7 +1,7 @@
 ---
 title: ESCAPE - physics & astronomy
 description: ESCAPE is a science cluster bringing together communities & research infrastructure in the area of astronomy and particle physics
-type: research_community
+type: research_cluster_or_infra
 ---
 
 The [ESCAPE](https://projectescape.eu/) science cluster brings together communities and research infrastructures in the areas of astronomy and accelerator-based particle physics, specifically ESFRI facilities (SKAO, CTAO, KM3NeT, EST, ELT, HL-LHC, FAIR) and pan-European research infrastructures (CERN, ESO, JIVE). 
