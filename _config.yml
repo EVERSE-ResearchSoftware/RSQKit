@@ -64,14 +64,7 @@ defaults:
     values:
       type: research_community
       type_img: /assets/img/font-awesome-free/people-group-solid.svg
-  -
-    scope:
-      path: "pages/contributing/"
-      type: "pages"
-    values:
-      layout: "page"
-      sidebar: contributing
-
+  
 theme_variables:
   topnav:
     bluesky: https://bsky.app/profile/eosc-everse.bsky.social
