@@ -101,7 +101,7 @@ subitems:
     image_url: /assets/img/font-awesome-free/screwdriver-wrench-solid.svg
   - title: Get involved
     url: /get_involved
-    description: Guildlines to get involed with us
+    description: Various guidelines on how to get involved with RSQKit
     subitems:
       - title: Contribution Guidelines
         url: /contribution_guidelines
