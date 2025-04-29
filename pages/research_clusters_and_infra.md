@@ -1,5 +1,5 @@
 ---
-title: Research communities
+title: Research Clusters & Infrastructures
 ---
 
 This section lists research clusters and infrastructures where software is a core part of activities.  
