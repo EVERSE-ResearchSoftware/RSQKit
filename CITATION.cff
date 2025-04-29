@@ -5,9 +5,21 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: RSQKit Community
-    family-names: 
-repository-code: >-
-  https://github.com/EVERSE-ResearchSoftware/RSQKit/tree/main
+  - name: RSQKit Community
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.14923572
+repository-code: 'https://github.com/EVERSE-ResearchSoftware/RSQKit'
 url: 'https://everse.software/RSQKit/'
+abstract: >-
+  Research Software Quality Kit - a resource for helping
+  researchers improve the quality of software they write
+keywords:
+  - research software
+  - software quality
+  - research
+  - RSE
 license: Apache-2.0
+commit: e35a8e5
+version: v1.0.0
+date-released: '2025-02-25'
