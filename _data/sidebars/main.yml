@@ -26,8 +26,8 @@ subitems:
         url: /sustainability
       - title: Open Source Software
         url: /open_source
-  - title: Research communities
-    url: /research_communities
+  - title: Research Clusters & Infrastructures
+    url: /research_clusters_and_infrastructures
     image_url: /assets/img/font-awesome-free/people-group-solid.svg
     description: Use cases and software practices across research communities
     subitems:
@@ -41,6 +41,10 @@ subitems:
         url: /panosc
       - title: SSHOC
         url: /sshoc
+  - title: Research Software Stories
+    url: /research_software_stories
+    image_url: /assets/img/font-awesome-free/people-group-solid.svg
+    description: Examples of research software and their quality practices
   - title: Your role
     description: Resources tailored to different roles in research software funding & development
     url: /your_role
