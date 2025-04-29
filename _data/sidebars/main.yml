@@ -26,7 +26,7 @@ subitems:
         url: /sustainability
       - title: Open Source Software
         url: /open_source
-  - title: Research Clusters & Infrastructures
+  - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
     image_url: /assets/img/font-awesome-free/people-group-solid.svg
     description: Use cases and software practices across research communities
