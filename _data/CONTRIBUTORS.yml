@@ -147,3 +147,9 @@ Robert Speck:
   orcid: 0000-0002-3879-1210
   role: contributor
   affiliation: Jülich Supercomputing Centre, Forschungszentrum Jülich GmbH
+Guido Juckeland:
+    git: juckel
+    email: g.juckeland@hzdr.de
+    orcid: 0000-0002-9935-4428
+    affiliation: Helmholtz-Zentrum Dresden Rossendorf (HZDR)
+    role: contributor
