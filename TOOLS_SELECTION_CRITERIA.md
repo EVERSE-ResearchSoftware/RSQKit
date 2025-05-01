@@ -6,12 +6,7 @@ This list is not intended to be exclusive, for instance “most tools that measu
 
 
 # Initial set of criteria:
-· The tool allows the measurement of a software quality metric
-· The tool helps automates testing or analysis of software
-· The tool was designed to improve software quality
-· The tool supports programming language/s or approaches used for research software
-· (The tool is frequently used on research software) 
-· Support for community standards and best practices relevant to specific research disciplines
-
-
-# Page location - need to be discussed.
+· The tool is designed to measure and/or improve a software quality dimension
+· The tool automates the measurement and/or improvement of software quality 
+· The tool is frequently used on research software and being actively maintained
+· The tool enables the software it is used on to follow relevant research community standards and best practices
