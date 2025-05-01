@@ -1,6 +1,6 @@
 ---
 title: Editors Checklist
-summary: Checklist for Editors before approving changes to RSQKit content and infrastructure.
+summary: Checklist for editors (Editorial Board members) before approving changes to RSQKit content and infrastructure.
 ---
 
 ### General Guidelines for Approving Pull Requests
@@ -12,7 +12,7 @@ PR in RSQKit, or downloading and checking the PR branch locally on the Editor's 
 - The Contributors implemented the requested changes and comments, if needed.
 - The Contributors are acknowledged and thanked for their efforts and informed about the publication of their content.
 - The PR is linked to related issues and can be merged into the main branch with no conflicts.
-
+- Page file names should not be changed (unless really necessary) as they provide us with static static URLs for pages - which is important for external sources to refer to our content.
 
 ### Specific Checklist for Metadata
 

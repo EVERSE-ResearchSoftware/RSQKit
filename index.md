@@ -1,21 +1,56 @@
 ---
-layout: page
+search_exclude: true
+layout: home
 ---
 
-{% include callout.html type="note" content="The current version of RSQKit is still work in progress - any content should not be considered final at this stage. If you find something missing or want to comment, please get in touch with the [RSQKit Editoral Board](https://everse.software/RSQKit/editorial_board)." %}
-
-# Research Software Quality Kit (RSQKit)
-
-![EVERSE Banner](images/markus-spiske-Skf7HxARcoc-unsplash.jpg)
-
-The Research Software Quality Toolkit (RSQKit) lists curated best practices in improving the quality of your research software. It is intended for use by researchers, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.  
-
-These practices are informed by software excellence and quality in the context of research; with a focus on FAIR software, Open Research, community development and software engineering practices at different tiers of research software (analysis scripts, prototype tools and research software infrastructure).
-
-RSQKit links to tools and resources which support best practices in research software quality. It includes software quality dimensions and links to indicators and tasks to guide your usage of the best practice.
-
-Research community use cases and usage of software practices is highlighted across the [European Open Science Cloud (EOSC) Science Clusters](https://science-clusters.eu/) to inform and inspire.
-
-Research software roles (e.g. Research Software Engineers (RSEs) and Researchers who code) are included to document the sources and practitioners of research software. This brings attention to the need for credit and career paths for research software related roles.
-
-RSQKit is currently developed as part of the [EVERSE](https://everse.software) project, with external engagement with the wider community through the open [EVERSE Network](https://everse.software/network/).
+<!-- Page Content -->
+<div class="landingpage">
+    <section class="container g-lg-5 mb-5">
+        <div>
+            <h1 class="text-center">Research Software Quality Toolkit for Sciences</h1>
+            <p class="text-center mt-2">
+                Research Software Quality Toolkit (RSQKit) lists curated best practices, tools and resources for improving the quality of research software
+            </p>
+        </div>
+    </section>
+    <section id="search-section" class="bg-light py-5">
+        <div class="container g-lg-5">
+            <div class="row">
+                <h2 class="no-anchor text-center mb-3 homepage-heading">What can we help you find?</h2>
+                <div class="position-relative">
+                    <div class="d-flex justify-content-center">
+                        <form role="search" class="input-group">
+                            <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
+                                   placeholder="Search RSQKit ..." aria-label="Search {{ site.title }}" autocomplete="off">
+                        </form>
+                        <div id="search-results" class="search-results"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light pb-5">
+        <div class="container g-lg-5">
+            <h2 class="no-anchor text-center mb-3 homepage-heading">Browse all topics by</h2>
+            {%- assign sidebar = site.data.sidebars[page.sidebar] %}
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+                {%- for folder in sidebar.subitems %}
+                    {%- unless folder.title == "Get involved" %}
+                    <div class="col">
+                        <div class="card bg-white h-100">
+                            <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-6 mx-auto" alt="{{folder.title}} icon" style="width: 15%; padding: 20px 5px 5px 0px;">
+                            <div class="card-body text-center">
+                                <a href="{{ folder.url | relative_url }}" class="stretched-link">
+                                    <h3 class="card-title no-anchor text-dark homepage-heading">{{folder.title}}</h3>
+                                </a>
+                                <p class="card-text homepage-text">{{folder.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {%- endunless %}
+                {%- endfor %}
+            </div>
+        </div>
+    </section>
+</div>
