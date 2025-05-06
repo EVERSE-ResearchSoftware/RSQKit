@@ -122,3 +122,12 @@ generate_rsqkit_data_from_github(
     output_file="_data/filtered_quality_indicators.yml",
     filter_keys=True
 )
+
+# Generate data for dimensions
+generate_rsqkit_data_from_github(
+    repo_owner="EVERSE-ResearchSoftware",
+    repo_name="indicators",
+    repo_path="dimensions",
+    output_file="_data/filtered_quality_dimensions.yml",
+    filter_keys=True
+)
