@@ -59,3 +59,12 @@ def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_fi
     contents = get_github_repo_contents(repo_owner, repo_name, repo_path)
     json_files = [item for item in contents if item.get("type") == "file" and item.get("name", "").endswith(".json")]
 
+    if not json_files:
+        print(f"No json files found in {repo_owner}/{repo_name}/{repo_path} directory.")
+        # Create an empty file if no JSON files are found to avoid errors in downstream processes
+        if not os.path.exists(os.path.dirname(output_file)):
+             os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        with open(output_file, "w") as outfile:
+            yaml.dump([], outfile)
+        print(f"Created empty output file: {output_file}")
+        return
