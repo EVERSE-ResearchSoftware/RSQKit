@@ -1,0 +1,64 @@
+# .github/workflows/data.yml
+name: Sync Indicators and Dimensions
+
+on:
+  schedule:
+    # Runs daily at midnight UTC
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+    # paths:
+    #   # Optionally trigger only if the script itself changes
+    #   - "scripts/generate_data.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x" # Use a recent Python 3 version
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests PyYAML
+
+      - name: Run data generation script
+        run: python scripts/generate_data.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # Check if there are changes in the _data directory
+          if git diff --quiet _data/; then
+            echo "No changes to commit in _data/ directory."
+            exit 0
+          fi
+          git add _data/*.yml
+          git commit -m "Automated update of RSQKit data files"
+          # Retry push in case of temporary network issues or conflicts
+          retry_count=0
+          max_retries=3
+          until git push || [ $retry_count -eq $max_retries ]; do
+            retry_count=$((retry_count+1))
+            echo "Push failed. Retrying attempt $retry_count/$max_retries..."
+            sleep 5 # Wait before retrying
+            # Pull latest changes before retrying push to resolve potential conflicts
+            git pull --rebase
+          done
+          if [ $retry_count -eq $max_retries ]; then
+            echo "Push failed after $max_retries attempts."
+            exit 1
+          fi
+          echo "Changes committed and pushed successfully."
