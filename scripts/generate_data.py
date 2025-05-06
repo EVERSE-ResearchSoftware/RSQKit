@@ -91,3 +91,8 @@ def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_fi
         except Exception as e:
             error_message = f"{file_path}: Unexpected error - {e}"
             print(f"Error: {error_message}")
+
+    # Ensure the output directory exists
+    output_dir = os.path.dirname(output_file)
+    if output_dir and not os.path.exists(output_dir):
+        os.makedirs(output_dir)
