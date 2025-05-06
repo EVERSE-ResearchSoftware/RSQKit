@@ -112,3 +112,13 @@ def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_fi
         print(f"Error writing to output file {output_file}: {e}")
     except Exception as e:
         print(f"Unexpected error writing YAML file: {e}")
+
+
+# Generate data for indicators
+generate_rsqkit_data_from_github(
+    repo_owner="EVERSE-ResearchSoftware",
+    repo_name="indicators",
+    repo_path="indicators",
+    output_file="_data/filtered_quality_indicators.yml",
+    filter_keys=True
+)
