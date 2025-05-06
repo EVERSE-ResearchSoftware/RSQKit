@@ -53,3 +53,9 @@ def get_github_file_content(repo_owner, repo_name, file_path):
     except (base64.binascii.Error, UnicodeDecodeError) as e:
         print(f"Error decoding file content for {file_path}: {e}")
         return None
+
+
+def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_file="data.yaml", filter_keys=False):
+    contents = get_github_repo_contents(repo_owner, repo_name, repo_path)
+    json_files = [item for item in contents if item.get("type") == "file" and item.get("name", "").endswith(".json")]
+
