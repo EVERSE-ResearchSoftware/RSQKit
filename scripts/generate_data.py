@@ -1,3 +1,4 @@
+import base64
 import requests
 
 def get_github_repo_contents(repo_owner, repo_name, path=""):
@@ -21,3 +22,24 @@ def get_github_repo_contents(repo_owner, repo_name, path=""):
     except requests.exceptions.RequestException as e:
         print(f"Error fetching repository contents from {api_url}: {e}")
         return []
+
+
+def get_github_file_content(repo_owner, repo_name, file_path):
+
+    api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}"
+    try:
+        response = requests.get(api_url)
+        response.raise_for_status()
+        content_encoded = response.json().get("content")
+        if content_encoded:
+            content_decoded = base64.b64decode(content_encoded).decode("utf-8")
+            return content_decoded
+        else:
+            print(f"Error: No content found for file {file_path} in {repo_owner}/{repo_name}")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching file content from {api_url}: {e}")
+        return None
+    except (base64.binascii.Error, UnicodeDecodeError) as e:
+        print(f"Error decoding file content for {file_path}: {e}")
+        return None
