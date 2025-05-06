@@ -96,3 +96,19 @@ def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_fi
     output_dir = os.path.dirname(output_file)
     if output_dir and not os.path.exists(output_dir):
         os.makedirs(output_dir)
+
+
+    try:
+        with open(output_file, "w", encoding="utf-8") as outfile:
+            yaml.dump(
+                _data,
+                outfile,
+                default_flow_style=False,
+                allow_unicode=True, # Changed to True to support unicode characters
+                indent=4,
+            )
+        print(f"The data of {len(_data)} files from {repo_owner}/{repo_name}/{repo_path} was saved as {output_file}")
+    except IOError as e:
+        print(f"Error writing to output file {output_file}: {e}")
+    except Exception as e:
+        print(f"Unexpected error writing YAML file: {e}")
