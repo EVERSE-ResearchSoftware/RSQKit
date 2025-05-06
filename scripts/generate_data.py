@@ -131,3 +131,12 @@ generate_rsqkit_data_from_github(
     output_file="_data/filtered_quality_dimensions.yml",
     filter_keys=True
 )
+
+# Generate data for dimensions
+generate_rsqkit_data_from_github(
+    repo_owner="EVERSE-ResearchSoftware",
+    repo_name="TechRadar",
+    repo_path="data/software-tools",
+    output_file="_data/filtered_tool_and_resource_list.yml",
+    filter_keys=True
+)
