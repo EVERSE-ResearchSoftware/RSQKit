@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+
+import json
+import yaml
+import os
 import base64
 import requests
 
@@ -68,3 +73,21 @@ def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_fi
             yaml.dump([], outfile)
         print(f"Created empty output file: {output_file}")
         return
+
+    _data = []
+
+    for file_info in json_files:
+        file_path = file_info["path"]
+        # print(f"Processing {file_path}...")
+        try:
+            file_content = get_github_file_content(repo_owner, repo_name, file_path)
+            if file_content:
+                instance = json.loads(file_content)
+                if filter_keys:
+                    instance = dict(filter(lambda item: "@" not in item[0], instance.items()))
+                _data.append(instance)
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON from {file_path}: {e}")
+        except Exception as e:
+            error_message = f"{file_path}: Unexpected error - {e}"
+            print(f"Error: {error_message}")
