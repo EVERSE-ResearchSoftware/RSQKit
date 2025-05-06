@@ -25,7 +25,17 @@ def get_github_repo_contents(repo_owner, repo_name, path=""):
 
 
 def get_github_file_content(repo_owner, repo_name, file_path):
+    """
+    Fetches the content of a specific file from a GitHub repository.
 
+    Args:
+        repo_owner (str): The owner of the GitHub repository.
+        repo_name (str): The name of the GitHub repository.
+        file_path (str): The path to the file within the repository.
+
+    Returns:
+        str: The decoded content of the file. Returns None if the request fails or the file content cannot be decoded.
+    """
     api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}"
     try:
         response = requests.get(api_url)
