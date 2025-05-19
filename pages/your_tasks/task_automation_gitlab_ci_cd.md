@@ -33,8 +33,7 @@ To create and run your first pipeline:
 - Go to the **Pipelines** tab in your GitLab repository to see the pipeline run. This dashboard provide you the list of the pipelines run for your project, with the workflow of the different stages. You can access the different jobs by clicking on the **Stages** elements to have more information about their respective status.
 
 ![Gitlab CI pipeline dashboard](../../images/gitlab_ci_pipeline.png)
-
-**Using pre-builts components from the Gitlab CI/CD Catalog**
+*Using pre-builts components from the Gitlab CI/CD Catalog*
 
 The [Gitlab CI/CD Catalog](https://gitlab.com/explore/catalog) provides a list of components to use in your own pipeline.
 Most of these provides a README describing how you can use them and how to configure them for your own purpose.
