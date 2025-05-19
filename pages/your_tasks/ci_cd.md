@@ -4,7 +4,7 @@ description: How can you use CI/CD in software development?
 contributors: ["Aleksandra Nenadic"]
 page_id: ci_cd
 related_pages: 
-  your_tasks: [task_automation_github_actions]
+  your_tasks: [task_automation_github_actions, task_automation_gitlab_ci_cd]
 ---
 
 ## How can you use CI/CD in software development?
@@ -57,7 +57,7 @@ to ensure the software works across different environments and platforms.
 CI/CD tools and platforms for different stages of code development and deployment include:
 
 - Version Control Systems (VCS) are essential for managing code and version control. Some such tools (like GitHub, GitLab, Bitbucket)
-also provide CI/CD processes and services built around code repositories - e.g. GitHub Actions, GitLab CI/CD and BitBucket Pipelines.
+also provide CI/CD processes and services built around code repositories - e.g. [GitHub Actions][task_automation_github_actions], [GitLab CI/CD][task_automation_gitlab_ci_cd] and BitBucket Pipelines.
   - Additional tools such as {% tool "precommit" %} can be used alongside VCS to ensure code quality is maintained.
 - CI/CD pipelines - automate the entire process from code integration to deployment. Common tools include:
   - {% tool "github-actions" %} - integrated CI/CD directly within GitHub, with [easy-to-set-up workflows (called actions)][task_automation_github_actions].
@@ -76,3 +76,4 @@ also provide CI/CD processes and services built around code repositories - e.g. 
 - Infrastructure as Code (IaC) - tools like {% tool "terraform" %}, {% tool "vagrant" %} or {% tool "ansible" %} automate infrastructure provisioning and configuration, ensuring consistency across environments.
 
 [task_automation_github_actions]: ./task_automation_github_actions
+[task_automation_gitlab_ci_cd]: ./task_automation_gitlab_ci_cd

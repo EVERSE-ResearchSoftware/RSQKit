@@ -81,6 +81,8 @@ subitems:
         url: /testing_software
       - title: "Task automation using GitHub Actions"
         url: /task_automation_github_actions
+      - title: "Task automation using GitLab CI/CD"
+        url: /task_automation_gitlab_ci_cd      
       - title: "Licensing software"
         url: /licensing_software
       - title: "Citing software"
