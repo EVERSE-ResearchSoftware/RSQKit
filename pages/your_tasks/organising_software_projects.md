@@ -41,7 +41,7 @@ code, data, results, tests, auxiliary information and metadata.
   - Add `README` file to describe the project and instructions on installing and running the code and reproducing the results - see more on creating good [README files][creating_good_readme].
   - Add `LICENSE` file to describe the how others can reuse your software or work - see more on [licensing software][licensing_software].
   - Add [`CITATION.cff`][cff] file to describe how to cite the project - see more on [citing software][citing_software].
-  - Add [`codemeta.json`] file (or similar metadata standard) to describe your software's metadata - see more on [software metadata][software_metadata].
+  - Add `codemeta.json` file (or similar metadata standard) to describe your software's metadata - see more on [software metadata][software_metadata].
 - **Subdirectories of the project** - organise the project into sub-directories clearly labelled based on the type of their content content, for example:
   - `data` - for storing your data. Further organise raw, cleaned, intermediate, and/or processed data in separate subdirectories (e.g. `data/raw`, `data/clean`, `data/processed`) to maintain clarity and prevent overwriting or losing the original raw data. 
   - `code` (or `scripts` or `src`) - for storing your source code.
@@ -88,7 +88,10 @@ project_name/
 └── ...
 ```
 
-Checkout the {% tool 'fair-python-coockiecutter' %} - a template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality.
+For Python:
+
+- Checkout the {% tool 'fair-python-coockiecutter' %} - a template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality.
+- {% tool "poetry" %} is a popular tool for managing dependencies in Python projects which you can also use to create a new directory with the necessary structure if you are starting a new Python project from scratch.
 
 Check out [the Turing Way Project's Guide for project design][turing-project-design] for best practices and guidance for designing research projects in particular focussed on data. 
 
@@ -101,3 +104,4 @@ Check out [the Turing Way Project's Guide for project design][turing-project-des
 [cff]: https://citation-file-format.github.io/
 [citing_software]: ./citing_software
 [turing-project-design]: https://book.the-turing-way.org/project-design/project-repo/project-repo-advanced.html
+[directory-structure-poetry]: https://medium.com/@sjalexandre/python-tutorial-managing-projects-with-poetry-cd2deab72697
