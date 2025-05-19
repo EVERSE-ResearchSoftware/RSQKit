@@ -5,7 +5,7 @@ summary: Step-by-step guide that covers workflow creation, using pre-built actio
 contributors: ["Eva Martín del Pico"]
 page_id: task_automation_github_actions
 related_pages: 
-  your_tasks: [ci_cd]
+  your_tasks: [ci_cd, task_automation_gitlab_ci_cd]
 ---
 
 ## Task automation using GitHub Actions
