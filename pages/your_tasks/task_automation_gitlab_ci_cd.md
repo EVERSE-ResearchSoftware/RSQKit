@@ -2,7 +2,7 @@
 title: Task automation using GitLab CI/CD
 description: How to use and set up GitLab CI/CD for your GitLab repository
 contributors: ["Tom François"]
-page_id: task_automation_gitlab_ci
+page_id: task_automation_gitlab_ci_cd
 related_pages: 
   your_tasks: [ci_cd, task_automation_github_actions]
 ---
