@@ -4,7 +4,7 @@ description: How to organise your software project?
 contributors: ["Aleksandra Nenadic"]
 page_id: organising_software_projects
 related_pages:
-  your_tasks: [citing_software, creating_good_readme, documenting_software]
+  your_tasks: [citing_software, creating_good_readme, documenting_software, software_metadata]
 ---
 
 ## Why does organising your software project matter?
