@@ -1,0 +1,115 @@
+"""Script to check discrepancies within tool descriptions comparing RSQkit and TechRadar tools"""
+import os
+import json
+import yaml
+from glob import glob
+from deepdiff import DeepDiff
+import requests
+import json
+from tabulate import tabulate
+
+TECHRADAR_GITHUB_API_URL = "https://api.github.com/repos/EVERSE-ResearchSoftware/TechRadar/contents/data/software-tools"
+
+def load_yaml_tools_from_rsqkit():
+    YAML_MATCH_FIELD = "description"
+    tools = {}
+    path = os.path.join("_data", "tool_and_resource_list.yml")
+    matched_files = glob(path)
+    with open(matched_files[0], "r") as f:
+        data = yaml.safe_load(f)
+        if isinstance(data, list):
+            for item in data:
+                if YAML_MATCH_FIELD in item:
+                    tools[item["name"]]= item
+        else:
+            print("YAML content is not a list")
+    return tools
+
+def load_jsonld_tools_from_techradar():
+    tools = {}
+    JSON_MATCH_FIELD = "schema:description" 
+    response = requests.get(TECHRADAR_GITHUB_API_URL)
+    response.raise_for_status()
+    files = response.json()
+
+    for file in files:
+        if file["name"].endswith(".json"):
+            raw_url = file["download_url"]
+            file_response = requests.get(raw_url)
+            file_response.raise_for_status()
+            data = json.loads(file_response.text)
+            if JSON_MATCH_FIELD in data:
+                tools[data["schema:name"]] = data
+            else:
+                print(f"'{JSON_MATCH_FIELD}' not found in {file['name']}")
+    return tools
+
+def compare_tool_definitions(yaml_tool, jsonld_tool, fields_to_compare, field_mapping):
+    discrepancies = {}
+    tool_name = yaml_tool.get("name")
+
+    for yaml_field in fields_to_compare:
+        jsonld_field = field_mapping.get(yaml_field, yaml_field)
+        yaml_val = yaml_tool.get(yaml_field)
+        json_val = jsonld_tool.get(jsonld_field)
+        print(f"Comparing '{yaml_field}' → '{jsonld_field}' for tool: {tool_name}")
+
+        if yaml_val is None or json_val is None:
+            print("⚠️ One of the values is None — check your keys and mappings")
+            continue
+
+        diff = DeepDiff(yaml_val, json_val, ignore_order=True)
+        if diff:
+            discrepancies[yaml_field] = diff
+        else:
+            print(f"✅ No difference found for '{yaml_field}' in tool: {tool_name}")
+    return discrepancies
+
+def summarize_discrepancies(discrepancy_dict):
+    if not discrepancy_dict:
+        print("\n🎉 No discrepancies found across tools.")
+        return
+
+    table = []
+    for tool, diffs in discrepancy_dict.items():
+        for field, diff in diffs.items():
+            table.append({
+                "Tool": tool,
+                "Field": field,
+                "Difference": str(diff).replace("\n", " ")
+            })
+
+    print("\n📋 Summary of Tools with Discrepancies:\n")
+    print(tabulate(table, headers="keys", tablefmt="github"))
+
+def main():
+    rsqkit_tools = load_yaml_tools_from_rsqkit()
+    techradar_tools = load_jsonld_tools_from_techradar()
+
+    FIELDS_TO_COMPARE = ["description"]
+    FIELD_MAPPING = {
+        "description": "schema:description"  # multiple fields to compare can be added
+    }
+
+    all_discrepancies = {}
+
+    for tool_name in rsqkit_tools:
+        if tool_name in techradar_tools:
+            rsqkit_tool = rsqkit_tools[tool_name]
+            techradar_tool = techradar_tools[tool_name]
+
+            discrepancies = compare_tool_definitions(
+                rsqkit_tool, techradar_tool,
+                FIELDS_TO_COMPARE, FIELD_MAPPING 
+            )
+
+            if discrepancies:
+                all_discrepancies[tool_name] = discrepancies
+                print(f"\n⚠️ Discrepancies found for tool '{tool_name}':")
+                for field, diff in discrepancies.items():
+                    print(f" - Field: {field}")
+                    print(f"   Difference: {diff}")
+    summarize_discrepancies(all_discrepancies)
+
+if __name__ == "__main__":
+    main()
