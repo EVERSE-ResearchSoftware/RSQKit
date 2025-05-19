@@ -1,8 +1,8 @@
 ---
-title: Gitlab CI
-description: How to use and set up Gitlab CI for your Gitlab repository
+title: Task automation using GitLab CI/CD
+description: How to use and set up GitLab CI/CD for your GitLab repository
 contributors: ["Tom François"]
-page_id: gitlab_ci
+page_id: task_automation_gitlab_ci
 related_pages: 
   your_tasks: [ci_cd, task_automation_github_actions]
 ---
@@ -11,38 +11,40 @@ related_pages:
 
 ### Description
 
-Gitlab CI is the tool used in Gitlab hosted projects (gitlab.com and self hosted Gitlab instances) to run CI/CD pipelines. It is the equivalent of Github Actions on github.com hosted repositories.
-If you are interested in migrating a Github actions into Gitlab CI, you can follow [gitlab.com dedicated article on Github Actions migration](https://docs.gitlab.com/ci/migration/github_actions/)
+{% tool "gitlab-ci-cd" %} is the tool used in GitLab hosted projects to run CI/CD pipelines. It is the equivalent of [Github Actions][task_automation_github_actions] for GitHub-hosted repositories.
+If you are interested in migrating your GitHub Actions "actions" into GitLab CI/CD, you can follow the [GitLab-dedicated article on Github Actions migration](https://docs.gitlab.com/ci/migration/github_actions/).
 
-Motivations to setup a Gitlab CI pipeline:
+Why would you set up a GitLab CI/CD pipeline? It can help you automate:
 
 - running unit tests
-- build your application
-- build a docker container
-- deploy documentation
-- deploy and generate package
-- check dependencies
-- ...
+- building your application
+- building a Docker container for your application
+- deploying your software's documentation
+- deploying and generating a package for your software others can install and reuse
+- checking your software's dependencies
 
 ### Considerations
 
 To create and run your first pipeline:
 
-- ensure you have runners available to run your jobs. If you are using gitlab.com, you can skip this step as gilab.com provides instance runners for you.
-- create a `.gitlab-ci.yml` file at the root of your repository. This file, written with YAML syntax, defines the pipelines and jobs you want to run.
-- commit and push this file to your repository.
-- Go to the **Pipelines** tab in yout Gitlab repository to see the pipeline run. This dashboard provide you the list of the pipelines run for your project, with the workflow of the different stages. You can access the different jobs by clicking on the **Stages** elements to have more information about their respective status.
+- Ensure you have runners available to run your jobs. If you are using gitlab.com, you can skip this step as gilab.com provides instance runners for you.
+- Create a `.gitlab-ci.yml` file at the root of your repository. This file, written with [YAML syntax][yaml], defines the pipelines and jobs you want to run.
+- Commit and push this file to your repository.
+- Go to the **Pipelines** tab in your GitLab repository to see the pipeline run. This dashboard provide you the list of the pipelines run for your project, with the workflow of the different stages. You can access the different jobs by clicking on the **Stages** elements to have more information about their respective status.
 
 ![Gitlab CI pipeline dashboard](../../images/gitlab_ci_pipeline.png)
 
 **Using pre-builts components from the Gitlab CI/CD Catalog**
+
 The [Gitlab CI/CD Catalog](https://gitlab.com/explore/catalog) provides a list of components to use in your own pipeline.
 Most of these provides a README describing how you can use them and how to configure them for your own purpose.
 
 
 ### Solutions
 
-You can follow Gitlab first tutorial [^gitlabci_first_tuto] and the more advanced one [^gitlabci_advanced_tuto]. Gitlab.com is also providing some typical examples based on your programmation language and type of project [^gitlabci_examples].
+You can follow [GitLab CI/CD Quick Start tutorial][gitlab-ci-quick-start-tutorial] and the [more advanced tutorial][gitlab-ci-advanced-tutorial]. 
+
+GitLab also provides some [typical examples][gitlab-ci_examples] based on your programmation language and type of project.
 
 Example of `.gitlab-ci.yml`
 
@@ -75,19 +77,16 @@ The rest of the file defines two other jobs `build-job-name2` and `deploy-job-na
 
 *note:* the example of gitlab-ci above is a dummy example that just present the structure of the gitlab-ci.yml file. In practice, it only print somes messages to simulate scripts.
 
-## Realcase example
-
-## Tools and resources
-
-- [Gitlab CI documentations](https://docs.gitlab.com/ee/ci/) - Official Gitlab CI documentation.
-- [Gitlab CI examples](https://docs.gitlab.com/ee/ci/examples/) - List of commonly used `.gitlab-ci.yml` files.
-- [Gitlab CI Syntax](https://docs.gitlab.com/ee/ci/yaml/) - Get familiar with all the protected keywords and syntax used in Gitlab CI.
-- [YAML syntax guide](https://yaml.org/) - Learn YAML syntax for writing workflow files.
 
 ## References
 
-[^gitlabci_first_tuto]: [https://docs.gitlab.com/ee/ci/quick_start/](https://docs.gitlab.com/ee/ci/quick_start/)
+- [GitLab CI/CD documentations](https://docs.gitlab.com/ee/ci/) - Official Gitlab CI documentation.
+- [GitLab CI/CD examples](https://docs.gitlab.com/ee/ci/examples/) - List of commonly used `.gitlab-ci.yml` files.
+- [GitLab CI/CD Syntax](https://docs.gitlab.com/ee/ci/yaml/) - Get familiar with all the protected keywords and syntax used in Gitlab CI.
 
-[^gitlabci_advanced_tuto]: [https://docs.gitlab.com/ee/ci/quick_start/tutorial.html](https://docs.gitlab.com/ee/ci/quick_start/tutorial.html)
 
-[^gitlabci_examples]: [https://docs.gitlab.com/ee/ci/examples/](https://docs.gitlab.com/ee/ci/examples/)
+[gitlab-ci-quick-start-tutorial]: [https://docs.gitlab.com/ee/ci/quick_start/](https://docs.gitlab.com/ee/ci/quick_start/)
+[gitlab-ci-advanced-tutorial]: [https://docs.gitlab.com/ee/ci/quick_start/tutorial.html](https://docs.gitlab.com/ee/ci/quick_start/tutorial.html)
+[gitlab-ci_examples]: [https://docs.gitlab.com/ee/ci/examples/](https://docs.gitlab.com/ee/ci/examples/)
+[task_automation_github_actions]: ./task_automation_github_actions
+[yaml]: https://yaml.org/
