@@ -4,7 +4,7 @@ description: How can you use CI/CD in software development?
 contributors: ["Aleksandra Nenadic"]
 page_id: ci_cd
 related_pages: 
-  your_tasks: [task_automation_github_actions, task_automation_github_actions]
+  your_tasks: [task_automation_github_actions, task_automation_gitlab_ci_cd]
 ---
 
 ## How can you use CI/CD in software development?
