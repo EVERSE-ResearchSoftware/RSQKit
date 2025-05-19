@@ -90,11 +90,11 @@ Checkout the {% tool 'fair-python-coockiecutter' %} - a template tool that can h
 
 Check out [the Turing Way Project's Guide for project design][turing-project-design] for best practices and guidance for designing research projects in particular focussed on data. 
 
-[creating_good_readme]: /creating_good_readme
-[licensing_software]: /licensing_software
-[releasing_code]: /releasing_software
-[software_documentation]: /documenting_software
-[version_control]: /using_version_control
+[creating_good_readme]: ./creating_good_readme
+[licensing_software]: ./licensing_software
+[releasing_code]: ./releasing_software
+[software_documentation]: ./documenting_software
+[version_control]: ./using_version_control
 [cff]: https://citation-file-format.github.io/
-[citing_software]: /citing_software
+[citing_software]: ./citing_software
 [turing-project-design]: https://book.the-turing-way.org/project-design/project-repo/project-repo-advanced.html
