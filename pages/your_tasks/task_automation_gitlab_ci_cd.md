@@ -27,7 +27,7 @@ Why would you set up a GitLab CI/CD pipeline? It can help you automate:
 
 To create and run your first pipeline:
 
-- Ensure you have runners available to run your jobs. If you are using gitlab.com, you can skip this step as gilab.com provides instance runners for you.
+- For self-hosted GitLab instances - ensure you have runners available to run your jobs. If your repository is hosted on [gitlab.com](https://gitlab.com), you do not need to do anything as GitLab provides instance runners for you.
 - Create a `.gitlab-ci.yml` file at the root of your repository. This file, written with [YAML syntax][yaml], defines the pipelines and jobs you want to run.
 - Commit and push this file to your repository.
 - Go to the **Pipelines** tab in your GitLab repository to see the pipeline run. This dashboard provide you the list of the pipelines run for your project, with the workflow of the different stages. You can access the different jobs by clicking on the **Stages** elements to have more information about their respective status.
