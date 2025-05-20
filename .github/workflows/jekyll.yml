@@ -27,6 +27,11 @@ jobs:
           bundler-cache: true
           cache-version: 0
 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'  # or whichever version you require
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
@@ -45,6 +50,13 @@ jobs:
       - name: Install dependencies
         run: |
           bundle install
+
+      - name: Install Python dependencies
+        run: |
+          pip install deepdiff requests tabulate pyyaml
+
+      - name: Run discrepancy check script
+        run: python compare_rsqkit_techradar_tools.py
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default

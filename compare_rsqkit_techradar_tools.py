@@ -55,19 +55,19 @@ def compare_tool_definitions(yaml_tool, jsonld_tool, fields_to_compare, field_ma
         print(f"Comparing '{yaml_field}' → '{jsonld_field}' for tool: {tool_name}")
 
         if yaml_val is None or json_val is None:
-            print("⚠️ One of the values is None — check your keys and mappings")
+            print("One of the values is None — check your keys and mappings")
             continue
 
         diff = DeepDiff(yaml_val, json_val, ignore_order=True)
         if diff:
             discrepancies[yaml_field] = diff
         else:
-            print(f"✅ No difference found for '{yaml_field}' in tool: {tool_name}")
+            print(f"No difference found for '{yaml_field}' in tool: {tool_name}")
     return discrepancies
 
 def summarize_discrepancies(discrepancy_dict):
     if not discrepancy_dict:
-        print("\n🎉 No discrepancies found across tools.")
+        print("No discrepancies found across tools.")
         return
 
     table = []
@@ -79,7 +79,7 @@ def summarize_discrepancies(discrepancy_dict):
                 "Difference": str(diff).replace("\n", " ")
             })
 
-    print("\n📋 Summary of Tools with Discrepancies:\n")
+    print("Summary of Tools with Discrepancies:\n")
     print(tabulate(table, headers="keys", tablefmt="github"))
 
 def main():
@@ -105,7 +105,7 @@ def main():
 
             if discrepancies:
                 all_discrepancies[tool_name] = discrepancies
-                print(f"\n⚠️ Discrepancies found for tool '{tool_name}':")
+                print(f"Discrepancies found for tool '{tool_name}':")
                 for field, diff in discrepancies.items():
                     print(f" - Field: {field}")
                     print(f"   Difference: {diff}")
