@@ -1,12 +1,14 @@
 ---
-title: Quality & FAIR Research Software
+title: Quality of Research Software
 ---
+
+## What do we Mean by Research Software Quality?
 
 **Quality of research software** refers to how well the software supports reliable, efficient, maintainable, and trustworthy research. 
 A key aspect of this quality is **reproducibility** — the ability for someone else (or your future self) to run the 
 software and obtain the same results using the same inputs and environment.
 
-When focusing on reproducibility, high-quality research software typically includes several dimensions - for example:
+When focusing on reproducibility, high-quality research software typically includes several aspects - for example:
 
 - **Consistent and deterministic behavior** - the software produces the same results given the same inputs, every time.
 - **Version control** and **documentation** - enabling people to track the exact version of the software used for a given result, along with dependencies, parameters, and instructions for use.
@@ -39,5 +41,10 @@ So, FAIR - the “openness & reusability” slice of software quality - is essen
 when combined with all the other [quality practices](/rs_quality) like testing, version control, and robust design. 
 
 Read in more detail what [the FAIR principles](/fair_rs) encompass.
+
+## Formal Quality Dimensions & Indicators
+
+The project is working on formally defining a number of research software quality [dimensions](https://everse.software/indicators/website/dimensions.html)
+and their associated [indicators](https://everse.software/indicators/website/indicators.html) (which are to be used to assess the quality of software).
 
 [fair-rs]: https://www.nature.com/articles/s41597-022-01710-x

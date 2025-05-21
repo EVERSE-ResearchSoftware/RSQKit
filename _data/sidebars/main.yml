@@ -14,19 +14,35 @@ subitems:
         url: /life_cycle
       - title: Three-tier model
         url: /three_tier_view
-      - title: Quality & FAIR
-        url: /quality_fair
-  - title: Research software quality
-    description: Indicators & principles for research software quality
+      - title: Quality
+        url: /quality
+  - title: Quality dimensions & indicators
+    description: Dimensions and indicators of research software quality
     url: /rs_quality
     image_url: /assets/img/font-awesome-free/star-solid.svg
     subitems:
       - title: Compatibility
-        url: /dimension-compatibility
+        url: /rs_quality#compatibility
       - title: FAIRness
-        url: /dimension-fairness
+        url: /rs_quality#fairness
+      - title: Flexibility
+        url: /rs_quality#flexibility
+      - title: Functional suitability
+        url: /rs_quality#functional-suitability
+      - title: Interaction capability
+        url: /rs_quality#interaction-capability
+      - title: Maintainability
+        url: /rs_quality#maintainability
+      - title: Performance efficiency
+        url: /rs_quality#performance-efficiency
+      - title: Reliability
+        url: /rs_quality#reliability
+      - title: Safety
+        url: /rs_quality#safety
+      - title: Security
+        url: /rs_quality#security
       - title: Sustainability
-        url: /dimension-sustainability
+        url: /rs_quality#sustainability
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
     image_url: /assets/img/font-awesome-free/people-group-solid.svg
