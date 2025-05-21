@@ -2,7 +2,7 @@
 title: Research Software Lifecycle
 ---
 
-![The Research Software Lifecycle](../../images/lifecycle.png)
+![The Research Software Lifecycle](../../images/lifecycle-new.png)
 
 The research software lifecycle as shown in the diagram above provides a model for understanding the different phases 
 encountered during the development of research software. 
