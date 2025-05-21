@@ -1,7 +1,7 @@
 ---
 title: Writing readable code
 description: How to write code readable and understandable by others?
-contributors: ["Aleksandra Nenadic"]
+contributors: ["Aleksandra Nenadic", "Christian Mönch"]
 page_id: writing_readable_code
 related_pages:
   your_tasks: [documenting_software]
