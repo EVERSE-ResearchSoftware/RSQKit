@@ -6,7 +6,7 @@ title: Quality & FAIR Research Software
 A key aspect of this quality is **reproducibility** — the ability for someone else (or your future self) to run the 
 software and obtain the same results using the same inputs and environment.
 
-When focusing on reproducibility, high-quality research software typically includes several dimensions - for example and informally:
+When focusing on reproducibility, high-quality research software typically includes several dimensions - for example:
 
 - **Consistent and deterministic behavior** - the software produces the same results given the same inputs, every time.
 - **Version control** and **documentation** - enabling people to track the exact version of the software used for a given result, along with dependencies, parameters, and instructions for use.

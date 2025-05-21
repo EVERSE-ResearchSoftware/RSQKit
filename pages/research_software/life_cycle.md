@@ -8,9 +8,9 @@ The research software lifecycle as shown in the diagram above provides a model f
 encountered during the development of research software. 
 Note that some research software provides general functionality to support multiple research questions and not just a single one, 
 so "Research Question" from the diagram can be generalised to "Research Purpose". 
-This is often the case for [tier 1 or 2 software](/three_tier_model) (i.e. prototype tools and research software infrastructures).
+This is often the case for [tier 1 or 2 software](/three_tier_view) (i.e. prototype tools and research software infrastructures).
 
-There is a close link between the this software lifecycle and the [three-tier model of software](/three_tier_model). 
+There is a close link between the this software lifecycle and the [three-tier model of software](/three_tier_view). 
 Depending on its tier, the software lifecycle length or the number of iterations through the lifecycle may vary. 
 
 **Analysis code (tier 3 software)** typically represents software created for personal use and with a small scope, such as analysis scripts. The development of such software is directly driven 

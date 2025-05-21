@@ -13,7 +13,7 @@ subitems:
       - title: Lifecycle
         url: /life_cycle
       - title: Three-tier model
-        url: /three_tier_model
+        url: /three_tier_view
       - title: Quality & FAIR
         url: /quality_fair
   - title: Research software quality
