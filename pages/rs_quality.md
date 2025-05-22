@@ -13,7 +13,7 @@ Beyond strict technical aspects of research software quality, this page will als
 influence research software excellence, such as assessing the software's FAIRness, the Open Source nature of projects 
 and their sustainability.
 
-## Research Software Quality Dimensions
+## Quality Dimensions & Indicators
 
 EVERSE project is working to formally define a number of [research software quality dimensions](https://everse.software/indicators/website/dimensions.html) 
 along with a [formal schema](https://github.com/EVERSE-ResearchSoftware/schemas/tree/main) to be used in machine readable metadata 

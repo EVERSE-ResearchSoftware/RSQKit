@@ -50,6 +50,20 @@ The aim of this document was to illustrate the lifecycle of research software an
 
 ## Lifecycle Stages
 
-TODO
+TODO: Add a bit of explanation about each stage and provide links to task pages.
 
-Add a bit of explanation about each stage and provide links to task pages.
+### Planning
+
+### Software Requirements
+
+### Design
+
+### Development
+
+### Deployment
+
+### Maintenance
+
+### Publication
+
+### Evaluation & Community Feedback 
