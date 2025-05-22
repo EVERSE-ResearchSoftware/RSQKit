@@ -68,7 +68,7 @@ also provide CI/CD processes and services built around code repositories - e.g. 
   - {% tool "travis" %}: a cloud-based CI service often used for open-source projects.
   - Azure Pipelines: part of the Azure DevOps suite, supports various languages and platforms.
 - Testing tools - automated testing tools like JUnit, Selenium, Cypress, and Postman integrate with CI/CD workflows/pipelines to ensure the code meets quality standards.
-- Artifact repositories - tools like Artifactory or Nexus Repository store build artifacts (e.g., Docker images, binaries) for deployment.
+- Artefact repositories - tools like Artifactory or Nexus Repository store build artefacts (e.g., Docker images, binaries) for deployment.
 - Containerisation and orchestration
   - {% tool "docker" %} - to help standardise environments for applications by packaging them in containers.
   - {% tool "kubernetes" %} - for orchestration, enabling deployment, scaling and management of containerised applications.

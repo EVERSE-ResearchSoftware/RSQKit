@@ -6,7 +6,7 @@ summary: Detailed guidelines for various contributions to RSQKit.
 The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot.
 During this phase, we organise contributions through the EVERSE project's internal documents and communication channels, and welcome reports on
 issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
-At some point in the future, we will move towards a fully GitHub-centered contribution workflow.
+At some point in the future, we will move towards a fully GitHub-centred contribution workflow.
 
 The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board][editorial-board], who are also acting as the official
 **Maintainers** of the RSQKit repository.

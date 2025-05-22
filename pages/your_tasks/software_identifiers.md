@@ -40,9 +40,9 @@ Some methods for uniquely identifying software and versions include:
 
 - {% tool "semantic-versioning" %} - a structured approach to versioning software in the format MAJOR.MINOR.PATCH.
 - Digital Object Identifiers (DOIs) for software - a DOI (Digital Object Identifier) provides a globally unique, 
-citable reference for a software artifact (software as a whole and its different releases) that integrates with academic and research systems. This is of particular importance for 
+citable reference for a software artefact (software as a whole and its different releases) that integrates with academic and research systems. This is of particular importance for 
 research software - see below for more details on obtaining DOIs for your software.
-- Cryptographic hashes (checksums) - a cryptographic hash uniquely represents a software artifact (source code, binary, or package).
+- Cryptographic hashes (checksums) - a cryptographic hash uniquely represents a software artefact (source code, binary, or package).
 - Universally Unique Identifiers (UUIDs) - a UUID (or GUID) is a 128-bit identifier often used in distributed systems.
 - Git commit hashes - for version-controlled software, a Git commit hash uniquely identifies a snapshot of the codebase.
 
@@ -82,7 +82,7 @@ reference to a particular software release.
 
 ### Why are DOIs important?
 
-Publishing your software in digital research artifact archive services is a valuable practice that enhances the 
+Publishing your software in digital research artefact archive services is a valuable practice that enhances the 
 visibility, citability, and long-term preservation of your research software:
 
 - Obtaining a DOI for your software makes it easier to cite and track your work and research output.
@@ -97,7 +97,7 @@ Zenodo and GitHub provide an integration between the two services which makes is
 GitHub by Zenodo and archiving your software releases on Zenodo easier.
 
 * If you do not have a Zenodo account - create one now (preferably using your GitHub account). This effectively links the two accounts. 
-If you already have a Zenodo account, you can link it to your GitHub account bu navigationg to your [Zenodo profile page](https://zenodo.org/account/settings/profile), selecting 
+If you already have a Zenodo account, you can link it to your GitHub account bu navigation to your [Zenodo profile page](https://zenodo.org/account/settings/profile), selecting 
 the `GitHub` tab, then clicking on `Connect` and authorising Zenodo to access your GitHub account.
 * Once connected to GitHub, choose which GitHub repository you would like to create a DOI for under the `Repositories` section in Zenodo.
 This will tell Zenodo to create a DOI for your software project as well as issue a new DOI each time you release a new version of software via GitHub.

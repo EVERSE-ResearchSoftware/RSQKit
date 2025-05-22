@@ -28,7 +28,7 @@ Describe the community that uses your software
 ## Technical Aspects <!-- do not delete this heading and write your text below it -->
 
 - What is the tier(s) of software involved (e.g. analysis code, prototype tools, research software infrastructure (including services))
-- Techical specifications:
+- Technical specifications:
    - language(s)
    - any measures of the codebase (e.g. size, complexity, activity, how long it's been running)
    - deployment requirements (e.g. does it need a HPC infrastructure - what compute/data or contextual requirements does it require)
@@ -55,7 +55,7 @@ Describe the community that uses your software
 
 ## FAIR & Open <!-- do not delete this heading and write your text below it -->
 
- - FAIR: see [FAIR software RSQKit page](https://everse.software/RSQKit/fair_rs) and [Five recommendations for FAIR software](https://fair-software.eu/) for inspiration - e.g. are there a repository and a license, do you have a community registry/catalogue where the code is available, is it citeable, do you have a “good software” checklist?
+ - FAIR: see [FAIR software RSQKit page](https://everse.software/RSQKit/fair_rs) and [Five recommendations for FAIR software](https://fair-software.eu/) for inspiration - e.g. are there a repository and a license, do you have a community registry/catalogue where the code is available, is it citable, do you have a “good software” checklist?
  - Open: cover how you follow open source practices and open development practices?
  - What has been the benefit of following these open source and open development practices?
 

@@ -20,7 +20,7 @@ This brings attention to the need for credit and career paths for research softw
 
 RSQKit is currently developed as part of the [EVERSE project](https://everse.software), with external engagement with the wider community 
 through the open [EVERSE Network](https://everse.software/network/). 
-If you find something missing, incorrect or want to comment, please get in touch with the [RSQKit Editoral Board](https://everse.software/RSQKit/editorial_board).
+If you find something missing, incorrect or want to comment, please get in touch with the [RSQKit Editorial Board](https://everse.software/RSQKit/editorial_board).
 
 ## Acknowledgements
 
