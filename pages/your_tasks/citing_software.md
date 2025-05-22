@@ -24,7 +24,7 @@ A software citation typically includes:
 ### Why does software citation matter? 
 
 Proper software citation supports the integrity of research and ensures that software 
-developers receive appropriate acknowledgment for their contributions. 
+developers receive appropriate acknowledgement for their contributions. 
 It ensures that future researchers can use the exact version of the software to replicate results and 
 encourages continued development and maintenance of research software if it is important for research.
 It helps with impact measurement as it enables tracking the impact of software in research through citation metrics.

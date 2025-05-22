@@ -1,5 +1,5 @@
 ---
-title: "The title of the research cluster or infrastucture and which domain(s) it covers" # short title
+title: "The title of the research cluster or infrastructure and which domain(s) it covers" # short title
 search_exclude: true # set to false if you want this page to show up in search results (it's set to true for TEMPLATE as we don't want that in search results)
 description: "" # a description of the page - start this with the overall area under which the community sits e.g. 'Physics & astronomy -', 'Biomedical sciences -', 'Social sciences & humanities -', 'Life sciences -', 'Environmental sciences -' or other if those do not encompass the more specific community you are addressing
 contributors: [] # a comma separated list of contributors' names, as found in _data/CONTRIBUTORS.yml
