@@ -54,11 +54,13 @@ TODO: Add a bit of explanation about each stage and provide links to task pages.
 
 ### Planning
 
-### Software Requirements
+### Software Requirements Gathering and Analysis
 
-### Design
+### Design 
 
 ### Development
+
+### QA & Documentation
 
 ### Deployment
 
