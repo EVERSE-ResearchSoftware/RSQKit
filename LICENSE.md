@@ -3,7 +3,7 @@
 The RSQKit makes all of their materials publicly available under open source licenses:
 
 - All metadata are made available under the [CC0 1.0 Universal license][cc-0-legal]
-- Documentation, data and page content are made available under the [CC BY 4.0 license][cc-by-legal]
+- Images, documentation, data and page content are made available under the [CC BY 4.0 license][cc-by-legal]
 - Software is made available under the [MIT license][mit-license].
 
 [cc-by-human]: https://creativecommons.org/licenses/by/4.0/
