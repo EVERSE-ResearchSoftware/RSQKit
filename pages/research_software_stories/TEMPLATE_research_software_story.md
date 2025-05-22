@@ -51,7 +51,7 @@ Describe the community that uses your software
 ## Tools <!-- do not delete this heading and write your text below it -->
 
 - List any tools that you use to help you improve or assess the software quality of your code and a short description of how they help your software. Please refer to [_data/tool_and_resource_list.yml](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/tool_and_resource_list.yml) file in the RSQKit repository and add any ones that are missing.
-- What has been the benefit to the project of using these tools.
+- What has been the benefit to the project of using these tools?
 
 ## FAIR & Open <!-- do not delete this heading and write your text below it -->
 
