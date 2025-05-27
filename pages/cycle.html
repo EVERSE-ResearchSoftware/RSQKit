@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!--
+  This HTML document creates an interactive SVG wheel representing the research software lifecycle.
+  Each stage of the lifecycle is clickable, revealing tasks associated with that stage.
+  The tasks can be filtered by role and tier using dropdown menus.
+  Written using ChatGPT-4o on 23 April 2025, prompted and edited by Patrick Bos.
+  -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Software Lifecycle</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f9f9f9;
+      position: relative;
+    }
+    svg {
+      width: 600px;
+      height: 600px;
+    }
+    .stage {
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+    }
+    .faded {
+      opacity: 0.3;
+    }
+    text {
+      font-size: 14px;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      pointer-events: none;
+    }
+    .task-popup {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 1rem;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      z-index: 10;
+      width: 220px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    .task-popup h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 5;
+    }
+    #backHint {
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      transform: translate(140px, 80px);
+      background: #eee;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      z-index: 15;
+      cursor: pointer;
+    }
+    .arrow {
+      fill: none;
+      stroke: #999;
+      stroke-width: 2;
+      marker-end: url(#arrowhead);
+    }
+  </style>
+</head>
+<body>
+  <div id="overlay" class="overlay" style="display: none;"></div>
+  <div id="popup" class="task-popup" style="display: none;">
+    <div id="popupFilters" style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+      <select id="roleFilter">
+        <option value="all">All Roles</option>
+        <option value="RSE">RSE</option>
+        <option value="Project Leader">Project Leader</option>
+        <option value="Institution Admin">Institution Admin</option>
+      </select>
+      <select id="tierFilter">
+        <option value="all">All Tiers</option>
+        <option value="1">Tier 1</option>
+        <option value="2">Tier 2</option>
+        <option value="3">Tier 3</option>
+      </select>
+    </div>
+    <div id="popupContent"></div>
+  </div>
+  <div id="backHint" style="display: none;">⮐</div>
+  <svg viewBox="0 0 600 600">
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#999" />
+      </marker>
+    </defs>
+    <g transform="translate(300,300)" id="wheelContainer"></g>
+    <g id="arrowLayer"></g>
+  </svg>
+  <script>
+    const stages = [
+      "Research Purpose",
+      "Design",
+      "Develop",
+      "Test",
+      "Release",
+      "Maintain",
+      "Retire"
+    ];
+
+    const icons = [
+      "🔍", "🧩", "💻", "🧪", "🚀", "🔧", "📦"
+    ];
+
+    const tasks = {
+      "Research Purpose": [
+        { text: "Define objectives", roles: ["RSE", "Project Leader"], tiers: [1, 2] },
+        { text: "Identify needs", roles: ["Project Leader"], tiers: [1] },
+        { text: "Literature review", roles: ["RSE"], tiers: [3] }
+      ],
+      "Design": [
+        { text: "Architecture planning", roles: ["RSE", "Project Leader"], tiers: [1, 2] },
+        { text: "Technology selection", roles: ["RSE"], tiers: [2] },
+        { text: "Mockups", roles: ["RSE", "Project Leader"], tiers: [3] }
+      ],
+      "Develop": [
+        { text: "Coding", roles: ["RSE"], tiers: [2, 3] },
+        { text: "Documentation", roles: ["RSE", "Project Leader"], tiers: [1, 2] },
+        { text: "Version control", roles: ["RSE"], tiers: [2] }
+      ],
+      "Test": [
+        { text: "Unit testing", roles: ["RSE"], tiers: [2, 3] },
+        { text: "Integration testing", roles: ["RSE"], tiers: [1, 2] },
+        { text: "Validation", roles: ["Project Leader"], tiers: [1] }
+      ],
+      "Release": [
+        { text: "Packaging", roles: ["RSE"], tiers: [2, 3] },
+        { text: "Licensing", roles: ["Institution Admin", "Project Leader"], tiers: [1] },
+        { text: "Deployment", roles: ["RSE", "Project Leader"], tiers: [1, 2] }
+      ],
+      "Maintain": [
+        { text: "Bug fixing", roles: ["RSE"], tiers: [2, 3] },
+        { text: "User support", roles: ["RSE", "Project Leader"], tiers: [1, 2] },
+        { text: "Code refactoring", roles: ["RSE"], tiers: [2, 3] }
+      ],
+      "Retire": [
+        { text: "Archiving", roles: ["Institution Admin", "Project Leader"], tiers: [1] },
+        { text: "Deprecation notice", roles: ["Project Leader"], tiers: [1, 2] },
+        { text: "Migration planning", roles: ["RSE", "Project Leader"], tiers: [1, 2] }
+      ]
+    };
+
+    const outerRadius = 200;
+    const innerRadius = 80;
+    const angleStep = (2 * Math.PI) / stages.length;
+    // EOSC colors, from https://eosc.eu/wp-content/uploads/2023/12/Co-Branding-Guidelines-for-HE-INFRAEOSC-Projects.pdf
+    const colors = ["#ae538e", "#ff5b7f", "#ee7444", "#76b82a", "#008792", "#3292d0", 
+    // "#3363ac", // dark blue, can be added if needed
+    "#735ba3"];
+    const container = document.getElementById("wheelContainer");
+    const popup = document.getElementById("popup");
+    const overlay = document.getElementById("overlay");
+    const backHint = document.getElementById("backHint");
+
+    function resetWheel() {
+      document.querySelectorAll(".stage").forEach(p => p.classList.remove("faded"));
+      popup.style.display = "none";
+      overlay.style.display = "none";
+      backHint.style.display = "none";
+    }
+
+    overlay.addEventListener("click", resetWheel);
+    backHint.addEventListener("click", resetWheel);
+
+    const roleFilter = document.getElementById("roleFilter");
+    const tierFilter = document.getElementById("tierFilter");
+
+    function filterTasks(stage) {
+      const selectedRole = roleFilter.value;
+      const selectedTier = tierFilter.value;
+
+      return tasks[stage].map(task => {
+        const matchesRole = selectedRole === "all" || task.roles.includes(selectedRole);
+        const matchesTier = selectedTier === "all" || task.tiers.includes(parseInt(selectedTier));
+        return { ...task, faded: !(matchesRole && matchesTier) };
+      });
+    }
+
+    function updatePopupContent(stage) {
+      const filteredTasks = filterTasks(stage);
+      const popupContent = document.getElementById("popupContent");
+      popupContent.innerHTML = `<h3>${stage}</h3><ul>${filteredTasks.map(t => `<li style="opacity: ${t.faded ? 0.3 : 1}">${t.text}</li>`).join('')}</ul>`;
+    }
+
+    function animateStage(stage, index) {
+      document.querySelectorAll(".stage").forEach((p, i) => {
+        if (i !== index) p.classList.add("faded");
+        else p.classList.remove("faded");
+      });
+
+      updatePopupContent(stage);
+      popup.style.display = "block";
+      overlay.style.display = "block";
+      backHint.style.display = "flex";
+
+      roleFilter.onchange = () => updatePopupContent(stage);
+      tierFilter.onchange = () => updatePopupContent(stage);
+    }
+
+    roleFilter.addEventListener("change", () => {
+      const activeStage = document.querySelector(".stage:not(.faded)");
+      if (activeStage) updatePopupContent(activeStage.textContent.trim());
+    });
+
+    tierFilter.addEventListener("change", () => {
+      const activeStage = document.querySelector(".stage:not(.faded)");
+      if (activeStage) updatePopupContent(activeStage.textContent.trim());
+    });
+
+    stages.forEach((stage, i) => {
+      const startAngle = i * angleStep;
+      const endAngle = (i + 1) * angleStep;
+      const largeArc = endAngle - startAngle > Math.PI ? 1 : 0;
+
+      const x1 = outerRadius * Math.cos(startAngle);
+      const y1 = outerRadius * Math.sin(startAngle);
+      const x2 = outerRadius * Math.cos(endAngle);
+      const y2 = outerRadius * Math.sin(endAngle);
+
+      const x3 = innerRadius * Math.cos(endAngle);
+      const y3 = innerRadius * Math.sin(endAngle);
+      const x4 = innerRadius * Math.cos(startAngle);
+      const y4 = innerRadius * Math.sin(startAngle);
+
+      const pathData = [
+        `M${x1},${y1}`,
+        `A${outerRadius},${outerRadius} 0 ${largeArc} 1 ${x2},${y2}`,
+        `L${x3},${y3}`,
+        `A${innerRadius},${innerRadius} 0 ${largeArc} 0 ${x4},${y4}`,
+        `Z`
+      ].join(" ");
+
+      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      path.setAttribute("d", pathData);
+      path.setAttribute("fill", colors[i % colors.length]);
+      path.setAttribute("class", "stage");
+      path.addEventListener("click", () => animateStage(stage, i));
+      container.appendChild(path);
+
+      const labelAngle = (startAngle + endAngle) / 2;
+      const labelRadius = (outerRadius + innerRadius) / 2;
+      const labelX = labelRadius * Math.cos(labelAngle);
+      const labelY = labelRadius * Math.sin(labelAngle);
+
+      const icon = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      icon.setAttribute("x", labelX);
+      icon.setAttribute("y", labelY - 10);
+      icon.innerHTML = `<tspan font-family='Segoe UI Emoji'>${icons[i]}</tspan>`;
+      container.appendChild(icon);
+
+      const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      label.setAttribute("x", labelX);
+      label.setAttribute("y", labelY + 10);
+      label.textContent = stage;
+      container.appendChild(label);
+    });
+
+  </script>
+</body>
+</html>
