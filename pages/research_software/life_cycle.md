@@ -60,7 +60,11 @@ TODO: Add a bit of explanation about each stage and provide links to task pages.
 
 ### Development
 
+- e.g. unit, regression testing (which can be automated)
+
 ### QA & Documentation
+
+- e.g. more comprehensive testing (which can be automated), integration testing, perfomance, QA, etc.
 
 ### Deployment
 

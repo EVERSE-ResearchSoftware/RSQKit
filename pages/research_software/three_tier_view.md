@@ -17,7 +17,7 @@ data generation, preparation, analysis and visualisation. It typically represent
 
 <img src="../../images/3-tier-model.svg" width="1200" alt-text="Three-tier model of research software" />
 
-*Diagram adapted from ["EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence" presentation](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf) by F. Psomopoulos, February 2025*
+*Diagram from ["EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence" presentation](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf) by F. Psomopoulos, February 2025, adapted by Aleksandra Nenadic under CC-BY 4.0 licence*
 
 For example, [Nipype](https://nipype.readthedocs.io/en/latest/), a Python tool for neuroimaging data processing, began as a collection of analysis scripts before evolving into a more comprehensive tool.
 [GROMACS](https://www.gromacs.org/), a software suite for high-performance molecular dynamics and output analysis, is another good example of a prototype tool
