@@ -132,7 +132,6 @@ The `compare_rsqkit_techradar_tools.py` script is designed to perform a detailed
 ### Workflow:
 - Input Sources:
 RSQkit: The tools list is sourced from the file _data/tool_and_resource_list.yml.
-
 TechRadar: The tools list is sourced from the TechRadar repository at https://github.com/EVERSE-ResearchSoftware/TechRadar/tree/main/data/software-tools.
 
 - Comparison Process:
