@@ -61,9 +61,12 @@ def compare_tool_definitions(yaml_tool, jsonld_tool, fields_to_compare, field_ma
         diff = DeepDiff(yaml_val, json_val, ignore_order=True)
         if diff:
             discrepancies[yaml_field] = diff
+            print(f" Description in RSQkit for tool {tool_name} :: {yaml_val}")
+            print(f" Description in TechRadar for tool {tool_name} :: {json_val}")
         else:
             print(f"No difference found for '{yaml_field}' in tool: {tool_name}")
     return discrepancies
+
 
 def summarize_discrepancies(discrepancy_dict):
     if not discrepancy_dict:
@@ -73,14 +76,20 @@ def summarize_discrepancies(discrepancy_dict):
     table = []
     for tool, diffs in discrepancy_dict.items():
         for field, diff in diffs.items():
-            table.append({
-                "Tool": tool,
-                "Field": field,
-                "Difference": str(diff).replace("\n", " ")
-            })
+            values_changed = diff.get('values_changed', {})
+            for path, changes in values_changed.items():
+                rsqkit_description = changes.get('old_value', 'N/A')
+                techradar_description = changes.get('new_value', 'N/A')
+                table.append({
+                    "Tool": tool,
+                    "Field": field,
+                    "RSQkit Description": rsqkit_description,
+                    "TechRadar Description": techradar_description
+                })
 
     print("Summary of Tools with Discrepancies:\n")
     print(tabulate(table, headers="keys", tablefmt="github"))
+
 
 def main():
     rsqkit_tools = load_yaml_tools_from_rsqkit()
