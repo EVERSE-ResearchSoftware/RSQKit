@@ -77,13 +77,13 @@ for publishing workflows alongside datasets or in workflow registries.
 
 Workflow RO-Crate is the metadata standard used by {% tool "workflowhub" %} and {% tool "lifemonitor" %} workflows 
 services for publishing computational workflows, enabling researchers to share, discover, and reuse 
-workflows with rich, structured descriptions that support reproducibility and FAIR principles.
+workflows with rich, structured descriptions that support reproducibility and the FAIR principles.
 
 ## Integration with the FAIR principles
 
 As digital objects to be shared, discovered, and reused, computational workflows benefit from adhering to [the 
-FAIR principles](./fair_rs) - adhering to the [FAIR recommendations for workflows][fair-workflows] can maximise their quality 
-and value as research assets and facilitate their adoption by the wider community, which is essential for [modern research data management][rdmkit].
+FAIR principles](./fair_rs) in general and specifically the [FAIR recommendations for workflows][fair-workflows].
+It can maximise their quality and value as research assets and facilitate their adoption by the wider community, which is essential for [modern research data management][rdmkit].
 
 The [Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW)][WCI-FW], a global and open community of
 researchers and developers working with computational workflows across disciplines and domains, has systematically
