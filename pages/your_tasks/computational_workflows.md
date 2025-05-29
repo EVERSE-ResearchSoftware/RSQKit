@@ -63,7 +63,7 @@ How can we document and share our computational workflows and find other people'
 
 **Workflow metadata** is descriptive information *about* a workflow — its purpose, requirements, inputs/outputs, 
 dependencies, authorship, and provenance. Its purpose is slightly different to that of a workflow definition language,
-which defines the workflow logic and tells a WMS *how* to execute it (used for automation, parallelisation, and scheduling).
+which defines the workflow logic and tells a WMS *how* to execute it (e.g., for automation, parallelisation, and scheduling).
 Workflow metadata is not for running the workflow but for understanding, managing and discovering it.
 
 [Workflow RO-Crate][wf-ro-crate] is a lightweight, structured metadata format designed to package and describe computational workflows 
