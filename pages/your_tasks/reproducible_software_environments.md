@@ -4,7 +4,7 @@ description: How to create a development environment for your software so others
 contributors: ["Aleksandra Nenadic", "Simon Christ"]
 page_id: reproducible_software_environments
 related_pages:
-  your_tasks: []
+  your_tasks: [computational_workflows]
 ---
 
 
@@ -27,10 +27,13 @@ are developing or modifying other people's software.
   - {% tool "nixos" %} - ensures reproducible environments with declarative package management, tracking all system dependencies and configurations - 
   embodying the "operating system as code" philosophy which treats the entire operating system, including its configuration and infrastructure, as code that can be managed, versioned, and deployed like any other software application.
   - {% tool "packer" %} - automates the creation of consistent machine images, supporting multiple platforms.
-- **Workflow-oriented environments** - geared toward creating reproducible environments for scientific research, bioinformatics, and complex workflows.
-  - {% tool "wdl" %} - a language to define reproducible research workflows, ensuring that pipelines run consistently across systems.
-  - {% tool "galaxy" %} - open-source platform for FAIR data analysis that enables users to access and collect data from reference databases, external repositories and other data sources;
-    use tools from various domains
+- **[Computational workflow environments](./computational_workflows)** - geared toward creating reproducible environments for scientific research involving 
+multi-step, multi-code complex data analysis pipelines (e.g. in bioinformatics):
+  - workflows are typically defined using a variety of high-level workflow definition languages (such as [Nextflow DSL][nextflow-dsl], [Snakefile][snakefile],
+    [Workflow Description Language (WDL)][wdl], [Common Workflow Language (CWL)][cwl], [Apache Airflow DAG][apache-airflow-dag])
+  - Workflow management systems (WMSs), such as {% tool "nextflow" %}, {% tool "galaxy" %},
+    {% tool "snakemake" %}, {% tool "apache-airflow" %} or {% tool "parsl" %}, create execution environments and run computational 
+  workflows based on their definitions.
 
 Code produced by researchers is sometimes not packaged in a library, package or container that you can readily run 
 on your system. Sometimes you also may want to look at the source code and be able to make modifications. 
@@ -131,3 +134,8 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 [python-env-hell]: https://xkcd.com/1987/
 [guix]: https://hpc.guix.info/
 [spack]: https://spack.io/
+[apache-airflow-dag]: https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html
+[cwl]: https://www.commonwl.org/
+[wdl]: https://openwdl.org/
+[snakefile]: https://snakemake.readthedocs.io/en/stable/snakefiles/writing_snakefiles.html
+[nextflow-dsl]: https://www.nextflow.io/docs/latest/reference/syntax.html
