@@ -76,7 +76,7 @@ with greater ease and confidence. It simplifies workflow sharing, supports inter
 for publishing workflows alongside datasets or in workflow registries.
 
 Workflow RO-Crate is the metadata standard used by {% tool "workflowhub" %} registry and {% tool "lifemonitor" %} service 
-services for publishing computational workflows, enabling researchers to share, discover, and reuse 
+for publishing computational workflows, enabling researchers to share, discover, and reuse 
 workflows with rich, structured descriptions that support reproducibility and the FAIR principles.
 
 ## Integration with the FAIR principles
