@@ -29,7 +29,7 @@ At the simplest end of the complexity spectrum, a workflow might consist of a sc
 enumerated stages in an electronic research notebook (e.g. Jupyter, RStudio, Apache Zeppelin, etc.) with a set of 
 instructions that use inputs and outputs to pipe the results together.
 
-At the other end, workflows might employ workflow management systems such as {% tool "nextflow" %}, {% tool "galaxy" %},
+At the more sophisticated end, workflows might employ workflow management systems such as {% tool "nextflow" %}, {% tool "galaxy" %},
 {% tool "snakemake" %}, {% tool "apache-airflow" %} or {% tool "parsl" %} using a variety of high-level workflow definition 
 languages (such as [Nextflow Domain Specific Language (DSL)][nextflow-dsl], [Snakefile][snakefile], 
 [Workflow Description Language (WDL)][wdl], [Common Workflow Language (CWL)][cwl], [Apache Airflow DAG][apache-airflow-dag]).
