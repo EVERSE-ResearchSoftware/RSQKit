@@ -75,7 +75,7 @@ workflows more discoverable, portable, and reproducible—enabling others to und
 with greater ease and confidence. It simplifies workflow sharing, supports interoperability, and is especially useful 
 for publishing workflows alongside datasets or in workflow registries.
 
-Workflow RO-Crate is the metadata standard used by {% tool "workflowhub" %} and {% tool "lifemonitor" %} workflows 
+Workflow RO-Crate is the metadata standard used by {% tool "workflowhub" %} registry and {% tool "lifemonitor" %} service 
 services for publishing computational workflows, enabling researchers to share, discover, and reuse 
 workflows with rich, structured descriptions that support reproducibility and the FAIR principles.
 
