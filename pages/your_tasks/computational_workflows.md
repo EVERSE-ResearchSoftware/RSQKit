@@ -69,7 +69,7 @@ Workflow metadata is not for running the workflow but for understanding, managin
 [Workflow RO-Crate][wf-ro-crate] is a lightweight, structured metadata format designed to package and describe computational workflows 
 and their associated resources in a FAIR-compliant way, extending the more general [Bioschemas ComputationalWorkflow Profile][bioschemas-wf-profile]. 
 It builds on the [RO-Crate][ro-crate] metadata standard to encapsulate not only the 
-workflow definition (e.g. CWL, Nextflow DSL, Snakefile) but also key contextual information such as inputs, outputs, 
+workflow definition (e.g. CWL, Nextflow DSL, Snakefile) but also key contextual information such as inputs/outputs (via [Bioschemas FormalParameter](bioschemas-formal-parameter), 
 software dependencies, authorship, and execution environment. By using Workflow RO-Crate, researchers can make their 
 workflows more discoverable, portable, and reproducible—enabling others to understand, reuse, and re-run analyses 
 with greater ease and confidence. It simplifies workflow sharing, supports interoperability, and is especially useful 
@@ -101,3 +101,4 @@ addressed the application of both FAIR data and software principles to computati
 [wf-ro-crate]: https://about.workflowhub.eu/Workflow-RO-Crate/
 [ro-crate]: https://www.researchobject.org/ro-crate/\
 [bioschemas-wf-profile]: https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE
+[bioschemas-formal-parameter]: https://bioschemas.org/types/FormalParameter/1.0-RELEASE
