@@ -10,10 +10,10 @@ subitems:
     subitems:
       - title: What is research software?
         url: /research_software#what-is-research-software
-      - title: Lifecycle
-        url: /life_cycle
       - title: Three-tier model
         url: /three_tier_view
+      - title: Lifecycle
+        url: /life_cycle
       - title: Quality
         url: /quality
   - title: Quality dimensions & indicators
