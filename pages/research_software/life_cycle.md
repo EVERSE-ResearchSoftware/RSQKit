@@ -2,10 +2,39 @@
 title: Research Software Lifecycle
 ---
 
-![The Research Software Lifecycle](../../images/lifecycle-new.png)
 
-The research software lifecycle as shown in the diagram above provides a model for understanding the different phases 
-encountered during the development of research software. 
+The research software lifecycle provides a model for understanding the different phases
+encountered during the development of research software.
+
+<p align="center"><img src="../../images/rs-lifecycle.png" width="600" alt-text="Research software lifecycle" /></p>
+
+## Lifecycle Stages
+
+TODO: Add a bit of explanation about each stage and provide links to task pages.
+
+### Planning
+
+### Software Requirements Gathering and Analysis
+
+### Design
+
+### Development
+
+- e.g. unit, regression testing (which can be automated)
+
+### QA & Documentation
+
+- e.g. more comprehensive testing (which can be automated), integration testing, perfomance, QA, etc.
+
+### Deployment
+
+### Maintenance
+
+### Publication
+
+### Evaluation & Community Feedback
+
+## Reseach Software Lifecycle & Three-Tier Model
 
 There is a close link between this software lifecycle and the [three-tier model of software](/three_tier_view). 
 Depending on its tier, the software lifecycle length or the number of iterations through the lifecycle may vary. 
@@ -47,29 +76,3 @@ EOSC Task Force. This Task Force tried to achieve a common understanding on the 
 For this reason, the Task Force split into various subgroups investigating different aspects of the research software engineering process. 
 SubGroup 1 of the Task Force took a closer look at the research software lifecycle, and reported its findings in the deliverable [Research Software Lifecycle](https://doi.org/10.5281/zenodo.8324828). 
 The aim of this document was to illustrate the lifecycle of research software and how its instantiations for particular software projects are influenced by varying developer groups and their intentions. 
-
-## Lifecycle Stages
-
-TODO: Add a bit of explanation about each stage and provide links to task pages.
-
-### Planning
-
-### Software Requirements Gathering and Analysis
-
-### Design 
-
-### Development
-
-- e.g. unit, regression testing (which can be automated)
-
-### QA & Documentation
-
-- e.g. more comprehensive testing (which can be automated), integration testing, perfomance, QA, etc.
-
-### Deployment
-
-### Maintenance
-
-### Publication
-
-### Evaluation & Community Feedback 
