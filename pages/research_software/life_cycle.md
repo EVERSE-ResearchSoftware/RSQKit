@@ -8,6 +8,12 @@ encountered during the development of research software.
 
 <p align="center"><img src="../../images/rs-lifecycle.png" width="600" alt-text="Research software lifecycle" /></p>
 
+The research software lifecycle description used here was originally developed by the [Infrastructures for Quality Research Software](https://eosc.eu/advisory-groups/infrastructures-quality-research-software/)
+EOSC Task Force. This Task Force tried to achieve a common understanding on the processes in research software engineering to asses the research infrastructure needs.
+For this reason, the Task Force split into various subgroups investigating different aspects of the research software engineering process.
+SubGroup 1 of the Task Force took a closer look at the research software lifecycle, and reported its findings in the deliverable [Research Software Lifecycle](https://doi.org/10.5281/zenodo.8324828).
+The aim of this document was to illustrate the lifecycle of research software and how its instantiations for particular software projects are influenced by varying developer groups and their intentions.
+
 ## Lifecycle Stages
 
 TODO: Add a bit of explanation about each stage and provide links to task pages.
@@ -34,7 +40,7 @@ TODO: Add a bit of explanation about each stage and provide links to task pages.
 
 ### Evaluation & Community Feedback
 
-## Reseach Software Lifecycle & Three-Tier Model
+## Research Software Lifecycle & Three-Tier Model
 
 There is a close link between this software lifecycle and the [three-tier model of software](/three_tier_view). 
 Depending on its tier, the software lifecycle length or the number of iterations through the lifecycle may vary. 
@@ -68,11 +74,3 @@ collect user feedback, and ensure a regular release cycle.
 This tier requires the most advanced software engineering techniques to ensure a smooth development process, quality, and long term
 maintainability. For online services or mission critical software that require continuous operation, special software engineering methods such as DevOps and CI/CD are needed. 
 To ensure the long term sustainability of the software, governance model and funding or business model are required.
-
-### Context and History
-
-The research software lifecycle description used here was originally developed by the [Infrastructures for Quality Research Software](https://eosc.eu/advisory-groups/infrastructures-quality-research-software/)
-EOSC Task Force. This Task Force tried to achieve a common understanding on the processes in research software engineering to asses the research infrastructure needs. 
-For this reason, the Task Force split into various subgroups investigating different aspects of the research software engineering process. 
-SubGroup 1 of the Task Force took a closer look at the research software lifecycle, and reported its findings in the deliverable [Research Software Lifecycle](https://doi.org/10.5281/zenodo.8324828). 
-The aim of this document was to illustrate the lifecycle of research software and how its instantiations for particular software projects are influenced by varying developer groups and their intentions. 
