@@ -1,11 +1,12 @@
 ---
 title: Contribution Guidelines
+summary: Detailed guidelines for various contributions to RSQKit.
 ---
 
 The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot.
 During this phase, we organise contributions through the EVERSE project's internal documents and communication channels, and welcome reports on
 issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
-At some point in the future, we will move towards a fully GitHub-centered contribution workflow.
+At some point in the future, we will move towards a fully GitHub-centred contribution workflow.
 
 The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board][editorial-board], who are also acting as the official
 **Maintainers** of the RSQKit repository.
@@ -148,15 +149,15 @@ If you find any content unsatisfactory, please feel free to report about it by [
 [github-join]: https://github.com/join
 [how-contribute]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
 [issues]: https://github.com/EVERSE-ResearchSoftware/RSQKit/issues
-[editorial-board]: ./editorial_board
+[editorial-board]: ./editorial_board.md
 [contributors]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yaml
 [pull-requests]: https://github.com/EVERSE-ResearchSoftware/RSQKit/pulls
 [github-why-should-i-fork]: https://stackoverflow.com/questions/31209669/github-why-should-i-fork
 [licence]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE.md
 [installation-instructions]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/INSTALL.md
-[page-style-guidelines]: ./page_style_guidelines
-[metadata-guidelines]: ./metadata_guidelines
-[editors-checklist]: ./editors_checklist
+[page-style-guidelines]: ./page_style_guidelines.md
+[metadata-guidelines]: ./metadata_guidelines.md
+[editors-checklist]: ./editors_checklist.md
 [markdown-cheatsheet]: https://rdmkit.elixir-europe.org/markdown_cheat_sheet
 [pages]: https://github.com/EVERSE-ResearchSoftware/RSQKit/tree/main/pages
 [data]: https://github.com/EVERSE-ResearchSoftware/RSQKit/tree/main/_data

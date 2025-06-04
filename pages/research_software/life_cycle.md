@@ -6,12 +6,12 @@ title: Research Software lifecycle
 
 ![The Research Software Lifecycle](../../images/lifecycle.png)
 
-The research software lifecycle, shown in the figure above, provides a model for understanding the different phases encountered during the development of research software. 
-This lifecycle was developed as part of The EOSC Task Force [Infrastructure for quality research software](https://eosc.eu/advisory-groups/infrastructures-quality-research-software/) and described in detail in [this](https://doi.org/10.5281/zenodo.8324828) document. 
+The research software lifecycle, shown in the figure above, provides a model for understanding the different phases encountered during the development of research software. (Please note that this model does not accurate all research software, as, for example, some research software is designed to provide general functionality to support multiple research questions, not to answer a research question directly, so "(1) Research Question" in the figure can be generalised to "(1) Research Purpose". This is often the case for some Tier 1 or 2 software as described below.)
+This lifecycle was developed as part of the EOSC Task Force [Infrastructure for quality research software](https://eosc.eu/advisory-groups/infrastructures-quality-research-software/) and described in detail in [this](https://doi.org/10.5281/zenodo.8324828) document. 
 
 There is a close link between the this software lifecycle and the [Three tiers model](http://everse.software/RSQKit/three_tier_view). Depending on the tier of software,  the length of the lifecycle, or number of iterations through the lifecycle may vary. 
 
-**Analysis Code (Tier 1 software)** typically represent software created for personal use and with a small scope, such as analysis scripts. The development of such software is directly driven 
+**Analysis Code (Tier 3 software)** typically represent software created for personal use and with a small scope, such as analysis scripts. The development of such software is directly driven 
 by a research question, and requires only little planning and software engineering effort as well as limited documentation and testing. Once the software is finished, and the research question 
 answered, it is important to publish the software together with the related research outputs, such as papers, datasets, workflows, etc. After this publication, the cycle ends and the software 
 is not developed further nor maintained.
@@ -23,7 +23,7 @@ In addition, the application of more advanced software engineering practices (e.
 to enable the software to be efficiently developed by a (potentially changing) team and to allow user feedback to be recorded. To ensure reproducibility of results, versioned releases should 
 be archived, and properly cited in papers. After publication, the development cycle continues to answer further research questions and apply improvements to the existing code.
 
-**Research Software Infrastructure (Tier 3 software)** represents broadly applicable research software. For this software Tier, the software and research cycles are no longer directly connected. The 
+**Research Software Infrastructure (Tier 1 software)** represents broadly applicable research software. For this software Tier, the software and research cycles are no longer directly connected. The 
 development team may be large and possibly distributed over multiple organisations. Different team members may have have different objectives and represent different communities. There may be a large 
 group of external users who depend on the software without directly contributing to the development. Proper development planning and community management should be used to organise the team members, 
 collect user feedback, and ensure a regular release cycle. This Tier requires the most advance software engineering techniques to ensure a smooth development process, quality, and long term 

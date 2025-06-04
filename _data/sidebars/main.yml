@@ -4,19 +4,19 @@
 subitems:
   #- title: About RSQKit
   #  url: /about
-  - title: Research Software
+  - title: Research software
     description: Different perspectives on research software
     url: /research_software
-    image_url: /assets/img/section-icons/tick.svg
+    image_url: /assets/img/font-awesome-free/terminal-solid.svg
     subitems:
       - title: Life cycle
         url: /life_cycle
       - title: Three-tier view
         url: /three_tier_view
-  - title: Research Software Quality
-    description: Indicators & principles for Research Software quality
+  - title: Research software quality
+    description: Indicators & principles for research software quality
     url: /rs_quality
-    image_url: /assets/img/section-icons/tick.svg
+    image_url: /assets/img/font-awesome-free/star-solid.svg
     subitems:
       - title: Source code
         url: /source_code
@@ -26,64 +26,102 @@ subitems:
         url: /sustainability
       - title: Open Source Software
         url: /open_source
-  - title: Your role
-    description: Definition of the different persona types associated with Research Software
-    url: /your_role
-    image_url: /assets/img/section-icons/tick.svg
+  - title: Research clusters & infrastructures
+    url: /research_clusters_and_infrastructures
+    image_url: /assets/img/font-awesome-free/people-group-solid.svg
+    description: Use cases and software practices across research communities
     subitems:
+      - title: LS-RI
+        url: /ls-ri
+      - title: ENVRI
+        url: /envri
+      - title: ESCAPE
+        url: /escape
+      - title: PaNOSC
+        url: /panosc
+      - title: SSHOC
+        url: /sshoc
+  - title: Research Software Stories
+    url: /research_software_stories
+    image_url: /assets/img/font-awesome-free/people-group-solid.svg
+    description: Examples of research software and their quality practices
+  - title: Your role
+    description: Resources tailored to different roles in research software funding & development
+    url: /your_role
+    image_url: /assets/img/font-awesome-free/user-solid.svg
+    subitems:
+      - title: Researcher who codes
+        url: /researcher_who_codes
       - title: Research Software Engineer
         url: /research_software_engineer
+      - title: Principal Investigator
+        url: /principal_investigator
+      - title: Policy maker
+        url: /policy_maker
+      - title: Trainer
+        url: /trainer
   - title: Your tasks
-    description: Find guidelines and solutions for tackling common software tasks
+    description: Guidelines and solutions for tackling common software tasks
     url: /your_tasks
-    image_url: /assets/img/section-icons/tick.svg
+    image_url: /assets/img/font-awesome-free/wrench-solid.svg
     subitems:
-      - title: "Organising your software project's directory"
-        url: /organising_software_project
-      - title: Writing readable code
-        url: /readable_code
-      - title: "Creating a 'Read the Docs' Page"
-        url: /creating_readthedocs
-      - title: Releasing code
-        url: /releasing_code
-      - title: Environmental sustainability of research software
-        url: /environmental_sustainability
-      - title: Creating README documents for software
-        url: /how_to_make_a_good_readme
-      - title: Languages, frameworks & technologies
-        url: /languages_frameworks_technologies
-      - title: Writing a CodeMeta file
-        url: /codemeta
-      - title: Licensing software
+      - title: "Choosing languages, tools & infrastructures"
+        url: /languages_tools_infrastructures
+      - title: "Organising software projects"
+        url: /organising_software_projects
+      - title: "Using version control"
+        url: /using_version_control
+      - title: "Reproducible software environments"
+        url: /reproducible_software_environments
+      - title: "Writing readable code"
+        url: /writing_readable_code
+      - title: "Code review"
+        url: /code_review
+      - title: "Testing software"
+        url: /testing_software
+      - title: "Task automation using GitHub Actions"
+        url: /task_automation_github_actions
+      - title: "Task automation using GitLab CI/CD"
+        url: /task_automation_gitlab_ci_cd      
+      - title: "Licensing software"
         url: /licensing_software
-      - title: Obtaining a DOI for software
-        url: /zenodo_doi
-      - title: Reproducible virtual software development environments
-        url: /virtual_dev_environments
-      - title: Testing code
-        url: /testing_code
-      - title: Version control
-        url: /version_control
-      - title: Software documentation
-        url: software_documentation
-  - title: Research communities
-    url: /research_communities
-    subitems:
-      - title: Physics & astronomy
-        url: /physics_astronomy
-        subitems:
-        - title: ESCAPE
-          url: /escape
-        - title: PANOSC
-          url: /panosc
-      - title: Biomedical sciences
-        url: /biomed_sciences
-      - title: Social sciences & humanities
-        url: /soc_sciences_humanities
-        subitems:
-        - title: SSHOC
-          url: /sshoc
+      - title: "Citing software"
+        url: /citing_software
+      - title: "Software identifiers"
+        url: /software_identifiers
+      - title: "Documenting software"
+        url: documenting_software
+      - title: "Creating a good README"
+        url: /creating_good_readme
+      - title: "Software metadata"
+        url: software_metadata
+      - title: "Packaging & releasing software"
+        url: packaging_releasing_software
+      - title: Continuous Integration & Deployment
+        url: /ci_cd
+      - title: "Improving environmental sustainability"
+        url: /improving_environmental_sustainability
   - title: All tools and resources
     url: /all_tools_and_resources
+    description: Browse tools and resources for research software quality
+    image_url: /assets/img/font-awesome-free/screwdriver-wrench-solid.svg
+  - title: Get involved
+    url: /get_involved
+    description: Various guidelines on how to get involved with RSQKit
+    subitems:
+      - title: Contribution Guidelines
+        url: /contribution_guidelines
+      - title: Metadata Guidelines
+        url: /metadata_guidelines
+      - title: Page Style Guidelines
+        url: /page_style_guidelines
+      - title: Editorial Board
+        url: /editorial_board
+      - title: Editors Checklist
+        url: /editors_checklist
+      - title: Contributors
+        url: /contributors
+      - title: List of all pages
+        url: /all_task_pages 
 #  - title: All training resources
 #    url: /all_training_resources

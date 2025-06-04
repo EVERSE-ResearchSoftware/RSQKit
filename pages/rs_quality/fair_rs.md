@@ -23,6 +23,8 @@ This is not an exact science, and by all means the list below is not exhaustive,
 but any of the practices that you employ in your research software workflow will bring you
 closer to the gold standard of fully reproducible research.
 
+[Five Recommendations for FAIR Software](https://fair-software.eu/) is a quick overview of what is making software more FAIR entails.
+
 ### Findable
 - Create a description of your software to make it discoverable by search engines and other search tools
 - Use standards (such as [CodeMeta][codemeta]) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
@@ -166,6 +168,7 @@ Here are some tools that can check your software and provide an assessment of it
 
 - [FAIRsoft evaluator][fair-rs-evaluator]
 - [FAIR software test][fair-rs-test]
+- [FAIR Software Checklist][fair-rs-checklist] - self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center (NeSC)
 - [`How FAIR is your software` - command line tool to evaluate a software repository's compliance with the FAIR principles][howfairis]
 
 ### Summary
@@ -203,6 +206,7 @@ The table below provides a summary of how different tools and practices help wit
 [awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [fair-rs-evaluator]: https://openebench.bsc.es/observatory/Evaluation
 [fair-rs-test]: https://github.com/marioa/fair-test?tab=readme-ov-file
+[fair-rs-checklist]: https://fairsoftwarechecklist.net
 [codemeta]: (https://codemeta.github.io/)
 [rsmd-g1]: https://fair-impact.github.io/RSMD-guidelines/1.General/
 [software-heritage]: https://www.softwareheritage.org/

@@ -1,5 +1,6 @@
 ---
 title: Editorial Board
+summary: Editorial Board oversees the topics and content featured in RSQKit.
 ---
 
 The content of RSQKit is currently being approved and curated by the RSQKit Editorial Board, 
@@ -13,7 +14,7 @@ the research and creative sector who produce software, code or scripts to enable
 
 ## Editorial Board Members
 
-{% include contributor-carousel-selection.html role="editor"%}
+{% include contributor-tiles-all.html role="editor"%}
 
 ## Join the Editorial Board
 
@@ -23,11 +24,11 @@ in effective digital communication, who can help in keeping the quality of conte
 
 ### Advantages
 
-* You will be up-to-date with numerous RSQ topics while reviewing proposed content.
-* This work helps to increase your visibility as expert in RSQ.
+* You will be up-to-date with numerous Research Software Quality topics while reviewing proposed content.
+* This work helps to increase your visibility as expert in Research Software Quality.
 * You will be able to suggest thematic gaps that should be added to the RSQKit, of which you can take ownership as part of the team.
 * You will expand your professional network.
-* You will make an impact in improving RSQ in the research software community by developing effective ways to communicate best practices to stakeholders.
+* You will make an impact in improving Research Software Quality in the research software community by developing effective ways to communicate best practices to stakeholders.
 
 ### Responsibilities
 
@@ -43,7 +44,7 @@ in effective digital communication, who can help in keeping the quality of conte
 
 We want to keep the editorial board at a manageable number, therefore we are looking for complementary expertise to the current members.
 
-* The applicant must have experience in RSQ.
+* The applicant must have experience in Research Software Quality.
 * The applicant must be interested in effective digital communication of best practices and guidelines.
 * The applicant should be willing to spend some time on evaluation of content.
 * The applicant should be open to discuss topics with other editorial board members and to accept feedback.
@@ -54,7 +55,7 @@ We want to keep the editorial board at a manageable number, therefore we are loo
 To become part of the Editorial Board, please provide:
 
 * A short motivation letter (a couple of paragraphs) describing why you would like to join the RSQKit Editorial Board.
-* A summary of your experience in RSQ.
+* A summary of your experience in Research Software Quality.
 * List of the RSQKit sections that you are most interested in (or feel are missing).
 
 Email your application to the [Editorial Board](mailto: rsqkit@lists.certh.gr).

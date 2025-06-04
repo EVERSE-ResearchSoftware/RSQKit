@@ -1,9 +1,10 @@
 ---
 title: Page Style Guidelines
+summary: Comprehensive guidelines for page style and formatting.
 ---
 
 In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and their more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf). 
-Below are the style guidelines specific to the pages in RSQKit (adapted from [RDKkit Style Guide](https://rdmkit.elixir-europe.org/style_guide)). 
+Below are the style guidelines specific to the pages in RSQKit (adapted from [RDMkit Style Guide](https://rdmkit.elixir-europe.org/style_guide)). 
 
 ## General style and tone
 
@@ -19,7 +20,10 @@ Below are the style guidelines specific to the pages in RSQKit (adapted from [RD
 We provide page templates for certain content types in RSQKit to keep the structure of such pages consistent. 
 If in doubt when creating new content, have a look at other existing content of the same type and try to mimic that.
   
-* [Task page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md) for pages addressing common issues or describing commonly performed tasks around research software quality. For an example - see ["How to make a good README" task page](https://everse.software/RSQKit/how_to_make_a_good_readme).
+* [Research Cluster or Infrastructure page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/research_clusters_and_infrastructures/TEMPLATE_research_cluster_or_infrastructure.md) for pages describing research clusters or infrastructures where software is a core part of activities. For an example - see ["ESCAPE - physics & astronomy"](https://everse.software/RSQKit/escape).
+* [Research Software Story template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/research_software_stories/TEMPLATE_research_software_story.md) for pages listing specific pieces of research software and the quality steps they use. 
+* [Role page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_role/TEMPLATE_your_role.md) for pages documenting different research professional roles and their relationship with research software. For an example - see ["Researchers who code"](https://everse.software/RSQKit/researcher_who_codes).
+* [Task page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md) for pages addressing common issues or describing commonly performed tasks around research software quality. For an example - see ["Creating a good README"](https://everse.software/RSQKit/creating_good_readme).
 
   
 ## Content
@@ -63,13 +67,13 @@ If in doubt when creating new content, have a look at other existing content of 
 ## Page graphics
 
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
-  * **Colours:** The official colours of the EVERSE projects are still to be decided. In the meantime, we recommend to take into account accessibility of those who are colour blind when choosing colours used in graphs and tables. 
+  * **Colours:** official colours of the EVERSE projects are still to be decided. In the meantime, we recommend to take into account accessibility of those who are colour blind when choosing colours used in graphs and tables. 
   * **Fonts:** [Exo 2 font](https://fonts.google.com/specimen/Exo+2) (licensed under the SIL Open Font License version 1.1) is used for headings and main branding font, Open Sans for body text.
-  * **Icons:** Icons used by RSQKit are either desigined by [Xènia Pérez Sitjà](https://github.com/sitjart) for [RDMKit](https://github.com/elixir-europe/rdmkit?tab=readme-ov-file#custom-icons) or come from [Font Awesome](https://fontawesome.com/).
-  * **Illustrations:** Try to use the icons specified above in your illustrations, if possible. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues) on GitHub or [email us](mailto:rsqkit@lists.certh.gr).
+  * **Icons:** icons used by RSQKit come from [Font Awesome](https://fontawesome.com/).
+  * **Illustrations:** try to use the icons specified above in your illustrations, if possible. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues) on GitHub or [email us](mailto:rsqkit@lists.certh.gr).
   * **Images:**
-    * Do not use images to display text.
-    * Include an 'alt-text' attribute in images to explain what is represented in the image for screen readers to use.
+    * do not use images to display text.
+    * include an 'alt-text' attribute in image tags (used by for screen readers) to describe what the image represents.
    
 ## Naming of files, tags, keywords, and navigation titles
 

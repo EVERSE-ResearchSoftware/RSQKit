@@ -11,16 +11,27 @@
 # You can reference contributors by their name in the fromntmatter section of content pages using parameter "contributors".
 
 
+Eva Martín del Pico:
+    git: EvaMart
+    orcid: 0000-0001-8324-2897
+    role: author
 Laura Portell-Silva:
     git: lauportell
     email: laura.portell@bsc.es
-    orcid: 0000-0003-0390-3208
+    orcid: 0000-0003-0390- 3208
+    role: editor
+    affiliation: Barcelona Supercomputing Center / ELIXIR-ES
+Pablo Martinez-Diaz:
+    git: PMartinezBSC
+    email: pablo.martinez@bsc.es
+    orcid: 0009-0000-0005-4437
     role: editor
     affiliation: Barcelona Supercomputing Center / ELIXIR-ES
 Carole Goble:
     git: CaroleGoble
     orcid: 0000-0003-1219-2137
     affiliation: The University of Manchester / ELIXIR-UK
+    role: contributor
 Fotis Psomopoulos:
     git: fpsom
     orcid: 0000-0002-0222-4273
@@ -29,7 +40,8 @@ Fotis Psomopoulos:
     affiliation: Institute of Applied Biosciences(INAB|CERTH) / ELIXIR-GR 
 Salvador Capella-Gutierrez:
     email: salvador.capella@bsc.es 
-    affiliation: Barcelona Supercomputing Centre (BSC) 
+    affiliation: Barcelona Supercomputing Centre (BSC)
+    role: contributor
 Patrick Bos:
     git: egpbos
     email: p.bos@esciencecenter.nl
@@ -46,6 +58,7 @@ Shraddha Bajare:
     git: shraddha-bajare
     email: shraddha.bajare@skao.int
     affiliation: Square Kilometre Array Observatory
+    role: editor
 Aleksandra Nenadic:
     git: anenadic
     orcid: 0000-0002-2269-3894
@@ -59,6 +72,7 @@ Shoaib Sufi:
 Jason Maassen:
     git: jmaassen
     email: J.Maassen@esciencecenter.nl
+    orcid: 0000-0002-8172-4865
     role: editor
     affiliation: Netherlands eScience Center
 Zhiming Zhao:
@@ -69,11 +83,82 @@ Zhiming Zhao:
 Christian Hüser:
     git: christianhueserhzdr
     affiliation: HZDR
+    role: author
+Christian Mönch:
+    git: christian-monch
+    role: author
 Azza Gamgami:
     git: azza-max
+    role: author
 Kirsty Pringle:
     git: KirstyPringle
+    role: author
 Esteban González:
     git: esgg
+    role: author
 Giacomo Peru:
     git: gperu
+    role: author
+Graeme A Stewart:
+    git: graeme-a-stewart
+    orcid: 0000-0003-0182-7088
+    email: graeme.andrew.stewart@cern.ch
+    affiliation: CERN
+    role: contributor
+Simon Christ:
+   git: BeastyBlacksmith
+   email: SimonChrist@gmx.de
+   orcid: 0000-0002-5866-1472
+   role: author
+   affiliation: Leibniz University Hannover
+Valentin Churavy:
+    git: vchuravy
+    orcid: 0000-0002-9033-165X
+    affiliation: JGU Mainz & University of Augsburg
+    role: contributor
+Jan Küster:
+    git: jankapunkt
+    affiliation: Universität Bremen
+    orcid: 0009-0008-8088-9837
+    role: contributor
+Kenneth Rioja:
+   git: kennethrioja
+   email: kenneth.brian.rioja@cern.ch
+   orcid: 0000-0002-5177-0019
+   affiliation: CERN
+   role: contributor
+Thomas Vuillaume:
+   git: vuillaut
+   affiliation: LAPP, University Savoie Mont-Blanc, CNRS
+   orcid: 0000-0002-5686-2078
+   email: thomas.vuillaume@lapp.in2p3.fr
+   role: author
+Elena Breitmoser:
+    git: ebreitmo
+    email: e.breitmoser@epcc.ed.ac.uk
+    orcid: 0000-0003-1295-9326
+    affiliation: University of Edinburgh
+    role: contributor
+Michael Sparks:
+    git: sparkslabs
+    email: sparks.m@gmail.com
+    affiliation: The University of Manchester / Software Sustainability Institute
+    role: editor
+Robert Speck:
+  git: pancetta
+  email: r.speck@fz-juelich.de
+  orcid: 0000-0002-3879-1210
+  role: contributor
+  affiliation: Jülich Supercomputing Centre, Forschungszentrum Jülich GmbH
+Guido Juckeland:
+    git: juckel
+    email: g.juckeland@hzdr.de
+    orcid: 0000-0002-9935-4428
+    affiliation: Helmholtz-Zentrum Dresden Rossendorf (HZDR)
+    role: contributor
+Tom François:
+    git: francoto
+    email: tom.francois@lapp.in2p3.fr
+    orcid: 0000-0001-5226-3089
+    affiliation: CNRS-LAPP
+    role: contributor
