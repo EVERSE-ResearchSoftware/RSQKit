@@ -431,7 +431,8 @@
     created: 03-04-2025
     description: At least one static code analysis tool used includes rules or techniques
         to detect common vulnerabilities specific to the language or environment.
-    identifier: https://w3id.org/everse/i/indicators/static_analysis_common_vulnerabilities
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/static_analysis_common_vulnerabilities
     keywords:
     - security
     - vulnerabilities
