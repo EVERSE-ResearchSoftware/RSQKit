@@ -59,7 +59,8 @@ code, data, results, tests, auxiliary information and metadata.
   - If data files are too large (or contain sensitive information) to track by version control and expose in public repositories, you should untrack them (e.g. using `.gitignore` file in Git). The same goes if you are storing passwords in files - they should not be version controlled.
   - Use tags or [releases][releasing_code] to mark specific versions of results (a version submitted to a journal, dissertation version, poster version, etc.) so as to avoid using version numbers in file names and proliferation of different files.
 
-Below is an example of a directory structure for a generic research project.
+Below is an example of a directory structure for a generic research project. This is not the only way to organise your project folder (there is no official or standard way and you may not have 
+all the same subfolders in your project), but it is a good practice to follow that will be understandable by many others.
 
 ```
 project_name/
@@ -88,12 +89,27 @@ project_name/
 └── ...
 ```
 
-For Python:
+For best practices and guidance for designing research projects in particular focussed on data - check out [the Turing Way Project's Guide for project design][turing-project-design]. 
 
-- Checkout the {% tool 'fair-python-coockiecutter' %} - a template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality.
-- {% tool "poetry" %} is a popular tool for managing dependencies in Python projects which you can also use to create a new directory with the necessary structure if you are starting a new Python project from scratch.
+For research projects that contain code, if you are using Python - check out the following two tools:
 
-Check out [the Turing Way Project's Guide for project design][turing-project-design] for best practices and guidance for designing research projects in particular focussed on data. 
+- {% tool 'fair-python-coockiecutter' %} is a command-line template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality. It generates project directories from predefined templates and ensures consistency by scaffolding a standardised project layout, including folders like `src/` for code, `tests/` for tests (shown below), and configuration files such as `pyproject.toml`, `README`, and `.gitignore`. This is especially helpful for teams or when starting new software projects, as it reduces setup time and enforces best practices.
+-  {% tool "poetry" %} is a dependency and packaging manager that simplifies Python project management. It uses a single `pyproject.toml` file to declare dependencies, manage virtual environments, and handle versioning and publishing.
+In addition, Poetry will also create a new directory with the necessary structure for you if you are starting a new Python project from scratch.
+Poetry itself does not enforce a specific directory structure, but it encourages and works well with the "src layout" (shown below), which is a widely adopted best practice in modern Python development (as does {% tool 'fair-python-coockiecutter' %}).
+
+```
+project_name/
+├── pyproject.toml         # Poetry config: dependencies, metadata, build system
+├── README.md              # Project description
+├── src/                   # Source code root (recommended layout)
+│   └── your_package/      # Actual Python package/module
+│       ├── __init__.py
+│       └── ...
+├── tests/                 # Unit and integration tests
+│   └── test_something.py
+└── .gitignore
+```
 
 [creating_good_readme]: ./creating_good_readme
 [licensing_software]: ./licensing_software
