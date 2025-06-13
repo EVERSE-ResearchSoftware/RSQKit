@@ -103,5 +103,5 @@ Check out [the Turing Way Project's Guide for project design][turing-project-des
 [software_metadata]: ./software_metadata
 [cff]: https://citation-file-format.github.io/
 [citing_software]: ./citing_software
-[turing-project-design]: https://book.the-turing-way.org/project-design/project-repo/project-repo-advanced.html
+[turing-project-design]: https://book.the-turing-way.org/project-design/pd-design-overview/project-repo/project-repo-advanced
 [directory-structure-poetry]: https://medium.com/@sjalexandre/python-tutorial-managing-projects-with-poetry-cd2deab72697
