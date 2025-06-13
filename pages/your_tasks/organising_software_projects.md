@@ -42,7 +42,7 @@ code, data, results, tests, auxiliary information and metadata.
   - Add `LICENSE` file to describe the how others can reuse your software or work - see more on [licensing software][licensing_software].
   - Add [`CITATION.cff`][cff] file to describe how to cite the project - see more on [citing software][citing_software].
   - Add `codemeta.json` file (or similar metadata standard) to describe your software's metadata - see more on [software metadata][software_metadata].
-- **Subdirectories of the project** - organise the project into sub-directories clearly labelled based on the type of their content content, for example:
+- **Subdirectories of the project** - organise the project into sub-directories clearly labelled based on the type of their content, for example:
   - `data` - for storing your data. Further organise raw, cleaned, intermediate, and/or processed data in separate subdirectories (e.g. `data/raw`, `data/clean`, `data/processed`) to maintain clarity and prevent overwriting or losing the original raw data. 
   - `code` (or `scripts` or `src`) - for storing your source code.
   - `results` - for storing analysis outputs, summary statistics, or any data generated after processing.
