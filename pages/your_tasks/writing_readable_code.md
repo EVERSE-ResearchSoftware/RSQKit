@@ -1,7 +1,7 @@
 ---
 title: Writing readable code
 description: How to write code readable and understandable by others?
-contributors: ["Aleksandra Nenadic"]
+contributors: ["Aleksandra Nenadic", "Christian Mönch"]
 page_id: writing_readable_code
 related_pages:
   your_tasks: [documenting_software]
@@ -32,7 +32,7 @@ and saves future developers' time and effort.
 
 - Code is read much more often than it is written - [some sources][code-is-read-more-than-it-is-written] report that in a typical project the code 
 "read vs write" ratio is 7:1, i.e. code is read seven times more than it is written.
-- Readable code is easier to understand, maintain, debug and extend (reuse) - saving time and effort.
+- Readable code is easier to understand, maintain, debug, and extend (reuse) - saving time and effort.
 - Readable code can also make it better and more secure in a way, as it is easier for reviewers to pick out errors.
 
 
@@ -79,6 +79,7 @@ Here is the summary of some of the practices to follow to make your code more re
 - Use descriptive names for function, class and variable names that help explain their purpose.
 - Keep lines short - avoid long lines, and instead write blocks of lines that are horizontally short and vertically long. 
 - Use indentation to show the hierarchy of your code and mark the beginning and end of control structures. 
+- If possible use type annotations for untyped languages like Python or JavaScript. Type annotations (also known as type hints) are a way to specify the *expected* data types of variables, function parameters, and return values in progamming languyages that are not strongly typed and are of great help to understand code. Use a type checker to validate your code, for example, {% tool "mypy" %} for Python. This will reduce the risk of faulty type annotations (it will also improve the quality of your code by detecting faulty assumptions)
 - Write informative comments and documentation strings for functions to provide more detail about what the code and is doing, 
 transmit understanding and context. In addition to documenting your source code - [see more on documenting your software project](./documenting_software.md) which will help people understand its functionality better and help with reuse.
 - Follow a code style guide for your programming language that is agreed upon by the community and other programmers will find easy to read. 
@@ -86,6 +87,7 @@ Style guidelines are intended to improve the readability of code and make it con
 Consistency with a style guide is important but consistency within a project or a module is more important - if you 
 are joining an existing project, look at the existing code and make sure to adopt whatever practices are already in place.
 - Follow [guidelines and conventions on consistent and informative directory structure](./organising_software_projects.md) for your software or research projects - this way, people will immediately know where to find things within your project.
+- Use automated code formatters (such as {% tool "black" %}) to enforce code styles and formatting rules.
 - Automate style checks to help ensure your code is consistent. Many modern Integrated Development Environments (IDEs), such as {% tool "vscode" %}, {% tool "pycharm" %}, {% tool "rstudio" %} or {% tool "eclipse" %}, 
 have built-in support for checking conformance to style conventions and they will warn you when you deviate or even autocorrect things for you.
 - Use {% tool "code-linters" %} - static code analysis tools (such as {% tool "pylint" %}) used to flag code consistency issues, stylistic errors, suspicious language constructs, and even programming errors and bugs.
@@ -109,4 +111,6 @@ functionality in custom, more error-prone code.
 [design-patterns-book]: https://refactoring.guru/design-pattern
 [design-patterns]: https://en.wikipedia.org/wiki/Software_design_patterns
 [code-is-read-more-than-it-is-written]: https://primalskill.blog/code-is-read-more-than-it-is-written
-
+[static-vs-dynamic-typing]: https://quorumlanguage.com/evidence.html
+[design-patterns-book]: https://refactoring.guru/design-patterns
+[clean-code-book]: https://www.oreilly.com/library/view/clean-code-a/9780136083238/

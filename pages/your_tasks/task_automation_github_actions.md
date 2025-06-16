@@ -5,7 +5,7 @@ summary: Step-by-step guide that covers workflow creation, using pre-built actio
 contributors: ["Eva Martín del Pico"]
 page_id: task_automation_github_actions
 related_pages: 
-  your_tasks: [ci_cd]
+  your_tasks: [ci_cd, task_automation_gitlab_ci_cd]
 ---
 
 ## Task automation using GitHub Actions
@@ -51,10 +51,10 @@ that help automate tasks such as building, testing and deploying code. GitHub Ac
     ``` 
 
   * Commit and push this file to your repository.
-  * Go to the **Actions** tab in your GitHub repository to see the workflow run. The **real-time visualization graph** displayed here provides a clear sequence of executed jobs, making it easier to track progress and identify potential issues. Click on individual jobs to expand the steps, where you'll find **detailed logs and error messages** to help with troubleshooting and debugging efficiently.  
+  * Go to the **Actions** tab in your GitHub repository to see the workflow run. The **real-time visualisation graph** displayed here provides a clear sequence of executed jobs, making it easier to track progress and identify potential issues. Click on individual jobs to expand the steps, where you'll find **detailed logs and error messages** to help with troubleshooting and debugging efficiently.  
 
 
-    ![Visualization of a finished workflow run in the github interface](../../images/first_github_action_1.png) 
+    ![Visualisation of a finished workflow run in the github interface](../../images/first_github_action_1.png) 
 
     ![Detail of steps completed in a workflow run in the github interface](../../images/first_github_action_2.png)
 

@@ -46,7 +46,7 @@ Affiliations can be described using the following metadata/attributes (all of wh
 * `expose`: flag to indicate whether to show the affiliation in affiliation listings or not.
 * `type`: type of affiliation, e.g. `institution`.
 * `url`: URL of the affiliation.
-* `pid`: persistent identifier of the affiliation (e.g. Research Organization Registry (ROR) id).
+* `pid`: persistent identifier of the affiliation (e.g. Research Organisation Registry (ROR) id).
 * `image_url`: absolute path to affiliation's image.
 
 An example affiliation definition is given below:

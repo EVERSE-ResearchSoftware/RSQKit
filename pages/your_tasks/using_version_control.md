@@ -5,6 +5,7 @@ contributors: ["Giacomo Peru"]
 page_id: using_version_control
 related_pages:
   your_tasks: []
+quality_indicators: [version_control_use]
 ---
 
 ## How do I choose the right version control system for my research project?

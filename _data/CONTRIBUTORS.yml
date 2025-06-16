@@ -84,6 +84,9 @@ Christian Hüser:
     git: christianhueserhzdr
     affiliation: HZDR
     role: author
+Christian Mönch:
+    git: christian-monch
+    role: author
 Azza Gamgami:
     git: azza-max
     role: author
@@ -152,4 +155,10 @@ Guido Juckeland:
     email: g.juckeland@hzdr.de
     orcid: 0000-0002-9935-4428
     affiliation: Helmholtz-Zentrum Dresden Rossendorf (HZDR)
+    role: contributor
+Tom François:
+    git: francoto
+    email: tom.francois@lapp.in2p3.fr
+    orcid: 0000-0001-5226-3089
+    affiliation: CNRS-LAPP
     role: contributor

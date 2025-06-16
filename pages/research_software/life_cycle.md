@@ -6,7 +6,7 @@ title: Research Software lifecycle
 
 ![The Research Software Lifecycle](../../images/lifecycle.png)
 
-The research software lifecycle, shown in the figure above, provides a model for understanding the different phases encountered during the development of research software. (Please note that this model does not accurate all research software, as, for example, some research software is designed to provide general functionality to support mutliple research questions, not to answer a research question directly, so "(1) Research Question" in the figure can be generalized to "(1) Research Purpose". This is often the case for some Tier 1 or 2 software as described below.)
+The research software lifecycle, shown in the figure above, provides a model for understanding the different phases encountered during the development of research software. (Please note that this model does not accurate all research software, as, for example, some research software is designed to provide general functionality to support multiple research questions, not to answer a research question directly, so "(1) Research Question" in the figure can be generalised to "(1) Research Purpose". This is often the case for some Tier 1 or 2 software as described below.)
 This lifecycle was developed as part of the EOSC Task Force [Infrastructure for quality research software](https://eosc.eu/advisory-groups/infrastructures-quality-research-software/) and described in detail in [this](https://doi.org/10.5281/zenodo.8324828) document. 
 
 There is a close link between the this software lifecycle and the [Three tiers model](http://everse.software/RSQKit/three_tier_view). Depending on the tier of software,  the length of the lifecycle, or number of iterations through the lifecycle may vary. 
