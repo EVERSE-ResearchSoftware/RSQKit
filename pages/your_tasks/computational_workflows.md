@@ -10,27 +10,25 @@ related_pages:
 
 ## What are computational workflows? 
 
-Computational workflows are a special kind of software that **automate** multi-step, multi-code data 
-pipelines, data analyses, and other data-handling operations, especially through the efficient use of computational 
-resources to transform data inputs into desired outputs.
+Computational workflows are a special kind of software that **automate** multi-step (and often multi-code) data analysis or 
+data handling pipelines, especially through the efficient use of computational resources to transform data inputs into desired outputs.
+
+Workflows might consist of a script (e.g. Bash) or enumerated stages in an electronic research notebook 
+(e.g. Jupyter, RStudio, Apache Zeppelin, etc.) with a set of **instructions** that use **inputs** and **outputs** to **pipe** the **results together**.
 
 Computational workflows have two prominent characteristics:
 
 1. workflows consist of a series (or a structure) of **interconnected components** that may include other workflows, 
 software, code snippets, tools, or services. The workflow defines the order, structure, and logic governing how 
 these components interact to process data from inputs to final outputs.
-2. workflows **abstract** the flow of data between the components from the run mechanics in some form of a high-level 
+2. workflows **abstract away** the flow of data between the components from the run mechanics in some form of a high-level 
 **workflow definition language**.
 Workflow definitions detail inputs, dependencies, computational environment, step definitions, conditional logic, 
 parallelism, etc. A dedicated **workflow management system (WMS)** is typically responsible for executing the 
 workflow based on its definition, handling and tracking data (provenance), task scheduling and resource management.
 
-At the simplest end of the complexity spectrum, a workflow might consist of a script (e.g. Bash, Python, R) or 
-enumerated stages in an electronic research notebook (e.g. Jupyter, RStudio, Apache Zeppelin, etc.) with a set of 
-instructions that use inputs and outputs to pipe the results together.
-
-At the more sophisticated end, workflows might employ workflow management systems such as {% tool "nextflow" %}, {% tool "galaxy" %},
-{% tool "snakemake" %}, {% tool "apache-airflow" %} or {% tool "parsl" %} using a variety of high-level workflow definition 
+Sophisticated WMSs such as {% tool "nextflow" %}, {% tool "galaxy" %},
+{% tool "snakemake" %}, {% tool "apache-airflow" %} or {% tool "parsl" %} use a variety of high-level workflow definition 
 languages (such as [Nextflow Domain Specific Language (DSL)][nextflow-dsl], [Snakefile][snakefile], 
 [Workflow Description Language (WDL)][wdl], [Common Workflow Language (CWL)][cwl], [Apache Airflow DAG][apache-airflow-dag]).
 
