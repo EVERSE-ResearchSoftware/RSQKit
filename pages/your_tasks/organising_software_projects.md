@@ -59,6 +59,8 @@ code, data, results, tests, auxiliary information and metadata.
   - If data files are too large (or contain sensitive information) to track by version control and expose in public repositories, you should untrack them (e.g. using `.gitignore` file in Git). The same goes if you are storing passwords in files - they should not be version controlled.
   - Use tags or [releases][releasing_code] to mark specific versions of results (a version submitted to a journal, dissertation version, poster version, etc.) so as to avoid using version numbers in file names and proliferation of different files.
 
+### Example project structures
+
 Below is an example of a directory structure for a generic research project. This is not the only way to organise your project folder (there is no official or standard way and you may not have 
 all the same subfolders in your project), but it is a good practice to follow that will be understandable by many others.
 
@@ -89,8 +91,6 @@ project_name/
 └── ...
 ```
 
-For best practices and guidance for designing research projects in particular focussed on data - check out [the Turing Way Project's Guide for project design][turing-project-design]. 
-
 For research projects that contain code, if you are using Python - check out the following two tools:
 
 - {% tool 'fair-python-coockiecutter' %} is a command-line template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality. It generates project directories from predefined templates and ensures consistency by scaffolding a standardised project layout, including folders like `src/` for code, `tests/` for tests (shown below), and configuration files such as `pyproject.toml`, `README`, and `.gitignore`. This is especially helpful for teams or when starting new software projects, as it reduces setup time and enforces best practices.
@@ -110,6 +110,8 @@ project_name/
 │   └── test_something.py
 └── .gitignore
 ```
+
+For best practices and guidance for designing research projects in particular focused on data - check out [the Turing Way Project's Guide for project design][turing-project-design]. 
 
 [creating_good_readme]: ./creating_good_readme
 [licensing_software]: ./licensing_software
