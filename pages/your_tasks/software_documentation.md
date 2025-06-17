@@ -32,8 +32,8 @@ It helps align the expectations and goals of all parties, while also ensuring th
 
 * Think about who will be using the documentation and what is its purpose. 
 * Understanding the purpose allows you to tailor the content accordingly. For example:
-  * *user documentation* (e.g. end user guides) -  should explain clearly what the software does and how it should be used, focussing on usability and clarity and offering step-by-step instructions. 
-  * *developer documentation* (including software specification, docstrings, in-line comments, etc.) - covers in-depth techincal details about the software and should explain how the software can be modified, tested, and contributed to (governance, code of conduct, contributing guidelines, etc.).
+  * *user documentation* (e.g. end user guides) -  should explain clearly what the software does and how it should be used, focusing on usability and clarity and offering step-by-step instructions. 
+  * *developer documentation* (including software specification, docstrings, in-line comments, etc.) - covers in-depth technical details about the software and should explain how the software can be modified, tested, and contributed to (governance, code of conduct, contributing guidelines, etc.).
   * *deployment documentation* (e.g. installation and administration guide) - should explain system requirements (e.g. dependencies) for installing/deploying and running the software on various platforms/infrastructures and instructions for installation and testing.
 * Create personas to represent your audience for better-targeted technical content - it helps categorise your help documentation.
 
