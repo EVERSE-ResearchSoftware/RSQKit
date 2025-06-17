@@ -7,7 +7,8 @@ import json
 import pprint
 from glob import glob
 from deepdiff import DeepDiff
-from tabulate import tabulate
+from rich.table import Table
+from rich.console import Console
 
 TECHRADAR_GITHUB_API_URL = "https://api.github.com/repos/EVERSE-ResearchSoftware/TechRadar/contents/data/software-tools"
 
@@ -70,27 +71,28 @@ def compare_tool_definitions(yaml_tool, jsonld_tool, fields_to_compare, field_ma
 
 
 def summarize_discrepancies(discrepancy_dict):
+    console = Console()
+
     if not discrepancy_dict:
-        print("No discrepancies found across tools.")
+        console.print("[bold green]No discrepancies found across tools.[/bold green]")
         return
 
-    table = []
+    table = Table(title="Summary of Tools with Discrepancies")
+
+    table.add_column("Tool", style="cyan", no_wrap=True)
+    table.add_column("Field", style="magenta")
+    table.add_column("RSQkit Description", style="yellow")
+    table.add_column("TechRadar Description", style="green")
+
     for tool, diffs in discrepancy_dict.items():
         for field, diff in diffs.items():
             values_changed = diff.get('values_changed', {})
             for path, changes in values_changed.items():
-                rsqkit_description = changes.get('old_value', 'N/A')
-                techradar_description = changes.get('new_value', 'N/A')
-                table.append({
-                    "Tool": tool,
-                    "Field": field,
-                    "RSQkit Description": rsqkit_description,
-                    "TechRadar Description": techradar_description
-                })
+                rsqkit_description = str(changes.get('old_value', 'N/A'))
+                techradar_description = str(changes.get('new_value', 'N/A'))
+                table.add_row(tool, field, rsqkit_description, techradar_description)
 
-    print("Summary of Tools with Discrepancies:\n")
-    print(tabulate(table, headers="keys", tablefmt="github"))
-
+    console.print(table)
 
 def main():
     rsqkit_tools = load_yaml_tools_from_rsqkit()
