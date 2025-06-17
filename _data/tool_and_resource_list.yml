@@ -11,6 +11,10 @@
 #       tess: <name>  <-- this will search the tess training registry using the term <name> - i.e. the tool name and return associated results - in this case around training on this tool
 #   url: the homepage of the tool/resource
 #   qualityIndicator:  Research Software Quality indicator (see quality_indicators.yml file in this folder) associated with this tool. More than one quality indicator may be declared per tool (in a list)
+- description: Mypy is an optional static type checker for Python that aims to combine the benefits of dynamic typing and static typing
+  id: mypy
+  name: mypy
+  url: https://mypy-lang.org/
 - description: System Package Data Exchange (SPDX) is an open standard for representing systems with software components as SBOMs (Software Bill of Materials) and other AI, data and security references supporting a range of risk management use cases.
   id: spdx
   name: SPDX

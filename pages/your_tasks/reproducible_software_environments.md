@@ -16,7 +16,7 @@ especially when it comes to research.
 Here are some popular tools and approaches for creating reproducible software environments based on their scope and usage:
 
 - **Programming language-specific environments** - focus on managing dependencies and development/runtime environments 
-for specific programming languages, ensuring consistent behavior of software across different systems. Extremely useful when you
+for specific programming languages, ensuring consistent behaviour of software across different systems. Extremely useful when you
 are developing or modifying other people's software.
 - **Containerised environments** - use containers to encapsulate software and its dependencies, ensuring the software runs consistently across different systems regardless of the underlying host operating system.
   - {% tool "docker" %} - creates lightweight, isolated containers for packaging software and its dependencies.
