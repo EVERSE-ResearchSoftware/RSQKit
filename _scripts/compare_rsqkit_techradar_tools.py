@@ -2,10 +2,11 @@
 import os
 import json
 import yaml
-from glob import glob
-from deepdiff import DeepDiff
 import requests
 import json
+import pprint
+from glob import glob
+from deepdiff import DeepDiff
 from tabulate import tabulate
 
 TECHRADAR_GITHUB_API_URL = "https://api.github.com/repos/EVERSE-ResearchSoftware/TechRadar/contents/data/software-tools"
@@ -115,9 +116,7 @@ def main():
             if discrepancies:
                 all_discrepancies[tool_name] = discrepancies
                 print(f"Discrepancies found for tool '{tool_name}':")
-                for field, diff in discrepancies.items():
-                    print(f" - Field: {field}")
-                    print(f"   Difference: {diff}")
+                pprint.pprint(discrepancies, indent=4, width=120)
     summarize_discrepancies(all_discrepancies)
 
 if __name__ == "__main__":
