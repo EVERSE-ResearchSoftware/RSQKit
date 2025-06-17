@@ -53,10 +53,10 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install deepdiff requests tabulate pyyaml
+          pip install -r _scripts/requirements.txt
 
       - name: Run discrepancy check script
-        run: python compare_rsqkit_techradar_tools.py
+        run: python _scripts/compare_rsqkit_techradar_tools.py
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
