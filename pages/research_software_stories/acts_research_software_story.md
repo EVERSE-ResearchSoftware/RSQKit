@@ -8,13 +8,15 @@ type: research_software_story
 
 ## The Problem
 
-Modern particle physics experiments produce enormous volumes of data.  One
-key challenge is track reconstruction - converting raw detector hits into
-meaningful particle trajectories.  Historically, each experiment built its
-own tracking software, resulting in duplicated effort and limited sharing of
-improvements.  The ACTS project (Acts Common Tracking Software) was created
-to provide a single, experiment-independent toolkit for efficient track
-reconstruction.
+Modern particle physics experiments produce enormous volumes of data and
+this is expected to grow in the near future.  One key challenge is track
+reconstruction - converting raw detector hits from charged particles into
+estimated particle trajectories.  Historically, each experiment built its
+own specialized tracking software, resulting in duplicated effort and the
+lack of a common framework to collaborate and improve upon.  The ACTS
+project (Acts Common Tracking Software) was created to provide a single,
+experiment-independent toolkit for efficient track reconstruction.
+
 
 ## The Community
 
@@ -23,18 +25,21 @@ high-energy and nuclear physics communities (including heavy-ion
 experiments).  Contributors come from institutions worldwide.  ACTS is
 actively used in ATLAS, CERN's Experimental Physics R&D projects, and
 various detector R&D studies.  It also attracts researchers developing new
-tracking algorithms and advanced computing architectures.  This broad
-adoption has created a large, collaborative base of users and developers.
+tracking algorithms for advanced computing architectures by acting as a
+modular test suite and comparison baseline.  This broad adoption has created
+a large, collaborative base of users and developers.
+
 
 ## Technical Aspects
 
-ACTS is a high-performance, thread-safe library written in modern C++
-(C++20).  Its core components include:
-
-- Tracking algorithms: Tools for track fitting, seeding, and vertex finding.
+ACTS is a high-performance, thread-safe library written in modern C++.  Its
+core components include:
 
 - Geometry description: An optimised detector geometry model for fast
   navigation.
+
+- Tracking algorithms: Tools for track finding and fitting, seeding, vertex
+  finding, etc.
 
 - Event Data Model (EDM): A standardised way to represent track data.
 
@@ -45,6 +50,7 @@ library).  The toolkit uses CMake for building and runs on Linux with
 multi-core support.  It can integrate with external geometry definitions
 (eg.  ROOT TGeo or DD4hep), making it easier to use in different
 experiments' software frameworks.
+
 
 ## Libraries and Systems
 
@@ -59,15 +65,20 @@ experiments' software frameworks.
 - GPU acceleration: Experimental support for using GPUs to speed up certain
   computations.
 
+- ML integration: Plugins like Exa.TrkX for GNN based tracking or ONNX for
+  development and testing of ML algorithms for ambiguity resolution, seed
+  filtering etc.
+
 
 ## Software Practices
 
 ACTS development follows strict software engineering standards.  The project
-is developed openly on GitLab/GitHub, and every code submission triggers
-automated CI tests to ensure nothing breaks and that thread-safety is
-maintained.  Developers adhere to coding guidelines and use peer reviews on
-merge requests.  Issues are tracked transparently, and frequent meetings
-plus mailing list discussions keep contributors aligned and informed.
+is developed openly on GitHub, and every code submission triggers automated
+CI tests to ensure nothing breaks and that thread-safety is maintained. 
+Developers adhere to coding and contribution guidelines, and use peer
+reviews on merge requests.  Issues are tracked transparently, and frequent
+meetings plus mailing list discussions keep contributors aligned and
+informed.
 
 
 ## Community
@@ -92,22 +103,24 @@ the community.
 
 ACTS uses common tools to maintain quality and facilitate contributions:
 
-- Version control: Git, with repositories on GitHub/GitLab for collaborative
+- Version control: Git, with repositories on GitHub for collaborative
   development.
 
 - Continuous integration: Automated testing pipelines using GitHub Actions
-  and GitLab CI.
 
 - Documentation: Documentation written with Sphinx and published on
   ReadTheDocs.
 
 - Build system: CMake for consistent compilation across platforms.
 
-- Issue tracking: GitHub/GitLab issue trackers for transparent bug reports
-  and feature requests.
+- Issue tracking: GitHub issue trackers for transparent bug reports and
+  feature requests.
+
+- Forums: Github Discussions, Mattermost messaging and e-mail lists for open
+  communication with the core development team.
 
 These tools streamline development, ensure reliability, and make it easier
-for new users to adopt ACTS.
+for new users to adopt and contribute to ACTS.
 
 
 ## FAIR & Open
@@ -130,7 +143,8 @@ ACTS offers thorough documentation for both users and developers:
 - Developer docs: Explanations of internal design, components, and APIs for
   contributors.
 
-- Tutorials and examples: Step-by-step examples demonstrating common use cases.
+- Tutorials and examples: Step-by-step examples demonstrating common use
+  cases.
 
 The documentation is updated alongside the code to remain accurate and
 up-to-date.  Documentation contributions are valued as highly as code
@@ -153,10 +167,11 @@ knowledge, which keeps ACTS resilient and ready to meet future needs.
 
 - ACTS GitHub Repository: <https://github.com/acts-project/acts>
 - ACTS Official Documentation: <https://acts.readthedocs.io/>
-- ACTS Project Website: <https://acts-project.github.io/>
 - License: Mozilla Public License v2.0 (MPL-2.0)
 - IRIS-HEP Project: <https://iris-hep.org/>
 - Ai, X., Allaire, C., Calace, N.  et al.  A Common Tracking Software
   Project.  Comput Softw Big Sci 6, 8 (2022). 
   https://doi.org/10.1007/s41781-021-00078-8
-
+- Varni, C.,The ATLAS collaboration.  Integration of the ACTS track
+  reconstruction toolkit in the ATLAS software for HL-LHC operations (2025)
+  https://cds.cern.ch/record/2921878
