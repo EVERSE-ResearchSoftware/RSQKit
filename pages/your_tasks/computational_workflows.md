@@ -92,7 +92,7 @@ on specific domains or communities using a specific WMS or workflow definition l
 - [Dockstore][dockstore] – a registry widely used in bioinformatics, supporting CWL, WDL, Nextflow, and Galaxy workflows
 - [nf-core][nf-core] – a curated collection of high-quality, community-developed Nextflow workflows ({% tool "workflowhub" %} also automatically registers workflows developed by nf-core)
 - [REANA][reana] – a platform for reusable and reproducible analysis workflows in particle physics and related fields
-- [Gesis Methods Hub][gesis-methods-hub] – a developing platform aimed at sharing workflows for social science and digital behavioural data analysis
+- [GESIS Methods Hub][gesis-methods-hub] – a developing platform aimed at sharing workflows for social science and digital behavioural data analysis
 - {% tool "github" %}  / {% tool "gitlab" %}  – many researchers use these general-purpose platforms to openly share workflows alongside code, documentation, and other project materials.
 
 ## Describing workflows
