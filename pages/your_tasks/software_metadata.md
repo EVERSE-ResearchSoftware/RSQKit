@@ -5,6 +5,7 @@ contributors: ["Daniel Garijo", "Aleksandra Nenadic"]
 page_id: software_metadata
 related_pages:
   your_tasks: [software_identifiers]
+quality_indicators: [descriptive_metadata, codemeta_completeness]
 ---
 
 

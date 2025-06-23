@@ -5,6 +5,7 @@ contributors: ["Patrick Bos"]
 page_id: languages_tools_infrastructures
 related_pages:
    your_tasks: []
+quality_indicators: []
 ---
 
 ## How to choose programming languages, tools and infrastructures?

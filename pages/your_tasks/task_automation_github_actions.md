@@ -6,6 +6,7 @@ contributors: ["Eva Martín del Pico"]
 page_id: task_automation_github_actions
 related_pages: 
   your_tasks: [ci_cd, task_automation_gitlab_ci_cd]
+quality_indicators: [software_has_ci-tests]
 ---
 
 ## Task automation using GitHub Actions

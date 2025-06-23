@@ -5,6 +5,7 @@ contributors: ["Aleksandra Nenadic", "Christian Hüser", "Patrick Bos"]
 page_id: testing_software
 related_pages:
   your_tasks: []
+quality_indicators: [software_has_tests, software_has_ci-tests]
 ---
 
 ## What is code testing?

@@ -5,6 +5,7 @@ contributors: ["Aleksandra Nenadic", "Christian Mönch"]
 page_id: writing_readable_code
 related_pages:
   your_tasks: [documenting_software]
+quality_indicators: [has_no_linting_issues]
 ---
 
 
