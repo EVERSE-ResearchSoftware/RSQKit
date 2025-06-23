@@ -97,6 +97,8 @@ subitems:
         url: software_metadata
       - title: "Packaging & releasing software"
         url: packaging_releasing_software
+      - title: "Computational workflows"
+        url: computational_workflows
       - title: Continuous Integration & Deployment
         url: /ci_cd
       - title: "Improving environmental sustainability"
