@@ -37,6 +37,10 @@ which provide greater automation, reproducibility, and scalability.
 In practice, researchers often combine approaches along this spectrum: for instance, a workflow might chain together simple 
 scripts within a WMS, with the entire process launched from an electronic research notebook.
 
+["A Terminology for Scientific Workflow Systems" paper][wms-terminology] provides an excellent overview of terminology to 
+characterise WMSs based on workflow characteristics, composition, orchestration, data management, and metadata capture, and 
+classifies 23 existing WMSs according to the proposed characteristics.
+
 ## Why should I use computational workflows?
 
 Using computational workflows offers several significant benefits for researchers dealing with complex or 
@@ -145,3 +149,4 @@ addressed the application of both FAIR data and software principles to computati
 [dockstore]: https://dockstore.org/
 [nf-core]: https://nf-co.re/
 [gesis-methods-hub]: https://www.gesis.org/en/services/processing-and-analyzing-data/analyzing-digital-behavioral-data/gesis-methods-hub
+[wms-terminology]: https://arxiv.org/abs/2506.07838
