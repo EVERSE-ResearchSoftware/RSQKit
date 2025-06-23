@@ -4,7 +4,7 @@ description: How to decide which programming languages, tools and infrastructure
 contributors: ["Patrick Bos"]
 page_id: languages_tools_infrastructures
 related_pages:
-   your_tasks: [three_tier_view, life_cycle, fair, research_software_engineer]
+   your_tasks: []
 ---
 
 ## How to choose programming languages, tools and infrastructures?

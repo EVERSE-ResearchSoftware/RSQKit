@@ -45,6 +45,18 @@ jobs:
       - name: Install dependencies
         run: |
           bundle install
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r _scripts/requirements.txt
+
+      - name: Run discrepancy check script
+        run: python _scripts/compare_rsqkit_techradar_tools.py
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
