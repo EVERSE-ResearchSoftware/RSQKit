@@ -77,7 +77,7 @@ The availability of community-developed workflows, documentation, and user suppo
 ## Discovering workflows
 
 Researchers may wish to look for existing workflows that meet their needs, before creating one from scratch.
-Reusing existing workflows helps avoid speeds up research and reduces duplication.
+Reusing existing workflows helps speed up research and reduces duplication.
 Users can also benefit from using tried and tested solutions — existing workflows are often peer-reviewed, widely used, or validated, 
 which increases trust in results they produce.
 
