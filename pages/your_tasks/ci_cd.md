@@ -3,6 +3,7 @@ title: Continuous Integration and Continuous Delivery/Deployment
 description: How can you use CI/CD in software development?
 contributors: ["Aleksandra Nenadic"]
 page_id: ci_cd
+indicators: [software_has_ci-tests]
 related_pages: 
   your_tasks: [task_automation_github_actions, task_automation_gitlab_ci_cd]
 ---
