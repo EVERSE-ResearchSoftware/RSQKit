@@ -5,6 +5,7 @@ contributors: ["Shoaib Sufi", "Daniel Garijo", "Thomas Vuillaume", "Aleksandra N
 page_id: software_identifiers
 related_pages:
   your_tasks: [releasing_software]
+quality_indicators: [persistent_and_unique_identifier]
 ---
 
 

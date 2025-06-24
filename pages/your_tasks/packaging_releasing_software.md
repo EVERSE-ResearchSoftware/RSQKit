@@ -6,6 +6,7 @@ contributors: ["Eva Martín del Pico"]
 page_id: packaging_releasing_software 
 related_pages:
   your_tasks: [releasing_software] 
+quality_indicators: [has_published_package, software_has_releases]
 ---
 
 ## How to publish your software package to a package repository? 
