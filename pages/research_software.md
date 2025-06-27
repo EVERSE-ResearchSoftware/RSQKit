@@ -25,7 +25,7 @@ For some, the inclusive definition would be more correctly termed **software in 
 would be termed **research software**. 
 
 Following this line of thought - not all software that is used in research is **research software**. 
-Research software as software or code that is used to generate, process or analyse results of a research for publication. 
+Research software is software or code that is used to generate, process or analyse results of a research for publication. 
 For example, software used to guide a telescope that is used to conduct scientific research is not considered research software. 
 On the other hand, formulas or macros in spreadsheets used to analyse data are considered **research code** as they are a 
 form of computer programming that allow one to create, calculate, and change data sets in a number of different ways.
