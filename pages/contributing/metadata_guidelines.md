@@ -81,7 +81,7 @@ in the "front matter" header of the page or applied to a group of pages via `_co
 * `datatable`: a boolean value indicating the activation of the pagination, sorting and searching in tabular representations of pages.
 * `related_pages`: a list of `page_id`s that are related to this page and will appear under "Related pages" section on the page, grouped by page type.
 * `page_citation`: When set to `true`, it will cause the citation section for the page to be generated in the format: "<author names>. <page title>. <site domain>. <page URL>. <date accessed>". Defaults to `true` for task pages; `false` for other page types.
-* `training`: a list of entries, each beginning by `-` and having three keys separated by a new line `name`, `registry`and `url` (see formatting [here](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/blob/main/pages/documentation/markdown_cheat_sheet.md#listing-training-material)). When enabled, it shows a button with a link to the url under the page's "More information". `name` is a short text displayed on the button, `registry` can be `tess`, `zenodo`, `youtube`, `carpentries`, `github` and lately `everse-training`.
+* `training`: a list of entries, each beginning by `-` and having three keys separated by a new line `name`, `registry`and `url` (see formatting [here](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/blob/main/pages/documentation/markdown_cheat_sheet.md#listing-training-material)). When enabled, it shows a button with a link to the url under the page's "More information". `name` is a short text displayed on the button, `registry` can be `tess`, `zenodo`, `youtube`, `carpentries`, `github` and lately `everse`.
 
 ## Tools and resources metadata
 
