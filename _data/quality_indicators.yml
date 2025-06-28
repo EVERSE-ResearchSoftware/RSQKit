@@ -1,4 +1,58 @@
 -   author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 23-06-2025
+    description: 'The source code repository is archived in a scholarly repository
+        (e.g Zenodo, HAL) to ensure that software can be found and accessed in a scholarly
+        context '
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/archived_in_scholarly_repository
+    keywords:
+    - repository
+    - fair
+    - scholar
+    name: Software is archived in a scholarly repository
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+        '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
+        name: Accesibility and preservation. RSMD 2.2
+        url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
+    status: Active
+    version: 1.0.0
+-   author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 23-06-2025
+    description: The source code repository is found in the universal source code
+        archive, Software Heritage, to ensure long-term access to the full development
+        history.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/archived_in_software_heritage
+    keywords:
+    - repository
+    - fair
+    - software heritage
+    name: Software is archived in Software Heritage
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+        '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
+        name: Accesibility and preservation. RSMD 2.1
+        url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
+    status: Active
+    version: 1.0.0
+-   author:
     -   '@type': schema:Person
         name: Thomas Vuillaume
     -   '@type': schema:Person
@@ -37,7 +91,9 @@
     - dependencies
     name: Software has dependency management solution
     qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/sustaninability
+    -   '@id': https://w3id.org/everse/i/dimensions/sustainability
+    -   '@id': https://w3id.org/everse/i/dimensions/security
+    -   '@id': https://w3id.org/everse/i/dimensions/compatibility
     source:
     -   identifier: https://zenodo.org/record/14852424
         name: 'Software Quality Indicators from BioHackathon 2024 (Sheet: Sustanability,
@@ -66,6 +122,7 @@
     - metadata
     - software
     - fair
+    - findability
     name: Software has descriptive metadata
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
@@ -157,6 +214,34 @@
     version: 1.0.0
 -   author:
         '@type': schema:Organization
+        name: Super-Linter
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 23-06-2025
+    description: The project addresses or resolves warnings identified by compilers,
+        safe modes, or linters.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/has_no_linting_issues
+    keywords:
+    - linting
+    - code analysis
+    - fair
+    name: Software has no linting issues
+    qualityDimension:
+    -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+    -   name: Super-Linter
+        url: https://github.com/super-linter/super-linter
+    -   name: OpenSSF best practices
+        url: https://www.bestpractices.dev/en/criteria/0#0.warnings_fixed
+    status: Active
+    version: 1.0.0
+-   author:
+        '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
     contact:
@@ -235,6 +320,33 @@
     source:
         name: 'OpenSSF Scorecard: Code-Review'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#code-review
+    status: Active
+    version: 1.0.0
+-   author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 23-06-2025
+    description: The target source code repository is in a disciplinary or community
+        registry (e.g ascl.net, bio.tools, swMath, RRID portal, RSD, WikiData, DataCite,
+        etc.) to ensure that software can be found and accessed.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/archived_in_software_heritage
+    keywords:
+    - repository
+    - fair
+    - software heritage
+    name: Software is listed in a registry
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+        '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
+        name: Accesibility and preservation. RSMD 2.3
+        url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
     status: Active
     version: 1.0.0
 -   author:
@@ -403,8 +515,9 @@
     -   '@type': schema:Person
         name: Andres Montero
     created: 23-05-2025
-    description: This indicator aims to determine if tests and data are provided to
-        check that a software project is operating as expected
+    description: Evaluates the extent to which the software has been tested, including
+        unit tests, integration tests, and system tests, to ensure reliability and
+        correctness.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/software_has_tests
     keywords:
@@ -413,7 +526,8 @@
     - fair
     name: Software provides tests.
     qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/fairness
+    -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    -   '@id': https://w3id.org/everse/i/dimensions/reliability
     source:
         name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
             context
@@ -444,6 +558,67 @@
         '@id': https://www.bestpractices.dev/en/criteria/0
         name: FLOSS Best Practices Criteria (Passing Badge)
         url: https://www.bestpractices.dev/en/criteria/0#0.static_analysis_common_vulnerabilities
+    status: Active
+    version: 1.0.0
+-   author:
+        '@type': schema:Organization
+        name: OpenSSF
+        url: https://openssf.org/
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 23-06-2025
+    description: 'This indicator checks that If the software produced by the project
+        includes software written using a memory-unsafe language (e.g., C or C++),
+        then at least one dynamic tool (e.g., a fuzzer or web application scanner)
+        be routinely used in combination with a mechanism to detect memory safety
+        problems such as buffer overwrites. '
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/fuzzing_use
+    keywords:
+    - fuzzing
+    - test
+    - code
+    name: Software uses fuzzing
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/safety
+    source:
+        name: 'OpenSSF Scorecard: Fuzzing'
+        url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#fuzzing
+    status: Active
+    version: 1.0.0
+-   author:
+        '@type': schema:Organization
+        name: OpenSSF
+        url: https://openssf.org/
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 27-06-2025
+    description: This indicator checks that the project enables one or more compiler
+        warning flags, a "safe" language mode, or uses a separate "linter" tool to
+        look for code quality errors or common simple mistakes, if there is at least
+        one FLOSS tool that can implement this criterion in the selected language.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/uses_tool_for_warnings_or_mistakes
+    keywords:
+    - linting
+    - code analysis
+    - fair
+    name: Software uses a tool for warnings or mistakes
+    qualityDimension:
+    -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+    -   name: 'OpenSSF Best Practices badge: Warning Flags'
+        url: https://www.bestpractices.dev/en/criteria/0#0.warnings
+    -   '@id': https://zenodo.org/records/10723608
+        name: Ensure Software Quality
+        url: https://zenodo.org/records/10723608
     status: Active
     version: 1.0.0
 -   author:
