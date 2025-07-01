@@ -5,27 +5,44 @@ subitems:
   #- title: About RSQKit
   #  url: /about
   - title: Research software
-    description: Different perspectives on research software
     url: /research_software
     image_url: /assets/img/font-awesome-free/terminal-solid.svg
     subitems:
-      - title: Life cycle
-        url: /life_cycle
-      - title: Three-tier view
+      - title: What is research software?
+        url: /research_software#what-is-research-software
+      - title: Three-tier model
         url: /three_tier_view
-  - title: Research software quality
-    description: Indicators & principles for research software quality
+      - title: Lifecycle
+        url: /life_cycle
+      - title: Quality
+        url: /quality
+  - title: Quality dimensions & indicators
+    description: Dimensions and indicators of research software quality
     url: /rs_quality
     image_url: /assets/img/font-awesome-free/star-solid.svg
     subitems:
-      - title: Source code
-        url: /source_code
-      - title: FAIR Research Software
-        url: /fair_rs
-      - title: Software Sustainability
-        url: /sustainability
-      - title: Open Source Software
-        url: /open_source
+      - title: Compatibility
+        url: /rs_quality#compatibility
+      - title: FAIRness
+        url: /rs_quality#fairness
+      - title: Flexibility
+        url: /rs_quality#flexibility
+      - title: Functional suitability
+        url: /rs_quality#functional-suitability
+      - title: Interaction capability
+        url: /rs_quality#interaction-capability
+      - title: Maintainability
+        url: /rs_quality#maintainability
+      - title: Performance efficiency
+        url: /rs_quality#performance-efficiency
+      - title: Reliability
+        url: /rs_quality#reliability
+      - title: Safety
+        url: /rs_quality#safety
+      - title: Security
+        url: /rs_quality#security
+      - title: Sustainability
+        url: /rs_quality#sustainability
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
     image_url: /assets/img/font-awesome-free/people-group-solid.svg
