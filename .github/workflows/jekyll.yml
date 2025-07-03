@@ -97,6 +97,10 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: github-pages
+      - name: debugging (make sure _site is there)
+        run: |
+          ls -l
+          ls -l _site
       - name: Check for broken links in the HTML files
         uses: lycheeverse/lychee-action@v2
         id: lychee
