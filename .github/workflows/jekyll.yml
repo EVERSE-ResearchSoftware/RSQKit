@@ -100,6 +100,8 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: github-pages
+      - name: Extract the artifact
+        run: tar -xf artifact.tar
       - name: debugging (make sure _site is there)
         run: |
           ls -l
