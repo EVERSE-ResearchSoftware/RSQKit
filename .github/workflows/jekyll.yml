@@ -39,7 +39,7 @@ jobs:
           fi
         env:
           REPO_OWNER: ${{ github.repository_owner }}
-
+        
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -87,3 +87,23 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  linkChecker:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+      - name: Check for broken links in the HTML files
+        uses: lycheeverse/lychee-action@v2
+        id: lychee
+        with:
+          # note: args has a long default value; when you override it, make sure you don't accidentally forget to include the default options you want! see https://github.com/lycheeverse/lychee-action/blob/master/action.yml
+          # note 2: the list of excluded hosts was built up for guide.esciencecenter.nl, it may need modification for RSQKit at some point
+          args: --root-dir "$(pwd)/_site" --verbose --no-progress '_site/**/*.html' --accept '100..=103,200..=299, 429'  --exclude support.posit.co --exclude www.intel.com --exclude reddit.com --exclude jsfiddle.net
+        env:
+          # This token is included to avoid github.com requests to error out with status 429 (too many requests). It only works for GitHub requests (also other GitHub REST API calls), not for the rest of the web.
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
