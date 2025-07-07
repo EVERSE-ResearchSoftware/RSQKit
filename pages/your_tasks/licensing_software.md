@@ -5,6 +5,7 @@ contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi", "Thomas Vui
 page_id: licensing_software
 related_pages:
   your_tasks: []
+quality_indicators: [software_has_license]
 ---
 
 ## What is copyright and licensing?

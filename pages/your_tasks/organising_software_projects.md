@@ -5,6 +5,7 @@ contributors: ["Aleksandra Nenadic"]
 page_id: organising_software_projects
 related_pages:
   your_tasks: [citing_software, creating_good_readme, documenting_software, software_metadata]
+quality_indicators: []
 ---
 
 ## Why does organising your software project matter?

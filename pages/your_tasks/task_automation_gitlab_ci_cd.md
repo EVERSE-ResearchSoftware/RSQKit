@@ -5,6 +5,7 @@ contributors: ["Tom François"]
 page_id: task_automation_gitlab_ci_cd
 related_pages: 
   your_tasks: [ci_cd, task_automation_github_actions]
+quality_indicators: [software_has_ci-tests]
 ---
 
 ## What is GitLab CI/CD?

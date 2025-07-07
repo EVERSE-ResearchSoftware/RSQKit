@@ -5,6 +5,7 @@ contributors: ["Kirsty Pringle"]
 page_id: improving_environmental_sustainability
 related_pages:
   your_tasks: []
+quality_indicators: []
 ---
 
 ## How to monitor and reduce the environmental impact of my software? 
