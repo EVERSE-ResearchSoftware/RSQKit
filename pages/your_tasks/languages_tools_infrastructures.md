@@ -4,7 +4,7 @@ description: How to decide which programming languages, tools and infrastructure
 contributors: ["Patrick Bos"]
 page_id: languages_tools_infrastructures
 related_pages:
-   your_tasks: [three_tier_view, life_cycle, fair, research_software_engineer]
+   your_tasks: []
 ---
 
 ## How to choose programming languages, tools and infrastructures?
@@ -82,7 +82,7 @@ When starting fresh, there are a few languages with a proven track record and ac
 - {% tool "cpp" %}: high performance (compiled), strongly typed, multi-paradigm (many "dialects": C-style, object oriented, functional, templated), considered unsafe (though using modern standards instead of raw pointers avoids that)
 - {% tool "javascript" %}/{% tool "typescript" %}: anything with a serious web component, also possibly UI for non-web applications.
 - {% tool "r" %}: statistical analysis, in particular for social sciences, medical research and the like.
-- {% tool "fortran" %}: computationally intensive numerical simulations, particularly in scientific and engineering applications where high performance computing (HPC) is required due to its excellent ability to handle large arrays and optimize complex mathematical calculations with high speed and precision.
+- {% tool "fortran" %}: computationally intensive numerical simulations, particularly in scientific and engineering applications where high performance computing (HPC) is required due to its excellent ability to handle large arrays and optimise complex mathematical calculations with high speed and precision.
 
 If you are excited by the prospect of having to pioneer a bit more due to a smaller and somewhat less mature ecosystem of available modules, the following are popular modern choices:
 - {% tool "julia" %}: great for mathematical modelling, has very elegant semantics (e.g. multiple dispatch). It is JIT compiled, meaning you can use it interactively like Python, but it compiles each statement before running, so that it can run fast.

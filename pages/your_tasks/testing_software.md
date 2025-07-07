@@ -237,7 +237,7 @@ Here are a few examples of these principles:
 
 ## Further reading
 
-We recommend also reading [the Turing Way's Handbook on Open and Reproducible Reseach - chapter on testing research code](https://book.the-turing-way.org/reproducible-research/testing).
+We recommend also reading [the Turing Way's Handbook on Open and Reproducible Research - chapter on testing research code](https://book.the-turing-way.org/reproducible-research/testing).
 It elaborates on the motivation for writing tests within research (with some very convincing examples), on many of the topics mentioned above and also adds advice on a few very common research-related topics like [how to deal with testing random or stochastic code](https://book.the-turing-way.org/reproducible-research/testing/testing-exceptions).
 
 

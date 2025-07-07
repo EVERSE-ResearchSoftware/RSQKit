@@ -10,7 +10,7 @@ related_pages:
 
 ## What is software metadata?
 
-Software metadata is structured data that provides information about a software application, its components, and its behavior. 
+Software metadata is structured data that provides information about a software application, its components, and its behaviour. 
 It describes various attributes of the software, including:
 
 - Name & version: identifies the software and its release version.
