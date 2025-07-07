@@ -15,7 +15,7 @@ data generation, preparation, analysis and visualisation. It typically represent
   warranting close researcher involvement in their development.
   This tier represents a broadly applicable research software, often with a large and possibly distributed development team.
 
-<img src="../../images/3-tier-model.svg" width="1200" alt-text="Three-tier model of research software" />
+<img src="/images/3-tier-model.svg" width="1200" alt-text="Three-tier model of research software" />
 
 *Diagram from ["EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence" presentation](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf) by F. Psomopoulos, February 2025, adapted by Aleksandra Nenadic under CC-BY 4.0 licence*
 
