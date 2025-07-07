@@ -9,7 +9,7 @@ encountered during the development of research software.
 <!--
 ![Research software lifecycle diagram](../../images/rs-lifecycle.png)
 -->
-<p align="center"><img src="/images/rs-lifecycle.png" width="600" alt-text="Research software lifecycle" /></p>
+<p align="center"><img src="./images/rs-lifecycle.png" width="600" alt-text="Research software lifecycle" /></p>
 
 The research software lifecycle description used here was originally developed by the [Infrastructures for Quality Research Software](https://eosc.eu/advisory-groups/infrastructures-quality-research-software/)
 EOSC Task Force. This Task Force tried to achieve a common understanding on the processes in research software engineering to asses the research infrastructure needs.
