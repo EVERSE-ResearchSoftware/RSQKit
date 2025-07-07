@@ -9,7 +9,7 @@ subitems:
     image_url: /assets/img/font-awesome-free/terminal-solid.svg
     subitems:
       - title: What is research software?
-        url: /research_software#what-is-research-software
+        url: /research_software
       - title: Three-tier model
         url: /three_tier_view
       - title: Lifecycle
