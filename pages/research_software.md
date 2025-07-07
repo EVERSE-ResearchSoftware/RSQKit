@@ -1,9 +1,7 @@
 ---
-title: Research Software
+title: What is Research Software?
 descriptions: Different aspects of and perspectives on research software
 ---
-
-## What is Research Software?
 
 There are various definitions of research software.
 The following two definitions are borrowed from [*"Defining Research Software: a controversial discussion"*][defining-rs] - 
