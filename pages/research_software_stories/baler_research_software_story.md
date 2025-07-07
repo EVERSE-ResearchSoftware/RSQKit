@@ -9,21 +9,21 @@ type: research_software_story
 ## The Problem
 
 Modern scientific experiments generate massive datasets, straining available
-storage and bandwidth.  Fields like particle physics, astrophysics, and
+storage and bandwidth.  Scientific fields such as particle physics, astrophysics, and
 computational fluid dynamics (CFD) produce data faster than it can be stored
-or transmitted.  Traditional compression techniques are often ineffective on
-these specialised datasets.  New methods are needed to drastically shrink
+or transmitted.  Traditional compression techniques are insufficient to cope with the exponential increase of
+these specialised datasets, and new methods are required to drastically shrink
 data size without losing important scientific information.
 
 ## The Community
 
 BALER is developed by a diverse team primarily composed of early-career
-researchers (students and postdocs).  Contributors often join through their
-graduate studies or programmes like Google Summer of Code.  The team
-experiences frequent turnover and varied experience levels - many members
+researchers (undergraduate and postgraduate students and postdocs).  Contributors often join through their
+studies or programmes like Google Summer of Code.  Collaborators often have limited time
+and varied experience levels - many members
 are new to machine learning or to the specific scientific domains of the
 data.  To maintain consistency, experienced mentors hold regular meetings
-and guide the development process.
+and guiding the development process, and define short, targeted projects.
 
 Users of BALER come from multiple disciplines: particle physics,
 astrophysics, CFD, and even industry.  Most users have basic knowledge of
@@ -35,12 +35,12 @@ extend functionality as needed.
 
 BALER is a prototype tool (considered "Tier 2" software) that applies
 machine learning (autoencoder models) for domain-specific lossy data
-compression.  It is implemented mostly in Python and builds on the PyTorch
+compression.  It is implemented in Python and builds on the PyTorch
 library for neural network training.
 
-BALER can run on standard CPUs and GPUs, and it also supports deployment on
-Field Programmable Gate Arrays (FPGAs) for real-time use cases.  The
-software is distributed via Docker containers to simplify deployment on
+BALER can run on standard CPUs and GPUs, and deployment on
+Field Programmable Gate Arrays (FPGAs) is under development for real-time use cases.  The
+software is also distributed via Docker containers to simplify deployment on
 local machines or High-Performance Computing (HPC) clusters.  The entire
 codebase (including example datasets) is roughly 400 MB and is publicly
 available on GitHub.
@@ -54,7 +54,7 @@ available on GitHub.
   deployment across different systems.
 
 - FPGA toolchains: Integrates with tools like *hls4ml* and Xilinx Vivado HLS
-  to deploy the compression model on FPGAs for real-time data acquisition.
+  to deploy the compression model on FPGAs for real-time data and processing.
 
 ## Software Practices
 
@@ -62,8 +62,7 @@ BALER's development follows standard software engineering practices.  All
 code is managed on GitHub, and contributions are submitted via pull requests
 for peer review.  Continuous Integration (via GitHub Actions) runs automated
 tests and enforces code style (using Black) on each change to maintain
-quality.  Docker container built only if syntax/code quality rules satisfied
-(badge on repository)
+quality.  Docker containers are only built if syntax/code quality rules are satisfied, which is confirmed via a repository badge.
 
 Every contribution is reviewed by senior developers, which helps ensure
 robustness and facilitate knowledge transfer.  BALER recently changed its
@@ -124,12 +123,13 @@ ESCAPE working group focused on sustainable and FAIR machine learning tools.
 
 BALER's documentation is primarily hosted on its GitHub repository and wiki. 
 The main README provides instructions for installation and basic usage.
+Internal documentation, reports and presentations are also stored on shared cloud storage.
 
 The team also archives key documents (research papers, presentations,
 internal design reports) on Zenodo, and the project wiki links to these
 resources.  By layering the documentation (README, tutorials, wiki, archived
-reports), BALER ensures that knowledge is preserved despite frequent team
-turnover.  This makes it easier for new users and developers to learn the
+reports), BALER ensures that knowledge is preserved through short-term projects and collaborators.
+This makes it easier for new users and developers to learn the
 tool and contribute.
 
 ## Sustainability
