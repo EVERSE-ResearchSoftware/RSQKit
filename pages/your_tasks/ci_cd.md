@@ -76,5 +76,9 @@ also provide CI/CD processes and services built around code repositories - e.g. 
 - Monitoring - tools like Prometheus, Grafana, and New Relic are used for real-time monitoring in production to ensure system health.
 - Infrastructure as Code (IaC) - tools like {% tool "terraform" %}, {% tool "vagrant" %} or {% tool "ansible" %} automate infrastructure provisioning and configuration, ensuring consistency across environments.
 
+### Additional pointers
+The following training materials may help with additional step-by step guides:
+- 
+
 [task_automation_github_actions]: ./task_automation_github_actions
 [task_automation_gitlab_ci_cd]: ./task_automation_gitlab_ci_cd

@@ -138,6 +138,7 @@ while fostering respect among developers.
 - List of all authors and contributors to the software.
 - Pointers to various other documentation about your software.
 
+
 ## References
 1. [Lee B. D., Ten Simple Rules for documenting scientific software](https://doi.org/10.1371/journal.pcbi.1006561)
 2. [Wilson, G., Aruliah, D. A., Brown, C. T., Chue Hong, N. P., Davis, M., Guy, R. T., Haddock, S. H., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P.Best Practices for Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745)

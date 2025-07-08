@@ -170,9 +170,7 @@ Here are some tools that can check your software and provide an assessment of it
 - [FAIR Software Checklist][fair-rs-checklist] - self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
 - [`How FAIR is your software` - command line tool to evaluate a software repository's compliance with the FAIR principles][howfairis]
 - [CODECHECK][codecheck] - An approach for independent execution of computations underlying research articles.
-- The [FAIR Cookbook][fair-cookbook] contains general reusable recipes for FAIR assessment.
 
-Check also common metrics for Research Software [^5] that may used to assess each of the principles.
 
 ### Summary
 
@@ -194,6 +192,14 @@ The table below provides a summary of how different tools and practices help wit
 | Citation - code reuse & credit                                                                       |          |            |               | x        |
 | Software repositories & registries                                                                   | x        | x          |               |          |
 | Unique persistent identifiers                                                                        | x        | x          |               |          |
+
+
+## Training materials
+- The [FAIR Cookbook][fair-cookbook] contains general reusable recipes for FAIR assessment.
+- [10 easy things to make your research software FAIR](https://doi.org/10.5281/zenodo.3409968)
+- Common metrics for Research Software [^5] that may used to assess each of the FAIR4RS principles.
+- [A cookie software project template with FAIR metadata](https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter)
+- [Carpentries course on tools and practices for FAIR Research Software](https://carpentries-incubator.github.io/fair-research-software/)
 
 
 ## References
