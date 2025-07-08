@@ -170,6 +170,7 @@ Here are some tools that can check your software and provide an assessment of it
 - [FAIR Software Checklist][fair-rs-checklist] - self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
 - [`How FAIR is your software` - command line tool to evaluate a software repository's compliance with the FAIR principles][howfairis]
 - [CODECHECK][codecheck] - An approach for independent execution of computations underlying research articles.
+- The [FAIR Cookbook][fair-cookbook] contains general reusable recipes for FAIR assessment.
 
 Check also common metrics for Research Software [^5] that may used to assess each of the principles.
 
@@ -209,6 +210,7 @@ The table below provides a summary of how different tools and practices help wit
 [codecheck]: https://codecheck.org.uk/project/
 [codemeta]: (https://codemeta.github.io/)
 [cran]: https://cran.r-project.org/web/packages/
+[fair-cookbook]: https://faircookbook.elixir-europe.org/content/home.html
 [fair-rs-evaluator]: https://openebench.bsc.es/observatory/Evaluation
 [fair-rs-test]: https://github.com/marioa/fair-test?tab=readme-ov-file
 [fair-rs-checklist]: https://fairsoftwarechecklist.net
