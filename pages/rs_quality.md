@@ -15,11 +15,11 @@ and their sustainability.
 
 ## Quality Dimensions & Indicators
 
-EVERSE project is working to formally define a number of [research software quality dimensions](https://everse.software/indicators/website/dimensions.html) 
-along with a [formal schema](https://github.com/EVERSE-ResearchSoftware/schemas/tree/main) to be used in machine readable metadata 
+EVERSE project is working to formally define a number of [research software quality dimensions](https://w3id.org/everse/i/dimensions) 
+along with a [formal schema](https://w3id.org/everse/rsqd) to be used in machine readable metadata 
 embedded in various resources.
 
-Each of the quality dimensions will be an umbrella for a number of [quality indicators](https://everse.software/indicators/website/indicators.html), 
+Each of the quality dimensions will be an umbrella for a number of [quality indicators](https://w3id.org/everse/i/indicators), 
 representing a specific software quality aspect that can be measured.
 
 Current research software quality dimensions are described below. This is still work in progress - we expect indicators 
