@@ -20,10 +20,10 @@ do not break previous behavior or introduce unexpected bugs and that tests are r
 In short, **quality software** enables researchers to trust, share, and build upon computational work — an essential part of making science transparent and verifiable.
 However, reproducible computational research often requires that researchers implement new practices and learn new tools to be able to produce **quality software**. 
 
-RSQKit is designed to offer [guidance](/your_tasks) and introduce [tools](/all_tools_and_resources) that have proven to be 
-valuable across different [research communities](/research_clusters_and_infrastructures) when developing software that supports scientific work in a reproducible 
-and reliable way. A key aspect of the project is the formal definition of [software quality dimensions](/rs_quality) and the 
-identification of various [indicators](/rs_quality) that help assess and improve these aspects.
+RSQKit is designed to offer [guidance](your_tasks) and introduce [tools](all_tools_and_resources) that have proven to be 
+valuable across different [research communities](research_clusters_and_infrastructures) when developing software that supports scientific work in a reproducible 
+and reliable way. A key aspect of the project is the formal definition of [software quality dimensions](rs_quality) and the 
+identification of various [indicators](rs_quality) that help assess and improve these aspects.
 
 ### FAIR Research Software
 
@@ -38,9 +38,10 @@ A truly high-quality, reproducible research software package will typically sati
 (tests, style, documentation, performance) and the FAIR principles.
 
 So, FAIR - the “openness & reusability” slice of software quality - is essential for reproducibility, but most impactful 
-when combined with all the other [quality practices](/rs_quality) like testing, version control, and robust design. 
+when combined with all the other [quality practices](rs_quality) like testing, version control, and robust design. 
 
-Read in more detail what [the FAIR principles for software](/fair_rs) encompass.
+
+Read in more detail what [the FAIR principles for research software](/fair_rs) encompass.
 
 ## Formal Quality Dimensions & Indicators
 
