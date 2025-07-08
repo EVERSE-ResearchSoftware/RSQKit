@@ -12,7 +12,7 @@ quality_indicators: [requirements_specified]
 ## What are reproducible software environments?
 
 Reproducible software environments are crucial for ensuring that software behaves consistently across different systems, 
-especially when it comes to research. 
+especially when it comes to research [^1]. 
 
 Here are some popular tools and approaches for creating reproducible software environments based on their scope and usage:
 
@@ -122,6 +122,10 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 ### Solutions
 
 * Decide on and start using a package manager tool and a virtual environment management tool for your programming language.
+
+## References
+[^1]: Jesse M. Alston, Jessica A. Rick. A Beginner’s Guide to Conducting Reproducible Research, Bulletin of
+The Ecological Society of America 102 (2) (2021). [https://doi.org/10.1002/bes2.1801](https://doi.org/10.1002/bes2.1801)
 
 
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
