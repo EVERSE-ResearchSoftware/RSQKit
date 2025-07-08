@@ -153,6 +153,13 @@ This document specifically covers publishing Python packages to **{% tool "pypi"
       pip install --index-url https://gitlab.com/api/v4/projects/YOUR_PROJECT_ID/packages/pypi/simple my_python_package
       ``` 
 
+## Training materials
+
+- [How to package a Python project](https://py-pkgs.org/03-how-to-package-a-python) 
+- [Python Packaging (Carpentries)](https://carpentries-incubator.github.io/python_packaging/)
+- [Python 201 on Packaging](https://python-tutorial.dev/201/tutorial/packaging.html#packaging)
+- [Managing Academic Software development: Release management](https://southampton-rsg.github.io/swc-project-novice/04-features/index.html)
+
 ## References 
 
 * [PyPI - The Python Package Index](https://pypi.org/)
