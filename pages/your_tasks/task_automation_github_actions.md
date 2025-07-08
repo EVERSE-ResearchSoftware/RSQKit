@@ -120,6 +120,9 @@ that help automate tasks such as building, testing and deploying code. GitHub Ac
 
   * [Using Secrets in GitHub Actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions) - Guide on securely managing sensitive information in GitHub Actions workflows.
 
+* **Other training materials:**
+  * [Carpentries Intermediate Research Software Development guide (Python)](https://carpentries-incubator.github.io/python-intermediate-development/23-continuous-integration-automated-testing.html) includes an episode for continuous integration with GitHub actions.
+
 ## References <!-- do not delete this heading and write your text below it -->
 The official [GitHub Actions documentation](https://docs.github.com/en/actions) was consulted for accuracy and best practices.
  
