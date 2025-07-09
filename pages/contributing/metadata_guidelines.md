@@ -81,8 +81,16 @@ in the "front matter" header of the page or applied to a group of pages via `_co
 * `datatable`: a boolean value indicating the activation of the pagination, sorting and searching in tabular representations of pages.
 * `related_pages`: a list of `page_id`s that are related to this page and will appear under "Related pages" section on the page, grouped by page type.
 * `page_citation`: When set to `true`, it will cause the citation section for the page to be generated in the format: "<author names>. <page title>. <site domain>. <page URL>. <date accessed>". Defaults to `true` for task pages; `false` for other page types.
-* `training`: a list of training entries, each having three properties - `name`, `registry` (which should be set to "EVERSE TeSS" - the only training registry currently supported) and `url` (see [more details on formatting](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/blob/main/pages/documentation/markdown_cheat_sheet.md#listing-training-material)). 
-Training entries will show up under the "More information / Training" section on the page.
+* `training`: a list of training entries, each having three properties - `name`, `registry` (which should be set to "TeSS" for EVERSE TeSS training registry) and `url` (which is a URL to TeSS search results using the keywords to match the current page).
+Training entries will show up under the "More information | Training" section on the page.
+For example: 
+```yml
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22ci%22+%22cd%22+%22ci%2Fcd%22+%22continuous+integration%22+%22continuous+deployment%22
+```
+See [more details on formatting](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/blob/main/pages/documentation/markdown_cheat_sheet.md#listing-training-material)). 
 
 ## Tools and resources metadata
 
