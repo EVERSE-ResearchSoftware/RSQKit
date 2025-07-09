@@ -77,6 +77,10 @@ The rest of the file defines two other jobs `build-job-name2` and `deploy-job-na
 
 *Note:* the example above is a dummy example that just presents the structure of the `gitlab-ci.yml` file. In practice, it only prints some messages to simulate scripts.
 
+## Training materials
+- [HEP Software Foundation training center on Continuous Integration / Continuous Development (CI/CD) course](https://hsf-training.github.io/hsf-training-cicd/)
+- [GitLab and GitLab CI/CD course](https://gitlab.in2p3.fr/informatique-des-deux-infinis/pheniics/gitlab-and-gitlab-ci-cd)
+
 
 ## References
 

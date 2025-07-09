@@ -119,5 +119,17 @@ Some interesting templates to consider for research software:
 
 Of course, the RSQkit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md)!
 
+## Training materials
+Below you can find introductory materials to the most commonly used programming languages used in Research Software:
+- Python: [Research Software Engineering with Python](https://alan-turing-institute.github.io/rse-course/html/index.html), [programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html), [leveling up your Python](https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html), [Python introduction for libraries](https://librarycarpentry.org/lc-python-intro/), [Python traps and pitfalls](https://gitlab.in2p3.fr/informatique-des-deux-infinis/pheniics/python-traps)
+- R: [Introduction to R](https://carpentries-lab.github.io/metagenomics-R/), [Software Carpentry: R for Reproducible Scientific Analysis](), [Software Carpentry: Programming with R](https://swcarpentry.github.io/r-novice-inflammation/), [Getting Used to R, RStudio, and R Markdown](https://rbasics.netlify.app/), [Modern Dive into R and the Tidyverse](https://moderndive.netlify.app/)
+- Julia: [Introduction to Julia](https://enccs.github.io/julia-intro/), [Julia for high-performance scientific computing](https://enccs.github.io/julia-for-hpc/), [Julia for high-performance data analytics](https://enccs.github.io/julia-for-hpda/), [Programming with Julia](https://carpentries-incubator.github.io/julia-novice/)
+- CMake: [hands-on workshop](https://enccs.github.io/cmake-workshop/)
+- Matlab: [Software Carpentry: Programming with MATLAB](https://swcarpentry.github.io/matlab-novice-inflammation/)
+- C++: [Modern Scientific C++](https://github.com/chavid/ModernScientificCpp)
+
+
+
+
 ## Credit
 The first version of this page was inspired by content in and discussions on the [Netherlands eScience Center Guide to software development](https://guide.esciencecenter.nl).
