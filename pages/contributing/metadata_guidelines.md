@@ -89,8 +89,8 @@ An example of a training registry entry:
 ```yml
 training:
  - name: Training in EVERSE TeSS
-  registry: TeSS
-  url: https://everse-training.app.cern.ch/materials?q=%22ci%22+%22cd%22+%22ci%2Fcd%22+%22continuous+integration%22+%22continuous+deployment%22
+    registry: TeSS
+    url: https://everse-training.app.cern.ch/materials?q=%22ci%22+%22cd%22+%22ci%2Fcd%22+%22continuous+integration%22+%22continuous+deployment%22
 ```
 
 ## Tools and resources metadata
