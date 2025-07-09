@@ -73,7 +73,8 @@ Implementing version control in a research context involves more than just choos
    * Regularly backup your repository
    * Periodically clean up old branches and review access permissions
 
-### Training materials
+## Training materials
+
 - [Software Carpentry: Git Novice lesson](https://swcarpentry.github.io/git-novice)
 - [CodeRefinery: Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
 - [CodeRefinery: Introduction to version control](https://coderefinery.github.io/git-intro/)
