@@ -7,9 +7,9 @@ related_pages:
   your_tasks: [documenting_software]
 quality_indicators: [has_no_linting_issues]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22readable+code%22+%22robust+code%22+%22reusable+code%22
+   - name: EVERSE TeSS
+     url: https://everse-training.app.cern.ch
+     query: readable code robust code reusable code
 ---
 
 
