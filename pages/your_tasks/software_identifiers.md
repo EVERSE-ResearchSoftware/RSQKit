@@ -7,9 +7,9 @@ related_pages:
   your_tasks: [releasing_software]
 quality_indicators: [persistent_and_unique_identifier]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22identifier%22+%22release%22+%22versioning%22
+   - name: EVERSE TeSS
+     url: https://everse-training.app.cern.ch
+     query: identifier release versioning
 ---
 
 

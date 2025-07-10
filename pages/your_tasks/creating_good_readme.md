@@ -7,9 +7,9 @@ related_pages:
   your_tasks: [documenting_software]
 quality_indicators: [software_has_documentation]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22readme%22
+   - name: EVERSE TeSS
+     url: https://everse-training.app.cern.ch
+     query: readme
 ---
 
 ## Why is it important to have a good README file? 

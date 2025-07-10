@@ -7,9 +7,9 @@ related_pages:
   your_tasks: [ci_cd, task_automation_github_actions]
 quality_indicators: [software_has_ci-tests]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22ci%2Fcd%22+%22task+automation%22+%22gitlab%22
+   - name: EVERSE TeSS
+     url: https://everse-training.app.cern.ch
+     query:  ci cd task automation gitlab
 ---
 
 ## What is GitLab CI/CD?

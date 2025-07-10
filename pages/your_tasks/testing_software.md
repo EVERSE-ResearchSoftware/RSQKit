@@ -7,9 +7,9 @@ related_pages:
   your_tasks: []
 quality_indicators: [software_has_tests, software_has_ci-tests]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22testing%22
+   - name: EVERSE TeSS
+     url: https://everse-training.app.cern.ch
+     query: testing
 ---
 
 ## What is code testing?
