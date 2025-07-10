@@ -6,6 +6,10 @@ page_id: reproducible_software_environments
 related_pages:
   your_tasks: []
 quality_indicators: [requirements_specified]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22reproducible%22+%22environment%22+%22docker%22+%22singularity%22+%22singularity%22+%22reproducible+environment%22+%22virtual+environment%22
 ---
 
 
