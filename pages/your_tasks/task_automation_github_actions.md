@@ -7,6 +7,10 @@ page_id: task_automation_github_actions
 related_pages: 
   your_tasks: [ci_cd, task_automation_gitlab_ci_cd]
 quality_indicators: [software_has_ci-tests]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22ci%2Fcd%22+%22task+automation%22+%22github%22+%22action%22
 ---
 
 ## Task automation using GitHub Actions
@@ -119,6 +123,12 @@ that help automate tasks such as building, testing and deploying code. GitHub Ac
 * **Security Considerations:**
 
   * [Using Secrets in GitHub Actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions) - Guide on securely managing sensitive information in GitHub Actions workflows.
+
+* **Other training materials:**
+  * [Carpentries Intermediate Research Software Development guide (Python)](https://carpentries-incubator.github.io/python-intermediate-development/23-continuous-integration-automated-testing.html) (episode on continous integration for automated testing)
+  * [Software Carpentry course for Managing Research Software Projects](https://swcarpentry.github.io/managing-research-software-projects/14-continuous/)
+  * [The Turing Way's Guide for Reproducible Research](https://book.the-turing-way.org/reproducible-research/ci/ci-github-actions) (chapter on Continuous Integration with GitHub Actions)
+  * [Python 201](https://python-tutorial.dev/201/tutorial/testing.html#ci-cd) (CI / CD) chapter
 
 ## References <!-- do not delete this heading and write your text below it -->
 The official [GitHub Actions documentation](https://docs.github.com/en/actions) was consulted for accuracy and best practices.
