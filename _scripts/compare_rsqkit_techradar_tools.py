@@ -27,17 +27,17 @@ def load_yaml_tools_from_rsqkit():
             print("YAML content is not a list")
     return tools
 
-def load_jsonld_tools_from_techradar():
+def load_jsonld_tools_from_techradar(requests_headers=None):
     tools = {}
     JSON_MATCH_FIELD = "schema:description" 
-    response = requests.get(TECHRADAR_GITHUB_API_URL)
+    response = requests.get(TECHRADAR_GITHUB_API_URL, headers=requests_headers)
     response.raise_for_status()
     files = response.json()
 
     for file in files:
         if file["name"].endswith(".json"):
             raw_url = file["download_url"]
-            file_response = requests.get(raw_url)
+            file_response = requests.get(raw_url, headers=requests_headers)
             file_response.raise_for_status()
             data = json.loads(file_response.text)
             if JSON_MATCH_FIELD in data:
@@ -96,7 +96,15 @@ def summarize_discrepancies(discrepancy_dict):
 
 def main():
     rsqkit_tools = load_yaml_tools_from_rsqkit()
-    techradar_tools = load_jsonld_tools_from_techradar()
+
+    bearer_token = os.getenv("GITHUB_TOKEN")
+
+    if bearer_token is not None:
+        requests_headers = {"Authorization": f"Bearer {bearer_token}"}
+    else:
+        requests_headers = None
+
+    techradar_tools = load_jsonld_tools_from_techradar(requests_headers=requests_headers)
 
     FIELDS_TO_COMPARE = ["description"]
     FIELD_MAPPING = {
