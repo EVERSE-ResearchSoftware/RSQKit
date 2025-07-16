@@ -46,7 +46,17 @@ SPDX-License-Identifier = "CC-BY-4.0"
 [[annotations]]
 path = [
     "CITATION.cff",
-    "codemeta.json"
+    "codemeta.json",
+    ".gitignore"
 ]
 SPDX-FileCopyrightText = "NONE"
 SPDX-License-Identifier = "CC0-1.0"
+
+# RSQKit content
+[[annotations]]
+path = [
+    "pages/**"
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC-BY-4.0"
+
