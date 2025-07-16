@@ -5,6 +5,11 @@ contributors: ["Azza Gamgami", "Aleksandra Nenadic"]
 page_id: documenting_software
 related_pages:
   your_tasks: [writing_readable_code, documenting_software_readthedocs, creating_good_readme]
+quality_indicators: [software_has_documentation]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22documentation%22+%22readme%22+%22sphynx%22+%22readthedocs%22
 ---
 
 ## How to document your software project?
@@ -136,6 +141,7 @@ while fostering respect among developers.
 - Software citation - let people know how to cite your software, see more on [how to cite your software project](./citing_software)
 - List of all authors and contributors to the software.
 - Pointers to various other documentation about your software.
+
 
 ## References
 1. [Lee B. D., Ten Simple Rules for documenting scientific software](https://doi.org/10.1371/journal.pcbi.1006561)

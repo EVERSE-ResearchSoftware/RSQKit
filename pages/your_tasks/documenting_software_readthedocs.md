@@ -5,6 +5,11 @@ contributors: ["Christian Hüser","Azza Gamgami"]
 page_id: documenting_software_readthedocs
 related_pages:
   your_tasks: [documenting_software]
+quality_indicators: [software_has_documentation]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22documentation%22+%22sphynx%22+%22readthedocs%22
 ---
 
 ## How to use 'Read The Docs' for your software documentation

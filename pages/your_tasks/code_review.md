@@ -5,6 +5,11 @@ contributors: ["Aleksandra Nenadic"]
 page_id: code_review
 related_pages:
   your_tasks: []
+quality_indicators: [human_code_review_requirement]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22code+review%22
 ---
 
 ## Code Review in Research Software Development
