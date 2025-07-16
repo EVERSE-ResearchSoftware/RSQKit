@@ -1,0 +1,52 @@
+version = 1
+
+# Standard markdown files in repository root
+[[annotations]]
+path = [
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "GOVERNANCE.md",
+    "index.md",
+    "INSTALL.md",
+    "LICENSE.md",
+    "README.md",
+    "TOOLS_SELECTION_CRITERIA.md"
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Software and configurations
+[[annotations]]
+path = [
+    "docker-compose.yml",
+    "Dockerfile", 
+    "Gemfile", 
+    "_config.yml", 
+    "scripts/**", 
+    "_scripts/**", 
+    "_sass/**", 
+    "_layouts/**", 
+    "_includes/**", 
+    "_data/**", 
+    ".github/**"
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "MIT"
+
+# Images
+[[annotations]]
+path = [
+    "assets/img/**", 
+    "images/**"
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Metadata files
+[[annotations]]
+path = [
+    "CITATION.cff",
+    "codemeta.json"
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"
