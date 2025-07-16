@@ -283,7 +283,7 @@
         This can be achieved by looking for tags or using software that retrieves
         related data.
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/software_has_releases
+        '@id': https://w3id.org/everse/i/indicators/has_releases
     keywords:
     - releases
     - repository
@@ -335,11 +335,11 @@
         registry (e.g ascl.net, bio.tools, swMath, RRID portal, RSD, WikiData, DataCite,
         etc.) to ensure that software can be found and accessed.
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/archived_in_software_heritage
+        '@id': https://w3id.org/everse/i/indicators/listed_in_registry
     keywords:
     - repository
     - fair
-    - software heritage
+    - software heritage, zenodo
     name: Software is listed in a registry
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
@@ -436,8 +436,8 @@
     -   '@type': schema:Person
         name: Andres Montero
     created: 23-05-2025
-    description: This indicator tries aims determine if a software prpoject makes
-        use of workflows to automatize processes like testing.
+    description: This indicator tries aims determine if a software project makes use
+        of workflows to automatize processes like testing and deployment.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/repository_workflows
     keywords:
@@ -445,7 +445,7 @@
     - github
     - fair
     - repository
-    name: Software has workflows in its repository
+    name: Software has ci/cd workflows in its repository
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
     source:
@@ -494,7 +494,7 @@
     description: This indicator aims to determine if a software project comes with
         many forms of documentation like readme or readthedocs
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/software_has_documentation
+        '@id': https://w3id.org/everse/i/indicators/software_documentation
     keywords:
     - documentation
     - fair
@@ -655,5 +655,34 @@
         url: https://doi.org/10.5281/zenodo.15474784
     -   name: Reference and identification. RSMD-3.1
         url: https://fair-impact.github.io/RSMD-guidelines/3.Reference_identification/
+    status: Active
+    version: 1.0.0
+-   author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 14-07-2025
+    description: This indicator aims to determine if the version (or versions) of
+        a software tool follows an established community convention like semantic
+        versioning (SemVer) or calendar versioning (CalVer).
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/versioning_standards_use
+    keywords:
+    - version
+    - versioning
+    - fair
+    - releases
+    name: Software follows versioning standards
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+        '@id': https://doi.org/10.5281/zenodo.15535629
+        name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
+            context
+        url: https://doi.org/10.5281/zenodo.15535629
     status: Active
     version: 1.0.0
