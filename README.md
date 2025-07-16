@@ -37,6 +37,11 @@ See also [CITATION.cff](CITATION.cff).
 
 Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this project or content.
 
+## Outreach and presentations
+
+- RSQKit workshop at Software Sustainability Institute's [Collaborations Workshop (CW25), 14 May 2025](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25) - [slides](https://certhgr.sharepoint.com/sites/INAB-CERTH-Bioinformatics/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FINAB%2DCERTH%2DBioinformatics%2FShared%20Documents%2FGeneral%2F04%2EProjects%2FEU%2DProjects%2FFunded%2DRunning%2FEVERSE%20%28HORIZON%2DINFRA%2D2023%2DEOSC%2D01%2D02%29%2FConsortium%2F8%2E%CE%9Futreach%2F2025%2D05%2D13%20%2D%20CW25%20RSQKit%20workshop&viewid=c0edfb52%2D0a33%2D44c9%2Dab5f%2D7556df8929f5&p=true&ga=1) internal to the EVERSE project
+- [RSQKit presentation by Shoaib Sufi](https://certhgr.sharepoint.com/sites/INAB-CERTH-Bioinformatics/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FINAB%2DCERTH%2DBioinformatics%2FShared%20Documents%2FGeneral%2F04%2EProjects%2FEU%2DProjects%2FFunded%2DRunning%2FEVERSE%20%28HORIZON%2DINFRA%2D2023%2DEOSC%2D01%2D02%29%2FConsortium%2F8%2E%CE%9Futreach%2F2025%2D07%2D08%20%2D%20ReSA%20RIF%20Meeting&viewid=c0edfb52%2D0a33%2D44c9%2Dab5f%2D7556df8929f5&p=true&ga=1) at the ReSA RIF meeting, 9 July 2025 (slides internal to the EVERSE project)
+
 ## Acknowledgements
 
 [RSQKit website](http://everse.software/RSQKit/) is heavily inspired and replicating the work done by ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/) within the research software space and is built using the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/).
