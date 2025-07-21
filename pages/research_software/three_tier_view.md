@@ -40,7 +40,6 @@ They often began as a collection of analysis scripts before evolving into more c
 Some examples of prototype tools are provided below.
 
 - [Nipype](https://nipype.readthedocs.io/en/latest/), a Python tool for neuroimaging data processing.
-- [GROMACS](https://www.gromacs.org/), a software suite for high-performance molecular dynamics and output analysis.
 - [Gemdat](https://gemdat.readthedocs.io/en/latest/) - a Python library for the analysis of diffusion in solid-state electrolytes from molecular dynamics simulations.
 - [Tulipaenergymodel](https://research-software-directory.org/software/tulipaenergymodel) - an optimization model for the electricity market and its coupling with other energy sectors to determine the optimal investment and operation decisions for different types of assets.
 - [CoupledNODE.jl](https://github.com/DEEPDIP-project/CoupledNODE.jl) - a Julia implementation of the Coupled Neural ODEs (CNODEs) method, a data-driven approach to solve Partial Differential Equations (PDEs) in a multiscale context using closure modelling.
