@@ -23,7 +23,7 @@ Analysis scripts, especially in academic research projects, often remain unpubli
 
 However, the trend toward publishing code alongside academic papers has been growing. 
 More researchers are realising that sharing their analysis code alongside their results is essential for transparency, reproducibility, and collaboration.
-When shared and collaboratively developed, analysis scripts can evolve from small, specific solutions into more comprehensive prototype or full-fledged software infrastructure tools that benefit many people in the research or software development community. 
+When shared and collaboratively developed, analysis scripts developed for specific solutions can start on the journey towards becoming more comprehensive prototype or full-fledged software infrastructure tools that benefit many people in the research or software development community. 
 
 For some examples of analysis code, see:
 
