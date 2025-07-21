@@ -6,7 +6,6 @@ The **three-tier model of research software** provides a framework for understan
 in research - from scripts, code, notebooks, to computational workflows, libraries, modules, frameworks, utilities and applications. 
 
 The three-tier model acknowledges a relationship between the tiers: software at higher tiers often comes from the further development of software at a lower tier. Software at lower tiers often rely upon software at higher tiers (e.g. established infrastructure services and libraries). This interconnectedness highlights the importance of supporting all levels of research software development and acknowledging the ways in which it can impact research and research software.
-This interconnectedness highlights the importance of supporting all levels of research software development.
 
 ![Three-tier model of research software](../../images/3-tier-model.svg)
 <!--
