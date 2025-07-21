@@ -3,9 +3,13 @@ title: Three-Tier Model of Research Software
 ---
 
 The **three-tier model of research software** provides a framework for understanding the diverse landscape of software 
-in research - from scripts, code, notebooks, to computational workflows, libraries, modules, frameworks, utilities and applications. 
+in research - from scripts, code, notebooks, to computational workflows, libraries, modules, frameworks, utilities and applications.
+This model distinguishes three tiers of research software:
 
-The three-tier model acknowledges a relationship between the tiers: software at higher tiers often comes from the further development of software at a lower tier. Software at lower tiers often rely upon software at higher tiers (e.g. established infrastructure services and libraries). This interconnectedness highlights the importance of supporting all levels of research software development and acknowledging the ways in which it can impact research and research software.
+- **Analysis code**,
+- **Prototype tools**, and
+- **Research software infrastructure**.
+
 
 ![Three-tier model of research software](../../images/3-tier-model.svg)
 <!--
@@ -14,18 +18,24 @@ The three-tier model acknowledges a relationship between the tiers: software at 
 
 *Diagram from ["EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence" presentation](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf) by F. Psomopoulos, February 2025, adapted by Aleksandra Nenadic under CC-BY 4.0 licence*
 
+The model acknowledges a relationship between the tiers: software at higher tiers often comes from the further development of software at a lower tier. 
+Software at lower tiers often rely upon software at higher tiers (e.g. established infrastructure services and libraries). 
+This interconnectedness highlights the importance of supporting all levels of research software development and acknowledging the ways in which it can impact research.
+
 ## Analysis code
 
 Analysis code is research software that captures computational research processes and methodology, often used in simulation, data generation, preparation, analysis and visualisation. 
 It typically represents software created for personal use with a small scope, such as scripts quickly put together to analyse data.
 
-Analysis scripts, especially in academic research projects, often remain unpublished. Scripts can thus be lost when a researcher moves computer or leaves and institution. This work may then be re-done by other researchers and the ability to learn lessons from the original work is then not possible.
+Analysis scripts, especially in academic research projects, often remain unpublished. 
+Scripts can thus be lost when a researcher changes computer or leaves an institution. 
+This work may then have to be re-done by other researchers and the ability to learn lessons from the original work diminishes.
 
 However, the trend toward publishing code alongside academic papers has been growing. 
 More researchers are realising that sharing their analysis code alongside their results is essential for transparency, reproducibility, and collaboration.
-When shared and collaboratively developed, analysis scripts developed for specific solutions can start on the journey towards becoming more comprehensive prototype or full-fledged software infrastructure tools that benefit many people in the research or software development community. 
+When shared and collaboratively developed, analysis scripts developed for specific solutions can start on the journey towards becoming more comprehensive prototype or fully-fledged software infrastructure tools that benefit many people in the research or software development community. 
 
-Here are some examples of analysis code and their associated publications:
+Here are some examples of analysis code and their associated publications (in alphabetical order):
 
 - [discrete-repr](https://github.com/bhigy/discrete-repr) - analysis scripts associated with the published paper ["Discrete representations in neural models of spoken language"](https://aclanthology.org/2021.blackboxnlp-1.11).
 - [joint-crab](https://github.com/open-gamma-ray-astro/joint-crab) - code and related materials supporting the publication ["Towards open and reproducible multi-instrument analysis in gamma-ray astronomy"](https://www.aanda.org/articles/aa/full_html/2019/05/aa34938-18/aa34938-18.html).
@@ -37,39 +47,38 @@ Prototype tools are research software that demonstrates a new idea, method or mo
 These software tools are designed to answer multiple research questions and are typically developed and used by more than one person.
 They often began as a collection of analysis scripts before evolving into more comprehensive tools.
 
-Some examples of prototype tools are provided below.
+Some examples of prototype tools are provided below (in alphabetical order).
 
-- [Nipype](https://nipype.readthedocs.io/en/latest/), a Python tool for neuroimaging data processing.
-- [Gemdat](https://gemdat.readthedocs.io/en/latest/) - a Python library for the analysis of diffusion in solid-state electrolytes from molecular dynamics simulations.
-- [Tulipaenergymodel](https://research-software-directory.org/software/tulipaenergymodel) - an optimization model for the electricity market and its coupling with other energy sectors to determine the optimal investment and operation decisions for different types of assets.
-- [CoupledNODE.jl](https://github.com/DEEPDIP-project/CoupledNODE.jl) - a Julia implementation of the Coupled Neural ODEs (CNODEs) method, a data-driven approach to solve Partial Differential Equations (PDEs) in a multiscale context using closure modelling.
-- [Compas Toolkit](https://nlesc-compas.github.io/compas-toolkit/) - a high-performance C++ library offering GPU-accelerated functions for use in quantitative MRI research.
-- [ehtim (ent-imaging)](https://github.com/achael/eht-imaging) - Python modules for simulating and manipulating VLBI data and producing images with regularised maximum likelihood methods for radio interferometry,
 - [agnpy](https://github.com/cosimoNigro/agnpy) - a Python tool for modelling jetted Active Galactic Nuclei radiative processes.
+- [Compas Toolkit](https://nlesc-compas.github.io/compas-toolkit/) - a high-performance C++ library offering GPU-accelerated functions for use in quantitative MRI research.
+- [CoupledNODE.jl](https://github.com/DEEPDIP-project/CoupledNODE.jl) - a Julia implementation of the Coupled Neural ODEs (CNODEs) method, a data-driven approach to solve Partial Differential Equations (PDEs) in a multiscale context using closure modelling.
+- [ehtim (ent-imaging)](https://github.com/achael/eht-imaging) - Python modules for simulating and manipulating VLBI data and producing images with regularised maximum likelihood methods for radio interferometry,
+- [Gemdat](https://gemdat.readthedocs.io/en/latest/) - a Python library for the analysis of diffusion in solid-state electrolytes from molecular dynamics simulations.
+- [Nipype](https://nipype.readthedocs.io/en/latest/), a Python tool for neuroimaging data processing.
+- [Tulipaenergymodel](https://research-software-directory.org/software/tulipaenergymodel) - an optimization model for the electricity market and its coupling with other energy sectors to determine the optimal investment and operation decisions for different types of assets.
 
 ## Research software infrastructure
 
 Research software infrastructures include software that captures broadly accepted ideas, methods and models for use in research, warranting close researcher involvement in their development.
 This tier represents a broadly applicable research software, often with a large and possibly distributed development team.
 
-Some examples of research software infrastructures are provided below:
+Some examples of research software infrastructures are provided below (in alphabetical order):
 
-- [SciPy](https://scipy.org/) and [NumPy](https://numpy.org/) - provide essential numerical computing capabilities used across many scientific domains. Many of the functions and algorithms started as individual, specific analysis scripts. Over time, they were expanded, optimised, and integrated into powerful, general-purpose scientific libraries used worldwide.
-- [Jupyter Notebooks/JupyterLab](https://jupyter.org/) - initially, Jupyter Notebooks were just a tool for sharing code and results in a more interactive format. But as more developers contributed, the project evolved into JupyterLab, a full-fledged web-based data science environment.
-- Tools like [TensorFlow](https://www.tensorflow.org/) and [scikit-learn](https://scikit-learn.org/stable/) started out as smaller scripts and research experiments. As they gained more contributors, they evolved into comprehensive infrastructures with rich documentation, user guides, and community support.
 - Open-Source projects such as [Biopython](https://biopython.org/) — what started as a set of scripts for bioinformatics has evolved into a widely-used toolkit for computational biology, with thousands of contributors.
-- [GROMACS](https://www.gromacs.org/), a software suite for high-performance molecular dynamics and output analysis.
 - [Gammapy](https://github.com/gammapy/gammapy) - a Python package for gamma-ray astronomy providing a wide range of tools for analysing data from ground-based gamma-ray telescopes and space-based observatories, making it a crucial tool for astrophysicists studying cosmic sources of high-energy radiation, such as black holes, neutron stars, and supernova remnants.
-The package is supported by the European Strategy Forum on Research Infrastructures (ESFRI), emphasising its importance within the European scientific community.
+  The package is supported by the European Strategy Forum on Research Infrastructures (ESFRI), emphasising its importance within the European scientific community.
+- [GROMACS](https://www.gromacs.org/), a software suite for high-performance molecular dynamics and output analysis.
+- [Jupyter Notebooks/JupyterLab](https://jupyter.org/) - initially, Jupyter Notebooks were just a tool for sharing code and results in a more interactive format. But as more developers contributed, the project evolved into JupyterLab, a full-fledged web-based data science environment.
+- [SciPy](https://scipy.org/) and [NumPy](https://numpy.org/) - provide essential numerical computing capabilities used across many scientific domains. Many of the functions and algorithms started as individual, specific analysis scripts. Over time, they were expanded, optimised, and integrated into powerful, general-purpose scientific libraries used worldwide.
+- Tools like [TensorFlow](https://www.tensorflow.org/) and [scikit-learn](https://scikit-learn.org/stable/) started out as smaller scripts and research experiments. As they gained more contributors, they evolved into comprehensive infrastructures with rich documentation, user guides, and community support.
 
-## Context and history
+## History and context
 
 The three-tier model originated from the Australian Research Data Commons (ARDC) as part of their ["National Agenda for Research Software"](https://doi.org/10.5281/zenodo.6378082) 
 and was also inspired by discussions around ["Dealing With Software Collapse"](https://ieeexplore.ieee.org/document/8701540). 
-The notion of the term infrastructure was influenced by the discussion in the ["Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure"](https://www.fordfoundation.org/work/learning/research-reports/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/).
-It emerged from the need to better categorise and support different types of research software, recognising that a 
-one-size-fits-all approach is inadequate for the varied purposes and stakeholders involved in research software - “best practice” in the production of
+It emerged from the need to better categorise and support different types of research software, recognising that a one-size-fits-all approach is inadequate for the varied purposes and stakeholders involved in research software - “best practice” in the production of
 analysis code, prototype tools and research software infrastructure could mean quite different things.
+The term research software infrastructure used in the model was influenced by the discussion in ["Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure"](https://www.fordfoundation.org/work/learning/research-reports/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/).
 
 Since its introduction, the model has gained international recognition. 
 It has been referenced in various contexts, including the ["FAIR Principles for Research Software (FAIR4RS Principles)"](https://doi.org/10.1038/s41597-022-01710-x). 
