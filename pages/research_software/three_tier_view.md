@@ -58,6 +58,7 @@ Some examples of research software infrastructures are provided below:
 - [Jupyter Notebooks/JupyterLab](https://jupyter.org/) - initially, Jupyter Notebooks were just a tool for sharing code and results in a more interactive format. But as more developers contributed, the project evolved into JupyterLab, a full-fledged web-based data science environment.
 - Tools like [TensorFlow](https://www.tensorflow.org/) and [scikit-learn](https://scikit-learn.org/stable/) started out as smaller scripts and research experiments. As they gained more contributors, they evolved into comprehensive infrastructures with rich documentation, user guides, and community support.
 - Open-Source projects such as [Biopython](https://biopython.org/) — what started as a set of scripts for bioinformatics has evolved into a widely-used toolkit for computational biology, with thousands of contributors.
+- [GROMACS](https://www.gromacs.org/), a software suite for high-performance molecular dynamics and output analysis.
 - [Gammapy](https://github.com/gammapy/gammapy) - a Python package for gamma-ray astronomy providing a wide range of tools for analysing data from ground-based gamma-ray telescopes and space-based observatories, making it a crucial tool for astrophysicists studying cosmic sources of high-energy radiation, such as black holes, neutron stars, and supernova remnants.
 The package is supported by the European Strategy Forum on Research Infrastructures (ESFRI), emphasising its importance within the European scientific community.
 
