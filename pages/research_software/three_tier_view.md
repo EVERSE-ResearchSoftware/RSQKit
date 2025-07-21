@@ -20,7 +20,6 @@ Analysis code is research software that captures computational research processe
 It typically represents software created for personal use with a small scope, such as scripts quickly put together to analyse data.
 
 Analysis scripts, especially in academic research projects, often remain unpublished. Scripts can thus be lost when a researcher moves computer or leaves and institution. This work may then be re-done by other researchers and the ability to learn lessons from the original work is then not possible.
-As a consequence, results can't be easily verified or extended, scripts might be lost when a computer is wiped or a researcher leaves an institution, others may redo work that already exists but isn’t discoverable, and community growth and collaboration are hindered.
 
 However, the trend toward publishing code alongside academic papers has been growing. 
 More researchers are realising that sharing their analysis code alongside their results is essential for transparency, reproducibility, and collaboration.
