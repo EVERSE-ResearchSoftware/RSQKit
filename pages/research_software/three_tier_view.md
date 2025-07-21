@@ -4,7 +4,7 @@ title: Three-Tier Model of Research Software
 
 The **three-tier model of research software** provides a framework for understanding the diverse landscape of software 
 in research - from scripts, code, notebooks, to computational workflows, libraries, modules, frameworks, utilities and applications.
-This model distinguishes three tiers of research software:
+This model distinguishes three tiers of research software based on the intent behind it - i.e. focussing on the purpose for which the software is being built:
 
 - **Analysis code**,
 - **Prototype tools**, and
