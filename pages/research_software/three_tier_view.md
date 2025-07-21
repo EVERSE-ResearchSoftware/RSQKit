@@ -66,6 +66,7 @@ The package is supported by the European Strategy Forum on Research Infrastructu
 
 The three-tier model originated from the Australian Research Data Commons (ARDC) as part of their ["National Agenda for Research Software"](https://doi.org/10.5281/zenodo.6378082) 
 and was also inspired by discussions around ["Dealing With Software Collapse"](https://ieeexplore.ieee.org/document/8701540). 
+The notion of the term infrastructure was influenced by the discussion in the ["Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure"](https://www.fordfoundation.org/work/learning/research-reports/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/).
 It emerged from the need to better categorise and support different types of research software, recognising that a 
 one-size-fits-all approach is inadequate for the varied purposes and stakeholders involved in research software - “best practice” in the production of
 analysis code, prototype tools and research software infrastructure could mean quite different things.
