@@ -25,7 +25,7 @@ However, the trend toward publishing code alongside academic papers has been gro
 More researchers are realising that sharing their analysis code alongside their results is essential for transparency, reproducibility, and collaboration.
 When shared and collaboratively developed, analysis scripts developed for specific solutions can start on the journey towards becoming more comprehensive prototype or full-fledged software infrastructure tools that benefit many people in the research or software development community. 
 
-For some examples of analysis code, see:
+Here are some examples of analysis code and their associated publications:
 
 - [discrete-repr](https://github.com/bhigy/discrete-repr) - analysis scripts associated with the published paper ["Discrete representations in neural models of spoken language"](https://aclanthology.org/2021.blackboxnlp-1.11).
 - [joint-crab](https://github.com/open-gamma-ray-astro/joint-crab) - code and related materials supporting the publication ["Towards open and reproducible multi-instrument analysis in gamma-ray astronomy"](https://www.aanda.org/articles/aa/full_html/2019/05/aa34938-18/aa34938-18.html).
