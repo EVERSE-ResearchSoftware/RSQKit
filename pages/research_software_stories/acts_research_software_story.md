@@ -57,7 +57,7 @@ experiments' software frameworks.
 - [Eigen][LIBRARY_EIGEN]: A linear algebra library used for efficient mathematical
   computations.
 
-- Geometry converters: Interfaces to import detector geometry from [ROOT TGeo][ACTS_ROOT]
+- **Geometry converters**: Interfaces to import detector geometry from [ROOT TGeo][ACTS_ROOT]
   and [DD4hep][ACTS_DD4HEP].
 
 - [GPU acceleration][ACTS_GPU]: Experimental support for using GPUs to speed up certain
@@ -100,23 +100,21 @@ the community.
 
 ACTS uses common tools to maintain quality and facilitate contributions:
 
-- Version control: {% tool "git" %}, with repositories on [GitHub][ACTS_GITHUB] for collaborative
+- **Version control**: {% tool "git" %}, with repositories on [GitHub][ACTS_GITHUB] for collaborative
   development.
 
-- Continuous integration: Automated testing pipelines using [GitHub Actions][ACTS_GITHUB_ACTIONS]
+- **Continuous integration**: Automated testing pipelines using [GitHub Actions][ACTS_GITHUB_ACTIONS]
 
-- Documentation: Documentation written with {% tool "sphinx" %} and published on
+- **Documentation**: Documentation written with {% tool "sphinx" %} and published on
   [ReadTheDocs][ACTS_READTHEDOCS].
 
-- Build system: {% tool "cmake" %} for consistent compilation across platforms.
+- **Build system**: {% tool "cmake" %} for consistent compilation across platforms.
 
 - [Issue tracking][ACTS_GITHUB_BUG_TRACKING]: GitHub issue trackers for transparent bug reports and
   feature requests.
 
-
-- Forums: [Github Discussions][ACTS_GITHUB_DISCUSSIONS], [Mattermost messaging][COLLABORATION_MATTERMOST] and e-mail lists for open
+- **Forums**: [Github Discussions][ACTS_GITHUB_DISCUSSIONS], [Mattermost messaging][COLLABORATION_MATTERMOST] and e-mail lists for open
   communication with the core development team.
-
 
 These tools streamline development, ensure reliability, and make it easier
 for new users to adopt and contribute to ACTS.
