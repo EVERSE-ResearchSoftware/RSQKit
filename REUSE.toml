@@ -1,8 +1,11 @@
 version = 1
 
-# Standard markdown files in repository root
+# RSQKit content, images, standard markdown files in repository root, 
 [[annotations]]
 path = [
+    "pages/**",
+    "assets/img/**", 
+    "images/**",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
     "GOVERNANCE.md",
@@ -12,7 +15,7 @@ path = [
     "README.md",
     "TOOLS_SELECTION_CRITERIA.md"
 ]
-SPDX-FileCopyrightText = "NONE"
+SPDX-FileCopyrightText = "Copyright of content remains with authors or their organisations."
 SPDX-License-Identifier = "CC-BY-4.0"
 
 # Software and configurations
@@ -30,17 +33,8 @@ path = [
     "_data/**", 
     ".github/**"
 ]
-SPDX-FileCopyrightText = "NONE"
+SPDX-FileCopyrightText = "Copyright of content remains with authors or their organisations."
 SPDX-License-Identifier = "MIT"
-
-# Images
-[[annotations]]
-path = [
-    "assets/img/**", 
-    "images/**"
-]
-SPDX-FileCopyrightText = "NONE"
-SPDX-License-Identifier = "CC-BY-4.0"
 
 # Metadata files
 [[annotations]]
@@ -51,12 +45,3 @@ path = [
 ]
 SPDX-FileCopyrightText = "NONE"
 SPDX-License-Identifier = "CC0-1.0"
-
-# RSQKit content
-[[annotations]]
-path = [
-    "pages/**"
-]
-SPDX-FileCopyrightText = "NONE"
-SPDX-License-Identifier = "CC-BY-4.0"
-
