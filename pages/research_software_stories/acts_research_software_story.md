@@ -118,7 +118,7 @@ for new users to adopt and contribute to ACTS.
 
 ## FAIR & Open
 
-ACTS adheres to the [FAIR principles for research software]:
+ACTS adheres to the [FAIR principles for research software][NATURE_FAIR4RS]:
 
 * **Findable**: [ACTS is openly hosted on GitHub][ACTS_GITHUB] with clear versioning,
   and releases are [archived on Zenodo] and assigned DOIs for academic
