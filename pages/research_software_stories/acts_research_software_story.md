@@ -66,7 +66,6 @@ experiments' software frameworks.
   development and testing of ML algorithms for ambiguity resolution, seed
   filtering etc.
 
-## Software Practices
 ## Software Quality Practices
 
 ACTS development follows [strict software engineering standards][ACTS_CODING_GUIDELINES].  The project
