@@ -17,7 +17,6 @@ lack of a common framework to collaborate and improve upon.  The ACTS
 project (Acts Common Tracking Software) was created to provide a single,
 experiment-independent toolkit for efficient track reconstruction.
 
-## The Community
 ## User Community
 
 [ACTS][ACTS] began within the [ATLAS experiment][ATLAS] at [CERN][CERN], but it now serves many
@@ -78,7 +77,6 @@ reviews on merge requests.  [Issues are tracked transparently][ACTS_GITHUB_BUG_T
 [meetings][ACTS_MEETINGS] plus mailing list discussions keep contributors aligned and
 informed.
 
-## Community
 ## Developer Community
 
 The ACTS community provides many resources to help onboard newcomers:
