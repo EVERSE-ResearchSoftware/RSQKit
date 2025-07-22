@@ -8,9 +8,9 @@ type: research_software_story
 
 ## The Problem
 
-[Modern particle physics][MODERN_PARTICLE_PHYS] experiments produce enormous volumes of data and
+[Modern particle physics][CONCEPT_MODERN_PARTICLE_PHYS] experiments produce enormous volumes of data and
 this is expected to grow in the near future.  One key challenge is
-[track reconstruction][TRACK_RECONSTRUCTION] - converting raw detector hits from charged particles into
+[track reconstruction][CONCEPT_TRACK_RECONSTRUCTION] - converting raw detector hits from charged particles into
 estimated particle trajectories.  Historically, each experiment built its
 own specialized tracking software, resulting in duplicated effort and the
 lack of a common framework to collaborate and improve upon.  The ACTS
@@ -52,9 +52,9 @@ experiments' software frameworks.
 
 ## Libraries and Systems
 
-- [C++20][CPP_20]: Leverages modern C++ features for performance and concurrency.
+- [C++20][LANGUAGE_CPP_20]: Leverages modern C++ features for performance and concurrency.
 
-- [Eigen][EIGEN]: A linear algebra library used for efficient mathematical
+- [Eigen][LIBRARY_EIGEN]: A linear algebra library used for efficient mathematical
   computations.
 
 - Geometry converters: Interfaces to import detector geometry from [ROOT TGeo][ACTS_ROOT]
@@ -63,7 +63,7 @@ experiments' software frameworks.
 - [GPU acceleration][ACTS_GPU]: Experimental support for using GPUs to speed up certain
   computations.
 
-- [ML integration][ACTS_ML]: Plugins like [Exa.TrkX for GNN based tracking][ACTS_EXA_TRKX] or [ONNX][ONNX_ML] for
+- [ML integration][ACTS_ML]: Plugins like [Exa.TrkX for GNN based tracking][ACTS_EXA_TRKX] or [ONNX][LIBRARY_ONNX_ML] for
   development and testing of ML algorithms for ambiguity resolution, seed
   filtering etc.
 
@@ -71,10 +71,10 @@ experiments' software frameworks.
 ## Software Quality Practices
 
 ACTS development follows [strict software engineering standards][ACTS_CODING_GUIDELINES].  The project
-is developed openly on GitHub, and every code submission [triggers automated][ACTS_ACTIONS]
+is developed openly on GitHub, and every code submission [triggers automated][ACTS_GITHUB_ACTIONS]
 CI tests to ensure nothing breaks and that thread-safety is maintained. 
 Developers adhere to [coding][ACTS_CODING_GUIDELINES] and [contribution guidelines][ACTS_CONTRIBUTION_GUIDELINES], and use peer
-reviews on merge requests.  [Issues are tracked transparently][ACTS_BUG_TRACKING], and frequent
+reviews on merge requests.  [Issues are tracked transparently][ACTS_GITHUB_BUG_TRACKING], and frequent
 [meetings][ACTS_MEETINGS] plus mailing list discussions keep contributors aligned and
 informed.
 
@@ -85,7 +85,7 @@ The ACTS community provides many resources to help onboard newcomers:
 
 - [Contribution guidelines][ACTS_CONTRIBUTION_GUIDELINES]: A clear step-by-step guide for submitting code.
 
-- [Interactive tutorials][INTERACTIVE_TUTORIALS]: Hands-on guides for configuring and running
+- [Interactive tutorials][ACTS_INTERACTIVE_TUTORIALS]: Hands-on guides for configuring and running
   tracking workflows.
 
 - [Example framework][ACTS_EXAMPLES]: A sample project demonstrating how to use ACTS
@@ -103,18 +103,18 @@ ACTS uses common tools to maintain quality and facilitate contributions:
 - Version control: {% tool "git" %}, with repositories on [GitHub][ACTS_GITHUB] for collaborative
   development.
 
-- Continuous integration: Automated testing pipelines using [GitHub Actions][ACTS_ACTIONS]
+- Continuous integration: Automated testing pipelines using [GitHub Actions][ACTS_GITHUB_ACTIONS]
 
 - Documentation: Documentation written with {% tool "sphinx" %} and published on
   [ReadTheDocs][ACTS_READTHEDOCS].
 
 - Build system: {% tool "cmake" %} for consistent compilation across platforms.
 
-- [Issue tracking][ACTS_BUG_TRACKING]: GitHub issue trackers for transparent bug reports and
+- [Issue tracking][ACTS_GITHUB_BUG_TRACKING]: GitHub issue trackers for transparent bug reports and
   feature requests.
 
 
-- Forums: [Github Discussions][ACTS_DISCUSSIONS], [Mattermost messaging][MATTERMOST] and e-mail lists for open
+- Forums: [Github Discussions][ACTS_GITHUB_DISCUSSIONS], [Mattermost messaging][COLLABORATION_MATTERMOST] and e-mail lists for open
   communication with the core development team.
 
 
@@ -165,9 +165,9 @@ usability. (this is reflected primarily in practice)
 ## Sustainability
 
 ACTS is sustained by a strong community and multiple funding sources.  It
-benefits from institutional support (for example, [CERN's EP R&D programme][CERN_EP_RD],
-the NSF-funded [IRIS-HEP project][IRIS_HEP] in the US, the EU-funded [AIDAInnova project][AIDA_INNOVA],
-and [CERN's Next Generation Triggers][NEXTGEN_TRIGGERS] initiative).  Having contributors from
+benefits from institutional support (for example, [CERN's EP R&D programme][FUNDING_CERN_EP_RD],
+the NSF-funded [IRIS-HEP project][FUNDING_IRIS_HEP] in the US, the EU-funded [AIDAInnova project][FUNDING_AIDA_INNOVA],
+and [CERN's Next Generation Triggers][FUNDING_CERN_NEXTGEN_TRIGGERS] initiative).  Having contributors from
 many different experiments means ACTS isn't dependent on any single group or
 grant.  The project has [clear governance and training practices][ACTS_GOVERNANCE] to retain
 knowledge, which keeps ACTS resilient and ready to meet future needs.
@@ -189,48 +189,46 @@ knowledge, which keeps ACTS resilient and ready to meet future needs.
 
 <!-- External References embedded as links -->
 
-[MODERN_PARTICLE_PHYS]: https://indico.cern.ch/event/447008/contributions/1953687/attachments/1184942/1717323/ParticlePhysicsFOR_TEACHERS.pdf
-[TRACK_RECONSTRUCTION]: https://indico.cern.ch/event/666278/contributions/2830627/attachments/1579364/2495228/2018-01-04-Salzburger-Spatind-Conference.pdf
 [ACTS]: https://acts.readthedocs.io/en/latest/acts_project.html
+[ACTS_GITHUB_BUG_TRACKING]: https://github.com/acts-project/acts/issues
+[ACTS_CODING_GUIDELINES]: https://acts.readthedocs.io/en/stable/codeguide.html
+<!-- Yes, there are guidelines on contributing in different places, to reflect audience -->
+[ACTS_CONTRIBUTING]: https://github.com/acts-project/acts/blob/main/CONTRIBUTING.rst
+[ACTS_CONTRIBUTION_GUIDELINES]: https://acts.readthedocs.io/en/latest/contribution/guide.html
+[ACTS_DD4HEP]: https://acts.readthedocs.io/en/stable/plugins/dd4hep.html
+[ACTS_EDM]: https://cds.cern.ch/record/2919575
+[ACTS_EXA_TRKX]: https://acts.readthedocs.io/en/stable/plugins/exatrkx.html
+[ACTS_EXAMPLES]: https://github.com/acts-project/acts/tree/main/Examples
+[ACTS_GEOMETRY]: https://acts.readthedocs.io/en/stable/core/geometry/index.html
+[ACTS_GETTING_STARTED]: https://acts.readthedocs.io/en/latest/getting_started.html
+[ACTS_GITHUB]: https://github.com/acts-project/acts
+[ACTS_GITHUB_ACTIONS]: https://github.com/acts-project/acts/blob/main/.github/actions/dependencies/action.yml
+[ACTS_GITHUB_DISCUSSIONS]: https://github.com/acts-project/acts/discussions
+[ACTS_GOVERNANCE]: https://indico.cern.ch/event/1295479/contributions/5623605/
+[ACTS_INTERNALS]: https://indico.cern.ch/event/849307/contributions/3569086/attachments/1935012/3206368/Concepts__design_and_Implementation_of_the_A_Common_Tracking_Software__Acts__project.pdf
+[ACTS_INTERACTIVE_TUTORIALS]: https://atlassoftwaredocs.web.cern.ch/internal-links/tracking-tutorial/
+[ACTS_GPU]: https://hepsoftwarefoundation.org/gsoc/2022/proposal_ACTS_GPU_pipeline_optimization.html
+[ACTS_MEETINGS]: https://indico.cern.ch/category/7968/
+[ACTS_ML]: https://acts.readthedocs.io/en/latest/plugins/MLAlgorithms.html
+[ACTS_READTHEDOCS]: https://acts.readthedocs.io/
+[ACTS_ROOT]: https://acts.readthedocs.io/en/stable/plugins/root.html
+[ACTS_SESSIONS]: https://indico.cern.ch/category/7968/
+[ACTS_SPRINGER]: https://link.springer.com/article/10.1007/s41781-021-00078-8
+[ACTS_TRACKING]: https://acts.readthedocs.io/en/stable/tracking.html
+[ACTS_WORKSHOP_24]: https://indico.cern.ch/event/1397634/
+[ACTS_ZENODO]: https://zenodo.org/records/7733496
 [ATLAS]: https://atlas.cern/
 [CERN]: https://home.cern/about
-[ACTS_TRACKING]: https://zenodo.org/records/15005414
-[ACTS_SPRINGER]: https://link.springer.com/article/10.1007/s41781-021-00078-8
-[ACTS_GEOMETRY]: https://acts.readthedocs.io/en/stable/core/geometry/index.html
-[ACTS_TRACKING]: https://acts.readthedocs.io/en/stable/tracking.html
-[ACTS_EDM]: https://cds.cern.ch/record/2919575
-[ACTS_ROOT]: https://acts.readthedocs.io/en/stable/plugins/root.html
-[ACTS_DD4HEP]: https://acts.readthedocs.io/en/stable/plugins/dd4hep.html
-[CPP_20]: https://en.cppreference.com/w/cpp/20.html
-[EIGEN]: https://eigen.tuxfamily.org/
-[ACTS_GPU]: https://hepsoftwarefoundation.org/gsoc/2022/proposal_ACTS_GPU_pipeline_optimization.html
-[ACTS_ML]: https://acts.readthedocs.io/en/latest/plugins/MLAlgorithms.html
-[ACTS_EXA_TRKX]: https://acts.readthedocs.io/en/stable/plugins/exatrkx.html
-[ONNX_ML]: https://onnx.ai/
-[ACTS_CODING_GUIDELINES]: https://acts.readthedocs.io/en/stable/codeguide.html
-[ACTS_CONTRIBUTION_GUIDELINES]: https://acts.readthedocs.io/en/latest/contribution/guide.html
-[ACTS_BUG_TRACKING]: https://github.com/acts-project/acts/issues
-[ACTS_MEETINGS]: https://indico.cern.ch/category/7968/
-[INTERACTIVE_TUTORIALS]: https://atlassoftwaredocs.web.cern.ch/internal-links/tracking-tutorial/
-[ACTS_EXAMPLES]: https://github.com/acts-project/acts/tree/main/Examples
-[ACTS_WORKSHOP_24]: https://indico.cern.ch/event/1397634/
-[ACTS_SESSIONS]: https://indico.cern.ch/category/7968/
-[ACTS_GITHUB]: https://github.com/acts-project/acts
-[ACTS_ACTIONS]: https://github.com/acts-project/acts/blob/main/.github/actions/dependencies/action.yml
-[ACTS_READTHEDOCS]: https://acts.readthedocs.io/
-[ACTS_BUG_TRACKING]: https://github.com/acts-project/acts/issues
-[ACTS_DISCUSSIONS]: https://github.com/acts-project/acts/discussions
-[MATTERMOST]: https://mattermost.com/
-[ACTS_ZENODO]: https://zenodo.org/records/7733496
-[MOZILLA_20_LICENSE]: https://opensource.org/license/mpl-2-0
 [CFF_FILES]: https://citation-file-format.github.io/
+[COLLABORATION_MATTERMOST]: https://mattermost.com/
+[CONCEPT_TRACK_RECONSTRUCTION]: https://indico.cern.ch/event/666278/contributions/2830627/attachments/1579364/2495228/2018-01-04-Salzburger-Spatind-Conference.pdf
+[CONCEPT_MODERN_PARTICLE_PHYS]: https://indico.cern.ch/event/447008/contributions/1953687/attachments/1184942/1717323/ParticlePhysicsFOR_TEACHERS.pdf
+[FUNDING_CERN_NEXTGEN_TRIGGERS]: https://nextgentriggers.web.cern.ch/
+[FUNDING_CERN_EP_RD]: https://ep-dep.web.cern.ch/node/7537
+[FUNDING_IRIS_HEP]: https://iris-hep.org/
+[FUNDING_AIDA_INNOVA]: https://aidainnova.web.cern.ch/
+[LANGUAGE_CPP_20]: https://en.cppreference.com/w/cpp/20.html
+[LIBRARY_EIGEN]: https://eigen.tuxfamily.org/
+[LIBRARY_ONNX_ML]: https://onnx.ai/
+[MOZILLA_20_LICENSE]: https://opensource.org/license/mpl-2-0
 [NATURE_FAIR4RS]: https://www.nature.com/articles/s41597-022-01710-x
-[ACTS_GETTING_STARTED]: https://acts.readthedocs.io/en/latest/getting_started.html
-[ACTS_INTERNALS]: https://indico.cern.ch/event/849307/contributions/3569086/attachments/1935012/3206368/Concepts__design_and_Implementation_of_the_A_Common_Tracking_Software__Acts__project.pdf
-[ACTS_CONTRIBUTING]: https://github.com/acts-project/acts/blob/main/CONTRIBUTING.rst
-[ACTS_EXAMPLES]: https://github.com/acts-project/acts/tree/main/Examples
-[CERN_EP_RD]: https://ep-dep.web.cern.ch/node/7537
-[IRIS_HEP]: https://iris-hep.org/
-[AIDA_INNOVA]: https://aidainnova.web.cern.ch/
-[NEXTGEN_TRIGGERS]: https://nextgentriggers.web.cern.ch/
-[ACTS_GOVERNANCE]: https://indico.cern.ch/event/1295479/contributions/5623605/
