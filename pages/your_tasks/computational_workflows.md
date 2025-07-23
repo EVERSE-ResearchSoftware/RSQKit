@@ -50,7 +50,7 @@ In practice, researchers often combine approaches along this spectrum: for insta
 
 Using computational workflows offers several significant benefits for researchers dealing with complex or repetitive data processing and analysis tasks, including:
 
-* **reproducibility** - workflows formalise each step of your analysis, including data inputs, tools used, parameters, and environment. This ensures that anyone (including your future self) can reproduce the same results by rerunning the workflow. Read more on other aspects of[ reproducible software environments](http://localhost:4000/reproducible_software_environments).
+* **reproducibility** - workflows formalise each step of your analysis, including data inputs, tools used, parameters, and environment. This ensures that anyone (including your future self) can reproduce the same results by rerunning the workflow. Read more on other aspects of[ reproducible software environments](/reproducible_software_environments).
 * **automation, efficiency and scaling** - once defined, a workflow can run automatically without manual intervention. This saves time, reduces human error, and makes it easier to repeat analyses across different datasets or experiments.
 * **scalability and resource management** - WMSs can handle large-scale data and distribute tasks across HPC clusters or cloud resources efficiently — ideal for data-intensive research that would be impossible on individual machines.
 * **transparency and provenance** - workflows serve as living documentation of your research process. They make your methods clear and transparent to collaborators, reviewers, and the broader community.
@@ -105,7 +105,7 @@ Workflow RO-Crate is the metadata standard used by WorkflowHub registry and Life
 
 ## Integration with the FAIR principles
 
-As digital objects to be shared, discovered, and reused, computational workflows benefit from adhering to[ the FAIR principles](http://localhost:4000/fair_rs) in general and specifically the[ FAIR recommendations for workflows](https://doi.org/10.1038/s41597-025-04451-9). It can maximise their quality and value as research assets and facilitate their adoption by the wider community, which is essential for[ modern research data management](https://rdmkit.elixir-europe.org/).
+As digital objects to be shared, discovered, and reused, computational workflows benefit from adhering to[ the FAIR principles](/fair_rs) in general and specifically the[ FAIR recommendations for workflows](https://doi.org/10.1038/s41597-025-04451-9). It can maximise their quality and value as research assets and facilitate their adoption by the wider community, which is essential for[ modern research data management](https://rdmkit.elixir-europe.org/).
 
 The[ Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW)](https://workflows.community/groups/fair/), a global and open community of researchers and developers working with computational workflows across disciplines and domains, has systematically addressed the application of both FAIR data and software principles to computational workflows.
 
