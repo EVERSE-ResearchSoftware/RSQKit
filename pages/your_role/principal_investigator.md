@@ -5,6 +5,8 @@ contributors: ["Aleksandra Nenadic"]
 page_id: principal_investigator
 ---
 
+[BROKEN LINK TEST](https://this-link-should-be-broken.com)
+
 ## Introduction
 
 As a Principal Investigator (PI), you may have recently secured (or are in the process of applying for) project funding 
