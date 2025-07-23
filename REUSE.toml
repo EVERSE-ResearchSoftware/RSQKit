@@ -1,6 +1,6 @@
 version = 1
 
-# RSQKit content, images, standard markdown files in repository root, 
+# RSQKit content (Documentation and assets)
 [[annotations]]
 path = [
     "pages/**",
