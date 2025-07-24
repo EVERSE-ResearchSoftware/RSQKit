@@ -7,9 +7,9 @@ indicators: [software_has_citation]
 related_pages:
   your_tasks: [software_identifiers, software_metadata]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22citation%22+%22cff%22
+   - name: EVERSE TeSS
+     url: https://everse-training.app.cern.ch
+     query: citation cff
 ---
 
 ## What is software citation?

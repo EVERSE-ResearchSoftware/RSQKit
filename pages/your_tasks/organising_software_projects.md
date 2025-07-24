@@ -7,9 +7,9 @@ related_pages:
   your_tasks: [citing_software, creating_good_readme, documenting_software, software_metadata]
 quality_indicators: []
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22organise+project%22
+   - name: EVERSE TeSS
+     url: https://everse-training.app.cern.ch
+     query: organise project
 ---
 
 ## Why does organising your software project matter?
