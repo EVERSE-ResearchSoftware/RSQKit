@@ -1,0 +1,52 @@
+version = 1
+
+# RSQKit content (Documentation and assets)
+[[annotations]]
+path = [
+    "pages/**",
+    "assets/img/**", 
+    "images/**",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "GOVERNANCE.md",
+    "index.md",
+    "INSTALL.md",
+    "LICENSE.md",
+    "README.md",
+    "TOOLS_SELECTION_CRITERIA.md"
+]
+SPDX-FileCopyrightText = "2025 RSQKit Authors and Organisations, including https://everse.software/RSQKit/contributors, https://everse.software/about/consortium/"
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-Year = "2025"
+SPDX-FileType = "Documentation"
+
+# Software and configurations
+[[annotations]]
+path = [
+    "docker-compose.yml",
+    "Dockerfile", 
+    "Gemfile", 
+    "_config.yml", 
+    "scripts/**", 
+    "_scripts/**", 
+    "_sass/**", 
+    "_layouts/**", 
+    "_includes/**", 
+    "_data/**", 
+    ".github/**"
+]
+SPDX-FileCopyrightText = "2025 RSQKit Authors and Organisations, including https://everse.software/RSQKit/contributors, https://everse.software/about/consortium/"
+SPDX-License-Identifier = "MIT"
+SPDX-Year = "2025"
+SPDX-FileType = "Configuration"
+SPDX-Dependencies = ["docker", "ruby"]
+
+# Metadata files
+[[annotations]]
+path = [
+    "CITATION.cff",
+    "codemeta.json",
+    ".gitignore"
+]
+SPDX-FileCopyrightText = "2025 RSQKit Authors and Organisations, including https://everse.software/RSQKit/contributors, https://everse.software/about/consortium/"
+SPDX-License-Identifier = "CC0-1.0"
