@@ -2,8 +2,9 @@ name: Jekyll site CI
 
 on:
   push:
+    branches: [ main ]
   pull_request:
-    branches: [ master, main ]
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -16,20 +17,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          ref: ${{ github.event.inputs.branch }}
+        uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true
-          cache-version: 0
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v5
 
       - name: Set Jekyll environment
         id: name
@@ -42,10 +40,6 @@ jobs:
         env:
           REPO_OWNER: ${{ github.repository_owner }}
 
-      - name: Install dependencies
-        run: |
-          bundle install
-        
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -57,6 +51,9 @@ jobs:
 
       - name: Run discrepancy check script
         run: python _scripts/compare_rsqkit_techradar_tools.py
+        env:
+          # This token is included to avoid github.com requests to error out with status 429 (too many requests). It only works for GitHub requests (also other GitHub REST API calls), not for the rest of the web.
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
