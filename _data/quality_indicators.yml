@@ -621,3 +621,68 @@
         url: https://zenodo.org/records/10723608
     status: Active
     version: 1.0.0
+-   author:
+    -   '@type': schema:Organization
+        name: Elixir focus group
+        url: https://zenodo.org/communities/elixir/records
+    -   '@type': schema:Organization
+        name: FAIR-IMPACT
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 23-05-2025
+    description: This indicator aims to determine if a software project uses version
+        control.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/version_control_use
+    keywords:
+    - version
+    - control
+    - fair
+    - repository
+    - identifier
+    name: Software makes use of version control
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+    -   name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
+            context
+        url: https://zenodo.org/records/10047401
+    -   name: 'Software Quality Indicators: extraction, categorisation and recommendations
+            from canonical sources'
+        url: https://doi.org/10.5281/zenodo.15474784
+    -   name: Reference and identification. RSMD-3.1
+        url: https://fair-impact.github.io/RSMD-guidelines/3.Reference_identification/
+    status: Active
+    version: 1.0.0
+-   author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 14-07-2025
+    description: This indicator aims to determine if the version (or versions) of
+        a software tool follows an established community convention like semantic
+        versioning (SemVer) or calendar versioning (CalVer).
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/versioning_standards_use
+    keywords:
+    - version
+    - versioning
+    - fair
+    - releases
+    name: Software follows versioning standards
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+        '@id': https://doi.org/10.5281/zenodo.15535629
+        name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
+            context
+        url: https://doi.org/10.5281/zenodo.15535629
+    status: Active
+    version: 1.0.0
