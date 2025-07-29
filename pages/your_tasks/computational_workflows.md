@@ -1,7 +1,7 @@
 ---
 title: Computational workflows
 description: How to use computational workflows to automate and reproduce data pipelines?
-contributors: [ "Aleksandra Nenadic", "Oliver Woolland", "Phil Reed", "Nick Juty", "Douglas Lowe", "Stian Soiland-Reyes"]
+contributors: [ "Aleksandra Nenadic", "Oliver Woolland", "Phil Reed", "Shoaib Sufi", "Nick Juty", "Douglas Lowe", "Stian Soiland-Reyes"]
 page_id: computational_workflows
 related_pages:
   your_tasks: [reproducible_software_environments]
