@@ -5,6 +5,7 @@ contributors: ["Aleksandra Nenadic", "Simon Christ"]
 page_id: reproducible_software_environments
 related_pages:
   your_tasks: []
+quality_indicators: [requirements_specified]
 ---
 
 

@@ -5,6 +5,7 @@ contributors: ["Azza Gamgami"]
 page_id: software_documentation
 related_pages:
   your_tasks: [documenting_software_readthedocs, creating_good_readme]
+quality_indicators: [software_has_documentation]
 ---
 
 ## How to create good software documentation?

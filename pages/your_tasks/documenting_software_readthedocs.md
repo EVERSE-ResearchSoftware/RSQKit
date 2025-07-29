@@ -5,6 +5,7 @@ contributors: ["Christian Hüser","Azza Gamgami"]
 page_id: documenting_software_readthedocs
 related_pages:
   your_tasks: [documenting_software]
+quality_indicators: [software_has_documentation]
 ---
 
 ## How to use 'Read The Docs' for your software documentation
