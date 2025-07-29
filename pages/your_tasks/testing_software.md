@@ -6,6 +6,10 @@ page_id: testing_software
 related_pages:
   your_tasks: []
 quality_indicators: [software_has_tests, software_has_ci-tests]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22testing%22
 ---
 
 ## What is code testing?
@@ -236,10 +240,10 @@ Here are a few examples of these principles:
   - Continuous Integration automates repetitive tests, saves time and ensures tests are run consistently across different environments and platforms.
 
 
-## Further reading
+## Training materials
 
-We recommend also reading [the Turing Way's Handbook on Open and Reproducible Research - chapter on testing research code](https://book.the-turing-way.org/reproducible-research/testing).
-It elaborates on the motivation for writing tests within research (with some very convincing examples), on many of the topics mentioned above and also adds advice on a few very common research-related topics like [how to deal with testing random or stochastic code](https://book.the-turing-way.org/reproducible-research/testing/testing-exceptions).
+- [The Turing Way's Handbook on Open and Reproducible Research - chapter on testing research code](https://book.the-turing-way.org/reproducible-research/testing) elaborates on the motivation for writing tests within research (with some very convincing examples), on many of the topics mentioned above and also adds advice on a few very common research-related topics like [how to deal with testing random or stochastic code](https://book.the-turing-way.org/reproducible-research/testing/testing-exceptions).
+- [The Carpentries testing and continuous integration course](https://carpentries-incubator.github.io/python-testing/) includes several examples using the `pytest` library in Python.
 
 
 [software-testing]: https://en.wikipedia.org/wiki/Software_testing

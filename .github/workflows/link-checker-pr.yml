@@ -30,9 +30,9 @@ jobs:
           fetch-depth: 2
       - name: download Lychee
         run: |
-          wget https://github.com/lycheeverse/lychee/releases/download/lychee-v0.18.1/lychee-x86_64-unknown-linux-gnu.tar.gz
+          wget https://github.com/lycheeverse/lychee/releases/download/lychee-v0.19.1/lychee-x86_64-unknown-linux-gnu.tar.gz
           tar xzf lychee-x86_64-unknown-linux-gnu.tar.gz
       - name: Check all this file's additions for broken links
         run: |
           export base_sha=$(git rev-parse ${{ github.sha }}^)
-          git diff -U0 ${base_sha} ${{ github.event.pull_request.head.sha }} -- ${{ matrix.file }} | grep -v "+++" | grep "^+" | cut -c 2- | ./lychee --exclude support.posit.co --exclude www.intel.com --exclude reddit.com --exclude jsfiddle.net -
+          git diff -U0 ${base_sha} ${{ github.event.pull_request.head.sha }} -- ${{ matrix.file }} | grep -v "+++" | grep "^+" | cut -c 2- | ./lychee --fallback-extensions='md' --exclude-all-private --exclude support.posit.co --exclude www.intel.com --exclude reddit.com --exclude jsfiddle.net --exclude 'file://' -

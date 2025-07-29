@@ -6,6 +6,10 @@ page_id: software_identifiers
 related_pages:
   your_tasks: [releasing_software]
 quality_indicators: [persistent_and_unique_identifier]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22identifier%22+%22release%22+%22versioning%22
 ---
 
 
@@ -41,8 +45,7 @@ Some methods for uniquely identifying software and versions include:
 
 - {% tool "semantic-versioning" %} - a structured approach to versioning software in the format MAJOR.MINOR.PATCH.
 - Digital Object Identifiers (DOIs) for software - a DOI (Digital Object Identifier) provides a globally unique, 
-citable reference for a software artefact (software as a whole and its different releases) that integrates with academic and research systems. This is of particular importance for 
-research software - see below for more details on obtaining DOIs for your software.
+citable reference for a software artefact (software as a whole and its different releases) that integrates with academic and research systems. This is of particular importance for research software - see below for more details on obtaining DOIs for your software.
 - Cryptographic hashes (checksums) - a cryptographic hash uniquely represents a software artefact (source code, binary, or package).
 - Universally Unique Identifiers (UUIDs) - a UUID (or GUID) is a 128-bit identifier often used in distributed systems.
 - Git commit hashes - for version-controlled software, a Git commit hash uniquely identifies a snapshot of the codebase.
@@ -57,6 +60,8 @@ Table below provides a summary to help you choose the right identifier combinati
 | UUIDs | Distributed systems, databases       | Not human-readable, doesn’t convey versioning semantics |
 | Git commit hashes | Development snapshots| Not always meaningful outside the development context |
 
+Bear in mind that if you register your software in a repository or registy, a persistent identifier for it (or its metadata) is often created 
+automatically. To find an appropriate registry for your research software, please have a look at the following [awesome list](https://github.com/NLeSC/awesome-research-software-registries).
 
 ## How to obtain and use DOIs for research software?
 

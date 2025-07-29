@@ -6,6 +6,10 @@ page_id: ci_cd
 indicators: [software_has_ci-tests]
 related_pages: 
   your_tasks: [task_automation_github_actions, task_automation_gitlab_ci_cd]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22ci%22+%22cd%22+%22ci%2Fcd%22+%22continuous+integration%22+%22continuous+deployment%22
 ---
 
 ## How can you use CI/CD in software development?
@@ -75,6 +79,7 @@ also provide CI/CD processes and services built around code repositories - e.g. 
   - {% tool "kubernetes" %} - for orchestration, enabling deployment, scaling and management of containerised applications.
 - Monitoring - tools like Prometheus, Grafana, and New Relic are used for real-time monitoring in production to ensure system health.
 - Infrastructure as Code (IaC) - tools like {% tool "terraform" %}, {% tool "vagrant" %} or {% tool "ansible" %} automate infrastructure provisioning and configuration, ensuring consistency across environments.
+ 
 
 [task_automation_github_actions]: ./task_automation_github_actions
 [task_automation_gitlab_ci_cd]: ./task_automation_gitlab_ci_cd
