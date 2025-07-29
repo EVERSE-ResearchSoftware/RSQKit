@@ -7,10 +7,11 @@ page_id: task_automation_github_actions
 related_pages: 
   your_tasks: [ci_cd, task_automation_gitlab_ci_cd]
 quality_indicators: [software_has_ci-tests]
+keywords: ["ci cd", "ci/cd", "ci", "cd", "task automation", "github actions"]
 training:
-   - name: EVERSE TeSS
-     url: https://everse-training.app.cern.ch
-     query: ci cd task automation github action
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## Task automation using GitHub Actions

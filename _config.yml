@@ -29,8 +29,7 @@ defaults:
       permalink: /:basename
       layout: "page"
       sidebar: main
-      training_type: link # link or preview
-      training_n_display: 3
+
   -
     scope:
       path: "pages/your_tasks/"

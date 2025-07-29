@@ -6,10 +6,11 @@ page_id: documenting_software
 related_pages:
   your_tasks: [writing_readable_code, documenting_software_readthedocs, creating_good_readme]
 quality_indicators: [software_has_documentation]
+keywords: ["documentation", "software documentation", "readme", "sphynx", "readthedocs"]
 training:
-   - name: EVERSE TeSS
-     url: https://everse-training.app.cern.ch
-     query: documentation readme sphynx readthedocs
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## How to document your software project?

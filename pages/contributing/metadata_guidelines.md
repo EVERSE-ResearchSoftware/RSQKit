@@ -81,20 +81,20 @@ in the "front matter" header of the page or applied to a group of pages via `_co
 * `datatable`: a boolean value indicating the activation of the pagination, sorting and searching in tabular representations of pages.
 * `related_pages`: a list of `page_id`s that are related to this page and will appear under "Related pages" section on the page, grouped by page type.
 * `page_citation`: When set to `true`, it will cause the citation section for the page to be generated in the format: "<author names>. <page title>. <site domain>. <page URL>. <date accessed>". Defaults to `true` for task pages; `false` for other page types.
-* `training`:
-  * in `_config.yml`, set `training_type` to `link` to have all the training sections to display a link or to `preview` to preview TeSS training materials.
-  * if you have chosen `preview`, the `training_n_display` property sets the limit of displayed training materials
-  * the `training` object gets a list which has three properties - `name`, `url` and `query` - and taking the user to the external URL `url` within the registry that returns a certain set of training materials filtered by what is entered in `query`.
+* `keywords`: a list of keywords related to the topic of the page, typically used to search training materials and other resources from external registries (such as TeSS training registry)
+* `training`: a list of training registry entries, each having the following three properties - `name` (registry display name), `registry` (registry type, e.g. "TeSS", "TechRadar", "SSHOC", "ENVRI Hub") and `url` (registry's base URL that gets combined with keywords to form a search URL taking the user to search results using the `keywords` within that registry).
+  For the EVERSE TeSS training registry, the `registry` parameter should be set to "TeSS" and you can set additional parameter `training_type` to "preview" and `training_n_display` to a number of TeSS search results to be embedded directly in RSQKit page. 
 
 Training entries will show up under the "More information | Training" section on the page.
 
 An example of a training registry entry: 
 
 ```yml
+keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
 training:
-   - name: EVERSE TeSS
-     url: https://everse-training.app.cern.ch
-     query: ci cd continuous integration continuous deployment
+   - name: "EVERSE TeSS"
+     registry: TeSS
+     url: "https://everse-training.app.cern.ch"
 ```
 
 ## Tools and resources metadata

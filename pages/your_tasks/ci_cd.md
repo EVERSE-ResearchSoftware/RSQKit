@@ -6,10 +6,11 @@ page_id: ci_cd
 indicators: [software_has_ci-tests]
 related_pages: 
   your_tasks: [task_automation_github_actions, task_automation_gitlab_ci_cd]
+keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
 training:
-   - name: EVERSE TeSS
-     url: https://everse-training.app.cern.ch
-     query: ci cd continuous integration continuous deployment
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## How can you use CI/CD in software development?

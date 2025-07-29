@@ -6,10 +6,12 @@ page_id: code_review
 related_pages:
   your_tasks: []
 quality_indicators: [human_code_review_requirement]
+keywords: ["code review"]
 training:
-   - name: EVERSE TeSS
-     url: https://everse-training.app.cern.ch
-     query: code review
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
+    training_type: preview
 ---
 
 ## Code Review in Research Software Development

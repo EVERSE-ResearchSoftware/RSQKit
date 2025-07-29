@@ -6,10 +6,11 @@ page_id: documenting_software_readthedocs
 related_pages:
   your_tasks: [documenting_software]
 quality_indicators: [software_has_documentation]
+keywords: ["documentation", "readthedocs", "read the docs"]
 training:
-   - name: EVERSE TeSS
-     url: https://everse-training.app.cern.ch
-     query: documentation sphynx readthedocs
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## How to use 'Read The Docs' for your software documentation

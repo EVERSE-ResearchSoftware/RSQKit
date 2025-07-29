@@ -7,10 +7,11 @@ page_id: packaging_releasing_software
 related_pages:
   your_tasks: [releasing_software] 
 quality_indicators: [has_published_package, software_has_releases]
+keywords: ["package software", "packaging software", "releasing software", "release software", "pypi"]
 training:
-   - name: EVERSE TeSS
-     url: https://everse-training.app.cern.ch
-     query: package release pypi github
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## How to publish your software package to a package repository? 
