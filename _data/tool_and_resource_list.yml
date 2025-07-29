@@ -710,23 +710,29 @@
   name: Nextflow
   id: nextflow
   url: https://www.nextflow.io
+  catalog: RSQKit
 - description: Snakemake is a workflow management system and language to create reproducible and scalable data analyses. Workflows are described via a human readable, Python based language.
   name: Snakemake
   id: snakemake
   url: https://snakemake.readthedocs.io
+  catalog: RSQKit
 - description: Parsl is a flexible and scalable parallel programming library for Python that enables parallel and asynchronous execution of data-oriented workflows.
   name: Parsl
   id: parsl
   url: https://parsl.readthedocs.io/en/stable/userguide/workflows/workflow.html
+  catalog: RSQKit
 - description: Apache Airflow is a platform to programmatically author, schedule and monitor workflows.
   name: Apache Airflow
   id: apache-airflow
   url: https://airflow.apache.org/
+  catalog: RSQKit
 - description: LifeMonitor is a service to support the sustainability and reusability of published computational workflows.
   name: LifeMonitor
   id: lifemonitor
   url: https://lifemonitor.eu
+  catalog: RSQKit
 - description: WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.
   name: WorkflowHub
   id: workflowhub
   url: https://workflowhub.eu/
+  catalog: RSQKit
