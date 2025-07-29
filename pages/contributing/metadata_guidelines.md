@@ -81,16 +81,20 @@ in the "front matter" header of the page or applied to a group of pages via `_co
 * `datatable`: a boolean value indicating the activation of the pagination, sorting and searching in tabular representations of pages.
 * `related_pages`: a list of `page_id`s that are related to this page and will appear under "Related pages" section on the page, grouped by page type.
 * `page_citation`: When set to `true`, it will cause the citation section for the page to be generated in the format: "<author names>. <page title>. <site domain>. <page URL>. <date accessed>". Defaults to `true` for task pages; `false` for other page types.
-* `training`: a list of training registry entries, each having three properties - `name`, `registry` and `url` - and taking the user to the external URL `url` within the registry that returns a certain set of training materials.
-For EVERSE TeSS training registry, the `registry` parameter should be set to "TeSS". Training registry entries will show up under the "More information | Training" section on the page.
+* `training`:
+  * in `_config.yml`, set `training_type` to `link` to have all the training sections to display a link or to `preview` to preview TeSS training materials.
+  * if you have chosen `preview`, the `training_n_display` property sets the limit of displayed training materials
+  * the `training` object gets a list which has three properties - `name`, `url` and `query` - and taking the user to the external URL `url` within the registry that returns a certain set of training materials filtered by what is entered in `query`.
+
+Training entries will show up under the "More information | Training" section on the page.
 
 An example of a training registry entry: 
 
 ```yml
 training:
-    - name: Training in EVERSE TeSS
-      registry: TeSS
-      url: https://everse-training.app.cern.ch/materials?q=%22ci%22+%22cd%22+%22ci%2Fcd%22+%22continuous+integration%22+%22continuous+deployment%22
+   - name: EVERSE TeSS
+     url: https://everse-training.app.cern.ch
+     query: ci cd continuous integration continuous deployment
 ```
 
 ## Tools and resources metadata

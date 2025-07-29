@@ -7,9 +7,9 @@ related_pages:
   your_tasks: []
 quality_indicators: []
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22sustainability%22+%22environment%22
+   - name: EVERSE TeSS
+     url: https://everse-training.app.cern.ch
+     query: sustainability environment
 ---
 
 ## How to monitor and reduce the environmental impact of my software? 
