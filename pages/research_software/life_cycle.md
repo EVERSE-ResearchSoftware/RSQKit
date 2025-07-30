@@ -142,7 +142,7 @@ harmonization via several EOSC-related groups (like the [ EOSC Task Force FAIR M
 
 ## Research Software Lifecycle & Three-Tier Model
 
-There is a close link between this software lifecycle and the [three-tier model of software](/three_tier_view). 
+There is a close link between this software lifecycle and the [three-tier model of software](three_tier_view). 
 Depending on its tier, the software lifecycle length or the number of iterations through the lifecycle may vary. 
 
 For example, the development of analysis code (tier 1 software) is directly driven
