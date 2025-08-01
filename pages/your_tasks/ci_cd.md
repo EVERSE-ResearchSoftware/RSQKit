@@ -11,6 +11,8 @@ training:
   - name: "EVERSE TeSS"
     registry: TeSS
     url: "https://everse-training.app.cern.ch"
+    training_type: preview
+    training_n_display: 3
 ---
 
 ## How can you use CI/CD in software development?
