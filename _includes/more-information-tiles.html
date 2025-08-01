@@ -172,26 +172,23 @@
                                 {%- if training.training_type and training.training_type == "preview" %}
                                     {% assign training_n_display = page.training_n_display | 5 %}
                                     <link rel="stylesheet" property="stylesheet" href="https://elixirtess.github.io/TeSS_widgets/css/tess-widget.css"/>
-                                    <div id="tess-widget-materials-table" class="tess-widget tess-widget-faceted-table"></div>
+                                    <div id="tess-widget-materials-list" class="tess-widget tess-widget-list"></div>
                                     <script>
-                                        function initTeSSWidgets() {
-                                            TessWidget.Materials(document.getElementById('tess-widget-materials-table'),
-                                                'FacetedTable',
-                                                {
-                                                    opts: {
-                                                        columns: [{name: 'Name', field: 'title'},
-                                                            {name: 'Description', field: 'description'}],
-                                                        allowedFacets: ['scientific-topics', 'target-audience'],
-                                                        facetOptionLimit: 5
-                                                    },
-                                                    params: {
-                                                        pageSize: '{{ training_n_display }}',
-                                                        q: '{{ page.keywords | join: " " }}'
-                                                    },
-                                                    baseUrl: '{{ training.url }}',
-                                                    instanceName: '{{ training.name }}'
-                                                });
-                                        }
+                                    function initTeSSWidgets() {
+                                        TessWidget.Materials(document.getElementById('tess-widget-materials-list'),
+                                            'SimpleList',
+                                            {
+                                                opts: {
+                                                  enableSearch: true
+                                                },
+                                                params: {
+                                                    pageSize: {{ training_n_display }}',
+                                                    q: '{{ page.keywords | join: " " }}'
+                                                },
+                                                baseUrl: '{{ training.url }}',
+                                                instanceName: '{{ training.name }}'
+                                            });
+                                    }
                                     </script>
                                     <script async="" defer="" src="https://elixirtess.github.io/TeSS_widgets/js/tess-widget-standalone.js" onload="initTeSSWidgets()"></script>
                                 {% else %}
