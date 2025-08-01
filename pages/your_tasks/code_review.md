@@ -12,6 +12,7 @@ training:
     registry: TeSS
     url: "https://everse-training.app.cern.ch"
     training_type: preview
+    training_n_display: 3
 ---
 
 ## Code Review in Research Software Development
