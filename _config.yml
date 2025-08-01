@@ -29,6 +29,7 @@ defaults:
       permalink: /:basename
       layout: "page"
       sidebar: main
+
   -
     scope:
       path: "pages/your_tasks/"
@@ -82,3 +83,6 @@ plugins:
   - jekyll-github-metadata
   - jekyll-octicons
   - jekyll-scholar
+
+training:
+  type: 
