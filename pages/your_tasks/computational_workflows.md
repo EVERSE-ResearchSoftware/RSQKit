@@ -25,7 +25,7 @@ Computational workflows have two prominent characteristics:
 1. workflows consist of a series (or a structure) of **actions**. 
 These may include other workflows, software, code snippets, tools, or services. 
 The workflow defines the order, structure, and logic governing how these components interact to process data from inputs to final outputs.
-2. workflows **abstract away** the flow of data between the components from the run mechanics in some form of a high-level **workflow definition language**. 
+2. workflows **abstract away** the flow of data between the components from the run mechanics, typically in some form of a high-level **workflow definition language**. 
 Workflows provide a high level view of data processing pipeline and hide the full complexity of how individual actions are run - separating inputs from data flow they allow reuse. 
 Workflow definitions detail inputs, dependencies, computational environment, step definitions, conditional logic, parallelism, etc. 
 A dedicated **workflow management system (WMS)** is typically responsible for executing the workflow based on its definition, handling and tracking data (provenance), task scheduling and resource management.
@@ -38,7 +38,7 @@ While sometimes practical, these approaches have been shown to be hard to mainta
 Workflows allow users to access greater automation, reproducibility and scalability. 
 Unlike the traditional approaches - computational workflows focus on describing what should be done, not how it is done.
 
-Users can create workflows with **dedicated workflow management systems (WMS)** like {% tool "nextflow" %}, {% tool "galaxy" %}, {% tool "snakemake" %}, {% tool "apache-airflow" %} or {% tool "parsl" %}.
+Users can also create workflows with **dedicated workflow management systems (WMS)** like {% tool "nextflow" %}, {% tool "galaxy" %}, {% tool "snakemake" %}, {% tool "apache-airflow" %} or {% tool "parsl" %}.
 These systems support high-level workflow definition languages — for example, [Nextflow Domain Specific Language (DSL)][nextflow-dsl], [Snakefile][snakefile], [Workflow Description Language (WDL)][wdl], [Common Workflow Language (CWL)][cwl], [Apache Airflow DAG][apache-airflow-dag].
 These provide the generic benefits of workflows and provide documentation, tooling and communities which support their use.
 
@@ -105,7 +105,7 @@ Workflow RO-Crate is the metadata standard used by WorkflowHub registry and Life
 
 ## Integration with the FAIR principles
 
-As digital objects to be shared, discovered, and reused, computational workflows benefit from adhering to[ the FAIR principles](/fair_rs) in general and specifically the[ FAIR recommendations for workflows](https://doi.org/10.1038/s41597-025-04451-9). It can maximise their quality and value as research assets and facilitate their adoption by the wider community, which is essential for[ modern research data management](https://rdmkit.elixir-europe.org/).
+As digital objects to be shared, discovered, and reused, computational workflows benefit from adhering to[ the FAIR principles](/fair_rs) for software and more specifically the[ FAIR recommendations for workflows](https://doi.org/10.1038/s41597-025-04451-9). It can maximise their quality and value as research assets and facilitate their adoption by the wider community, which is essential for[ modern research data management](https://rdmkit.elixir-europe.org/).
 
 The[ Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW)](https://workflows.community/groups/fair/), a global and open community of researchers and developers working with computational workflows across disciplines and domains, has systematically addressed the application of both FAIR data and software principles to computational workflows.
 
