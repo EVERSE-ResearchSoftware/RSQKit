@@ -5,6 +5,11 @@ contributors: ["Christian Hüser", "Shoaib Sufi", "Daniel Garijo"]
 page_id: releasing_software
 related_pages:
   your_tasks: [software_identifiers]
+quality_indicators: [software_has_releases]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22release%22+%22github%22+%22gitlab%22
 
 ---
 

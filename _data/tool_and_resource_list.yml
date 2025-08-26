@@ -536,7 +536,7 @@
   id: wdl
   name: Workflow Description Language
   url: https://openwdl.org/
-- description: Galaxy is a free, open-source system for analysing data, authoring workflows, training and education, publishing tools, and managing infrastructure.
+- description: Galaxy is a free, open-source workflow management system for analysing data, authoring workflows, training and education, publishing tools, and managing infrastructure.
   name: Galaxy
   id: galaxy
   url: https://galaxyproject.org/
@@ -568,3 +568,27 @@
   id: scanoss
   name: SCANOSS
   url: https://www.scanoss.com/
+- description: Nextflow is a workflow management system that enables scalable, reproducible, and portable scientific workflows for research and production use cases.
+  name: Nextflow
+  id: nextflow
+  url: https://www.nextflow.io
+- description: Snakemake is a workflow management system and language to create reproducible and scalable data analyses. Workflows are described via a human readable, Python based language.
+  name: Snakemake
+  id: snakemake
+  url: https://snakemake.readthedocs.io
+- description: Parsl is a flexible and scalable parallel programming library for Python that enables parallel and asynchronous execution of data-oriented workflows.
+  name: Parsl
+  id: parsl
+  url: https://parsl.readthedocs.io/en/stable/userguide/workflows/workflow.html
+- description: Apache Airflow is a platform to programmatically author, schedule and monitor workflows.
+  name: Apache Airflow
+  id: apache-airflow
+  url: https://airflow.apache.org/
+- description: LifeMonitor is a service to support the sustainability and reusability of published computational workflows.
+  name: LifeMonitor
+  id: lifemonitor
+  url: https://lifemonitor.eu
+- description: WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.
+  name: WorkflowHub
+  id: workflowhub
+  url: https://workflowhub.eu/

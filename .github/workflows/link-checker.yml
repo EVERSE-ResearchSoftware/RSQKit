@@ -17,7 +17,7 @@ jobs:
         with:
           # note: args has a long default value; when you override it, make sure you don't accidentally forget to include the default options you want! see https://github.com/lycheeverse/lychee-action/blob/master/action.yml
           # note 2: the list of excluded hosts was built up for guide.esciencecenter.nl, it may need modification for RSQKit at some point
-          args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.rst' --accept '100..=103,200..=299, 429'  --exclude support.posit.co --exclude www.intel.com --exclude reddit.com --exclude jsfiddle.net
+          args: --fallback-extensions='md' --exclude-all-private --no-progress './**/*.md' --accept '100..=103,200..=299, 429' --exclude support.posit.co --exclude www.intel.com --exclude reddit.com --exclude jsfiddle.net --exclude 'file://'
         env:
           # This token is included to avoid github.com requests to error out with status 429 (too many requests). It only works for GitHub requests (also other GitHub REST API calls), not for the rest of the web.
           GITHUB_TOKEN: ${{secrets.TOKEN_GITHUB}}

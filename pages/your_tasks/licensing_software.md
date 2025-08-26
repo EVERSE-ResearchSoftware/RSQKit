@@ -5,6 +5,11 @@ contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi", "Thomas Vui
 page_id: licensing_software
 related_pages:
   your_tasks: []
+quality_indicators: [software_has_license]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22license%22
 ---
 
 ## What is copyright and licensing?
@@ -150,6 +155,7 @@ In addition to the licenses above, Creative Commons also offers [CC0][cc0] - a p
 * {% tool "choosealicense" %} is a great tool to help you choose a license that is appropriate for your needs.
 * {% tool "spdx" %} (System Package Data Exchange - open standard project) provides a long list of [commonly used licenses][spdx-licences].
 * Check the [OpenSource guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) for guidelines on changing and editing licenses.
+* The [Software Licensing guidelines from CodeRefinery](https://coderefinery.github.io/social-coding/software-licensing/) provide additional insight
 
 ## How do I add a license to my code repository?
 

@@ -5,6 +5,11 @@ contributors: ["Esteban González", "Aleksandra Nenadic", "Daniel Garijo"]
 page_id: creating_good_readme
 related_pages:
   your_tasks: [documenting_software]
+quality_indicators: [software_has_documentation]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22readme%22
 ---
 
 ## Why is it important to have a good README file? 

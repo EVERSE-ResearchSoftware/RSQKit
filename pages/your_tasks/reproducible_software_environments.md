@@ -4,14 +4,19 @@ description: How to create a development environment for your software so others
 contributors: ["Aleksandra Nenadic", "Simon Christ"]
 page_id: reproducible_software_environments
 related_pages:
-  your_tasks: []
+  your_tasks: [computational_workflows]
+quality_indicators: [requirements_specified]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22reproducible%22+%22environment%22+%22docker%22+%22singularity%22+%22singularity%22+%22reproducible+environment%22+%22virtual+environment%22
 ---
 
 
 ## What are reproducible software environments?
 
 Reproducible software environments are crucial for ensuring that software behaves consistently across different systems, 
-especially when it comes to research. 
+especially when it comes to research [^1]. 
 
 Here are some popular tools and approaches for creating reproducible software environments based on their scope and usage:
 
@@ -27,10 +32,13 @@ are developing or modifying other people's software.
   - {% tool "nixos" %} - ensures reproducible environments with declarative package management, tracking all system dependencies and configurations - 
   embodying the "operating system as code" philosophy which treats the entire operating system, including its configuration and infrastructure, as code that can be managed, versioned, and deployed like any other software application.
   - {% tool "packer" %} - automates the creation of consistent machine images, supporting multiple platforms.
-- **Workflow-oriented environments** - geared toward creating reproducible environments for scientific research, bioinformatics, and complex workflows.
-  - {% tool "wdl" %} - a language to define reproducible research workflows, ensuring that pipelines run consistently across systems.
-  - {% tool "galaxy" %} - open-source platform for FAIR data analysis that enables users to access and collect data from reference databases, external repositories and other data sources;
-    use tools from various domains
+- **[Computational workflow environments](./computational_workflows)** - geared toward creating reproducible environments for scientific research involving 
+multi-step, multi-code complex data analysis pipelines (e.g. in bioinformatics):
+  - workflows are typically defined using a variety of high-level workflow definition languages (such as [Nextflow DSL][nextflow-dsl], [Snakefile][snakefile],
+    [Workflow Description Language (WDL)][wdl], [Common Workflow Language (CWL)][cwl], [Apache Airflow DAG][apache-airflow-dag])
+  - Workflow management systems (WMSs), such as {% tool "nextflow" %}, {% tool "galaxy" %},
+    {% tool "snakemake" %}, {% tool "apache-airflow" %} or {% tool "parsl" %}, create execution environments and run computational 
+  workflows based on their definitions.
 
 Code produced by researchers is sometimes not packaged in a library, package or container that you can readily run 
 on your system. Sometimes you also may want to look at the source code and be able to make modifications. 
@@ -122,6 +130,10 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 
 * Decide on and start using a package manager tool and a virtual environment management tool for your programming language.
 
+## References
+[^1]: Jesse M. Alston, Jessica A. Rick. A Beginner’s Guide to Conducting Reproducible Research, Bulletin of
+The Ecological Society of America 102 (2) (2021). [https://doi.org/10.1002/bes2.1801](https://doi.org/10.1002/bes2.1801)
+
 
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software
@@ -131,3 +143,8 @@ a [bad example of a spaghetti setup][python-env-hell], not knowing which depende
 [python-env-hell]: https://xkcd.com/1987/
 [guix]: https://hpc.guix.info/
 [spack]: https://spack.io/
+[apache-airflow-dag]: https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html
+[cwl]: https://www.commonwl.org/
+[wdl]: https://openwdl.org/
+[snakefile]: https://snakemake.readthedocs.io/en/stable/snakefiles/writing_snakefiles.html
+[nextflow-dsl]: https://www.nextflow.io/docs/latest/reference/syntax.html

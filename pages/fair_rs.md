@@ -8,8 +8,7 @@ page_id: fair_rs
 
 FAIR stands for Findable, Accessible, Interoperable, and Reusable and comprises a set of principles designed to
 increase the visibility and usefulness of your research to others.
-The FAIR data principles, first published [in 2016][fair-data-principles], are widely known and applied today.
-Similar [FAIR principles for software][fair-principles-research-software] have now been defined too. In general, they mean:
+The FAIR data principles, first published in 2016 [^1], are widely known and applied today, including scientific workflows [^2], or [machine learning projects][fair4ml]. Similar FAIR principles for software [^3][^4] have now been defined too. In general, they mean:
 
 - **Findable** - software and its associated metadata must be easy to discover by humans and machines.
 - **Accessible** - in order to reuse software, the software and its metadata must be retrievable by standard protocols, free and legally usable.
@@ -168,8 +167,10 @@ Here are some tools that can check your software and provide an assessment of it
 
 - [FAIRsoft evaluator][fair-rs-evaluator]
 - [FAIR software test][fair-rs-test]
-- [FAIR Software Checklist][fair-rs-checklist] - self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center (NeSC)
+- [FAIR Software Checklist][fair-rs-checklist] - self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
 - [`How FAIR is your software` - command line tool to evaluate a software repository's compliance with the FAIR principles][howfairis]
+- [CODECHECK][codecheck] - An approach for independent execution of computations underlying research articles.
+
 
 ### Summary
 
@@ -193,26 +194,41 @@ The table below provides a summary of how different tools and practices help wit
 | Unique persistent identifiers                                                                        | x        | x          |               |          |
 
 
+## Training materials
+- The [FAIR Cookbook][fair-cookbook] contains general reusable recipes for FAIR assessment.
+- [10 easy things to make your research software FAIR](https://doi.org/10.5281/zenodo.3409968)
+- Common metrics for Research Software [^5] that may used to assess each of the FAIR4RS principles.
+- [A cookie software project template with FAIR metadata](https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter)
+- [Carpentries course on tools and practices for FAIR Research Software](https://carpentries-incubator.github.io/fair-research-software/)
 
-[fair-principles-research-software]: https://www.nature.com/articles/s41597-022-01710-x
-[fair-data-principles]: https://www.nature.com/articles/sdata201618
-[zenodo]: https://zenodo.org/
-[software-registries]: https://github.com/NLeSC/awesome-research-software-registries
-[github]: https://github.com
-[biotools]: https://bio.tools
-[pypi]: https://pypi.org/
-[cran]: https://cran.r-project.org/web/packages/
-[gitlab]: https://about.gitlab.com/
+
+## References
+[^1]: Wilkinson MD, Dumontier M, Aalbersberg IJ, Appleton G, Axton M, Baak A, Blomberg N, Boiten JW, da Silva Santos LB, Bourne PE, Bouwman J. The FAIR Guiding Principles for scientific data management and stewardship. Scientific data. 2016 Mar 15;3(1):1-9. [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
+[^2]: Wilkinson SR, Aloqalaa M, Belhajjame K, Crusoe MR, de Paula Kinoshita B, Gadelha L, Garijo D, Gustafsson OJ, Juty N, Kanwal S, Khan FZ. Applying the FAIR principles to Computational Workflows. Scientific Data. 2025 Feb 24;12(1):328. [https://doi.org/10.1038/s41597-025-04451-9](https://doi.org/10.1038/s41597-025-04451-9)
+[^3]: Barker M, Chue Hong NP, Katz DS, Lamprecht AL, Martinez-Ortiz C, Psomopoulos F, Harrow J, Castro LJ, Gruenpeter M, Martinez PA, Honeyman T. Introducing the FAIR Principles for research software. Scientific Data. 2022 Oct 14;9(1):622. [https://doi.org/10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
+[^4]: Chue Hong, N. P., Katz, D. S., Barker, M., Lamprecht, A.-L., Martinez, C., Psomopoulos, F. E., Harrow, J., Castro, L. J., Gruenpeter, M., Martinez, P. A., Honeyman, T., Struck, A., Lee, A., Loewe, A., van Werkhoven, B., Jones, C., Garijo, D., Plomp, E., Genova, F., … RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). Zenodo. [https://doi.org/10.15497/RDA00068](https://doi.org/10.15497/RDA00068)
+[^5]: Chue Hong, N., Breitmoser, E., Antonioletti, M., Davidson, J., Garijo, D., Gonzalez-Beltran, A., Gruenpeter, M., Huber, R., Jonquet, C., Priddy, M., Shepeherdson, J., Verburg, M., & Wood, C. (2025). D5.2 - Metrics for automated FAIR software assessment in a disciplinary context (1.1). Zenodo. [https://doi.org/10.5281/zenodo.15535629](https://doi.org/10.5281/zenodo.15535629)
+
 [awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
+[biotools]: https://bio.tools
+[cff]: https://citation-file-format.github.io/
+[choosealicense]: https://choosealicense.com/
+[codecheck]: https://codecheck.org.uk/project/
+[codemeta]: (https://codemeta.github.io/)
+[cran]: https://cran.r-project.org/web/packages/
+[fair-cookbook]: https://faircookbook.elixir-europe.org/content/home.html
 [fair-rs-evaluator]: https://openebench.bsc.es/observatory/Evaluation
 [fair-rs-test]: https://github.com/marioa/fair-test?tab=readme-ov-file
 [fair-rs-checklist]: https://fairsoftwarechecklist.net
-[codemeta]: (https://codemeta.github.io/)
-[rsmd-g1]: https://fair-impact.github.io/RSMD-guidelines/1.General/
-[software-heritage]: https://www.softwareheritage.org/
-[swhid]: https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html
+[fair4ml]: https://www.rd-alliance.org/groups/fair-machine-learning-fair4ml-ig/activity/
 [figshare]: https://figshare.com/
+[github]: https://github.com
+[gitlab]: https://about.gitlab.com/
 [howfairis]: https://github.com/fair-software/howfairis/
-[cff]: https://citation-file-format.github.io/
 [opensource-licence-guide]: https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project
-[choosealicense]: https://choosealicense.com/
+[rsmd-g1]: https://fair-impact.github.io/RSMD-guidelines/1.General/
+[swhid]: https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html
+[pypi]: https://pypi.org/
+[software-heritage]: https://www.softwareheritage.org/
+[software-registries]: https://github.com/NLeSC/awesome-research-software-registries
+[zenodo]: https://zenodo.org/

@@ -6,6 +6,10 @@ page_id: using_version_control
 related_pages:
   your_tasks: []
 quality_indicators: [version_control_use]
+training:
+   - name: Training in EVERSE TeSS
+     registry: TeSS
+     url: https://everse-training.app.cern.ch/materials?q=%22version+control%22+%22git%22+%22github%22+%22gitlab%22
 ---
 
 ## How do I choose the right version control system for my research project?
@@ -73,4 +77,15 @@ Implementing version control in a research context involves more than just choos
    * Regularly backup your repository
    * Periodically clean up old branches and review access permissions
 
+## Training materials
 
+- [Software Carpentry: Git Novice lesson](https://swcarpentry.github.io/git-novice)
+- [CodeRefinery: Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
+- [CodeRefinery: Introduction to version control](https://coderefinery.github.io/git-intro/)
+- [Git Survival Guide](https://gitlab.in2p3.fr/informatique-des-deux-infinis/pheniics/git-survival-guide)
+- [High performance computing facility: foundation HPC skills Course (version control)](https://dirac.ac.uk/foundation-hpc-skills-course/)
+- [Intermediate Research Software Development](https://carpentries-incubator.github.io/python-intermediate-development/14-collaboration-using-git.html)
+- [The Alan Tuting Institute Research Software Engineering with Python course](https://alan-turing-institute.github.io/rse-course/html/module04_version_control_with_git/index.html)
+- [Good Enough Practices in Scientific Computing (Keeping Track of Changes)](https://carpentries-lab.github.io/good-enough-practices/06-track_changes.html)
+- ["Ten Reproducible Research Things" Tutorial (Version Control)](https://guereslib.github.io/ten-reproducible-research-things/content/08-version.html)
+- [“How Git Works” course on Pluralsight](https://www.pluralsight.com/courses/how-git-works)
