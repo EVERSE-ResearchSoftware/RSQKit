@@ -180,7 +180,7 @@
                                 },
                                 params: {
                                     pageSize: '{{ page.training_n_display | 5 }}',
-                                    q: '{{ page.keywords | join: " " }}'
+                                    q: '{{ page.keywords | join: " OR " }}'
                                 },
                                 baseUrl: '{{ training.url }}',
                                 instanceName: '{{ training.name }}'
