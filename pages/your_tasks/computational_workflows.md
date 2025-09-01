@@ -5,6 +5,11 @@ contributors: [ "Aleksandra Nenadic", "Oliver Woolland", "Phil Reed", "Shoaib Su
 page_id: computational_workflows
 related_pages:
   your_tasks: [reproducible_software_environments]
+keywords: ["computational workflow", "workflow", "wms", "galaxy", "snakemake", "nextflow", "apache-airflow", "wdl"]
+training:
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## Motivation

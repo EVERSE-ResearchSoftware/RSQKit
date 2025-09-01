@@ -11,8 +11,6 @@ training:
   - name: "EVERSE TeSS"
     registry: TeSS
     url: "https://everse-training.app.cern.ch"
-    training_type: preview
-    training_n_display: 3
 ---
 
 ## What is software citation?

@@ -164,12 +164,12 @@
                     {% assign search_query = page.keywords | join: " OR " | url_encode %}
                     {% assign search_url = search_url | append: "/search?q=" | append: search_query %}
             {% endif %}
-            {%- if registry == "tess" and training.training_type == "preview" %}
-                <!-- Show TeSS search results in a preview widget else an external link to TeSS search results -->
+            {%- if registry == "tess"%}
+                <!-- Show TeSS search results in a preview widget plus an external link to link to search results in TeSS -->
                 <link rel="stylesheet" property="stylesheet" href="https://elixirtess.github.io/TeSS_widgets/css/tess-widget.css"/>
                 <div><strong>EVERSE TeSS search results:</strong></div>
                 <div id="tess-widget-materials-list" class="tess-widget tess-widget-list"></div>
-                <div><strong><a href="{{ search_url }}">View your search results on EVERSE TeSS</a></strong></div>
+                <div><strong><a href="{{ search_url }}">View your search results in EVERSE TeSS training registry</a></strong></div>
                 <script>
                     function initTeSSWidgets() {
                         TessWidget.Materials(document.getElementById('tess-widget-materials-list'),
@@ -179,7 +179,6 @@
                                     enableSearch: true
                                 },
                                 params: {
-                                    pageSize: '{{ page.training_n_display | 5 }}',
                                     q: '{{ page.keywords | join: " OR " }}'
                                 },
                                 baseUrl: '{{ training.url }}',
