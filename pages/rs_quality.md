@@ -26,6 +26,6 @@ Current research software quality dimensions are described below. This is still 
 in particular to be updated in the near future.
 
 {% for dimension in site.data.quality_dimensions %}
-<h3 id="{{ dimension.name | downcase | | replace: " ", "-" }}">{{ dimension.name }}</h3>
+<h3 id="{{ dimension.name | downcase | replace: " ", "-" }}">{{ dimension.name }}</h3>
 <p>{{ dimension.description }}</p>
 {% endfor %}

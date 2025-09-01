@@ -6,10 +6,11 @@ page_id: languages_tools_infrastructures
 related_pages:
    your_tasks: []
 quality_indicators: []
+keywords: ["programming language", "software infrastructure", "software tool"]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22r%22+%22python%22+%22c%22+%22programming+language%22+%22julia%22+%22java%22
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## How to choose programming languages, tools and infrastructures?
