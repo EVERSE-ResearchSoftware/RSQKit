@@ -6,6 +6,14 @@ summary: Comprehensive guidelines for page style and formatting.
 In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and their more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf). 
 Below are the style guidelines specific to the pages in RSQKit (adapted from [RDMkit Style Guide](https://rdmkit.elixir-europe.org/style_guide)). 
 
+## One sentence per line
+
+We recommend you place every sentence on its own line and do not use fixed-column word-wrapping. 
+
+This approach means the content diffs will operate per-sentence rather than per-paragraph, and prevents reflows (i.e. a change early in the paragraph will not cause the remaining lines in the paragraph to reposition).
+This in turn means content diffs look more clean and contributions are easier to review.
+An extra benefit is that such content is easier to translate to different languages and keep in line with the original language.
+
 ## General style and tone
 
 * Keep the tone informal and use "you". Imagine you were explaining something verbally to someone - how would you say it?
