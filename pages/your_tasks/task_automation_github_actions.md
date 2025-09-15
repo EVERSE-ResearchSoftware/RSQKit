@@ -15,12 +15,10 @@ training:
 ---
 
 ## Task automation using GitHub Actions
- 
+
 ### Description
 
-{% tool "github-actions" %} is a powerful [automation tool](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions) ([continuous integration (CI)](https://docs.github.com/en/actions/about-github-actions/about-continuous-integration-with-github-actions)
-and [continuous delivery (CD)](https://docs.github.com/en/actions/about-github-actions/about-continuous-deployment-with-github-actions) platform) that allows you to define workflows (called `actions`) for your repository 
-that help automate tasks such as building, testing and deploying code. GitHub Actions enable you to streamline development processes and improve efficiency.
+{% tool "github-actions" %} is a powerful [automation tool](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions) ([continuous integration (CI)](https://docs.github.com/en/actions/about-github-actions/about-continuous-integration-with-github-actions) and [continuous delivery (CD)](https://docs.github.com/en/actions/about-github-actions/about-continuous-deployment-with-github-actions) platform) that allows you to define workflows (called `actions`) for your repository that help automate tasks such as building, testing and deploying code. GitHub Actions enable you to streamline development processes and improve efficiency.
 
 ### Considerations
 
@@ -36,7 +34,7 @@ that help automate tasks such as building, testing and deploying code. GitHub Ac
 
 * **Creating a basic GitHub Action workflow**  
 
-  Setting up a GitHub Action workflow allows you to automate tasks like testing and deployment. By defining a workflow file, you can specify triggers and actions to execute when specific events occur. 
+  Setting up a GitHub Action workflow allows you to automate tasks like testing and deployment. By defining a workflow file, you can specify triggers and actions to execute when specific events occur.
 
   To create a basic workflow follow these steps:
 
@@ -60,20 +58,20 @@ that help automate tasks such as building, testing and deploying code. GitHub Ac
   * Go to the **Actions** tab in your GitHub repository to see the workflow run. The **real-time visualisation graph** displayed here provides a clear sequence of executed jobs, making it easier to track progress and identify potential issues. Click on individual jobs to expand the steps, where you'll find **detailed logs and error messages** to help with troubleshooting and debugging efficiently.  
 
 
-    ![Visualisation of a finished workflow run in the github interface](../../images/first_github_action_1.png) 
+    ![Visualisation of a finished workflow run in the github interface](../../images/first_github_action_1.png)
 
     ![Detail of steps completed in a workflow run in the github interface](../../images/first_github_action_2.png)
 
 * **Using pre-built actions from the GitHub Marketplace** 
 
-  The [GitHub Marketplace](https://github.com/marketplace?type=actions) provides pre-built actions that can be easily integrated into workflows to automate tasks. To use an action from the Marketplace, follow these steps:  
+  The [GitHub Marketplace](https://github.com/marketplace?type=actions) provides pre-built actions that can be easily integrated into workflows to automate tasks. To use an action from the Marketplace, follow these steps:
 
   * Search for a relevant action in the Marketplace and open its page. 
 
   * Copy the code provided under the **"Use latest version"** section and add it to your workflow file.   
 
   * For example, you could decide to use the [pre-built Python setup action](https://github.com/marketplace/actions/setup-python) to ensure the correct Python version is available for running scripts, tests, or installations. Copy the following `step` into your workflow file:
-    
+
     ```yaml
     - name: Setup Python
       uses: actions/setup-python@v4
@@ -104,7 +102,7 @@ that help automate tasks such as building, testing and deploying code. GitHub Ac
             - name: Run tests
               run: pytest
       ```
-    
+
 
 
 ## Further guidance
@@ -131,6 +129,4 @@ that help automate tasks such as building, testing and deploying code. GitHub Ac
   * [The Turing Way's Guide for Reproducible Research](https://book.the-turing-way.org/reproducible-research/ci/ci-github-actions) (chapter on Continuous Integration with GitHub Actions)
   * [Python 201](https://python-tutorial.dev/201/tutorial/testing.html#ci-cd) (CI / CD) chapter
 
-## References <!-- do not delete this heading and write your text below it -->
-The official [GitHub Actions documentation](https://docs.github.com/en/actions) was consulted for accuracy and best practices.
- 
+## References <!-- do not delete this heading and write your text below it --> The official [GitHub Actions documentation](https://docs.github.com/en/actions) was consulted for accuracy and best practices.

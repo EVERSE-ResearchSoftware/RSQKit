@@ -18,7 +18,7 @@ The [Photon and Neutron Open Science Cluster (PaNOSC)](https://www.panosc.eu/) i
 
 ### Software Catalogue
 
-Access the [PaN software catalogue](https://software.pan-data.eu/) linked to the analysis and simulation software used in PaN facilities. Find documentation, links and complete examples of data sets and practical information about the scientific instruments used to collect them. 
+Access the [PaN software catalogue](https://software.pan-data.eu/) linked to the analysis and simulation software used in PaN facilities. Find documentation, links and complete examples of data sets and practical information about the scientific instruments used to collect them.
 
 ### Training Catalogue
 

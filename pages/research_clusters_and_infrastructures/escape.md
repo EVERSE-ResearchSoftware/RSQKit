@@ -4,7 +4,7 @@ description: ESCAPE is a science cluster bringing together communities & researc
 type: research_cluster_or_infrastructure
 ---
 
-The [ESCAPE](https://projectescape.eu/) science cluster brings together communities and research infrastructures in the areas of astronomy and accelerator-based particle physics, specifically ESFRI facilities (SKAO, CTAO, KM3NeT, EST, ELT, HL-LHC, FAIR) and pan-European research infrastructures (CERN, ESO, JIVE). 
+The [ESCAPE](https://projectescape.eu/) science cluster brings together communities and research infrastructures in the areas of astronomy and accelerator-based particle physics, specifically ESFRI facilities (SKAO, CTAO, KM3NeT, EST, ELT, HL-LHC, FAIR) and pan-European research infrastructures (CERN, ESO, JIVE).
 
 In ESCAPE, software applications for gathering and simulating scientific data, reaching up to exabytes, span code bases of millions of lines that are written by researchers and engineers in both compiled (e.g. C++, Cuda) and interpreted (e.g. Python) languages. With experiments existing for multiple decades, high quality, efficient and maintainable software is essential for the success of these scientific endeavours.
 

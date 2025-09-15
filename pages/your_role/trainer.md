@@ -5,15 +5,12 @@ contributors: ["Aleksandra Nenadic"]
 page_id: trainer
 ---
 
-## Introduction
-As a trainer, you design or deliver training courses in research software development and quality for specific research domain or in general. 
+## Introduction As a trainer, you design or deliver training courses in research software development and quality for specific research domain or in general.
 Your primary audience is PhD students, postdocs, researchers and technicians [who code](./researcher_who_codes) or early career [Research Software Engineers (RSEs)](./research_software_engineer).
 
-Your role is to emphasise the importance of applying best practices in software development, including the FAIR principles, 
-and also to provide your audience with the skills necessary to put these principles into practice throughout their projects.
+Your role is to emphasise the importance of applying best practices in software development, including the FAIR principles, and also to provide your audience with the skills necessary to put these principles into practice throughout their projects.
 
-In addition to the usual abilities required for a trainer (communication, pedagogy, problem-solving), 
-flexibility is key as you have to deal with an audience of several domains, skills and levels of involvement.
+In addition to the usual abilities required for a trainer (communication, pedagogy, problem-solving), flexibility is key as you have to deal with an audience of several domains, skills and levels of involvement.
 
 ## Software development & quality responsibilities, challenges & tasks
 

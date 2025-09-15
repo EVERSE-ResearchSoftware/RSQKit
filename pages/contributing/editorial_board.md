@@ -3,14 +3,11 @@ title: Editorial Board
 summary: Editorial Board oversees the topics and content featured in RSQKit.
 ---
 
-The content of RSQKit is currently being approved and curated by the RSQKit Editorial Board, 
-whose members are also know as the Editors.
+The content of RSQKit is currently being approved and curated by the RSQKit Editorial Board, whose members are also know as the Editors.
 
-The Editorial Board of RSQKit is shaping how Research Software quality and excellence practices,
-written by experts, are communicated to the readers who are interested in applying those practices in their everyday work.
+The Editorial Board of RSQKit is shaping how Research Software quality and excellence practices, written by experts, are communicated to the readers who are interested in applying those practices in their everyday work.
 As an Editor you contribute to the vision of how this information is presented to the research software community at large.
-The research software community includes the computational science community, research software engineering and anyone in
-the research and creative sector who produce software, code or scripts to enable their work to be done and results to be achieved.
+The research software community includes the computational science community, research software engineering and anyone in the research and creative sector who produce software, code or scripts to enable their work to be done and results to be achieved.
 
 ## Editorial Board Members
 
@@ -18,9 +15,7 @@ the research and creative sector who produce software, code or scripts to enable
 
 ## Join the Editorial Board
 
-RSQKit has increasing visibility with policy makers, funders, science clusters and research infrastructures, 
-therefore Editorial Board Members should be professionals and experts in Research Software Quality (RSQ) with an interest 
-in effective digital communication, who can help in keeping the quality of content high.
+RSQKit has increasing visibility with policy makers, funders, science clusters and research infrastructures, therefore Editorial Board Members should be professionals and experts in Research Software Quality (RSQ) with an interest in effective digital communication, who can help in keeping the quality of content high.
 
 ### Advantages
 

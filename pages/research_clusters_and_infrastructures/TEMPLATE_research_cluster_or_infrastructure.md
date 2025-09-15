@@ -29,4 +29,3 @@ type: research_cluster_or_infrastructure
 
 - List some of the main services and software used in the research cluster or infrastructure
 
-

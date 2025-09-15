@@ -45,7 +45,7 @@ When conducting a code review, you should focus on checking the following:
 
 ### Consideration - what not to look for in a review?
 
-While code reviews are essential for quality, it is just as important to avoid nitpicking or overstepping. 
+While code reviews are essential for quality, it is just as important to avoid nitpicking or overstepping.
 Here are things that should not be the focus of a code review:
 
 - Personal style preferences - avoid debating minor style choices (e.g., single vs. double quotes) if the team has not agreed on a standard. Let linters and formatters handle those.

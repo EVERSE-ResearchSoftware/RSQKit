@@ -19,7 +19,7 @@ Describe the problem(s) your software is trying to solve for your community.
 
 ## The Community <!-- do not delete this heading and write your text below it -->
 
-Describe the community that uses your software 
+Describe the community that uses your software
 
 
 - Describe how the development is organised (e.g. is it one person, many, how are they organised and/or governed)
@@ -73,5 +73,4 @@ Describe the community that uses your software
 ## References <!-- do not delete this heading and write your text below it -->
 
 If this page has been inspired or derived from other resources, make sure to reference them here.
-
 

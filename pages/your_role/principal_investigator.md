@@ -7,10 +7,7 @@ page_id: principal_investigator
 
 ## Introduction
 
-As a Principal Investigator (PI), you may have recently secured (or are in the process of applying for) project funding 
-that includes software development. Increasingly, funders are requiring a Software Management Plan (SMP), 
-encouraging PIs to proactively consider key aspects of software development and long-term sustainability from the very 
-start of the project.  
+As a Principal Investigator (PI), you may have recently secured (or are in the process of applying for) project funding that includes software development. Increasingly, funders are requiring a Software Management Plan (SMP), encouraging PIs to proactively consider key aspects of software development and long-term sustainability from the very start of the project.
 
 ## Software development & quality responsibilities, challenges & tasks
 
@@ -20,7 +17,7 @@ As a Principal Investigator (PI), your responsibilities in relation to software 
 shared throughout the project. This includes defining sustainability goals, allocating resources, and budgeting appropriately—often formalised in a Software Management Plan required by many funders.
 - Incorporating the FAIR research software principles in the software development life-cycle — ensuring that your software 
 is Findable, Accessible, Interoperable, and Reusable to support transparency, collaboration, and long-term impact.
-European Commission (Horizon Europe) and many national funding bodies strongly encourage adherence to the FAIR principles for both data and software. 
+European Commission (Horizon Europe) and many national funding bodies strongly encourage adherence to the FAIR principles for both data and software.
 - Establishing roles and responsibilities - identify and assign software-related roles within your team 
 (e.g., developer, maintainer, reviewer, documenter, tester, early adopter) to foster accountability, collaboration, and efficient workflows across the project lifecycle.
 - Addressing ethical, environmental, and legal considerations (also known as [ESG (Environmental, Social and Governance)](https://www.british-business-bank.co.uk/business-guidance/guidance-articles/sustainability/what-is-esg-a-guide-for-smaller-businesses) in industry) early:
@@ -33,7 +30,7 @@ European Commission (Horizon Europe) and many national funding bodies strongly e
 ## Software development & quality guidance
 
 Key guidance for PIs on research software development:
-   
+
 - [How to Fund Research Software Development by Software Sustainability Institute](https://www.software.ac.uk/guide/how-fund-research-software-development) - this guide offers practical advice on budgeting for software development, integrating Research Software Engineers (RSEs) into your team, and planning for sustainability.
 - [How to Fund Research Software or Cost It into Grants by University of Bristol](https://www.bristol.ac.uk/acrc/research-software-engineering/software-howtos/how-to-fund-software/) - this resource outlines strategies for including software development costs in grant proposals, ensuring that software efforts are adequately funded and recognised.
 - [Resources for PIs by Imperial College London](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/service-offering/research-software-engineering/resources-for-pis/) - Imperial College offers resources highlighting the importance of including a well-thought-out Software Management Plan (SMP) in grant applications to maximise the impact of research software.

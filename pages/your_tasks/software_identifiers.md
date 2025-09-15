@@ -18,8 +18,7 @@ training:
 
 ### Description
 
-Uniquely identifying software and its versions is critical for reproducibility, proper citation, and long-term 
-accessibility of software.
+Uniquely identifying software and its versions is critical for reproducibility, proper citation, and long-term accessibility of software.
 Without clear versioning, managing updates, debugging, and maintaining software becomes chaotic.
 
 ### Considerations
@@ -39,8 +38,7 @@ integration/continuous deployment (CI/CD) practices. Versioning helps with autom
 
 ### Solutions
 
-There are multiple approaches to achieving this, including versioning schemes, digital identifiers (DOIs, UUIDs, checksums), 
-and metadata standards. They come with advantages and disadvantages and can be used in combination.
+There are multiple approaches to achieving this, including versioning schemes, digital identifiers (DOIs, UUIDs, checksums), and metadata standards. They come with advantages and disadvantages and can be used in combination.
 
 Some methods for uniquely identifying software and versions include:
 
@@ -53,44 +51,28 @@ citable reference for a software artefact (software as a whole and its different
 
 Table below provides a summary to help you choose the right identifier combination.
 
-| Method                       | Best use case                        | Limitations |
-|------------------------------|--------------------------------------|--------------------------------------|
-| Semantic Versioning (SemVer) | Standard software releases           | Doesn't provide global uniqueness outside of the software’s ecosystem |
-| DOIs                         | Research software, academic citation | Requires registration and is not commonly used in commercial software |
-| Cryptographic hashes        | Ensuring software integrity          | Changing even one bit of data creates a completely different hash |
-| UUIDs | Distributed systems, databases       | Not human-readable, doesn’t convey versioning semantics |
-| Git commit hashes | Development snapshots| Not always meaningful outside the development context |
+| Method                       | Best use case                        | Limitations | |------------------------------|--------------------------------------|--------------------------------------| | Semantic Versioning (SemVer) | Standard software releases           | Doesn't provide global uniqueness outside of the software’s ecosystem | | DOIs                         | Research software, academic citation | Requires registration and is not commonly used in commercial software | | Cryptographic hashes        | Ensuring software integrity          | Changing even one bit of data creates a completely different hash | | UUIDs | Distributed systems, databases       | Not human-readable, doesn’t convey versioning semantics | | Git commit hashes | Development snapshots| Not always meaningful outside the development context |
 
-Bear in mind that if you register your software in a repository or registy, a persistent identifier for it (or its metadata) is often created 
-automatically. To find an appropriate registry for your research software, please have a look at the following [awesome list](https://github.com/NLeSC/awesome-research-software-registries).
+Bear in mind that if you register your software in a repository or registy, a persistent identifier for it (or its metadata) is often created automatically. To find an appropriate registry for your research software, please have a look at the following [awesome list](https://github.com/NLeSC/awesome-research-software-registries).
 
 ## How to obtain and use DOIs for research software?
 
-A Digital Object Identifier (DOI) is a [persistent identifier][what-are-pids] or a handle used to uniquely identify
-various objects, such as journal articles, research reports, dataset or software, standardised by the International
-Organization for Standardisation (ISO).
+A Digital Object Identifier (DOI) is a [persistent identifier][what-are-pids] or a handle used to uniquely identify various objects, such as journal articles, research reports, dataset or software, standardised by the International Organization for Standardisation (ISO).
 
-A DOI fits within the URI (Uniform Resource Identifier) system, and also resolves to its target - the information
-object to which the DOI refers.
+A DOI fits within the URI (Uniform Resource Identifier) system, and also resolves to its target - the information object to which the DOI refers.
 This is achieved by binding the DOI to metadata about the object, such as a URL where the object is located.
 
-Obtaining a DOI for software has become [increasingly popular][datacite-doi-software] to indicate to others how to
-cite your software (either in a publication or as an independent way of referring to your software).
+Obtaining a DOI for software has become [increasingly popular][datacite-doi-software] to indicate to others how to cite your software (either in a publication or as an independent way of referring to your software).
 
 There are many services that can issue (or mint) DOIs, i.e. perform the process of creating and assigning a DOI to an object.
-We will explore how you can do that for your software using {% tool "zenodo" %}, a general-purpose open archive and
-publishing repository developed under the European OpenAIRE program and operated by CERN.
+We will explore how you can do that for your software using {% tool "zenodo" %}, a general-purpose open archive and publishing repository developed under the European OpenAIRE program and operated by CERN.
 
-Zenodo's DOI versioning feature allows users to create a **concept DOI** (which represents the software package as a
-whole, including all its versions) and multiple **release DOIs** for software packages (with each DOI representing a
-specific version of the software package).
-In other words, the concept DOI is a reference to a software project as a whole, while the software version DOI is a
-reference to a particular software release.
+Zenodo's DOI versioning feature allows users to create a **concept DOI** (which represents the software package as a whole, including all its versions) and multiple **release DOIs** for software packages (with each DOI representing a specific version of the software package).
+In other words, the concept DOI is a reference to a software project as a whole, while the software version DOI is a reference to a particular software release.
 
 ### Why are DOIs important?
 
-Publishing your software in digital research artefact archive services is a valuable practice that enhances the 
-visibility, citability, and long-term preservation of your research software:
+Publishing your software in digital research artefact archive services is a valuable practice that enhances the visibility, citability, and long-term preservation of your research software:
 
 - Obtaining a DOI for your software makes it easier to cite and track your work and research output.
 - Ensures long-term preservation of your code, even if the original software repository becomes unavailable.
@@ -100,12 +82,10 @@ visibility, citability, and long-term preservation of your research software:
 
 ### Getting a DOI for software hosted on GitHub
 
-Zenodo and GitHub provide an integration between the two services which makes issuing DOIs for your software stored in 
-GitHub by Zenodo and archiving your software releases on Zenodo easier.
+Zenodo and GitHub provide an integration between the two services which makes issuing DOIs for your software stored in GitHub by Zenodo and archiving your software releases on Zenodo easier.
 
 * If you do not have a Zenodo account - create one now (preferably using your GitHub account). This effectively links the two accounts. 
-If you already have a Zenodo account, you can link it to your GitHub account bu navigation to your [Zenodo profile page](https://zenodo.org/account/settings/profile), selecting 
-the `GitHub` tab, then clicking on `Connect` and authorising Zenodo to access your GitHub account.
+If you already have a Zenodo account, you can link it to your GitHub account bu navigation to your [Zenodo profile page](https://zenodo.org/account/settings/profile), selecting the `GitHub` tab, then clicking on `Connect` and authorising Zenodo to access your GitHub account.
 * Once connected to GitHub, choose which GitHub repository you would like to create a DOI for under the `Repositories` section in Zenodo.
 This will tell Zenodo to create a DOI for your software project as well as issue a new DOI each time you release a new version of software via GitHub.
 * Back on GitHub, create a release for your software repository (also check out the [releasing software procedure][releasing_software]).
@@ -138,11 +118,10 @@ Check out other relevant documentation:
 
 ### Linking the DOI with your software repository
 
-After making a software release, go back to your Zenodo profile where you will find your repository archived with a DOI assigned to it. 
-For software located and released via GitHub, there is a special [GitHub section in your account on Zenodo][your-zenodo-github] where
-you will find your published and archived releases. 
+After making a software release, go back to your Zenodo profile where you will find your repository archived with a DOI assigned to it.
+For software located and released via GitHub, there is a special [GitHub section in your account on Zenodo][your-zenodo-github] where you will find your published and archived releases.
 
-Find the particular release for your software and click on it - you will be taken to the Zenodo record for your software release. 
+Find the particular release for your software and click on it - you will be taken to the Zenodo record for your software release.
 You can see the Zenodo DOI badge under `Details`:
 
 ![Badge in Zenodo](../../images/badge_zenodo.png)
@@ -165,4 +144,3 @@ You can see the Zenodo DOI badge under `Details`:
 [your-zenodo-github]: https://zenodo.org/account/settings/github/
 [releasing_software]: ./releasing_software
 [creating_good_readme]: ./creating_good_readme
-
