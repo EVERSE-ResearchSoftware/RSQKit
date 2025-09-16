@@ -5,7 +5,7 @@ import argparse
 def format_sentences(text: str) -> str:
     """
     Format text so each sentence appears on its own line, while preserving:
-    - Top matter headers (YAML/front matter at the top of files),
+    - Front matter headers (YAML/front matter at the top of files),
     - Code blocks surrounded by triple backticks ``` ... ``` ,
     - Paragraph breaks (empty lines),
     - Leading tab characters at the start of lines,
