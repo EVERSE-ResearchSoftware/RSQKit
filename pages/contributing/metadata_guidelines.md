@@ -79,7 +79,6 @@ Each page in RSQKit can be described with the following metadata/attributes (whi
 * `page_citation`: When set to `true`, it will cause the citation section for the page to be generated in the format: "<author names>. <page title>. <site domain>. <page URL>. <date accessed>". Defaults to `true` for task pages; `false` for other page types.
 * `keywords`: a list of keywords related to the topic of the page, typically used to search training materials and other resources from external registries (such as TeSS training registry)
 * `training`: a list of training registry entries, each having the following three properties - `name` (registry display name), `registry` (registry type, e.g. "TeSS", "TechRadar", "SSHOC", "ENVRI Hub") and `url` (registry's base URL that gets combined with keywords to form a search URL taking the user to search results using the `keywords` within that registry).
-
 Training entries will show up under the "More information" section of the page.
 
 An example of a training registry entry:
