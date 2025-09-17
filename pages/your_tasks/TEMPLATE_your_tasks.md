@@ -55,4 +55,3 @@ Repeat the same structure for other problems you wish to mention on the page, as
 ## References <!-- do not delete this heading and write your text below it --> If this page has been inspired or derived from other resources, make sure to reference them here.
 
 There is no need to reference other relevant pages from RSQKit here - rather list them in the page's *frontmatter* using parameter `related_pages` and they will be listed in the page automatically under "Related pages" section.
-

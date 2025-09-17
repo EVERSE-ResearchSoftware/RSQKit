@@ -73,4 +73,3 @@ Describe the community that uses your software
 ## References <!-- do not delete this heading and write your text below it -->
 
 If this page has been inspired or derived from other resources, make sure to reference them here.
-
