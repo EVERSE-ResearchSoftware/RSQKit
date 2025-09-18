@@ -43,7 +43,7 @@ Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailt
 - [RSQKit workshop by Shoaib Sufi, Aleks Nenadic and Patrick Bos](https://zenodo.org/records/17153986), EVERSE GAM meeting, 20 March 2025
 - [RSQKit presentation by Shoaib Sufi](https://zenodo.org/records/15274811) at the ELIXIR STEERS WP2 meeting, 24 April 2025
 - [RSQKit workshop by Shoaib Sufi and Aleks Nenadic](https://zenodo.org/records/17154499) at Software Sustainability Institute's [Collaborations Workshop (CW25), 13 May 2025](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25)
-- [RSQKit presentation by Shoaib Sufi](https://zenodo.org/records/16539546) at the [ReSA Research Software Infrastructure Forum meeting](https://www.researchsoft.org/forums/rsi-forum/), 9 July 2025 (video available at the link)
+- [RSQKit presentation by Shoaib Sufi](https://zenodo.org/records/16539546) at the [ReSA Research Software Infrastructure Forum meeting](https://www.researchsoft.org/forums/rsi-forum/), 9 July 2025 [video available](https://zenodo.org/records/16539546/preview/EVERSE%20RSQKit.mp4?include_deleted=0)
 
 ## Acknowledgements
 
