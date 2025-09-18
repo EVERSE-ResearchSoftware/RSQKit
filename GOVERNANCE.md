@@ -11,7 +11,7 @@ This is a meritocratic, consensus-based community project. Anyone with an intere
 
 **To complete (under discussion)**
 
-- What is the RSQkit
+- What is the RSQKit
 - What is the scope
 - What is the scope of this document
 
@@ -90,7 +90,7 @@ Membership of the EB is by invitation from the existing EB members. A nomination
 ## 4. Support
 All participants in the community are encouraged to provide support for new users within the project management infrastructure. This support is provided as a way of growing the community. Those seeking support should recognise that all support activity within the project is voluntary and is therefore provided as and when time allows. A user requiring guaranteed response times or results should therefore seek to purchase a support contract from a community member. However, for those willing to engage with the project on its own terms, and willing to help support other users, the community support channels are ideal.
 
-**Notes**: This section Needs to be adapted to better reflect the diversity in “technical expertise” of the community that will be using the RSQkit.
+**Notes**: This section Needs to be adapted to better reflect the diversity in “technical expertise” of the community that will be using the RSQKit.
 
 
 ## 5. Contribution Process
@@ -98,7 +98,7 @@ Anyone can contribute to the project, regardless of their skills, as there are m
 
 The developer mailing list is the most appropriate place for a contributor to ask for help when making their first contribution. All contributions will be reviewed by the EB.
 
-**Under discussion**: The text in this section needs to include the mailing list of the RSQkit
+**Under discussion**: The text in this section needs to include the mailing list of the RSQKit
 
 ## 6. Decision Making Process
 Decisions about the future of the project are made through discussion with all members of the community, from the newest user to the most experienced EB member. All non-sensitive project management discussion takes place on the project contributors’ mailing list. Occasionally, sensitive discussion occurs on a private list.

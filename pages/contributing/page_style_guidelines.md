@@ -3,12 +3,12 @@ title: Page Style Guidelines
 summary: Comprehensive guidelines for page style and formatting.
 ---
 
-In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and their more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf). 
-Below are the style guidelines specific to the pages in RSQKit (adapted from [RDMkit Style Guide](https://rdmkit.elixir-europe.org/style_guide)). 
+In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and their more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf).
+Below are the style guidelines specific to the pages in RSQKit (adapted from [RDMkit Style Guide](https://rdmkit.elixir-europe.org/style_guide)).
 
 ## One sentence per line
 
-We recommend you place every sentence on its own line and do not use fixed-column word-wrapping. 
+We recommend you place every sentence on its own line and do not use fixed-column word-wrapping.
 
 This approach means the content diffs will operate per-sentence rather than per-paragraph, and prevents reflows (i.e. a change early in the paragraph will not cause the remaining lines in the paragraph to reposition).
 This in turn means content diffs look more clean and contributions are easier to review.
@@ -24,16 +24,16 @@ An extra benefit is that such content is easier to translate to different langua
 * Use the words your readers would use. Think of the terms they would use when searching for their problem, and use those terms.
 
 ## Page templates
-  
-We provide page templates for certain content types in RSQKit to keep the structure of such pages consistent. 
+
+We provide page templates for certain content types in RSQKit to keep the structure of such pages consistent.
 If in doubt when creating new content, have a look at other existing content of the same type and try to mimic that.
-  
+
 * [Research Cluster or Infrastructure page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/research_clusters_and_infrastructures/TEMPLATE_research_cluster_or_infrastructure.md) for pages describing research clusters or infrastructures where software is a core part of activities. For an example - see ["ESCAPE - physics & astronomy"](https://everse.software/RSQKit/escape).
 * [Research Software Story template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/research_software_stories/TEMPLATE_research_software_story.md) for pages listing specific pieces of research software and the quality steps they use. 
 * [Role page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_role/TEMPLATE_your_role.md) for pages documenting different research professional roles and their relationship with research software. For an example - see ["Researchers who code"](https://everse.software/RSQKit/researcher_who_codes).
 * [Task page template](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md) for pages addressing common issues or describing commonly performed tasks around research software quality. For an example - see ["Creating a good README"](https://everse.software/RSQKit/creating_good_readme).
 
-  
+
 ## Content
 
 * **Acronyms:** spell them out the first time they are mentioned.
@@ -82,7 +82,7 @@ If in doubt when creating new content, have a look at other existing content of 
   * **Images:**
     * do not use images to display text.
     * include an 'alt-text' attribute in image tags (used by for screen readers) to describe what the image represents.
-   
+
 ## Naming of files, tags, keywords, and navigation titles
 
 * **Markdown file names:**

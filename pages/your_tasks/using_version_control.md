@@ -17,7 +17,7 @@ training:
 
 ### Description
 
-Selecting an appropriate version control system (VCS) is crucial for managing research software effectively. 
+Selecting an appropriate version control system (VCS) is crucial for managing research software effectively.
 This decision impacts collaboration, data management, and long-term project sustainability.
 
 ### Considerations
@@ -47,8 +47,7 @@ This decision impacts collaboration, data management, and long-term project sust
 
 ## How do I implement version control in my research workflow?
 
-### Description
-Implementing version control in a research context involves more than just choosing a system. It requires establishing workflows, educating team members, and integrating with existing research practices.
+### Description Implementing version control in a research context involves more than just choosing a system. It requires establishing workflows, educating team members, and integrating with existing research practices.
 
 ### Considerations
 * Current data management practices

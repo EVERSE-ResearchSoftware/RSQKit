@@ -2,7 +2,7 @@
 
 This page contains set of criteria to help curators determine if something is "Research software quality tool".
 
-This list is not intended to be exclusive, for instance “most tools that measure a software quality metric are software quality tools” but “not all software quality tools measure software quality metrics” but having a set of criteria would help to add tools in RSQkit tools and resources and TechRadar.
+This list is not intended to be exclusive, for instance “most tools that measure a software quality metric are software quality tools” but “not all software quality tools measure software quality metrics” but having a set of criteria would help to add tools in RSQKit tools and resources and TechRadar.
 
 
 # Initial set of criteria:

@@ -3,7 +3,7 @@
 ### Disclaimer:
 This document is still under discussion by the RSQKit governance body. This is draft proposal.
 
-The RSQkit team are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity.
+The RSQKit team are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity.
 As such, we do not tolerate behaviour that is disrespectful to our community members or that excludes, intimidates, or causes discomfort to others.
 We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to: gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 

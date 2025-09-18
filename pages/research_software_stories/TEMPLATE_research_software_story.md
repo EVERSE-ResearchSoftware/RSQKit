@@ -7,9 +7,15 @@ page_id: # unique page id, ideally lowercase words separated by underscore(s) - 
 type: research_software_story
 ---
 
-<!-- Please keep all sections and fill them in. If this is not possible for any reason - you may remove them (you might need to explain to the Editorial Board in your pull request why certain sections are not present). The text describing what is needed in the sections can be removed. All comment sections can be removed before your submit a pull request. -->
+<!-- Please keep all sections and fill them in.
+If this is not possible for any reason - you may remove them (you might need to explain to the Editorial Board in your pull request why certain sections are not present).
+The text describing what is needed in the sections can be removed.
+All comment sections can be removed before your submit a pull request.
+-->
 
-<!-- Once you have completed your research community entry - please add it to _data/sidebars/main.yml under the Research Software Stories entry in alphabetical order. This comment can be deleted in your final page. -->
+<!-- Once you have completed your research community entry - please add it to _data/sidebars/main.yml under the Research Software Stories entry in alphabetical order.
+This comment can be deleted in your final page.
+-->
 
 
 ## The Problem <!-- do not delete this heading and write your text below it -->
@@ -19,7 +25,7 @@ Describe the problem(s) your software is trying to solve for your community.
 
 ## The Community <!-- do not delete this heading and write your text below it -->
 
-Describe the community that uses your software 
+Describe the community that uses your software
 
 
 - Describe how the development is organised (e.g. is it one person, many, how are they organised and/or governed)
@@ -73,5 +79,3 @@ Describe the community that uses your software
 ## References <!-- do not delete this heading and write your text below it -->
 
 If this page has been inspired or derived from other resources, make sure to reference them here.
-
-

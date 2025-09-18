@@ -17,9 +17,8 @@ training:
 
 ### Description
 
-The directory structure for organising your software projects (or research projects in general) 
-involves creating a clear and logical layout for files and data, facilitating easy navigation, collaboration and reproducibility.
-A well-structured and consistent project organisation, aligned with common practices, is essential for making your work more accessible. 
+The directory structure for organising your software projects (or research projects in general) involves creating a clear and logical layout for files and data, facilitating easy navigation, collaboration and reproducibility.
+A well-structured and consistent project organisation, aligned with common practices, is essential for making your work more accessible.
 This approach helps others (and yourself) quickly locate information, which is particularly valuable for long-term projects or collaborative efforts.
 
 ### Considerations
@@ -35,9 +34,7 @@ Organising code or research project directories in a consistent manner is essent
 
 ## What are some good practices in organising software projects?
 
-### Description 
-Below are some good practices for setting up and maintaining a software (or a research) project's directory structure and storing
-code, data, results, tests, auxiliary information and metadata.
+### Description Below are some good practices for setting up and maintaining a software (or a research) project's directory structure and storing code, data, results, tests, auxiliary information and metadata.
 
 ### Solution
 
@@ -67,8 +64,8 @@ code, data, results, tests, auxiliary information and metadata.
 
 ### Example project structures
 
-Below is an example of a directory structure for a generic research project. This is not the only way to organise your project folder (there is no official or standard way and you may not have 
-all the same subfolders in your project), but it is a good practice to follow that will be understandable by many others.
+Below is an example of a directory structure for a generic research project.
+This is not the only way to organise your project folder (there is no official or standard way and you may not have all the same subfolders in your project), but it is a good practice to follow that will be understandable by many others.
 
 ```
 project_name/
@@ -117,7 +114,7 @@ project_name/
 └── .gitignore
 ```
 
-For best practices and guidance for designing research projects in particular focused on data - check out [the Turing Way Project's Guide for project design][turing-project-design]. 
+For best practices and guidance for designing research projects in particular focused on data - check out [the Turing Way Project's Guide for project design][turing-project-design].
 
 [creating_good_readme]: ./creating_good_readme
 [licensing_software]: ./licensing_software

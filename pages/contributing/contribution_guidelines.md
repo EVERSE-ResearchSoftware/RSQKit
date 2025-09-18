@@ -4,24 +4,20 @@ summary: Detailed guidelines for various contributions to RSQKit.
 ---
 
 The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot.
-During this phase, we organise contributions through the EVERSE project's internal documents and communication channels, and welcome reports on
-issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
+During this phase, we organise contributions through the EVERSE project's internal documents and communication channels, and welcome reports on issues and problems with existing pages, fixes to existing content, and reviews of proposed changes.
 At some point in the future, we will move towards a fully GitHub-centred contribution workflow.
 
-The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board][editorial-board], who are also acting as the official
-**Maintainers** of the RSQKit repository.
-The RSQKit **Editorial Board Members** work together with Internal Contributors from the EVERSE project and External Contributors (jointly known as [**Contributors**][contributors])
-to identify where and how their contribution fits best in RSQKit.
+The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board][editorial-board], who are also acting as the official **Maintainers** of the RSQKit repository.
+The RSQKit **Editorial Board Members** work together with Internal Contributors from the EVERSE project and External Contributors (jointly known as [**Contributors**][contributors]) to identify where and how their contribution fits best in RSQKit.
 
 ## Contributor Agreement
 
-By contributing, you agree that we may redistribute your work under [our
-license][licence]. In exchange, we will address your issues and/or assess
-your change proposal as promptly as we can.
+By contributing, you agree that we may redistribute your work under [our license][licence].
+In exchange, we will address your issues and/or assess your change proposal as promptly as we can.
 
 ## Markdown Content
 
-RSQKit's content mainly consists of [pages][pages] in Markdown (in addition to [data and metadata][data] in YAML). 
+RSQKit's content mainly consists of [pages][pages] in Markdown (in addition to [data and metadata][data] in YAML).
 Markdown is a lightweight and human-readable markup language that gets translated into HTML pages that consequently get served as web pages.
 For more information about the Markdown format, please check the [Markdown guidelines](https://guides.github.com/features/mastering-markdown/).
 
@@ -34,37 +30,30 @@ We accept contributions in different ways.
 ### Via GitHub
 
 The easiest way to get started is to contribute via the [RSQKit repository in GitHub][rsqkit-repository].
-For this - you will require a [GitHub][github] account. If you do not have it - you can [create one][github-join].
+For this - you will require a [GitHub][github] account.
+If you do not have it - you can [create one][github-join].
 For this method of contribution - you do not need to know how to use Git.
 
-You can report problems (e.g., a spelling mistake, some awkward wording, or a factual error) or 
-suggest improvements by [creating an issue][issues]. This allows us to assign the item to someone and to respond to 
-it in a threaded discussion.
+You can report problems (e.g., a spelling mistake, some awkward wording, or a factual error) or suggest improvements by [creating an issue][issues].
+This allows us to assign the item to someone and to respond to it in a threaded discussion.
 
-If you are comfortable with GitHub, and would like to add or change material, you can submit a pull request (PR) 
-directly from GitHub. 
+If you are comfortable with GitHub, and would like to add or change material, you can submit a pull request (PR) directly from GitHub.
 Instructions for doing this are [included below](#creating-a-pull-request).
 
 ### Using Git from Command Line
 
-Working in GitHub interface is convenient, but does not allow for spelling checking and lots of spelling mistakes can 
-creep in this way if you are writing a lot of content. Hence, it is better to create your own fork of the RSQKit 
-repository and then clone it locally on your machine. This way, you can edit files in a text editor with spelling 
-checking and other capabilities (instead in GitHub's online editor) and also test your work extensively before 
-[creating a PR](#creating-a-pull-request).
+Working in GitHub interface is convenient, but does not allow for spelling checking and lots of spelling mistakes can creep in this way if you are writing a lot of content.
+Hence, it is better to create your own fork of the RSQKit repository and then clone it locally on your machine.
+This way, you can edit files in a text editor with spelling checking and other capabilities (instead in GitHub's online editor) and also test your work extensively before [creating a PR](#creating-a-pull-request).
 
-Working with Git from command line is technically more challenging, as you will need to understand and install Git
-on your machine, but it much more flexible and less error prone.
+Working with Git from command line is technically more challenging, as you will need to understand and install Git on your machine, but it much more flexible and less error prone.
 
 Check out [the instructions on how to fork and set up RSQKit locally on your machine][installation-instructions].
 
 ### Other Ways to Contribute
 
-Note that you do not have to use Git or contribute via GitHub to be included as a Contributor - 
-any significant discussion or contributions via other methods
-(e.g. email, internal project documents used to collect information, etc.) are accepted.
-Email the [Editorial Board][contact] with a short explanation of your contributions and you will be 
-appropriately acknowledged.
+Note that you do not have to use Git or contribute via GitHub to be included as a Contributor - any significant discussion or contributions via other methods (e.g. email, internal project documents used to collect information, etc.) are accepted.
+Email the [Editorial Board][contact] with a short explanation of your contributions and you will be appropriately acknowledged.
 
 ## What to Contribute
 
@@ -75,9 +64,7 @@ Whichever contribution route you choose, we welcome the following types of contr
 - comments on [existing issues][issues] and reviews of [existing pull requests][pull-requests]
 - [pull requests](#creating-a-pull-request) to fix issues, bugs and typos in the RSQKit content
 
-If you plan to submit a pull request that adds new content or significantly changes existing content,
-please [contact the Editorial Board][contact] to discuss this first so that
-the effort is only spent on making a change that will be be accepted.
+If you plan to submit a pull request that adds new content or significantly changes existing content, please [contact the Editorial Board][contact] to discuss this first so that the effort is only spent on making a change that will be be accepted.
 
 ### Reporting an Issue
 
@@ -98,9 +85,7 @@ Here are some guidelines for reporting issues.
 If you choose to contribute via Git/GitHub's pull requests, you may want to look at [How to Contribute to an Open Source Project on GitHub][how-contribute].
 
 1. Open an issue for your pull request first (unless already opened).
-2. Create a separate branch for your work - either in your own fork of the RSQKit repository or directly in RSQKit repository if 
-you have write access to it. Note that you cannot directly modify the `main` branch in RSQKit repository - you have to do it via 
-a branch and a PR (and this is true for Editors/Maintainers as well). 
+2. Create a separate branch for your work - either in your own fork of the RSQKit repository or directly in RSQKit repository if you have write access to it. Note that you cannot directly modify the `main` branch in RSQKit repository - you have to do it via a branch and a PR (and this is true for Editors/Maintainers as well).
 3. Make sure that your changes in your (fork and) branch are tested and render correctly in the Web site.
 4. Submit a pull request from your branch back to the RSQKit repository.
 5. If you receive feedback from Editors/Maintainers, make changes on your branch and your pull request will update automatically.
@@ -109,9 +94,7 @@ Editorial Board Members will review pull requests and have a final say over what
 
 ## What *Not* to Contribute
 
-At this point, we do not welcome contributions that create or change the underlying RSQKit infrastructure - for example,
-data files in `_data/` folder in the repository, `_config.yml` and other infrastructure files
-(such as CSS files, page templates and files in the `_includes/` folder).
+At this point, we do not welcome contributions that create or change the underlying RSQKit infrastructure - for example, data files in `_data/` folder in the repository, `_config.yml` and other infrastructure files (such as CSS files, page templates and files in the `_includes/` folder).
 If you think some of these files should be updated, please [contact the Editorial Board][contact].
 
 ## Contributor Responsibilities
