@@ -21,7 +21,8 @@ Reproducible software environments are crucial for ensuring that software behave
 Here are some popular tools and approaches for creating reproducible software environments based on their scope and usage:
 
 - **Programming language-specific environments** - focus on managing dependencies and development/runtime environments 
-for specific programming languages, ensuring consistent behaviour of software across different systems. Extremely useful when you are developing or modifying other people's software.
+for specific programming languages, ensuring consistent behaviour of software across different systems.
+Extremely useful when you are developing or modifying other people's software.
 - **Containerised environments** - use containers to encapsulate software and its dependencies, ensuring the software runs consistently across different systems regardless of the underlying host operating system.
   - {% tool "docker" %} - creates lightweight, isolated containers for packaging software and its dependencies.
   - {% tool "singularity" %}, {% tool "apptainer" %} - focuses on containerisation for high-performance computing (HPC) and scientific computing.
@@ -38,7 +39,8 @@ multi-step, multi-code complex data analysis pipelines (e.g. in bioinformatics):
   - Workflow management systems (WMSs), such as {% tool "nextflow" %}, {% tool "galaxy" %},
     {% tool "snakemake" %}, {% tool "apache-airflow" %} or {% tool "parsl" %}, create execution environments and run computational workflows based on their definitions.
 
-Code produced by researchers is sometimes not packaged in a library, package or container that you can readily run on your system. Sometimes you also may want to look at the source code and be able to make modifications.
+Code produced by researchers is sometimes not packaged in a library, package or container that you can readily run on your system.
+Sometimes you also may want to look at the source code and be able to make modifications.
 In these cases, you need to download the code and reproduce its programming language-specific environment in order to run in.
 In the rest of this document, we focus on the **programming language-specific environments** - also known as the **virtual software development environments**.
 
@@ -68,10 +70,12 @@ By sharing a description of your virtual development environment you enable othe
 and avoid a great deal of confusion by having separate (smaller) virtual environments for each project rather than one huge global environment on your machine with potential package version clashes.
 - You have an older project that only works under, e.g., Python 2. You do not have the time to migrate the project to Python 3
 or it may not even be possible as some of the third party dependencies are not available under Python 3.
-You have to start another project under Python 3. The best way to do this on a single machine is to set up two separate Python virtual environments.
+You have to start another project under Python 3.
+The best way to do this on a single machine is to set up two separate Python virtual environments.
 - One of your Python 3 projects is locked to use a particular older version of a third party dependency.
 You cannot use the latest version of the dependency as it breaks things in your project.
-In a separate branch of your project, you want to try and fix problems introduced by the new version of the dependency without affecting the working version of your project. You need to set up a separate virtual environment for your branch to 'isolate' your code while testing the new feature.
+In a separate branch of your project, you want to try and fix problems introduced by the new version of the dependency without affecting the working version of your project.
+You need to set up a separate virtual environment for your branch to 'isolate' your code while testing the new feature.
 - You do not have to worry too much about specific versions of external libraries that your project depends on most of the time.
 Virtual environments enable you to always use the latest available version without specifying it explicitly.
 They also enable you to use a specific older version of a package for your project, should you need to.
@@ -87,8 +91,7 @@ They also enable you to use a specific older version of a package for your proje
 Most modern programming languages use some kind of virtual environments or a similar mechanism to isolate libraries or dependencies for a specific project, making it easier to develop, run, test and share code with others.
 
 Part of managing a virtual software development environment involves installing, updating and removing external packages on your system.
-You would need a package manager tool for your programming language to be able to do that - this is typically a command line tool that you invoke from a command line terminal.
-In addition to a package manager, you will need another command line tool to create and manage virtual environments on your machine.
+You would need a package manager tool for your programming language to be able to do that - this is typically a command line tool that you invoke from a command line terminal. In addition to a package manager, you will need another command line tool to create and manage virtual environments on your machine.
 Sometimes, a package manager combines both of these functionalities and you only need to install one extra tool on your system.
 
 ### Considerations
@@ -96,14 +99,17 @@ Sometimes, a package manager combines both of these functionalities and you only
 - There are often multiple package and environment management tools even for a single programming language:
   - For example, commonly used tools for managing Python packages and virtual environments are {% tool "pip" %} (Python package manager tool which interacts and obtains the packages
   from the central repository called {% tool "pypi" %}) and {% tool "venv" %} (Python virtual environment manager tool available by default from the standard Python distribution from Python 3.3).
-  One alternative is to use {% tool "poetry" %} - a modern Python packaging tool which also installs Python packages from PyPI and handles virtual environments automatically. Also check {% tool "uv" %} - a single and fast Python package and project manager, built to replace {% tool "pip" %} and {% tool "venv" %}.
+  One alternative is to use {% tool "poetry" %} - a modern Python packaging tool which also installs Python packages from PyPI and handles virtual environments automatically.
+  Also check {% tool "uv" %} - a single and fast Python package and project manager, built to replace {% tool "pip" %} and {% tool "venv" %}.
   - If your Python code relies on non-Python packages, for instance when some C++ libraries must also be installed and you want to support multiple platforms, a better choice may be {% tool "conda" %} -
-  a Python package and environment management system part of the Anaconda Python distribution (often used by the scientific community). {% tool "conda" %} has its own repository system separate from (but compatible with) PyPI that distributes non-Python packages packages as well and has its own non-venv-based virtual environment system.
+  a Python package and environment management system part of the Anaconda Python distribution (often used by the scientific community).
+  {% tool "conda" %} has its own repository system separate from (but compatible with) PyPI that distributes non-Python packages packages as well and has its own non-venv-based virtual environment system.
   - If you are using R - consider {% tool "renv" %} that will help you build reproducible environments for your R projects
   - For Julia programming language - check {% tool "pkg-jl" %}; for C++ - check {% tool "conan" %}, for Java - check {% tool "maven" %}, for Ruby - check {% tool "bundler" %}.
   - There are some some generic tools to have a look at as well - e.g. [Spack][spack], {% tool "nixos" %}, [guix][guix].
 - You need to decide what tools are best for you - based on your personal preferences, or what the software project and your team or community is
-already using (so you can get help when you need it). Not using virtual environments at all and mixing different tools to manage them could lead to a [bad example of a spaghetti setup][python-env-hell], not knowing which dependencies are being used and causing issues when running and debugging code.
+already using (so you can get help when you need it).
+Not using virtual environments at all and mixing different tools to manage them could lead to a [bad example of a spaghetti setup][python-env-hell], not knowing which dependencies are being used and causing issues when running and debugging code.
 
 ### Solutions
 
@@ -111,7 +117,8 @@ already using (so you can get help when you need it). Not using virtual environm
 
 ## References
 [^1]: Jesse M. Alston, Jessica A. Rick. A Beginner’s Guide to Conducting Reproducible Research, Bulletin of
-The Ecological Society of America 102 (2) (2021). [https://doi.org/10.1002/bes2.1801](https://doi.org/10.1002/bes2.1801)
+The Ecological Society of America 102 (2) (2021).
+[https://doi.org/10.1002/bes2.1801](https://doi.org/10.1002/bes2.1801)
 
 
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/

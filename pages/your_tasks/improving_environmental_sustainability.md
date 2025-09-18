@@ -17,11 +17,14 @@ training:
 
 ### Description
 
-There is an urgent need to reduce the environmental impact of our activities, and research is no exception.  Many research institutes and funders have committed to achieving Net Zero (essentially a 90% reduction in carbon equivalent emissions) by 2050 or earlier.  There are a range of tools and practices which researchers can adopt to reduce the environmental impact of their software.
+There is an urgent need to reduce the environmental impact of our activities, and research is no exception.
+Many research institutes and funders have committed to achieving Net Zero (essentially a 90% reduction in carbon equivalent emissions) by 2050 or earlier.
+There are a range of tools and practices which researchers can adopt to reduce the environmental impact of their software.
 
 ### Considerations
 
-While vital for society, research is a significant source of carbon emissions.  Thankfully there are a number of steps which can be taken to reduce emissions.
+While vital for society, research is a significant source of carbon emissions.
+Thankfully there are a number of steps which can be taken to reduce emissions.
 
 The Green Software Foundation suggests three aspects to consider:
 
@@ -29,7 +32,10 @@ The Green Software Foundation suggests three aspects to consider:
 2. Hardware efficiency - use the least amount of embodied carbon as possible.
 3. Carbon awareness - do more when the energy supply is clean and less when it is dirty.
 
-There are a number of tools and programming techniques which can be used to first monitor then improve the energy efficiency of software (detailed below).  Hardware efficacy considers emissions from the creation and disposal of the hardware used (embodied emissions), this can be maximised by extending the lifetime of hardware and (for cloud and HPC) increasing the utilisation of the device.  Finally, the amount of clean electricity in an energy supply depends on location and time of the use. Software that is carbon aware tries to shift usage away from energy that is low in clean energy, through shifting in either time or space.
+There are a number of tools and programming techniques which can be used to first monitor then improve the energy efficiency of software (detailed below).
+Hardware efficacy considers emissions from the creation and disposal of the hardware used (embodied emissions), this can be maximised by extending the lifetime of hardware and (for cloud and HPC) increasing the utilisation of the device.
+Finally, the amount of clean electricity in an energy supply depends on location and time of the use.
+Software that is carbon aware tries to shift usage away from energy that is low in clean energy, through shifting in either time or space.
 
 Similarly, the [GREENER software principles](https://www.nature.com/articles/s43588-023-00461-y) sets out a series of principles to help guide the  transition to more environmentally responsible computing including:
 

@@ -17,7 +17,9 @@ training:
 
 ### Description
 
-A README file is a key document in a software project that provides an overview of the software to help developers and users understand the project quickly. It is typically written in plain text or Markdown format and placed in the project's root directory and shared along with code. For software shared in a public software repository - the README file serves as the project's homepage and a central reference for documentation, aiding software's accessibility and promoting engagement for open source projects.
+A README file is a key document in a software project that provides an overview of the software to help developers and users understand the project quickly.
+It is typically written in plain text or Markdown format and placed in the project's root directory and shared along with code.
+For software shared in a public software repository - the README file serves as the project's homepage and a central reference for documentation, aiding software's accessibility and promoting engagement for open source projects.
 
 The README file is the entry point to the [documentation associated with a software][documenting_software].
 The main purpose of the README is to:
@@ -70,7 +72,11 @@ In this section, you will have to describe the purpose and the features of your 
 
 **Requirements**
 
-In this section, you can include the requirements needed to install and to execute the software. These requirements can be software (e.g. operative system) or hardware (e.g. CPU, memory, etc.). There is no need to include low level requirements like language library dependencies. These requirements must be provided with the appropriate mechanism of each language. For example, in {% tool "python" %} by using the requirements.txt file.
+In this section, you can include the requirements needed to install and to execute the software.
+These requirements can be software (e.g. operative system) or hardware (e.g. CPU, memory, etc.).
+There is no need to include low level requirements like language library dependencies.
+These requirements must be provided with the appropriate mechanism of each language.
+For example, in {% tool "python" %} by using the requirements.txt file.
 
 This is a non exhaustive list of requirements categories that you can consider:
 - Operating system version
@@ -81,7 +87,9 @@ This is a non exhaustive list of requirements categories that you can consider:
 
 **Installation process**
 
-In this section, you can describe the installation steps needed to install the software. You have to assume that the user has no knowledge about operative systems or programming languages, so you need to be exhaustive. It is important to reflect all the commands that must be executed by the user.
+In this section, you can describe the installation steps needed to install the software.
+You have to assume that the user has no knowledge about operative systems or programming languages, so you need to be exhaustive.
+It is important to reflect all the commands that must be executed by the user.
 
 In case you need to install additional software, like a Java Virtual Machine or a database, you will have to add a link to additional information that describes how to install it.
 
@@ -89,19 +97,29 @@ If you have multiple options for installing the software (e.g. installing a libr
 
 **Configuration**
 
-Sometimes, software needs to be configured to be executed. Usually, this task is done by filling in a configuration file. You will need to add this information to the README. In case you have documentation that describes the fields of the configuration file, you can also add it to the README.
+Sometimes, software needs to be configured to be executed.
+Usually, this task is done by filling in a configuration file.
+You will need to add this information to the README.
+In case you have documentation that describes the fields of the configuration file, you can also add it to the README.
 
 **Usage**
 
-In this section, you should include all the steps needed to use the application. For example, if it is a command line tool, you will need to describe all the parameters. As we mentioned in the installation section, you have to assume no skills in the user, so you will need to be exhaustive.
+In this section, you should include all the steps needed to use the application.
+For example, if it is a command line tool, you will need to describe all the parameters.
+As we mentioned in the installation section, you have to assume no skills in the user, so you will need to be exhaustive.
 
-It is recommended to add examples of the application usage in order to illustrate users in the software management. This information can be complemented with links to tutorials in different formats (e.g. video, PDF, notebooks, etc.)
+It is recommended to add examples of the application usage in order to illustrate users in the software management.
+This information can be complemented with links to tutorials in different formats (e.g. video, PDF, notebooks, etc.)
 
-Research software can be developed to execute experiments whose results are shown in a scientific publication. For this reason, and to add transparency to the research, it is important to show how the results can be achieved. You can use this section to describe the process to get the results.
+Research software can be developed to execute experiments whose results are shown in a scientific publication.
+For this reason, and to add transparency to the research, it is important to show how the results can be achieved.
+You can use this section to describe the process to get the results.
 
 **Contribution**
 
-Research software should be a collaborative effort, so a mechanism to allow other researchers to collaborate with the project is needed. In this section, you can describe how this mechanism is. For example, if you want to add a new feature, you can create a pull request to integrate this new feature.
+Research software should be a collaborative effort, so a mechanism to allow other researchers to collaborate with the project is needed.
+In this section, you can describe how this mechanism is.
+For example, if you want to add a new feature, you can create a pull request to integrate this new feature.
 
 **Acknowledgement**
 
@@ -109,13 +127,18 @@ All funders of the research software should be mentioned in the README - check t
 
 **Citation**
 
-Citation is fundamental in a research context. In this section, you can add how you want your software to be cited in a publication. It is a common practice to add this information in a `CITATION.cff` file but it is a recommended practice to add it to the README file too (e.g., in Bibtex format).
+Citation is fundamental in a research context.
+In this section, you can add how you want your software to be cited in a publication.
+It is a common practice to add this information in a `CITATION.cff` file but it is a recommended practice to add it to the README file too (e.g., in Bibtex format).
 
-Remember that you can include badges in your README file to add visual information about your software project. You can see a list of them used to make your project more fair in {% tool "howfairis" %}.
+Remember that you can include badges in your README file to add visual information about your software project.
+You can see a list of them used to make your project more fair in {% tool "howfairis" %}.
 
 **License**
 
-Software without a license cannot be reused in other applications. While having a [license file](https://everse.software/RSQKit/licensing_software) is a common practice in code repositories, you may also add this information explicitly as a section of your README file. For more information, see [our guidelines](https://everse.software/RSQKit/licensing_software) on how to select an appropriate license.
+Software without a license cannot be reused in other applications.
+While having a [license file](https://everse.software/RSQKit/licensing_software) is a common practice in code repositories, you may also add this information explicitly as a section of your README file.
+For more information, see [our guidelines](https://everse.software/RSQKit/licensing_software) on how to select an appropriate license.
 
 
 ## Further guidance

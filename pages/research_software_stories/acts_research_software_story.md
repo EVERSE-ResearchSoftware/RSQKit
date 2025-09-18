@@ -8,15 +8,23 @@ type: research_software_story
 
 ## The Problem
 
-[Modern particle physics][CONCEPT_MODERN_PARTICLE_PHYS] experiments produce enormous volumes of data and this is expected to grow in the near future.  One key challenge is [track reconstruction][CONCEPT_TRACK_RECONSTRUCTION] - converting raw detector hits from charged particles into estimated particle trajectories.  Historically, each experiment built its own specialized tracking software, resulting in duplicated effort and the lack of a common framework to collaborate and improve upon.  The ACTS project (Acts Common Tracking Software) was created to provide a single, experiment-independent toolkit for efficient track reconstruction.
+[Modern particle physics][CONCEPT_MODERN_PARTICLE_PHYS] experiments produce enormous volumes of data and this is expected to grow in the near future.
+One key challenge is [track reconstruction][CONCEPT_TRACK_RECONSTRUCTION] - converting raw detector hits from charged particles into estimated particle trajectories.
+Historically, each experiment built its own specialized tracking software, resulting in duplicated effort and the lack of a common framework to collaborate and improve upon.
+The ACTS project (Acts Common Tracking Software) was created to provide a single, experiment-independent toolkit for efficient track reconstruction.
 
 ## User Community
 
-[ACTS][ACTS] began within the [ATLAS experiment][ATLAS] at [CERN][CERN], but it now serves many high-energy and nuclear physics communities (including heavy-ion experiments).  Contributors come from institutions worldwide.  ACTS is [actively used in ATLAS][ACTS_SPRINGER], CERN's Experimental Physics R&D projects, and various detector R&D studies.  It also attracts researchers developing new [tracking algorithms][ACTS_TRACKING] for advanced computing architectures by acting as a modular test suite and comparison baseline.  This broad adoption has created a large, collaborative base of users and developers.
+[ACTS][ACTS] began within the [ATLAS experiment][ATLAS] at [CERN][CERN], but it now serves many high-energy and nuclear physics communities (including heavy-ion experiments).
+Contributors come from institutions worldwide.
+ACTS is [actively used in ATLAS][ACTS_SPRINGER], CERN's Experimental Physics R&D projects, and various detector R&D studies.
+It also attracts researchers developing new [tracking algorithms][ACTS_TRACKING] for advanced computing architectures by acting as a modular test suite and comparison baseline.
+This broad adoption has created a large, collaborative base of users and developers.
 
 ## Technical Aspects
 
-ACTS is a high-performance, thread-safe library written in modern C++ ({% tool "cpp" %}).  Its core components include:
+ACTS is a high-performance, thread-safe library written in modern C++ ({% tool "cpp" %}).
+Its core components include:
 
 - [Geometry description][ACTS_GEOMETRY]: An optimised detector geometry model for fast
   navigation.
@@ -26,7 +34,11 @@ ACTS is a high-performance, thread-safe library written in modern C++ ({% tool "
 
 - [Event Data Model (EDM)][ACTS_EDM]: A standardised way to represent track data.
 
-ACTS is optimised for speed, using compile-time polymorphism (templates) instead of runtime inheritance to improve performance.  It keeps non-optional dependencies to a minimum (mainly the Eigen linear algebra library).  The toolkit uses {% tool "cmake" %} for building and runs on Linux with multi-core support.  It can integrate with external geometry definitions (eg.  [ROOT TGeo][ACTS_ROOT] or [DD4hep][ACTS_DD4HEP]), making it easier to use in different experiments' software frameworks.
+ACTS is optimised for speed, using compile-time polymorphism (templates) instead of runtime inheritance to improve performance.
+It keeps non-optional dependencies to a minimum (mainly the Eigen linear algebra library).
+The toolkit uses {% tool "cmake" %} for building and runs on Linux with multi-core support.
+It can integrate with external geometry definitions (eg.
+[ROOT TGeo][ACTS_ROOT] or [DD4hep][ACTS_DD4HEP]), making it easier to use in different experiments' software frameworks.
 
 ## Libraries and Systems
 
@@ -46,8 +58,10 @@ ACTS is optimised for speed, using compile-time polymorphism (templates) instead
 
 ## Software Quality Practices
 
-ACTS development follows [strict software engineering standards][ACTS_CODING_GUIDELINES].  The project is developed openly on GitHub, and every code submission [triggers automated][ACTS_GITHUB_ACTIONS] CI tests to ensure nothing breaks and that thread-safety is maintained.
-Developers adhere to [coding][ACTS_CODING_GUIDELINES] and [contribution guidelines][ACTS_CONTRIBUTION_GUIDELINES], and use peer reviews on merge requests.  [Issues are tracked transparently][ACTS_GITHUB_BUG_TRACKING], and frequent [meetings][ACTS_MEETINGS] plus mailing list discussions keep contributors aligned and informed.
+ACTS development follows [strict software engineering standards][ACTS_CODING_GUIDELINES].
+The project is developed openly on GitHub, and every code submission [triggers automated][ACTS_GITHUB_ACTIONS] CI tests to ensure nothing breaks and that thread-safety is maintained.
+Developers adhere to [coding][ACTS_CODING_GUIDELINES] and [contribution guidelines][ACTS_CONTRIBUTION_GUIDELINES], and use peer reviews on merge requests.
+[Issues are tracked transparently][ACTS_GITHUB_BUG_TRACKING], and frequent [meetings][ACTS_MEETINGS] plus mailing list discussions keep contributors aligned and informed.
 
 ## Developer Community
 
@@ -61,7 +75,8 @@ The ACTS community provides many resources to help onboard newcomers:
 - [Example framework][ACTS_EXAMPLES]: A sample project demonstrating how to use ACTS
   algorithms in practice.
 
-In addition, [regular workshops][ACTS_WORKSHOP_24] and training [sessions][ACTS_SESSIONS] help new members start using ACTS in their experiments.  New contributors are often mentored by experienced developers, ensuring knowledge transfer and continuous growth of the community.
+In addition, [regular workshops][ACTS_WORKSHOP_24] and training [sessions][ACTS_SESSIONS] help new members start using ACTS in their experiments.
+New contributors are often mentored by experienced developers, ensuring knowledge transfer and continuous growth of the community.
 
 ## Tools
 
@@ -116,11 +131,16 @@ ACTS offers thorough documentation for both users and developers:
 - [Tutorials and examples][ACTS_EXAMPLES]: Step-by-step examples demonstrating common use
   cases.
 
-The documentation is updated alongside the code to remain accurate and up-to-date.  Documentation contributions are valued as highly as code contributions, reflecting the importance of good documentation for ACTS's usability. (this is reflected primarily in practice)
+The documentation is updated alongside the code to remain accurate and up-to-date.
+Documentation contributions are valued as highly as code contributions, reflecting the importance of good documentation for ACTS's usability.
+(this is reflected primarily in practice)
 
 ## Sustainability
 
-ACTS is sustained by a strong community and multiple funding sources.  It benefits from institutional support (for example, [CERN's EP R&D programme][FUNDING_CERN_EP_RD], the NSF-funded [IRIS-HEP project][FUNDING_IRIS_HEP] in the US, the EU-funded [AIDAInnova project][FUNDING_AIDA_INNOVA], and [CERN's Next Generation Triggers][FUNDING_CERN_NEXTGEN_TRIGGERS] initiative).  Having contributors from many different experiments means ACTS isn't dependent on any single group or grant.  The project has [clear governance and training practices][ACTS_GOVERNANCE] to retain knowledge, which keeps ACTS resilient and ready to meet future needs.
+ACTS is sustained by a strong community and multiple funding sources.
+It benefits from institutional support (for example, [CERN's EP R&D programme][FUNDING_CERN_EP_RD], the NSF-funded [IRIS-HEP project][FUNDING_IRIS_HEP] in the US, the EU-funded [AIDAInnova project][FUNDING_AIDA_INNOVA], and [CERN's Next Generation Triggers][FUNDING_CERN_NEXTGEN_TRIGGERS] initiative).
+Having contributors from many different experiments means ACTS isn't dependent on any single group or grant.
+The project has [clear governance and training practices][ACTS_GOVERNANCE] to retain knowledge, which keeps ACTS resilient and ready to meet future needs.
 
 (Correct as of July 2025)
 
@@ -131,7 +151,8 @@ ACTS is sustained by a strong community and multiple funding sources.  It benefi
 - License: Mozilla Public License v2.0 (MPL-2.0)
 - IRIS-HEP Project: <https://iris-hep.org/>
 - Ai, X., Allaire, C., Calace, N.  et al.  A Common Tracking Software
-  Project.  Comput Softw Big Sci 6, 8 (2022).
+  Project.
+  Comput Softw Big Sci 6, 8 (2022).
   <https://doi.org/10.1007/s41781-021-00078-8>
 - Varni, C.,The ATLAS collaboration.  Integration of the ACTS track
   reconstruction toolkit in the ATLAS software for HL-LHC operations (2025) <https://cds.cern.ch/record/2921878>

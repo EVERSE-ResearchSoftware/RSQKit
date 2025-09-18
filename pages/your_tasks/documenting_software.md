@@ -52,7 +52,8 @@ Documenting source code and software (as a product as well as a project) is esse
 ### Documenting source code
 
 Source code documentation helps developers (and to some extent system administrators) understand the logic, structure, and functionality of the code.
-It ensures that the codebase remains readable, maintainable, and scalable. This may include the following documentation types.
+It ensures that the codebase remains readable, maintainable, and scalable.
+This may include the following documentation types.
 
 #### Code comments
 
@@ -108,7 +109,8 @@ It may include some of the following documentation types.
 For example, [a quickstart guide for TPOT (Tree-Based Pipeline Optimization) tool](http://epistasislab.github.io/tpot/) includes an animated GIFs with examples and minimal code snippets.
 - User manuals – detailed step-by-step instructions on how to use the software.
 - CLI (Command Line Interface) documentation - if the software provides a CLI, usage instructions including relevant commands, 
-parameters and arguments to run the software. Tools like [Click](https://click.palletsprojects.com/) for Python can assist you in creating your software's CLI.
+parameters and arguments to run the software.
+Tools like [Click](https://click.palletsprojects.com/) for Python can assist you in creating your software's CLI.
 A great example of a CLI is the one included with the [Magic-BLAST](https://ncbi.github.io/magicblast/) bioinformatics tool.
 - Tutorials & How-To Guides – walk-throughs for common tasks.
 - Troubleshooting & FAQs – solutions to common issues.

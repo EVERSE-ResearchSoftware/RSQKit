@@ -21,7 +21,8 @@ CI (Continuous Integration) and CD (Continuous Delivery/Continuous Deployment) a
 
 #### Continuous Integration (CI)
 
-Continuous Integration refers to the practice of frequently integrating code changes into a shared repository, ideally multiple times a day. Every code change/integration is verified by an automated build which:
+Continuous Integration refers to the practice of frequently integrating code changes into a shared repository, ideally multiple times a day.
+Every code change/integration is verified by an automated build which:
 
 - Helps detect code errors and integration issues quickly. 
 - Automates the testing and building process to increase developer productivity.

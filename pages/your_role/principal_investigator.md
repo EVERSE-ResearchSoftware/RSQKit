@@ -7,14 +7,16 @@ page_id: principal_investigator
 
 ## Introduction
 
-As a Principal Investigator (PI), you may have recently secured (or are in the process of applying for) project funding that includes software development. Increasingly, funders are requiring a Software Management Plan (SMP), encouraging PIs to proactively consider key aspects of software development and long-term sustainability from the very start of the project.
+As a Principal Investigator (PI), you may have recently secured (or are in the process of applying for) project funding that includes software development.
+Increasingly, funders are requiring a Software Management Plan (SMP), encouraging PIs to proactively consider key aspects of software development and long-term sustainability from the very start of the project.
 
 ## Software development & quality responsibilities, challenges & tasks
 
 As a Principal Investigator (PI), your responsibilities in relation to software development and quality may include:
 
 - Developing a Software Management Strategy - create a clear plan for how software will be developed, maintained, and 
-shared throughout the project. This includes defining sustainability goals, allocating resources, and budgeting appropriately—often formalised in a Software Management Plan required by many funders.
+shared throughout the project.
+This includes defining sustainability goals, allocating resources, and budgeting appropriately—often formalised in a Software Management Plan required by many funders.
 - Incorporating the FAIR research software principles in the software development life-cycle — ensuring that your software 
 is Findable, Accessible, Interoperable, and Reusable to support transparency, collaboration, and long-term impact.
 European Commission (Horizon Europe) and many national funding bodies strongly encourage adherence to the FAIR principles for both data and software.

@@ -18,11 +18,13 @@ The [Photon and Neutron Open Science Cluster (PaNOSC)](https://www.panosc.eu/) i
 
 ### Software Catalogue
 
-Access the [PaN software catalogue](https://software.pan-data.eu/) linked to the analysis and simulation software used in PaN facilities. Find documentation, links and complete examples of data sets and practical information about the scientific instruments used to collect them.
+Access the [PaN software catalogue](https://software.pan-data.eu/) linked to the analysis and simulation software used in PaN facilities.
+Find documentation, links and complete examples of data sets and practical information about the scientific instruments used to collect them.
 
 ### Training Catalogue
 
-The [training catalogue](https://pan-training.eu/) provides a one-stop shop for trainers and trainees to discover online information and content, including training materials, events and interactive tutorials. The catalogue provides opportunities to promote training events and news, and to contribute to a growing catalogue of materials; for trainers, the portal offers an environment to allow the sharing of materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events, resources and to perform specific, guided analysis tasks via customised training workflows to provide FAIR research.
+The [training catalogue](https://pan-training.eu/) provides a one-stop shop for trainers and trainees to discover online information and content, including training materials, events and interactive tutorials.
+The catalogue provides opportunities to promote training events and news, and to contribute to a growing catalogue of materials; for trainers, the portal offers an environment to allow the sharing of materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events, resources and to perform specific, guided analysis tasks via customised training workflows to provide FAIR research.
 
 ### Data Services
 

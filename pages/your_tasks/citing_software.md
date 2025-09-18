@@ -35,21 +35,32 @@ Finally, acknowledging software use is part of good research (ethical and profes
 
 ### Solution
 
-To provide citation information for your software, typically you add a citation file to the root of your software repository or software package. A citation file can be a plain text (CITATION.txt) or a Markdown file (CITATION.md), but there are certain benefits to using use a special file format called the Citation File Format (CFF) in your citation file CITATION.cff, which provides a standard way to include richer metadata about your code, making it easy for both humans and machines to use this information.
+To provide citation information for your software, typically you add a citation file to the root of your software repository or software package.
+A citation file can be a plain text (CITATION.txt) or a Markdown file (CITATION.md), but there are certain benefits to using use a special file format called the Citation File Format (CFF) in your citation file CITATION.cff, which provides a standard way to include richer metadata about your code, making it easy for both humans and machines to use this information.
 
 We will cover Citation File Format in more detail below.
 
 ## What is the Citation File Format?
 
-The [Citation File Format](https://citation-file-format.github.io/) lets you provide citation information for software by creating a `CITATION.cff` file in your source code repository. A `CITATION.cff` file is a plaintext file that uses a special and structured [metadata format](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) that allows you to list a number of predefined properties for your software that is easy to read by both humans and machines.
+The [Citation File Format](https://citation-file-format.github.io/) lets you provide citation information for software by creating a `CITATION.cff` file in your source code repository.
+A `CITATION.cff` file is a plaintext file that uses a special and structured [metadata format](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) that allows you to list a number of predefined properties for your software that is easy to read by both humans and machines.
 
 ### Why do you need a CITATION.cff file?
 
-Correctly citing a paper is easy. All the necessary information (the metadata) can be found on the title page of the paper or the website of the publisher. You can often download this information in various ready-to-use formats.
+Correctly citing a paper is easy.
+All the necessary information (the metadata) can be found on the title page of the paper or the website of the publisher.
+You can often download this information in various ready-to-use formats.
 
-Software has no title page, however. The relevant information to cite software is often less obvious and harder to find. What is the official name of the software? What is the appropriate set of people that should be cited as authors? What version of the software should be cited? Is there a paper about the software that should be cited instead? If you want people to cite your research software, you will need to help them do it properly.
+Software has no title page, however.
+The relevant information to cite software is often less obvious and harder to find.
+What is the official name of the software?
+What is the appropriate set of people that should be cited as authors?
+What version of the software should be cited?
+Is there a paper about the software that should be cited instead?
+If you want people to cite your research software, you will need to help them do it properly.
 
-By adding a `CITATION.cff` file in your source code repository, you can provide all relevant citation information in a concise and structured way. Not only does this give your users all the right information to cite your software correctly, but is also enables other tools and services, such as [GitHub](https://github.blog/news-insights/company-news/enhanced-support-citations-github/), [Zenodo](https://support.zenodo.org/help/en-gb/24-github-integration/96-how-does-a-citation-cff-file-affect-metadata-of-my-github-release) and [Zotero](https://www.zotero.org/), to re-use the citation metadata you provide.
+By adding a `CITATION.cff` file in your source code repository, you can provide all relevant citation information in a concise and structured way.
+Not only does this give your users all the right information to cite your software correctly, but is also enables other tools and services, such as [GitHub](https://github.blog/news-insights/company-news/enhanced-support-citations-github/), [Zenodo](https://support.zenodo.org/help/en-gb/24-github-integration/96-how-does-a-citation-cff-file-affect-metadata-of-my-github-release) and [Zotero](https://www.zotero.org/), to re-use the citation metadata you provide.
 
 ### Solutions
 

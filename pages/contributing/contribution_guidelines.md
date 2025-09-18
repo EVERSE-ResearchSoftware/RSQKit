@@ -12,7 +12,8 @@ The RSQKit **Editorial Board Members** work together with Internal Contributors 
 
 ## Contributor Agreement
 
-By contributing, you agree that we may redistribute your work under [our license][licence]. In exchange, we will address your issues and/or assess your change proposal as promptly as we can.
+By contributing, you agree that we may redistribute your work under [our license][licence].
+In exchange, we will address your issues and/or assess your change proposal as promptly as we can.
 
 ## Markdown Content
 
@@ -29,17 +30,21 @@ We accept contributions in different ways.
 ### Via GitHub
 
 The easiest way to get started is to contribute via the [RSQKit repository in GitHub][rsqkit-repository].
-For this - you will require a [GitHub][github] account. If you do not have it - you can [create one][github-join].
+For this - you will require a [GitHub][github] account.
+If you do not have it - you can [create one][github-join].
 For this method of contribution - you do not need to know how to use Git.
 
-You can report problems (e.g., a spelling mistake, some awkward wording, or a factual error) or suggest improvements by [creating an issue][issues]. This allows us to assign the item to someone and to respond to it in a threaded discussion.
+You can report problems (e.g., a spelling mistake, some awkward wording, or a factual error) or suggest improvements by [creating an issue][issues].
+This allows us to assign the item to someone and to respond to it in a threaded discussion.
 
 If you are comfortable with GitHub, and would like to add or change material, you can submit a pull request (PR) directly from GitHub.
 Instructions for doing this are [included below](#creating-a-pull-request).
 
 ### Using Git from Command Line
 
-Working in GitHub interface is convenient, but does not allow for spelling checking and lots of spelling mistakes can creep in this way if you are writing a lot of content. Hence, it is better to create your own fork of the RSQKit repository and then clone it locally on your machine. This way, you can edit files in a text editor with spelling checking and other capabilities (instead in GitHub's online editor) and also test your work extensively before [creating a PR](#creating-a-pull-request).
+Working in GitHub interface is convenient, but does not allow for spelling checking and lots of spelling mistakes can creep in this way if you are writing a lot of content.
+Hence, it is better to create your own fork of the RSQKit repository and then clone it locally on your machine.
+This way, you can edit files in a text editor with spelling checking and other capabilities (instead in GitHub's online editor) and also test your work extensively before [creating a PR](#creating-a-pull-request).
 
 Working with Git from command line is technically more challenging, as you will need to understand and install Git on your machine, but it much more flexible and less error prone.
 

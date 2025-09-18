@@ -64,7 +64,8 @@ Organising code or research project directories in a consistent manner is essent
 
 ### Example project structures
 
-Below is an example of a directory structure for a generic research project. This is not the only way to organise your project folder (there is no official or standard way and you may not have all the same subfolders in your project), but it is a good practice to follow that will be understandable by many others.
+Below is an example of a directory structure for a generic research project.
+This is not the only way to organise your project folder (there is no official or standard way and you may not have all the same subfolders in your project), but it is a good practice to follow that will be understandable by many others.
 
 ```
 project_name/

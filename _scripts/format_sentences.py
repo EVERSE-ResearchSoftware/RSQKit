@@ -1,17 +1,36 @@
 #!/usr/bin/env python3
 import re
 import argparse
+import sys
+
+# Common abbreviations to protect (add more if needed)
+ABBREVIATIONS = [
+    "e.g.", "i.e.", "etc.", "vs.", "Mr.", "Mrs.", "Ms.", "Dr.", "Prof.",
+    "Sr.", "Jr.", "St.", "Inc.", "Ltd.", "et al.", "al.", "cf.", "Fig.", "fig.",
+    "Jan.", "Feb.", "Mar.", "Apr.", "May.", "Jun.", "Jul.", "Aug.", "Sep.", "Sept.",
+    "Oct.", "Nov.", "Dec."
+]
+_PLACEHOLDER = "<<DOT>>"
+
+def _protect_abbreviations(s: str) -> str:
+    """Replace dots inside known abbreviations with a placeholder."""
+    protected = s
+    for abbr in ABBREVIATIONS:
+        protected = re.sub(re.escape(abbr), abbr.replace(".", _PLACEHOLDER), protected)
+    return protected
+
+def _restore_placeholders(s: str) -> str:
+    return s.replace(_PLACEHOLDER, ".")
 
 def format_sentences(text: str) -> str:
     """
-    Format text so each sentence appears on its own line, while preserving:
-    - Front matter headers (YAML/front matter at the top of files),
-    - Code blocks surrounded by triple backticks ``` ... ``` ,
-    - Paragraph breaks (empty lines),
-    - Leading tab characters at the start of lines,
-    - List items starting with '*' or '-' optionally preceded by spaces or tabs,
-    - Markdown reference-style links (lines starting with [name]:, optionally indented),
-    - Markdown headers (lines starting with '#' optionally indented).
+    Format text so that each sentence goes on its own line while preserving:
+      - YAML front matter (--- ... --- at top),
+      - Code blocks surrounded by triple backticks ``` ... ``` ,
+      - Lists (*, -, or numbered lists),
+      - Reference-style links ([name]: ...),
+      - Markdown headers (# ...),
+      - Indentation and blank lines.
 
     Functionality:
     - Joins lines that are part of the same sentence outside preserved regions.
@@ -19,112 +38,118 @@ def format_sentences(text: str) -> str:
     - Lines inside code blocks, front matter, list items, headers, or reference-style links are left untouched.
     - Leading tabs/spaces for indentation are preserved.
     """
+    list_item_re   = re.compile(r"^[ \t]*(?:[\*\-]|\d+\.)\s+")
+    ref_link_re    = re.compile(r"^[ \t]*\[[^\]]+\]:")
+    header_re      = re.compile(r"^[ \t]*#+\s")
+    code_fence_re  = re.compile(r"^[ \t]*```")
+    sentence_pattern = re.compile(r'.*?[.!?]["\']?(?=\s|$)', flags=re.S)
+
     lines = text.splitlines()
-    output_lines = []
-    buffer = []
-    buffer_indent = ""
+    out_lines = []
+
     i = 0
     n = len(lines)
 
-    # Check for top matter at the very beginning
+    # Preserve YAML front matter
     if n > 0 and lines[0].strip() == "---":
-        output_lines.append(lines[0])
+        out_lines.append(lines[0])
         i = 1
         while i < n:
-            output_lines.append(lines[i])
+            out_lines.append(lines[i])
             if lines[i].strip() == "---":
                 i += 1
                 break
             i += 1
 
     in_code_block = False
+    buffer = ""
+    buffer_indent = ""
+
+    def _flush_buffer_as_sentences():
+        nonlocal buffer, buffer_indent, out_lines
+        if not buffer:
+            return
+        protected = _protect_abbreviations(buffer)
+        matches = list(sentence_pattern.finditer(protected))
+        if matches:
+            last_end = 0
+            for m in matches:
+                raw_sent = protected[m.start():m.end()]
+                sent = _restore_placeholders(raw_sent).strip()
+                if sent:
+                    out_lines.append(buffer_indent + sent)
+                last_end = m.end()
+            remainder_prot = protected[last_end:].strip()
+            remainder = _restore_placeholders(remainder_prot).strip()
+            if remainder:
+                out_lines.append(buffer_indent + remainder)
+        else:
+            out_lines.append(buffer_indent + _restore_placeholders(buffer).strip())
+        buffer = ""
+        buffer_indent = ""
 
     while i < n:
-        line = lines[i]
-        leading_whitespace = re.match(r"^[ \t]*", line).group(0)
-        stripped = line.strip()
+        raw_line = lines[i]
+        stripped = raw_line.strip()
 
-        # Toggle code block flag
-        if stripped.startswith("```"):
+        if code_fence_re.match(raw_line):
             if buffer:
-                output_lines.append(buffer_indent + " ".join(buffer).strip())
-                buffer = []
-                buffer_indent = ""
-            output_lines.append(line)
+                _flush_buffer_as_sentences()
+            out_lines.append(raw_line)
             in_code_block = not in_code_block
             i += 1
             continue
 
-        # Inside code block: preserve as-is
         if in_code_block:
-            output_lines.append(line)
+            out_lines.append(raw_line)
             i += 1
             continue
 
-        # Preserve empty lines
-        if not stripped:
+        if stripped == "":
             if buffer:
-                output_lines.append(buffer_indent + " ".join(buffer).strip())
-                buffer = []
-                buffer_indent = ""
-            output_lines.append("")
+                _flush_buffer_as_sentences()
+            out_lines.append("")
             i += 1
             continue
 
-        # Preserve list items starting with * or -
-        if re.match(r"^[ \t]*[\*\-]\s+", line):
+        if list_item_re.match(raw_line) or ref_link_re.match(raw_line) or header_re.match(raw_line):
             if buffer:
-                output_lines.append(buffer_indent + " ".join(buffer).strip())
-                buffer = []
-                buffer_indent = ""
-            output_lines.append(line)
+                _flush_buffer_as_sentences()
+            out_lines.append(raw_line)
             i += 1
             continue
 
-        # Preserve Markdown reference-style links [name]: (with optional indentation)
-        if re.match(r"^[ \t]*\[[^\]]+\]:", line):
-            if buffer:
-                output_lines.append(buffer_indent + " ".join(buffer).strip())
-                buffer = []
+        leading_ws = re.match(r"^[ \t]*", raw_line).group(0)
+        if buffer == "":
+            buffer_indent = leading_ws
+            buffer = stripped
+        else:
+            buffer += " " + stripped
+
+        protected = _protect_abbreviations(buffer)
+        matches = list(sentence_pattern.finditer(protected))
+        if matches:
+            last_end = 0
+            for m in matches:
+                raw_sent = protected[m.start():m.end()]
+                sent = _restore_placeholders(raw_sent).strip()
+                if sent:
+                    out_lines.append(buffer_indent + sent)
+                last_end = m.end()
+            remainder_prot = protected[last_end:].strip()
+            buffer = _restore_placeholders(remainder_prot)
+            if not buffer:
                 buffer_indent = ""
-            output_lines.append(line)
-            i += 1
-            continue
-
-        # Preserve Markdown headers (lines starting with #)
-        if re.match(r"^[ \t]*#+\s", line):
-            if buffer:
-                output_lines.append(buffer_indent + " ".join(buffer).strip())
-                buffer = []
-                buffer_indent = ""
-            output_lines.append(line)
-            i += 1
-            continue
-
-        # If buffer is empty, store leading whitespace
-        if not buffer:
-            buffer_indent = leading_whitespace
-
-        # Accumulate lines for sentence joining
-        buffer.append(stripped)
-
-        # Flush when line ends with sentence terminator
-        if re.search(r"[.!?]['\"]?$", stripped):
-            output_lines.append(buffer_indent + " ".join(buffer).strip())
-            buffer = []
-            buffer_indent = ""
-
         i += 1
 
-    # Flush any remaining buffer
     if buffer:
-        output_lines.append(buffer_indent + " ".join(buffer).strip())
+        _flush_buffer_as_sentences()
 
-    return "\n".join(output_lines)
+    return "\n".join(out_lines)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Format text so each sentence is on a single line.")
+    parser = argparse.ArgumentParser(description="Format text so each sentence is on its own line.")
     parser.add_argument("input_file", help="Input text file")
     parser.add_argument("-o", "--output_file", help="Output file (default: stdout)")
     args = parser.parse_args()

@@ -18,7 +18,8 @@ training:
 
 ### Description
 
-{% tool "github-actions" %} is a powerful [automation tool](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions) ([continuous integration (CI)](https://docs.github.com/en/actions/about-github-actions/about-continuous-integration-with-github-actions) and [continuous delivery (CD)](https://docs.github.com/en/actions/about-github-actions/about-continuous-deployment-with-github-actions) platform) that allows you to define workflows (called `actions`) for your repository that help automate tasks such as building, testing and deploying code. GitHub Actions enable you to streamline development processes and improve efficiency.
+{% tool "github-actions" %} is a powerful [automation tool](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions) ([continuous integration (CI)](https://docs.github.com/en/actions/about-github-actions/about-continuous-integration-with-github-actions) and [continuous delivery (CD)](https://docs.github.com/en/actions/about-github-actions/about-continuous-deployment-with-github-actions) platform) that allows you to define workflows (called `actions`) for your repository that help automate tasks such as building, testing and deploying code.
+GitHub Actions enable you to streamline development processes and improve efficiency.
 
 ### Considerations
 
@@ -34,7 +35,8 @@ training:
 
 * **Creating a basic GitHub Action workflow**  
 
-  Setting up a GitHub Action workflow allows you to automate tasks like testing and deployment. By defining a workflow file, you can specify triggers and actions to execute when specific events occur.
+  Setting up a GitHub Action workflow allows you to automate tasks like testing and deployment.
+  By defining a workflow file, you can specify triggers and actions to execute when specific events occur.
 
   To create a basic workflow follow these steps:
 
@@ -64,7 +66,8 @@ training:
 
 * **Using pre-built actions from the GitHub Marketplace** 
 
-  The [GitHub Marketplace](https://github.com/marketplace?type=actions) provides pre-built actions that can be easily integrated into workflows to automate tasks. To use an action from the Marketplace, follow these steps:
+  The [GitHub Marketplace](https://github.com/marketplace?type=actions) provides pre-built actions that can be easily integrated into workflows to automate tasks.
+  To use an action from the Marketplace, follow these steps:
 
   * Search for a relevant action in the Marketplace and open its page. 
 

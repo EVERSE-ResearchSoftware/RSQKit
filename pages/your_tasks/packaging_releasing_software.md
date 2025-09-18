@@ -18,7 +18,9 @@ training:
 
 ### Description
 
-Publishing a software package to a package repository allows other developers to easily install and use it in their projects. Different programming languages have their own package repositories, such as npm for JavaScript, PyPI for Python, and Maven Central for Java. Additionally, there are general-purpose registries like GitHub Packages and GitLab Package Registry, which allow storing and distributing packages across multiple ecosystems.
+Publishing a software package to a package repository allows other developers to easily install and use it in their projects.
+Different programming languages have their own package repositories, such as npm for JavaScript, PyPI for Python, and Maven Central for Java.
+Additionally, there are general-purpose registries like GitHub Packages and GitLab Package Registry, which allow storing and distributing packages across multiple ecosystems.
 
 This document specifically covers publishing Python packages to **{% tool "pypi" %} (Python Package Index)** and **{% tool "gitlab" %} Package Registry**, explaining the differences between these two so developers can decide where to publish their package.
 

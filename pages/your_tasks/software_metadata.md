@@ -51,7 +51,8 @@ General software metadata standards, for example:
 - [Schema.org](https://schema.org/) – promotes schemas for structured data on the Internet including software applications and digital assets, e.g. 
 [BioSchemas Computational Tool profile](https://bioschemas.org/profiles/ComputationalTool/1.1-DRAFT) enables you to describe how to run software, including its input and output parameters.
 
-Software development, build, package and dependency metadata helps developers track software versions, dependencies, and compatibility, making development, running and maintenance easier. For example:
+Software development, build, package and dependency metadata helps developers track software versions, dependencies, and compatibility, making development, running and maintenance easier.
+For example:
 
 - PyPI metadata (Python) - `setup.py` and `pyproject.toml` define package metadata for Python packages and projects.
 - `pom.xml` (Maven – Java) - defines project dependencies, build configurations, and plugins in Java projects.

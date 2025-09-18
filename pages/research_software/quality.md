@@ -19,7 +19,8 @@ do not break previous behavior or introduce unexpected bugs and that tests are r
 In short, **quality software** enables researchers to trust, share, and build upon computational work — an essential part of making science transparent and verifiable.
 However, reproducible computational research often requires that researchers implement new practices and learn new tools to be able to produce **quality software**.
 
-RSQKit is designed to offer [guidance](your_tasks) and introduce [tools](all_tools_and_resources) that have proven to be valuable across different [research communities](research_clusters_and_infrastructures) when developing software that supports scientific work in a reproducible and reliable way. A key aspect of the project is the formal definition of [software quality dimensions](rs_quality) and the identification of various [indicators](rs_quality) that help assess and improve these aspects.
+RSQKit is designed to offer [guidance](your_tasks) and introduce [tools](all_tools_and_resources) that have proven to be valuable across different [research communities](research_clusters_and_infrastructures) when developing software that supports scientific work in a reproducible and reliable way.
+A key aspect of the project is the formal definition of [software quality dimensions](rs_quality) and the identification of various [indicators](rs_quality) that help assess and improve these aspects.
 
 ### FAIR Research Software
 
@@ -37,10 +38,15 @@ Read in more detail what [the FAIR principles for research software](/fair_rs) e
 
 ## Formal Quality Dimensions & Indicators
 
-The project is working on formally defining a number of research software quality [dimensions](https://w3id.org/everse/i/dimensions/) and their associated [indicators](https://w3id.org/everse/i/indicators) (which are to be used to assess the quality of software), based on existing work in the literature [^1] and [ISO standards for software and data quality](https://iso25000.com/index.php/en/).
+The project is working on formally defining a number of research software quality [dimensions](https://w3id.org/everse/i/dimensions/) and their associated [indicators](https://w3id.org/everse/i/indicators) (which are to be used to assess the quality of software), based on existing work in the [literature][^1] and [ISO standards for software and data quality](https://iso25000.com/index.php/en/).
 
 ## References
 
-[^1] David, M., Colom, M., Garijo, D., Castro, L. J., Louvet, V., Ronchieri, E., Torquati, M., del Caño, L., Cerlane, L., Van den Bossche, M., Campos, I., & Di Cosmo, R. (2024). Ensure Software Quality (1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.10723608](https://doi.org/10.5281/zenodo.10723608)
+[^1] David, M., Colom, M., Garijo, D., Castro, L.
+J., Louvet, V., Ronchieri, E., Torquati, M., del Caño, L., Cerlane, L., Van den Bossche, M., Campos, I., & Di Cosmo, R.
+(2024).
+Ensure Software Quality (1.0.0).
+Zenodo.
+[https://doi.org/10.5281/zenodo.10723608](https://doi.org/10.5281/zenodo.10723608)
 
 [fair-rs]: https://www.nature.com/articles/s41597-022-01710-x

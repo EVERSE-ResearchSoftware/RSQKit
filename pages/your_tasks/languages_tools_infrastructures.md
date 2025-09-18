@@ -96,8 +96,7 @@ A few special purpose languages that are also good to consider are:
 ### Getting off to a flying start
 
 You chose a language, framework or technology.
-Whether you are already an experienced programmer or you start out completely fresh, it will be helpful to start out reading up on some basic guides to get up to date on the latest features and developments and also to get to know the jargon, to know the keywords to find more material.
-After getting acquainted with the basics, you may want to get started coding as fast as possible.
+Whether you are already an experienced programmer or you start out completely fresh, it will be helpful to start out reading up on some basic guides to get up to date on the latest features and developments and also to get to know the jargon, to know the keywords to find more material. After getting acquainted with the basics, you may want to get started coding as fast as possible.
 
 #### Solution: use templates Both in case of starting fresh with a new language or a new framework or other type of software, it is a good idea to look out for good templates.
 They offer community curated best practices ready for use, saving time for the RSE or researcher.
@@ -116,7 +115,7 @@ Some interesting templates to consider for research software:
 - [BestieTemplate.jl](https://github.com/JuliaBesties/BestieTemplate.jl): Julia package template for research software
 - For R, the [usethis](https://usethis.r-lib.org) package provides a good basis for developing R packages.
 
-Of course, the RSQkit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md)!
+Of course, the RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md)!
 
 ## Training materials Below you can find introductory materials to the most commonly used programming languages used in Research Software:
 - Python: [Research Software Engineering with Python](https://alan-turing-institute.github.io/rse-course/html/index.html), [programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html), [leveling up your Python](https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html), [Python introduction for libraries](https://librarycarpentry.org/lc-python-intro/), [Python traps and pitfalls](https://gitlab.in2p3.fr/informatique-des-deux-infinis/pheniics/python-traps)

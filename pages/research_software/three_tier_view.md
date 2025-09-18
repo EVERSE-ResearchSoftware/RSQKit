@@ -12,7 +12,8 @@ This model distinguishes three tiers of research software based on the intent be
 
 ![Three-tier model of research software](../../images/3-tier-model.svg) <!-- <img src="/images/3-tier-model.svg" width="1200" alt-text="Three-tier model of research software" /> -->
 
-*Diagram from ["EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence" presentation](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf) by F. Psomopoulos, February 2025, adapted by Aleksandra Nenadic under CC-BY 4.0 licence*
+*Diagram from ["EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence" presentation](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf) by F.
+Psomopoulos, February 2025, adapted by Aleksandra Nenadic under CC-BY 4.0 licence*
 
 The model acknowledges a relationship between the tiers: software at higher tiers often comes from the further development of software at a lower tier.
 Software at lower tiers often rely upon software at higher tiers (e.g. established infrastructure services and libraries).
@@ -81,10 +82,12 @@ Similar tiered approaches have been adopted by other organisations, such as the 
 The three-tier model aligns with a broader vision of recognising research software as a first-class output of research.
 It provides a framework for addressing specific challenges at each tier, from increasing transparency in analysis code to enabling broad impact through quality prototype tools and ensuring sustained support for research software infrastructure.
 
-For initiatives like [EVERSE](https://everse.software/), the three-tier model offers a valuable lens through which to view research software quality and excellence. It suggests that practices, tools, and assessment criteria may need to be adjusted based on the tier of software being considered, contributing to a more comprehensive framework for research software quality that can be applied across diverse research contexts.
+For initiatives like [EVERSE](https://everse.software/), the three-tier model offers a valuable lens through which to view research software quality and excellence.
+It suggests that practices, tools, and assessment criteria may need to be adjusted based on the tier of software being considered, contributing to a more comprehensive framework for research software quality that can be applied across diverse research contexts.
 The essence of the three-tier model is that software in different tiers has distinct purposes, stakeholders, and needs.
 This nuanced approach allows for more appropriate development, management, and assessment strategies tailored to each tier.
 
 The three-tier of research software aligns closely with practical Software Management Plan (SMP) frameworks.
 As outlined in the ["Practical Guide to Software Management Plans"](https://doi.org/10.5281/zenodo.7248877), SMPs can be tailored to low, medium, and high management levels, corresponding to analysis code, prototype tools, and research software infrastructure respectively.
-This alignment demonstrates how the three-tier model can guide the development of appropriate management practices for different types of research software, ensuring that software management efforts are appropriately scaled to the nature and intended use of the software. By mapping specific SMP requirements to each tier, researchers and institutions can enhance the quality and sustainability of research software across all levels of complexity and scope.
+This alignment demonstrates how the three-tier model can guide the development of appropriate management practices for different types of research software, ensuring that software management efforts are appropriately scaled to the nature and intended use of the software.
+By mapping specific SMP requirements to each tier, researchers and institutions can enhance the quality and sustainability of research software across all levels of complexity and scope.

@@ -25,7 +25,8 @@ A license is a legal document which sets down the terms under which the creator 
 
 ### Description
 
-A license defines what others are allowed to do with your software. This will take into account ownership rights (copyright).
+A license defines what others are allowed to do with your software.
+This will take into account ownership rights (copyright).
 
 There are large differences between how copyright (controlling the exploitation of a creative work) and subject rights (preserving the moral and personal interests of creators in how their works are to be used) are to be addressed.
 
@@ -35,7 +36,8 @@ If anyone else wants to use the work, then that person needs explicit permission
 
 A license describes the nature of this agreement, and does not need a signature: the user can never deny the existence of any conditions, because without the license they would not be able to use the work at all.
 
-Licensing is an important aspect of meeting the principle of reusability (the "R" in FAIR) in [FAIR for Research Software Principles][fair-rs-principles] (see principle "R1.1. Software is given a clear and accessible license").
+Licensing is an important aspect of meeting the principle of reusability (the "R" in FAIR) in [FAIR for Research Software Principles][fair-rs-principles] (see principle "R1.1.
+Software is given a clear and accessible license").
 
 As part of the publication process, you need to decide under which license your software is made available to others.
 If this information is not provided, people will not be able to legally reuse your software, even if this was not your intention.
@@ -79,7 +81,8 @@ For software, this may mean using an [unlicense](https://unlicense.org/) - a tem
 
 #### Permissive licenses
 
-Permissive licenses impose minimal restrictions on the use and redistribution of covered software. Broadly speaking, these licenses require anyone redistributing the code to only include the license text and a copyright statement crediting the authors.
+Permissive licenses impose minimal restrictions on the use and redistribution of covered software.
+Broadly speaking, these licenses require anyone redistributing the code to only include the license text and a copyright statement crediting the authors.
 This allows software released under these licenses to also be made into part of closed source programs.
 
 The most commonly used and popular choices of permissive licenses include the [MIT license](https://en.wikipedia.org/wiki/MIT_License), the [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses) (there are a few variants) and the [Apache 2.0 license](https://en.wikipedia.org/wiki/Apache_License#Apache_License_2.0).
@@ -98,8 +101,10 @@ The main advantage of copyleft licenses is that anyone who incorporates the code
 The most commonly known copyleft license is the [GNU Public License or GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) (has several versions and used by a lot of popular software including the Linux kernel).
 Compared with the permissive licenses, GPL is quite a long license agreement and many of its clauses can be quite difficult for non-lawyers to fully understand.
 
-[GNU Lesser General Public License ](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL) - a special version of GPL - allows developers and companies to use and integrate a software component released under the open source LGPL into their own (even proprietary) software without being required by the terms of a strong copyleft license to release the source code of their own components (which is the requirement of GPL). GPL requires that all its derivative works be licensed as a whole under the terms of the GPL.
-If an application links to a library licensed under GPL, it must also be licensed under GPL and the source code of the application must be provided. By contrast, libraries licensed under the LGPL may be linked to proprietary applications.
+[GNU Lesser General Public License ](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL) - a special version of GPL - allows developers and companies to use and integrate a software component released under the open source LGPL into their own (even proprietary) software without being required by the terms of a strong copyleft license to release the source code of their own components (which is the requirement of GPL).
+GPL requires that all its derivative works be licensed as a whole under the terms of the GPL.
+If an application links to a library licensed under GPL, it must also be licensed under GPL and the source code of the application must be provided.
+By contrast, libraries licensed under the LGPL may be linked to proprietary applications.
 If linked statically, the application code must also be released as LGPL, or everything that allows the user to re-link the application with a different version of the LGPL source code must be provided.
 As long as the application is linked dynamically to LGPL software, the proprietary code can be kept proprietary.
 
@@ -152,7 +157,8 @@ In addition to the licenses above, Creative Commons also offers [CC0][cc0] - a p
 ### Description
 
 Once you have decided on the license to choose, you may add it as part of your code base.
-This is usually done by adding a file LICENSE with the text of the license. LICENSE.txt or LICENSE.md are also commonly used variations for the license file name.
+This is usually done by adding a file LICENSE with the text of the license.
+LICENSE.txt or LICENSE.md are also commonly used variations for the license file name.
 
 
 ### Considerations
