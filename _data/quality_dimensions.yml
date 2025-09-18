@@ -118,3 +118,68 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   description: "Degree to which a system, product or component performs specified\
+        \ functions under specified conditions for a specified period of time. This\
+        \ characteristic is composed of the following sub-characteristics:\n    -\
+        \ Faultlessness - Degree to which a system, product or component performs\
+        \ specified functions without fault under normal operation.\n    - Availability\
+        \ - Degree to which a system, product or component is operational and accessible\
+        \ when required for use.\n    - Fault tolerance - Degree to which a system,\
+        \ product or component operates as intended despite the presence of hardware\
+        \ or software faults.\n    - Recoverability - Degree to which, in the event\
+        \ of an interruption or a failure, a product or system can recover the data\
+        \ directly affected and re-establish the desired state of the system."
+    identifier: https://w3id.org/everse/i/dimensions/reliability
+    name: Reliability
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   description: "This characteristic represents the degree to which a product under\
+        \ defined conditions to avoid a state in which human life, health, property,\
+        \ or the environment is endangered. This characteristic is composed of the\
+        \ following sub-characteristics:\n    - Operational constraint - Degree to\
+        \ which a product or system constrains its operation to within safe parameters\
+        \ or states when encountering operational hazard.\n    - Risk identification\
+        \ - Degree to which a product can identify a course of events or operations\
+        \ that can expose life, property or environment to unacceptable risk.\n  \
+        \  - Fail safe - Degree to which a product can automatically place itself\
+        \ in a safe operating mode, or to revert to a safe condition in the event\
+        \ of a failure.\n    - Hazard warning - Degree to which a product or system\
+        \ provides warnings of unacceptable risks to operations or internal controls\
+        \ so that they can react in sufficient time to sustain safe operations.\n\
+        \    - Safe integration - Degree to which a product can maintain safety during\
+        \ and after integration with one or more components."
+    identifier: https://w3id.org/everse/i/dimensions/safety
+    name: Safety
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   description: "Degree to which a product or system defends against attack patterns\
+        \ by malicious actors and protects information and data so that persons or\
+        \ other products or systems have the degree of data access appropriate to\
+        \ their types and levels of authorization. This characteristic is composed\
+        \ of the following sub-characteristics:\n    - Confidentiality - Degree to\
+        \ which a product or system ensures that data are accessible only to those\
+        \ authorized to have access.\n    - Integrity - Degree to which a system,\
+        \ product or component ensures that the state of its system and data are protected\
+        \ from unauthorized modification or deletion either by malicious action or\
+        \ computer error.\n    - Non-repudiation - Degree to which actions or events\
+        \ can be proven to have taken place so that the events or actions cannot be\
+        \ repudiated later.\n    - Accountability - Degree to which the actions of\
+        \ an entity can be traced uniquely to the entity.\n    - Authenticity - Degree\
+        \ to which the identity of a subject or resource can be proved to be the one\
+        \ claimed.\n    - Resistance - Degree to which the product or system sustains\
+        \ operations while under attack from a malicious actor."
+    identifier: https://w3id.org/everse/i/dimensions/security
+    name: Security
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   description: The capacity of the software to endure. In other words, sustainability
+        means that the software will continue to be available in the future, on new
+        platforms, meeting new needs.
+    identifier: https://w3id.org/everse/i/dimensions/sustainability
+    name: Sustainability
+    source:
+        name: Defining Software Sustainability
+        url: https://danielskatzblog.wordpress.com/2016/09/13/defining-software-sustainability/
