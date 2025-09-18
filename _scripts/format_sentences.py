@@ -10,12 +10,13 @@ def format_sentences(text: str) -> str:
     - Paragraph breaks (empty lines),
     - Leading tab characters at the start of lines,
     - List items starting with '*' or '-' optionally preceded by spaces or tabs,
-    - Markdown inline named links starting with [name]:.
+    - Markdown reference-style links (lines starting with [name]:, optionally indented),
+    - Markdown headers (lines starting with '#' optionally indented).
 
     Functionality:
     - Joins lines that are part of the same sentence outside preserved regions.
     - Splits text into sentences based on sentence-ending punctuation (., !, ?).
-    - Lines inside code blocks, top matter, list items, or Markdown links are left untouched.
+    - Lines inside code blocks, front matter, list items, headers, or reference-style links are left untouched.
     - Leading tabs/spaces for indentation are preserved.
     """
     lines = text.splitlines()
@@ -80,8 +81,18 @@ def format_sentences(text: str) -> str:
             i += 1
             continue
 
-        # Preserve Markdown inline named links [name]:
+        # Preserve Markdown reference-style links [name]: (with optional indentation)
         if re.match(r"^[ \t]*\[[^\]]+\]:", line):
+            if buffer:
+                output_lines.append(buffer_indent + " ".join(buffer).strip())
+                buffer = []
+                buffer_indent = ""
+            output_lines.append(line)
+            i += 1
+            continue
+
+        # Preserve Markdown headers (lines starting with #)
+        if re.match(r"^[ \t]*#+\s", line):
             if buffer:
                 output_lines.append(buffer_indent + " ".join(buffer).strip())
                 buffer = []
