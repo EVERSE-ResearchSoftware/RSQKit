@@ -6,21 +6,26 @@ page_id: code_review
 related_pages:
   your_tasks: []
 quality_indicators: [human_code_review_requirement]
+keywords: ["code review"]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22code+review%22
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## Code Review in Research Software Development
 
 ### Description
 
-What is code review? Code review is a software quality assurance practice and the process of systematically examining someone else’s code (or your own, after some time) to find bugs, improve quality, and ensure adherence to coding standards. It’s a collaborative practice aimed at improving software reliability, readability, and maintainability.
+What is code review?
+Code review is a software quality assurance practice and the process of systematically examining someone else’s code (or your own, after some time) to find bugs, improve quality, and ensure adherence to coding standards.
+It’s a collaborative practice aimed at improving software reliability, readability, and maintainability.
 
 #### Why it matters in research?
 
-Rigorous inspections can remove 60-90% of errors from the code even before the first tests are run (Fagan, 1976). Furthermore, the cost to remedy a defect in the early (design) stage is 10 to 100 times less compared to fixing the same defect in the development and maintenance stages, respectively. Since the cost of bug fixes grows in orders of magnitude throughout the software lifecycle, it is far more efficient to find and fix defects as close as possible to the point where they were introduced.
+Rigorous inspections can remove 60-90% of errors from the code even before the first tests are run (Fagan, 1976).
+Furthermore, the cost to remedy a defect in the early (design) stage is 10 to 100 times less compared to fixing the same defect in the development and maintenance stages, respectively.
+Since the cost of bug fixes grows in orders of magnitude throughout the software lifecycle, it is far more efficient to find and fix defects as close as possible to the point where they were introduced.
 
 In research settings, where software often evolves rapidly and is reused over long periods, code review helps:
 
@@ -44,7 +49,7 @@ When conducting a code review, you should focus on checking the following:
 
 ### Consideration - what not to look for in a review?
 
-While code reviews are essential for quality, it is just as important to avoid nitpicking or overstepping. 
+While code reviews are essential for quality, it is just as important to avoid nitpicking or overstepping.
 Here are things that should not be the focus of a code review:
 
 - Personal style preferences - avoid debating minor style choices (e.g., single vs. double quotes) if the team has not agreed on a standard. Let linters and formatters handle those.

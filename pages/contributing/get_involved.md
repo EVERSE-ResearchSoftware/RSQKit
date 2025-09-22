@@ -4,18 +4,24 @@ summary: Different ways to get involved with the project and pointers to various
 ---
 
 The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot.
-During this phase, we mainly organise contributions through the EVERSE project's internal documents and communication channels, 
-although it is possible for people external to the project to contribute.
+During this phase, we mainly organise contributions through the EVERSE project's internal documents and communication channels, although it is possible for people external to the project to contribute.
 Contributions via [email][email] and [GitHub][rsqkit-github] are also possible.
 
-### Roles 
+### Roles
 
-There are various roles available, based on the level and type of the involvement with the project.
+There are various roles available, based on the level and type of the involvement with the project:
 
-The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board](./editorial_board), 
-who are also acting as the official **Maintainers** of the [RSQKit repository][rsqkit-github].
-The **RSQKit Editorial Board Members** (aka **Editors**) work together with **Internal Contributors** from the EVERSE project and 
-**External Contributors** (jointly known as **Contributors**) to identify where and how their contribution fits best in RSQKit.
+- **Editors**
+- **Authors**
+- **Contributors**
+- **Maintainers**
+
+The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board](./editorial_board) (aka **Editors**), who are also acting as the official **Maintainers** of the [RSQKit repository][rsqkit-github], looking after the content as well as the back-end infrastructure.
+
+**Editors** work together with **Authors**, who contribute specifically by writing or discussing in detail RSQKit page content which is then curated, edited and approved by the **Editors**. 
+
+There are is also wider group of more general **Contributors**, either internal from the EVERSE project or external from various related research software communities who contribute via comments, discussions, suggestions and fixes at various events, workshops or enagements with other EVERSE project WPs. 
+**Contributors** do not author content per se (while they may provide small fixes or tweaks to the existing content) and **Editors** work with them to identify where and how their contribution fits best in RSQKit.
 
 #### Join the Editorial Board
 
@@ -38,8 +44,7 @@ The content on the RSQKit is a community effort, with many contributors.
 Initially, in the early stage of the RSQKit development, decisions will be driven by consensus among the Editors.
 
 The content is periodically updated, which means that if you create content in an RSQKit page, others can change the content without notifying you.
-However, the RSQKit Editors will ensure that content is only modified for good reasons and the legitimate concerns and different
-point of views of all Contributors are accommodated, and that the content reflects the most popular consensus on any given topic.
+However, the RSQKit Editors will ensure that content is only modified for good reasons and the legitimate concerns and different point of views of all Contributors are accommodated, and that the content reflects the most popular consensus on any given topic.
 
 If you find any content unsatisfactory, please feel free to [create an issue](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues/new) about it.
 

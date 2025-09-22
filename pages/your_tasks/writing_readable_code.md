@@ -6,10 +6,11 @@ page_id: writing_readable_code
 related_pages:
   your_tasks: [documenting_software]
 quality_indicators: [has_no_linting_issues]
+keywords: ["readable code", "readability", "reusable code", "reusable software"]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22readable+code%22+%22robust+code%22+%22reusable+code%22
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 
@@ -17,21 +18,18 @@ training:
 
 ### Description
 
-**Code readability** contributes to *reusability* of code (the "R" in the [FAIR research software principles][fair-rs-principles][^1]) - 
-once people obtain a copy of your software, they need to be able to understand it to reuse and extend it. 
+**Code readability** contributes to *reusability* of code (the "R" in the [FAIR research software principles][fair-rs-principles][^1]) - once people obtain a copy of your software, they need to be able to understand it to reuse and extend it.
 
-In order to develop readable code, we should ask ourselves: 
+In order to develop readable code, we should ask ourselves:
 
 * if I re-read this piece of code in fifteen days or in one year, will I be able to understand what I have done and why? 
 * if a new person joins the project and looks at my code, will they be able to understand what I have written?
 
-In addition, software requirements will likely change over time because software is dynamic in nature. 
-When these requirements change, a developer (who is not necessarily the author of the original code) needs to make 
-changes to the software to satisfy these new and emerging needs. 
-They do this by reading the original code to understand it and identify what needs to change. 
+In addition, software requirements will likely change over time because software is dynamic in nature.
+When these requirements change, a developer (who is not necessarily the author of the original code) needs to make changes to the software to satisfy these new and emerging needs.
+They do this by reading the original code to understand it and identify what needs to change.
 
-Readable code facilitates the process of understanding the code, the evolution of the codebase, 
-and saves future developers' time and effort.
+Readable code facilitates the process of understanding the code, the evolution of the codebase, and saves future developers' time and effort.
 
 ### Considerations
 
@@ -45,37 +43,26 @@ and saves future developers' time and effort.
 
 What practices are there to help us improve code readability?
 
-One of the most important things we can do to make sure your source code is readable by others (and ourselves a few months down 
-the line) is to make sure that the code is:
+One of the most important things we can do to make sure your source code is readable by others (and ourselves a few months down the line) is to make sure that the code is:
 * **well commented** (and well documented - [see more on documenting your software](./documenting_software.md)), 
 * **cleanly and consistently formatted** and uses sensible,
 * **modular** - split into smaller, reusable pieces of code (modules), and
 * uses **descriptive names** for variable, function, class and module names.
 
-In order to help us format our code, we generally follow guidelines known as a **style guide**. 
-A style guide is a set of conventions that the community of developers or colleagues on a project agree upon, 
-to ensure that everyone contributing to the same project is producing code which looks similar in style. 
-While a group of developers may choose to write and agree upon a new style guide unique to each project, 
-in practice many programming languages have a single style guide which is adopted almost universally by the communities 
-around the world. 
+In order to help us format our code, we generally follow guidelines known as a **style guide**.
+A style guide is a set of conventions that the community of developers or colleagues on a project agree upon, to ensure that everyone contributing to the same project is producing code which looks similar in style.
+While a group of developers may choose to write and agree upon a new style guide unique to each project, in practice many programming languages have a single style guide which is adopted almost universally by the communities around the world.
 
 For example, see {% tool "pep8" %} (style guide for Python) or {% tool "r-language-style-guide" %}.
-{% tool "google-programming-style-guide" %} offers recommendations for style guides for various programming languages, 
-including Python, Java, R, C++, and Shell.
+{% tool "google-programming-style-guide" %} offers recommendations for style guides for various programming languages, including Python, Java, R, C++, and Shell.
 
-Another good practice to help readability is to [create code that is modular][modular-code] - structured and split into 
-small, reusable functions that are easier to read, understand and test.
-Functions with a common goal are further grouped into reusable libraries and packages. 
-Use the [common code patterns][design-patterns] for creating software - [design patterns][design-patterns-book] 
-describe a relatively small, well-defined aspect (i.e. functionality) of code intended to leverage an 
-existing concept/solution rather than re-invent it. 
+Another good practice to help readability is to [create code that is modular][modular-code] - structured and split into small, reusable functions that are easier to read, understand and test.
+Functions with a common goal are further grouped into reusable libraries and packages.
+Use the [common code patterns][design-patterns] for creating software - [design patterns][design-patterns-book] describe a relatively small, well-defined aspect (i.e. functionality) of code intended to leverage an existing concept/solution rather than re-invent it.
 This can decrease the time to develop software and increase the quality of the resulting code and its readability.
 
-Expanding on the code structure theme, following conventions on consistent and informative directory structure for your 
-projects will ensure people will immediately know where to find things within your project, especially helpful for 
-long-term research projects or when working in teams. 
-The directory structure for organising your research software project (or research projects in general) involves 
-creating a clear and logical layout for files and data, ensuring easy navigation, collaboration and reproducibility.
+Expanding on the code structure theme, following conventions on consistent and informative directory structure for your projects will ensure people will immediately know where to find things within your project, especially helpful for long-term research projects or when working in teams.
+The directory structure for organising your research software project (or research projects in general) involves creating a clear and logical layout for files and data, ensuring easy navigation, collaboration and reproducibility.
 
 Here is the summary of some of the practices to follow to make your code more readable:
 
@@ -86,11 +73,11 @@ Here is the summary of some of the practices to follow to make your code more re
 - Use indentation to show the hierarchy of your code and mark the beginning and end of control structures. 
 - If possible use type annotations for untyped languages like Python or JavaScript. Type annotations (also known as type hints) are a way to specify the *expected* data types of variables, function parameters, and return values in progamming languyages that are not strongly typed and are of great help to understand code. Use a type checker to validate your code, for example, {% tool "mypy" %} for Python. This will reduce the risk of faulty type annotations (it will also improve the quality of your code by detecting faulty assumptions)
 - Write informative comments and documentation strings for functions to provide more detail about what the code and is doing, 
-transmit understanding and context. In addition to documenting your source code - [see more on documenting your software project](./documenting_software.md) which will help people understand its functionality better and help with reuse.
+transmit understanding and context.
+In addition to documenting your source code - [see more on documenting your software project](./documenting_software.md) which will help people understand its functionality better and help with reuse.
 - Follow a code style guide for your programming language that is agreed upon by the community and other programmers will find easy to read. 
-Style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code. 
-Consistency with a style guide is important but consistency within a project or a module is more important - if you 
-are joining an existing project, look at the existing code and make sure to adopt whatever practices are already in place.
+Style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code.
+Consistency with a style guide is important but consistency within a project or a module is more important - if you are joining an existing project, look at the existing code and make sure to adopt whatever practices are already in place.
 - Follow [guidelines and conventions on consistent and informative directory structure](./organising_software_projects.md) for your software or research projects - this way, people will immediately know where to find things within your project.
 - Use automated code formatters (such as {% tool "black" %}) to enforce code styles and formatting rules.
 - Automate style checks to help ensure your code is consistent. Many modern Integrated Development Environments (IDEs), such as {% tool "vscode" %}, {% tool "pycharm" %}, {% tool "rstudio" %} or {% tool "eclipse" %}, 
@@ -100,7 +87,7 @@ have built-in support for checking conformance to style conventions and they wil
 - Use existing and well-tested libraries or packages for common functionality and tasks (e.g. reading and writing data in standard formats) to avoid duplication and reimplementing
 functionality in custom, more error-prone code.
 
-      
+
 ## References
 [^1]: Barker, M., Chue Hong, N.P., Katz, D.S. et al. Introducing the FAIR Principles for research software. Sci Data 9, 622 (2022). [https://doi.org/10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
 

@@ -7,6 +7,7 @@ page_id: # unique page id, e.g. lowercase title words separated by underscore(s)
 related_pages:
   your_tasks: [] # A comma-separated page_ids of the task pages that are related to the current page
 quality_indicators: [] # a comma separated list of indicators related to this page, according to the ids in https://w3id.org/everse/i/indicators/
+keywords: [] # a comma separated list of keywords related to this page (surround multi word terms in quotes), e.g. keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
 training: # A list of training resources relevant for this task or problem (e.g from TeSS registry or elsewhere)
   - name:
     registry:
@@ -32,19 +33,18 @@ Detail things to consider about this problem in order to be able to find the rig
 
 ### Solutions <!-- do not delete this heading and write your text below it -->
 
-Briefly describe the use of specific tools or resources to solve the problem - e.g. using a bullet point list. 
+Briefly describe the use of specific tools or resources to solve the problem - e.g. using a bullet point list.
 
 - Solution 1
   - Sub-point
 - Solution 2
 
-Make sure to add the tools and resources mentioned in the text in the [_data/tool_and_resource_list.yml](_data/tool_and_resource_list.yml) file and then
-tag the page with such entries.
+Make sure to add the tools and resources mentioned in the text in the [_data/tool_and_resource_list.yml](_data/tool_and_resource_list.yml) file and then tag the page with such entries.
 
 Repeat the same structure for other problems you wish to mention on the page, as needed, e.g. as follows.
 
 ## Concrete problem 2, formulated as a question <!-- example: how to use GitHub to share code ? -->
- 
+
 ### Description <!-- do not delete this heading and write your text below it -->
 
 ### Considerations <!-- do not delete this heading and write your text below it -->
@@ -52,10 +52,6 @@ Repeat the same structure for other problems you wish to mention on the page, as
 ### Solutions <!-- do not delete this heading and write your text below it -->
 
 
-## References <!-- do not delete this heading and write your text below it -->
-If this page has been inspired or derived from other resources, make sure to reference them here.
+## References <!-- do not delete this heading and write your text below it --> If this page has been inspired or derived from other resources, make sure to reference them here.
 
-There is no need to reference other relevant pages from RSQKit here - rather list them in the page's *frontmatter* 
-using parameter `related_pages` and they will be listed in the page automatically under "Related pages" section.
-
- 
+There is no need to reference other relevant pages from RSQKit here - rather list them in the page's *frontmatter* using parameter `related_pages` and they will be listed in the page automatically under "Related pages" section.

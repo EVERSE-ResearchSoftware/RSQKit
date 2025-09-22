@@ -6,17 +6,18 @@ page_id: using_version_control
 related_pages:
   your_tasks: []
 quality_indicators: [version_control_use]
+keywords: ["version control", "source control", "git", "github", "gitlab"]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22version+control%22+%22git%22+%22github%22+%22gitlab%22
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## How do I choose the right version control system for my research project?
 
 ### Description
 
-Selecting an appropriate version control system (VCS) is crucial for managing research software effectively. 
+Selecting an appropriate version control system (VCS) is crucial for managing research software effectively.
 This decision impacts collaboration, data management, and long-term project sustainability.
 
 ### Considerations
@@ -46,8 +47,7 @@ This decision impacts collaboration, data management, and long-term project sust
 
 ## How do I implement version control in my research workflow?
 
-### Description
-Implementing version control in a research context involves more than just choosing a system. It requires establishing workflows, educating team members, and integrating with existing research practices.
+### Description Implementing version control in a research context involves more than just choosing a system. It requires establishing workflows, educating team members, and integrating with existing research practices.
 
 ### Considerations
 * Current data management practices

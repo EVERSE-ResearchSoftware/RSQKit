@@ -6,21 +6,25 @@ page_id: improving_environmental_sustainability
 related_pages:
   your_tasks: []
 quality_indicators: []
+keywords: ["sustainability", "environment"]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22sustainability%22+%22environment%22
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
-## How to monitor and reduce the environmental impact of my software? 
- 
-### Description 
+## How to monitor and reduce the environmental impact of my software?
 
-There is an urgent need to reduce the environmental impact of our activities, and research is no exception.  Many research institutes and funders have committed to achieving Net Zero (essentially a 90% reduction in carbon equivalent emissions) by 2050 or earlier.  There are a range of tools and practices which researchers can adopt to reduce the environmental impact of their software.
+### Description
 
-### Considerations 
+There is an urgent need to reduce the environmental impact of our activities, and research is no exception.
+Many research institutes and funders have committed to achieving Net Zero (essentially a 90% reduction in carbon equivalent emissions) by 2050 or earlier.
+There are a range of tools and practices which researchers can adopt to reduce the environmental impact of their software.
 
-While vital for society, research is a significant source of carbon emissions.  Thankfully there are a number of steps which can be taken to reduce emissions. 
+### Considerations
+
+While vital for society, research is a significant source of carbon emissions.
+Thankfully there are a number of steps which can be taken to reduce emissions.
 
 The Green Software Foundation suggests three aspects to consider:
 
@@ -28,7 +32,10 @@ The Green Software Foundation suggests three aspects to consider:
 2. Hardware efficiency - use the least amount of embodied carbon as possible.
 3. Carbon awareness - do more when the energy supply is clean and less when it is dirty.
 
-There are a number of tools and programming techniques which can be used to first monitor then improve the energy efficiency of software (detailed below).  Hardware efficacy considers emissions from the creation and disposal of the hardware used (embodied emissions), this can be maximised by extending the lifetime of hardware and (for cloud and HPC) increasing the utilisation of the device.  Finally, the amount of clean electricity in an energy supply depends on location and time of the use. Software that is carbon aware tries to shift usage away from energy that is low in clean energy, through shifting in either time or space. 
+There are a number of tools and programming techniques which can be used to first monitor then improve the energy efficiency of software (detailed below).
+Hardware efficacy considers emissions from the creation and disposal of the hardware used (embodied emissions), this can be maximised by extending the lifetime of hardware and (for cloud and HPC) increasing the utilisation of the device.
+Finally, the amount of clean electricity in an energy supply depends on location and time of the use.
+Software that is carbon aware tries to shift usage away from energy that is low in clean energy, through shifting in either time or space.
 
 Similarly, the [GREENER software principles](https://www.nature.com/articles/s43588-023-00461-y) sets out a series of principles to help guide the  transition to more environmentally responsible computing including:
 
@@ -37,7 +44,7 @@ Similarly, the [GREENER software principles](https://www.nature.com/articles/s43
 * Energy and Embodied Impacts: Reducing the carbon intensity of computing requires addressing both operational energy consumption and the environmental cost of manufacturing hardware. Geographic location, hardware procurement, and data storage play significant roles.
 * New Collaborations: International cooperation is vital to ensure that researchers, particularly in low- and middle-income countries, have access to low-carbon computing resources.
 * Education and Research: Raising awareness about sustainable computational practices through training and integrating sustainability into educational curricula is essential. Research must also focus on creating energy-efficient algorithms and technologies.
-  
+
 
 ### Solutions
 
@@ -55,4 +62,3 @@ Similarly, the [GREENER software principles](https://www.nature.com/articles/s43
     * {% tool "carbontracker" %} is a tool that monitors and predicts energy and carbon footprint for training machine learning models.
     * {% tool "greenspectorstudio" %} measures energy usage and resource efficiency in web and mobile applications.
     * {% tool "ecograder" %} evaluates website sustainability based on design and operational efficiency.
- 

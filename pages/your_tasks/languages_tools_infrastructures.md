@@ -6,10 +6,11 @@ page_id: languages_tools_infrastructures
 related_pages:
    your_tasks: []
 quality_indicators: []
+keywords: ["programming language", "software infrastructure", "software tool"]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22r%22+%22python%22+%22c%22+%22programming+language%22+%22julia%22+%22java%22
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## How to choose programming languages, tools and infrastructures?
@@ -19,8 +20,7 @@ We briefly describe some main categories before going into the considerations of
 
 Code written in _programming languages_ are the main form of expression of the [research software engineer](research_software_engineer).
 Some [examples of programming languages often used in research](#good-default-languages) are listed below.
-Like the language of your research articles, the programming language determines not only the contents (i.e. the functionality) 
-of your research software, but also its [readability](writing_readable_code) - depending on how complex the language is and how many people know it - and its expressiveness - which may or may not allow you to formulate your "thoughts" efficiently and effectively and hence may determine the pace of your project.
+Like the language of your research articles, the programming language determines not only the contents (i.e. the functionality) of your research software, but also its [readability](writing_readable_code) - depending on how complex the language is and how many people know it - and its expressiveness - which may or may not allow you to formulate your "thoughts" efficiently and effectively and hence may determine the pace of your project.
 
 By _tools_ and _frameworks_ we mean abstraction layers written in certain languages (or with interfaces in certain languages).
 These layers typically consist of classes, functions and other structures that are often used for some particular problem or in some particular domain.
@@ -62,24 +62,20 @@ Most of the following considerations apply to software languages, frameworks and
 Apart from the above considerations, there are a couple of different situations that offer their own specific constraints.
 We highlight three typical cases, related loosely to the [three tiers of research software](three_tier_view) and [research software life cycle](life_cycle):
 
-1. _Rapid prototyping: quickly testing an approach to a problem for the first time._
-   In this situation, you'll typically want to go with a language, framework or technology you already know or a new one you want to try out.
+1. _Rapid prototyping: quickly testing an approach to a problem for the first time._ In this situation, you'll typically want to go with a language, framework or technology you already know or a new one you want to try out.
    The key part here is that your preference weighs more heavily than in "higher" tiers or later life cycle stages.
    If you don't know any programming language yet, getting familiar with {% tool "python" %} is a good choice for rapid prototyping.
-2. _Starting a new development project._
-   When you get past the rough sketching stage, the considerations in the rest of this document apply.
+2. _Starting a new development project._ When you get past the rough sketching stage, the considerations in the rest of this document apply.
    This means there are a lot of factors to weigh, not just on the feature-side but also taking social and personal aspects into account.
    [Always remember Betamax](https://en.wikipedia.org/wiki/Videotape_format_war): it is hard to predict that as project will succeed based solely on technical merit.
-3. _Joining an existing project._
-   In this case, you are typically not free to choose.
+3. _Joining an existing project._ In this case, you are typically not free to choose.
    Projects sometimes switch languages, but not often.
    Also switching frameworks is typically a rather big choice that is not taken lightly.
    However, the reason for you joining the project may be exactly to apply some new technology, possibly using some existing framework.
    In such cases the above social considerations would apply, but you will still be constrained in your choices by the existing languages or frameworks in the project.
 
 
-### Good default languages
-What follows is a somewhat opinionated list of good starting choices of programming languages for research software engineering projects.
+### Good default languages What follows is a somewhat opinionated list of good starting choices of programming languages for research software engineering projects.
 Your mileage may vary, but you will not be far off choosing the following languages for the listed purposes and domains.
 
 When starting fresh, there are a few languages with a proven track record and active communities in research:
@@ -100,11 +96,9 @@ A few special purpose languages that are also good to consider are:
 ### Getting off to a flying start
 
 You chose a language, framework or technology.
-Whether you are already an experienced programmer or you start out completely fresh, it will be helpful to start out reading up on some basic guides to get up to date on the latest features and developments and also to get to know the jargon, to know the keywords to find more material.
-After getting acquainted with the basics, you may want to get started coding as fast as possible.
+Whether you are already an experienced programmer or you start out completely fresh, it will be helpful to start out reading up on some basic guides to get up to date on the latest features and developments and also to get to know the jargon, to know the keywords to find more material. After getting acquainted with the basics, you may want to get started coding as fast as possible.
 
-#### Solution: use templates
-Both in case of starting fresh with a new language or a new framework or other type of software, it is a good idea to look out for good templates.
+#### Solution: use templates Both in case of starting fresh with a new language or a new framework or other type of software, it is a good idea to look out for good templates.
 They offer community curated best practices ready for use, saving time for the RSE or researcher.
 There are specific templates built specifically for research software, but also more general ones or templates that help you set up for some specific framework (e.g. some web or UI framework) or technology (like database software or some particular HPC system).
 
@@ -121,10 +115,9 @@ Some interesting templates to consider for research software:
 - [BestieTemplate.jl](https://github.com/JuliaBesties/BestieTemplate.jl): Julia package template for research software
 - For R, the [usethis](https://usethis.r-lib.org) package provides a good basis for developing R packages.
 
-Of course, the RSQkit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md)!
+Of course, the RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md)!
 
-## Training materials
-Below you can find introductory materials to the most commonly used programming languages used in Research Software:
+## Training materials Below you can find introductory materials to the most commonly used programming languages used in Research Software:
 - Python: [Research Software Engineering with Python](https://alan-turing-institute.github.io/rse-course/html/index.html), [programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html), [leveling up your Python](https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html), [Python introduction for libraries](https://librarycarpentry.org/lc-python-intro/), [Python traps and pitfalls](https://gitlab.in2p3.fr/informatique-des-deux-infinis/pheniics/python-traps)
 - R: [Introduction to R](https://carpentries-lab.github.io/metagenomics-R/), [Software Carpentry: R for Reproducible Scientific Analysis](), [Software Carpentry: Programming with R](https://swcarpentry.github.io/r-novice-inflammation/), [Getting Used to R, RStudio, and R Markdown](https://rbasics.netlify.app/), [Modern Dive into R and the Tidyverse](https://moderndive.netlify.app/)
 - Julia: [Introduction to Julia](https://enccs.github.io/julia-intro/), [Julia for high-performance scientific computing](https://enccs.github.io/julia-for-hpc/), [Julia for high-performance data analytics](https://enccs.github.io/julia-for-hpda/), [Programming with Julia](https://carpentries-incubator.github.io/julia-novice/)
@@ -135,5 +128,4 @@ Below you can find introductory materials to the most commonly used programming 
 
 
 
-## Credit
-The first version of this page was inspired by content in and discussions on the [Netherlands eScience Center Guide to software development](https://guide.esciencecenter.nl).
+## Credit The first version of this page was inspired by content in and discussions on the [Netherlands eScience Center Guide to software development](https://guide.esciencecenter.nl).

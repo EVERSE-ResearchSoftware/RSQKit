@@ -6,20 +6,19 @@ page_id: releasing_software
 related_pages:
   your_tasks: [software_identifiers]
 quality_indicators: [software_has_releases]
+keywords: ["release software", "releasing software", "releasing code", "release code"]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22release%22+%22github%22+%22gitlab%22
-
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## How to Create Code Releases
- 
+
 ### Description
 
-A software release is the process of making a new or updated version of software available to users. 
-It's an important phase in software development cycle that involves several other stages, including: planning, 
-development, testing, deployment, and maintenance.
+A software release is the process of making a new or updated version of software available to users.
+It's an important phase in software development cycle that involves several other stages, including: planning, development, testing, deployment, and maintenance.
 
 ### Considerations
 
@@ -31,8 +30,7 @@ Naming schemes can vary - for example {% tool "semantic-versioning" %} (e.g. "1.
 
 ### Solutions
 
-Software Project Management Platforms like {% tool "github" %} and {% tool "gitlab" %} offer features to help 
-with releasing software automatically.
+Software Project Management Platforms like {% tool "github" %} and {% tool "gitlab" %} offer features to help with releasing software automatically.
 
 For example, to perform a software release on GitHub:
 
