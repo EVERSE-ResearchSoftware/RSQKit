@@ -7,8 +7,8 @@ set -euo pipefail
 # - Replaces the original file with the reformatted version (via a temporary file).
 # - Leaves the file untouched if the Python script fails.
 
-# Make the script executable: $ chmod +x format_sentences.py
-# Run it: $ ./reformat_files.sh file1.txt file2.txt file3.md
+# Make the script executable: chmod +x format_sentences.py
+# Run it: ./reformat_files.sh file1.txt file2.txt file3.md
 # Each file will be replaced in place with the cleaned version.
 
 # Path to the Python script (adjust if needed)
