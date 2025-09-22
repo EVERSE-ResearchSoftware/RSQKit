@@ -103,7 +103,7 @@ Workflow metadata is not for running the workflow but for understanding, managin
 [Workflow RO-Crate](https://about.workflowhub.eu/Workflow-RO-Crate/) is the metadata standard used by [WorkflowHub registry][workflowhub] and [LifeMonitor service][lifemonitor] for publishing computational workflows, enabling researchers to share, discover, and reuse workflows with rich, structured descriptions that support reproducibility and the FAIR principles.
 
 [Workflow RO-Crate](https://about.workflowhub.eu/Workflow-RO-Crate/) is a lightweight, structured metadata format designed to package and describe computational workflows and their associated resources in a FAIR-compliant way, extending the more general [schemas.science ComputationalWorkflow Profile](https://schemas.science/profiles/ComputationalWorkflow/) (stemming from [Bioschemas](https://bioschemas.org/)). 
-It builds on the [RO-Crate](https://www.researchobject.org/ro-crate/\) metadata standard to encapsulate not only the workflow definition (e.g. CWL, Nextflow DSL, Snakefile) but also key contextual information such as inputs/outputs (via [schemas.science FormalParameter](https://schemas.science/profiles/FormalParameter/), software dependencies, authorship, and execution environment. By using Workflow RO-Crate, researchers can make their workflows more discoverable, portable, and reproducible—enabling others to understand, reuse, and re-run analyses with greater ease and confidence; this is made possible by RO-Crates becoming a standard exchange mechanism in workflow ecosystems. It simplifies workflow sharing, supports interoperability, and is especially useful for publishing workflows alongside datasets or in workflow registries.
+It builds on the [RO-Crate][ro-crate] metadata standard to encapsulate not only the workflow definition (e.g. CWL, Nextflow DSL, Snakefile) but also key contextual information such as inputs/outputs (via [schemas.science FormalParameter](https://schemas.science/profiles/FormalParameter/), software dependencies, authorship, and execution environment. By using Workflow RO-Crate, researchers can make their workflows more discoverable, portable, and reproducible—enabling others to understand, reuse, and re-run analyses with greater ease and confidence; this is made possible by RO-Crates becoming a standard exchange mechanism in workflow ecosystems. It simplifies workflow sharing, supports interoperability, and is especially useful for publishing workflows alongside datasets or in workflow registries.
 
 ## Integration with the FAIR principles
 
@@ -120,7 +120,7 @@ The[ Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW)](h
 [WCI-FW]: https://workflows.community/groups/fair/
 [fair-workflows]: https://doi.org/10.1038/s41597-025-04451-9
 [wf-ro-crate]: https://about.workflowhub.eu/Workflow-RO-Crate/
-[ro-crate]: https://www.researchobject.org/ro-crate/\
+[ro-crate]: https://www.researchobject.org/ro-crate/
 [bioschemas-wf-profile]: https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE
 [bioschemas-formal-parameter]: https://bioschemas.org/types/FormalParameter/1.0-RELEASE
 [reana]: https://reanahub.io/
