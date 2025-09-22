@@ -13,8 +13,9 @@ If you are handling large volumes of data and processing tasks where automation 
 They enable the integration of various research infrastructures without requiring changes to existing processes. 
 Additionally, these workflows can serve as modular components that can be expanded upon as needed.
 
-Computational workflows are robust, structured data processing pipelines that automate complex data and compute tasks, enabling reproducibility, scalability, and transparent documentation. 
+Computational workflows are structured data processing pipelines that automate complex data and compute tasks, enabling reproducibility, scalability, and transparent documentation. 
 By integrating the FAIR principles into the computational workflows, both data and workflows become even more valuable, reusable assets in scientific research.
+Computational workflows can mature to become more robust, moving from being a record for a specific analysis into a record of a canonical standardised workflow that is maintained on an ongoing basis.
 
 ## What are computational workflows?
 
