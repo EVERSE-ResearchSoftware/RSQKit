@@ -162,9 +162,12 @@ Tom François:
     orcid: 0000-0001-5226-3089
     affiliation: CNRS-LAPP
     role: contributor
+Johan Gustafsson:
+    affiliation: Australian Biocommons
+    orcid: 0000-0002-2977-5032
+    role: contributor
 Denis Barclay:
     git: Denis-Barclay
     affiliation: Software Sustainability Institute
     orcid: 0009-0008-5567-3786
     role: contributor
-
