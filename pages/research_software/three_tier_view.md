@@ -12,8 +12,7 @@ This model distinguishes three tiers of research software based on the intent be
 
 ![Three-tier model of research software](../../images/3-tier-model.svg) <!-- <img src="/images/3-tier-model.svg" width="1200" alt-text="Three-tier model of research software" /> -->
 
-*Diagram from ["EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence" presentation](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf) by F.
-Psomopoulos, February 2025, adapted by Aleksandra Nenadic under CC-BY 4.0 licence*
+*Diagram from ["EVERSE Paving the way towards a European Virtual Institute for Research Software Excellence" presentation](https://indico.cern.ch/event/1501988/contributions/6323204/attachments/3016679/5320601/EVERSE_Overview_Slides.pdf) by F. Psomopoulos, February 2025, adapted by Aleksandra Nenadic under CC-BY 4.0 licence.*
 
 The model acknowledges a relationship between the tiers: software at higher tiers often comes from the further development of software at a lower tier.
 Software at lower tiers often rely upon software at higher tiers (e.g. established infrastructure services and libraries).
