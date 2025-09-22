@@ -14,13 +14,15 @@ training:
     url: "https://everse-training.app.cern.ch"
 ---
 
-## How to publish your software package to a package repository? 
+## How to publish your software package to a package repository?
 
-### Description 
+### Description
 
-Publishing a software package to a package repository allows other developers to easily install and use it in their projects. Different programming languages have their own package repositories, such as npm for JavaScript, PyPI for Python, and Maven Central for Java. Additionally, there are general-purpose registries like GitHub Packages and GitLab Package Registry, which allow storing and distributing packages across multiple ecosystems.
+Publishing a software package to a package repository allows other developers to easily install and use it in their projects.
+Different programming languages have their own package repositories, such as npm for JavaScript, PyPI for Python, and Maven Central for Java.
+Additionally, there are general-purpose registries like GitHub Packages and GitLab Package Registry, which allow storing and distributing packages across multiple ecosystems.
 
-This document specifically covers publishing Python packages to **{% tool "pypi" %} (Python Package Index)** and **{% tool "gitlab" %} Package Registry**, explaining the differences between these two so developers can decide where to publish their package. 
+This document specifically covers publishing Python packages to **{% tool "pypi" %} (Python Package Index)** and **{% tool "gitlab" %} Package Registry**, explaining the differences between these two so developers can decide where to publish their package.
 
 #### Differences Between PyPI and GitHub Packages
 
@@ -34,7 +36,7 @@ This document specifically covers publishing Python packages to **{% tool "pypi"
   * Can be used for private package distribution within GitLab projects.
   * Supports CI/CD workflows within GitLab pipelines.
 
-### Considerations 
+### Considerations
 
 * Provide relevant information in package configuration files (e.g., package.json, pyproject.toml).
 
@@ -60,7 +62,7 @@ This document specifically covers publishing Python packages to **{% tool "pypi"
   * Create a PyPI account at pypi.org and verify your email.
 
   * Create the package directory:
-  
+
     ```bash
     mkdir my_python_package && cd my_python_package
     ```
@@ -81,13 +83,13 @@ This document specifically covers publishing Python packages to **{% tool "pypi"
     ```
 
   * Build the package:
-    
+
     ```bash
     python setup.py sdist
     ```
 
   * Create an API token at your [PyPI account settings](https://test.pypi.org/manage/account/).
-  
+
   * Create a configuration file (`.pypirc`) to store your API token securely (replace `YOUR_PYPI_API_TOKEN` with the token you generated in the previous step): 
 
     ```bash
@@ -102,7 +104,7 @@ This document specifically covers publishing Python packages to **{% tool "pypi"
     pip install twine
     twine upload --verbose --config-file .pypirc dist/*
     ```
-  
+
   * Your package is now available on PyPI and can be installed using `pip install my_python_package`. 
 
   * **Using the PyPI Test Server (TestPyPI)**: If you want to test your package upload process without publishing it to the official PyPI, you can use TestPyPI. First, create an account there and generate an API token. Store the token in a `.pypirc` file (replace `YOUR_PYPI_API_TOKEN` with the token you generated in the previous step):
@@ -152,7 +154,7 @@ This document specifically covers publishing Python packages to **{% tool "pypi"
     pip install twine
     twine upload --repository --verbose gitlab dist/*
     ```
-  
+
   *  Your package is now available in GitLab and can be installed with:
       ```bash
       pip install --index-url https://gitlab.com/api/v4/projects/YOUR_PROJECT_ID/packages/pypi/simple my_python_package
@@ -165,7 +167,7 @@ This document specifically covers publishing Python packages to **{% tool "pypi"
 - [Python 201 on Packaging](https://python-tutorial.dev/201/tutorial/packaging.html#packaging)
 - [Managing Academic Software development: Release management](https://southampton-rsg.github.io/swc-project-novice/04-features/index.html)
 
-## References 
+## References
 
 * [PyPI - The Python Package Index](https://pypi.org/)
 

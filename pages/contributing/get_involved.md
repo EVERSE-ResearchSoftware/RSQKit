@@ -4,11 +4,10 @@ summary: Different ways to get involved with the project and pointers to various
 ---
 
 The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot.
-During this phase, we mainly organise contributions through the EVERSE project's internal documents and communication channels, 
-although it is possible for people external to the project to contribute.
+During this phase, we mainly organise contributions through the EVERSE project's internal documents and communication channels, although it is possible for people external to the project to contribute.
 Contributions via [email][email] and [GitHub][rsqkit-github] are also possible.
 
-### Roles 
+### Roles
 
 There are various roles available, based on the level and type of the involvement with the project:
 
@@ -45,8 +44,7 @@ The content on the RSQKit is a community effort, with many contributors.
 Initially, in the early stage of the RSQKit development, decisions will be driven by consensus among the Editors.
 
 The content is periodically updated, which means that if you create content in an RSQKit page, others can change the content without notifying you.
-However, the RSQKit Editors will ensure that content is only modified for good reasons and the legitimate concerns and different
-point of views of all Contributors are accommodated, and that the content reflects the most popular consensus on any given topic.
+However, the RSQKit Editors will ensure that content is only modified for good reasons and the legitimate concerns and different point of views of all Contributors are accommodated, and that the content reflects the most popular consensus on any given topic.
 
 If you find any content unsatisfactory, please feel free to [create an issue](https://github.com/EVERSE-ResearchSoftware/RSQKit/issues/new) about it.
 
