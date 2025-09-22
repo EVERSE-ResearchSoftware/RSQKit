@@ -10,8 +10,8 @@ It contains:
 
 To make the Bash script executable, from the command line do: `chmod +x format_sentences.py`.
 
-To run the Bash script, do:
+To run the Bash script on the Markdown files in the `pages` folder of the project root, do:
 
-```bash
-./reformat_files.sh file1.txt file2.txt file3.md
+```shell
+./reformat_files.sh ../pages/*/*.md
 ```
