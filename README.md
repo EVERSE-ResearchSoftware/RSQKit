@@ -38,12 +38,13 @@ See also [CITATION.cff](CITATION.cff).
 Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this project or content.
 
 ## Outreach and presentations
+Newest first.
 
-- [RSQKit workshop by Giacomo Peru, Shoaib Sufi and Aleks Nenadic](https://docs.google.com/document/d/1F7q6JH9K8c2owz4ZJcv_f_smkLuLRNJTMojLA_S6h9o/edit?usp=sharing), deRSE25 conference, 26 February 2025
-- [RSQKit workshop by Shoaib Sufi, Aleks Nenadic and Patrick Bos](https://docs.google.com/presentation/d/1Mf8miMgVdFQAUphyyA3rsXcFB4uVvLLG/edit?usp=sharing&ouid=101079111394226380921&rtpof=true&sd=true), EVERSE GAM meeting, 20 March 2025 - [shared notes](https://docs.google.com/document/d/1QoOzk6AsP90NwW_bVrEZeMlf-5ixCw9atn0fYPPJXho/edit?usp=sharing)
-- [RSQKit presentation by Shoaib Sufi](https://certhgr.sharepoint.com/sites/INAB-CERTH-Bioinformatics/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FINAB%2DCERTH%2DBioinformatics%2FShared%20Documents%2FGeneral%2F04%2EProjects%2FEU%2DProjects%2FFunded%2DRunning%2FEVERSE%20%28HORIZON%2DINFRA%2D2023%2DEOSC%2D01%2D02%29%2FConsortium%2F8%2E%CE%9Futreach%2F2025%2D04%2D24%20RSQKit%40ELIXIR%20STEERS&viewid=c0edfb52%2D0a33%2D44c9%2Dab5f%2D7556df8929f5&p=true&ga=1) at the ELIXIR STEERS WP2 meeting, 24 April 2025 (slides internal to the EVERSE project)
-- [RSQKit workshop by Shoaib Sufi and Aleks Nenadic](https://certhgr.sharepoint.com/sites/INAB-CERTH-Bioinformatics/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FINAB%2DCERTH%2DBioinformatics%2FShared%20Documents%2FGeneral%2F04%2EProjects%2FEU%2DProjects%2FFunded%2DRunning%2FEVERSE%20%28HORIZON%2DINFRA%2D2023%2DEOSC%2D01%2D02%29%2FConsortium%2F8%2E%CE%9Futreach%2F2025%2D05%2D13%20%2D%20CW25%20RSQKit%20workshop&viewid=c0edfb52%2D0a33%2D44c9%2Dab5f%2D7556df8929f5&p=true&ga=1)  at Software Sustainability Institute's [Collaborations Workshop (CW25), 14 May 2025](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25) (slides internal to the EVERSE project)
-- [RSQKit presentation by Shoaib Sufi](https://certhgr.sharepoint.com/sites/INAB-CERTH-Bioinformatics/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FINAB%2DCERTH%2DBioinformatics%2FShared%20Documents%2FGeneral%2F04%2EProjects%2FEU%2DProjects%2FFunded%2DRunning%2FEVERSE%20%28HORIZON%2DINFRA%2D2023%2DEOSC%2D01%2D02%29%2FConsortium%2F8%2E%CE%9Futreach%2F2025%2D07%2D08%20%2D%20ReSA%20RIF%20Meeting&viewid=c0edfb52%2D0a33%2D44c9%2Dab5f%2D7556df8929f5&p=true&ga=1) at the ReSA RIF meeting, 9 July 2025 (slides internal to the EVERSE project)
+- [RSQKit presentation by Shoaib Sufi](https://zenodo.org/records/16539546) at the [ReSA Research Software Infrastructure Forum meeting](https://www.researchsoft.org/forums/rsi-forum/), 9 July 2025 [video available](https://zenodo.org/records/16539546/preview/EVERSE%20RSQKit.mp4?include_deleted=0)
+- [RSQKit workshop by Shoaib Sufi and Aleks Nenadic](https://zenodo.org/records/17154499) at Software Sustainability Institute's [Collaborations Workshop (CW25)](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25), 13th May 2025
+- [RSQKit presentation by Shoaib Sufi](https://zenodo.org/records/15274811) at the ELIXIR STEERS WP2 meeting, 24 April 2025
+- [RSQKit workshop by Shoaib Sufi, Aleks Nenadic and Patrick Bos](https://zenodo.org/records/17153986), EVERSE GAM meeting, 20 March 2025
+- [RSQKit workshop by Giacomo Peru, Shoaib Sufi and Aleks Nenadic](https://zenodo.org/records/17153753), deRSE25 conference, 26 February 2025
 
 ## Acknowledgements
 
