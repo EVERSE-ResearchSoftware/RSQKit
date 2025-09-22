@@ -10,12 +10,17 @@ Contributions via [email][email] and [GitHub][rsqkit-github] are also possible.
 
 ### Roles 
 
-There are various roles available, based on the level and type of the involvement with the project.
+There are various roles available, based on the level and type of the involvement with the project:
+
+- Editors
+- Authors
+- Contributors
+- Maintainers
 
 The content of RSQKit is currently being approved and curated by the [RSQKit Editorial Board](./editorial_board), 
 who are also acting as the official **Maintainers** of the [RSQKit repository][rsqkit-github].
-The **RSQKit Editorial Board Members** (aka **Editors**) work together with **Internal Contributors** from the EVERSE project and 
-**External Contributors** (jointly known as **Contributors**) to identify where and how their contribution fits best in RSQKit.
+
+The **RSQKit Editorial Board Members** (aka **Editors**) work together with **Authors** (who contribute specifically by writing or discussing in detail RSQKit page content) and various more general **Contributors** (internal from the EVERSE project or external from various related research software communities who contribute via comments, discussions and fixes but do not write content per se) to identify where and how their contribution fits best in RSQKit.
 
 #### Join the Editorial Board
 
