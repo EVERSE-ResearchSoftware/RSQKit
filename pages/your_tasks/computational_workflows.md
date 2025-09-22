@@ -84,8 +84,6 @@ Finally, users may also want to register their own workflows in a public registr
 
 There are several registries where researchers can find or share workflows. Some are general-purpose, while others focus on specific domains or communities using a specific WMS or workflow definition language:
 
-
-
 * [WorkflowHub](workflowhub.eu) – a platform supporting FAIR sharing of different workflows across disciplines, with strong uptake in life sciences
 * [Galaxy ToolShed / Galaxy workflow repository](https://galaxyproject.org/toolshed/) – for discovering and sharing Galaxy-compatible tools and workflows
 * [Dockstore](https://dockstore.org/) – a registry widely used in bioinformatics, supporting CWL, WDL, Nextflow, and Galaxy workflows
@@ -102,11 +100,10 @@ How can we document and share our computational workflows for reuse?
 Its purpose is slightly different to that of a workflow definition language, which defines the workflow logic and tells a WMS *how* to execute it (e.g., for automation, parallelisation, and scheduling). 
 Workflow metadata is not for running the workflow but for understanding, managing and discovering it.
 
+[Workflow RO-Crate](https://about.workflowhub.eu/Workflow-RO-Crate/) is the metadata standard used by [WorkflowHub registry][workflowhub] and [LifeMonitor service][lifemonitor] for publishing computational workflows, enabling researchers to share, discover, and reuse workflows with rich, structured descriptions that support reproducibility and the FAIR principles.
+
 [Workflow RO-Crate](https://about.workflowhub.eu/Workflow-RO-Crate/) is a lightweight, structured metadata format designed to package and describe computational workflows and their associated resources in a FAIR-compliant way, extending the more general [schemas.science ComputationalWorkflow Profile](https://schemas.science/profiles/ComputationalWorkflow/) (stemming from [Bioschemas](https://bioschemas.org/)). 
-It builds on the [RO-Crate](https://www.researchobject.org/ro-crate/\) metadata standard to encapsulate not only the workflow definition (e.g. CWL, Nextflow DSL, Snakefile) but also key contextual information such as inputs/outputs (via [schemas.science FormalParameter](https://schemas.science/profiles/FormalParameter/), software dependencies, authorship, and execution environment. By using Workflow RO-Crate, researchers can make their workflows more discoverable, portable, and reproducible—enabling others to understand, reuse, and re-run analyses with greater ease and confidence. It simplifies workflow sharing, supports interoperability, and is especially useful for publishing workflows alongside datasets or in workflow registries.
-
-Workflow RO-Crate is the metadata standard used by WorkflowHub registry and LifeMonitor service for publishing computational workflows, enabling researchers to share, discover, and reuse workflows with rich, structured descriptions that support reproducibility and the FAIR principles.
-
+It builds on the [RO-Crate](https://www.researchobject.org/ro-crate/\) metadata standard to encapsulate not only the workflow definition (e.g. CWL, Nextflow DSL, Snakefile) but also key contextual information such as inputs/outputs (via [schemas.science FormalParameter](https://schemas.science/profiles/FormalParameter/), software dependencies, authorship, and execution environment. By using Workflow RO-Crate, researchers can make their workflows more discoverable, portable, and reproducible—enabling others to understand, reuse, and re-run analyses with greater ease and confidence; this is made possible by RO-Crates becoming a standard exchange mechanism in workflow ecosystems. It simplifies workflow sharing, supports interoperability, and is especially useful for publishing workflows alongside datasets or in workflow registries.
 
 ## Integration with the FAIR principles
 
@@ -132,3 +129,5 @@ The[ Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW)](h
 [nf-core]: https://nf-co.re/
 [gesis-methods-hub]: https://www.gesis.org/en/services/processing-and-analyzing-data/analyzing-digital-behavioral-data/gesis-methods-hub
 [wms-terminology]: https://arxiv.org/abs/2506.07838
+[workflowhub]: https://workflowhub.eu
+[lifemonitor]: https://app.lifemonitor.eu/dashboard
