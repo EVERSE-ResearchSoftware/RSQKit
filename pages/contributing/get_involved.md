@@ -21,7 +21,8 @@ The content of RSQKit is currently being approved and curated by the [RSQKit Edi
 
 **Editors** work together with **Authors**, who contribute specifically by writing or discussing in detail RSQKit page content which is then curated, edited and approved by the **Editors**. 
 
-There are is also wider group of more general **Contributors**, either internal from the EVERSE project or external from various related research software communities who contribute via comments, discussions and fixes at various events and workshops or enagements with other EVERSE project WPs. Contributors do not author content per se (while they may provide small fixes or tweaks to the existing content) and **Editors** work with them to identify where and how their contribution fits best in RSQKit.
+There are is also wider group of more general **Contributors**, either internal from the EVERSE project or external from various related research software communities who contribute via comments, discussions, suggestions and fixes at various events, workshops or enagements with other EVERSE project WPs. 
+**Contributors** do not author content per se (while they may provide small fixes or tweaks to the existing content) and **Editors** work with them to identify where and how their contribution fits best in RSQKit.
 
 #### Join the Editorial Board
 
