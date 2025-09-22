@@ -9,8 +9,12 @@ related_pages:
 
 ## Motivation
 
+If you are handling large volumes of data and processing tasks where automation could boost efficiency, computational workflows are worth considering. 
+They enable the integration of various research infrastructures without requiring changes to existing processes. 
+Additionally, these workflows can serve as modular components that can be expanded upon as needed.
+
 Computational workflows are robust, structured data processing pipelines that automate complex data and compute tasks, enabling reproducibility, scalability, and transparent documentation. 
-By integrating the FAIR principles, both data and workflows become valuable, reusable assets in scientific research.
+By integrating the FAIR principles into the computational workflows, both data and workflows become even more valuable, reusable assets in scientific research.
 
 ## What are computational workflows?
 
