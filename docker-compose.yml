@@ -4,5 +4,6 @@ services:
     ports:
       - "4000:4000"
     volumes:
-      - .:/usr/src/app
+      - .:/usr/src/site:Z
+    working_dir: /usr/src/site
     command: bundle exec jekyll serve --host 0.0.0.0 --port 4000 --watch --force_polling
