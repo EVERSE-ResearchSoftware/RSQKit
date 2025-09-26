@@ -47,9 +47,12 @@ This decision impacts collaboration, data management, and long-term project sust
 
 ## How do I implement version control in my research workflow?
 
-### Description Implementing version control in a research context involves more than just choosing a system. It requires establishing workflows, educating team members, and integrating with existing research practices.
+### Description 
+
+Implementing version control in a research context involves more than just choosing a system. It requires establishing workflows, educating team members, and integrating with existing research practices.
 
 ### Considerations
+
 * Current data management practices
 * Reproducibility requirements of your research
 * Collaboration patterns within your team and with external partners
@@ -58,6 +61,7 @@ This decision impacts collaboration, data management, and long-term project sust
 * Long-term archiving of research outputs
 
 ### Solutions
+
 * Establish a clear workflow:
    * Define a branching strategy (e.g., Git Flow for larger projects)
    * Set guidelines for commit messages and code reviews

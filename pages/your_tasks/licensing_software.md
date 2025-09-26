@@ -163,7 +163,7 @@ LICENSE.txt or LICENSE.md are also commonly used variations for the license file
 
 ### Considerations
 
-* You may license your entire codebase under a single license (this is recommended in most cases and for software of small to moderate sizes), or use different ones for different parts of it (this can be interesting for large codebases requiring different licenses for different parts)
+You may license your entire codebase under a single license (this is recommended in most cases and for software of small to moderate sizes), or use different ones for different parts of it (this can be interesting for large codebases requiring different licenses for different parts)
 
 
 ### Solutions
