@@ -131,7 +131,6 @@ Below you can find introductory materials to the most commonly used programming 
 - Matlab: [Software Carpentry: Programming with MATLAB](https://swcarpentry.github.io/matlab-novice-inflammation/)
 - C++: [Modern Scientific C++](https://github.com/chavid/ModernScientificCpp)
 
+## Credit 
 
-
-
-## Credit The first version of this page was inspired by content in and discussions on the [Netherlands eScience Center Guide to software development](https://guide.esciencecenter.nl).
+The first version of this page was inspired by content in and discussions on the [Netherlands eScience Center Guide to software development](https://guide.esciencecenter.nl).
