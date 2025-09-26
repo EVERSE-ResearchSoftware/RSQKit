@@ -34,9 +34,7 @@ Organising code or research project directories in a consistent manner is essent
 
 ## What are some good practices in organising software projects?
 
-### Description Below are some good practices for setting up and maintaining a software (or a research) project's directory structure and storing code, data, results, tests, auxiliary information and metadata.
-
-### Solution
+Below are some good practices for setting up and maintaining a software (or a research) project's directory structure and storing code, data, results, tests, auxiliary information and metadata.
 
 - **Top-level directory of the project**
   - Put all files related to a project into a single directory. 
