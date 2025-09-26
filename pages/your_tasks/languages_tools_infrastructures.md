@@ -75,7 +75,9 @@ We highlight three typical cases, related loosely to the [three tiers of researc
    In such cases the above social considerations would apply, but you will still be constrained in your choices by the existing languages or frameworks in the project.
 
 
-### Good default languages What follows is a somewhat opinionated list of good starting choices of programming languages for research software engineering projects.
+### Good default languages 
+
+What follows is a somewhat opinionated list of good starting choices of programming languages for research software engineering projects.
 Your mileage may vary, but you will not be far off choosing the following languages for the listed purposes and domains.
 
 When starting fresh, there are a few languages with a proven track record and active communities in research:
@@ -98,7 +100,9 @@ A few special purpose languages that are also good to consider are:
 You chose a language, framework or technology.
 Whether you are already an experienced programmer or you start out completely fresh, it will be helpful to start out reading up on some basic guides to get up to date on the latest features and developments and also to get to know the jargon, to know the keywords to find more material. After getting acquainted with the basics, you may want to get started coding as fast as possible.
 
-#### Solution: use templates Both in case of starting fresh with a new language or a new framework or other type of software, it is a good idea to look out for good templates.
+#### Solution: use templates 
+
+Both in case of starting fresh with a new language or a new framework or other type of software, it is a good idea to look out for good templates.
 They offer community curated best practices ready for use, saving time for the RSE or researcher.
 There are specific templates built specifically for research software, but also more general ones or templates that help you set up for some specific framework (e.g. some web or UI framework) or technology (like database software or some particular HPC system).
 
@@ -117,7 +121,9 @@ Some interesting templates to consider for research software:
 
 Of course, the RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md)!
 
-## Training materials Below you can find introductory materials to the most commonly used programming languages used in Research Software:
+## Training materials 
+
+Below you can find introductory materials to the most commonly used programming languages used in Research Software:
 - Python: [Research Software Engineering with Python](https://alan-turing-institute.github.io/rse-course/html/index.html), [programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html), [leveling up your Python](https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html), [Python introduction for libraries](https://librarycarpentry.org/lc-python-intro/), [Python traps and pitfalls](https://gitlab.in2p3.fr/informatique-des-deux-infinis/pheniics/python-traps)
 - R: [Introduction to R](https://carpentries-lab.github.io/metagenomics-R/), [Software Carpentry: R for Reproducible Scientific Analysis](), [Software Carpentry: Programming with R](https://swcarpentry.github.io/r-novice-inflammation/), [Getting Used to R, RStudio, and R Markdown](https://rbasics.netlify.app/), [Modern Dive into R and the Tidyverse](https://moderndive.netlify.app/)
 - Julia: [Introduction to Julia](https://enccs.github.io/julia-intro/), [Julia for high-performance scientific computing](https://enccs.github.io/julia-for-hpc/), [Julia for high-performance data analytics](https://enccs.github.io/julia-for-hpda/), [Programming with Julia](https://carpentries-incubator.github.io/julia-novice/)
