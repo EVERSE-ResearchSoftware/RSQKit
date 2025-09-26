@@ -74,4 +74,4 @@ Tools that can help:
 
 Initiatives:
 
-[CODECHECK](https://codecheck.org.uk/) aims to tackle the challenge of supporting codecheckers in computational science with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
+- [CODECHECK](https://codecheck.org.uk/) aims to tackle the challenge of supporting codecheckers in computational science with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.

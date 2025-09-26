@@ -56,7 +56,13 @@ This is of particular importance for research software - see below for more deta
 
 Table below provides a summary to help you choose the right identifier combination.
 
-| Method                       | Best use case                        | Limitations | |------------------------------|--------------------------------------|--------------------------------------| | Semantic Versioning (SemVer) | Standard software releases           | Doesn't provide global uniqueness outside of the software’s ecosystem | | DOIs                         | Research software, academic citation | Requires registration and is not commonly used in commercial software | | Cryptographic hashes        | Ensuring software integrity          | Changing even one bit of data creates a completely different hash | | UUIDs | Distributed systems, databases       | Not human-readable, doesn’t convey versioning semantics | | Git commit hashes | Development snapshots| Not always meaningful outside the development context |
+| Method                       | Best use case                        | Limitations                                                           |
+|------------------------------|--------------------------------------|-----------------------------------------------------------------------|
+| Semantic Versioning (SemVer) | Standard software releases           | Doesn't provide global uniqueness outside of the software’s ecosystem |
+| DOIs                         | Research software, academic citation | Requires registration and is not commonly used in commercial software |
+| Cryptographic hashes         | Ensuring software integrity          | Changing even one bit of data creates a completely different hash     |
+| UUIDs                        | Distributed systems, databases       | Not human-readable, doesn’t convey versioning semantics               |
+| Git commit hashes            | Development snapshots| Not always meaningful outside the development context                 |
 
 Bear in mind that if you register your software in a repository or registy, a persistent identifier for it (or its metadata) is often created automatically.
 To find an appropriate registry for your research software, please have a look at the following [awesome list](https://github.com/NLeSC/awesome-research-software-registries).

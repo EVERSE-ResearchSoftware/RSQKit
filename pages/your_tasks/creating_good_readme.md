@@ -44,7 +44,11 @@ For research software, additional aspects should be considered and README should
 
 ## What key sections should a README include?
 
-### Description A README file is the first document that a researchers read when they are interested on using a software. For this reason, it should contain all the relevant information to install and to execute it. It includes references to additional information such as API documentation, specifications, scientific publications related, tutorials, guidelines, etc.
+### Description 
+
+A README file is the first document that a researchers read when they are interested on using a software. 
+For this reason, it should contain all the relevant information to install and to execute it. 
+It includes references to additional information such as API documentation, specifications, scientific publications related, tutorials, guidelines, etc.
 
 A basic software documentation emphasises these aspects[^2] :
 * Understandability: a user can comprehend the structure and the purpose of the software.

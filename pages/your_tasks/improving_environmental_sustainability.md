@@ -48,17 +48,22 @@ Similarly, the [GREENER software principles](https://www.nature.com/articles/s43
 
 ### Solutions
 
-* Training
-    * Green software foundation provides a [free course](https://learn.greensoftware.foundation/introduction) that introduces the basic concepts including embodied carbon, carbon intensity, demand shifting (and shaping) and measurement approaches. The course takes about 2 hours to complete. 
-    * green-coding.io provide (paid for) [workshops & training](https://www.green-coding.io/services/workshops-and-trainings) that focus on energy-efficient coding, environmentally responsible software design, and practical tools 
-* Certification
-    * [GreenDiSC](https://www.software.ac.uk/GreenDiSC) is a certification scheme for research groups (and central sustainability teams) that focuses on hardware and software.  
-    * [Green IT Professional (GITP)](https://ifgict.org/green-it-professional-gitp/) is a personal certification program that covers green ICT standards, carbon footprint calculation, and life cycle assessments. 
-* Evaluation Frameworks
-    * [Software Carbon Intensity (SCI) Specification](https://greensoftware.foundation/standards/sci) is an assessment framework for assessing and reducing software carbon intensity.
-* Tools to monitor emissions
-    * {% tool "codecarbon" %} estimates the CO2 emissions from computing resources used by software. 
-    * {% tool "greenalgorithms" %} is an online tool to estimate the carbon footprint of computational tasks using a web calculator. Currently being extended for use on HPC platforms. 
-    * {% tool "carbontracker" %} is a tool that monitors and predicts energy and carbon footprint for training machine learning models.
-    * {% tool "greenspectorstudio" %} measures energy usage and resource efficiency in web and mobile applications.
-    * {% tool "ecograder" %} evaluates website sustainability based on design and operational efficiency.
+#### Training
+
+* Green software foundation provides a [free course](https://learn.greensoftware.foundation/introduction) that introduces the basic concepts including embodied carbon, carbon intensity, demand shifting (and shaping) and measurement approaches.
+* green-coding.io provide (paid for) [workshops & training](https://www.green-coding.io/services/workshops-and-trainings) that focus on energy-efficient coding, environmentally responsible software design, and practical tools 
+
+#### Certification
+
+* [GreenDiSC](https://www.software.ac.uk/GreenDiSC) is a certification scheme for research groups (and central sustainability teams) that focuses on hardware and software.  
+
+#### Evaluation Frameworks
+* [Software Carbon Intensity (SCI) Specification](https://greensoftware.foundation/standards/sci) is an assessment framework for assessing and reducing software carbon intensity.
+
+#### Tools to monitor emissions
+
+* {% tool "codecarbon" %} estimates the CO2 emissions from computing resources used by software. 
+* {% tool "greenalgorithms" %} is an online tool to estimate the carbon footprint of computational tasks using a web calculator. Currently being extended for use on HPC platforms. 
+* {% tool "carbontracker" %} is a tool that monitors and predicts energy and carbon footprint for training machine learning models.
+* {% tool "greenspectorstudio" %} measures energy usage and resource efficiency in web and mobile applications.
+* {% tool "ecograder" %} evaluates website sustainability based on design and operational efficiency.
