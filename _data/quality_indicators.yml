@@ -1,4 +1,5 @@
--   author:
+-   abbreviation: archived_in_scholarly_repository
+    author:
         '@type': schema:Organization
         name: FAIR-IMPACT
     contact:
@@ -25,7 +26,9 @@
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: archived_in_software_heritage
+    alternateName: FRSM-08
+    author:
         '@type': schema:Organization
         name: FAIR-IMPACT
     contact:
@@ -52,7 +55,8 @@
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: codemeta_completeness
+    author:
     -   '@type': schema:Person
         name: Thomas Vuillaume
     -   '@type': schema:Person
@@ -75,7 +79,8 @@
         '@id': https://w3id.org/everse/i/dimensions/fairness
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: dependency_management
+    author:
         '@type': Person
         name: Faruk Diblen
     contact:
@@ -103,7 +108,9 @@
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: descriptive_metadata
+    alternateName: FRSM-06
+    author:
         '@type': schema:Organization
         name: FAIR-IMPACT
     contact:
@@ -134,7 +141,8 @@
         url: https://fair-impact.github.io/RSMD-guidelines/4.Description_Classification/
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: has_ci-tests
+    author:
         '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -160,7 +168,9 @@
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#ci-tests
     status: Active
     version: 1.0.0
--   contact:
+-   abbreviation: software_has_citation
+    alternateName: FRSM-12
+    contact:
     -   '@type': schema:Person
         name: Daniel Garijo
     -   '@type': schema:Person
@@ -185,7 +195,9 @@
         url: https://zenodo.org/records/10047401
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: software_has_license
+    alternateName: FRSM-15
+    author:
         '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -212,7 +224,8 @@
         url: https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/
     status: Active
     version: 1.0.0
--   author:
+-   alternateName: has_no_linting_issues
+    author:
         '@type': schema:Organization
         name: Super-Linter
     contact:
@@ -240,7 +253,8 @@
         url: https://www.bestpractices.dev/en/criteria/0#0.warnings_fixed
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: has_published_package
+    author:
         '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -267,7 +281,9 @@
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#packaging
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: has_releases
+    alternateName: FRSM-03
+    author:
         '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -290,13 +306,15 @@
     - fair
     name: Software has releases
     qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    -   '@id': https://w3id.org/everse/i/dimensions/fairness
     source:
         name: OpenSSF Best Practices (change control)
         url: https://www.bestpractices.dev/en/criteria/0#0.repo_interim
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: human_code_review_requirement
+    author:
         '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -322,7 +340,8 @@
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#code-review
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: listed_in_registry
+    author:
         '@type': schema:Organization
         name: FAIR-IMPACT
     contact:
@@ -349,7 +368,35 @@
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: metadata_is_up_to_date
+    contact:
+    -   '@type': schema:Person
+        name: Tom François
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    created: 24-09-2025
+    description: Metadata information reflects the current description of a software
+        project. This indicator ensures that the current project metadata provides
+        up to date, accurate and relevant information about a software component.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/metadata_is_up_to_date
+    keywords:
+    - metadata
+    - software
+    - fair
+    - findability
+    - maintainability
+    name: Software has up-to-date metadata
+    qualityDimension:
+    -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+    -   name: 'EOSC-SWRelMan-11: Metadata: Supportability, Maintainability, Availability.'
+        url: https://doi.org/10.5281/zenodo.10647227
+    status: Active
+    version: 1.0.0
+-   abbreviation: no_critical_vulnerability
+    author:
     -   '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -373,7 +420,8 @@
         name: OpenSSF Best practice Critical Vulnerability Fixed
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: no_leaked_credentials
+    author:
     -   '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -399,7 +447,9 @@
         name: OpenSSF Best practice No Leaked Credentials
     status: Active
     version: 1.0.0
--   contact:
+-   abbreviation: persistent_and_unique_identifier
+    alternateName: FRSM-01
+    contact:
     -   '@type': schema:Person
         name: Daniel Garijo
     -   '@type': schema:Person
@@ -426,7 +476,8 @@
         url: https://zenodo.org/records/10047401
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: repository_workflows
+    author:
         '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -453,7 +504,9 @@
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#ci-tests
     status: Active
     version: 1.0.0
--   contact:
+-   abbreviation: requirements_specified
+    alternateName: FRSM-13
+    contact:
     -   '@type': schema:Person
         name: Daniel Garijo
     -   '@type': schema:Person
@@ -481,7 +534,9 @@
         url: https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: software_documentation
+    alternateName: FRSM-05
+    author:
         '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -509,7 +564,9 @@
         url: https://www.bestpractices.dev/en/criteria/0#0.documentation_basics
     status: Active
     version: 1.0.0
--   contact:
+-   abbreviation: software_has_tests
+    alternateName: FRSM-14
+    contact:
     -   '@type': schema:Person
         name: Daniel Garijo
     -   '@type': schema:Person
@@ -534,7 +591,8 @@
         url: https://zenodo.org/records/10047401
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: static_analysis_common_vulnerabilities
+    author:
         '@type': Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -560,7 +618,8 @@
         url: https://www.bestpractices.dev/en/criteria/0#0.static_analysis_common_vulnerabilities
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: fuzzing_use
+    author:
         '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -589,7 +648,8 @@
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#fuzzing
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: uses_tool_for_warnings_or_mistakes
+    author:
         '@type': schema:Organization
         name: OpenSSF
         url: https://openssf.org/
@@ -621,7 +681,9 @@
         url: https://zenodo.org/records/10723608
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: version_control_use
+    alternateName: FRSM-17
+    author:
     -   '@type': schema:Organization
         name: Elixir focus group
         url: https://zenodo.org/communities/elixir/records
@@ -657,7 +719,8 @@
         url: https://fair-impact.github.io/RSMD-guidelines/3.Reference_identification/
     status: Active
     version: 1.0.0
--   author:
+-   abbreviation: versioning_standards_use
+    author:
         '@type': schema:Organization
         name: FAIR-IMPACT
     contact:
