@@ -7,6 +7,7 @@ type: research_software_story
 ---
 
 ## The Problem
+### How ATLAS came to carry the world (of particle physics track reconstruction)
 
 [Modern particle physics][CONCEPT_MODERN_PARTICLE_PHYS] experiments produce enormous volumes of data and this is expected to grow in the near future.
 One key challenge is [track reconstruction][CONCEPT_TRACK_RECONSTRUCTION] - converting raw detector hits from charged particles into estimated particle trajectories.
@@ -14,6 +15,7 @@ Historically, each experiment built its own specialized tracking software, resul
 The ACTS project (Acts Common Tracking Software) was created to provide a single, experiment-independent toolkit for efficient track reconstruction.
 
 ## User Community
+### From CERN Roots to Global Reach
 
 [ACTS][ACTS] began within the [ATLAS experiment][ATLAS] at [CERN][CERN], but it now serves many high-energy and nuclear physics communities (including heavy-ion experiments).
 Contributors come from institutions worldwide.
@@ -22,6 +24,7 @@ It also attracts researchers developing new [tracking algorithms][ACTS_TRACKING]
 This broad adoption has created a large, collaborative base of users and developers.
 
 ## Technical Aspects
+### Best software practices and tools makes ACTS stronger
 
 ACTS is a high-performance, thread-safe library written in modern C++ ({% tool "cpp" %}).
 Its core components include:
@@ -57,6 +60,7 @@ It can integrate with external geometry definitions (eg.
   development and testing of ML algorithms for ambiguity resolution, seed filtering etc.
 
 ## Software Quality Practices
+### Where Experiments Meet Shared Quality Expertise
 
 ACTS development follows [strict software engineering standards][ACTS_CODING_GUIDELINES].
 The project is developed openly on GitHub, and every code submission [triggers automated][ACTS_GITHUB_ACTIONS] CI tests to ensure nothing breaks and that thread-safety is maintained.
@@ -64,6 +68,7 @@ Developers adhere to [coding][ACTS_CODING_GUIDELINES] and [contribution guidelin
 [Issues are tracked transparently][ACTS_GITHUB_BUG_TRACKING], and frequent [meetings][ACTS_MEETINGS] plus mailing list discussions keep contributors aligned and informed.
 
 ## Developer Community
+### Growing Together: Researchers, Developers, New Contributors, Mentors, and more
 
 The ACTS community provides many resources to help onboard newcomers:
 
@@ -79,6 +84,7 @@ In addition, [regular workshops][ACTS_WORKSHOP_24] and training [sessions][ACTS_
 New contributors are often mentored by experienced developers, ensuring knowledge transfer and continuous growth of the community.
 
 ## Tools
+### Making development reliable and streamlined
 
 ACTS uses common tools to maintain quality and facilitate contributions:
 
@@ -101,6 +107,7 @@ ACTS uses common tools to maintain quality and facilitate contributions:
 These tools streamline development, ensure reliability, and make it easier for new users to adopt and contribute to ACTS.
 
 ## FAIR & Open
+### Enhancing visibility through FAIR and Open practices
 
 ACTS adheres to the [FAIR principles for research software][NATURE_FAIR4RS]:
 
@@ -120,6 +127,7 @@ ACTS adheres to the [FAIR principles for research software][NATURE_FAIR4RS]:
 ACTS's open development practices encourage transparent collaboration, promoting shared improvements across the particle physics community in multiple research communities.
 
 ## Documentation
+### Active documentation for better outreach
 
 ACTS offers thorough documentation for both users and developers:
 
@@ -136,6 +144,7 @@ Documentation contributions are valued as highly as code contributions, reflecti
 (this is reflected primarily in practice)
 
 ## Sustainability
+### Tapping into the power of community to make ACTS sustainable and resilient over the years
 
 ACTS is sustained by a strong community and multiple funding sources.
 It benefits from institutional support (for example, [CERN's EP R&D programme][FUNDING_CERN_EP_RD], the NSF-funded [IRIS-HEP project][FUNDING_IRIS_HEP] in the US, the EU-funded [AIDAInnova project][FUNDING_AIDA_INNOVA], and [CERN's Next Generation Triggers][FUNDING_CERN_NEXTGEN_TRIGGERS] initiative).
