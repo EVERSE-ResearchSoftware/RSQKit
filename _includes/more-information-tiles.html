@@ -168,10 +168,10 @@
                                 },
                                 params: {
                                     pageSize: 5,
-                                    q: 'version control OR source control OR git OR github OR gitlab'
+                                    q: '{{ page.keywords | join: " OR " }}'
                                 },
-                                baseUrl: 'https://everse-training.app.cern.ch',
-                                instanceName: 'EVERSE TeSS'
+                                baseUrl: '{{ training.url }}',
+                                instanceName: '{{ training.name }}'
                             });
                     }
                 </script>
