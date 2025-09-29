@@ -6,8 +6,8 @@ page_id: fair_rs
 ## FAIR Research Software
 
 FAIR stands for Findable, Accessible, Interoperable, and Reusable and comprises a set of principles designed to increase the visibility and usefulness of your research to others.
-The FAIR data principles, first published in 2016 [^1], are widely known and applied today, including scientific workflows [^2], or [machine learning projects][fair4ml].
-Similar FAIR principles for software [^3][^4] have now been defined too.
+The FAIR data principles, first published in 2016[^1], are widely known and applied today, including scientific workflows[^2], or [machine learning projects][fair4ml].
+Similar FAIR principles for software[^3][^4] have now been defined too.
 In general, they mean:
 
 - **Findable** - software and its associated metadata must be easy to discover by humans and machines.
@@ -161,7 +161,7 @@ The table below provides a summary of how different tools and practices help wit
 ## Training materials
 - The [FAIR Cookbook][fair-cookbook] contains general reusable recipes for FAIR assessment.
 - [10 easy things to make your research software FAIR](https://doi.org/10.5281/zenodo.3409968)
-- Common metrics for Research Software [^5] that may used to assess each of the FAIR4RS principles.
+- Common metrics for Research Software[^5] that may used to assess each of the FAIR4RS principles.
 - [A cookie software project template with FAIR metadata](https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter)
 - [Carpentries course on tools and practices for FAIR Research Software](https://carpentries-incubator.github.io/fair-research-software/)
 
