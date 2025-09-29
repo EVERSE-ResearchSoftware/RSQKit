@@ -33,7 +33,6 @@ A truly high-quality, reproducible research software package will typically sati
 
 So, FAIR - the “openness & reusability” slice of software quality - is essential for reproducibility, but most impactful when combined with all the other [quality practices](rs_quality) like testing, version control, and robust design.
 
-
 Read in more detail what [the FAIR principles for research software](/fair_rs) encompass.
 
 ## Formal Quality Dimensions & Indicators

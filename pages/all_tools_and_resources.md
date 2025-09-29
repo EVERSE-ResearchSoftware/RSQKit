@@ -6,4 +6,3 @@ toc: false
 
 
 {% include resource-table-all.html %}
-
