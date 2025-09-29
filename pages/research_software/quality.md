@@ -24,7 +24,7 @@ A key aspect of the project is the formal definition of [software quality dimens
 
 ### FAIR Research Software
 
-[FAIR software][fair-rs] — i.e. software that is Findable, Accessible, Interoperable, and Reusable — sits squarely within the broader umbrella of **quality research software**.
+[FAIR software][fair-rs-nature] — i.e. software that is Findable, Accessible, Interoperable, and Reusable — sits squarely within the broader umbrella of **quality research software**.
 Quality software is defined by multiple dimensions - e.g. correctness, performance, maintainability, usability, robustness, and reproducibility, among others.
 Reproducibility often hinges on the FAIR principles: if your code and metadata are not findable or accessible, no one can rerun it; if it is not interoperable or reusable, others cannot adapt or extend or use it to verify your results.
 
@@ -33,7 +33,7 @@ A truly high-quality, reproducible research software package will typically sati
 
 So, FAIR - the “openness & reusability” slice of software quality - is essential for reproducibility, but most impactful when combined with all the other [quality practices](rs_quality) like testing, version control, and robust design.
 
-Read in more detail what [the FAIR principles for research software](/fair_rs) encompass.
+Read in more detail what [the FAIR principles for research software](fair_rs) encompass.
 
 ## Formal Quality Dimensions & Indicators
 
@@ -43,4 +43,4 @@ The project is working on formally defining a number of research software qualit
 
 [^1]: David, M., Colom, M., Garijo, D., Castro, L. J., Louvet, V., Ronchieri, E., Torquati, M., del Caño, L., Cerlane, L., Van den Bossche, M., Campos, I., & Di Cosmo, R. (2024). Ensure Software Quality (1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.10723608](https://doi.org/10.5281/zenodo.10723608)
 
-[fair-rs]: https://www.nature.com/articles/s41597-022-01710-x
+[fair-rs-nature]: https://www.nature.com/articles/s41597-022-01710-x
