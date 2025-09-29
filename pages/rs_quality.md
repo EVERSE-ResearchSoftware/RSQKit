@@ -17,4 +17,7 @@ Each of the quality dimensions will be an umbrella for a number of [quality indi
 Current research software quality dimensions are described below.
 This is still work in progress - we expect indicators in particular to be updated in the near future.
 
-{% for dimension in site.data.quality_dimensions %} <h3 id="{{ dimension.name | downcase | replace: " ", "-" }}">{{ dimension.name }}</h3> <p>{{ dimension.description }}</p> {% endfor %}
+{% for dimension in site.data.quality_dimensions %}
+<h3 id="{{ dimension.name | downcase | replace: " ", "-" }}">{{ dimension.name }}</h3>
+<p>{{ dimension.description }}</p>
+{% endfor %}

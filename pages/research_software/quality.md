@@ -41,11 +41,6 @@ The project is working on formally defining a number of research software qualit
 
 ## References
 
-[^1] David, M., Colom, M., Garijo, D., Castro, L.
-J., Louvet, V., Ronchieri, E., Torquati, M., del Caño, L., Cerlane, L., Van den Bossche, M., Campos, I., & Di Cosmo, R.
-(2024).
-Ensure Software Quality (1.0.0).
-Zenodo.
-[https://doi.org/10.5281/zenodo.10723608](https://doi.org/10.5281/zenodo.10723608)
+[^1]: David, M., Colom, M., Garijo, D., Castro, L. J., Louvet, V., Ronchieri, E., Torquati, M., del Caño, L., Cerlane, L., Van den Bossche, M., Campos, I., & Di Cosmo, R. (2024). Ensure Software Quality (1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.10723608](https://doi.org/10.5281/zenodo.10723608)
 
 [fair-rs]: https://www.nature.com/articles/s41597-022-01710-x
