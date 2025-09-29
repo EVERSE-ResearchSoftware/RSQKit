@@ -1,9 +1,59 @@
 #!/usr/bin/env python3
+"""
+Markdown Sentence Formatter
+
+This script formats Markdown files with the following rules and behaviors:
+
+1. Paragraphs:
+   - Each sentence is placed on its own line.
+   - Leading indentation and blank lines are preserved.
+
+2. List items:
+   - Single-sentence list items (even if wrapped across multiple lines) are collapsed into a single line:
+        - Example:
+            - This is a wrapped single sentence.
+   - Multi-sentence list items are split so each sentence appears on its own line:
+        - Only the first line keeps the bullet/number.
+        - Subsequent lines have no indentation.
+        - Example:
+            - First sentence.
+            Second sentence.
+            Third sentence.
+
+3. Reference-style links ([name]: ...):
+   - Preserved exactly as-is.
+
+4. Markdown headers (# ...):
+   - Preserved exactly as-is.
+
+5. Markdown pipe tables (GFM):
+   - Entire table blocks, including header and divider row, are preserved intact.
+
+6. Code blocks (``` ... ```):
+   - Fenced code blocks are preserved entirely, including all inner lines.
+
+7. Liquid blocks ({% ... %} ... {% end... %}):
+   - Multi-line Liquid blocks are preserved entirely.
+   - Inline Liquid tags (e.g., {{ ... }}) are preserved within sentences.
+
+8. Blank lines and indentation:
+   - Blank lines are preserved exactly.
+   - Paragraph indentation is preserved.
+   - Multi-sentence list items remove indentation after the first sentence.
+
+9. Sentence splitting:
+   - Common abbreviations (e.g., e.g., Mr., Dr., etc.) are protected to avoid incorrect splits.
+   - Each sentence ends at ., !, or ?, optionally followed by quotes, parentheses, or brackets.
+"""
+
 import re
 import argparse
 import sys
+import tempfile
+import os
+import shutil
 
-# Common abbreviations to protect (add more if needed)
+# Abbreviations to protect while splitting sentences
 ABBREVIATIONS = [
     "e.g.", "i.e.", "etc.", "vs.", "Mr.", "Mrs.", "Ms.", "Dr.", "Prof.",
     "Sr.", "Jr.", "St.", "Inc.", "Ltd.", "et al.", "al.", "cf.", "Fig.", "fig.",
@@ -12,140 +62,168 @@ ABBREVIATIONS = [
 ]
 _PLACEHOLDER = "<<DOT>>"
 
-def _protect_abbreviations(s: str) -> str:
-    """Replace dots inside known abbreviations with a placeholder."""
-    protected = s
+def _protect_abbreviations(text: str) -> str:
     for abbr in ABBREVIATIONS:
-        protected = re.sub(re.escape(abbr), abbr.replace(".", _PLACEHOLDER), protected)
-    return protected
+        text = text.replace(abbr, abbr.replace(".", _PLACEHOLDER))
+    return text
 
-def _restore_placeholders(s: str) -> str:
-    return s.replace(_PLACEHOLDER, ".")
+def _restore_placeholders(text: str) -> str:
+    return text.replace(_PLACEHOLDER, ".")
 
-def format_sentences(text: str) -> str:
-    """
-    Format text so that each sentence goes on its own line while preserving:
-      - YAML front matter (--- ... --- at top),
-      - Code blocks surrounded by triple backticks ``` ... ``` ,
-      - Lists (*, -, or numbered lists),
-      - Reference-style links ([name]: ...),
-      - Markdown headers (# ...),
-      - Indentation and blank lines.
+def split_sentences(text: str) -> list[str]:
+    """Split a paragraph into sentences, protecting abbreviations."""
+    protected = _protect_abbreviations(text)
+    # Non-greedy split at punctuation
+    pattern = re.compile(r'.*?[.!?]["\')\]]*(?=\s|$)', re.S)
+    matches = pattern.findall(protected)
+    sentences = [_restore_placeholders(m.strip()) for m in matches if m.strip()]
+    return sentences
 
-    Functionality:
-    - Joins lines that are part of the same sentence outside preserved regions.
-    - Splits text into sentences based on sentence-ending punctuation (., !, ?).
-    - Lines inside code blocks, front matter, list items, headers, or reference-style links are left untouched.
-    - Leading tabs/spaces for indentation are preserved.
-    """
-    list_item_re   = re.compile(r"^[ \t]*(?:[\*\-]|\d+\.)\s+")
-    ref_link_re    = re.compile(r"^[ \t]*\[[^\]]+\]:")
-    header_re      = re.compile(r"^[ \t]*#+\s")
-    code_fence_re  = re.compile(r"^[ \t]*```")
-    sentence_pattern = re.compile(r'.*?[.!?]["\']?(?=\s|$)', flags=re.S)
-
+def format_markdown(text: str) -> str:
     lines = text.splitlines()
-    out_lines = []
-
+    out = []
     i = 0
     n = len(lines)
 
-    # Preserve YAML front matter
-    if n > 0 and lines[0].strip() == "---":
-        out_lines.append(lines[0])
-        i = 1
-        while i < n:
-            out_lines.append(lines[i])
-            if lines[i].strip() == "---":
-                i += 1
-                break
-            i += 1
+    # Regex patterns
+    list_item_re = re.compile(r"^[ \t]*(?:[-*]|\d+\.)\s+")
+    ref_link_re = re.compile(r"^[ \t]*\[[^\]]+\]:")
+    header_re = re.compile(r"^[ \t]*#+\s")
+    code_fence_re = re.compile(r"^[ \t]*```")
+    table_divider_re = re.compile(r'^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$')
+    liquid_start_re = re.compile(r'^[ \t]*{%-?\s*(for|if|case|unless|raw|capture|comment|tablerow|paginate|schema|section)\b.*-?%}', re.I)
+    liquid_end_re = re.compile(r'^[ \t]*{%-?\s*end(for|if|case|unless|raw|capture|comment|tablerow|paginate|schema|section)\b.*-?%}', re.I)
+    liquid_single_re = re.compile(r'^[ \t]*{%-?.*?-?%}[ \t]*$')
 
-    in_code_block = False
+    in_code = False
+    in_liquid = False
     buffer = ""
     buffer_indent = ""
 
-    def _flush_buffer_as_sentences():
-        nonlocal buffer, buffer_indent, out_lines
+    def flush_buffer():
+        nonlocal buffer, buffer_indent, out
         if not buffer:
             return
-        protected = _protect_abbreviations(buffer)
-        matches = list(sentence_pattern.finditer(protected))
-        if matches:
-            last_end = 0
-            for m in matches:
-                raw_sent = protected[m.start():m.end()]
-                sent = _restore_placeholders(raw_sent).strip()
-                if sent:
-                    out_lines.append(buffer_indent + sent)
-                last_end = m.end()
-            remainder_prot = protected[last_end:].strip()
-            remainder = _restore_placeholders(remainder_prot).strip()
-            if remainder:
-                out_lines.append(buffer_indent + remainder)
-        else:
-            out_lines.append(buffer_indent + _restore_placeholders(buffer).strip())
+        sentences = split_sentences(buffer)
+        for idx, s in enumerate(sentences):
+            if buffer_indent and idx == 0:
+                out.append(buffer_indent + s)
+            else:
+                out.append(s)
         buffer = ""
         buffer_indent = ""
 
     while i < n:
-        raw_line = lines[i]
-        stripped = raw_line.strip()
+        line = lines[i]
+        stripped = line.strip()
 
-        if code_fence_re.match(raw_line):
-            if buffer:
-                _flush_buffer_as_sentences()
-            out_lines.append(raw_line)
-            in_code_block = not in_code_block
+        # YAML front matter
+        if i == 0 and stripped == "---":
+            out.append(line)
+            i += 1
+            while i < n:
+                out.append(lines[i])
+                if lines[i].strip() == "---":
+                    i += 1
+                    break
+                i += 1
+            continue
+
+        # Code fences
+        if code_fence_re.match(line):
+            flush_buffer()
+            out.append(line)
+            in_code = not in_code
+            i += 1
+            continue
+        if in_code:
+            out.append(line)
             i += 1
             continue
 
-        if in_code_block:
-            out_lines.append(raw_line)
+        # Liquid blocks
+        if in_liquid:
+            out.append(line)
+            if liquid_end_re.match(line):
+                in_liquid = False
+            i += 1
+            continue
+        if liquid_start_re.match(line):
+            flush_buffer()
+            out.append(line)
+            in_liquid = True
+            i += 1
+            continue
+        if liquid_single_re.match(line):
+            flush_buffer()
+            out.append(line)
             i += 1
             continue
 
+        # Blank lines
         if stripped == "":
-            if buffer:
-                _flush_buffer_as_sentences()
-            out_lines.append("")
+            flush_buffer()
+            out.append("")
             i += 1
             continue
 
-        if list_item_re.match(raw_line) or ref_link_re.match(raw_line) or header_re.match(raw_line):
-            if buffer:
-                _flush_buffer_as_sentences()
-            out_lines.append(raw_line)
+        # Tables
+        if "|" in line and (i + 1) < n and table_divider_re.match(lines[i + 1]):
+            flush_buffer()
+            while i < n and ("|" in lines[i] or lines[i].strip() == ""):
+                out.append(lines[i])
+                i += 1
+            continue
+
+        # Headers and reference links
+        if header_re.match(line) or ref_link_re.match(line):
+            flush_buffer()
+            out.append(line)
             i += 1
             continue
 
-        leading_ws = re.match(r"^[ \t]*", raw_line).group(0)
-        if buffer == "":
+        # List items
+        if list_item_re.match(line):
+            flush_buffer()
+            # Accumulate list item
+            list_indent_match = re.match(r"^([ \t]*)([-*]|\d+\.)\s+", line)
+            list_indent = list_indent_match.group(1) + list_indent_match.group(2) + " "
+            buffer = line.strip()[len(list_indent_match.group(0)):]  # text without bullet
+            buffer_indent = list_indent
+            i += 1
+            # Collect wrapped lines
+            while i < n:
+                next_line = lines[i]
+                if next_line.strip() == "":
+                    break
+                # stop if next line starts a new list item
+                if list_item_re.match(next_line):
+                    break
+                buffer += " " + next_line.strip()
+                i += 1
+            # Split into sentences
+            sentences = split_sentences(buffer)
+            if len(sentences) == 1:
+                out.append(buffer_indent + sentences[0])
+            else:
+                # multi-sentence: first line keeps bullet, rest without indentation
+                out.append(buffer_indent + sentences[0])
+                out.extend(sentences[1:])
+            buffer = ""
+            buffer_indent = ""
+            continue
+
+        # Paragraph lines
+        leading_ws = re.match(r"^[ \t]*", line).group(0)
+        if not buffer:
             buffer_indent = leading_ws
             buffer = stripped
         else:
             buffer += " " + stripped
-
-        protected = _protect_abbreviations(buffer)
-        matches = list(sentence_pattern.finditer(protected))
-        if matches:
-            last_end = 0
-            for m in matches:
-                raw_sent = protected[m.start():m.end()]
-                sent = _restore_placeholders(raw_sent).strip()
-                if sent:
-                    out_lines.append(buffer_indent + sent)
-                last_end = m.end()
-            remainder_prot = protected[last_end:].strip()
-            buffer = _restore_placeholders(remainder_prot)
-            if not buffer:
-                buffer_indent = ""
         i += 1
 
-    if buffer:
-        _flush_buffer_as_sentences()
-
-    return "\n".join(out_lines)
+    flush_buffer()
+    return "\n".join(out)
 
 
 if __name__ == "__main__":
@@ -157,7 +235,7 @@ if __name__ == "__main__":
     with open(args.input_file, "r", encoding="utf-8") as f:
         text = f.read()
 
-    formatted = format_sentences(text)
+    formatted = format_markdown(text)
 
     if args.output_file:
         with open(args.output_file, "w", encoding="utf-8") as f:

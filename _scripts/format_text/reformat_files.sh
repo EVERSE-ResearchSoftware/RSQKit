@@ -9,6 +9,7 @@ set -euo pipefail
 
 # Make the script executable: chmod +x format_sentences.py
 # Run it: ./reformat_files.sh file1.txt file2.txt file3.md
+# Or run it on all .md files in a directory: ./reformat_files.sh ../../pages/*.md
 # Each file will be replaced in place with the cleaned version.
 
 # Path to the Python script (adjust if needed)
