@@ -133,7 +133,7 @@ If you find any content unsatisfactory, please feel free to report about it by [
 [how-contribute]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
 [issues]: https://github.com/EVERSE-ResearchSoftware/RSQKit/issues
 [editorial-board]: ./editorial_board.md
-[contributors]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yaml
+[contributors]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yml
 [pull-requests]: https://github.com/EVERSE-ResearchSoftware/RSQKit/pulls
 [github-why-should-i-fork]: https://stackoverflow.com/questions/31209669/github-why-should-i-fork
 [licence]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE.md
