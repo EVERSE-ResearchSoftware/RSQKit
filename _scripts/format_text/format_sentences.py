@@ -14,7 +14,7 @@ This script formats Markdown files with the following rules and behaviors:
      - First line keeps the bullet.
      - Subsequent lines have no indentation.
 
-3. Reference-style links ([name]: ...), headers (# ...), and Markdown tables (GFM) are preserved intact.
+3. YAML front matter, reference-style links ([name]: ...), headers (# ...), and Markdown tables (GFM) are preserved intact.
 
 4. Code fences (``` ... ```) and Liquid blocks ({% ... %} ... {% end ... %}) are preserved.
 
@@ -31,10 +31,9 @@ This script formats Markdown files with the following rules and behaviors:
    - Each sentence ends at ., !, or ?, optionally followed by quotes, parentheses, or brackets.
 """
 
-import re
+#!/usr/bin/env python3
 import argparse
-import os
-import tempfile
+import re
 
 ABBREVIATIONS = [
     "e.g.", "i.e.", "etc.", "vs.", "Mr.", "Mrs.", "Ms.", "Dr.", "Prof.",
@@ -42,194 +41,118 @@ ABBREVIATIONS = [
     "Jan.", "Feb.", "Mar.", "Apr.", "May.", "Jun.", "Jul.", "Aug.", "Sep.", "Sept.",
     "Oct.", "Nov.", "Dec."
 ]
-_PLACEHOLDER = "<<DOT>>"
 
-def _protect_abbreviations(text: str) -> str:
-    for abbr in ABBREVIATIONS:
-        text = text.replace(abbr, abbr.replace(".", _PLACEHOLDER))
-    return text
+BLOCK_PATTERNS = [
+    r"^---\n.*?\n---",                          # YAML front matter
+    r"```.*?```",                                # Code blocks
+    r"{%.*?%}",                                  # Liquid blocks
+    r"<(div|section|article|header|footer|nav|aside|h[1-6]|p|pre|table|form|blockquote|script).*?>.*?</\1>",  # HTML blocks
+    r"^\[[^\]]+\]:\s*.*$",                      # Markdown reference links
+]
 
-def _restore_placeholders(text: str) -> str:
-    return text.replace(_PLACEHOLDER, ".")
+def format_markdown(text):
+    # Step 0: Protect Markdown tables
+    table_placeholders = []
+    def protect_table(match):
+        table_placeholders.append(match.group(0))
+        return f"@@TABLE{len(table_placeholders)-1}@@"
+    text = re.sub(r'^(?:\s*\|.*\|.*)$', protect_table, text, flags=re.MULTILINE)
 
-def split_sentences(text: str) -> list[str]:
-    protected = _protect_abbreviations(text)
-    pattern = re.compile(r'.*?[.!?]["\')\]]*(?=\s|$)', re.S)
-    matches = pattern.findall(protected)
-    sentences = [_restore_placeholders(m.strip()) for m in matches if m.strip()]
-    return sentences
+    # Step 1: Protect other blocks
+    block_placeholders = []
+    def protect_block(match):
+        block_placeholders.append(match.group(0))
+        return f"@@BLOCK{len(block_placeholders)-1}@@"
+    for pattern in BLOCK_PATTERNS:
+        text = re.sub(pattern, protect_block, text, flags=re.DOTALL | re.MULTILINE)
 
-def format_markdown(text: str) -> str:
-    lines = text.splitlines()
-    out = []
-    i = 0
-    n = len(lines)
+    # Step 2: Protect abbreviations
+    abbrev_placeholders = {}
+    for i, abbr in enumerate(ABBREVIATIONS):
+        ph = f"@@ABBR{i}@@"
+        text = text.replace(abbr, ph)
+        abbrev_placeholders[ph] = abbr
 
-    # Regex patterns
-    list_item_re = re.compile(r"^[ \t]*(?:[-*]|\d+\.)\s+")
-    ref_link_re = re.compile(r"^[ \t]*\[[^\]]+\]:")
-    header_re = re.compile(r"^[ \t]*#+\s")
-    code_fence_re = re.compile(r"^[ \t]*```")
-    table_divider_re = re.compile(r'^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$')
-    liquid_start_re = re.compile(r'^[ \t]*{%-?\s*(for|if|case|unless|raw|capture|comment|tablerow|paginate|schema|section)\b.*-?%}', re.I)
-    liquid_end_re = re.compile(r'^[ \t]*{%-?\s*end(for|if|case|unless|raw|capture|comment|tablerow|paginate|schema|section)\b.*-?%}', re.I)
-    liquid_single_re = re.compile(r'^[ \t]*{%-?.*?-?%}[ \t]*$')
+    # Step 3: Split into paragraphs by empty lines (allow single empty lines only)
+    paragraphs = re.split(r'\n\s*\n', text)
+    formatted_paragraphs = []
 
-    html_start_re = re.compile(
-        r'^[ \t]*<(div|section|article|header|footer|nav|aside|h[1-6]|p|pre|table|form|blockquote|script)[\s>]', re.I)
-    html_end_re = re.compile(r'^[ \t]*</(div|section|article|header|footer|nav|aside|h[1-6]|p|pre|table|form|blockquote|script)>', re.I)
-    html_selfclosing_re = re.compile(r'<(br|img|hr|input|meta|link|source|track|wbr)[^>]*?/>', re.I)
+    list_item_pattern = re.compile(r'^(\s*)([-*+]|[0-9]+[.])\s+')
 
-    in_code = False
-    in_liquid = False
-    in_html_block = False
+    for para in paragraphs:
+        para = para.strip()
+        if not para:
+            # preserve a single empty line
+            formatted_paragraphs.append("")
+            continue
 
-    buffer = ""
-    buffer_indent = ""
+        # Split lines in paragraph
+        lines = para.splitlines()
+        processed_lines = []
 
-    def flush_buffer():
-        nonlocal buffer, buffer_indent, out
-        if not buffer:
-            return
-        sentences = split_sentences(buffer)
-        for idx, s in enumerate(sentences):
-            if buffer_indent and idx == 0:
-                out.append(buffer_indent + s)
+        for line in lines:
+            stripped = line.lstrip()
+            indent = line[:len(line) - len(stripped)]
+
+            # Detect list items
+            match = list_item_pattern.match(line)
+            if match:
+                item_indent = match.group(1)
+                marker = match.group(2)
+                content = stripped[match.end():]
+
+                # Join wrapped lines in content
+                content = " ".join(content.splitlines())
+
+                # Split sentences
+                sentences = re.split(r'([.!?])\s+', content)
+                item_sentences = []
+                for i in range(0, len(sentences)-1, 2):
+                    item_sentences.append(sentences[i].strip() + sentences[i+1])
+                if len(sentences) % 2 != 0:
+                    item_sentences.append(sentences[-1].strip())
+
+                # Recombine sentences with indentation and marker
+                for idx, sent in enumerate(item_sentences):
+                    if idx == 0:
+                        processed_lines.append(f"{item_indent}{marker} {sent}")
+                    else:
+                        processed_lines.append(f"{item_indent}  {sent}")
             else:
-                out.append(s)
-        buffer = ""
-        buffer_indent = ""
+                # Normal paragraph line: join wrapped lines
+                joined_line = " ".join(stripped.splitlines())
+                # Split sentences
+                sentences = re.split(r'([.!?])\s+', joined_line)
+                para_sentences = []
+                for i in range(0, len(sentences)-1, 2):
+                    para_sentences.append(sentences[i].strip() + sentences[i+1])
+                if len(sentences) % 2 != 0:
+                    para_sentences.append(sentences[-1].strip())
 
-    while i < n:
-        line = lines[i]
-        stripped = line.strip()
+                processed_lines.extend([indent + s for s in para_sentences])
 
-        # YAML front matter
-        if i == 0 and stripped == "---":
-            out.append(line)
-            i += 1
-            while i < n:
-                out.append(lines[i])
-                if lines[i].strip() == "---":
-                    i += 1
-                    break
-                i += 1
-            continue
+        formatted_paragraphs.append("\n".join(processed_lines))
 
-        # Code fences
-        if code_fence_re.match(line):
-            flush_buffer()
-            out.append(line)
-            in_code = not in_code
-            i += 1
-            continue
-        if in_code:
-            out.append(line)
-            i += 1
-            continue
+    # Step 4: Join paragraphs with a single empty line between them
+    result = "\n\n".join(formatted_paragraphs)
 
-        # Liquid blocks
-        if in_liquid:
-            out.append(line)
-            if liquid_end_re.match(line):
-                in_liquid = False
-            i += 1
-            continue
-        if liquid_start_re.match(line):
-            flush_buffer()
-            out.append(line)
-            in_liquid = True
-            i += 1
-            continue
-        if liquid_single_re.match(line):
-            flush_buffer()
-            out.append(line)
-            i += 1
-            continue
+    # Step 5: Restore abbreviations
+    for ph, abbr in abbrev_placeholders.items():
+        result = result.replace(ph, abbr)
 
-        # HTML blocks
-        if in_html_block:
-            out.append(line)
-            if html_end_re.match(line):
-                in_html_block = False
-            i += 1
-            continue
-        if html_start_re.match(line) and not html_selfclosing_re.search(line):
-            flush_buffer()
-            out.append(line)
-            in_html_block = True
-            i += 1
-            continue
-        if html_selfclosing_re.search(line):
-            flush_buffer()
-            out.append(line)
-            i += 1
-            continue
+    # Step 6: Restore blocks
+    for idx, block in enumerate(block_placeholders):
+        result = result.replace(f"@@BLOCK{idx}@@", block)
 
-        # Blank lines
-        if stripped == "":
-            flush_buffer()
-            out.append("")
-            i += 1
-            continue
+    # Step 7: Restore tables
+    for idx, table in enumerate(table_placeholders):
+        result = result.replace(f"@@TABLE{idx}@@", table)
 
-        # Tables
-        if "|" in line and (i + 1) < n and table_divider_re.match(lines[i + 1]):
-            flush_buffer()
-            while i < n and ("|" in lines[i] or lines[i].strip() == ""):
-                out.append(lines[i])
-                i += 1
-            continue
+    return result
 
-        # Headers and reference links
-        if header_re.match(line) or ref_link_re.match(line):
-            flush_buffer()
-            out.append(line)
-            i += 1
-            continue
-
-        # List items
-        if list_item_re.match(line):
-            flush_buffer()
-            list_indent_match = re.match(r"^([ \t]*)([-*]|\d+\.)\s+", line)
-            list_indent = list_indent_match.group(1) + list_indent_match.group(2) + " "
-            buffer = line.strip()[len(list_indent_match.group(0)):]  # text without bullet
-            buffer_indent = list_indent
-            i += 1
-            while i < n:
-                next_line = lines[i]
-                if next_line.strip() == "":
-                    break
-                if list_item_re.match(next_line):
-                    break
-                buffer += " " + next_line.strip()
-                i += 1
-            sentences = split_sentences(buffer)
-            if len(sentences) == 1:
-                out.append(buffer_indent + sentences[0])
-            else:
-                out.append(buffer_indent + sentences[0])
-                out.extend(sentences[1:])
-            buffer = ""
-            buffer_indent = ""
-            continue
-
-        # Paragraph lines
-        leading_ws = re.match(r"^[ \t]*", line).group(0)
-        if not buffer:
-            buffer_indent = leading_ws
-            buffer = stripped
-        else:
-            buffer += " " + stripped
-        i += 1
-
-    flush_buffer()
-    return "\n".join(out)
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Format text so each sentence is on its own line.")
-    parser.add_argument("input_file", help="Input text file")
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Format Markdown so each sentence is on its own line.")
+    parser.add_argument("input_file", help="Input Markdown file")
     parser.add_argument("-o", "--output_file", help="Output file (default: stdout)")
     args = parser.parse_args()
 
