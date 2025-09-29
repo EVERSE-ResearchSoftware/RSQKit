@@ -6,12 +6,12 @@ descriptions: Different aspects of and perspectives on research software
 There are various definitions of research software.
 The following two definitions are borrowed from [*"Defining Research Software: a controversial discussion"*][defining-rs] - the most recent and expansive discussion on what research software is, which was done under the auspices of the [FAIR4RS RDA working group][fair4rs-wg].
 
-***Inclusive definition of research software***
+### Inclusive definition of research software
 
 - *All code and software artefacts that are used, produced, or might be related to the research process in one or more stages of the research lifecycle and regardless of the layer of the software stack.*
 - *Software that was not necessarily developed with the intention of being part of research, for example, a library for interfacing with a sensor, or software that ceased to be exclusive to the research domain, for example, certain programming languages developed in research projects, e.g., Python, Scala, R.*
 
-***Exclusive definition of research software***
+### Exclusive definition of research software
 
 - *Well identified software that is part of the research discovery process, which might require specialised domain knowledge and is by itself a contribution to science and research.*
 - *Software that was developed with the intention of being part of research.*
