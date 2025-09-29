@@ -1,20 +1,6 @@
 repos:
-#  - repo: https://github.com/pre-commit/pre-commit-hooks
-#    rev: v6.0.0  # Use the ref you want to point at
-#    hooks:
-#      - id: trailing-whitespace
-#        types: [yaml, markdown]
-#      - id: end-of-file-fixer
-#      - id: check-yaml
-
-  - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.18.1
+  # Run: $ pip install codespell, then $ pre-commit run --all-files
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.1
     hooks:
-      - id: markdownlint-cli2
-        args: []
-
-ci:
-  autofix_prs: true
-  autofix_commit_msg: '[pre-commit.ci] Fixing issues with pre-commit'
-  autoupdate_schedule: weekly
-  autoupdate_commit_msg: '[pre-commit.ci] pre-commit-autoupdate'
+      - id: codespell

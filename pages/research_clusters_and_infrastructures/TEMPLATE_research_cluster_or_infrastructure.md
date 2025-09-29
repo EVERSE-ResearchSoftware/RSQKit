@@ -13,7 +13,7 @@ The text describing what is needed in the sections can be removed.
 This comment can be deleted in your final page.
 -->
 
-<!-- Once you have completed your research cluster or infrastructure entry - please add it to _data/sidebars/main.yml under the Reseach Clusters & Infrastructures entry in alphabetical order.
+<!-- Once you have completed your research cluster or infrastructure entry - please add it to _data/sidebars/main.yml under the Research Clusters & Infrastructures entry in alphabetical order.
 -->
 
 <!-- All comment sections like this one can be deleted in your final page.

@@ -2,7 +2,7 @@
 #
 # Full Name:
 #    git: github id (required)
-#    email: email adress
+#    email: email address
 #    orcid: orcid id
 #    role: the role of the contributor (current possible values "editor" or leave empty)
 #    affiliation: affiliation

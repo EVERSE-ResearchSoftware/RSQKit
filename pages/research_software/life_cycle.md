@@ -58,7 +58,7 @@ It can include the following activities:
 
 Development can be done in an iterative way, where the software is developed in small increments, and each increment is tested and reviewed before moving on to the next one.
 Another approach is to use a more traditional waterfall model, where the software is developed in a linear way, with each stage completed before moving on to the next one.
-> In single-person projects such as student theses, implementation is naturally performed in a more sequential manner.
+> In single-person projects such as student thesis, implementation is naturally performed in a more sequential manner.
 
 ### QA & Documentation 🔧
 
