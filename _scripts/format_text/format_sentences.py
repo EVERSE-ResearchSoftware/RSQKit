@@ -1,163 +1,165 @@
 #!/usr/bin/env python3
-import re
-import argparse
-import sys
+"""
+Markdown Sentence Formatter
 
-# Common abbreviations to protect (add more if needed)
+This script formats Markdown files with the following rules and behaviors:
+
+1. Paragraphs:
+   - Each sentence is placed on its own line.
+   - Leading indentation and blank lines are preserved.
+
+2. List items:
+   - Single-sentence list items (even if wrapped) collapse into one line.
+   - Multi-sentence list items split each sentence onto a new line.
+     - First line keeps the bullet.
+     - Subsequent lines have no indentation.
+
+3. YAML front matter, reference-style links ([name]: ...), headers (# ...), and Markdown tables (GFM) are preserved intact.
+
+4. Code fences (``` ... ```) and Liquid blocks ({% ... %} ... {% end ... %}) are preserved.
+
+5. HTML blocks (e.g., <div>...</div>, <p>...</p>, <pre>...</pre>) are preserved as-is.
+   - Single-line self-closing tags like <br /> or <img .../> are left untouched.
+
+6. Blank lines and indentation:
+   - Blank lines are preserved exactly.
+   - Paragraph indentation is preserved.
+   - Multi-sentence list items remove indentation after the first sentence.
+
+7. Sentence splitting:
+   - Common abbreviations (e.g., e.g., Mr., Dr., etc.) are protected to avoid incorrect splits.
+   - Each sentence ends at ., !, or ?, optionally followed by quotes, parentheses, or brackets.
+"""
+
+#!/usr/bin/env python3
+import argparse
+import re
+
 ABBREVIATIONS = [
     "e.g.", "i.e.", "etc.", "vs.", "Mr.", "Mrs.", "Ms.", "Dr.", "Prof.",
     "Sr.", "Jr.", "St.", "Inc.", "Ltd.", "et al.", "al.", "cf.", "Fig.", "fig.",
     "Jan.", "Feb.", "Mar.", "Apr.", "May.", "Jun.", "Jul.", "Aug.", "Sep.", "Sept.",
     "Oct.", "Nov.", "Dec."
 ]
-_PLACEHOLDER = "<<DOT>>"
 
-def _protect_abbreviations(s: str) -> str:
-    """Replace dots inside known abbreviations with a placeholder."""
-    protected = s
-    for abbr in ABBREVIATIONS:
-        protected = re.sub(re.escape(abbr), abbr.replace(".", _PLACEHOLDER), protected)
-    return protected
+BLOCK_PATTERNS = [
+    r"^---\n.*?\n---",                          # YAML front matter
+    r"```.*?```",                                # Code blocks
+    r"{%.*?%}",                                  # Liquid blocks
+    r"<(div|section|article|header|footer|nav|aside|h[1-6]|p|pre|table|form|blockquote|script).*?>.*?</\1>",  # HTML blocks
+    r"^\[[^\]]+\]:\s*.*$",                      # Markdown reference links
+]
 
-def _restore_placeholders(s: str) -> str:
-    return s.replace(_PLACEHOLDER, ".")
+def format_markdown(text):
+    # Step 0: Protect Markdown tables
+    table_placeholders = []
+    def protect_table(match):
+        table_placeholders.append(match.group(0))
+        return f"@@TABLE{len(table_placeholders)-1}@@"
+    text = re.sub(r'^(?:\s*\|.*\|.*)$', protect_table, text, flags=re.MULTILINE)
 
-def format_sentences(text: str) -> str:
-    """
-    Format text so that each sentence goes on its own line while preserving:
-      - YAML front matter (--- ... --- at top),
-      - Code blocks surrounded by triple backticks ``` ... ``` ,
-      - Lists (*, -, or numbered lists),
-      - Reference-style links ([name]: ...),
-      - Markdown headers (# ...),
-      - Indentation and blank lines.
+    # Step 1: Protect other blocks
+    block_placeholders = []
+    def protect_block(match):
+        block_placeholders.append(match.group(0))
+        return f"@@BLOCK{len(block_placeholders)-1}@@"
+    for pattern in BLOCK_PATTERNS:
+        text = re.sub(pattern, protect_block, text, flags=re.DOTALL | re.MULTILINE)
 
-    Functionality:
-    - Joins lines that are part of the same sentence outside preserved regions.
-    - Splits text into sentences based on sentence-ending punctuation (., !, ?).
-    - Lines inside code blocks, front matter, list items, headers, or reference-style links are left untouched.
-    - Leading tabs/spaces for indentation are preserved.
-    """
-    list_item_re   = re.compile(r"^[ \t]*(?:[\*\-]|\d+\.)\s+")
-    ref_link_re    = re.compile(r"^[ \t]*\[[^\]]+\]:")
-    header_re      = re.compile(r"^[ \t]*#+\s")
-    code_fence_re  = re.compile(r"^[ \t]*```")
-    sentence_pattern = re.compile(r'.*?[.!?]["\']?(?=\s|$)', flags=re.S)
+    # Step 2: Protect abbreviations
+    abbrev_placeholders = {}
+    for i, abbr in enumerate(ABBREVIATIONS):
+        ph = f"@@ABBR{i}@@"
+        text = text.replace(abbr, ph)
+        abbrev_placeholders[ph] = abbr
 
-    lines = text.splitlines()
-    out_lines = []
+    # Step 3: Split into paragraphs by empty lines (allow single empty lines only)
+    paragraphs = re.split(r'\n\s*\n', text)
+    formatted_paragraphs = []
 
-    i = 0
-    n = len(lines)
+    list_item_pattern = re.compile(r'^(\s*)([-*+]|[0-9]+[.])\s+')
 
-    # Preserve YAML front matter
-    if n > 0 and lines[0].strip() == "---":
-        out_lines.append(lines[0])
-        i = 1
-        while i < n:
-            out_lines.append(lines[i])
-            if lines[i].strip() == "---":
-                i += 1
-                break
-            i += 1
-
-    in_code_block = False
-    buffer = ""
-    buffer_indent = ""
-
-    def _flush_buffer_as_sentences():
-        nonlocal buffer, buffer_indent, out_lines
-        if not buffer:
-            return
-        protected = _protect_abbreviations(buffer)
-        matches = list(sentence_pattern.finditer(protected))
-        if matches:
-            last_end = 0
-            for m in matches:
-                raw_sent = protected[m.start():m.end()]
-                sent = _restore_placeholders(raw_sent).strip()
-                if sent:
-                    out_lines.append(buffer_indent + sent)
-                last_end = m.end()
-            remainder_prot = protected[last_end:].strip()
-            remainder = _restore_placeholders(remainder_prot).strip()
-            if remainder:
-                out_lines.append(buffer_indent + remainder)
-        else:
-            out_lines.append(buffer_indent + _restore_placeholders(buffer).strip())
-        buffer = ""
-        buffer_indent = ""
-
-    while i < n:
-        raw_line = lines[i]
-        stripped = raw_line.strip()
-
-        if code_fence_re.match(raw_line):
-            if buffer:
-                _flush_buffer_as_sentences()
-            out_lines.append(raw_line)
-            in_code_block = not in_code_block
-            i += 1
+    for para in paragraphs:
+        para = para.strip()
+        if not para:
+            # preserve a single empty line
+            formatted_paragraphs.append("")
             continue
 
-        if in_code_block:
-            out_lines.append(raw_line)
-            i += 1
-            continue
+        # Split lines in paragraph
+        lines = para.splitlines()
+        processed_lines = []
 
-        if stripped == "":
-            if buffer:
-                _flush_buffer_as_sentences()
-            out_lines.append("")
-            i += 1
-            continue
+        for line in lines:
+            stripped = line.lstrip()
+            indent = line[:len(line) - len(stripped)]
 
-        if list_item_re.match(raw_line) or ref_link_re.match(raw_line) or header_re.match(raw_line):
-            if buffer:
-                _flush_buffer_as_sentences()
-            out_lines.append(raw_line)
-            i += 1
-            continue
+            # Detect list items
+            match = list_item_pattern.match(line)
+            if match:
+                item_indent = match.group(1)
+                marker = match.group(2)
+                content = stripped[match.end():]
 
-        leading_ws = re.match(r"^[ \t]*", raw_line).group(0)
-        if buffer == "":
-            buffer_indent = leading_ws
-            buffer = stripped
-        else:
-            buffer += " " + stripped
+                # Join wrapped lines in content
+                content = " ".join(content.splitlines())
 
-        protected = _protect_abbreviations(buffer)
-        matches = list(sentence_pattern.finditer(protected))
-        if matches:
-            last_end = 0
-            for m in matches:
-                raw_sent = protected[m.start():m.end()]
-                sent = _restore_placeholders(raw_sent).strip()
-                if sent:
-                    out_lines.append(buffer_indent + sent)
-                last_end = m.end()
-            remainder_prot = protected[last_end:].strip()
-            buffer = _restore_placeholders(remainder_prot)
-            if not buffer:
-                buffer_indent = ""
-        i += 1
+                # Split sentences
+                sentences = re.split(r'([.!?])\s+', content)
+                item_sentences = []
+                for i in range(0, len(sentences)-1, 2):
+                    item_sentences.append(sentences[i].strip() + sentences[i+1])
+                if len(sentences) % 2 != 0:
+                    item_sentences.append(sentences[-1].strip())
 
-    if buffer:
-        _flush_buffer_as_sentences()
+                # Recombine sentences with indentation and marker
+                for idx, sent in enumerate(item_sentences):
+                    if idx == 0:
+                        processed_lines.append(f"{item_indent}{marker} {sent}")
+                    else:
+                        processed_lines.append(f"{item_indent}  {sent}")
+            else:
+                # Normal paragraph line: join wrapped lines
+                joined_line = " ".join(stripped.splitlines())
+                # Split sentences
+                sentences = re.split(r'([.!?])\s+', joined_line)
+                para_sentences = []
+                for i in range(0, len(sentences)-1, 2):
+                    para_sentences.append(sentences[i].strip() + sentences[i+1])
+                if len(sentences) % 2 != 0:
+                    para_sentences.append(sentences[-1].strip())
 
-    return "\n".join(out_lines)
+                processed_lines.extend([indent + s for s in para_sentences])
 
+        formatted_paragraphs.append("\n".join(processed_lines))
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Format text so each sentence is on its own line.")
-    parser.add_argument("input_file", help="Input text file")
+    # Step 4: Join paragraphs with a single empty line between them
+    result = "\n\n".join(formatted_paragraphs)
+
+    # Step 5: Restore abbreviations
+    for ph, abbr in abbrev_placeholders.items():
+        result = result.replace(ph, abbr)
+
+    # Step 6: Restore blocks
+    for idx, block in enumerate(block_placeholders):
+        result = result.replace(f"@@BLOCK{idx}@@", block)
+
+    # Step 7: Restore tables
+    for idx, table in enumerate(table_placeholders):
+        result = result.replace(f"@@TABLE{idx}@@", table)
+
+    return result
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Format Markdown so each sentence is on its own line.")
+    parser.add_argument("input_file", help="Input Markdown file")
     parser.add_argument("-o", "--output_file", help="Output file (default: stdout)")
     args = parser.parse_args()
 
     with open(args.input_file, "r", encoding="utf-8") as f:
         text = f.read()
 
-    formatted = format_sentences(text)
+    formatted = format_markdown(text)
 
     if args.output_file:
         with open(args.output_file, "w", encoding="utf-8") as f:
