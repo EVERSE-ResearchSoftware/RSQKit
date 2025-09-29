@@ -3,7 +3,6 @@ title: FAIR Research Software Principles
 page_id: fair_rs
 ---
 
-
 ## FAIR Research Software
 
 FAIR stands for Findable, Accessible, Interoperable, and Reusable and comprises a set of principles designed to increase the visibility and usefulness of your research to others.
@@ -13,10 +12,8 @@ In general, they mean:
 
 - **Findable** - software and its associated metadata must be easy to discover by humans and machines.
 - **Accessible** - in order to reuse software, the software and its metadata must be retrievable by standard protocols, free and legally usable.
-- **Interoperable** - when interacting with other software it must be done by exchanging data and/or metadata through.
-  standardised protocols and application programming interfaces (APIs).
-- **Reusable** - software should be usable (can be executed) and reusable.
-  (can be understood, modified, built upon, or incorporated into other software).
+- **Interoperable** - when interacting with other software it must be done by exchanging data and/or metadata through standardised protocols and application programming interfaces (APIs).
+- **Reusable** - software should be usable (can be executed) and reusable (can be understood, modified, built upon, or incorporated into other software).
 
 Each of the above principles can be achieved by a number of practices listed below.
 This is not an exact science, and by all means the list below is not exhaustive, but any of the practices that you employ in your research software workflow will bring you closer to the gold standard of fully reproducible research.
@@ -27,7 +24,7 @@ This is not an exact science, and by all means the list below is not exhaustive,
 - Create a description of your software to make it discoverable by search engines and other search tools
 - Use standards (such as [CodeMeta][codemeta]) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
 - Place your software in a public software repository (and ideally register it in a [general-purpose or domain-specific software registry][software-registries])
-- Use a unique and persistent identifier (DOI) for your software (e.g. by depositing your code on [Zenodo][zenodo]), 
+- Use a unique and persistent identifier (DOI) for your software (e.g. by depositing your code on [Zenodo][zenodo]),
 which is also useful for citations - note that depositing your data/code on GitHub and similar software repositories may not be enough as they may change their open access model or disappear completely in the future, so archiving your code means it stands a better chance at being preserved
 
 ### Accessible
@@ -36,7 +33,7 @@ which is also useful for citations - note that depositing your data/code on GitH
 
 ### Interoperable
 - Explain the functionality of your software and protocols for interaction with it
-- Use community-agreed standard formats for inputs and outputs of your software and its metadata (e.g. [CodeMeta][codemeta]) 
+- Use community-agreed standard formats for inputs and outputs of your software and its metadata (e.g. [CodeMeta][codemeta])
 - Communicate with other software and tools via standard protocols and APIs
 
 ### Reusable
@@ -46,7 +43,7 @@ which is also useful for citations - note that depositing your data/code on GitH
 - Give a licence to your software clearly stating how it can be reused
 - State how to cite your software, so people can give you credit when they reuse it
 
-## Tools and practices 
+## Tools and practices
 
 There are various tools and practices that support the development of FAIR research software.
 These tools and practices work together, as no single tool or practice will fully address one principle, but can contribute to multiple principles simultaneously.
@@ -66,7 +63,7 @@ Command line terminals (e.g. Bash, GitBash) enable us to run and test our code w
 
 Version control systems are typically provided as command line tools, making them often only accessible from command line terminals to enter commands and access remote version control servers to backing up and sharing our work.
 
-Finally, command line tools are interoperable software that use standard protocols for passing parameters, inputs and outputs via the command line terminal. 
+Finally, command line tools are interoperable software that use standard protocols for passing parameters, inputs and outputs via the command line terminal.
 This makes it easier to integrate with other tools, allowing us to chain command line tools and build up complex and reproducible workflows and analysis pipelines using several programs in different steps.
 If we write our software in a way which provides such an interoperable command line interface - we will be able to integrate it with other command line tools to automate and speed up our work.
 
@@ -89,7 +86,6 @@ Testing also gives other people confidence in your code as they can see an examp
 
 Following coding conventions and guides for your programming language that is agreed upon by the community and other programmers are important practices to ensure that others find it easy to read your code, reuse or extend it in their own examples and applications.
 
-
 ### Code licensing
 
 A licence is a legal document which sets down the terms under which the creator of work (such as written text, photographs, films, music, software code) is releasing what they have created for others to use, modify, extend or exploit.
@@ -100,8 +96,7 @@ A common way to declare your copyright of a piece of software and the license yo
 Some good resources to check out for choosing a licence for your code:
 
 - [The open source guide][opensource-licence-guide] on applying, changing and editing licenses.
-- [choosealicense.com][choosealicense] has some great resources to help you choose a license that is appropriate for your needs, 
-and can even automate adding the LICENSE file to your GitHub code repository.
+- [choosealicense.com][choosealicense] has some great resources to help you choose a license that is appropriate for your needs, and can even automate adding the LICENSE file to your GitHub code repository.
 
 ### Code citation
 
@@ -142,7 +137,6 @@ Here are some tools that can check your software and provide an assessment of it
 - [`How FAIR is your software` - command line tool to evaluate a software repository's compliance with the FAIR principles][howfairis]
 - [CODECHECK][codecheck] - An approach for independent execution of computations underlying research articles.
 
-
 ### Summary
 
 The table below provides a summary of how different tools and practices help with the FAIR software principles.
@@ -164,14 +158,12 @@ The table below provides a summary of how different tools and practices help wit
 | Software repositories & registries                                                                   | x        | x          |               |          |
 | Unique persistent identifiers                                                                        | x        | x          |               |          |
 
-
 ## Training materials
 - The [FAIR Cookbook][fair-cookbook] contains general reusable recipes for FAIR assessment.
 - [10 easy things to make your research software FAIR](https://doi.org/10.5281/zenodo.3409968)
 - Common metrics for Research Software [^5] that may used to assess each of the FAIR4RS principles.
 - [A cookie software project template with FAIR metadata](https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter)
 - [Carpentries course on tools and practices for FAIR Research Software](https://carpentries-incubator.github.io/fair-research-software/)
-
 
 ## References
 [^1]: Wilkinson MD, Dumontier M, Aalbersberg IJ, Appleton G, Axton M, Baak A, Blomberg N, Boiten JW, da Silva Santos LB, Bourne PE, Bouwman J. The FAIR Guiding Principles for scientific data management and stewardship. Scientific data. 2016 Mar 15;3(1):1-9. [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
