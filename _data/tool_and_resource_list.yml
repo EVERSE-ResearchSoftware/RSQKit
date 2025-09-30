@@ -213,12 +213,12 @@
   name: Bearer
   url: https://github.com/bearer/bearer
   catalog: TechRadar
-- decription: The HERMES workflow enables automated publication of rich research software metadata and artifacts to publication repositories using open source tooling.
+- description: The HERMES workflow enables automated publication of rich research software metadata and artifacts to publication repositories using open source tooling.
   id: hermesworkflows
   name: Hermes Workflows
   url: https://docs.software-metadata.pub/en/latest/
   catalog: TechRadar
-- descrption: Generate software citation metadata files with ease. CITATION.cff files are plain text files with human- and machine-readable citation information for software (and datasets).
+- description: Generate software citation metadata files with ease. CITATION.cff files are plain text files with human- and machine-readable citation information for software (and datasets).
   id: cffinitgenerator
   name: CFFINIT Generator
   url: https://citation-file-format.github.io/cff-initializer-javascript/#/

@@ -22,7 +22,7 @@
         '@id': https://w3id.org/everse/i/dimensions/fairness
     source:
         '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
-        name: Accesibility and preservation. RSMD 2.2
+        name: Accessibility and preservation. RSMD 2.2
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
     status: Active
     version: 1.0.0
@@ -51,7 +51,7 @@
         '@id': https://w3id.org/everse/i/dimensions/fairness
     source:
         '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
-        name: Accesibility and preservation. RSMD 2.1
+        name: Accessibility and preservation. RSMD 2.1
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
     status: Active
     version: 1.0.0
@@ -364,7 +364,7 @@
         '@id': https://w3id.org/everse/i/dimensions/fairness
     source:
         '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
-        name: Accesibility and preservation. RSMD 2.3
+        name: Accessibility and preservation. RSMD 2.3
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
     status: Active
     version: 1.0.0
@@ -488,7 +488,7 @@
         name: Andres Montero
     created: 23-05-2025
     description: This indicator tries aims determine if a software project makes use
-        of workflows to automatize processes like testing and deployment.
+        of workflows to automate processes like testing and deployment.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/repository_workflows
     keywords:

@@ -64,7 +64,7 @@ Table below provides a summary to help you choose the right identifier combinati
 | UUIDs                        | Distributed systems, databases       | Not human-readable, doesn’t convey versioning semantics               |
 | Git commit hashes            | Development snapshots| Not always meaningful outside the development context                 |
 
-Bear in mind that if you register your software in a repository or registy, a persistent identifier for it (or its metadata) is often created automatically.
+Bear in mind that if you register your software in a repository or registry, a persistent identifier for it (or its metadata) is often created automatically.
 To find an appropriate registry for your research software, please have a look at the following [awesome list](https://github.com/NLeSC/awesome-research-software-registries).
 
 ## How to obtain and use DOIs for research software?
@@ -97,7 +97,7 @@ Publishing your software in digital research artefact archive services is a valu
 Zenodo and GitHub provide an integration between the two services which makes issuing DOIs for your software stored in GitHub by Zenodo and archiving your software releases on Zenodo easier.
 
 * If you do not have a Zenodo account - create one now (preferably using your GitHub account). This effectively links the two accounts. 
-If you already have a Zenodo account, you can link it to your GitHub account bu navigation to your [Zenodo profile page](https://zenodo.org/account/settings/profile), selecting the `GitHub` tab, then clicking on `Connect` and authorising Zenodo to access your GitHub account.
+If you already have a Zenodo account, you can link it to your GitHub account by navigating to your [Zenodo profile page](https://zenodo.org/account/settings/profile), selecting the `GitHub` tab, then clicking on `Connect` and authorising Zenodo to access your GitHub account.
 * Once connected to GitHub, choose which GitHub repository you would like to create a DOI for under the `Repositories` section in Zenodo.
 This will tell Zenodo to create a DOI for your software project as well as issue a new DOI each time you release a new version of software via GitHub.
 * Back on GitHub, create a release for your software repository (also check out the [releasing software procedure][releasing_software]).
