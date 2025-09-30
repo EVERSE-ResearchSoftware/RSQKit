@@ -1,0 +1,5 @@
+[codespell]
+skip = *.svg,*.js,./_site/*,Gemfile*,Dockerfile*,*.scss,*.css
+count = true
+quiet-level = 3
+ignore-words-list = playwrite,Playwrite,ND
