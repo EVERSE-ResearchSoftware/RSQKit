@@ -145,8 +145,8 @@ while fostering respect among developers.
 4. [How to Write Software Documentation in 7 Simple Steps](https://technicalwriterhq.com/documentation/software-documentation/how-to-write-software-documentation/)
 5. [The Turing Way's "Guide for Reproducible Research"](https://book.the-turing-way.org/reproducible-research/reproducible-research) - section on [project documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project).
 
-[creating_good_readme]: /creating_good_readme
-[licensing_software]: /licensing_software
-[releasing_code]: /releasing_software
-[software_documentation]: /documenting_software
+[creating_good_readme]: ./creating_good_readme
+[licensing_software]: ./licensing_software
+[releasing_code]: ./releasing_software
+[software_documentation]: ./documenting_software
 [creating_readthedocs]: ./documenting_software_readthedocs
