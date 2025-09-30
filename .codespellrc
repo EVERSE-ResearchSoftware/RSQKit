@@ -1,5 +1,0 @@
-[codespell]
-skip = *.svg
-count = true
-quiet-level = 3
-ignore-words-list = playwrite, Playwrite, ND
