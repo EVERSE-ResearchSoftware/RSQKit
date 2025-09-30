@@ -3,6 +3,8 @@ title: Page Style Guidelines
 summary: Comprehensive guidelines for page style and formatting.
 ---
 
+RSQKit uses British English for content.
+
 In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and their more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf).
 Below are the style guidelines specific to the pages in RSQKit (adapted from [RDMkit Style Guide](https://rdmkit.elixir-europe.org/style_guide)).
 
@@ -71,6 +73,10 @@ If in doubt when creating new content, have a look at other existing content of 
  * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause, and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
 * **Titles (the "title" in the front matter of pages):** only the first word, proper nouns and acronyms are capitalised.
 * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
+
+### Spelling
+
+Please make sure you [check content for spelling mistakes](contribution_guidelines#spelling-check) - we provide some tools to help with that.
 
 ## Page graphics
 
