@@ -76,7 +76,7 @@ If in doubt when creating new content, have a look at other existing content of 
 
 ### Spelling
 
-Please make sure you [check content for spelling mistakes](contribution_guidelines#spelling-check) - we provide some tools to help with that.
+Please make sure you [check content for spelling mistakes](./contribution_guidelines#spelling-check) - we provide some tools to help with that.
 
 ## Page graphics
 
