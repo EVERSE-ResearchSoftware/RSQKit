@@ -87,8 +87,9 @@ If you choose to contribute via Git/GitHub's pull requests, you may want to look
 1. Open an issue for your pull request first (unless already opened).
 2. Create a separate branch for your work - either in your own fork of the RSQKit repository or directly in RSQKit repository if you have write access to it. Note that you cannot directly modify the `main` branch in RSQKit repository - you have to do it via a branch and a PR (and this is true for Editors/Maintainers as well).
 3. Make sure that your changes in your (fork and) branch are tested and render correctly in the Web site.
-4. Submit a pull request from your branch back to the RSQKit repository.
-5. If you receive feedback from Editors/Maintainers, make changes on your branch and your pull request will update automatically.
+4. Run a [spell checker](#spelling-check) on the files you changed.
+5. Submit a pull request from your branch back to the RSQKit repository.
+6. If you receive feedback from Editors/Maintainers, make changes on your branch and your pull request will update automatically.
 
 Editorial Board Members will review pull requests and have a final say over what gets merged into RSQKit.
 
@@ -104,9 +105,32 @@ When contributing to this project, please keep in mind the following:
 - Follow our [**Page Style Guidelines**][page-style-guidelines] for the sake of page consistency.
 - Check our [**Metadata Guidelines**][metadata-guidelines] in order to be able to fill in the data and page metadata and to format the layout correctly.
 - Make sure that the content you provide respects copyright.
+- Make sure you [**check spelling**](#spelling-check) and there are no typos.
 - Check the [**Editors Checklist**][editors-checklist] and make sure you have complied with the requirements, to avoid having to resolve many issues during the revision process.
 - If others assisted with your contribution by writing or supplying resources like diagrams or links, be sure to acknowledge them after obtaining their permission.
 - Check [**Installation Instructions**][installation-instructions] if you want to develop and test changes locally on your machine.
+
+### Spelling check
+
+RSQKit uses British English for content.
+Before contributing changes, make sure to run a spell checking programme. 
+RSQKit contains configuration for [`codespell` tool][codespell] in the root of the project in `.codespellrc` file - but you can use another spelling checker if you prefer.
+
+To use `codespell`, you first need to install it (it is a Python tool, so you will need Python installed too).
+
+Next, from the project root, do:
+
+```shell
+pip install codespell
+```
+
+Finally, to run `codespell` on all files from the project root do:
+
+```shell
+codespell
+```
+
+Note that `codespell` will read configuration from `.codespellrc` file and ignore certain files and certain words.
 
 ## Acknowledgement of Contributions
 
@@ -145,3 +169,4 @@ If you find any content unsatisfactory, please feel free to report about it by [
 [pages]: https://github.com/EVERSE-ResearchSoftware/RSQKit/tree/main/pages
 [data]: https://github.com/EVERSE-ResearchSoftware/RSQKit/tree/main/_data
 [rsqkit-repository]: https://github.com/EVERSE-ResearchSoftware/RSQKit
+[codespell]: https://github.com/codespell-project/codespell

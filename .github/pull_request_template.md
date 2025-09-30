@@ -1,6 +1,7 @@
 Before creating a pull request:
 
-- *Please make sure you have checked CONTRIBUTING.md guidelines.*
+- *Please make sure you have checked [Contributing Guidelines](https://everse.software/RSQKit/page_style_guidelines).*
+- *Please maek sure you have checked [Page Style Guidelines](https://everse.software/RSQKit/page_style_guidelines) and [checked for typos and spelling mistakes](https://everse.software/RSQKit/contribution_guidelines#spelling-check).*
 - *Is there a related issue for the fix you are providing? If not, please consider adding one.*
 - *If you are changing files in `data/` or `_includes` folder or `config.yaml` file - please make sure you have discussed this with the maintainers in the relevant issue.*
 
