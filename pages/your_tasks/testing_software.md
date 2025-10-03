@@ -6,17 +6,18 @@ page_id: testing_software
 related_pages:
   your_tasks: []
 quality_indicators: [software_has_tests, software_has_ci-tests]
+keywords: ["software testing", "code testing", "software test", "code test"]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22testing%22
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## What is code testing?
 
 ### Description
 
-[**Code testing**][software-testing] is the process of evaluating code to identify errors or issues, ensuring that the software behaves as expected. 
+[**Code testing**][software-testing] is the process of evaluating code to identify errors or issues, ensuring that the software behaves as expected.
 It is an essential part of software development, aiming to verify that the code functions correctly, meets specified requirements, and performs as intended in various scenarios.
 
 ### Considerations
@@ -32,7 +33,7 @@ Key aspects of code testing include:
 
 ### Description
 
-Being able to demonstrate that a process generates the right results is important in any field of research, whether it is software generating those results or not. 
+Being able to demonstrate that a process generates the right results is important in any field of research, whether it is software generating those results or not.
 So when writing software we need to ask ourselves some key questions:
 
 - Does the code we develop work the way it should do?
@@ -55,14 +56,14 @@ Having well-defined tests for our software is crucial for several reasons, as it
 
 ### Description
 
-As we have already seen, testing code involves checking whether it behaves as expected. 
-There are two main types of testing: [**functional testing**][functional-testing] and [**non-functional testing**][non-functional-testing]. 
-Each type addresses different aspects of the software’s performance and quality and can be achieved via different tests. 
+As we have already seen, testing code involves checking whether it behaves as expected.
+There are two main types of testing: [**functional testing**][functional-testing] and [**non-functional testing**][non-functional-testing].
+Each type addresses different aspects of the software’s performance and quality and can be achieved via different tests.
 Both should be used when testing our software.
 
 #### Functional testing
 
-Functional testing focuses on verifying functional aspects of the code, i.e. that the software's features and functions work as specified. 
+Functional testing focuses on verifying functional aspects of the code, i.e. that the software's features and functions work as specified.
 It ensures that the application behaves according to the requirements and produces the correct outputs for given inputs.
 
 Common types of functional testing include:
@@ -132,11 +133,11 @@ if the software needs to run on multiple platforms, perform compatibility testin
 
 Informal testing is performed by a person who checks the functionality by manually executing the test cases which are then often discarded.
 It is usually done ad-hoc and without any structured approach - for checking new features or fixes quickly.
-For example, by running one function or a piece of code at a time and checking that they behave as expected. 
+For example, by running one function or a piece of code at a time and checking that they behave as expected.
 As input to our code/function we are testing, we typically use some input values for which we know what the correct return value should be.
 
 We can and should extensively test our software manually - it is quick, easy and provides immediate feedback, and is particularly useful as we draft our code for the first time.
-Manual testing is also well-suited to testing aspects such as graphical user interfaces and reconciling visual outputs against inputs. 
+Manual testing is also well-suited to testing aspects such as graphical user interfaces and reconciling visual outputs against inputs.
 However, even with a good test plan, informal and manual testing is prone to error, is very time consuming and suffers from certain other limitations:
 
 - We must reload our functions and repeat our tests each time we change our code
@@ -153,14 +154,12 @@ Unlike with informal testing, these test functions are saved as part of our code
 This is a much better approach as our test cases are documented in these test functions and can also be treated as a form of documentation and help others with understanding how our code is meant to work.
 If our code changes - it is now much easier to change our test functions, compared to remembering everything we tested informally.
 
-We can take this approach one step further by writing a test suite for our code as part of a testing framework - a set of tools used to fully automate the process of running tests and further 
-reduce the risk of human error. 
+We can take this approach one step further by writing a test suite for our code as part of a testing framework - a set of tools used to fully automate the process of running tests and further reduce the risk of human error.
 The use of a testing framework becomes particularly important if your code grows beyond one or two scripts.
 
 #### Use test frameworks to automate testing
 
-Automated testing involves using special testing frameworks (e.g. {% tool "testthat" %} for R, {% tool "pytest" %} for Python, {% tool "junit" %} for Java, {% tool "test-jl" %} module for Julia) to automate and control the execution of tests (which is software separate from the software being tested)
-and the comparison of actual with predicted outcomes. 
+Automated testing involves using special testing frameworks (e.g. {% tool "testthat" %} for R, {% tool "pytest" %} for Python, {% tool "junit" %} for Java, {% tool "test-jl" %} module for Julia) to automate and control the execution of tests (which is software separate from the software being tested) and the comparison of actual with predicted outcomes.
 A test framework comprises a set of rules for creating and designing test cases together with tools that are designed to run these tests efficiently.
 For example, test frameworks typically automatically discover tests based on specific file and function naming patterns (e.g. they look for files or functions that start with “test_” or end with “_test”).
 Such test files are typically located in a special sub-folder (e.g. called `tests`) within a software project, and are version controlled and shared along with the rest of the code.
@@ -178,7 +177,7 @@ Check out the [section "How do we automate code testing?"](#how-do-we-automate-c
 
 ## How do we automate code testing?
 
-### Description 
+### Description
 
 In test automation, we usually use [test automation frameworks][test-automation-frameworks] to let the computer execute our test cases.
 Thus is in contrast to [manual testing][manual-testing], where a person is executing test cases by hand.
@@ -186,18 +185,15 @@ Test automation frameworks typically accept a list of test cases that need to be
 Compared to manual testing, test automation can cover a larger number of test cases, is less costly, less time-consuming and less error prone.
 Test automation is also critical for [Continuous Integration (CI)][continuous-integration] (including continuous testing) and Continuous Delivery (CD).
 
-[Continuous Integration (CI)][continuous-integration] is the process of integrating code changes into the main development branch of your software 
-early and often. 
+[Continuous Integration (CI)][continuous-integration] is the process of integrating code changes into the main development branch of your software early and often.
 For this to be possible, we need to be able to execute steps such as building and testing the software automatically each time there is a change in the code.
 Hence, testing is an integral part and a widely accepted use case of CI.
 Testing in a CI pipeline goes one step further compared to the sole use of test automation frameworks.
-In addition to using the test automation framework locally and starting the execution of test within it manually, 
-CI determines when and how to execute our test cases automatically and runs them on an integration machine.
-For example, as soon as a commit is pushed or a merge to a software development branch is performed, the integration machine starts a CI pipeline and 
-executes the test cases and reports the test results in the so-called CI job log.
+In addition to using the test automation framework locally and starting the execution of test within it manually, CI determines when and how to execute our test cases automatically and runs them on an integration machine.
+For example, as soon as a commit is pushed or a merge to a software development branch is performed, the integration machine starts a CI pipeline and executes the test cases and reports the test results in the so-called CI job log.
 Popular examples of CI infrastructures include {% tool "github-actions" %} and {% tool "gitlab-ci-cd" %}.
 
-### Considerations 
+### Considerations
 
 Benefits of using automated testing frameworks:
 
@@ -207,7 +203,7 @@ Benefits of using automated testing frameworks:
 - Maximum test coverage - it enables the execution of a large number of test cases, including various test scenarios, edge cases and configurations (operating systems, environments, platforms, etc.) that would be difficult to cover with manual testing.
 - Increased reusability of code - it reduces the effort required to write new test scripts for similar test cases and promotes a modular approach to testing.
 
-[**Test Patterns**][test-patterns] describe good practices that can be applied to your test automation as well as test cases. 
+[**Test Patterns**][test-patterns] describe good practices that can be applied to your test automation as well as test cases.
 Here are a few examples of these principles:
 
 - *Fully automated*:

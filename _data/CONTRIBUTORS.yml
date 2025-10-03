@@ -2,7 +2,7 @@
 #
 # Full Name:
 #    git: github id (required)
-#    email: email adress
+#    email: email address
 #    orcid: orcid id
 #    role: the role of the contributor (current possible values "editor" or leave empty)
 #    affiliation: affiliation
@@ -161,4 +161,13 @@ Tom François:
     email: tom.francois@lapp.in2p3.fr
     orcid: 0000-0001-5226-3089
     affiliation: CNRS-LAPP
+    role: contributor
+Johan Gustafsson:
+    affiliation: Australian Biocommons
+    orcid: 0000-0002-2977-5032
+    role: contributor
+Denis Barclay:
+    git: Denis-Barclay
+    affiliation: Software Sustainability Institute
+    orcid: 0009-0008-5567-3786
     role: contributor

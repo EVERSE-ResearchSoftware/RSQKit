@@ -6,31 +6,30 @@ page_id: ci_cd
 indicators: [software_has_ci-tests]
 related_pages: 
   your_tasks: [task_automation_github_actions, task_automation_gitlab_ci_cd]
+keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
 training:
-   - name: Training in EVERSE TeSS
-     registry: TeSS
-     url: https://everse-training.app.cern.ch/materials?q=%22ci%22+%22cd%22+%22ci%2Fcd%22+%22continuous+integration%22+%22continuous+deployment%22
+  - name: "EVERSE TeSS"
+    registry: TeSS
+    url: "https://everse-training.app.cern.ch"
 ---
 
 ## How can you use CI/CD in software development?
 
-### Description 
+### Description
 
-CI (Continuous Integration) and CD (Continuous Delivery/Continuous Deployment) are software development 
-practices aimed at automating and improving the process of software integration, testing, and delivery.
+CI (Continuous Integration) and CD (Continuous Delivery/Continuous Deployment) are software development practices aimed at automating and improving the process of software integration, testing, and delivery.
 
 #### Continuous Integration (CI)
 
-Continuous Integration refers to the practice of frequently integrating code changes into a shared repository, 
-ideally multiple times a day. Every code change/integration is verified by an automated build which:
+Continuous Integration refers to the practice of frequently integrating code changes into a shared repository, ideally multiple times a day.
+Every code change/integration is verified by an automated build which:
 
 - Helps detect code errors and integration issues quickly. 
 - Automates the testing and building process to increase developer productivity.
 
 #### Continuous Delivery (CD)
 
-Continuous Delivery ensures that code changes are automatically prepared for release to production, but the actual
-deployment to production is still a manual decision.
+Continuous Delivery ensures that code changes are automatically prepared for release to production, but the actual deployment to production is still a manual decision.
 
 - Ensures software is always in a deployable state.
 - Minimises manual steps in the release process.
@@ -79,7 +78,7 @@ also provide CI/CD processes and services built around code repositories - e.g. 
   - {% tool "kubernetes" %} - for orchestration, enabling deployment, scaling and management of containerised applications.
 - Monitoring - tools like Prometheus, Grafana, and New Relic are used for real-time monitoring in production to ensure system health.
 - Infrastructure as Code (IaC) - tools like {% tool "terraform" %}, {% tool "vagrant" %} or {% tool "ansible" %} automate infrastructure provisioning and configuration, ensuring consistency across environments.
- 
+
 
 [task_automation_github_actions]: ./task_automation_github_actions
 [task_automation_gitlab_ci_cd]: ./task_automation_gitlab_ci_cd
