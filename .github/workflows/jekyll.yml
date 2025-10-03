@@ -45,16 +45,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      # - name: Install Python dependencies
-      #   run: |
-      #     pip install -r _scripts/requirements.txt
-
-      # - name: Run discrepancy check script
-      #   run: python _scripts/compare_rsqkit_techradar_tools.py
-      #   env:
-      #     # This token is included to avoid github.com requests to error out with status 429 (too many requests). It only works for GitHub requests (also other GitHub REST API calls), not for the rest of the web.
-      #     GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: |
