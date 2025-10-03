@@ -5,20 +5,15 @@ contributors: ["Robert Speck", "Aleksandra Nenadic"]
 description: Software development and quality guidance for researchers who code
 ---
 
-Researchers who code are academics or research domain experts who write software or scripts as part of their research workflow. 
+Researchers who code are academics or research domain experts who write software or scripts as part of their research workflow.
 Their main focus is research, not the software — but coding is often essential for data analysis, simulations, modelling or automation in research.
-They may come from disciplines like physics, life sciences, environmental sciences, humanities, etc. and their 
-coding skills are often self-taught and developed organically out of necessity rather than formal training.
-When compared to the role of an [Research Software Engineer (RSE)](./research_software_engineer) - whose primary goal is to build sustainable, reliable, 
-and reusable software to support research often in different domains - the primary goal of researchers who code is to 
-conduct novel research and use code to solve domain-specific problems and they focus on scientific questions, experimentation, and data interpretation.
+They may come from disciplines like physics, life sciences, environmental sciences, humanities, etc. and their coding skills are often self-taught and developed organically out of necessity rather than formal training.
+When compared to the role of an [Research Software Engineer (RSE)](./research_software_engineer) - whose primary goal is to build sustainable, reliable, and reusable software to support research often in different domains - the primary goal of researchers who code is to conduct novel research and use code to solve domain-specific problems and they focus on scientific questions, experimentation, and data interpretation.
 
-While the term RSE is well established in many countries, not everyone involved in writing research software identifies with it. 
-Many researchers—whether they are physicists, biologists, engineers, or social scientists — prefer to define themselves by 
-their domain rather than by their software contributions. This broad community may not formally fall under the RSE label, 
-but they still benefit greatly from adopting research software engineering practices. 
-Whether it is publishing code, choosing a license, or writing tests, these skills are essential for anyone developing 
-software in a research context. 
+While the term RSE is well established in many countries, not everyone involved in writing research software identifies with it.
+Many researchers—whether they are physicists, biologists, engineers, or social scientists — prefer to define themselves by their domain rather than by their software contributions.
+This broad community may not formally fall under the RSE label, but they still benefit greatly from adopting research software engineering practices.
+Whether it is publishing code, choosing a license, or writing tests, these skills are essential for anyone developing software in a research context.
 The term "researcher who codes" helps acknowledge and include this group — meeting them where they are, without requiring a shift in professional identity.
 Primary focus and responsibilities of Research Software Engineers (RSEs) and researchers are compared in the table below.
 

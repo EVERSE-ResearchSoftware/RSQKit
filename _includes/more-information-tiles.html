@@ -1,0 +1,209 @@
+{%- if page.training %}
+{%- assign actual_training = nil %}
+{%- for training in page.training %}
+{%- if training.name %}
+{%- assign actual_training = 1 %}
+{%- endif %}
+{%- endfor %}
+{%- endif %}
+
+{%- if page.page_id and site.theme_variables.headings.resource-table-all-collapse%}
+{%- assign tools = site.data.tool_and_resource_list | where:"related_pages", page.page_id %}
+{%- unless tools.size == 0 %}
+{%- assign actual_tools = 1 %}
+{%- endunless %}
+{%- assign country_pages = site.pages | where_exp: "item", "item.search_exclude != true" | where_exp:"item","item.national_resources != nil" %}
+{%- unless country_pages.size == 0 %}
+{%- assign tool_matches_total = 0 %}
+{%- assign query = "related_pages." | append: page.type %}
+{%- for country_page in country_pages %}
+{%- assign tool_matches = country_page.national_resources | where_exp:"resource","resource.related_pages != nil" | where: query, page.page_id %}
+{%- assign tool_matches_total = tool_matches_total | plus: tool_matches.size %}
+{%- endfor %}
+{%- endunless %}
+{%- unless tool_matches_total == 0 %}
+{%- assign actual_nat_tools = 1 %}
+{%- endunless %}
+{%- endif %}
+
+{%- if actual_training or actual_tools or actual_nat_tools %}
+<h2 class="mb-4">{{site.theme_variables.headings.more-information-tiles | default: 'More information' }}</h2>
+{%- endif %}
+
+{%- if actual_fairsharing %}
+<!-- FAIRsharing -->
+<a data-bs-toggle="collapse" href="#fairsharing_collapse" role="button" aria-expanded="false" aria-controls="fairsharing_collapse" class="d-flex align-items-baseline pb-3 border-top info-collapse">
+    <h3 class="mb-0 flex-grow-1 mt-3 text-dark">Links to FAIRsharing</h3><i class="fa-solid fa-chevron-down fs-5"></i>
+</a>
+<div class="collapse info-card" id="fairsharing_collapse">
+    <div class="mt-2 p-3 pb-5">
+        <img alt="FAIRsharing logo" class="img-fluid info-logo mb-4" src="{{ 'assets/img/fairsharing_logo.svg' | relative_url }}">
+        <p><a href="https://fairsharing.org/">FAIRsharing</a> is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.</p>
+        <div class="row row-cols-1 row-cols-md-2 gy-2 gx-4 info-links">
+            {%- for standard in page.fairsharing %}
+            <div class="col">
+                <a class="btn text-start d-flex align-items-center h-100" href="{{ standard.url }}">
+                    {{standard.name}}
+                </a>
+            </div>
+            {%- endfor %}
+        </div>
+    </div>
+</div>
+{%- endif %}
+
+{%- if actual_faircookbook %}
+<!-- FAIR Cookbook -->
+<a data-bs-toggle="collapse" href="#faircookbook_collapse" role="button" aria-expanded="false" aria-controls="faircookbook_collapse" class="d-flex align-items-baseline pb-3 border-top info-collapse">
+    <h3 class="mb-0 flex-grow-1 mt-3 text-dark">Links to FAIR Cookbook</h3><i class="fa-solid fa-chevron-down fs-5"></i>
+</a>
+<div class="collapse info-card" id="faircookbook_collapse">
+    <div class="mt-2 p-3 pb-5">
+        <img alt="FAIR Cookbook logo" class="img-fluid info-logo mb-4" src="{{ 'assets/img/faircookbook_logo.svg' | relative_url }}">
+        <p><a href="https://faircookbook.elixir-europe.org/">FAIR Cookbook</a> is an online, open and live resource for the Life Sciences with recipes that help you to make and keep data Findable, Accessible, Interoperable and Reusable; in one word FAIR.</p>
+        <div class="row row-cols-1 row-cols-md-2 gy-2 gx-4 info-links">
+            {%- for recipe in page.faircookbook %}
+            <div class="col">
+                <a class="btn text-start d-flex align-items-center h-100" href="{{ recipe.url }}">
+                    {{recipe.name}}
+                </a>
+            </div>
+            {%- endfor %}
+        </div>
+    </div>
+</div>
+{%- endif %}
+
+{%- if actual_dsw %}
+<!-- DSW -->
+<a data-bs-toggle="collapse" href="#dsw_collapse" role="button" aria-expanded="false" aria-controls="dsw_collapse" class="d-flex align-items-baseline pb-3 border-top info-collapse">
+    <h3 class="mb-0 flex-grow-1 mt-3 text-dark">Links to DSW</h3><i class="fa-solid fa-chevron-down fs-5"></i>
+</a>
+<div class="collapse info-card" id="dsw_collapse">
+    <div class="mt-2 p-3 pb-5">
+        <img alt="DSW logo" class="img-fluid info-logo mb-4" src="{{ 'assets/img/dsw_logo.svg' | relative_url }}">
+        <p>With <a href="https://ds-wizard.org/">Data Stewardship Wizard</a> (DSW), you can create, plan, collaborate, and bring your data management plans to life with a tool trusted by thousands of people worldwide — from data management pioneers, to international research institutes.</p>
+        <div class="row row-cols-1 row-cols-md-2 gy-2 gx-4 info-links">
+            {%- for question in page.dsw %}
+            <div class="col">
+                <a class="btn text-start d-flex align-items-center h-100" href="{{ site.dsw_deep_link_prefix | append: question.uuid }}">
+                    {{question.name}}
+                </a>
+            </div>
+            {%- endfor %}
+        </div>
+    </div>
+</div>
+{%- endif %}
+
+{%- if actual_rdmkit %}
+<!-- RDMkit -->
+<a data-bs-toggle="collapse" href="#rdmkit_collapse" role="button" aria-expanded="false" aria-controls="rdmkit_collapse" class="d-flex align-items-baseline pb-3 border-top info-collapse">
+    <h3 class="mb-0 flex-grow-1 mt-3 text-dark">Links to RDMkit</h3><i class="fa-solid fa-chevron-down fs-5"></i>
+</a>
+<div class="collapse info-card" id="rdmkit_collapse">
+    <div class="mt-2 p-3 pb-5">
+        <img alt="RDMkit logo" class="img-fluid info-logo mb-4" src="{{ 'assets/img/rdmkit_logo.svg' | relative_url }}">
+        <p><a href="https://rdmkit.elixir-europe.org/">RDMkit</a> is the Research Data Management toolkit for Life Sciences describing best practices and guidelines to help you make your data FAIR (Findable, Accessible, Interoperable and Reusable)</p>
+        <div class="row row-cols-1 row-cols-md-2 gy-2 gx-4 info-links">
+            {%- for rdmdoc in page.rdmkit %}
+            <div class="col">
+                <a class="btn text-start d-flex align-items-center h-100" href="{{ rdmdoc.url }}">
+                    {{rdmdoc.name}}
+                </a>
+            </div>
+            {%- endfor %}
+        </div>
+    </div>
+</div>
+{%- endif %}
+
+
+{%- if actual_training %}
+<!-- Training -->
+<a data-bs-toggle="collapse" href="#training_collapse" role="button" aria-expanded="false" aria-controls="training_collapse" class="d-flex align-items-baseline pb-3 border-top info-collapse">
+    <h3 class="mb-0 flex-grow-1 mt-3 text-dark">Training</h3><i class="fa-solid fa-chevron-down fs-5"></i>
+</a>
+<div class="collapse info-card" id="training_collapse">
+    <div class="mt-2 p-3 pb-5">
+        <div class="row">
+            {%- for training in page.training %}
+                {%- assign registry = training.registry | downcase %}
+                {% assign search_url = training.url %}
+                {%- if registry == "tess" %}
+                    {% assign search_query = page.keywords | join: " OR " | url_encode %}
+                    {% assign search_url = search_url | append: "/search?q=" | append: search_query %}
+            {% endif %}
+            {%- if registry == "tess"%}
+                <!-- Show TeSS search results in a preview widget plus an external link to link to search results in TeSS -->
+                <link rel="stylesheet" property="stylesheet" href="https://elixirtess.github.io/TeSS_widgets/css/tess-widget.css"/>
+                <div><strong>EVERSE TeSS search results:</strong></div>
+                <div id="tess-widget-materials-list" class="tess-widget tess-widget-list"></div>
+                <script>
+                    function initTeSSWidgets() {
+
+                        class SimpleListWithLinkRenderer extends TessWidget.Renderers.SimpleList {
+                            initialize () {
+                                super.initialize();
+                                this.link = document.createElement('a');
+                                this.link.target = '_blank';
+                                this.container.appendChild(this.link);
+                            }
+
+                            render (errors, data, response) {
+                                super.render(errors, data, response);
+                                this.link.innerHTML = ''; // Clear link.
+                                if (data.meta['results-count'] > 0) {
+                                    this.link.href = response.req.url;
+                                    this.link.textContent = `View ${data.meta['results-count']} ${data.meta['results-count'] > 1 ? 'results' : 'result'} on ${this.widget.instanceName}`;
+                                }
+                            }
+                        }
+
+                        TessWidget.Materials(document.getElementById('tess-widget-materials-list'),
+                            SimpleListWithLinkRenderer,
+                            {
+                                opts: {
+                                    enableSearch: false
+                                },
+                                params: {
+                                    pageSize: 5,
+                                    q: '{{ page.keywords | join: " OR " }}'
+                                },
+                                baseUrl: '{{ training.url }}',
+                                instanceName: '{{ training.name }}'
+                            });
+                    }
+                </script>
+                <script async="" defer="" src="https://elixirtess.github.io/TeSS_widgets/js/tess-widget-standalone.js" onload="initTeSSWidgets()"></script>
+                {% else %}
+                    <div class=" row-cols-1 row-cols-md-2 gy-2 gx-4 info-links">
+                        <a class="btn d-grid h-100" href="{{ search_url }}">
+                            <div class="row g-1">
+                                <div class="col-2 d-flex align-items-center justify-content-center">
+                                    {%- if registry == "tess" %}
+                                        <img alt="TeSS logo" class="img-fluid" src="{{ 'assets/img/tess_logo.svg' | relative_url }}">
+                                    {%- elsif registry == "zenodo" %}
+                                        <img alt="Zenodo logo" class="img-fluid" src="{{ 'assets/img/zenodo_logo.svg' | relative_url }}">
+                                    {%- elsif registry == "youtube" %}
+                                        <img alt="YouTube logo" class="img-fluid" src="{{ 'assets/img/youtube_logo.svg' | relative_url }}">
+                                    {%- elsif registry == "carpentries" %}
+                                        <img alt="Carpentries" class="img-fluid" src="{{ 'assets/img/carpentries_logo.svg' | relative_url }}">
+                                    {%- elsif registry == "github" %}
+                                        <i class="fa-brands fa-github text-dark fa-2xl my-3"></i>
+                                    {%- else %}
+                                        <i class="fa-solid fa-external-link-alt text-primary fa-lg my-3"></i>
+                                    {%- endif %}
+                                </div>
+                                <div class="col-10 d-flex align-items-center">
+                                    <span class="text-start">{{training.name}}</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                {%endif %}
+            {%- endfor %}
+        </div>
+    </div>
+</div>
+{%- endif %}

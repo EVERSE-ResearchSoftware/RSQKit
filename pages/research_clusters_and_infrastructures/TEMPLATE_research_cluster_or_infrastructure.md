@@ -7,11 +7,17 @@ page_id: # unique page id, e.g. lowercase title words separated by underscore(s)
 type: research_cluster_or_infrastructure
 ---
 
-<!-- Please keep all sections and fill them in. If this is not possible for any reason - you may remove them (you might need to explain to the Editorial Board in your pull request why certain sections are not present). The text describing what is needed in the sections can be removed. This comment can be deleted in your final page. -->
+<!-- Please keep all sections and fill them in.
+If this is not possible for any reason - you may remove them (you might need to explain to the Editorial Board in your pull request why certain sections are not present).
+The text describing what is needed in the sections can be removed.
+This comment can be deleted in your final page.
+-->
 
-<!-- Once you have completed your research cluster or infrastructure entry - please add it to _data/sidebars/main.yml under the Reseach Clusters & Infrastructures entry in alphabetical order. -->
+<!-- Once you have completed your research cluster or infrastructure entry - please add it to _data/sidebars/main.yml under the Research Clusters & Infrastructures entry in alphabetical order.
+-->
 
-<!-- All comment sections like this one can be deleted in your final page. -->
+<!-- All comment sections like this one can be deleted in your final page.
+-->
 
 <!-- Please provide links to allow further discovery -->
 
@@ -28,5 +34,3 @@ type: research_cluster_or_infrastructure
 ## Software & Services
 
 - List some of the main services and software used in the research cluster or infrastructure
-
-

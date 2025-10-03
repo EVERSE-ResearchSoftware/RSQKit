@@ -15,580 +15,724 @@
   id: mypy
   name: mypy
   url: https://mypy-lang.org/
+  catalog: TechRadar
 - description: System Package Data Exchange (SPDX) is an open standard for representing systems with software components as SBOMs (Software Bill of Materials) and other AI, data and security references supporting a range of risk management use cases.
   id: spdx
   name: SPDX
   url: https://spdx.org/licenses/
-- description: RSQKit is a platform that curates quality practices in research software. It links to tools, resources, quality metrics, and training to support implementing these practices, while also highlighting the importance of roles like Research Software Engineers (RSEs) and career development in the field.
+  catalog: RSQKit
+- description: RSQKit is a platform that curates quality practices in research software. It links to tools, recatalogs, quality metrics, and training to support implementing these practices, while also highlighting the importance of roles like Research Software Engineers (RSEs) and career development in the field.
   id: rsqkit
   name: RSQKit
   url: https://everse.software/RSQKit/ 
-- description: Choose an open source license is a tool to help you choose an open source license for your software. An open source license protects contributors, users and developers.
+  catalog: RSQKit
+- description: Choose an open catalog license is a tool to help you choose an open source license for your software. An open source license protects contributors, users and developers.
   id: choosealicense
   name: Choose an open source license
   url: https://choosealicense.com/
+  catalog: TechRadar
 - description: Bash, which stands for - Bourne Again SHell, is a command-line interface and scripting language commonly used in Unix and Unix-like operating systems. It provides a powerful environment for executing commands, managing files, and automating tasks through scripts.
   id: bash
   name: Bash
   url: https://www.gnu.org/software/bash/
+  catalog: RSQKit
 - description: PowerShell is a Microsoft task automation and configuration management framework, featuring a command-line shell and a scripting language. It is designed to help system administrators and power users control and automate the administration of Windows and other Microsoft technologies.
   id: powershell
   name: PowerShell
   url: https://learn.microsoft.com/en-gb/powershell/
+  catalog: RSQKit
 - description: OpenCL (Open Computing Language) is an open standard for parallel programming across various platforms, including CPUs, GPUs, and other processors. It enables developers to write programs that execute across heterogeneous computing systems, allowing for high-performance computing in applications like scientific simulations, image processing, and machine learning.
   id: opencl
   name: OpenCL
   url: https://www.khronos.org/opencl/
+  catalog: RSQKit
 - descpription: CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platform and programming model that enables developers to use GPU-accelerated computing for general-purpose processing. It provides a software layer that gives direct access to the GPU's virtual instruction set and parallel computational elements, allowing dramatic performance increases for compute-intensive applications.
   id: cuda
   name: CUDA
   url: https://developer.nvidia.com/cuda-zone
+  catalog: RSQKit
 - description: Rust is a systems programming language focused on memory safety, concurrency, and performance without using garbage collection, enforcing memory safety through its unique ownership system and borrowing rules. It combines low-level control with high-level abstractions, making it suitable for everything from operating systems to WebAssembly applications.
   id: rust
   name: Rust
   url: https://www.rust-lang.org/
+  catalog: RSQKit
 - description: Julia is a high-performance programming language designed for numerical and scientific computing that combines the speed of C with the ease of use of Python. It features multiple dispatch, optional typing, and excellent parallel processing capabilities, making it particularly strong for mathematical computations, data science, and machine learning applications.
   id: julia
   name: Julia
   url: https://julialang.org/
+  catalog: RSQKit
 - description: R is a programming language and environment designed for statistical computing and graphics, widely used by data scientists, statisticians, and researchers. Known for its extensive libraries and rich visualization capabilities, R excels in data analysis, modelling, and reproducible research.
   id: r
   name: R
   url: https://www.r-project.org/
+  catalog: RSQKit
 - description: TypeScript is a strongly typed superset of JavaScript that adds static typing and advanced tooling capabilities, enhancing code quality and developer productivity. Designed for building scalable applications, TypeScript compiles to plain JavaScript, ensuring compatibility with existing JavaScript environments.
   id: typescript
   name: TypeScript
   url: https://www.typescriptlang.org/
+  catalog: RSQKit
 - description: JavaScript is a lightweight, high-level programming language primarily used to create interactive and dynamic content on web pages, running seamlessly in browsers. Known for its versatility, JavaScript supports event-driven, functional, and object-oriented programming, making it essential for modern web development and widely used alongside HTML and CSS.
   id: javascript
   name: JavaScript
   url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  catalog: RSQKit
 - description: C++ is a high-performance, general-purpose programming language that supports both procedural and object-oriented paradigms, offering fine-grained control over system resources. Known for its versatility and efficiency, C++ is widely used in applications requiring high speed and precision, such as game development, operating systems, and real-time simulations.
   id: cpp
   name: C++
   url: https://isocpp.org/
+  catalog: RSQKit
 - description: Python is an interpreted, high-level, object-oriented programming language known for its dynamic typing, readability, and extensive standard library, making it ideal for rapid development and modular, reusable code.
   id: python
   name: Python
   url: https://www.python.org/
+  catalog: RSQKit
 - description: Java is a versatile, object-oriented programming language designed to be platform-independent, with its “write once, run anywhere” capability enabled by the Java Virtual Machine (JVM).
   id: java
   name: Java
   url: https://www.java.com/en/
+  catalog: RSQKit
 - description: "Docker is a tool for creating isolated environments (application isolation) for software development called containers to enable consistent software running across platforms. 
   Docker allows developers to build, share, run and verify applications easily. DockerHub is a repository for sharing and managing container images."
   id: docker
   name: Docker
   registry:
   url: https://www.docker.com/
+  catalog: TechRadar
 - description: "Docker Compose is a tool for defining and running multi-container applications for streamlined and efficient development and deployment experience."
   id: docker-compose
   name: Docker Compose
   url: https://docs.docker.com/compose/
+  catalog: TechRadar
 - description: Howfariris is a command line tool to analyze a GitHub or GitLab repository's compliance with the EU FAIR software recommendations.
   id: howfairis
   name: howfairis
   url: https://github.com/fair-software/howfairis
+  catalog: TechRadar
 - description: GitHub is a platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control. GitHub provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
   id: github
   name: GitHub
   url: https://github.com/
+  catalog: RSQKit
 - description: Zenodo is a general-purpose open repository developed under the European OpenAIRE program and operated by CERN. It allows researchers to deposit research papers, data sets, research software, reports, and other research-related digital artefacts.
   id: zenodo
   name: Zenodo
   url: https://zenodo.org/
+  catalog: RSQKit
 - description: Figshare is a provider of open research repository infrastructure for sharing, showcasing and managing all research outputs in a discoverable, citable, reportable and transparent way.
   id: figshare
   name: FigShare
   url: https://figshare.com/
+  catalog: RSQKit
 - description: Visual Studio Code, commonly referred to as VS Code, is an Integrated Development Environment (IDE) developed by Microsoft that includes support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded version control with Git.
   id: vscode
   name: Visual Studio Code
   url: https://code.visualstudio.com/
+  catalog: TechRadar
 - description: Integrated development environment (IDE) written in Java.
   id: intellij-idea
   name: IntelliJ IDEA
   url: https://www.jetbrains.com/fr-fr/idea/
+  catalog: TechRadar
 - description: Python packaging and dependency management tool
   id: poetry
   name: Poetry
   url: https://python-poetry.org/
+  catalog: TechRadar
 - description: Official third-party software repository for Python packages
   id: pypi
   name: Python Package Index (PyPi)
   url: https://pypi.org/
+  catalog: TechRadar
 - description: Python library to programmatically manage the ESCAPE OSSR; also includes a CodeMeta generator and validator
   id: eossr
   name: eOSSR
   url: https://gitlab.com/escape-ossr/eossr
+  catalog: TechRadar
 - description: Generative artificial intelligence chatbot developed by OpenAI and able to produce code or answer questions on code
   id: chatgpt
   name: ChatGPT
   url: https://chatgpt.com/
+  catalog: TechRadar
 - description: Documentation generator for Java used to generate API documentation in HTML format from Java source code
   id: javadoc
   name: JavaDoc
   url: https://www.oracle.com/java/technologies/javase/javadoc-tool.html
+  catalog: TechRadar
 - description: Static website generation based on Go
   id: hugo
   name: Hugo
   url: https://gohugo.io/
+  catalog: TechRadar
 - description: Static website generation based on Python
   id: pelican
   name: Pelican
   url: https://getpelican.com/
+  catalog: TechRadar
 - description: A GitLab tool that publishes static websites directly from a GitLab repository
   id: gitlab-pages
   name: GitLab Pages
   url: https://docs.gitlab.com/ee/user/project/pages/
+  catalog: TechRadar
 - description: Publish static websites directly from GitHub repository
   id: github-pages
   name: GitHub Pages
   url: https://pages.github.com/
+  catalog: TechRadar
 - description: GitHub's infrastructure for continuous integration, deployment and delivery
   id: github-actions
   name: GitHub Actions
   url: https://github.com/features/actions
+  catalog: TechRadar
 - description: GitLab's infrastructure for continuous integration, deployment and delivery
   id: gitlab-ci-cd
   name: GitLab CI/CD
   url: https://docs.gitlab.com/ee/topics/build_your_application.html
+  catalog: TechRadar
 - description: Bandit is a tool designed to find common security issues in Python code.
   id: bandit
   name: Bandit
   url: https://github.com/PyCQA/bandit
+  catalog: TechRadar
 - description: Framework for Web testing and automation, allowing testing using Chromium, Firefox and WebKit with a single API
   id: playwrite
   name: Playwrite
   url: https://playwright.dev/docs/intro
+  catalog: TechRadar
 - description: The Score-P (Scalable Performance Measurement Infrastructure for Parallel Codes) measurement infrastructure is a highly scalable and easy-to-use tool suite for profiling and event trace recording of HPC applications.
   id: scorep
   name: Score-P
   url: https://gitlab.com/score-p/scorep
+  catalog: TechRadar
 - description: Original version for automated assessment of data FAIRness; extended version (POC only - not all metrics are implemented) for research software based on the FAIR4RS principles.
   id: fuji
   name: F-UJI
   url: https://github.com/softwaresaved/fuji/
+  catalog: TechRadar
 - description: Bearer CLI is a static application security testing (SAST) tool that scans your source code and analyzes your data flows to discover, filter and prioritize security and privacy risks.
   id: bearer
   name: Bearer
   url: https://github.com/bearer/bearer
-- decription: The HERMES workflow enables automated publication of rich research software metadata and artifacts to publication repositories using open source tooling.
+  catalog: TechRadar
+- description: The HERMES workflow enables automated publication of rich research software metadata and artifacts to publication repositories using open source tooling.
   id: hermesworkflows
   name: Hermes Workflows
   url: https://docs.software-metadata.pub/en/latest/
-- descrption: Generate software citation metadata files with ease. CITATION.cff files are plain text files with human- and machine-readable citation information for software (and datasets).
+  catalog: TechRadar
+- description: Generate software citation metadata files with ease. CITATION.cff files are plain text files with human- and machine-readable citation information for software (and datasets).
   id: cffinitgenerator
   name: CFFINIT Generator
   url: https://citation-file-format.github.io/cff-initializer-javascript/#/
+  catalog: TechRadar
 - description: A free, open-source project that creates a minimal metadata schema for research software and code
   id: codemetagenerator
   name: CodeMeta Generator
   url: https://codemeta.github.io/codemeta-generator
+  catalog: TechRadar
 - description: CodeMeta is a community standard and initiative focused on creating a minimal metadata schema for scientific software and code, promoting their findability, preservation, and reuse through machine-readable metadata in JSON-LD format.
   id: codemeta
   name: CodeMeta
   url: https://codemeta.github.io/
+  catalog: RSQKit
 - description: Software Quality Assessment as a Service - the Quality Assessment & Awarding building block analysing the level of completeness with the FAIR4RS reference criteria for any given release of your software
   id: sqaaas
   name: SQAaas
   url: https://sqaaas.eosc-synergy.eu/
+  catalog: TechRadar
 - description: SAST tool for detecting and preventing hardcoded secrets like passwords, API keys, and tokens in code stored in Git repositories
   id: gitleaks
   name: gitleaks
   url: https://github.com/gitleaks/gitleaks
+  catalog: TechRadar
 - description: Automated Python code formatter
   id: black
   name: Black
   url: https://github.com/psf/black
+  catalog: TechRadar
 - description: A framework for managing and maintaining multi-language pre-commit hooks
   id: precommit
   name: precommit
   url: https://pre-commit.com/
+  catalog: TechRadar
 - description: Automate the declaring of copyright and licensing for software projects with SPDX Tags
   id: reuse
   name: REUSE
   url: https://reuse.software/
+  catalog: TechRadar
 - description: Guided approach to assess the FAIRness of data
   id: fairaware
   name: FAIR Aware
   url: https://fairaware.dans.knaw.nl/
+  catalog: TechRadar
 - description: Creative Commons license chooser to help you select an appropriate Creative Commons license
   id: creativecommons-licence-chooser
   name: Creative Commons License Chooser
   url: https://chooser-beta.creativecommons.org/
+  catalog: TechRadar
 - description: A tool for creating static documentation for software projects from Markdown
   id: mkdocs
   name: MKDocs
   url: https://www.mkdocs.org/
+  catalog: TechRadar
 - description: Test automation framework for Python
   id: pytest
   name: Pytest
   url: https://docs.pytest.org/en/latest/
+  catalog: TechRadar
 - description: Unit Testing for R
   id: testthat
   name: testthat
   url: https://testthat.r-lib.org/
+  catalog: RSQKit
 - description: Test module for Julia
   id: test-jl
   name: Test.jl
   url: https://docs.julialang.org/en/v1/stdlib/Test/
+  catalog: RSQKit
 - description: Python testing tool
   id: tox
   name: tox
   url: https://tox.wiki/en/4.23.2/
+  catalog: TechRadar 
 - description: Test automation framework for Java
   id: junit
   name: JUnit
   url: https://junit.org/junit5/
+  catalog: TechRadar
 - description: CPP testing tool
   id: cppunit
   name: CPPUnit
   url: https://freedesktop.org/wiki/Software/cppunit/
+  catalog: TechRadar
 - description: "Apptainer (formerly Singularity) simplifies the creation and execution of containers, ensuring software components are encapsulated for portability and reproducibility, especially in High Performance Computing (HPC) environments."
   id: apptainer
   name: Apptainer
   url: https://apptainer.org/
+  catalog: TechRadar
 - description: "Singularity is an open source container platform allows us to create and run containers that package up pieces of software in a way that is portable and reproducible.
   Singularity is designed for ease-of-use on shared multiuser systems and in High Performance Computing (HPC) environments. Singularity is compatible with all Docker images and it can be used with GPUs and MPI applications."
   id: singularity
   name: Singularity
   url: https://sylabs.io/singularity/
+  catalog: TechRadar
 - description: "Packer is an automated build system to manage the creation of identical images for containers and virtual machines (multiple platforms) from a single source configuration, encapsulating 'Images as Code' philosophy. 
   Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel."
   id: packer
   name: Packer
   url: https://www.packer.io/
+  catalog: RSQKit
 - description: An extremely fast Python linter and code formatter written in Rust
   id: ruff
   name: Ruff
   url: https://docs.astral.sh/ruff/
+  catalog: TechRadar
 - description: Static code analysis tool for Python
   id: pylint
   name: Pylint
   url: https://pylint.readthedocs.io/en/stable/
+  catalog: TechRadar
 - description: Dockerfile linter
   id: hadolint
   name: Hadolint
   url: https://github.com/hadolint/hadolint
+  catalog: TechRadar
 - description: Static code analysis tool for Python
   id: flake8
   name: Flake8
   url: https://flake8.pycqa.org/en/latest/
+  catalog: TechRadar
 - description: Static code analysis tool for Java
   id: checkstyle
   name: Checkstyle
-  url: https://sourceforge.net/projects/checkstyle/
+  url: https://catalogforge.net/projects/checkstyle/
+  catalog: TechRadar
 - description: Code coverage analysis tool
   id: gcov
   name: Gcov
   url: https://gcc.gnu.org/onlinedocs/gcc/Gcov.html
+  catalog: TechRadar
 - description: Detect memory management and threading bugs, run profiling to see how to speed up your programs
   id: valgrind
   name: Valgrind
   url: https://valgrind.org/
+  catalog: TechRadar
 - description: Data Version Control - to help you manage and version images, audio, video, and text files in storage and organise your ML modeling process into a reproducible workflow
   id: dvc
   name: DVC
   url: https://dvc.org/
+  catalog: TechRadar
 - description: Generate automated pull requests updating dependencies for projects
   id: dependabot
   name: Dependabot
   url: https://github.com/dependabot/dependabot-core
+  catalog: TechRadar
 - description: Continuous inspection of code quality to perform automatic reviews for static analysis of code
   id: sonarqube
   name: SonarQube
-  url: https://www.sonarsource.com/products/sonarqube/
+  url: https://www.sonarcatalog.com/products/sonarqube/
+  catalog: TechRadar
 - description: Automates Web browser interaction from Python - Selenium WebDriver is often used as a basis for testing Web applications
   id: selenium
   name: Selenium
   url: https://pypi.org/project/selenium/
+  catalog: TechRadar
 - description: For building publication-quality books and documents from computational material
   id: jupyterbook
   name: Jupyter-Book
   url: https://pypi.org/project/jupyter-book/
+  catalog: TechRadar
 - description: Distributed version control system designed to handle everything from small to very large projects with speed and efficiency
   id: git
   name: Git
   url: https://git-scm.com/
+  catalog: TechRadar
 - description: Automation server to support building, testing and deploying software
   id: jenkins
   name: Jenkins
   url: https://www.jenkins.io/
+  catalog: TechRadar
 - description: CI platform to support building, testing and deploying software
   id: travis
   name: Travis
   url: https://www.travis-ci.com/
+  catalog: TechRadar
 - description: Kubernetes is a container orchestration platform that manages the deployment, scaling, and operation of containerised applications.
   id: kubernetes
   name: Kubernetes
   url: https://kubernetes.io/
+  catalog: TechRadar
 - description: Software Build System.
   id: cmake
   name: CMake
   url: https://cmake.org/
+  catalog: TechRadar
 - description: "NixOS is a free and open-source Linux distribution based on the Nix package manager. 
   It uses declarative configuration (using the Nix language) to manage packages and the entire system environment - allowing for reproducibility and portability."
   id: nixos
   name: NixOS
   url: https://nixos.org/
+  catalog: TechRadar
 - description: Package manager.
   id: guix
   name: Guix
   url: https://guix.gnu.org/
+  catalog: TechRadar
 - description: Package manager. 
   id: rpm
   name: RPM
   url: https://rpm.org/
+  catalog: TechRadar
 - description: Helpdesk software, ticketing system
   id: zammad
   name: Zammad
   url: https://zammad.com/en
+  catalog: RSQKit
 - description: InvenioRDM is a turn-key research data management (RDM) repository based on Invenio Framework and Zenodo
   id: inveniordm
   name: InvenioRDM
   url: https://inveniosoftware.org/products/rdm/
+  catalog: RSQKit
 - description: Software Heritage archive is the largest public collection of source code in existence. It Collects, preserves, curates and makes available software in source code form as cultural heritage
   id: softwareheritage
   name: Software Heritage
   url: https://www.softwareheritage.org
+  catalog: TechRadar
 - description: Service to validate JSON-LD files
   id: jasonldvalidator
   name: JSON-LD validator
   url: https://json-ld.org/playground
+  catalog: RSQKit
 - description: Software Metadata Extraction Framework (SOMEF) is a command line tool for automatically extracting relevant software information from README files
   id: somef
   name: SOMEF
   url: https://github.com/KnowledgeCaptureAndDiscovery/somef
+  catalog: TechRadar
 - description: Somef Vider is a web application that retrieves the metadata of the given GitHub repository through the Software Metadata Extraction Framework (SOMEF) and shows it in a user-friendly way.
   id: somefvider
   name: SOMEF Vider
   url: https://somef.linkeddata.es/
+  catalog: RSQKit
 - description: Read the Docs serves as a documentation building and hosting platform aimed at helping developers create documentation from code
   id: readthedocs
   name: Read the Docs
   url: https://about.readthedocs.com/
+  catalog: RSQKit
 - description: Documentation generator from reStructuredText files primarily for Python, but also supports other languages - C++, C, JavaScript.
   id: sphinx
   name: Sphinx
   url: https://www.sphinx-doc.org
+  catalog: TechRadar
 - description: DevOps platform that enables teams to collaborate, plan, develop, test, and deploy software using an integrated toolset for version control, CI/CD, and project management.
   id: gitlab
   name: GitLab
   url: https://about.gitlab.com/
+  catalog: TechRadar
 - description: An online tool to estimate the carbon footprint of computational tasks using a web calculator
   id: greenalgorithms
   name: Green Algorithms
   url: https://www.green-algorithms.org/
+  catalog: RSQKit
 - description: CodeCarbon is a software package that integrates into Python codebase and estimates the amount of carbon dioxide (CO2) produced by the cloud or personal computing resources used to execute the code
   id: codecarbon
   name: CodeCarbon
   url: https://codecarbon.io/
+  catalog: RSQKit
 - description: Greenspector is a tool that measures energy usage and resource efficiency in web and mobile applications
   id: greenspectorstudio
   name: Greenspector Studio
   url: https://greenspector.com/en/home/
+  catalog: RSQKit
 - description: carbontracker tracks and predicts the energy consumption and carbon footprint of training deep learning models
   id: carbontracker
   name: carbontracker
   url: https://github.com/lfwa/carbontracker
+  catalog: RSQKit
 - description: Evaluates website sustainability based on design and operational efficiency
   id: ecograder
   name: Ecograder
   url: https://ecograder.com/
+  catalog: RSQKit
 - description: Style guide for Python code
   id: pep8
   name: PEP8
   url: https://peps.python.org/pep-0008/
+  catalog: RSQKit
 - description: Google’s R code style guide
   id: r-language-style-guide
   name: R Style Guide
   url: https://google.github.io/styleguide/Rguide.html
+  catalog: RSQKit
 - description: Static code analysis tools
   id: code-linters
   name: Code Linters
   url: https://en.wikipedia.org/wiki/Lint_%28software%29
+  catalog: RSQKit
 - description: Style guidelines (a set of conventions about how to write code for a project) used for Google code.
   id: google-programming-style-guide
   name: Google’s programming style guide
   url: https://google.github.io/styleguide/
+  catalog: RSQKit
 - description: PyCharm is a free Python Integrated Development Environment (IDE) for application, data science and web development.
   id: pycharm
   name: PyCharm
   url: https://www.jetbrains.com/pycharm/
+  catalog: RSQKit
 - description: Eclipse is a free and open-source Integrated Development Environment (IDE) used for Java development, with support for developing applications in other programming languages too.
   id: eclipse
   name: Eclipse
   url: https://eclipseide.org/
+  catalog: RSQKit
 - description: JSDoc is a tool and a markup language that serves as an API documentation generator for JavaScript, similar to Javadoc.
   id: jsdoc
   name: JSDoc
   url: https://jsdoc.app/
+  catalog: RSQKit
 - description: Python Docstring Generator (autoDocstring) is a Visual Studio Code extension to quickly generate docstrings for python functions.
   id: python-docstring-generator
   name: Python Docstring Generator
   url: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+  catalog: RSQKit
 - description: Doxygen is a documentation generator tool in software development for C++ (and also C, Python, PHP, Java, C#, Objective-C, Fortran, VHDL, Splice, IDL, and Lex)
   id: doxygen
   name: Doxygen
   url: https://www.doxygen.nl/
+  catalog: TechRadar
 - description: A suite of tools for API developers that generate APIs from code (and the basis for the OpenAPI Specification)
   id: swagger
   name: Swagger
   url: https://swagger.io/
+  catalog: RSQKit
 - description: Roxygen2 is an R package that makes it easier to document R code, especially functions, datasets, and packages.
   id: roxygen
   name: Roxygen
   url: https://roxygen2.r-lib.org/
+  catalog: RSQKit
 - description: Mercurial is a free, distributed source control management tool. Ιt efficiently handles projects of any size and offers an easy and intuitive interface
   id: mercurial
   name: Mercurial
   url: https://www.mercurial-scm.org/
+  catalog: RSQKit
 - description: Subversion is a centralized version control system used to manage and track changes to files and directories over time. It is particularly popular for managing source code in software development but can be used for any type of file.
   id: subversion
   name: Subversion
   url: https://github.com/apache/subversion
+  catalog: RSQKit
 - description: Highly scalable development and DevOps solutions designed to deliver dynamic development, intelligent testing and risk management environment
   id: perforce
   name: Perforce
   url: https://www.perforce.com/
+  catalog: RSQKit
 - description: Git Large File Storage is an open source Git extension for versioning large files, such as audio samples, videos, datasets, and graphics.
   id: git-lfs
   name: Git Large File Storage
   url: https://git-lfs.github.com/
+  catalog: RSQKit
 - description: RStudio is an Integrated Development Environment (IDE) for R, a programming language for statistical computing and graphics.
   id: rstudio
   name: RStudio
   url: https://posit.co/download/rstudio-desktop/
+  catalog: RSQKit
 - description: pip is the package installer for Python. It allows you to install and manage additional libraries and dependencies that are not part of the Python standard library.
   id: pip
   name: pip
   url: https://pypi.org/project/pip/
+  catalog: RSQKit
 - description: uv is an extremely fast Python package and project manager, written in Rust.
   id: uv
   name: uv
   url: https://github.com/astral-sh/uv
+  catalog: RSQKit
 - description: venv is a Python module for creating lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories
   id: venv
   name: venv
   url: https://docs.python.org/3/library/venv.html
+  catalog: RSQKit
 - description: renv is an R package that helps you create reproducible environments for your R projects - use renv to make your R projects more isolated, portable and reproducible
   id: renv
   name: renv
   url: https://rstudio.github.io/renv/index.html
+  catalog: RSQKit
 - description: Open-source, cross-platform, language-agnostic package manager and environment management system - originally developed to solve package management challenges faced by Python data scientists
   id: conda
   name: Conda
   url: https://anaconda.org/anaconda/conda
+  catalog: RSQKit
 - description: Semantic versioning (SemVer) is a widely-adopted version scheme that encodes a version of a project by a three-part version number (MAJOR.MINOR.PATCH), an optional pre-release tag, and an optional build meta tag.
   id: semantic-versioning
   name: Semantic Versioning
   url: https://semver.org/
+  catalog: RSQKit
 - description: Calendar Versioning (CalVer) is a versioning convention based on your project's release calendar, instead of arbitrary numbers.
   id: calendar-versioning
   name: Calendar Versioning
   url: https://calver.org/
+  catalog: RSQKit
 - description: Pkg.jl is a package manager for the Julia programming language.
   id: pkg-jl
   name: Pkg.jl
   url: https://pkgdocs.julialang.org/v1/
-- description: Conan is an open source, decentralised and multi-platform package manager for C and C++ that allows for creating and sharing native binaries.
+  catalog: RSQKit
+- description: Conan is an open catalog, decentralised and multi-platform package manager for C and C++ that allows for creating and sharing native binaries.
   id: conan
   name: Conan
   url: https://conan.io/
+  catalog: RSQKit
 - description: Maven is a software project management and build automation tool used primarily for Java, but can also be used to build and manage projects written in C#, Ruby, Scala, and other programming languages.
   id: maven
   name: Maven
   url: https://maven.apache.org/
+  catalog: RSQKit
 - description: Bundler is a Ruby gems and environment management tool for Ruby projects.
   id: bundler
   name: Bundler
   url: https://bundler.io/
+  catalog: RSQKit
 - description: FAIR Python Cookiecutter is a cookiecutter template command-line tool to help you kickstart a modern best-practice Python project with FAIR metadata
   id: fair-python-coockiecutter
   name: FAIR Python Coockiecutter
   url: https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter
+  catalog: TechRadar
 - description: Documenter.jl is a documentation generator for Julia, a package for building documentation from docstrings and markdown files.
   id: documenter-jl
   name: Documenter.jl
-  url: https://documenter.juliadocs.org/stable/  
+  url: https://documenter.juliadocs.org/stable/
+  catalog: RSQKit
 - description: Prettier is a code formatter to enforce a consistent style with its own rules for different languages, including JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular, GraphQL, Markdown, and YAML.
   id: prettier-code-formatter
   name: Prettier
   url: https://prettier.io/
+  catalog: RSQKit
 - description: Modern Fortran is high-performance parallel programming language that is especially suited to numeric computation and scientific computing.
   id: fortran
   name: Fortran
   url: https://fortran-lang.org/
+  catalog: RSQKit
 - description: Vagrant is a tool that simplifies and provides a single workflow for the creation and management of virtual machines, and provides full VM isolation.
   id: vagrant
   name: Vagrant
   url: https://www.vagrantup.com/
+  catalog: RSQKit
 - description: Ansible is a suite of open source command line tools (written in Python) that enables Infrastructure as Code (IaC) - including configuring systems, deploying software, and orchestrating workflows, known for its simplicity and ease of use.
   id: ansible
   name: Ansible
   url: https://docs.ansible.com/ansible/latest/getting_started/index.html
+  catalog: RSQKit
 - description: Terraform is a powerful and one of the most popular Infrastructure as Code (IaC) tools that enables infrastructure management across multiple cloud providers using a simple, declarative language,
   id: terraform
   name: Terraform
   url: https://www.terraform.io/
+  catalog: RSQKit
 - description: Workflow Description Language (WDL) is an open standard for describing data processing workflows with a human-readable and writeable syntax.
   id: wdl
   name: Workflow Description Language
   url: https://openwdl.org/
+  catalog: RSQKit
 - description: Galaxy is a free, open-source workflow management system for analysing data, authoring workflows, training and education, publishing tools, and managing infrastructure.
   name: Galaxy
   id: galaxy
   url: https://galaxyproject.org/
+  catalog: RSQKit
 - description: Keras is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only) to build and train models for computer vision, natural language processing, audio processing, timeseries forecasting, recommender systems, etc.
   id: keras
   name: Keras
   url: https://github.com/keras-team/keras
+  catalog: RSQKit
 - description: Tortellini Action is GitHub action to run licence analysis on a GitHub repository.
   id: tortellini-action
   name: tortellini-action
   url: https://github.com/marketplace/actions/tortellini-action
+  catalog: TechRadar
 - description: Somesy (software metadata sync) is a CLI tool to avoid messy software project metadata by keeping it in sync.
   id: somesy
   name: Somesy
   url: https://github.com/Materials-Data-Science-and-Informatics/somesy
+  catalog: TechRadar
 - description: Claude is a a generative artificial intelligence chatbot developed by Anthropic and able to produce code or answer questions on code.
   id: claude
   name: Claude
   url: https://claude.ai/new
+  catalog: TechRadar
 - description: Github Copilot is a code completion and automatic programming tool developed by GitHub and OpenAI that assists users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code.
   id: github-copilot
   name: Github Copilot
   url: https://github.com/features/copilot
+  catalog: RSQKit
 - description: Jupyter Book is a tool to build publication quality books and documents from computational material.
   id: jupyter-book 
   name: Jupyter Book
   url: https://pypi.org/project/jupyter-book/
+  catalog: RSQKit
 - description: SCANOSS is a tool that helps identify and manage open-source components in software by scanning for licenses, vulnerabilities, and compliance risks.
   id: scanoss
   name: SCANOSS
   url: https://www.scanoss.com/
+  catalog: TechRadar
 - description: Nextflow is a workflow management system that enables scalable, reproducible, and portable scientific workflows for research and production use cases.
   name: Nextflow
   id: nextflow
   url: https://www.nextflow.io
+  catalog: RSQKit
 - description: Snakemake is a workflow management system and language to create reproducible and scalable data analyses. Workflows are described via a human readable, Python based language.
   name: Snakemake
   id: snakemake
   url: https://snakemake.readthedocs.io
+  catalog: RSQKit
 - description: Parsl is a flexible and scalable parallel programming library for Python that enables parallel and asynchronous execution of data-oriented workflows.
   name: Parsl
   id: parsl
   url: https://parsl.readthedocs.io/en/stable/userguide/workflows/workflow.html
+  catalog: RSQKit
 - description: Apache Airflow is a platform to programmatically author, schedule and monitor workflows.
   name: Apache Airflow
   id: apache-airflow
   url: https://airflow.apache.org/
+  catalog: RSQKit
 - description: LifeMonitor is a service to support the sustainability and reusability of published computational workflows.
   name: LifeMonitor
   id: lifemonitor
   url: https://lifemonitor.eu
+  catalog: RSQKit
 - description: WorkflowHub is a registry for describing, sharing and publishing scientific computational workflows.
   name: WorkflowHub
   id: workflowhub
   url: https://workflowhub.eu/
+  catalog: RSQKit
