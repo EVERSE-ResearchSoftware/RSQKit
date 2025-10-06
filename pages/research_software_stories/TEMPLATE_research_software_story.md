@@ -19,11 +19,13 @@ This comment can be deleted in your final page.
 
 
 ## The Problem <!-- do not delete this heading and write your text below it -->
+### Add a short one-two liner subtitle for the description of the problem
 
 Describe the problem(s) your software is trying to solve for your community.
 
 
 ## The Community <!-- do not delete this heading and write your text below it -->
+### Add a short one-two liner subtitle about the community/communities that use or will potentially use this software
 
 Describe the community that uses your software
 
@@ -44,32 +46,38 @@ Describe the community that uses your software
 - List any domain/community specific libraries and systems you make use of in your software solutions.
 
 ## Software Practices <!-- do not delete this heading and write your text below it -->
+### Add a short one-two liner subtitle about which software practices are being used and their benefits to the user community
 
 - What practices do you use to develop the software (e.g. version control, contribution policy, licensing, other practices)?
 - What benefits have the developers gained in building their software by applying these software quality practices?
 
 ## Community <!-- do not delete this heading and write your text below it -->
+### Add a short one-two liner subtitle about how the software is being adopted for usage and how a community is being built around it
 
 - How do you onboard new developers?
 - How do you onboard new users?
    - Explain your main user stories (the main types of users, what they want to achieve and what the benefit to them is) 
 
 ## Tools <!-- do not delete this heading and write your text below it -->
+### Add a short one-two liner subtitle about the other tools that help in improving your research software  
 
 - List any tools that you use to help you improve or assess the software quality of your code and a short description of how they help your software. Please refer to [_data/tool_and_resource_list.yml](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/tool_and_resource_list.yml) file in the RSQKit repository and add any ones that are missing.
 - What has been the benefit to the project of using these tools?
 
 ## FAIR & Open <!-- do not delete this heading and write your text below it -->
+### Add a short one-two liner subtitle about how your research software is aligned with FAIR and/or Open practices
 
  - FAIR: see the [FAIR software page in RSQKit](https://everse.software/RSQKit/fair_rs) and [Five recommendations for FAIR software](https://fair-software.eu/) for inspiration - e.g. are there a repository and a license, do you have a community registry/catalogue where the code is available, is it citable, do you have a “good software” checklist?
  - Open: cover how you follow open source practices and open development practices?
  - What has been the benefit of following these open source and open development practices?
 
 ## Documentation <!-- do not delete this heading and write your text below it -->
+### Add a short one-two liner subtitle about how documenting the research software helps the user community using the research software
 
  - How is the documentation for your software presented and maintained?
 
 ## Sustainability <!-- do not delete this heading and write your text below it -->
+### Add a short one-two liner subtitle about how is the research software being made sustainable
 
 - How is the software development lifecycle managed, e.g. are there any governance structures in place?
 - How active is the project? 
