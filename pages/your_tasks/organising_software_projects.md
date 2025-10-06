@@ -122,5 +122,5 @@ For best practices and guidance for designing research projects in particular fo
 [software_metadata]: ./software_metadata
 [cff]: https://citation-file-format.github.io/
 [citing_software]: ./citing_software
-[turing-project-design]: https://book.the-turing-way.org/project-design/pd-design-overview/project-repo/project-repo-advanced
+[turing-project-design]: https://book.the-turing-way.org/project-design/pd-overview/project-repo/project-repo-advanced/
 [directory-structure-poetry]: https://medium.com/@sjalexandre/python-tutorial-managing-projects-with-poetry-cd2deab72697

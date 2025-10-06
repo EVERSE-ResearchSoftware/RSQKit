@@ -100,7 +100,6 @@ functionality in custom, more error-prone code.
 [r-guidelines]: https://google.github.io/styleguide/Rguide.html
 [code-linters]: https://en.wikipedia.org/wiki/Lint_%28software%29
 [modular-code]: https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html
-[design-patterns-book]: https://refactoring.guru/design-pattern
 [design-patterns]: https://en.wikipedia.org/wiki/Software_design_patterns
 [code-is-read-more-than-it-is-written]: https://primalskill.blog/code-is-read-more-than-it-is-written
 [static-vs-dynamic-typing]: https://quorumlanguage.com/evidence.html
