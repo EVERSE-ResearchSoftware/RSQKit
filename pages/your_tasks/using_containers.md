@@ -1,12 +1,12 @@
 ---
-title: Use of Containers
+title: Importance and use of containers
 description: How can you use containers and why should you use it in software development?
 contributors: ["Shraddha Bajare"]
-page_id: containers_for_research
+page_id: using_containers
 related_pages: 
   your_tasks: [ci_cd]
 keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
-keywords: ["containers", "docker", "singularity", "software packaging", "reproducibility", "portable environments", "containerization", "software deployment"]
+keywords: ["containers", "docker", "apptainer", "software packaging", "reproducibility", "portable environments", "containerization", "software deployment"]
 training:
   - name: "EVERSE TeSS"
     registry: TeSS

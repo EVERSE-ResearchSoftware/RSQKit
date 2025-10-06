@@ -120,6 +120,8 @@ subitems:
         url: /ci_cd
       - title: "Improving environmental sustainability"
         url: /improving_environmental_sustainability
+      - title: "Using containers"
+        url: /using_containers
   - title: All tools and resources
     url: /all_tools_and_resources
     description: Browse tools and resources for research software quality
