@@ -16,39 +16,36 @@ training:
 
 ## How to provide complete bibliographic metadata as a CodeMeta file?
 
-### Description
+### Why It Matters
 
-Creating a `codemeta.json` file involves compiling comprehensive bibliographic metadata for your software project. This json file facilitates software citation, discovery, and reuse by providing structured metadata in a machine-readable format. Complete bibliographic metadata includes persistent identifiers, detailed contributor roles, and licensing information, thereby fulfilling the standard criteria for scholarly attribution.
+Creating a `codemeta.json` file is like giving your software a passport. 
+It makes your project easy to find, cite, and use. 
+This file helps others understand what your software does and who contributed to it.
 
-### Considerations
+### What to Focus On
 
-When creating a `codemeta.json` file, it's important to ensure your software is discoverable, and by following the standard you ensure contributors get recognition and that legal aspects are clear.
+When you're setting up a `codemeta.json` file, keep these things in mind:
 
-- **Standard Compliance**: Follow the CodeMeta schema to ensure compatibility and interoperability with various platforms.
-- **Updates**: Regularly update the file to reflect changes in the software, such as new versions or additional contributors.
-- **JSON-LD Compliance**: Ensure the file is valid JSON-LD (see Validation below), and that it includes the `@context` property linking to the CodeMeta standard.
-- **Persistent Identifiers (PIDs)**: Use DOIs in the `identifier` field for long-term reference, obtained from platforms like Zenodo.
-- **Contributor Details**: Use the `Person` schema for contributors and include ORCID iDs in the `identifier` property for all primary `author` and `contributor` entries.
-- **License Field**: Use a recognized SPDX identifier for unambiguous licensing, where SPDX stands for Software Package Data Exchange.
-- **Funder Information**: Include funder details as `Organization` types with identifiers like Crossref Funder IDs.
+- **Stick to Standards**: Use the CodeMeta schema. It keeps your file compatible with different platforms.
+- **Keep It Current**: Update the file whenever your software changes. New version? New contributor? Make sure it's reflected.
+- **Check for Errors**: Use a JSON validator to catch any mistakes, e.g., {% tool "jasonldvalidator" %}.
+- **Use Persistent Identifiers**: Add a DOI for long-term reference. Zenodo is a good place to get one.
+- **Detail Contributors**: Use the `Person` schema and include Open Researcher and ORCID iDs for authors and contributors.
+- **Clarify Licensing**: Use a Software Package Data Exchange (SPDX) identifier to make the license clear.
+- **Acknowledge Funders**: Include funder details with identifiers like Crossref Funder IDs.
 
-For more detailed information on software metadata and the use of CodeMeta, refer to the [Software Metadata](./software_metadata) page.
+For more on software metadata, check out the [Software Metadata](./software_metadata) page.
 
-### Solutions
+### How to Create It
 
-To create a complete `codemeta.json` file:
-
-- **Manual Creation**: Follow the CodeMeta schema to manually create the file, using the example template below as a reference.
-- **Use Automated Generation and Augmentation**:
-  - Utilize tools like {% tool "codemetagenerator" %} for an online form-based service or {% tool "somef" %} for command-line generation from existing documentation. Review and manually add detailed attribution (ORCIDs, funder information) afterwards.
-- **Ensure Archival and Persistence**:
-  - Archive a release of your software on a platform that assigns DOIs, such as {% tool "zenodo" %}. Add the resultant DOI to the CodeMeta file's `identifier` field.
-- **Validation**:
-  - Validate the JSON-LD file using a service like {% tool "jasonldvalidator" %} to ensure structural correctness.
+- **Do It Yourself**: You can manually create the file using the CodeMeta schema. Check out the example below.
+- **Use Tools**: Try {% tool "codemetagenerator" %} for a form-based approach or {% tool "somef" %} for command-line generation. Always review and add details like ORCIDs and funder info.
+- **Archive Your Work**: Release your software on a platform that assigns DOIs, like {% tool "zenodo" %}. Add the DOI to your `codemeta.json`.
+- **Validate**: Use a service like {% tool "jasonldvalidator" %} to ensure everything is correct.
 
 #### Example Template
 
-Here is an example of a `codemeta.json` file:
+Here's a sample `codemeta.json` file to get you started:
 
 ```json
 {
@@ -75,8 +72,8 @@ Here is an example of a `codemeta.json` file:
   "issueTracker": "https://github.com/yourusername/your-repo/issues",
   "programmingLanguage": "Python",
   "keywords": ["software", "example", "codemeta"],
-  "dateCreated": "2023-10-01",
-  "dateModified": "2023-10-10",
+  "dateCreated": "Wednesday 1 October 2023",
+  "dateModified": "Wednesday 10 October 2023",
   "softwareRequirements": [
     "numpy",
     "pandas"
@@ -87,11 +84,10 @@ Here is an example of a `codemeta.json` file:
     {
       "@type": "Organization",
       "name": "Funder Name",
-      "identifier": "https://doi.org/10.13039/100000001"  
+      "identifier": "https://doi.org/10.13039/100000001"
     }
   ]
 }
-
 ```
 By following these steps, you can provide complete bibliographic metadata for your software project in a CodeMeta file, enhancing its discoverability and citation.
 
