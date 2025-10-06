@@ -57,17 +57,17 @@ Follow the steps below to create and use containers with Docker or Apptainer for
 
 Depending on your environment and needs:
 
-* {% tool "docker" %}: **Docker** is ideal for general-purpose development and cloud deployment.  
-* {% tool "apptainer" %}: **Apptainer** (formerly Singularity) is better suited for HPC environments where users lack root access.
+* {% tool "docker" %}: is ideal for general-purpose development and cloud deployment.  
+* {% tool "apptainer" %}: (formerly Singularity) is better suited for HPC environments where users lack root access.
 
-Example steps (using Docker):
+Example steps with {% tool "docker" %}:
 
 * Choose a base image (e.g., `python:3.10-slim` for python projects or `ubuntu:22.04` for general purpose linux environments) 
 * Install required packages and dependencies  
 * Define the entry point for your main script (e.g., `CMD ["python", "script.py"]`)  
 * Use multi-stage builds to optimize image size if needed  
 
-With **Apptainer**, you can build containers from existing Docker images using:
+With {% tool "apptainer" %}, you can build containers from existing Docker images using:
 
 ```bash
 apptainer build my_container.sif docker://python:3.10-slim
