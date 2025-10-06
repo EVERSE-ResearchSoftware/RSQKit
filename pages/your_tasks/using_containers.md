@@ -1,12 +1,11 @@
 ---
-title: Importance and use of containers
+title: Use of containers
 description: How can you use containers and why should you use it in software development?
 contributors: ["Shraddha Bajare"]
 page_id: using_containers
 related_pages: 
   your_tasks: [ci_cd]
-keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
-keywords: ["containers", "docker", "apptainer", "software packaging", "reproducibility", "portable environments", "containerization", "software deployment"]
+keywords: ["containers", "docker", "apptainer", "software packaging", "reproducibility", "portability", "containerization", "software deployment"]
 training:
   - name: "EVERSE TeSS"
     registry: TeSS
@@ -58,8 +57,8 @@ Follow the steps below to create and use containers with Docker or Apptainer for
 
 Depending on your environment and needs:
 
-* {% tool "Docker" %}: **Docker** is ideal for general-purpose development and cloud deployment.  
-* {% tool "Apptainer" %}: **Apptainer** (formerly Singularity) is better suited for HPC environments where users lack root access.
+* {% tool "docker" %}: **Docker** is ideal for general-purpose development and cloud deployment.  
+* {% tool "apptainer" %}: **Apptainer** (formerly Singularity) is better suited for HPC environments where users lack root access.
 
 Example steps (using Docker):
 
@@ -78,45 +77,45 @@ apptainer build my_container.sif docker://python:3.10-slim
 
 * Use `docker run` or `apptainer exec` to execute your software in a controlled environment.
 
-Example {% tool "Docker" %} command:
+Example {% tool "docker" %} command:
 
 ```bash
   docker run --rm -v /path/to/data:/data my-docker-image:1.0.0 python /data/experiment.py
 ```
-Example {% tool "Apptainer" %} command:
+Example {% tool "apptainer" %} command:
 ```bash
 apptainer exec my-container.sif python /data/experiment.py
 ```
 
 * Expose ports to run interactive services or web applications inside the container.
 
-Example {% tool "Docker" %} command:
+Example {% tool "docker" %} command:
 
 ```bash
 docker run -p 8080:80 my-docker-image:1.0.0
 ```
-Example {% tool "Apptainer" %} command:
+Example {% tool "apptainer" %} command:
 Apptainer generally does not support port mapping like Docker, as it is designed primarily for HPC environments. For networked services, Docker is usually preferred.
 
 #### 3. Push and pull images using a container registry
 
-* {% tool "Docker" %} push and pull from Docker Hub or GitLab Container Registry.
+* {% tool "docker" %} push and pull from Docker Hub or GitLab Container Registry.
 * Tag and version your images to support reproducibility and traceability.
 
-Example {% tool "Docker" %} tag and push command:
+Example {% tool "docker" %} tag and push command:
 
 ```bash
 docker tag my-docker-image:1.0.0 username/my-docker-image:1.0.0
 docker push username/my-docker-image:1.0.0
 ```
-Example {% tool "Docker" %} pull command:
+Example {% tool "docker" %} pull command:
 
 ```bash
 docker pull username/my-docker-image:1.0.0
 ```
-Example {% tool "Apptainer" %} tag, pull and push command:
+Example {% tool "apptainer" %} tag, pull and push command:
 
-{% tool "Apptainer" %} uses built `.sif` image files and store them in institutional repositories or shared storage. And versioning is managed by naming the `.sif` files accordingly
+{% tool "apptainer" %} uses built `.sif` image files and store them in institutional repositories or shared storage. And versioning is managed by naming the `.sif` files accordingly
 e.g., `my-container-v1.0.0.sif`
 
  
@@ -126,7 +125,7 @@ e.g., `my-container-v1.0.0.sif`
 * Run each job inside a clean, isolated container environment.  
 * Ensures consistent building, testing, and documentation across different systems.
 
-Example CI {% tool "Docker" %}:
+Example CI {% tool "docker" %}:
 
 ```yaml
 pytest:
@@ -137,7 +136,7 @@ pytest:
   script:
     - python -m unittest discover tests/ 
 ```
-Example CI {% tool "Apptainer" %}:
+Example CI {% tool "apptainer" %}:
 
 ```yaml
 pytest:
