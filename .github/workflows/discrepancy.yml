@@ -25,9 +25,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r _scripts/discrepancy_check/requirements.txt || true
+          pip install -r scripts/discrepancy_check/requirements.txt || true
 
       - name: Run discrepancy check script
-        run: python _scripts/discrepancy_check/compare_rsqkit_techradar_tools.py
+        run: python scripts/discrepancy_check/check_rsqkit_techradar_tools_discrepancy.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
