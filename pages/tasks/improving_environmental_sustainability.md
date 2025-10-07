@@ -4,7 +4,7 @@ description: How to measure and improve environmental sustainability of software
 contributors: ["Kirsty Pringle"]
 page_id: improving_environmental_sustainability
 related_pages:
-  your_tasks: []
+  tasks: []
 quality_indicators: []
 keywords: ["sustainability", "environment"]
 training:

@@ -4,7 +4,7 @@ description: How to uniquely identify your software and its versions?
 contributors: ["Shoaib Sufi", "Daniel Garijo", "Thomas Vuillaume", "Aleksandra Nenadic"] 
 page_id: software_identifiers
 related_pages:
-  your_tasks: [releasing_software]
+  tasks: [releasing_software]
 quality_indicators: [persistent_and_unique_identifier]
 keywords: ["software identifier", "software release", "software version", "versioning"]
 training:

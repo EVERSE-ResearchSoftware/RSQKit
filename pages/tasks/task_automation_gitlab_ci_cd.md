@@ -4,7 +4,7 @@ description: How to use and set up GitLab CI/CD for your GitLab repository
 contributors: ["Tom François"]
 page_id: task_automation_gitlab_ci_cd
 related_pages: 
-  your_tasks: [ci_cd, task_automation_github_actions]
+  tasks: [ci_cd, task_automation_github_actions]
 quality_indicators: [software_has_ci-tests]
 keywords: ["ci cd", "ci/cd", "ci", "cd", "task automation", "gitlab ci/cd"]
 training:

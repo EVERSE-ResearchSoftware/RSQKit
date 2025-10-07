@@ -29,17 +29,23 @@ defaults:
       permalink: /:basename
       layout: "page"
       sidebar: main
-
   -
     scope:
-      path: "pages/your_tasks/"
+      path: "pages/compound_tasks/"
     values:
-      type: your_tasks
+      type: compound_tasks
+      type_img: /assets/img/font-awesome-free/arrows-to-dot-solid-full.svg
+      page_citation: false
+  -
+    scope:
+      path: "pages/tasks/"
+    values:
+      type: tasks
       type_img: /assets/img/font-awesome-free/list-check-solid.svg
       page_citation: true
   -
     scope:
-      path: "pages/your_tasks/TEMPLATE_your_tasks.md"
+      path: "pages/tasks/TEMPLATE_tasks.md"
       type: "pages"
     values:
         sitemap: false

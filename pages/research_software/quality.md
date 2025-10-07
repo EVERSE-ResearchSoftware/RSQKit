@@ -19,7 +19,7 @@ do not break previous behavior or introduce unexpected bugs and that tests are r
 In short, **quality software** enables researchers to trust, share, and build upon computational work — an essential part of making science transparent and verifiable.
 However, reproducible computational research often requires that researchers implement new practices and learn new tools to be able to produce **quality software**.
 
-RSQKit is designed to offer [guidance](your_tasks) and introduce [tools](all_tools_and_resources) that have proven to be valuable across different [research communities](research_clusters_and_infrastructures) when developing software that supports scientific work in a reproducible and reliable way.
+RSQKit is designed to offer [guidance](tasks) and introduce [tools](all_tools_and_resources) that have proven to be valuable across different [research communities](research_clusters_and_infrastructures) when developing software that supports scientific work in a reproducible and reliable way.
 A key aspect of the project is the formal definition of [software quality dimensions](rs_quality) and the identification of various [indicators](rs_quality) that help assess and improve these aspects.
 
 ### FAIR Research Software

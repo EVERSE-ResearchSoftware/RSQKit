@@ -4,7 +4,7 @@ description: How to test your software?
 contributors: ["Aleksandra Nenadic", "Christian Hüser", "Patrick Bos"]
 page_id: testing_software
 related_pages:
-  your_tasks: []
+  tasks: []
 quality_indicators: [software_has_tests, software_has_ci-tests]
 keywords: ["software testing", "code testing", "software test", "code test"]
 training:

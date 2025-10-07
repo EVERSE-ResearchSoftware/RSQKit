@@ -5,7 +5,7 @@ description: "" # a description of the page
 contributors: [] # a comma separated list of contributors' names, as found in _data/CONTRIBUTORS.yml
 page_id: # unique page id, e.g. lowercase title words separated by underscore(s) - for example page_id of 'version control' page could be version_control
 related_pages:
-  your_tasks: [] # A comma-separated page_ids of the task pages that are related to the current page
+  tasks: [] # A comma-separated page_ids of the task pages that are related to the current page
 quality_indicators: [] # a comma separated list of indicators related to this page, according to the ids in https://w3id.org/everse/i/indicators/
 keywords: [] # a comma separated list of keywords related to this page (surround multi word terms in quotes), e.g. keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
 training: # A list of training resources relevant for this task or problem (e.g from TeSS registry or elsewhere)

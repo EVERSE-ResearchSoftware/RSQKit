@@ -126,7 +126,7 @@ To refer to a tool or a resource in a page, use the following syntax:
 {% endraw %}
 
 All tools and resources mentioned on a page will be listed in a table at the bottom of the page as well as under "[All Tools and Resources](all_tools_and_resources)" page.
-Have a look at an [example task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/zenodo_doi.md) for how this syntax is used in practice.
+Have a look at an [example task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/tasks/zenodo_doi.md) for how this syntax is used in practice.
 
 ## Software quality indicator metadata
 

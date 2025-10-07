@@ -4,7 +4,7 @@ description: How to create a good README document for software projects?
 contributors: ["Esteban González", "Aleksandra Nenadic", "Daniel Garijo"]
 page_id: creating_good_readme
 related_pages:
-  your_tasks: [documenting_software]
+  tasks: [documenting_software]
 quality_indicators: [software_has_documentation]
 keywords: ["readme"]
 training:

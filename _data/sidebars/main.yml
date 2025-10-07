@@ -58,7 +58,7 @@ subitems:
         url: /panosc
       - title: SSHOC
         url: /sshoc
-  - title: Research Software Stories
+  - title: Research software stories
     url: /research_software_stories
     image_url: /assets/img/font-awesome-free/people-group-solid.svg
     description: Examples of research software and their quality practices
@@ -77,9 +77,16 @@ subitems:
         url: /policy_maker
       - title: Trainer
         url: /trainer
-  - title: Your tasks
+  - title: Compound tasks
+    description: Compound tasks around software that are made up of multiple smaller tasks
+    url: /compound_tasks
+    image_url: /assets/img/font-awesome-free/arrows-to-dot-solid-full.svg
+    subitems:
+      - title: "Publishing software"
+        url: /publishing_software
+  - title: Tasks
     description: Guidelines and solutions for tackling common software tasks
-    url: /your_tasks
+    url: /tasks
     image_url: /assets/img/font-awesome-free/wrench-solid.svg
     subitems:
       - title: "Choosing languages, tools & infrastructures"
