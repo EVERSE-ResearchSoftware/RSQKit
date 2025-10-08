@@ -77,13 +77,6 @@ subitems:
         url: /policy_maker
       - title: Trainer
         url: /trainer
-  - title: Compound tasks
-    description: Compound tasks around software that are made up of multiple smaller tasks
-    url: /compound_tasks
-    image_url: /assets/img/font-awesome-free/arrows-to-dot-solid-full.svg
-    subitems:
-      - title: "Publishing software"
-        url: /publishing_software
   - title: Tasks
     description: Guidelines and solutions for tackling common software tasks
     url: /tasks
@@ -123,6 +116,8 @@ subitems:
         url: packaging_releasing_software
       - title: "Archiving software"
         url: archiving_software
+      - title: "Publishing software"
+        url: /publishing_software
       - title: "Computational workflows"
         url: computational_workflows
       - title: Continuous Integration & Deployment
