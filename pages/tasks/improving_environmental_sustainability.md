@@ -58,7 +58,7 @@ Similarly, the [GREENER software principles](https://www.nature.com/articles/s43
 * [GreenDiSC](https://www.software.ac.uk/GreenDiSC) is a certification scheme for research groups (and central sustainability teams) that focuses on hardware and software.  
 
 #### Evaluation Frameworks
-* [Software Carbon Intensity (SCI) Specification](https://greensoftware.foundation/standards/sci) is an assessment framework for assessing and reducing software carbon intensity.
+* [Software Carbon Intensity (SCI) Specification](https://sci.greensoftware.foundation/) is an assessment framework for assessing and reducing software carbon intensity.
 
 #### Tools to monitor emissions
 

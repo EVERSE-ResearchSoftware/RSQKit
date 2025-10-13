@@ -18,4 +18,4 @@ Based on the comparison, the contributors will need to update the description fi
 After execution, a summary of the discrepancies will be provided, highlighting the tools with description differences and suggesting which description (RSQkit or TechRadar) is more accurate.
 
 ### CI Integration:
-This script is executed automatically on the CI pipeline under the job named `Run discrepancy check script`. This ensures that the comparison and discrepancy check are run regularly, maintaining consistency and accuracy without manual intervention.
+This script is executed automatically on the CI pipeline under separate workflow named `Discrepancy Check`. This ensures that the comparison and discrepancy check are run regularly, maintaining consistency and accuracy without manual intervention.
