@@ -96,10 +96,6 @@ subitems:
         url: /code_review
       - title: "Testing software"
         url: /testing_software
-      - title: "Task automation using GitHub Actions"
-        url: /task_automation_github_actions
-      - title: "Task automation using GitLab CI/CD"
-        url: /task_automation_gitlab_ci_cd
       - title: "Licensing software"
         url: /licensing_software
       - title: "Citing software"
@@ -122,6 +118,11 @@ subitems:
         url: computational_workflows
       - title: Continuous Integration & Deployment
         url: /ci_cd
+        subitems:
+          - title: "Task automation using GitHub Actions"
+            url: /task_automation_github_actions
+          - title: "Task automation using GitLab CI/CD"
+            url: /task_automation_gitlab_ci_cd
       - title: "Improving environmental sustainability"
         url: /improving_environmental_sustainability
   - title: All tools and resources
