@@ -1,7 +1,10 @@
+import sys
 import yaml
 from collections import OrderedDict
+
 """
-This script reads from YAML file "input.yaml", reorders the keys of each dictionary according to a specified order,
+This script reads from a YAML file passed as a command-line argument,
+reorders the keys of each dictionary according to a specified order,
 and prints the result to stdout in proper YAML format.
 """
 
@@ -27,8 +30,15 @@ def represent_ordereddict(dumper, data):
 
 yaml.add_representer(OrderedDict, represent_ordereddict)
 
+# Check if filename is provided as argument
+if len(sys.argv) < 2:
+    print("Usage: python script.py <input_file>")
+    sys.exit(1)
+
+input_file = sys.argv[1]
+
 # Read the YAML file
-with open("input.yaml", "r") as f:
+with open(input_file, "r") as f:
     data = yaml.safe_load(f)
 
 # Reorder keys
