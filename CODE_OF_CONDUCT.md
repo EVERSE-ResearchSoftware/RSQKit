@@ -37,7 +37,7 @@ Examples of unacceptable behaviour by the RDMkit community members at any projec
 * violent threats or language directed against another person
 * the display of sexual or violent images
 * unwelcome sexual attention
-* nonconsensual or unwelcome physical contact
+* non-consensual or unwelcome physical contact
 * sustained disruption of talks, events or communications
 * insults or put downs
 * sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
@@ -50,7 +50,7 @@ Examples of unacceptable behaviour by the RDMkit community members at any projec
 ### Consequences of unacceptable behaviour
 
 Participants who are asked to stop any inappropriate behaviour are expected to comply immediately.
-This applies to all RDMkit community events and platforms, either online or in-person.
+This applies to all RDMKit community events and platforms, either online or in-person.
 If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund), or impose any other appropriate sanctions (see the [enforcement manual](#4-enforcement-manual) for details).
 
 <!--
@@ -68,7 +68,7 @@ All are used under the creative commons attribution license.
 The Carpentries Code of Conduct was adapted from guidelines written by the [Django Project](https://www.djangoproject.com/conduct/enforcement-manual/), which was itself based on the [Ada Initiative template](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports) and the [PyCon 2013 Procedure for Handling Harassment Incidents](https://us.pycon.org/2013/about/code-of-conduct/harassment-incidents/).
 Contributors to the Carpentries Code of Conduct were: Adam Obeng, Aleksandra Pawlik, Bill Mills, Carol Willing, Erin Becker, Hilmar Lapp, Kara Woo, Karin Lagesen, Pauline Barmby, Sheila Miguez, Simon Waldman, Tracy Teal.
 
-The Turing Institute Data Study Group Code of Conduct was heavily adapted from the [Citizen Lab Summer Institute 2017 Code of Conduct](https://citizenlab.ca/summerinstitute/codeofconduct.html) and used under a CC BY 2.5 CA license.
+The Turing Institute Data Study Group Code of Conduct was heavily adapted from the [Citizen Lab Summer Institute 2017 Code of Conduct](https://citizenlab.ca/2017/07/citizen-lab-summer-institute-code-conduct/) and used under a CC BY 2.5 CA license.
 Citizen Lab based their Code of Conduct on the [xvzf Code of Conduct](http://xvzf.io/#coc), the [Contributor Covenant](http://contributor-covenant.org/), the [Django Code of Conduct and Reporting Guide](https://www.djangoproject.com/conduct/) and we are also grateful for [this guidance from Ada Initiative](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports).
 
 We really appreciate the work that all of the communities linked to above have put into creating such a well-considered process.

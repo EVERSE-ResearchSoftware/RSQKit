@@ -176,7 +176,7 @@ The project has [clear governance and training practices][ACTS_GOVERNANCE] to re
 [ACTS_CONTRIBUTION_GUIDELINES]: https://acts.readthedocs.io/en/latest/contribution/guide.html
 [ACTS_DD4HEP]: https://acts.readthedocs.io/en/stable/plugins/dd4hep.html
 [ACTS_EDM]: https://cds.cern.ch/record/2919575
-[ACTS_EXA_TRKX]: https://acts.readthedocs.io/en/stable/plugins/exatrkx.html
+[ACTS_EXA_TRKX]: https://acts.readthedocs.io/en/v30.1.1/plugins/exatrkx.html
 [ACTS_EXAMPLES]: https://github.com/acts-project/acts/tree/main/Examples
 [ACTS_GEOMETRY]: https://acts.readthedocs.io/en/stable/core/geometry/index.html
 [ACTS_GETTING_STARTED]: https://acts.readthedocs.io/en/latest/getting_started.html
