@@ -416,7 +416,7 @@
   name: Guix
   url: https://guix.gnu.org/
   catalog: TechRadar
-- description: Package manager. 
+- description: "GNU Guix is a package manager for GNU/Linux systems that gives users more control over their general-purpose and specialised computing environments, and makes these easier to reproduce over time and deploy to one or many devices."
   id: rpm
   name: RPM
   url: https://rpm.org/
@@ -735,4 +735,9 @@
   name: WorkflowHub
   id: workflowhub
   url: https://workflowhub.eu/
+  catalog: RSQKit
+- id: reprozip
+  name: ReproZip
+  description: "ReproZip automatically packs research along with all necessary data files, libraries, environment variables and options into a self-contained bundle which can be used to set up the same original environment so anybody can reproduce the research on a different machine, without tracking down and installing the dependencies, or even having to run the same operating system."
+  url: https://www.reprozip.org/
   catalog: RSQKit

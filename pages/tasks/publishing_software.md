@@ -12,5 +12,7 @@ Publishing research software means more than just putting the code online: it in
 Key tasks include: writing clear documentation and usage instructions, choosing and applying an appropriate open licence, creating a permanent archived release (e.g. via Zenodo or Software Heritage) with a DOI, adding metadata for discoverability, and ensuring reproducibility by capturing dependencies and environments (through containers, environment files, or workflow systems). 
 Researchers should also consider citation files, contribution guidelines, and community practices to support reuse and credit.
 
+This is the suggested order in which you should look at the related sub-tasks.
+
 {% assign child_tasks = page.child_tasks | join: ', ' %}
 {% include section-navigation-tiles.html type="tasks" custom=child_tasks sort=false col=5 %}

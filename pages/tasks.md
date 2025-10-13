@@ -9,4 +9,6 @@ In this section, information is organised around regular research software devel
 - Links to task-specific training materials.
 - A summary table of tools and resources relevant for the specific task and recommended by communities.
 
+This is the list of tasks in alphabetical order.
+
 {% include section-navigation-tiles.html type="tasks" search=true col=3 %}

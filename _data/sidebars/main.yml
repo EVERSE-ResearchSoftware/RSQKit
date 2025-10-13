@@ -77,7 +77,7 @@ subitems:
         url: /policy_maker
       - title: Trainer
         url: /trainer
-  - title: Tasks
+  - title: Tasks (alphabetical)
     description: Guidelines and solutions for tackling common software tasks
     url: /tasks
     image_url: /assets/img/font-awesome-free/wrench-solid.svg
@@ -99,7 +99,7 @@ subitems:
       - title: "Task automation using GitHub Actions"
         url: /task_automation_github_actions
       - title: "Task automation using GitLab CI/CD"
-        url: /task_automation_gitlab_ci_cd      
+        url: /task_automation_gitlab_ci_cd
       - title: "Licensing software"
         url: /licensing_software
       - title: "Citing software"

@@ -76,7 +76,9 @@ CI/CD tools and platforms for different stages of code development and deploymen
 - Monitoring - tools like Prometheus, Grafana, and New Relic are used for real-time monitoring in production to ensure system health.
 - Infrastructure as Code (IaC) - tools like {% tool "terraform" %}, {% tool "vagrant" %} or {% tool "ansible" %} automate infrastructure provisioning and configuration, ensuring consistency across environments.
 
-## Tool or Domain-Specific Tasks
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
 
 {% assign child_tasks = page.child_tasks | join: ', ' %}
 {% include section-navigation-tiles.html type="tasks" custom=child_tasks sort=false col=5 %}
