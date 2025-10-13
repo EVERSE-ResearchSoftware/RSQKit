@@ -57,7 +57,7 @@ Several archival solutions for research software are emerging:
 - Containers (e.g., {% tool "docker" %}, {% tool "singularity" %}) are popular tools for bundling applications with dependencies, especially in high-performance computing.
 - VM snapshots are used when containerisation is not feasible, particularly for GUI-based or legacy software.
 - Institutional repositories and {% tool "zenodo" %} provide [DOI-backed software][software_identifiers] archiving linked to publications, ensuring persistent citation and access.
-- [RO-Crate](https://www.researchobject.org/ro-crate/) has an honourable mention here, while it is not an archival mechanism it is a critical metadata format that ensures items (e.g. [workflows](computational_workflows)) that are archived are described, understandable and reusable.
+- [RO-Crate](https://www.researchobject.org/ro-crate/) has an honourable mention here, while it is not an archival mechanism it is a critical metadata format that ensures items (e.g., [workflows](computational_workflows)) that are archived are described, understandable and reusable.
 
 ### Conclusion
 
