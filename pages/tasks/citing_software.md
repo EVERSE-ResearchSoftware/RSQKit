@@ -5,7 +5,7 @@ contributors: ["Jason Maassen"]
 page_id: citing_software
 indicators: [software_has_citation]
 related_pages:
-  your_tasks: [software_identifiers, software_metadata]
+  tasks: [software_identifiers, software_metadata]
 keywords: ["citation", "cff"]
 training:
   - name: "EVERSE TeSS"

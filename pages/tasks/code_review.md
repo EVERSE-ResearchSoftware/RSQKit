@@ -4,7 +4,7 @@ description: How do you review code?
 contributors: ["Aleksandra Nenadic"]
 page_id: code_review
 related_pages:
-  your_tasks: []
+  tasks: []
 quality_indicators: [human_code_review_requirement]
 keywords: ["code review"]
 training:

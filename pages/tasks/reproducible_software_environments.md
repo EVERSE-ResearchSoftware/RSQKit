@@ -4,7 +4,7 @@ description: How to create a development environment for your software so others
 contributors: ["Aleksandra Nenadic", "Simon Christ"]
 page_id: reproducible_software_environments
 related_pages:
-  your_tasks: [computational_workflows]
+  tasks: [computational_workflows]
 quality_indicators: [requirements_specified]
 keywords: ["reproducible environment", "reproducibility", "virtual environment", "docker", "singularity"]
 training:

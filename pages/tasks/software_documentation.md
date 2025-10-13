@@ -4,7 +4,7 @@ description: How to write clear and useful software documentation for developers
 contributors: ["Azza Gamgami"]
 page_id: software_documentation
 related_pages:
-  your_tasks: [documenting_software_readthedocs, creating_good_readme]
+  tasks: [documenting_software_readthedocs, creating_good_readme]
 quality_indicators: [software_has_documentation]
 keywords: ["software documentation", "documentation", "code documentation", "code comments", "readme", "mkdocs", "readthedocs"]
 training:

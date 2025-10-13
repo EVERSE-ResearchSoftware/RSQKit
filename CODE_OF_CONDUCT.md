@@ -7,7 +7,7 @@ The RSQKit team are dedicated to providing a welcoming and supportive environmen
 As such, we do not tolerate behaviour that is disrespectful to our community members or that excludes, intimidates, or causes discomfort to others.
 We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to: gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
-Everyone who participates in the RDMkit activities is required to conform to this Code of Conduct.
+Everyone who participates in the RDMKit activities is required to conform to this Code of Conduct.
 This Code of Conduct applies to all spaces managed by the RDMkit including, but not limited to, in person focus groups and workshops, and communications online via GitHub.
 By participating, contributors indicate their acceptance of the procedures by which the RDMkit project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
@@ -60,7 +60,7 @@ This Code of Conduct is not intended as a static set of rules by which everyone 
 Rather, you are invited to make suggestions for updates or clarifications by contacting the [RDM CoC Group](mailto:rdm-coc@elixir-europe.org) or by making a pull request to this document on GitHub.
 -->
 
-## 5 Acknowledgements
+## Acknowledgements
 
 This code is adapted from the [RDMKit Code of conduct](https://github.com/elixir-europe/rdmkit/blob/master/CODE_OF_CONDUCT.md), which is derived from the  [Turing Way Project Code of Conduct](https://github.com/alan-turing-institute/the-turing-way/blob/master/CODE_OF_CONDUCT.md) which in turn was adapted from [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html), and the with sections from the [Alan Turing Institute Data Study Group Code of Conduct](https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit).
 All are used under the creative commons attribution license.
