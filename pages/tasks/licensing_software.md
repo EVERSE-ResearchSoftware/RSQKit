@@ -4,7 +4,7 @@ description: How to license your software for reuse?
 contributors: ["Daniel Garijo", "Aleksandra Nenadic", "Shoaib Sufi", "Thomas Vuillaume"]
 page_id: licensing_software
 related_pages:
-  your_tasks: []
+  tasks: []
 quality_indicators: [software_has_license]
 keywords: ["license", "licence"]
 

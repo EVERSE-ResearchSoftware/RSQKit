@@ -58,7 +58,7 @@ subitems:
         url: /panosc
       - title: SSHOC
         url: /sshoc
-  - title: Research Software Stories
+  - title: Research software stories
     url: /research_software_stories
     image_url: /assets/img/font-awesome-free/people-group-solid.svg
     description: Examples of research software and their quality practices
@@ -77,9 +77,9 @@ subitems:
         url: /policy_maker
       - title: Trainer
         url: /trainer
-  - title: Your tasks
+  - title: Tasks (alphabetical)
     description: Guidelines and solutions for tackling common software tasks
-    url: /your_tasks
+    url: /tasks
     image_url: /assets/img/font-awesome-free/wrench-solid.svg
     subitems:
       - title: "Choosing languages, tools & infrastructures"
@@ -96,10 +96,6 @@ subitems:
         url: /code_review
       - title: "Testing software"
         url: /testing_software
-      - title: "Task automation using GitHub Actions"
-        url: /task_automation_github_actions
-      - title: "Task automation using GitLab CI/CD"
-        url: /task_automation_gitlab_ci_cd      
       - title: "Licensing software"
         url: /licensing_software
       - title: "Citing software"
@@ -114,10 +110,19 @@ subitems:
         url: software_metadata
       - title: "Packaging & releasing software"
         url: packaging_releasing_software
+      - title: "Archiving software"
+        url: archiving_software
+      - title: "Publishing software"
+        url: /publishing_software
       - title: "Computational workflows"
         url: computational_workflows
       - title: Continuous Integration & Deployment
         url: /ci_cd
+        subitems:
+          - title: "Task automation using GitHub Actions"
+            url: /task_automation_github_actions
+          - title: "Task automation using GitLab CI/CD"
+            url: /task_automation_gitlab_ci_cd
       - title: "Improving environmental sustainability"
         url: /improving_environmental_sustainability
   - title: All tools and resources

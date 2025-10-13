@@ -4,7 +4,7 @@ description: How to decide which programming languages, tools and infrastructure
 contributors: ["Patrick Bos"]
 page_id: languages_tools_infrastructures
 related_pages:
-   your_tasks: []
+   tasks: []
 quality_indicators: []
 keywords: ["programming language", "software infrastructure", "software tool"]
 
@@ -116,7 +116,7 @@ Some interesting templates to consider for research software:
 - [BestieTemplate.jl](https://github.com/JuliaBesties/BestieTemplate.jl): Julia package template for research software
 - For R, the [usethis](https://usethis.r-lib.org) package provides a good basis for developing R packages.
 
-Of course, the RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/your_tasks/TEMPLATE_your_tasks.md)!
+Of course, the RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/tasks/TEMPLATE_tasks.md)!
 
 ## Training materials 
 

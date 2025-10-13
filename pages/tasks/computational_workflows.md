@@ -4,7 +4,7 @@ description: How to use computational workflows to automate and reproduce data p
 contributors: [ "Aleksandra Nenadic", "Oliver Woolland", "Phil Reed", "Shoaib Sufi", "Nick Juty", "Douglas Lowe", "Stian Soiland-Reyes", "Johan Gustafsson"]
 page_id: computational_workflows
 related_pages:
-  your_tasks: [reproducible_software_environments]
+  tasks: [reproducible_software_environments]
 keywords: ["computational workflow", "workflow", "wms", "galaxy", "snakemake", "nextflow", "apache-airflow", "wdl"]
 ---
 

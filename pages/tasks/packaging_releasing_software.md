@@ -5,7 +5,7 @@ description: "How to package and release your software for distribution and reus
 contributors: ["Eva Martín del Pico"] 
 page_id: packaging_releasing_software 
 related_pages:
-  your_tasks: [releasing_software] 
+  tasks: [releasing_software] 
 quality_indicators: [has_published_package, software_has_releases]
 keywords: ["package software", "packaging software", "releasing software", "release software", "pypi"]
 

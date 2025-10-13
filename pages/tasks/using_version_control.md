@@ -4,7 +4,7 @@ description: How to version control your software?
 contributors: ["Giacomo Peru"]
 page_id: using_version_control
 related_pages:
-  your_tasks: []
+  tasks: []
 quality_indicators: [version_control_use]
 keywords: ["version control", "source control", "git", "github", "gitlab"]
 

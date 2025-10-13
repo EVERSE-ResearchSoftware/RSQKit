@@ -4,7 +4,7 @@ description: How to describe your software using metadata?
 contributors: ["Daniel Garijo", "Aleksandra Nenadic"]
 page_id: software_metadata
 related_pages:
-  your_tasks: [software_identifiers]
+  tasks: [software_identifiers]
 quality_indicators: [descriptive_metadata, codemeta_completeness]
 keywords: ["software metadata", "codemeta", "software citation", "cff"]
 

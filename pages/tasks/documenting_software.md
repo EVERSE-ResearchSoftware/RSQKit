@@ -4,7 +4,7 @@ description: How to document your software project?
 contributors: ["Azza Gamgami", "Aleksandra Nenadic"]
 page_id: documenting_software
 related_pages:
-  your_tasks: [writing_readable_code, documenting_software_readthedocs, creating_good_readme]
+  tasks: [writing_readable_code, documenting_software_readthedocs, creating_good_readme]
 quality_indicators: [software_has_documentation]
 keywords: ["documentation", "software documentation", "readme", "sphynx", "readthedocs"]
 
