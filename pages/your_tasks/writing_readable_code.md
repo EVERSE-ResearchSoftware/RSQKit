@@ -7,10 +7,7 @@ related_pages:
   your_tasks: [documenting_software]
 quality_indicators: [has_no_linting_issues]
 keywords: ["readable code", "readability", "reusable code", "reusable software"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
+
 ---
 
 

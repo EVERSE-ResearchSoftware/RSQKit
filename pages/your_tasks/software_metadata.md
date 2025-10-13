@@ -7,10 +7,7 @@ related_pages:
   your_tasks: [software_identifiers]
 quality_indicators: [descriptive_metadata, codemeta_completeness]
 keywords: ["software metadata", "codemeta", "software citation", "cff"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
+
 ---
 
 

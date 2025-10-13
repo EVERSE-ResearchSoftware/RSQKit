@@ -7,10 +7,7 @@ related_pages:
   your_tasks: [documenting_software]
 quality_indicators: [software_has_documentation]
 keywords: ["readme"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
+
 ---
 
 ## Why is it important to have a good README file?
