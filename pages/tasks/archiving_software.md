@@ -53,7 +53,7 @@ Several archival solutions for research software are emerging:
 
 - {% tool "softwareheritage" %} can provide an universal archive of source code, capturing the development history of open-source software at scale.
 - [ReproZip](https://www.reprozip.org/): Captures the execution environment of research software, enabling portability and reproducibility across platforms.
-- Guix / Nix: Functional package managers that enable reproducible builds and isolated software environments.
+- [Guix](https://guix.gnu.org/en/) / [Nix](https://nixos.org/): Functional package managers that enable reproducible builds and isolated software environments.
 - Containers (e.g., {% tool "docker" %}, {% tool "singularity" %}) are popular tools for bundling applications with dependencies, especially in high-performance computing.
 - VM snapshots are used when containerisation is not feasible, particularly for GUI-based or legacy software.
 - Institutional repositories and {% tool "zenodo" %} provide [DOI-backed software][software_identifiers] archiving linked to publications, ensuring persistent citation and access.
