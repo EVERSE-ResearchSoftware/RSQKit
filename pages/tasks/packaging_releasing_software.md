@@ -3,7 +3,7 @@ title: "Packaging & releasing software"
 search_exclude: false 
 description: "How to package and release your software for distribution and reuse?" 
 contributors: ["Eva Martín del Pico"] 
-page_id: packaging_releasing_software 
+page_id: packaging_releasing_software
 related_pages:
   tasks: [releasing_software] 
 quality_indicators: [has_published_package, software_has_releases]
