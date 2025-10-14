@@ -33,3 +33,4 @@ Before approving and merging a pull request (PR), the Editors (members of the [E
 [metadata_guidlines]: https://everse.software/RSQKit/metadata_guidelines
 [tools_and_resources]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/tool_and_resource_list.yml
 [contributors]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yml
+[codespell]: https://github.com/codespell-project/codespell
