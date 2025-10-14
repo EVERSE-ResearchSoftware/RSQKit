@@ -7,10 +7,6 @@ indicators: []
 related_pages:
   tasks: [software_identifiers, software_metadata, documenting_software, licensing_software]
 keywords: ["archiving software", "software preservation"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
 ---
 
 
