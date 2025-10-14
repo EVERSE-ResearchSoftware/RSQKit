@@ -78,12 +78,12 @@ Each page can be described with the following set of metadata/attributes (which 
 * `page_id`: unique identifier of the page, usually a shortened version of the page title (with words separated with underscores or dashes and spaces avoided). This identifier is used in `related_pages` parameter to list pages related to this page. 
 * `datatable`: a boolean value indicating the activation of the pagination, sorting and searching in tabular representations of pages.
 * `related_pages`: a list of `page_id`s that are (loosely) related to this page and will appear under "Related pages" section on the page, grouped by page type.
-* `child_tasks`: a list of `page_id`s that represent child pages for the current page (a more firm relationship than related pages). This attribute works for task pages only and can be used either to create an index task page with a list of sub-tasks or list sub-tasks under the "Tool- or Domain-Specific Tasks" section on the task page.
+* `child_pages`: a list of `page_id`s that represent child pages for the current page (a more firm relationship than related pages). This attribute works for task pages only and can be used either to create an index task page with a list of sub-tasks or list sub-tasks under the "Tool- or Domain-Specific Tasks" section on the task page.
 * `page_citation`: When set to `true`, it will cause the citation section for the page to be generated in the format: "<author names>. <page title>. <site domain>. <page URL>. <date accessed>". Defaults to `true` for task pages; `false` for other page types.
 * `keywords`: a list of keywords related to the topic of the page, typically used to search training materials and other resources from external registries (such as TeSS training registry)
 
 Note that some of the attributes may not be applicable to all page types -  they can be included on the page but may have no effect.
-An example is `child_tasks` which is currently only used by task pages.
+An example is `child_pages` which is currently only used by task pages.
 
 
 ## Tools and resources metadata
