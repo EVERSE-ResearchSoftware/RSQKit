@@ -6,7 +6,7 @@ contributors: [] # a comma separated list of contributors' names, as found in _d
 page_id: # unique page id, e.g. lowercase title words separated by underscore(s) - for example page_id of 'version control' page could be version_control
 related_pages:
   tasks: [] # A comma-separated page_ids of the task pages that are related to the current page
-child_tasks: [] # A comma-separated page_ids of the task pages that are tool- or domain-specific sub-tasks to the current page
+child_pages: [] # A comma-separated page_ids of the task pages that are children to the current page in some sense (describes either "task/subtask" relationship or "general task/task using specific tool or applied to domain" relationship)
 quality_indicators: [] # a comma separated list of indicators related to this page, according to the ids in https://w3id.org/everse/i/indicators/
 keywords: [] # a comma separated list of keywords related to this page (surround multi word terms in quotes), e.g. keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
 ---
@@ -49,6 +49,15 @@ Repeat the same structure for other problems you wish to mention on the page, as
 ### Solutions <!-- do not delete this heading and write your text below it -->
 
 ## Tool- or Domain-Specific Tasks <!-- do not delete this heading and write your text below it - this is an optional section to list relevant tool- or domain-specific sub-pages -->
+
+<!--
+You can use this section to list tool- or domain-specific (sub-)tasks here - list them in the page's *frontmatter* using parameter `child_pages` and then use that list in this section as follows:
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=4 %}
+-->
 
 ## References <!-- do not delete this heading and write your text below it --> If this page has been inspired or derived from other resources, make sure to reference them here.
 

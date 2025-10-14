@@ -4,7 +4,7 @@ description: How can you use CI/CD in software development?
 contributors: ["Aleksandra Nenadic"]
 page_id: ci_cd
 indicators: [software_has_ci-tests]
-child_tasks: [task_automation_github_actions, task_automation_gitlab_ci_cd]
+child_pages: [task_automation_github_actions, task_automation_gitlab_ci_cd]
 keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
 ---
 
@@ -76,8 +76,8 @@ CI/CD tools and platforms for different stages of code development and deploymen
 
 This is a suggested list tool-specific sub-tasks to have a look at.
 
-{% assign child_tasks = page.child_tasks | join: ', ' %}
-{% include section-navigation-tiles.html type="tasks" custom=child_tasks sort=false col=5 %}
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=4 %}
 
 [task_automation_github_actions]: ./task_automation_github_actions
 [task_automation_gitlab_ci_cd]: ./task_automation_gitlab_ci_cd
