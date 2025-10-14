@@ -8,7 +8,7 @@ summary: Checklist for editors (Editorial Board members) before approving change
 Before approving and merging a pull request (PR), the Editors (members of the [Editorial Board](./editorial_board.md)) will check that:
 
 - The page adheres to the [Page Style Guidelines](./page_style_guidelines.md), specifically using one **one sentence per line**.
-- The page contains no spelling mistakes and uses **British English**, checked using the [`codespell` tool][codespell] tool.
+- The page contains no spelling mistakes and uses **British English** (checked using the [`codespell` tool][codespell] tool as describe in the [Contribution guidelines](./contribution_guidelines.md))
 - The modified page(s) layout looks correct on the RSQKit website (either by checking Netlify's "Deploy Preview" on the PR in RSQKit, or downloading and checking the PR branch locally on the Editor's machine, or checking the deployment or a PR in a fork in GitHub).
 - The Contributors implemented the requested changes and comments, if needed.
 - The Contributors are acknowledged and thanked for their efforts and informed about the publication of their content.
