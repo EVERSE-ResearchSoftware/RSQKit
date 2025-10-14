@@ -6,6 +6,7 @@ summary: Descriptions of different metadata schemas used to describe various res
 This page explains the metadata that can be used to describe various resources and pages in RSQKit.
 These guidelines have been adapted from the ELIXIR Toolkit theme's [page metadata guide](https://elixir-belgium.github.io/elixir-toolkit-theme/page_mechanics) and [tools and resources guide](https://elixir-belgium.github.io/elixir-toolkit-theme/resource_table).
 
+
 ## Contributor metadata
 
 Contributors are listed in the [contributors file (`_data/CONTRIBUTORS.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/CONTRIBUTORS.yml) starting with the contributor's full name, followed by the following optional metadata/attributes:
@@ -59,7 +60,8 @@ An example affiliation definition is given below:
 
 ## Page metadata
 
-Each page in RSQKit can be described with the following metadata/attributes (which can either be included in the "front matter" header of the page or applied to a group of pages via `_config.yml` repository file):
+RSQKit has several page types - task, role, research software story, research cluster and infrastructures pages.  
+Each page can be described with the following set of metadata/attributes (which can either be included in the "front matter" header of the page or applied to a group of pages via `_config.yml` file in the project root):
 
 * `title`: page title (used as the H1 HTML header in the rendered version of the page).
 * `summary`: a short page summary, displayed under the page title.
@@ -75,21 +77,14 @@ Each page in RSQKit can be described with the following metadata/attributes (whi
 * `toc`: a boolean value indicating if a table of contents should be included at the top right of the page. Default: `false`.
 * `page_id`: unique identifier of the page, usually a shortened version of the page title (with words separated with underscores or dashes and spaces avoided). This identifier is used in `related_pages` parameter to list pages related to this page. 
 * `datatable`: a boolean value indicating the activation of the pagination, sorting and searching in tabular representations of pages.
-* `related_pages`: a list of `page_id`s that are related to this page and will appear under "Related pages" section on the page, grouped by page type.
+* `related_pages`: a list of `page_id`s that are (loosely) related to this page and will appear under "Related pages" section on the page, grouped by page type.
+* `child_tasks`: a list of `page_id`s that represent child pages for the current page (a more firm relationship than related pages). This attribute works for task pages only and can be used either to create an index task page with a list of sub-tasks or list sub-tasks under the "Tool- or Domain-Specific Tasks" section on the task page.
 * `page_citation`: When set to `true`, it will cause the citation section for the page to be generated in the format: "<author names>. <page title>. <site domain>. <page URL>. <date accessed>". Defaults to `true` for task pages; `false` for other page types.
 * `keywords`: a list of keywords related to the topic of the page, typically used to search training materials and other resources from external registries (such as TeSS training registry)
-* `training`: a list of training registry entries, each having the following three properties - `name` (registry display name), `registry` (registry type, e.g. "TeSS", "TechRadar", "SSHOC", "ENVRI Hub") and `url` (registry's base URL that gets combined with keywords to form a search URL taking the user to search results using the `keywords` within that registry).
-Training entries will show up under the "More information" section of the page.
 
-An example of a training registry entry:
+Note that some of the attributes may not be applicable to all page types -  they can be included on the page but may have no effect.
+An example is `child_tasks` which is currently only used by task pages.
 
-```yml
-keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
-training:
-   - name: "EVERSE TeSS"
-     registry: TeSS
-     url: "https://everse-training.app.cern.ch"
-```
 
 ## Tools and resources metadata
 
@@ -184,4 +179,21 @@ An example of an RS Quality dimension definition is given below:
   source: 
     - https://www.iso.org/standard/35733.html
     - https://doi.org/10.5281/zenodo.10723608
+```
+
+## Training metadata
+
+Metadata about various training registries that RSQKit can integrate with is located in the `_config.yml` file in the project root.
+It can be configured via the following attribute:
+
+* `training`: a list of training registry entries, each having the following properties - `name` (registry display name) and `url` (registry's base URL that gets combined with keywords (configured in each page) to form a search URL taking the user to search results using the `keywords` within that registry).
+
+Training entries will show up under the "Training" section of the page.
+
+An example of a training registry entry:
+
+```yml
+training:
+   - name: "EVERSE TeSS"
+     url: "https://everse-training.app.cern.ch"
 ```
