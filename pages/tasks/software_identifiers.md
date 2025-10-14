@@ -7,10 +7,7 @@ related_pages:
   tasks: [releasing_software]
 quality_indicators: [persistent_and_unique_identifier]
 keywords: ["software identifier", "software release", "software version", "versioning"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
+
 ---
 
 

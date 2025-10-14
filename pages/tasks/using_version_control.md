@@ -7,10 +7,7 @@ related_pages:
   tasks: []
 quality_indicators: [version_control_use]
 keywords: ["version control", "source control", "git", "github", "gitlab"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
+
 ---
 
 ## How do I choose the right version control system for my research project?

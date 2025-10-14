@@ -7,10 +7,7 @@ related_pages:
   tasks: [software_identifiers]
 quality_indicators: [software_has_releases]
 keywords: ["release software", "releasing software", "releasing code", "release code"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
+
 ---
 
 ## How to Create Code Releases

@@ -7,10 +7,7 @@ related_pages:
   tasks: []
 quality_indicators: [software_has_license]
 keywords: ["license", "licence"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
+
 ---
 
 ## What is copyright and licensing?

@@ -7,10 +7,7 @@ related_pages:
   tasks: [computational_workflows]
 quality_indicators: [requirements_specified]
 keywords: ["reproducible environment", "reproducibility", "virtual environment", "docker", "singularity"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
+
 ---
 
 

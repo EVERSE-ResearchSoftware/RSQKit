@@ -58,7 +58,7 @@ defaults:
     values:
       sitemap: false
       search_exclude: true
-      no_robots: true   
+      no_robots: true
   -
     scope:
       path: "pages/your_role/"
@@ -71,7 +71,11 @@ defaults:
     values:
       type: research_community
       type_img: /assets/img/font-awesome-free/people-group-solid.svg
-  
+
+training:
+  - name: "EVERSE TeSS"
+    url: "https://everse-training.app.cern.ch"
+
 theme_variables:
   topnav:
     bluesky: https://bsky.app/profile/eosc-everse.bsky.social
@@ -89,6 +93,3 @@ plugins:
   - jekyll-github-metadata
   - jekyll-octicons
   - jekyll-scholar
-
-training:
-  type: 

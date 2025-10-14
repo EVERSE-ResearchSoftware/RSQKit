@@ -7,10 +7,7 @@ related_pages:
   tasks: []
 quality_indicators: []
 keywords: ["sustainability", "environment"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
+
 ---
 
 ## How to monitor and reduce the environmental impact of my software?

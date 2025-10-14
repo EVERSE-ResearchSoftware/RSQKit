@@ -6,10 +6,6 @@ page_id: computational_workflows
 related_pages:
   tasks: [reproducible_software_environments]
 keywords: ["computational workflow", "workflow", "wms", "galaxy", "snakemake", "nextflow", "apache-airflow", "wdl"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
 ---
 
 ## Motivation

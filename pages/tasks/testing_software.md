@@ -7,10 +7,7 @@ related_pages:
   tasks: []
 quality_indicators: [software_has_tests, software_has_ci-tests]
 keywords: ["software testing", "code testing", "software test", "code test"]
-training:
-  - name: "EVERSE TeSS"
-    registry: TeSS
-    url: "https://everse-training.app.cern.ch"
+
 ---
 
 ## What is code testing?
