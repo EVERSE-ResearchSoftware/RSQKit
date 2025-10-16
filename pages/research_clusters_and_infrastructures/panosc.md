@@ -1,5 +1,5 @@
 ---
-title: PaNOSC - physics & astronomy
+title: PaNOSC - photon and neutron science
 description: Photon and Neutron Open Science Cluster (PaNOSC) represents Photon and Neutron European Research Infrastructures
 type: research_cluster_or_infrastructure
 ---
