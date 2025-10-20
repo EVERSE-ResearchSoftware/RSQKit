@@ -1,5 +1,7 @@
 ---
 title: Three-Tier Model of Research Software
+contributors: ["Aleksandra Nenadic", "Daniel Garijo",  "Shoaib Sufi", "Fotis Psomopoulos"]
+coordinators: ["Aleksandra Nenadic"]
 ---
 
 The **three-tier model of research software** provides a framework for understanding the diverse landscape of software in research - from scripts, code, notebooks, to computational workflows, libraries, modules, frameworks, utilities and applications.

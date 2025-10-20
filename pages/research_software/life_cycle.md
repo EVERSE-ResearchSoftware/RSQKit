@@ -1,5 +1,7 @@
 ---
 title: Research Software Lifecycle
+contributors: ["Aleksandra Nenadic", "Patrick Bos", "Jason Maassen", "Daniel Garijo",  "Shoaib Sufi", "Laura Portell-Silva", "Michael Sparks", "Daniel S.Katz"]
+coordinators: ["Aleksandra Nenadic"]
 ---
 
 

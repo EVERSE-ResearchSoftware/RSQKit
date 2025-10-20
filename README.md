@@ -21,10 +21,6 @@ The RSQKit **Editorial Board Members** work together with general **Contributors
 
 Please see the [Contribution Guidelines](/pages/contributing/contribution_guidelines.md) for more details on how to contribute to RSQKit or [Installation Guide](INSTALL.md) on how to install and run RSQKit locally.
 
-## License
-
-Information about the licenses that apply to RSQKit can be found in [LICENSE.md](LICENSE.md).
-
 ## Citation
 
 You can cite RSQKit as follows:
@@ -53,3 +49,9 @@ Newest first.
 
 ## Funding
 EVERSE project is funded by the [European Commission HORIZON-INFRA-2023-EOSC-01-02](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2023-eosc-01-02).
+
+## Copyright
+2025 RSQKit Authors and Organisations, including https://everse.software/RSQKit/contributors, https://everse.software/about/consortium/
+
+## License
+Information about the licenses that apply to various RSQKit resources can be found in our [REUSE.toml](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/REUSE.toml) file.
