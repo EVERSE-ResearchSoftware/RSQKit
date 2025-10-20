@@ -1,6 +1,8 @@
 ---
 title: What is Research Software?
 descriptions: Different aspects of and perspectives on research software
+contributors: ["Shoaib Sufi", "Daniel Garijo", "Aleksandra Nenadic", "Laura Portell-Silva"]
+coordinators: ["Shoaib Sufi"]
 ---
 
 There are various definitions of research software.
