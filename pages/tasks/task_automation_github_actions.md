@@ -8,7 +8,6 @@ related_pages:
   tasks: [ci_cd, task_automation_gitlab_ci_cd]
 quality_indicators: [software_has_ci-tests]
 keywords: ["ci cd", "ci/cd", "ci", "cd", "task automation", "github actions"]
-
 ---
 
 ## Task automation using GitHub Actions
@@ -103,7 +102,6 @@ Copy the following `step` into your workflow file:
         - name: Run tests
           run: pytest
   ```
-
 
 ## Further guidance
 

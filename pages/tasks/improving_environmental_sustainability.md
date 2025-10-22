@@ -7,7 +7,6 @@ related_pages:
   tasks: []
 quality_indicators: []
 keywords: ["sustainability", "environment"]
-
 ---
 
 ## How to monitor and reduce the environmental impact of my software?
@@ -47,15 +46,16 @@ Similarly, the [GREENER software principles](https://www.nature.com/articles/s43
 
 #### Training
 
-* Green software foundation provides a [free course](https://learn.greensoftware.foundation/introduction) that introduces the basic concepts including embodied carbon, carbon intensity, demand shifting (and shaping) and measurement approaches.
-* green-coding.io provide (paid for) [workshops & training](https://www.green-coding.io/services/workshops-and-trainings) that focus on energy-efficient coding, environmentally responsible software design, and practical tools 
+- Green software foundation provides a [free course](https://learn.greensoftware.foundation/introduction) that introduces the basic concepts including embodied carbon, carbon intensity, demand shifting (and shaping) and measurement approaches.
+- `green-coding.io` provide (paid for) [workshops & training](https://www.green-coding.io/services/workshops-and-trainings) that focus on energy-efficient coding, environmentally responsible software design, and practical tools 
 
 #### Certification
 
-* [GreenDiSC](https://www.software.ac.uk/GreenDiSC) is a certification scheme for research groups (and central sustainability teams) that focuses on hardware and software.  
+- [GreenDiSC](https://www.software.ac.uk/GreenDiSC) is a certification scheme for research groups (and central sustainability teams) that focuses on hardware and software.  
 
 #### Evaluation Frameworks
-* [Software Carbon Intensity (SCI) Specification](https://sci.greensoftware.foundation/) is an assessment framework for assessing and reducing software carbon intensity.
+
+- [Software Carbon Intensity (SCI) Specification](https://sci.greensoftware.foundation/) is an assessment framework for assessing and reducing software carbon intensity.
 
 #### Tools to monitor emissions
 

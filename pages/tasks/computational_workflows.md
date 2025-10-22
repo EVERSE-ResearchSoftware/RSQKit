@@ -112,10 +112,10 @@ It simplifies workflow sharing, supports interoperability, and is especially use
 
 ## Integration with the FAIR principles
 
-As digital objects to be shared, discovered, and reused, computational workflows benefit from adhering to[ the FAIR principles](/fair_rs) in general and specifically the[ FAIR recommendations for workflows](https://doi.org/10.1038/s41597-025-04451-9).
-It can maximise their quality and value as research assets and facilitate their adoption by the wider community, which is essential for[ modern research data management](https://rdmkit.elixir-europe.org/).
+As digital objects to be shared, discovered, and reused, computational workflows benefit from adhering to [the FAIR principles][fair-rs] in general and specifically the [FAIR recommendations for workflows][fair-for-workflows].
+It can maximise their quality and value as research assets and facilitate their adoption by the wider community, which is essential for [modern research data management][rmdkit].
 
-The[ Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW)](https://workflows.community/groups/fair/), a global and open community of researchers and developers working with computational workflows across disciplines and domains, has systematically addressed the application of both FAIR data and software principles to computational workflows.
+The[ Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW)][WCI-FW], a global and open community of researchers and developers working with computational workflows across disciplines and domains, has systematically addressed the application of both FAIR data and software principles to computational workflows.
 
 [apache-airflow-dag]: https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html
 [cwl]: https://www.commonwl.org/
@@ -137,3 +137,5 @@ The[ Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW)](h
 [wms-terminology]: https://arxiv.org/abs/2506.07838
 [workflowhub]: https://workflowhub.eu
 [lifemonitor]: https://app.lifemonitor.eu/dashboard
+[fair-for-workflows]: https://doi.org/10.1038/s41597-025-04451-9
+[fair-rs]: https://doi.org/10.1038/s41597-022-01710-x

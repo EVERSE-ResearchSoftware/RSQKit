@@ -4,7 +4,8 @@ description: How to document your software project?
 contributors: ["Azza Gamgami", "Aleksandra Nenadic"]
 page_id: documenting_software
 related_pages:
-  tasks: [writing_readable_code, documenting_software_readthedocs, creating_good_readme]
+  tasks: [writing_readable_code, creating_good_readme]
+child_pages: [documenting_software_readthedocs]
 quality_indicators: [software_has_documentation]
 keywords: ["documentation", "software documentation", "readme", "sphynx", "readthedocs"]
 
@@ -14,7 +15,7 @@ keywords: ["documentation", "software documentation", "readme", "sphynx", "readt
 
 ### Description
 
-Software documentation is an essential part of the software development process, designed to provide clear communication between various stakeholders including developers, administrators, testers, users and project managers - ensuring the software is easy to understand and use.
+[Software documentation][7-simple-steps-software-documentation] is an essential part of the software development process, designed to provide clear communication between various stakeholders including developers, administrators, testers, users and project managers - ensuring the software is easy to understand and use.
 
 ### Considerations
 
@@ -23,6 +24,8 @@ encourage feedback, and ideally be auto-generated to a large extent.
 * Software documentation should use standard formats – (R)Markdown, reStructuredText, HTML, PDF, or wikis.
 * Each piece of documentation has a distinct purpose, different audience 
 (e.g. developers, administrators, testers, users and project managers), tone and level of detail (developer-facing documentation provides in-depth and complex technical details; an end-user guide focuses on usability and clarity, offering step-by-step instructions for usage).
+
+Check out the [10 Simple Rules for Documenting Scientific Software][10-simple-rules-documenting-software].
 
 ### Solutions
 
@@ -115,7 +118,7 @@ A great example of a CLI is the one included with the [Magic-BLAST](https://ncbi
 ### Documenting software project
 
 Documenting a research software project is much like documenting any open project.
-Project documentation details key external-facing elements of a software project, focusing on managing and tracking its development, usage, contributions and community.
+[Project documentation][turing-way-project-documentation] details key external-facing elements of a software project, focusing on managing and tracking its development, usage, contributions and community.
 
 An excellent overview of what documentation each software project should provide can be found in the [Turing Way's "Guide for Reproducible Research"](https://book.the-turing-way.org/reproducible-research/reproducible-research) - section on [project documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project).
 
@@ -130,20 +133,24 @@ See more on [how to create a good README document for your software project][cre
 - Licensing - lets users know under what legal conditions they are allowed to use the software.
 - Code of Conduct - to create and maintain a collaboration environment that promotes participation, collaboration and exchange of ideas, 
 while fostering respect among developers.
-- Software citation - let people know how to cite your software, see more on [how to cite your software project](./citing_software)
+- Software citation - let people know how to cite your software, see more on [how to cite your software project][citing-software]
 - List of all authors and contributors to the software.
 - Pointers to various other documentation about your software.
 
+## Tool- or Domain-Specific Tasks
 
-## References
-1. [Lee B. D., Ten Simple Rules for documenting scientific software](https://doi.org/10.1371/journal.pcbi.1006561)
-2. [Wilson, G., Aruliah, D. A., Brown, C. T., Chue Hong, N. P., Davis, M., Guy, R. T., Haddock, S. H., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P. Best Practices for Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745)
-3. [Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost FdV, et al. Ten Simple Rules for Taking Advantage of Git and GitHub](https://doi.org/10.1371/journal.pcbi.1004947)
-4. [How to Write Software Documentation in 7 Simple Steps](https://technicalwriterhq.com/documentation/software-documentation/how-to-write-software-documentation/)
-5. [The Turing Way's "Guide for Reproducible Research"](https://book.the-turing-way.org/reproducible-research/reproducible-research) - section on [project documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project).
+This is a suggested list tool-specific sub-tasks to have a look at.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=4 %}
+
+
+[10-simple-rules-software-documentation]: https://doi.org/10.1371/journal.pcbi.1006561
+[7-simple-steps-software-documentation]: https://technicalwriterhq.com/documentation/software-documentation/how-to-write-software-documentation/
+[turing-way-project-documentation]: https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project
 [creating_good_readme]: ./creating_good_readme
 [licensing_software]: ./licensing_software
 [releasing_code]: ./releasing_software
 [software_documentation]: ./documenting_software
 [creating_readthedocs]: ./documenting_software_readthedocs
+[citing-software]: ./citing_software

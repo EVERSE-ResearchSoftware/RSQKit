@@ -7,13 +7,12 @@ related_pages:
   tasks: [computational_workflows]
 quality_indicators: [requirements_specified]
 keywords: ["reproducible environment", "reproducibility", "virtual environment", "docker", "singularity"]
-
 ---
 
 
 ## What are reproducible software environments?
 
-Reproducible software environments are crucial for ensuring that software behaves consistently across different systems, especially when it comes to research [^1].
+Reproducible software environments are crucial for ensuring that software behaves consistently across different systems, especially when it comes to [reproducible research][reproducible-research].
 
 Here are some popular tools and approaches for creating reproducible software environments based on their scope and usage:
 
@@ -110,13 +109,7 @@ Not using virtual environments at all and mixing different tools to manage them 
 
 ### Solutions
 
-* Decide on and start using a package manager tool and a virtual environment management tool for your programming language.
-
-## References
-[^1]: Jesse M. Alston, Jessica A. Rick. A Beginner’s Guide to Conducting Reproducible Research, Bulletin of
-The Ecological Society of America 102 (2) (2021).
-[https://doi.org/10.1002/bes2.1801](https://doi.org/10.1002/bes2.1801)
-
+Decide on a package manager and a virtual environment management tool for your programming language and start using them.
 
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software
@@ -131,3 +124,4 @@ The Ecological Society of America 102 (2) (2021).
 [wdl]: https://openwdl.org/
 [snakefile]: https://snakemake.readthedocs.io/en/stable/snakefiles/writing_snakefiles.html
 [nextflow-dsl]: https://www.nextflow.io/docs/latest/reference/syntax.html
+[reproducible-research]: https://doi.org/10.1002/bes2.1801

@@ -7,7 +7,6 @@ related_pages:
   tasks: [citing_software, creating_good_readme, documenting_software, software_metadata]
 quality_indicators: []
 keywords: ["software project", "organising software project"]
-
 ---
 
 ## Why does organising your software project matter?

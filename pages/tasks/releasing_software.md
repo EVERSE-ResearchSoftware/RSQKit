@@ -7,10 +7,9 @@ related_pages:
   tasks: [software_identifiers]
 quality_indicators: [software_has_releases]
 keywords: ["release software", "releasing software", "releasing code", "release code"]
-
 ---
 
-## How to Create Code Releases
+## How to Create a Software Release
 
 ### Description
 
@@ -37,8 +36,7 @@ For example, to perform a software release on GitHub:
 - Decide on a software versioning scheme you will use and use a unique name or number for this release.
 - Add release notes - a short and non overly technical summary of the changelog intended for end-users.
 - Click on `Publish release`.
-- If your repository is integrated with Zenodo - a new [DOI][software_identifiers] for this software release will automatically 
-be issued by {% tool "zenodo" %}.
+- If your repository is integrated with Zenodo - a new [DOI][software_identifiers] for this software release will automatically be issued by {% tool "zenodo" %}.
 
 
 [software_identifiers]: ./software_identifiers

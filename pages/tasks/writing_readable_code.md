@@ -10,12 +10,11 @@ keywords: ["readable code", "readability", "reusable code", "reusable software"]
 
 ---
 
-
 ## Why is it important to make your source code readable?
 
 ### Description
 
-**Code readability** contributes to *reusability* of code (the "R" in the [FAIR research software principles][fair-rs-principles][^1]) - once people obtain a copy of your software, they need to be able to understand it to reuse and extend it.
+**Code readability** contributes to *reusability* of code (the "R" in the [FAIR research software principles][fair-rs-principles]) - once people obtain a copy of your software, they need to be able to understand it to reuse and extend it.
 
 In order to develop readable code, we should ask ourselves:
 
@@ -84,14 +83,8 @@ have built-in support for checking conformance to style conventions and they wil
 - Use existing and well-tested libraries or packages for common functionality and tasks (e.g. reading and writing data in standard formats) to avoid duplication and reimplementing
 functionality in custom, more error-prone code.
 
-
-## References
-[^1]: Barker, M., Chue Hong, N.P., Katz, D.S. et al. Introducing the FAIR Principles for research software. Sci Data 9, 622 (2022). [https://doi.org/10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
-
-[fair-rs]: https://carpentries-incubator.github.io/fair-research-software
 [ssi]: https://www.software.ac.uk/
 [fair-rs-principles]: https://www.nature.com/articles/s41597-022-01710-x
-[fair-rs]: https://carpentries-incubator.github.io/fair-research-software
 [intermediate-rs-dev]: https://carpentries-incubator.github.io/python-intermediate-development/
 [pep8]: https://peps.python.org/pep-0008/
 [r-guidelines]: https://google.github.io/styleguide/Rguide.html

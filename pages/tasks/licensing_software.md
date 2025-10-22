@@ -7,7 +7,6 @@ related_pages:
   tasks: []
 quality_indicators: [software_has_license]
 keywords: ["license", "licence"]
-
 ---
 
 ## What is copyright and licensing?
@@ -167,14 +166,12 @@ You may license your entire codebase under a single license (this is recommended
 
 * If your software is located in GitHub, follow [GitHub's documentation for adding a license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
 Otherwise, create a new file called, e.g. LICENSE, in the root directory to your code base and copy the text of your chosen license into it.
-* See the RSQKit [LICENSE file](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE.md) that specifies different licences for metadata, content and software. 
-* In case you want or need to apply licenses per files, we recommend you have a look at {% tool "reuse" %}.
-
-## Credit
-
-The contents of this page have been adapted from the ["Licensing" activity page](https://rdmkit.elixir-europe.org/licensing) in the [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/), contributed by Minna Ahokas, Nicola Soranzo, Rob Hooft and Siiri Fuchs.
-
+* See [RDMkit's "Licensing" activity page][rdmkit-license] for licensing data.
+* See RSQKit's [LICENSE file][rsqkit-licence] that specifies different licences for metadata, content and software. 
+* In case you want or need to apply licenses one a per file bases, have a look at {% tool "reuse" %}.
 
 [spdx-licences]: https://spdx.org/licenses/
 [fair-rs-principles]: https://doi.org/10.15497/RDA00068
 [cc0]: https://creativecommons.org/publicdomain/zero/1.0/
+[rdmkit-license]: https://rdmkit.elixir-europe.org/licensing
+[rsqkit-licence]: https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE.md
