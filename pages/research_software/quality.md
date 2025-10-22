@@ -31,17 +31,15 @@ Reproducibility often hinges on the FAIR principles: if your code and metadata a
 FAIR is not a completely separate concern — it is a crucial subset of quality, primarily ensuring that your software can actually be discovered, understood, and exercised by others (or by you, months down the line).
 A truly high-quality, reproducible research software package will typically satisfy both classical software-engineering criteria (tests, style, documentation, performance) and the FAIR principles.
 
-So, FAIR - the “openness & reusability” slice of software quality - is essential for reproducibility, but most impactful when combined with all the other [quality practices](rs_quality) like testing, version control, and robust design.
-
-Read in more detail what the [FAIR principles for research software][fair_rs] encompass.
+So, FAIR - the “openness & reusability” slice of software quality - is essential for reproducibility, but most impactful when combined with all the other [quality practices](rs_quality) like [testing][testing_software], [version control][using_version_control], and [robust software design][robust_software_design].
 
 ## Formal Quality Dimensions & Indicators
 
-The project is working on formally defining a number of research software quality [dimensions](https://w3id.org/everse/i/dimensions/) and their associated [indicators](https://w3id.org/everse/i/indicators) (which are to be used to assess the quality of software), based on existing work in the [literature][^1] and [ISO standards for software and data quality](https://iso25000.com/index.php/en/).
-
-## References
-
-[^1]: David, M., Colom, M., Garijo, D., Castro, L. J., Louvet, V., Ronchieri, E., Torquati, M., del Caño, L., Cerlane, L., Van den Bossche, M., Campos, I., & Di Cosmo, R. (2024). Ensure Software Quality (1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.10723608](https://doi.org/10.5281/zenodo.10723608)
+The project is working on formally defining a number of research software quality [dimensions](https://w3id.org/everse/i/dimensions/) and their associated [indicators](https://w3id.org/everse/i/indicators) (which are to be used to assess the quality of software), based on [existing work on ensuring software quality][ensuring-software-quality] and [ISO standards for software and data quality](https://iso25000.com/index.php/en/).
 
 [fair-rs-nature]: https://www.nature.com/articles/s41597-022-01710-x
 [fair_rs]: ./fair_rs
+[ensuring-software-quality]: https://doi.org/10.5281/zenodo.10723608
+[using_version_control]: ./using_version_control
+[testing_software]: ./testing_software
+[robust_software_design]: https://www.nilebits.com/blog/2024/08/software-design-principles-building-applications/

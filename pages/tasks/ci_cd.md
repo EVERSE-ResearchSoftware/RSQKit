@@ -1,5 +1,5 @@
 ---
-title: Continuous Integration and Continuous Delivery/Deployment
+title: Continuous Integration & Deployment
 description: How can you use CI/CD in software development?
 contributors: ["Aleksandra Nenadic"]
 page_id: ci_cd

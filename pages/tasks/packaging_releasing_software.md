@@ -8,7 +8,6 @@ related_pages:
   tasks: [releasing_software] 
 quality_indicators: [has_published_package, software_has_releases]
 keywords: ["package software", "packaging software", "releasing software", "release software", "pypi"]
-
 ---
 
 ## How to publish your software package to a package repository?
@@ -19,7 +18,7 @@ Publishing a software package to a package repository allows other developers to
 Different programming languages have their own package repositories, such as npm for JavaScript, PyPI for Python, and Maven Central for Java.
 Additionally, there are general-purpose registries like GitHub Packages and GitLab Package Registry, which allow storing and distributing packages across multiple ecosystems.
 
-This document specifically covers publishing Python packages to **{% tool "pypi" %} (Python Package Index)** and **{% tool "gitlab" %} Package Registry**, explaining the differences between these two so developers can decide where to publish their package.
+This document specifically covers publishing Python packages to **{% tool "pypi" %} (Python Package Index)** and **GitLab Package Registry**, explaining the differences between these two so developers can decide where to publish their package.
 
 #### Differences Between PyPI and GitHub Packages
 
@@ -157,27 +156,16 @@ This document specifically covers publishing Python packages to **{% tool "pypi"
       pip install --index-url https://gitlab.com/api/v4/projects/YOUR_PROJECT_ID/packages/pypi/simple my_python_package
       ``` 
 
-## Training materials
+### Further guidance
 
 - [How to package a Python project](https://py-pkgs.org/03-how-to-package-a-python) 
 - [Python Packaging (Carpentries)](https://carpentries-incubator.github.io/python_packaging/)
 - [Python 201 on Packaging](https://python-tutorial.dev/201/tutorial/packaging.html#packaging)
 - [Managing Academic Software development: Release management](https://southampton-rsg.github.io/swc-project-novice/04-features/index.html)
-
-## References
-
-* [PyPI - The Python Package Index](https://pypi.org/)
-
-* [Python Packaging User Guide - Packaging projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
-
-* [TestPyPI - The Test Python Package Index](https://test.pypi.org/)
-
-* [How to use TestPyPI](https://packaging.python.org/en/latest/guides/using-testpypi/)
-
-* [Twine - Uploading Python Packages](https://twine.readthedocs.io/en/latest/)
-
-* [Python Packaging User Guide - The `.pypirc file`](https://packaging.python.org/en/latest/specifications/pypirc/)
-
-* [GitLab Documentation - Publish a PyPI package](https://docs.gitlab.com/ee/user/packages/pypi_repository/index.html#publish-a-pypi-package)
-
-* [Python Packaging Authority (PyPA)](https://www.pypa.io/en/latest/)
+- [Python Packaging User Guide - Packaging projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+- [TestPyPI - The Test Python Package Index](https://test.pypi.org/)
+- [How to use TestPyPI](https://packaging.python.org/en/latest/guides/using-testpypi/)
+- [Twine - Uploading Python Packages](https://twine.readthedocs.io/en/latest/)
+- [Python Packaging User Guide - The `.pypirc file`](https://packaging.python.org/en/latest/specifications/pypirc/)
+- [GitLab Documentation - Publish a PyPI package](https://docs.gitlab.com/ee/user/packages/pypi_repository/index.html#publish-a-pypi-package)
+- [Python Packaging Authority (PyPA)](https://www.pypa.io/en/latest/)

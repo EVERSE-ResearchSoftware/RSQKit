@@ -104,6 +104,9 @@ subitems:
         url: /software_identifiers
       - title: "Documenting software"
         url: documenting_software
+        subitems:
+          - title: "Documenting software using 'Read The Docs"
+            url: documenting_software_readthedocs
       - title: "Creating a good README"
         url: /creating_good_readme
       - title: "Software metadata"
@@ -116,6 +119,8 @@ subitems:
         url: /publishing_software
       - title: "Computational workflows"
         url: computational_workflows
+      - title: "Writing FAIRer Research Software"
+        url: fair_rs
       - title: Continuous Integration & Deployment
         url: /ci_cd
         subitems:
@@ -131,7 +136,8 @@ subitems:
     image_url: /assets/img/font-awesome-free/screwdriver-wrench-solid.svg
   - title: Get involved
     url: /get_involved
-    description: Various guidelines on how to get involved with RSQKit
+    description: Various resources on how to get involved with RSQKit
+    image_url: /assets/img/font-awesome-free/screwdriver-wrench-solid.svg
     subitems:
       - title: Contribution Guidelines
         url: /contribution_guidelines

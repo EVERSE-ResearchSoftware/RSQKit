@@ -8,7 +8,7 @@ related_pages:
   tasks: [] # A comma-separated page_ids of the task pages that are related to the current page
 child_pages: [] # A comma-separated page_ids of the task pages that are children to the current page in some sense (describes either "task/subtask" relationship or "general task/task using specific tool or applied to domain" relationship)
 quality_indicators: [] # a comma separated list of indicators related to this page, according to the ids in https://w3id.org/everse/i/indicators/
-keywords: [] # a comma separated list of keywords related to this page (surround multi word terms in quotes), e.g. keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
+keywords: [] # a comma separated list of keywords related to this page (surround multi-word terms in quotes), e.g. keywords: ["ci", "cd", "continuous integration", "continuous deployment"] - these terms will be used to automatically discover relevant training
 ---
 
 ## Concrete problem 1, formulated as a question <!-- example: how to version control code? -->
@@ -58,7 +58,3 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 {% assign child_pages = page.child_pages | join: ', ' %}
 {% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=4 %}
 -->
-
-## References <!-- do not delete this heading and write your text below it --> If this page has been inspired or derived from other resources, make sure to reference them here.
-
-There is no need to reference other relevant pages from RSQKit here - rather list them in the page's *frontmatter* using parameter `related_pages` and they will be listed in the page automatically under "Related pages" section.

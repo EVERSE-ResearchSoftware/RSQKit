@@ -6,6 +6,7 @@ gem 'jekyll', '~> 4.3.1'
 gem 'jemoji', '~> 0.13.0'
 gem 'kramdown-parser-gfm', '~> 1.1'
 gem 'jekyll-octicons'
+gem 'csv'
 
 group :jekyll_plugins do
   gem 'jekyll-redirect-from', '~> 0.16.0'
