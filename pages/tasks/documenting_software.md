@@ -1,7 +1,7 @@
 ---
 title: Documenting software
 description: How to document your software project?
-contributors: ["Azza Gamgami", "Aleksandra Nenadic", "Laura Portell Silva"]
+contributors: ["Azza Gamgami", "Aleksandra Nenadic", "Laura Portell-Silva"]
 page_id: documenting_software
 related_pages:
   tasks: [writing_readable_code, documenting_software_readthedocs, creating_good_readme]
