@@ -1,7 +1,7 @@
 ---
 title: Documenting software
 description: How to document your software project?
-contributors: ["Azza Gamgami", "Aleksandra Nenadic"]
+contributors: ["Azza Gamgami", "Aleksandra Nenadic", "Laura Portell Silva"]
 page_id: documenting_software
 related_pages:
   tasks: [writing_readable_code, documenting_software_readthedocs, creating_good_readme]
@@ -10,140 +10,173 @@ keywords: ["documentation", "software documentation", "readme", "sphynx", "readt
 
 ---
 
-## How to document your software project?
+## How to create good software documentation?
 
 ### Description
 
-Software documentation is an essential part of the software development process, designed to provide clear communication between various stakeholders including developers, administrators, testers, users and project managers - ensuring the software is easy to understand and use.
+Software documentation is an essential part of the software development process, designed to provide clear communication between various stakeholders including developers, administrators, testers, users and project managers. It ensures that the software is easy to understand, maintain and use, and that its functionality can be effectively extended or reused by others.
+
+Documentation provides the foundation for software sustainability and reusability. It facilitates collaboration, reduces dependency on individual contributors, and improves transparency, reproducibility, and quality assurance. Proper documentation also enhances user experience and supports onboarding for new contributors.
 
 ### Considerations
 
-* Software documentation should be accessible, clear, consistent, regularly updated, cover all key software aspects (source code, software structure, APIs, usage, etc.), 
-encourage feedback, and ideally be auto-generated to a large extent.
-* Software documentation should use standard formats – (R)Markdown, reStructuredText, HTML, PDF, or wikis.
-* Each piece of documentation has a distinct purpose, different audience 
-(e.g. developers, administrators, testers, users and project managers), tone and level of detail (developer-facing documentation provides in-depth and complex technical details; an end-user guide focuses on usability and clarity, offering step-by-step instructions for usage).
+* Software documentation should be accessible, clear, consistent, regularly updated, cover all key software aspects (e.g., source code, software structure, APIs, usage), encourage feedback, and be automatically generated where possible. It should use standard formats such as (R)Markdown, reStructuredText, HTML, PDF, or wikis.
+* Each piece of documentation serves a distinct purpose, with a specific audience, tone, and level of detail. Different users of software can be broadly categorised as:
+  * *End users* – individuals who use the software for personal or work-related tasks.
+  * *Administrators* – responsible for installing, configuring, managing, and maintaining software systems.
+  * *Developers* – who create, modify, debug, and maintain software applications.
+  * *Testers* and *project managers* – who engage with documentation based on their roles and needs.
+* Documentation can vary depending on the aspect of the software it addresses:
+  * *Product documentation* provides comprehensive information about the software’s features, functionality, usage, and maintenance. Examples include requirements documents, high-level descriptions (e.g., README files), source code documentation, user guides, and API references. It targets multiple audiences, ensuring they can understand, operate, and troubleshoot the software.
+  * *Process documentation* is primarily intended for the development team and may include plans, progress reports, working papers, and notes that capture development ideas and decisions.
 
 ### Solutions
 
-* Create and maintain different types of software documentation - based on its purpose and intended audiences. 
-* Include usage examples to help users understand and experiment with the software and showcase different aspects of your software.
-* Automate generation and publishing of documentation from your code where possible using specialised tools 
-(e.g. see general purpose documentation generation, hosting and publishing tool {% tool "readthedocs" %} or [programming language specific documentation tools](#interface-documentation)).
-* Store your documentation with your software project and track it using version control. 
-  * {% tool "readthedocs" %} tool [integrates with the version control workflow](https://docs.readthedocs.com/platform/stable/reference/git-integration.html) you likely already use for your code. 
-  By treating documentation like code, your team can leverage familiar tools, making it easier to keep your documentation up-to-date.
-  Read more on [how to use *Read the Docs*][creating_readthedocs] to document your software project.
-  * Publishing service {% tool "zenodo" %} integrates with GitHub and can archive your software's documentation automatically with 
-  each new release of your software.
+#### Understand purpose and audience
 
-An example of a software project that has good documentation practices is bioinformatics library [khmer](https://github.com/dib-lab/khmer/).
-It is using version control for its documentation which features a comprehensive changelog that details new features, bug fixes (categorised based on relevance to users or developers), known issues, and a list of contributors for each release.
+* Create and maintain different types of software documentation based on its **purpose** and **intended audience**.
+* Think about who will be using the documentation and tailor content accordingly:
+  * *User documentation* – explains clearly what the software does and how to use it; focuses on usability, clarity, and step-by-step instructions (e.g., end user guides).
+  * *Developer documentation* – covers in-depth technical details such as specifications, docstrings, inline comments, error messages, contribution guidance, testing, and software governance.
+  * *Deployment documentation* – provides installation, configuration, dependency, platform, and testing instructions.
+* Creating personas can help target content effectively for different audiences.
 
-[Keras](https://github.com/keras-team/keras) is another software project documentation example that includes examples of code usages to demonstrate its functionalities.
+#### Document as you code
 
-## Types of software documentation
+A documentation string is a string literal specified in source code that is used, like a comment, to document a specific segment of code. The difference is that the documentation string is visible to the outside world, while comments are not. Documentations strings are for helping people use the code, while comments are meant for people modifying the code - yourself and other developers.
 
-Documenting source code and software (as a product as well as a project) is essential for user experience, collaboration, and maintainability.
+* Write comments and documentation strings while coding to keep information up to date.
+* Balance the amount of commenting; focus on *why* and *how* instead of restating *what* the code does.
+* Rewrite overly complex code rather than explaining it with excessive comments.
+* Use integrated development environments (IDEs), such as {% tool "vscode" %}, {% tool "pycharm" %}, {% tool "eclipse" %} and extensions (e.g., {% tool "jsdoc" %}, {% tool "python-docstring-generator" %}) to assist in generating docstrings.
 
-### Documenting source code
+#### Write meaningful error messages
 
-Source code documentation helps developers (and to some extent system administrators) understand the logic, structure, and functionality of the code.
-It ensures that the codebase remains readable, maintainable, and scalable.
-This may include the following documentation types.
+To help your users troubleshoot issues when using your software, error messages returned by your code should clearly state:
 
-#### Code comments
+* When and where the error happened.
+* What went wrong.
+* The state of the software at that time.
+* How to fix it or where to find help in your documentation.
 
-Code comments are about improving readability and understandability of your code and may include:
+#### Include usage examples
 
-- inline comments – short explanations within the code for specific lines or blocks,
-- block comments – detailed explanations for complex logic or algorithms,
-- documentation strings – structured documentation (e.g., Python docstrings, Javadoc in Java) that describe functions, classes, and modules.
+* Provide usage examples to help users understand, experiment with, and explore features.
+* If documentation becomes cluttered, move examples to a dedicated section.
+* {% tool "keras" %} is a good example of including code usage examples.
 
-Some good practices when writing comments:
+#### Include a quickstart guide
 
-- write comments as you code,
-- ensure you strike a balance in the amount of commenting - you do not have to explain each line of your code,
-- focus on the *why* and the *how* of your code - avoid using comments to explain what your code does. If your code is too
-  complex for other programmers to understand, consider rewriting it for clarity rather than adding comments to explain it,
-- write meaningful explanations for error messages - to help troubleshoot issues when using your software.
+* Offers a fast path from setup to experimentation (e.g., tutorials, animated GIFs, minimal examples).
+* The [TPOT tool](http://epistasislab.github.io/tpot/) includes an effective quickstart with code snippets and visuals.
 
-Also see the [related page on writing readable code](./writing_readable_code).
+#### Provide a README file
 
-#### Interface documentation
+* The README should explain basic functionality, installation steps, and usage (e.g., a quick start).
+* It acts as a project homepage on platforms like {% tool "github" %} and {% tool "gitlab" %}.
+* Include a link to full project documentation.
+* See more details on [how to create a good README file](./creating_good_readme).
 
-Software interface documentation describes how different software components or systems interact with each other, outlining various interfaces (including Application Programming Interface (API)) and communication protocols:
+#### Version control your documentation
 
-- describes how to use functions, classes, and modules,
-- includes parameters, return values, exceptions, and usage examples for functions and classes.
+* Store documentation in the project repository and track it using version control.
+* Treat documentation like code to keep it updated through familiar workflows. Read more on [how to use *Read the Docs* for your software project](documenting_software_readthedocs.md).
+* {% tool "readthedocs" %} integrates with Git workflows and can automatically publish documentation. See more in the [Documenting Software Readthedocs page](./documenting_software_readthedocs).
+* {% tool "zenodo" %} can archive documentation automatically with each software release.
 
-**Automated documentation tools** can help automate generation of this type of documentation from [documentation strings](#code-comments) - while no software can completely write source code documentation for you, several tools can significantly ease the process.
+Examples:
+* The bioinformatics library [khmer](https://github.com/dib-lab/khmer/) uses version control for its documentation, includes a comprehensive changelog, lists contributors, and tracks user- vs developer-facing issues.
+* *RSQKit* uses GitHub Actions to automate documentation tasks.
 
-* {% tool "sphinx" %} (for Python and other languages), {% tool "doxygen" %} (for C++ and other languages), {% tool "roxygen" %} (for R), 
-{% tool "javadoc" %} (for Java) and {% tool "jsdoc" %} (for JavaScript) can generate documentation in multiple formats (HTML, PDF) and automatically extract comments from annotated code in your codebase.
+#### Document Command Line Interface (CLI) or the Application Programming Interface (API)
+
+If your software provides a CLI or API:
+* Describe usage, subcommands, options, arguments, and environment variables.ç
+* Provide examples where possible.
+* Implement a `help` command to assist users without external documentation.
+
+The `help` command should cover:
+* Usage instructions (how to execute the command).
+* Relevant subcommands
+* Options and/or arguments
+* Applicable environment variables
+* And ideally, some examples.
+
+Tools and examples:
+* [Click](https://click.palletsprojects.com/en/stable/) helps build and document Python CLI tools.
+* The [OpenAPI Specification](https://swagger.io/specification/), previously known as the Swagger Specification, is a specification for a machine-readable API definition language for describing, producing, consuming and visualising web services.
+* {% tool "swagger" %} (built around the OpenAPI Specification) helps design, build, document, and consume REST APIs.
+* A great example of a CLI is the one included with the [Magic-BLAST](https://ncbi.github.io/magicblast/) bioinformatics tool.
+
+#### Use automated documentation tools
+
+While no software can completely write software documentation for you, several tools can significantly ease the process.
+
+* {% tool "sphinx" %} (for Python and other languages), {% tool "doxygen" %} (for C++ and other languages), {% tool "roxygen" %} (for R) and {% tool "jsdoc" %} (for JavaScript) can generate documentation in multiple formats (HTML, PDF) and automatically extract comments from annotated code in your codebase.
 * {% tool "mkdocs" %} enables the creation of professional-looking documentation websites using Markdown.
-* {% tool "swagger" %} automatically generates API documentation, providing user-friendly interfaces for developers.
+* {% tool "swagger" %} can automate the generation of client libraries, server stubs, and API documentation efficiently based on API definitions. 
 * {% tool "documenter-jl" %} is a Julia package for building documentation from docstrings in code and Markdown files.
-* [Continuous Integration (CI) and Continuous Deployment (CD)](https://github.com/resources/articles/devops/ci-cd) tools offered by platforms such as {% tool "github" %} and {% tool "gitlab" %} 
-can automate documentation generation and release.
+* Leverage CI/DC tools, offered by platforms such as {% tool "github" %} and {% tool "gitlab" %} to automate quality assurance and release of your updated documentation to the public. For example, take a look at the [GitHub actions in the RSQKit repository](https://github.com/EVERSE-ResearchSoftware/RSQKit/actions) 
+for some automated tasks.
 
-### Documenting software product
+#### State how to cite your software
 
-Software product documentation comprehensive information about the software, including its features, usage, installation, and troubleshooting.
-It may include some of the following documentation types.
+* Ensure that your documentation includes clear instructions on how to cite your work.
+* See more on [how to cite your code repository using Citation File Format (CFF)].
 
-#### Technical documentation
+### Types of software documentation
 
-- Software requirement specifications – functional and non-functional requirements of the software.
-- System architecture – high-level system design, how different modules and components interact and key technologies used.
-- API (Application Programming Interface) documentation – if the software provides an API, detailed API specs.
-- Deployment guide – instructions on installing, configuring, and deploying the software for administrators.
+Documenting source code and software—both as a *product* and as a *project*—is essential for user experience, collaboration, and long-term maintainability.
 
-#### User documentation
+#### Documenting source code
 
-- Installation guides – instructions for setting up the software.
-- Quickstart guides - concise documents that helps users quickly set up and start using software with minimal effort. 
-For example, [a quickstart guide for TPOT (Tree-Based Pipeline Optimization) tool](http://epistasislab.github.io/tpot/) includes an animated GIFs with examples and minimal code snippets.
-- User manuals – detailed step-by-step instructions on how to use the software.
-- CLI (Command Line Interface) documentation - if the software provides a CLI, usage instructions including relevant commands, 
-parameters and arguments to run the software.
-Tools like [Click](https://click.palletsprojects.com/) for Python can assist you in creating your software's CLI.
-A great example of a CLI is the one included with the [Magic-BLAST](https://ncbi.github.io/magicblast/) bioinformatics tool.
-- Tutorials & How-To Guides – walk-throughs for common tasks.
-- Troubleshooting & FAQs – solutions to common issues.
+Improves readability, maintainability, and scalability. Includes:
 
-### Documenting software project
+**Code comments**
+* Inline comments – short explanations for specific lines/blocks
+* Block comments – detailed explanations for complex logic
+* Documentation strings – structured descriptions of functions/classes/modules
 
-Documenting a research software project is much like documenting any open project.
-Project documentation details key external-facing elements of a software project, focusing on managing and tracking its development, usage, contributions and community.
+**Interface documentation**
+* Describes how components interact (e.g., APIs), including parameters, return values, exceptions, and usage examples.
+
+#### Documenting the software product
+
+Provides comprehensive information on functionality, usage, installation, and troubleshooting. Includes:
+
+**Technical documentation**
+* Requirements specifications
+* System architecture
+* API specifications
+* Deployment guides
+
+**User documentation**
+* Installation guides
+* Quickstart guides
+* User manuals
+* CLI usage instructions
+* Tutorials and how-to guides
+* Troubleshooting and FAQs
+
+#### Documenting the software project
+
+Covers external-facing details about development, contribution, licensing, and community. Includes:
+* README
+* Contributing guidelines
+* Roadmap
+* Changelog and release notes (see more in the [Releasing software page](./releasing_software))
+* Licensing information (see more in the [Licensing software page](./licensing_software))
+* Code of Conduct
+* Software citation instructions
+* List of authors and contributors
+* Pointers to further documentation
 
 An excellent overview of what documentation each software project should provide can be found in the [Turing Way's "Guide for Reproducible Research"](https://book.the-turing-way.org/reproducible-research/reproducible-research) - section on [project documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project).
 
-Project documentation should include the following:
-
-- README - a text or Markdown file that introduces and explains a project and explains the basic functionality, dependencies and usage of your software. README 
-also acts as a homepage for your project on code sharing platforms such as {% tool "github" %} and {% tool "gitlab" %}.
-See more on [how to create a good README document for your software project][creating_good_readme].
-- Contributing guidelines - describes how people can contribute to the development of software and get involved in the project.
-- Roadmap - an overview of the current and future development plans and milestones.
-- Changelog and release notes - a text file that contains a record of what notable changes are made between versions of software.
-- Licensing - lets users know under what legal conditions they are allowed to use the software.
-- Code of Conduct - to create and maintain a collaboration environment that promotes participation, collaboration and exchange of ideas, 
-while fostering respect among developers.
-- Software citation - let people know how to cite your software, see more on [how to cite your software project](./citing_software)
-- List of all authors and contributors to the software.
-- Pointers to various other documentation about your software.
-
-
 ## References
+
 1. [Lee B. D., Ten Simple Rules for documenting scientific software](https://doi.org/10.1371/journal.pcbi.1006561)
 2. [Wilson, G., Aruliah, D. A., Brown, C. T., Chue Hong, N. P., Davis, M., Guy, R. T., Haddock, S. H., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P. Best Practices for Scientific Computing](https://doi.org/10.1371/journal.pbio.1001745)
 3. [Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost FdV, et al. Ten Simple Rules for Taking Advantage of Git and GitHub](https://doi.org/10.1371/journal.pcbi.1004947)
 4. [How to Write Software Documentation in 7 Simple Steps](https://technicalwriterhq.com/documentation/software-documentation/how-to-write-software-documentation/)
 5. [The Turing Way's "Guide for Reproducible Research"](https://book.the-turing-way.org/reproducible-research/reproducible-research) - section on [project documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project).
-
-[creating_good_readme]: ./creating_good_readme
-[licensing_software]: ./licensing_software
-[releasing_code]: ./releasing_software
-[software_documentation]: ./documenting_software
-[creating_readthedocs]: ./documenting_software_readthedocs
