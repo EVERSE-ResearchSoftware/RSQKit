@@ -151,4 +151,4 @@ For more information, see [our guidelines](https://everse.software/RSQKit/licens
 [^1]:Wang, T., Wang, S., & Chen, T. H. P. (2023). Study the correlation between the readme file of GitHub projects and their popularity. Journal of Systems and Software, 205, 111806.
 [^2]: Mao, A., Garijo, D., & Fakhraei, S. (2019, December). SoMEF: A framework for capturing scientific software metadata from its documentation. In 2019 IEEE International Conference on Big Data (Big Data) (pp. 3032-3037). IEEE.
 
-[documenting_software]: ./documenting_software
+[documenting_software]: ./documenting_code

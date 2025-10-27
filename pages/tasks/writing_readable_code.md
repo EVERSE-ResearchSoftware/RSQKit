@@ -41,7 +41,7 @@ Readable code facilitates the process of understanding the code, the evolution o
 What practices are there to help us improve code readability?
 
 One of the most important things we can do to make sure your source code is readable by others (and ourselves a few months down the line) is to make sure that the code is:
-* **well commented** (and well documented - [see more on documenting your software](./documenting_software.md)), 
+* **well commented** (and well documented - [see more on documenting your software](./documenting_code)), 
 * **cleanly and consistently formatted** and uses sensible,
 * **modular** - split into smaller, reusable pieces of code (modules), and
 * uses **descriptive names** for variable, function, class and module names.
@@ -71,7 +71,7 @@ Here is the summary of some of the practices to follow to make your code more re
 - If possible use type annotations for untyped languages like Python or JavaScript. Type annotations (also known as type hints) are a way to specify the *expected* data types of variables, function parameters, and return values in programming languages that are not strongly typed and are of great help to understand code. Use a type checker to validate your code, for example, {% tool "mypy" %} for Python. This will reduce the risk of faulty type annotations (it will also improve the quality of your code by detecting faulty assumptions)
 - Write informative comments and documentation strings for functions to provide more detail about what the code and is doing, 
 transmit understanding and context.
-In addition to documenting your source code - [see more on documenting your software project](./documenting_software.md) which will help people understand its functionality better and help with reuse.
+In addition to documenting your source code - [see more on documenting your software project](./documenting_code) which will help people understand its functionality better and help with reuse.
 - Follow a code style guide for your programming language that is agreed upon by the community and other programmers will find easy to read. 
 Style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code.
 Consistency with a style guide is important but consistency within a project or a module is more important - if you are joining an existing project, look at the existing code and make sure to adopt whatever practices are already in place.
