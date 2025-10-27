@@ -102,8 +102,8 @@ subitems:
         url: /citing_software
       - title: "Software identifiers"
         url: /software_identifiers
-      - title: "Documenting software"
-        url: documenting_software
+      - title: "Software documentation"
+        url: software_documentation
       - title: "Creating a good README"
         url: /creating_good_readme
       - title: "Software metadata"

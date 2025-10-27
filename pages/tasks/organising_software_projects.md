@@ -114,7 +114,7 @@ For best practices and guidance for designing research projects in particular fo
 [creating_good_readme]: ./creating_good_readme
 [licensing_software]: ./licensing_software
 [releasing_code]: ./releasing_software
-[software_documentation]: ./documenting_software
+[software_documentation]: ./documenting_code
 [version_control]: ./using_version_control
 [software_metadata]: ./software_metadata
 [cff]: https://citation-file-format.github.io/
