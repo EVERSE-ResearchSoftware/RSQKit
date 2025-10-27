@@ -4,7 +4,7 @@ description: How to use 'Read The Docs' tool for software documentation?
 contributors: ["Christian Hüser","Azza Gamgami"]
 page_id: documenting_software_readthedocs
 related_pages:
-  tasks: [documenting_software]
+  tasks: [documenting_code, software_documentation]
 quality_indicators: [software_has_documentation]
 keywords: ["documentation", "readthedocs", "read the docs"]
 
