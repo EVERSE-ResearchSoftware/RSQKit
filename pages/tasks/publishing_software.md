@@ -6,6 +6,8 @@ indicators: []
 child_pages: [software_documentation, software_metadata, software_identifiers, citing_software, packaging_software, releasing_software, archiving_software] 
 #keywords: ["software publishing", "software documentation", "software license", "software licence", "publish software", "software packaging", "software citation", "software identifiers", "software archiving"]
 page_citation: false
+contributors: ["Aleksandra Nenadic"]
+coordinators: ["Aleksandra Nenadic"]
 ---
 
 Publishing research software comprises more than just putting the code online into a public code repository such as GitHub or Gitlab.
