@@ -1,6 +1,6 @@
 ---
-title: Developing FAIR Research Software
-description: How can you develop software that is FAIR?
+title: Adopting FAIR software practices
+description: What practices and tools can help improve FAIRness of software?
 contributors: ["Aleksandra Nenadic"]
 page_id: fair_rs
 indicators: []
@@ -210,3 +210,5 @@ The table below provides a summary of how different tools and practices help wit
 [software-heritage]: https://www.softwareheritage.org/
 [software-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [zenodo]: https://zenodo.org/
+[fair-rs-nature]: 
+[fair-rs-principles]: https://doi.org/10.1038/sdata.2016.18
