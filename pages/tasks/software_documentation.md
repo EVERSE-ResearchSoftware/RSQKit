@@ -2,7 +2,8 @@
 title: Software documentation
 description: How do you document your software (code and project) for use by various different audiences?
 page_id: software_documentation
-contributors: ["Azza Gamgami", "Aleksandra Nenadic", "Laura Portell-Silva"]
+contributors: ["Aleksandra Nenadic", "Laura Portell-Silva"]
+coordinators: ["Aleksandra Nenadic"]
 child_pages: [documenting_software_project, documenting_code]
 quality_indicators: [software_has_documentation]
 #keywords: ["software documentation", "documentation", "code documentation", "code comments", "readme", "mkdocs", "readthedocs"]
