@@ -40,7 +40,7 @@ Also check out the [Netherlands eScience Center Guide to Software Development][n
 Most of the following considerations apply to software languages, frameworks and technologies alike, unless explicitly noted otherwise.
 
 #### People and community
-- What software is used widely in your field already? It may make sense for interoperability and reusability (the I and R in [FAIR](fair_rs)) to choose the same software, if possible.
+- What software is used widely in your field already? It may make sense for interoperability and reusability (the I and R in [FAIR](../fair_rs.md)) to choose the same software, if possible.
 - Similarly, what existing practices and experience are available in your community? Can you benefit from this?
    * Also look at the expertise available at your institute/organisation.
      Having an expert at a nearby desk to ask questions or even coach you can be invaluable.
