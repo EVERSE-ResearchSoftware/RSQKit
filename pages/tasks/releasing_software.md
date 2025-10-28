@@ -4,7 +4,7 @@ description: How to release your software for reuse?
 contributors: ["Christian Hüser", "Shoaib Sufi", "Daniel Garijo"]
 page_id: releasing_software
 related_pages:
-  tasks: [software_identifiers]
+  tasks: [software_identifiers, packaging_software, publishing_software]
 quality_indicators: [software_has_releases]
 keywords: ["release software", "releasing software", "releasing code", "release code"]
 
@@ -27,9 +27,9 @@ Naming schemes can vary - for example {% tool "semantic-versioning" %} (e.g. "1.
 
 ### Solutions
 
-Software Project Management Platforms like {% tool "github" %} and {% tool "gitlab" %} offer features to help with releasing software automatically.
+Code hosting and management platforms – like {% tool "github" %}, {% tool "gitlab" %}, and {% tool "bitbucket" %} - offer features to help with releasing software automatically.
 
-For example, to perform a software release on GitHub:
+For example, to create a software release on GitHub:
 
 - Go to your source code repository on GitHub.
 - Prepare changelog ahead of the release process.

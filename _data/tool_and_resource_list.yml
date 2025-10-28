@@ -1029,3 +1029,17 @@
     system.
   url: 'https://www.reprozip.org/'
   catalog: RSQKit
+- id: bitbucket
+  name: BitBucket
+  description: >-
+    Bitbucket is used for hosting and managing source code repositories, 
+    primarily using Git, and is designed to help software development teams 
+    collaborate on code, automate builds and deployments with Bitbucket Pipelines, 
+    and integrate with other tools like Jira.
+  url: 'https://bitbucket.org/'
+  catalog: RSQKit
+- id: dockstore
+  name: Dockstore
+  description: >-
+    Dockstore is a free and open source platform for sharing reusable and scalable analytical bioinformatics tools and workflows.
+  url: 'https://dockstore.org/'
