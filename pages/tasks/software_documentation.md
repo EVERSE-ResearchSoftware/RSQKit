@@ -1,5 +1,5 @@
 ---
-title: Documenting software
+title: Software documentation
 description: How do you document your software (code and project) for use by various different audiences?
 page_id: software_documentation
 contributors: ["Azza Gamgami", "Aleksandra Nenadic", "Laura Portell-Silva"]
