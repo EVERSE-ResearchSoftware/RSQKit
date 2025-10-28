@@ -4,7 +4,7 @@ description: How to create a good README document for software projects?
 contributors: ["Esteban González", "Aleksandra Nenadic", "Daniel Garijo"]
 page_id: creating_good_readme
 related_pages:
-  tasks: [documenting_software]
+  tasks: [software_documentation]
 quality_indicators: [software_has_documentation]
 keywords: ["readme"]
 
@@ -149,10 +149,11 @@ For more information, see [our guidelines](https://everse.software/RSQKit/licens
 
 #### Automated extraction of metadata from README
 
-{% tool "somef" %} is a tool to automatically extract information (metadata) from README files.
+{% tool "somef" %} is a [tool to automatically extract information (metadata) from README files][somef-paper].
 It is not an assessment tool for README files, but can be used for detecting missing parts of a README file.
 
 [documenting_software]: ./documenting_software
 [README-best-practices]: https://tilburgsciencehub.com/topics/collaborate-share/share-your-work/content-creation/readme-best-practices/
 [readme-guidelines]: https://data.4tu.nl/s/documents/Guidelines_for_creating_a_README_file.pdf
 [documenting_code]: ./documenting_code
+[somef-paper]: https://ieeexplore.ieee.org/document/9006447/

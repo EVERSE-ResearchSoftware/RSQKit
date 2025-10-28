@@ -4,7 +4,7 @@ description: How to write code readable and understandable by others?
 contributors: ["Aleksandra Nenadic", "Christian Mönch"]
 page_id: writing_readable_code
 related_pages:
-  tasks: [documenting_software]
+  tasks: [documenting_code]
 quality_indicators: [has_no_linting_issues]
 keywords: ["readable code", "readability", "reusable code", "reusable software"]
 

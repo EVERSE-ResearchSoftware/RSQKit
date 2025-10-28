@@ -7,7 +7,6 @@ related_pages:
    tasks: []
 quality_indicators: []
 keywords: ["programming language", "software infrastructure", "software tool"]
-
 ---
 
 ## How to choose programming languages, tools and infrastructures?
@@ -33,6 +32,8 @@ Again, the term is used somewhat imprecisely and one may in some cases prefer te
 The point is that we speak here of a broader, more topical, more knowledge-oriented set of techniques than with the much more programming-oriented frameworks.
 
 Regardless of the exact categorisation, all these software-related topics can mean defining choices in a (research) software project.
+
+Also check out the [Netherlands eScience Center Guide to Software Development][nesc-rs-guide] which inspired discussions around this page.
 
 ### Considerations
 
@@ -116,3 +117,5 @@ Some interesting templates to consider for research software:
 - [BestieTemplate.jl](https://github.com/JuliaBesties/BestieTemplate.jl): Julia package template for research software
 - For R, the [usethis](https://usethis.r-lib.org) package provides a good basis for developing R packages.
 - RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/tasks/TEMPLATE_tasks.md).
+
+[nesc-rs-guide]: https://guide.esciencecenter.nl/
