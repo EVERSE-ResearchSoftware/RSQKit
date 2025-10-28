@@ -34,7 +34,6 @@ See also [CITATION.cff](CITATION.cff).
 Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailto:rsqkit@lists.certh.gr) with any questions about this project or content.
 
 ## Outreach and presentations
-Newest first.
 
 - [RSQKit presentation by Shoaib Sufi](https://zenodo.org/records/17367969) at the [CoSeC](https://www.cosec.ac.uk/) Staff Celebration Day, 16th October 2025
 - [RSQKit presentation by Shoaib Sufi](https://zenodo.org/records/16539546) at the [ReSA Research Software Infrastructure Forum meeting](https://www.researchsoft.org/forums/rsi-forum/), 9 July 2025 [video available](https://zenodo.org/records/16539546/preview/EVERSE%20RSQKit.mp4?include_deleted=0)
@@ -46,7 +45,7 @@ Newest first.
 ## Acknowledgements
 
 * RSQKit is heavily inspired and replicating the work done by ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/) within the research software space 
-* RSQKit website is built using the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/).
+* RSQKit website is built using the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/)
 * [Flaticon - free icons](https://www.flaticon.com/free-icons):
   * [Puzzle icons created by monkik - Flaticon](https://www.flaticon.com/free-icons/puzzle)
   * [Tools icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/tools)
@@ -64,6 +63,7 @@ Newest first.
   * [Analyze icons created by Dewi Sari - Flaticon](https://www.flaticon.com/free-icons/analyze)
   * [Analyze icons created by Icon.verse - Flaticon](https://www.flaticon.com/free-icons/analyze)
 * [Font awesome - free icons](https://fontawesome.com/search?m=free&o=r)
+* All [authors and contributors](CONTRIBUTORS.md)
   
 ## Funding
 EVERSE project is funded by the [European Commission HORIZON-INFRA-2023-EOSC-01-02](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2023-eosc-01-02).
