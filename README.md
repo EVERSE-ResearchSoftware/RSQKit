@@ -46,7 +46,7 @@ Please get in touch with the [RSQKit Editorial Board & Maintainers](mailto:mailt
 
 * RSQKit is heavily inspired and replicating the work done by ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/) within the research software space 
 * RSQKit website is built using the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/)
-* [Flaticon - free icons](https://www.flaticon.com/free-icons):
+* [Flaticon - free icons](https://www.flaticon.com):
   * [Puzzle icons created by monkik - Flaticon](https://www.flaticon.com/free-icons/puzzle)
   * [Tools icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/tools)
   * [Support icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/support)
