@@ -63,6 +63,6 @@ Researchers must adopt workflows and tools that not only produce results but als
 
 [fair_rs]: ./fair_rs
 [software_metadata]: ./software_metadata
-[documenting_software]: ./documenting_code
+[documenting_software]: ./software_documentation
 [software_identifiers]: ./software_identifiers
 [licensing_software]: ./licensing_software.md

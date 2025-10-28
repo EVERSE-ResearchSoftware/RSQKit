@@ -72,6 +72,3 @@ You can also use the CFFinit tool to update an existing `CITATION.cff` file by p
 
 A more detailed description on how to create `CITATION.cff` files can be found in the [Turing Way's Handbook for Open and Reproducible Research](https://book.the-turing-way.org/communication/citable/citable-cff.html).
 You can find a list of additional tools to create, validate and convert `CITATION.cff` files in the [CFF GitHub Repository](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench).
-
-### Training materials
-- [CodeRefinery: Software Citation guidelines](https://coderefinery.github.io/social-coding/software-citation/)

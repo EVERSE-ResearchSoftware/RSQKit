@@ -1,13 +1,19 @@
 ---
-title: FAIR Research Software Principles
+title: Developing FAIR Research Software
+description: How can you develop software that is FAIR?
+contributors: ["Aleksandra Nenadic"]
 page_id: fair_rs
+indicators: []
+related_pages:
+keywords: ["fair software", "fair"]
 ---
 
-## FAIR Research Software
+## What is FAIR Research Software?
 
 FAIR stands for Findable, Accessible, Interoperable, and Reusable and comprises a set of principles designed to increase the visibility and usefulness of your research to others.
 The FAIR data principles, first published in 2016[^1], are widely known and applied today, including scientific workflows[^2], or [machine learning projects][fair4ml].
 Similar FAIR principles for software[^3][^4] have now been defined too.
+
 In general, they mean:
 
 - **Findable** - software and its associated metadata must be easy to discover by humans and machines.
@@ -19,6 +25,15 @@ Each of the above principles can be achieved by a number of practices listed bel
 This is not an exact science, and by all means the list below is not exhaustive, but any of the practices that you employ in your research software workflow will bring you closer to the gold standard of fully reproducible research.
 
 [Five Recommendations for FAIR Software](https://fair-software.eu/) is a quick overview of what is making software more FAIR entails.
+
+[FAIR software][fair-rs-nature] — i.e. software that is Findable, Accessible, Interoperable, and Reusable — sits squarely within the broader umbrella of **quality research software**.
+Quality software is defined by multiple dimensions - e.g. correctness, performance, maintainability, usability, robustness, and reproducibility, among others.
+Reproducibility often hinges on the FAIR principles: if your code and metadata are not findable or accessible, no one can rerun it; if it is not interoperable or reusable, others cannot adapt or extend or use it to verify your results.
+
+FAIR is not a completely separate concern — it is a crucial subset of quality, primarily ensuring that your software can actually be discovered, understood, and exercised by others (or by you, months down the line).
+A truly high-quality, reproducible research software package will typically satisfy both classical software-engineering criteria (tests, style, documentation, performance) and the FAIR principles.
+
+So, FAIR - the “openness & reusability” slice of software quality - is essential for reproducibility, but most impactful when combined with all the other [quality practices](rs_quality) like [testing][testing_software], [version control][using_version_control], and [robust software design][robust_software_design].
 
 ### Findable
 - Create a description of your software to make it discoverable by search engines and other search tools
@@ -43,7 +58,7 @@ which is also useful for citations - note that depositing your data/code on GitH
 - Give a licence to your software clearly stating how it can be reused
 - State how to cite your software, so people can give you credit when they reuse it
 
-## Tools and practices
+## Tools and practices to help you make software FAIR
 
 There are various tools and practices that support the development of FAIR research software.
 These tools and practices work together, as no single tool or practice will fully address one principle, but can contribute to multiple principles simultaneously.
@@ -127,7 +142,7 @@ Some examples of commonly used software repositories and registries include:
 
 Unique persistent identifiers, such as **Digital Object Identifiers** (DOIs) provided by [Zenodo][zenodo], [FigShare][figshare], etc., or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by [Software Heritage][software-heritage], and similar digital archiving services, and commits/tags/releases used by GitHub and similar code sharing platforms, help with findability and accessibility of your software, and can help you get credit for your work by providing citable references.
 
-### Tools for assessing FAIRness of software
+### Tools for assessing software for FAIR principles
 
 Here are some tools that can check your software and provide an assessment of its FAIRness:
 
