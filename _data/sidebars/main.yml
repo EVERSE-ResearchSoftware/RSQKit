@@ -105,11 +105,10 @@ subitems:
         url: /software_identifiers
       - title: "Software documentation"
         url: software_documentation
-        subitems:
-          - title: "Documenting software project"
-            url: documenting_software_project
-          - title: "Documenting code"
-            url: documenting_code
+      - title: "Documenting software project"
+        url: documenting_software_project
+      - title: "Documenting code"
+        url: documenting_code
       - title: "Creating a good README"
         url: /creating_good_readme
       - title: "Software metadata"
