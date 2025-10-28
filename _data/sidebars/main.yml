@@ -6,7 +6,7 @@ subitems:
   #  url: /about
   - title: Research software
     url: /research_software
-    image_url: /assets/img/font-awesome-free/terminal-solid.svg
+    image_url: /assets/img/flaticon/analyze.png
     subitems:
       - title: What is research software?
         url: /research_software#what-is-research-software
@@ -19,7 +19,7 @@ subitems:
   - title: Quality dimensions & indicators
     description: Dimensions and indicators of research software quality
     url: /rs_quality
-    image_url: /assets/img/font-awesome-free/star-solid.svg
+    image_url: /assets/img/flaticon/quality.png
     subitems:
       - title: Compatibility
         url: /rs_quality#compatibility
@@ -45,7 +45,8 @@ subitems:
         url: /rs_quality#sustainability
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
-    image_url: /assets/img/font-awesome-free/people-group-solid.svg
+    #image_url: /assets/img/flaticon/research-and-development.png
+    image_url: /assets/img/flaticon/science.png
     description: Use cases and software practices across research communities
     subitems:
       - title: LS-RI
@@ -60,12 +61,12 @@ subitems:
         url: /sshoc
   - title: Research software stories
     url: /research_software_stories
-    image_url: /assets/img/font-awesome-free/people-group-solid.svg
+    image_url: /assets/img/flaticon/search.png
     description: Examples of research software and their quality practices
-  - title: Your role
+  - title: Roles
     description: Resources tailored to different roles in research software funding & development
     url: /your_role
-    image_url: /assets/img/font-awesome-free/user-solid.svg
+    image_url: /assets/img/flaticon/management.png
     subitems:
       - title: Researcher who codes
         url: /researcher_who_codes
@@ -80,7 +81,7 @@ subitems:
   - title: Tasks (alphabetical)
     description: Guidelines and solutions for tackling common software tasks
     url: /tasks
-    image_url: /assets/img/font-awesome-free/wrench-solid.svg
+    image_url: /assets/img/flaticon/checklist.png
     subitems:
       - title: "Choosing languages, tools & infrastructures"
         url: /languages_tools_infrastructures
@@ -135,10 +136,11 @@ subitems:
   - title: All tools and resources
     url: /all_tools_and_resources
     description: Browse tools and resources for research software quality
-    image_url: /assets/img/font-awesome-free/screwdriver-wrench-solid.svg
+    image_url: /assets/img/flaticon/tools.png
   - title: Get involved
     url: /get_involved
-    description: Various guidelines on how to get involved with RSQKit
+    description: Various resources on how to contribute to RSQKit
+    image_url: /assets/img/flaticon/jigsaw.png
     subitems:
       - title: Contribution Guidelines
         url: /contribution_guidelines

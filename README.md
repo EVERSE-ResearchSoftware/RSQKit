@@ -45,8 +45,26 @@ Newest first.
 
 ## Acknowledgements
 
-[RSQKit website](http://everse.software/RSQKit/) is heavily inspired and replicating the work done by ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/) within the research software space and is built using the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/).
-
+* RSQKit is heavily inspired and replicating the work done by ELIXIR's [Research Data Management Kit (RDMKit)](https://rdmkit.elixir-europe.org/) within the research software space 
+* RSQKit website is built using the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/).
+* [Flaticon - free icons](https://www.flaticon.com/free-icons):
+  * [Puzzle icons created by monkik - Flaticon](https://www.flaticon.com/free-icons/puzzle)
+  * [Tools icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/tools)
+  * [Support icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/support)
+  * [Repair icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/repair)
+  * [Partnership icons created by kosonicon - Flaticon](https://www.flaticon.com/free-icons/partnership)
+  * [Problem solving icons created by Canticons - Flaticon](https://www.flaticon.com/free-icons/problem-solving)
+  * [Research icons created by iconixar](https://www.flaticon.com/free-icons/research)
+  * [Journalist icons created by juicy_fish - Flaticon](https://www.flaticon.com/free-icons/journalist)
+  * [Task management icons created by ARIF MIFTAHUL ANWAR - Flaticon](https://www.flaticon.com/free-icons/task-management)
+  * [Maintenance icons created by Stockes Design - Flaticon](https://www.flaticon.com/free-icons/maintenance)
+  * [Quality icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/quality)
+  * [Quality icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/quality)
+  * [Management icons created by srip - Flaticon](https://www.flaticon.com/free-icons/management)
+  * [Analyze icons created by Dewi Sari - Flaticon](https://www.flaticon.com/free-icons/analyze)
+  * [Analyze icons created by Icon.verse - Flaticon](https://www.flaticon.com/free-icons/analyze)
+* [Font awesome - free icons](https://fontawesome.com/search?m=free&o=r)
+  
 ## Funding
 EVERSE project is funded by the [European Commission HORIZON-INFRA-2023-EOSC-01-02](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2023-eosc-01-02).
 
