@@ -125,8 +125,8 @@ After a successful build, the documentation will be published and publicly acces
 
 * You can always trigger new builds from the ReadTheDocs dashboard or via new commits to your repository.
 
-For further information, please refer to the [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html).
-Additionally, check out [our page on software documentation](documenting_code) for more insights.
+For further information, please refer to the [Read the Docs tutorial][readthedocs-tutorial].
+Additionally, check out the [RSQKit page on documenting code][documenting_code] for more insights.
 
-## References
-* [Read the Docs tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html)
+[readthedocs-tutorial]: https://docs.readthedocs.io/en/stable/tutorial/index.html
+[documenting_code]: ./documenting_code

@@ -7,9 +7,7 @@ related_pages:
   tasks: [software_identifiers]
 quality_indicators: [descriptive_metadata, codemeta_completeness]
 keywords: ["software metadata", "codemeta", "software citation", "cff"]
-
 ---
-
 
 ## What is software metadata?
 

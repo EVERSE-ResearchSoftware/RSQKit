@@ -7,7 +7,6 @@ related_pages:
    tasks: []
 quality_indicators: []
 keywords: ["programming language", "software infrastructure", "software tool"]
-
 ---
 
 ## How to choose programming languages, tools and infrastructures?
@@ -34,12 +33,14 @@ The point is that we speak here of a broader, more topical, more knowledge-orien
 
 Regardless of the exact categorisation, all these software-related topics can mean defining choices in a (research) software project.
 
+Also check out the [Netherlands eScience Center Guide to Software Development][nesc-rs-guide] which inspired discussions around this page.
+
 ### Considerations
 
 Most of the following considerations apply to software languages, frameworks and technologies alike, unless explicitly noted otherwise.
 
 #### People and community
-- What software is used widely in your field already? It may make sense for interoperability and reusability (the I and R in [FAIR](fair_rs)) to choose the same software, if possible.
+- What software is used widely in your field already? It may make sense for interoperability and reusability (the I and R in [FAIR](../fair_rs.md)) to choose the same software, if possible.
 - Similarly, what existing practices and experience are available in your community? Can you benefit from this?
    * Also look at the expertise available at your institute/organisation.
      Having an expert at a nearby desk to ask questions or even coach you can be invaluable.
@@ -115,19 +116,6 @@ Some interesting templates to consider for research software:
 - [The Netherlands eScience Center Python template](https://github.com/NLeSC/python-template): create a Python package that follows research software best practices
 - [BestieTemplate.jl](https://github.com/JuliaBesties/BestieTemplate.jl): Julia package template for research software
 - For R, the [usethis](https://usethis.r-lib.org) package provides a good basis for developing R packages.
+- RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/tasks/TEMPLATE_tasks.md).
 
-Of course, the RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/tasks/TEMPLATE_tasks.md)!
-
-## Training materials 
-
-Below you can find introductory materials to the most commonly used programming languages used in Research Software:
-- Python: [Research Software Engineering with Python](https://alan-turing-institute.github.io/rse-course/html/index.html), [programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html), [leveling up your Python](https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html), [Python introduction for libraries](https://librarycarpentry.org/lc-python-intro/), [Python traps and pitfalls](https://gitlab.in2p3.fr/informatique-des-deux-infinis/pheniics/python-traps)
-- R: [Introduction to R](https://carpentries-lab.github.io/metagenomics-R/), [Software Carpentry: R for Reproducible Scientific Analysis](), [Software Carpentry: Programming with R](https://swcarpentry.github.io/r-novice-inflammation/), [Getting Used to R, RStudio, and R Markdown](https://rbasics.netlify.app/), [Modern Dive into R and the Tidyverse](https://moderndive.netlify.app/)
-- Julia: [Introduction to Julia](https://enccs.github.io/julia-intro/), [Julia for high-performance scientific computing](https://enccs.github.io/julia-for-hpc/), [Julia for high-performance data analytics](https://enccs.github.io/julia-for-hpda/), [Programming with Julia](https://carpentries-incubator.github.io/julia-novice/)
-- CMake: [hands-on workshop](https://enccs.github.io/cmake-workshop/)
-- Matlab: [Software Carpentry: Programming with MATLAB](https://swcarpentry.github.io/matlab-novice-inflammation/)
-- C++: [Modern Scientific C++](https://github.com/chavid/ModernScientificCpp)
-
-## Credit 
-
-The first version of this page was inspired by content in and discussions on the [Netherlands eScience Center Guide to software development](https://guide.esciencecenter.nl).
+[nesc-rs-guide]: https://guide.esciencecenter.nl/

@@ -132,6 +132,8 @@ subitems:
             url: /task_automation_gitlab_ci_cd
       - title: "Improving environmental sustainability"
         url: /improving_environmental_sustainability
+#      - title: "Adopting FAIR software practices"
+#        url: /fair_rs
   - title: All tools and resources
     url: /all_tools_and_resources
     description: Browse tools and resources for research software quality
