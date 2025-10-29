@@ -170,6 +170,9 @@
     version: 1.0.0
 -   abbreviation: software_has_citation
     alternateName: FRSM-12
+    author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
     contact:
     -   '@type': schema:Person
         name: Daniel Garijo
@@ -369,6 +372,13 @@
     status: Active
     version: 1.0.0
 -   abbreviation: metadata_is_up_to_date
+    author:
+    -   '@type': schema:Person
+        name: Tom François
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Thomas Vuillaume
     contact:
     -   '@type': schema:Person
         name: Tom François
@@ -449,6 +459,9 @@
     version: 1.0.0
 -   abbreviation: persistent_and_unique_identifier
     alternateName: FRSM-01
+    author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
     contact:
     -   '@type': schema:Person
         name: Daniel Garijo
@@ -506,6 +519,9 @@
     version: 1.0.0
 -   abbreviation: requirements_specified
     alternateName: FRSM-13
+    author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
     contact:
     -   '@type': schema:Person
         name: Daniel Garijo
@@ -566,6 +582,9 @@
     version: 1.0.0
 -   abbreviation: software_has_tests
     alternateName: FRSM-14
+    author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
     contact:
     -   '@type': schema:Person
         name: Daniel Garijo
