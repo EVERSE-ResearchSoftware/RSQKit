@@ -123,7 +123,7 @@ subitems:
         url: /publishing_software
       - title: "Computational workflows"
         url: computational_workflows
-      - title: Continuous Integration & Deployment
+      - title: Continuous Integration and Continuous Delivery/Deployment
         url: /ci_cd
         subitems:
           - title: "Task automation using GitHub Actions"
