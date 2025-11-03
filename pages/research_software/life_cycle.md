@@ -21,18 +21,21 @@ The [Research Software Lifecycle report](https://doi.org/10.5281/zenodo.8324828)
 Below we cite heavily from this report, adding details where necessary, and provide links to relevant task pages.
 
 It helps to consider the lifecycle of your research software project through the lens of a software management plan (SMP).
-A software management plan is a document that describes how the software will be developed, maintained, published, archived, etcetera.
+A software management plan is a document that describes how the software will be developed, maintained, published, archived, etc.
 There are several guides available for writing a software management plan, such as the [Practical guide to Software Management Plans](https://zenodo.org/records/7589725).
 
-### Planning 🔍
+### Planning
 
-> A research question, a new service or feature request (e.g. data service, workflow automation) or tenders from funders (e.g. from EU) initiate the planning phase.
-> > Planning research software development usually happens in the context of a student thesis (BSc, MSc, PhD), or for a larger research project including preparations of concrete scientific articles.
-> Also new releases for longer running research software projects often trigger a "start over".
-> > The planning stage can be facilitated by or include a requirements analysis (for all levels), a value proposition (for software products) or a market or community survey in order to understand the audience (for software products or platforms).
-> Also a roadmap for the initial development and later stages can be instrumental.
+A research question, a new service or feature request (e.g. data service, workflow automation) or tenders from funders (e.g. from EU) initiate the planning phase.
 
-### Requirements 🔧 + 🔍
+Planning research software development usually happens in the context of a student thesis (BSc, MSc, PhD), or for a larger research project including preparations of concrete scientific articles.
+
+New releases for longer running research software projects often trigger a "start over".
+
+The planning stage can be facilitated by or include a requirements analysis (for all levels), a value proposition (for software products) or a market or community survey in order to understand the audience (for software products or platforms).
+Having a roadmap for the initial development and later stages can be instrumental.
+
+### Requirements
 
 When the high-level research/organizational planning has been done, the software implementation phase starts.
 The first stage is to gather and/or analyse software requirements.
@@ -43,7 +46,7 @@ It may include the following activities:
 - **User stories**: Create user stories to capture the requirements from the user's perspective.
 - **Use cases**: Define use cases to describe how the software will be used in practice.
 
-### Design 🔧 + 🔍
+### Design
 
 Once the requirements are clear, the next stage is to design the software.
 This stage can include the following activities:
@@ -51,7 +54,7 @@ This stage can include the following activities:
 - **User interface design**: Design the user interface of the software, including the layout, navigation, and interaction patterns.
 - **Data model design**: Define the data model of the software, including the data structures and their relationships.
 
-### Development 🔧 + 🔍
+### Development
 
 This is the stage where the actual software development takes place.
 It can include the following activities:
@@ -60,9 +63,9 @@ It can include the following activities:
 
 Development can be done in an iterative way, where the software is developed in small increments, and each increment is tested and reviewed before moving on to the next one.
 Another approach is to use a more traditional waterfall model, where the software is developed in a linear way, with each stage completed before moving on to the next one.
-> In single-person projects such as student thesis, implementation is naturally performed in a more sequential manner.
+In single-person projects such as student thesis, implementation is naturally performed in a more sequential manner.
 
-### QA & Documentation 🔧
+### QA & Documentation
 
 Some crucial aspects of the software development process are often overlooked, such as quality assurance (QA) and documentation.
 QA is the process of ensuring that the software meets the quality standards and requirements, including testing, code reviews, quality checks, and performance measurements.
@@ -70,51 +73,65 @@ Preferably, such QA processes are automated through continuous integration.
 Documentation is the process of creating and maintaining the documentation for the software, including user manuals, API documentation, and developer guides.
 QA and documentation can be done in parallel with the development stage, or as a separate stage after the development is completed.
 
-### Deployment 🔧
+### Evaluation by Users
 
-> Software is not only provided as source code and executable, but also via direct use in platforms.
-> This targets software as a service that adds some specific issues compared to an on-premise software publisher, e.g. interfaces to authentication and authorization, data, monitoring, scalability, accounting, continuous maintenance.
-> Such integration can be started by the software developer by providing software and data within Jupyter notebooks, containers or virtual machines as a first or intermediate step towards a software as a service.
-> Here, the deployment and integration process of the specific software is meant, the platform itself is a necessary ingredient but often not in the focus of the software development lifecycle.
-> Both - the integration and the platforms - are a necessary ingredient to the EOSC integration.
-> Open source publication should be preferred before integration to a platform but other options are also possible, keeping in mind that for software as a service a valid business model may be needed (e.g. there are models of having a community edition for free and a professional edition with a support fee).
+Use and evaluation of software by end-users follows testing and QA by developers, and precedes formal community feedback.
+Researchers rely on software to carry out analyses, visualise data, and generate results — so evaluating the software they use is an essential part of responsible research practice. 
+Users need to consider whether a piece of software is fit for purpose, reliable, and transparent about how it produces results. 
+Evaluation may involve checking documentation, testing reproducibility, reviewing how results change with different parameters, or assessing how well the software performs on available hardware. 
+By engaging critically and systematically with the tools they use, researchers can better understand the limitations and strengths of the software that underpins their work, helping to ensure their findings are trustworthy and reproducible.
 
-### Maintenance 🔧
+### Deployment
 
-> The maintenance stage is typically the longest stage in the software lifecycle, although it can also be the shortest one if the software is not used or not maintained, which is often the case for research software (especially tier 1 software).
-> It includes the following activities:
-- **Bug fixing**: Identify and fix bugs in the software.
-- **Feature development**: Add new features to the software based on user feedback and requirements.
-- **Refactoring**: Improve the code quality and maintainability of the software.
-> - **Performance optimization**: Improve the performance of the software by optimizing the code and algorithms.
-> - **Security updates**: Apply security patches and updates to the software to ensure its security and stability.
-> - **Documentation updates**: Update the documentation to reflect the changes in the software.
-> - **User support**: Provide support to users of the software, including answering questions, resolving issues, and providing training.
-> - **Versioning**: Manage the versions of the software, including tagging releases, maintaining a changelog, and managing dependencies.
+Software is not only provided as source code and executable, but also via direct use in platforms.
+This targets software as a service that adds some specific issues compared to an on-premise software publisher, e.g. interfaces to authentication and authorization, data, monitoring, scalability, accounting, continuous maintenance.
+Such integration can be started by the software developer by providing software and data within Jupyter notebooks, containers or virtual machines as a first or intermediate step towards a software as a service.
+Here, the deployment and integration process of the specific software is meant, the platform itself is a necessary ingredient but often not in the focus of the software development lifecycle.
+
+Both - the integration and the platforms - are a necessary ingredient to the EOSC integration.
+
+Open source publication should be preferred before integration to a platform but other options are also possible, keeping in mind that for software as a service a valid business model may be needed (e.g. there are models of having a community edition for free and a professional edition with a support fee).
+
+### Maintenance
+
+The maintenance stage is typically the longest stage in the software lifecycle, although it can also be the shortest one if the software is not used or not maintained, which is often the case for research software (especially tier 1 software).
+It includes the following activities:
+- **Bug fixing**: identify and fix bugs in the software.
+- **Feature development**: add new features to the software based on user feedback and requirements.
+- **Refactoring**: improve the code quality and maintainability of the software.
+- **Performance optimisation**: improve the performance of the software by optimizing the code and algorithms.
+- **Security updates**: apply security patches and updates to the software to ensure its security and stability.
+- **Documentation updates**: update the documentation to reflect the changes in the software.
+- **User support**: provide support to users of the software, including answering questions, resolving issues, and providing training.
+- **Versioning**: manage the versions of the software, including tagging releases, maintaining a changelog, and managing dependencies.
 
 Issue tracking via a platform like GitHub can facilitate the collection of user feedback and bug reports.
 
-### Publication 🔍
+### Publication
 
-> While software is worth being published per se, currently in research, the publication of research software usually accompanies the completion and publication of a document such as a student thesis, scientific article or project report.
-> Further ingredients such as input and result data, containers, notebooks, or workflow descriptions should ideally yield an integrated research compendium/object.
-> Research software should in itself be citable and should be referenced in the document.
-> Research software engineers (RSEs) often play an important role in developing the software, without necessarily becoming co-author of the resulting papers or datasets.
-> It is therefore important to give them recognition for their contributions through software citation.
-> In addition to publishing the software itself, various dedicated journals exist that offer the service of publishing research software papers (e.g. [Journal of Open Source Software](https://joss.theoj.org/), [Journal of Open Research Software](https://openresearchsoftware.metajnl.com/), [SoftwareX](https://www.journals.elsevier.com/softwarex/)).
-> > The publication/deployment stage of research software can be facilitated by, e.g., (i) CD frameworks, (ii) publication services, (iii) archival services or (iv) training and support services, (v) [research software directories](https://github.com/research-software-directory).
-> A link between research software and other research objects can be established within research software directories, requiring proper IDs, e.g. by minting DOIs via [Zenodo](https://zenodo.org) or the [Software Heritage](https://www.softwareheritage.org/) IDs.
-> > At the latest during the publication preparation - but preferably at an as early stage as possible - metadata should be added to the software.
-> Several standards are in use and under harmonization via several EOSC-related groups (like the [EOSC Task Force FAIR Metrics and Data Quality](https://eosc.eu/advisory-groups/fair-metrics-and-data-quality/) and the [EOSC Task Force Semantic Interoperability](https://eosc.eu/advisory-groups/semantic-interoperability/)).
-> Currently used standards are the [Citation File Format](https://citation-file-format.github.io/) and [CodeMeta](https://codemeta.github.io/).
-> The findability can be increased by adding a citation to software and referencing in accompanying articles.
+While software is worth being published per se, currently in research, the publication of research software usually accompanies the completion and publication of a document such as a student thesis, scientific article or project report.
+Further ingredients such as input and result data, containers, notebooks, or workflow descriptions should ideally yield an integrated research compendium/object.
+Research software should in itself be citable and should be referenced in the document.
+Research software engineers (RSEs) often play an important role in developing the software, without necessarily becoming co-author of the resulting papers or datasets.
+It is therefore important to give them recognition for their contributions through software citation.
+In addition to publishing the software itself, various dedicated journals exist that offer the service of publishing research software papers (e.g. [Journal of Open Source Software](https://joss.theoj.org/), [Journal of Open Research Software](https://openresearchsoftware.metajnl.com/), [SoftwareX](https://www.journals.elsevier.com/softwarex/)).
+The publication/deployment stage of research software can be facilitated by, e.g., (i) CD frameworks, (ii) publication services, (iii) archival services or (iv) training and support services, (v) [research software directories](https://github.com/research-software-directory).
+A link between research software and other research objects can be established within research software directories, requiring proper IDs, e.g. by minting DOIs via [Zenodo](https://zenodo.org) or the [Software Heritage](https://www.softwareheritage.org/) IDs.
+At the latest during the publication preparation - but preferably at an as early stage as possible - metadata should be added to the software.
+Several standards are in use and under harmonization via several EOSC-related groups (like the [EOSC Task Force FAIR Metrics and Data Quality](https://eosc.eu/advisory-groups/fair-metrics-and-data-quality/) and the [EOSC Task Force Semantic Interoperability](https://eosc.eu/advisory-groups/semantic-interoperability/)).
+Currently used standards are the [Citation File Format](https://citation-file-format.github.io/) and [CodeMeta](https://codemeta.github.io/).
+The findability can be increased by adding a citation to software and referencing in accompanying articles.
 
-### Evaluation & Community Feedback 🔍
+### Community Feedback
 
-> The form, amount and timeliness of community feedback to research software can vary substantially depending on the size, maturity and targeted application range and audience.
-> In addition to the dissemination of the scientific articles describing (and advertising) the software, presentations at conferences and other meetings potentially help to initiate and grow a user community.
-> > The community feedback stage can be facilitated by appropriate communication channels (helpdesk, issue tracker, email lists, chat applications ...) or even an established means to let the community contribute to or assess the quality of the software in general. > > #### Continuation or Termination > Feedback and reuse can either lead to new research questions initiating another full cycle, trigger smaller implementation cycles in the context of software maintenance or termination of the development/service.
-> Particularly in this stage, the user stories can be changed and also the application classes can be newly defined.
+The form, amount and timeliness of community feedback to research software can vary substantially depending on the size, maturity and targeted application range and audience.
+In addition to the dissemination of the scientific articles describing (and advertising) the software, presentations at conferences and other meetings potentially help to initiate and grow a user community.
+The community feedback stage can be facilitated by appropriate communication channels (helpdesk, issue tracker, email lists, chat applications ...) or even an established means to let the community contribute to or assess the quality of the software in general. 
+
+### Continuation or Termination 
+
+Feedback and reuse can either lead to new research questions initiating another full cycle, trigger smaller implementation cycles in the context of software maintenance or termination of the development/service.
+Particularly in this stage, the user stories can be changed and also the application classes can be newly defined.
 
 ## Research Software Lifecycle & Three-Tier Model
 
