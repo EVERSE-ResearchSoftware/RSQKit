@@ -45,7 +45,7 @@ These aspects are more [formally defined][rs_quality] as dimensions of software 
 [FAIR software][fair-rs-nature] — i.e. software that is Findable, Accessible, Interoperable, and Reusable — sits squarely within the broader umbrella of **quality research software**.
 Quality software has many aspects, including correctness, usability, robustness, maintainability, performance and reproducibility, among others.
 
-Reproducibility often hinges on the FAIR principles: if your code and documentation and auxiliary information about your code (called software metadata) are not findable or accessible, no one can rerun it; if it is not interoperable or reusable, others cannot adapt or extend or use it to verify your results.
+Reproducibility often hinges on the [FAIR principles][fair-rs-nature]: if your code and documentation and auxiliary information about your code (called software metadata) are not findable or accessible, no one can rerun it; if it is not interoperable or reusable, others cannot adapt or extend or use it to verify your results.
 
 FAIR is not a completely separate concern — it is a crucial subset of quality, primarily ensuring that your software can actually be discovered, understood, and exercised by others (or by you, months down the line).
 A truly high-quality, reproducible research software package will typically satisfy both classical software-engineering criteria (tests, style, documentation, performance) and the FAIR principles.
