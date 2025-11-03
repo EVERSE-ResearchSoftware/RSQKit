@@ -88,14 +88,19 @@ By engaging critically and systematically with the tools they use, researchers c
 
 ### Deployment
 
-Software is not only provided as source code and executable, but also via direct use in platforms.
-This targets software as a service that adds some specific issues compared to an on-premise software publisher, e.g. interfaces to authentication and authorization, data, monitoring, scalability, accounting, continuous maintenance.
-Such integration can be started by the software developer by providing software and data within Jupyter notebooks, containers or virtual machines as a first or intermediate step towards a software as a service.
-Here, the deployment and integration process of the specific software is meant, the platform itself is a necessary ingredient but often not in the focus of the software development lifecycle.
+Research software is not only shared as source code or downloadable executables — it is increasingly made available through online platforms that allow direct use as a service. 
+Delivering software in this way (as Software as a Service, or SaaS) introduces additional considerations compared to traditional on-premise deployment. 
+These include integration with authentication and authorisation systems, data access and management, monitoring, scalability, accounting, and the need for continuous maintenance.
 
-Both - the integration and the platforms - are a necessary ingredient to the EOSC integration.
+A practical first step towards such deployment can involve [packaging the software and data][packaging_software] within Jupyter notebooks, workflows, containers, or virtual machines, which can later be integrated into larger platforms and services. 
+In this context, deployment and integration refer to adapting a specific piece of software so it can operate reliably within a broader infrastructure. 
+The platform itself is a key enabling component, but often sits outside the direct focus of the software development lifecycle.
 
-Open source publication should be preferred before integration to a platform but other options are also possible, keeping in mind that for software as a service a valid business model may be needed (e.g. there are models of having a community edition for free and a professional edition with a support fee).
+Both the integration of software and the platforms that host it are essential elements of wider ecosystem efforts such as EOSC integration.
+
+Where possible, software should be made open source before platform integration to maximise transparency and reusability. 
+However, other distribution models are also possible. 
+For instance, when offering software as a service, a sustainable business model may be required — such as providing a free community edition alongside a professional version supported through service fees.
 
 ### Maintenance
 
@@ -170,3 +175,4 @@ To ensure the long term sustainability of the software, governance model and fun
 [testing_software]: ./testing_software
 [publishing_software]: ./publishing_software
 [software_metadata]: ./software_metadata
+[packaging_software]: ./packaging_software
