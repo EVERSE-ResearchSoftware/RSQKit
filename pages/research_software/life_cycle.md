@@ -73,7 +73,7 @@ Preferably, such QA processes are automated through continuous integration.
 Documentation is the process of creating and maintaining the documentation for the software, including user manuals, API documentation, and developer guides.
 QA and documentation can be done in parallel with the development stage, or as a separate stage after the development is completed.
 
-### Evaluation by Users
+### Evaluation
 
 Use and evaluation of software by end-users follows testing and QA by developers, and precedes formal community feedback.
 Researchers rely on software to carry out analyses, visualise data, and generate results — so evaluating the software they use is an essential part of responsible research practice. 
