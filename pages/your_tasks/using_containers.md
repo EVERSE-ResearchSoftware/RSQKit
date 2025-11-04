@@ -52,33 +52,33 @@ Containers have benefits such as:
 
 ### Example Dockerfile snippet
 
-.. code-block:: dockerfile
-
+```
    FROM python:3.10-slim
    WORKDIR /app
    COPY . .
    RUN pip install -r requirements.txt
    CMD ["python", "script.py"]
+```
 
 ### Run the container
 
-.. code-block:: bash
-
+```
    docker run --rm -v /path/to/data:/data my-docker-image:1.0.0 python /data/experiment.py
+```
 
 ### Expose ports for interactive services
 
-.. code-block:: bash
-
+```
    docker run -p 8080:80 my-docker-image:1.0.0
+```
 
 ### Push and pull images using a registry
 
-.. code-block:: bash
-
+```
    docker tag my-docker-image:1.0.0 username/my-docker-image:1.0.0
    docker push username/my-docker-image:1.0.0
    docker pull username/my-docker-image:1.0.0
+```
 
 ### Use Docker in CI/CD pipelines
 
@@ -99,15 +99,15 @@ It enables researchers to use containers for reproducible science and large-scal
 
 ### Build a container from a Docker image
 
-.. code-block:: bash
-
+```
    apptainer build my_container.sif docker://python:3.10-slim
+```
 
 ### Run the container
 
-.. code-block:: bash
-
+```
    apptainer exec my-container.sif python /data/experiment.py
+```
 
 ### Push and pull containers
 
@@ -118,15 +118,15 @@ Versioning is managed by naming the files accordingly, e.g.:
 
 ### Use Apptainer in CI/CD pipelines
 
-.. code-block:: yaml
-
-   pytest:
-     stage: test
-     image: docker://my-docker-image:1.0.0
-     before_script:
-       - pip install -r requirements.txt
-     script:
-       - apptainer exec my-container-v1.0.0.sif python -m unittest discover tests/
+```yaml
+pytest:
+   stage: test
+   image: docker://my-docker-image:1.0.0
+   before_script:
+      - pip install -r requirements.txt
+   script:
+      - apptainer exec my-container-v1.0.0.sif python -m unittest discover tests/
+```
 
 **Note:**  
 Apptainer generally does not support port mapping like Docker.  
