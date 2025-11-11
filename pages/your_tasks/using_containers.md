@@ -25,7 +25,7 @@ Containers are a standard unit of software that packages up code and all its dep
 
 ## Why should you use containers in software development?
 
-Sharing code with only a README or installation instructions frequently results in “dependency hell,” version mismatches, or broken setups. By contrast, containers package the entire environment including all dependencies and configurations so developer and collaborators can run the exact same setup, on differnt enviornment eliminating these issues.
+Sharing code with only a README or installation instructions frequently results in “dependency hell,” version mismatches, or broken setups. By contrast, containers package the entire environment including all dependencies and configurations so developer and collaborators can run the exact same setup, on different environment eliminating these issues.
 
 Containers offer a different approach from coding directly on one platform or operating system. Building an application for a single environment makes moving it elsewhere difficult because the code might not work in the new setting. This often leads to bugs and errors that take extra time to fix, reducing productivity and causing frustration.
 
@@ -33,11 +33,11 @@ When you package an application in a container, you can move it across different
 
 Containers have benefits such as:
 
-- Reproducibility - Containers bundle everything your software needs, so it runs the same everywhere.
+- Reproducibility and portability - Containers bundle everything your software needs, making it portable and ensuring it behaves the same everywhere.
 - Easy setup - Collaborators, reviewers can get started quickly by just pulling the application build image and run it.
 - Version control -  You can tag containers to match specific versions of your code.
-- Automation-friendly - Verion controled and containers itself can also be automated with [CI-CD][ci_cd] to keep test and deploymenet steps consistent.
-- Lightweight and portable - Uses fewer resources than virtual machines. Works on laptops, servers, or the cloud with no system mismatch issues.
+- Automation-friendly - Version controlled containers themselves can also be automated with [CI-CD][ci_cd] to keep test and deployment steps consistent.
+- Lightweight - Containers use fewer resources than virtual machines.
 
 ## Containerised Development for Python using Docker
 
