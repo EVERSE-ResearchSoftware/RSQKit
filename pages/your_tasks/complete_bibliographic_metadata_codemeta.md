@@ -28,8 +28,8 @@ When you're setting up a `codemeta.json` file, keep these things in mind:
 
 - **Keep It Current**: Update the file whenever your software changes. New version? New contributor? Make sure it's reflected.
 - **Check for Errors**: Use a JSON-LD validator to catch any mistakes, e.g., {% tool "jasonldvalidator" %}.
-- **Use Persistent Identifiers**: Add a DOI for long-term reference. Zenodo is a good place to get one.
-- **Detail Contributors**: Use the `Person` schema and include Open Researcher and ORCID iDs for authors and contributors.
+- **Use Persistent Identifiers**: Add a Digital Object Identifier (DOI) for the software release itself for long-term citation (e.g., from Zenodo). Ensure ORCID iDs are included for all people.
+- **Detail Contributors**: Use the `Person` schema and include ORCID iDs (the persistent identifier for people) for authors and contributors.
 - **Clarify Licensing**: Use a Software Package Data Exchange (SPDX) identifier to make the license clear.
 - **Acknowledge Funders**: Include funder details with identifiers like Crossref Funder IDs.
 
