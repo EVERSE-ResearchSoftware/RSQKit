@@ -29,6 +29,7 @@ When you're setting up a `codemeta.json` file, keep these things in mind:
 - **Keep It Current**: Update the file whenever your software changes. New version? New contributor? Make sure it's reflected.
 - **Check for Errors**: Use a JSON-LD validator to catch any mistakes, e.g., {% tool "jasonldvalidator" %}.
 - **Use Persistent Identifiers**: Add a Digital Object Identifier (DOI) for the software release itself for long-term citation (e.g., from Zenodo). Ensure ORCID iDs are included for all people.
+- **Link to the Paper**: Use the `referencePublication` property to link to the corresponding journal article, including the paper's DOI as its `identifier`.
 - **Detail Contributors**: Use the `Person` schema and include ORCID iDs (the persistent identifier for people) for authors and contributors.
 - **Clarify Licensing**: Use a Software Package Data Exchange (SPDX) identifier to make the license clear.
 - **Acknowledge Funders**: Include funder details with identifiers like Crossref Funder IDs.
@@ -53,6 +54,12 @@ Here's a sample `codemeta.json` file to get you started:
   "name": "Your Software Name",
   "description": "A brief description of your software.",
   "version": "1.0.0",
+"referencePublication": {
+    "@type": "ScholarlyArticle",
+    "headline": "A New Algorithm for Applied Mathematics using Python and NumPy",
+    "identifier": "https://doi.org/10.1016/j.jsc.2023.10.001",
+    "url": "https://www.journal-of-mathematics.com/article/S0747-7171(23)00150-5/fulltext"
+  },
 "author": [
     {
       "@type": "Person",
