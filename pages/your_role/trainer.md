@@ -30,7 +30,7 @@ and to improve learning outcomes and the training effectiveness.
 
 ## Software development & quality guidance
 
-- [Task pages in RSQKit](your_tasks) are organised around regular software development and quality tasks and challenges. You will find best practices, guidelines and links to training materials.
+- [Task pages in RSQKit](tasks) are organised around regular software development and quality tasks and challenges. You will find best practices, guidelines and links to training materials.
 - [Life science training portal TeSS](https://tess.elixir-europe.org/)
 - [Environmental science ENVRI community training platform](https://training.envri.eu/)
 - [Photon & neutron science training platform](https://pan-training.eu/)

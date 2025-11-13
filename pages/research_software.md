@@ -1,6 +1,8 @@
 ---
 title: What is Research Software?
 descriptions: Different aspects of and perspectives on research software
+contributors: ["Shoaib Sufi", "Daniel Garijo", "Aleksandra Nenadic", "Laura Portell-Silva"]
+coordinators: ["Shoaib Sufi"]
 ---
 
 There are various definitions of research software.
@@ -25,7 +27,7 @@ For example, software used to guide a telescope that is used to conduct scientif
 On the other hand, formulas or macros in spreadsheets used to analyse data are considered **research code** as they are a form of computer programming that allow one to create, calculate, and change data sets in a number of different ways.
 
 The RSQKit does not mandate the definition of what research software is, however its authors and the [Editorial Board](./editorial_board) may be opinionated on what they believe the definition is and this may vary over time and be reflected in the RSQKit pages.
-Since the focus of the RSQKit is to highlight quality practice, most of the advice (especially around [computational tasks](./your_tasks)) could be applied to software in research.
+Since the focus of the RSQKit is to highlight quality practice, most of the advice (especially around [computational tasks](./tasks)) could be applied to software in research.
 However, many of the best practices are found in research software and we hope the RSQKit helps promote the practices to other areas of research and allows cross-pollination of ideas and practice.
 
 

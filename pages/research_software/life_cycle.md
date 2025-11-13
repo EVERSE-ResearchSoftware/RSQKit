@@ -1,5 +1,7 @@
 ---
 title: Research Software Lifecycle
+contributors: ["Aleksandra Nenadic", "Patrick Bos", "Jason Maassen", "Daniel Garijo",  "Shoaib Sufi", "Laura Portell-Silva", "Michael Sparks", "Daniel S.Katz"]
+coordinators: ["Aleksandra Nenadic"]
 ---
 
 
@@ -103,7 +105,7 @@ Issue tracking via a platform like GitHub can facilitate the collection of user 
 > > The publication/deployment stage of research software can be facilitated by, e.g., (i) CD frameworks, (ii) publication services, (iii) archival services or (iv) training and support services, (v) [research software directories](https://github.com/research-software-directory).
 > A link between research software and other research objects can be established within research software directories, requiring proper IDs, e.g. by minting DOIs via [Zenodo](https://zenodo.org) or the [Software Heritage](https://www.softwareheritage.org/) IDs.
 > > At the latest during the publication preparation - but preferably at an as early stage as possible - metadata should be added to the software.
-> Several standards are in use and under harmonization via several EOSC-related groups (like the [ EOSC Task Force FAIR Metrics and Data Quality](https://www.eosc.eu/sites/default/files/tfcharters/eosca_tffairmetricsanddataquality_draftcharter_20210 614.pdf) and the [EOSC Task Force Semantic Interoperability](https://www.eosc.eu/sites/default/files/tfcharters/eosca_tfsemanticinteroperability_draftcharter_202106 14.pdf)).
+> Several standards are in use and under harmonization via several EOSC-related groups (like the [EOSC Task Force FAIR Metrics and Data Quality](https://eosc.eu/advisory-groups/fair-metrics-and-data-quality/) and the [EOSC Task Force Semantic Interoperability](https://eosc.eu/advisory-groups/semantic-interoperability/)).
 > Currently used standards are the [Citation File Format](https://citation-file-format.github.io/) and [CodeMeta](https://codemeta.github.io/).
 > The findability can be increased by adding a citation to software and referencing in accompanying articles.
 
