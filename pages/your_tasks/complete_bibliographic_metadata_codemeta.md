@@ -26,9 +26,8 @@ This file helps others understand what your software does and who contributed to
 
 When you're setting up a `codemeta.json` file, keep these things in mind:
 
-- **Stick to Standards**: Use the CodeMeta schema. It keeps your file compatible with different platforms.
 - **Keep It Current**: Update the file whenever your software changes. New version? New contributor? Make sure it's reflected.
-- **Check for Errors**: Use a JSON validator to catch any mistakes, e.g., {% tool "jasonldvalidator" %}.
+- **Check for Errors**: Use a JSON-LD validator to catch any mistakes, e.g., {% tool "jasonldvalidator" %}.
 - **Use Persistent Identifiers**: Add a DOI for long-term reference. Zenodo is a good place to get one.
 - **Detail Contributors**: Use the `Person` schema and include Open Researcher and ORCID iDs for authors and contributors.
 - **Clarify Licensing**: Use a Software Package Data Exchange (SPDX) identifier to make the license clear.
@@ -54,16 +53,34 @@ Here's a sample `codemeta.json` file to get you started:
   "name": "Your Software Name",
   "description": "A brief description of your software.",
   "version": "1.0.0",
-  "author": [
+"author": [
     {
       "@type": "Person",
-      "givenName": "First Name",
-      "familyName": "Last Name",
-      "email": "email@example.com",
-      "identifier": "https://orcid.org/0000-0002-1825-0097",
+      "givenName": "First",
+      "familyName": "Author",
+      "email": "first.author@example.com",
+      "identifier": "https://orcid.org/0000-0002-1825-0097", 
       "affiliation": {
         "@type": "Organization",
-        "name": "Organization Name"
+        "name": "University of Edinburgh"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Second",
+      "familyName": "Author",
+      "identifier": "https://orcid.org/0000-0003-0000-0000"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Key",
+      "familyName": "Contributor",
+      "identifier": "https://orcid.org/0000-0001-9999-9999",
+      "role": {
+          "@type": "Role",
+          "roleName": "SoftwareMaintainer"
       }
     }
   ],
