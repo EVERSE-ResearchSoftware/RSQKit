@@ -58,7 +58,7 @@ Here's a sample `codemeta.json` file to get you started:
     "@type": "ScholarlyArticle",
     "headline": "A New Algorithm for Applied Mathematics using Python and NumPy",
     "identifier": "https://doi.org/10.1016/j.jsc.2023.10.001",
-    "url": "[https://www.example.com/article/S0747-7171(23)00150-5/fulltext](https://www.example.com/journal/article/S0747-7171(23)00150-5)"
+    "url": "https://www.example.com/journal/article/S0747-7171(23)00150-5"
   },
 "author": [
     {
