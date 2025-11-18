@@ -1,3 +1,5 @@
+{%- unless page.child_pages and page.child_pages != [] %}
+
 {%- if include.tag %}
 {%- assign tools = site.data.tool_and_resource_list | add_related_pages | where:"related_pages", include.tag | sort_natural: "name" %}
 {%- else %}
@@ -232,4 +234,6 @@
 <div id="skip-nat-tool-table"></div>
 {%- endif %}
 {%- endunless %}
+{%- endunless %}
+
 {%- endunless %}

@@ -6,7 +6,7 @@ subitems:
   #  url: /about
   - title: Research software
     url: /research_software
-    image_url: /assets/img/font-awesome-free/terminal-solid.svg
+    image_url: /assets/img/flaticon/analyze.png
     subitems:
       - title: What is research software?
         url: /research_software#what-is-research-software
@@ -19,7 +19,7 @@ subitems:
   - title: Quality dimensions & indicators
     description: Dimensions and indicators of research software quality
     url: /rs_quality
-    image_url: /assets/img/font-awesome-free/star-solid.svg
+    image_url: /assets/img/flaticon/quality.png
     subitems:
       - title: Compatibility
         url: /rs_quality#compatibility
@@ -45,7 +45,8 @@ subitems:
         url: /rs_quality#sustainability
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
-    image_url: /assets/img/font-awesome-free/people-group-solid.svg
+    #image_url: /assets/img/flaticon/research-and-development.png
+    image_url: /assets/img/flaticon/science.png
     description: Use cases and software practices across research communities
     subitems:
       - title: LS-RI
@@ -58,14 +59,14 @@ subitems:
         url: /panosc
       - title: SSHOC
         url: /sshoc
-  - title: Research Software Stories
+  - title: Research software stories
     url: /research_software_stories
-    image_url: /assets/img/font-awesome-free/people-group-solid.svg
+    image_url: /assets/img/flaticon/search.png
     description: Examples of research software and their quality practices
-  - title: Your role
+  - title: Roles
     description: Resources tailored to different roles in research software funding & development
     url: /your_role
-    image_url: /assets/img/font-awesome-free/user-solid.svg
+    image_url: /assets/img/flaticon/management.png
     subitems:
       - title: Researcher who codes
         url: /researcher_who_codes
@@ -77,10 +78,10 @@ subitems:
         url: /policy_maker
       - title: Trainer
         url: /trainer
-  - title: Your tasks
+  - title: Tasks (alphabetical)
     description: Guidelines and solutions for tackling common software tasks
-    url: /your_tasks
-    image_url: /assets/img/font-awesome-free/wrench-solid.svg
+    url: /tasks
+    image_url: /assets/img/flaticon/checklist.png
     subitems:
       - title: "Choosing languages, tools & infrastructures"
         url: /languages_tools_infrastructures
@@ -96,37 +97,53 @@ subitems:
         url: /code_review
       - title: "Testing software"
         url: /testing_software
-      - title: "Task automation using GitHub Actions"
-        url: /task_automation_github_actions
-      - title: "Task automation using GitLab CI/CD"
-        url: /task_automation_gitlab_ci_cd      
       - title: "Licensing software"
         url: /licensing_software
       - title: "Citing software"
         url: /citing_software
       - title: "Software identifiers"
         url: /software_identifiers
-      - title: "Documenting software"
-        url: documenting_software
+      - title: "Software documentation"
+        url: software_documentation
+      - title: "Documenting software project"
+        url: documenting_software_project
+      - title: "Documenting code"
+        url: documenting_code
       - title: "Creating a good README"
         url: /creating_good_readme
       - title: "Software metadata"
         url: software_metadata
-      - title: "Packaging & releasing software"
-        url: packaging_releasing_software
+      - title: "Packaging software"
+        url: packaging_software
+      - title: "Releasing software"
+        url: releasing_software
+      - title: "Archiving software"
+        url: archiving_software
+      - title: "Publishing software"
+        url: /publishing_software
       - title: "Computational workflows"
         url: computational_workflows
-      - title: Continuous Integration & Deployment
+      - title: CI/CD
         url: /ci_cd
+        subitems:
+          - title: "Task automation using GitHub Actions"
+            url: /task_automation_github_actions
+          - title: "Task automation using GitLab CI/CD"
+            url: /task_automation_gitlab_ci_cd
       - title: "Improving environmental sustainability"
         url: /improving_environmental_sustainability
+      - title: "Using containers"
+        url: /using_containers
+#     - title: "Adopting FAIR software practices"
+#       url: /fair_rs
   - title: All tools and resources
     url: /all_tools_and_resources
     description: Browse tools and resources for research software quality
-    image_url: /assets/img/font-awesome-free/screwdriver-wrench-solid.svg
+    image_url: /assets/img/flaticon/tools.png
   - title: Get involved
     url: /get_involved
-    description: Various guidelines on how to get involved with RSQKit
+    description: Various resources on how to contribute to RSQKit
+    image_url: /assets/img/flaticon/jigsaw.png
     subitems:
       - title: Contribution Guidelines
         url: /contribution_guidelines
