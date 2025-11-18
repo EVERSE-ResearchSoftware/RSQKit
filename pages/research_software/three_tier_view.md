@@ -89,6 +89,6 @@ The essence of the three-tier model is that software in different tiers has dist
 This nuanced approach allows for more appropriate development, management, and assessment strategies tailored to each tier.
 
 The three-tier of research software aligns closely with practical Software Management Plan (SMP) frameworks.
-As outlined in the ["Practical Guide to Software Management Plans"](https://doi.org/10.5281/zenodo.7248877), SMPs can be tailored to low, medium, and high management levels, corresponding to analysis code, prototype tools, and research software infrastructure respectively.
+As outlined in the ["Practical Guide to Software Management Plans"](https://doi.org/10.5281/zenodo.7038280), SMPs can be tailored to low, medium, and high management levels, corresponding to analysis code, prototype tools, and research software infrastructure respectively.
 This alignment demonstrates how the three-tier model can guide the development of appropriate management practices for different types of research software, ensuring that software management efforts are appropriately scaled to the nature and intended use of the software.
 By mapping specific SMP requirements to each tier, researchers and institutions can enhance the quality and sustainability of research software across all levels of complexity and scope.
