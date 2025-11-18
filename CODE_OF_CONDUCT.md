@@ -7,7 +7,7 @@ The RSQKit team are dedicated to providing a welcoming and supportive environmen
 As such, we do not tolerate behaviour that is disrespectful to our community members or that excludes, intimidates, or causes discomfort to others.
 We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to: gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
-Everyone who participates in the RDMkit activities is required to conform to this Code of Conduct.
+Everyone who participates in the RDMKit activities is required to conform to this Code of Conduct.
 This Code of Conduct applies to all spaces managed by the RDMkit including, but not limited to, in person focus groups and workshops, and communications online via GitHub.
 By participating, contributors indicate their acceptance of the procedures by which the RDMkit project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
@@ -37,7 +37,7 @@ Examples of unacceptable behaviour by the RDMkit community members at any projec
 * violent threats or language directed against another person
 * the display of sexual or violent images
 * unwelcome sexual attention
-* nonconsensual or unwelcome physical contact
+* non-consensual or unwelcome physical contact
 * sustained disruption of talks, events or communications
 * insults or put downs
 * sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
@@ -50,7 +50,7 @@ Examples of unacceptable behaviour by the RDMkit community members at any projec
 ### Consequences of unacceptable behaviour
 
 Participants who are asked to stop any inappropriate behaviour are expected to comply immediately.
-This applies to all RDMkit community events and platforms, either online or in-person.
+This applies to all RDMKit community events and platforms, either online or in-person.
 If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund), or impose any other appropriate sanctions (see the [enforcement manual](#4-enforcement-manual) for details).
 
 <!--
@@ -60,7 +60,7 @@ This Code of Conduct is not intended as a static set of rules by which everyone 
 Rather, you are invited to make suggestions for updates or clarifications by contacting the [RDM CoC Group](mailto:rdm-coc@elixir-europe.org) or by making a pull request to this document on GitHub.
 -->
 
-## 5 Acknowledgements
+## Acknowledgements
 
 This code is adapted from the [RDMKit Code of conduct](https://github.com/elixir-europe/rdmkit/blob/master/CODE_OF_CONDUCT.md), which is derived from the  [Turing Way Project Code of Conduct](https://github.com/alan-turing-institute/the-turing-way/blob/master/CODE_OF_CONDUCT.md) which in turn was adapted from [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html), and the with sections from the [Alan Turing Institute Data Study Group Code of Conduct](https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit).
 All are used under the creative commons attribution license.
@@ -68,7 +68,7 @@ All are used under the creative commons attribution license.
 The Carpentries Code of Conduct was adapted from guidelines written by the [Django Project](https://www.djangoproject.com/conduct/enforcement-manual/), which was itself based on the [Ada Initiative template](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports) and the [PyCon 2013 Procedure for Handling Harassment Incidents](https://us.pycon.org/2013/about/code-of-conduct/harassment-incidents/).
 Contributors to the Carpentries Code of Conduct were: Adam Obeng, Aleksandra Pawlik, Bill Mills, Carol Willing, Erin Becker, Hilmar Lapp, Kara Woo, Karin Lagesen, Pauline Barmby, Sheila Miguez, Simon Waldman, Tracy Teal.
 
-The Turing Institute Data Study Group Code of Conduct was heavily adapted from the [Citizen Lab Summer Institute 2017 Code of Conduct](https://citizenlab.ca/summerinstitute/codeofconduct.html) and used under a CC BY 2.5 CA license.
+The Turing Institute Data Study Group Code of Conduct was heavily adapted from the [Citizen Lab Summer Institute 2017 Code of Conduct](https://citizenlab.ca/2017/07/citizen-lab-summer-institute-code-conduct/) and used under a CC BY 2.5 CA license.
 Citizen Lab based their Code of Conduct on the [xvzf Code of Conduct](http://xvzf.io/#coc), the [Contributor Covenant](http://contributor-covenant.org/), the [Django Code of Conduct and Reporting Guide](https://www.djangoproject.com/conduct/) and we are also grateful for [this guidance from Ada Initiative](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports).
 
 We really appreciate the work that all of the communities linked to above have put into creating such a well-considered process.

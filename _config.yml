@@ -29,17 +29,23 @@ defaults:
       permalink: /:basename
       layout: "page"
       sidebar: main
-
   -
     scope:
-      path: "pages/your_tasks/"
+      path: "pages/compound_tasks/"
     values:
-      type: your_tasks
+      type: compound_tasks
+      type_img: /assets/img/font-awesome-free/arrows-to-dot-solid-full.svg
+      page_citation: false
+  -
+    scope:
+      path: "pages/tasks/"
+    values:
+      type: tasks
       type_img: /assets/img/font-awesome-free/list-check-solid.svg
       page_citation: true
   -
     scope:
-      path: "pages/your_tasks/TEMPLATE_your_tasks.md"
+      path: "pages/tasks/TEMPLATE_tasks.md"
       type: "pages"
     values:
         sitemap: false
@@ -52,7 +58,7 @@ defaults:
     values:
       sitemap: false
       search_exclude: true
-      no_robots: true   
+      no_robots: true
   -
     scope:
       path: "pages/your_role/"
@@ -65,7 +71,11 @@ defaults:
     values:
       type: research_community
       type_img: /assets/img/font-awesome-free/people-group-solid.svg
-  
+
+training:
+  - name: "EVERSE TeSS"
+    url: "https://everse-training.app.cern.ch"
+
 theme_variables:
   topnav:
     bluesky: https://bsky.app/profile/eosc-everse.bsky.social
@@ -83,6 +93,3 @@ plugins:
   - jekyll-github-metadata
   - jekyll-octicons
   - jekyll-scholar
-
-training:
-  type: 
