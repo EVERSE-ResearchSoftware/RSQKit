@@ -18,8 +18,10 @@ Current research software quality dimensions are described below.
 This is still work in progress - we expect indicators in particular to be updated in the near future.
 
 {% for item in site.data.quality_dimensions %}
-<h2>{{ item.name }}</h2>
-  <p>
-    {{ item.description | newline_to_br }}
-  </p>
+
+## {{ item.name }}
+
+{{ item.description | newline_to_br }}
+
+See more on [TechRadar](https://everse.software/TechRadar/{{ item.name }})
 {% endfor %}
