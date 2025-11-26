@@ -739,3 +739,33 @@
         url: https://fair-impact.github.io/RSMD-guidelines/3.Reference_identification/
     status: Active
     version: 1.0.0
+-   abbreviation: versioning_standards_use
+    author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 14-07-2025
+    description: This indicator aims to determine if the version (or versions) of
+        a software tool follows an established community convention like semantic
+        versioning (SemVer) or calendar versioning (CalVer).
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/versioning_standards_use
+    keywords:
+    - version
+    - versioning
+    - fair
+    - releases
+    name: Software follows versioning standards
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+        '@id': https://doi.org/10.5281/zenodo.15535629
+        name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
+            context
+        url: https://doi.org/10.5281/zenodo.15535629
+    status: Active
+    version: 1.0.0
