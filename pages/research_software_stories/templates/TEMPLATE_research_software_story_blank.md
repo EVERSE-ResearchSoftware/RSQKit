@@ -4,17 +4,19 @@ search_exclude: true # set to false if you want this page to show up in search r
 description: "" # a description of the page - A brief description of the exemplar or use case and which problem it solves and which domains (or if its cross domain) it applies to. 
 contributors: [] # a comma separated list of contributors' names, as found in _data/CONTRIBUTORS.yml (add yourself to the files if you do not have an entry)
 page_id: # unique page id, ideally lowercase words separated by underscore(s) - for example page_id of 'Galaxy' could be galaxy
-type: research_software_story
+type: research_software_story # leave this as is
 ---
 
-<!-- Please keep all sections and fill them in.
-If this is not possible for any reason - you may remove them (you might need to explain to the Editorial Board in your pull request why certain sections are not present).
--->
+<!-- 
+Please keep all sections and fill them in.
 
-<!-- At the end, optionally add subheadings to all sections briefly summarising the content. -->
+If this is not possible for any reason - you may remove sectionsm (you will need to explain to the Editorial Board in your pull request why certain sections are not present).
 
-<!-- Once you have completed your research community entry - please add it to _data/sidebars/main.yml under the Research Software Stories entry in alphabetical order.
-This comment can be deleted in your final page.
+At the end, optionally add subheadings to all sections briefly summarising the content. 
+
+Once you have completed your research community entry - please add it to _data/sidebars/main.yml under the Research Software Stories entry in alphabetical order.
+
+This markdown comment can be deleted in your final page.
 -->
 
 
