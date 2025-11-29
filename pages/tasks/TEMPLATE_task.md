@@ -38,7 +38,7 @@ Solutions
 
 This structure (task-description-considerations-solutions) should be repeated if the overall task breaks down into distinct sub-tasks.
 
-Add any missing tools into the _data/tool_and_resource_list.yml file; when referring to a tool on the page use the {% tool "<id>" %} format. 
+Add any missing tools into the _data/tool_and_resource_list.yml file; when referring to a tool on the page use the tool format, e.g. {% tool "git" %} . 
 
 ** Read existing pages to get inspiration
 

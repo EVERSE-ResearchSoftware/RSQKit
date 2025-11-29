@@ -50,6 +50,14 @@ Working with Git from command line is technically more challenging, as you will 
 
 Check out [the instructions on how to fork and set up RSQKit locally on your machine][installation-instructions].
 
+### Via Google Docs, Microsoft 365 etc
+
+You can copy a template into one of these services, collaboratively edit and then submit or update an existing [issue][issues]; be sure to include the link to your contribution.
+
+The editorial board will then be in touch about your contribution.
+
+See the [Page Sytle Guidelines](page_style_guidelines) for a list of page templates.
+
 ### Other Ways to Contribute
 
 Note that you do not have to use Git or contribute via GitHub to be included as a Contributor - any significant discussion or contributions via other methods (e.g. email, internal project documents used to collect information, etc.) are accepted.
