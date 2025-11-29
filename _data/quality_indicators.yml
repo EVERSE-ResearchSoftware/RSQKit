@@ -227,7 +227,8 @@
         url: https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/
     status: Active
     version: 1.0.0
--   alternateName: has_no_linting_issues
+-   abbreviation: has_no_linting_issues
+    alternateName: has_no_linting_issues
     author:
         '@type': schema:Organization
         name: Super-Linter
