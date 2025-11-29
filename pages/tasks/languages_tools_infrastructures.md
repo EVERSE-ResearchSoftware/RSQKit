@@ -116,6 +116,6 @@ Some interesting templates to consider for research software:
 - [The Netherlands eScience Center Python template](https://github.com/NLeSC/python-template): create a Python package that follows research software best practices
 - [BestieTemplate.jl](https://github.com/JuliaBesties/BestieTemplate.jl): Julia package template for research software
 - For R, the [usethis](https://usethis.r-lib.org) package provides a good basis for developing R packages.
-- RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/tasks/TEMPLATE_tasks.md).
+- RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/tasks/TEMPLATE_task.md).
 
 [nesc-rs-guide]: https://guide.esciencecenter.nl/

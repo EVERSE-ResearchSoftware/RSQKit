@@ -45,7 +45,7 @@ defaults:
       page_citation: true
   -
     scope:
-      path: "pages/tasks/TEMPLATE_tasks.md"
+      path: "pages/tasks/TEMPLATE_task.md"
       type: "pages"
     values:
         sitemap: false
