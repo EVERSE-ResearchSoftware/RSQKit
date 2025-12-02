@@ -9,7 +9,7 @@ layout: home
         <div>
             <h1 class="text-center">Research Software Quality Toolkit (RSQKit)</h1>
             <p class="text-center mt-2">
-             Tasks, tools, and resources to support your research software to be repeatable, reproducible, trustworthy, resilient, understandable, efficient, adaptable and maintainable.
+             Tasks, tools, stories, and resources to support your research software to be repeatable, reproducible, trustworthy, resilient, understandable, efficient, adaptable and maintainable.
             </p>
         </div>
     </section>
