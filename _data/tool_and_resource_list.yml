@@ -1043,3 +1043,97 @@
   description: >-
     Dockstore is a free and open source platform for sharing reusable and scalable analytical bioinformatics tools and workflows.
   url: 'https://dockstore.org/'
+
+- id: eslint
+  name: ESLint
+  description: >-
+    ESLint is a pluggable linting tool for JavaScript and TypeScript that
+    enforces code quality and style rules through static analysis.
+  url: 'https://eslint.org/'
+  catalog: RSQKit
+
+- id: angular
+  name: Angular
+  description: >-
+    Angular is a TypeScript-based web application framework that provides a
+    structured, component-driven architecture for building scalable client-side
+    applications.
+  url: 'https://angular.io/'
+  catalog: RSQKit
+
+- id: nestjs
+  name: NestJS
+  description: >-
+    NestJS is a progressive Node.js framework that uses TypeScript and a
+    modular, dependency-injected architecture to build efficient and maintainable
+    server-side applications.
+  url: 'https://nestjs.com/'
+  catalog: RSQKit
+
+- id: jest
+  name: Jest
+  description: >-
+    Jest is a JavaScript testing framework focused on simplicity, offering
+    zero-configuration unit testing with built-in mocking, assertions, and
+    snapshot capabilities.
+  url: 'https://jestjs.io/'
+  catalog: RSQKit
+
+- id: nodejs
+  name: Node.js
+  description: >-
+    Node.js is a JavaScript runtime built on Chrome's V8 engine for running
+    JavaScript on the server. It provides an event-driven, non-blocking I/O
+    model suited to building scalable network applications.
+  url: 'https://nodejs.org/'
+  catalog: RSQKit
+
+- id: mongodb
+  name: MongoDB
+  description: >-
+    MongoDB is a document-oriented NoSQL database used for high performance,
+    high availability, and easy scalability.
+  url: 'https://www.mongodb.com/'
+  catalog: RSQKit
+
+- id: mongoose
+  name: Mongoose
+  description: >-
+    Mongoose is an object data modelling (ODM) library for MongoDB and Node.js,
+    providing a schema-based solution to model application data.
+  url: 'https://mongoosejs.com/'
+  catalog: RSQKit
+
+- id: orcid
+  name: ORCID
+  description: >-
+    ORCID provides persistent digital identifiers (ORCID iDs) that distinguish
+    researchers and a mechanism for linking contributions and affiliations to
+    those identifiers.
+  url: 'https://orcid.org/'
+  catalog: RSQKit
+
+- id: bip-scholar
+  name: BIP! Scholar
+  description: >-
+    BIP! Scholar enriches user profiles with bibliometric and scholarly
+    indicators drawn from OpenAIRE and related sources.
+  url: 'https://bip.imsi.athenarc.gr/scholar'
+  catalog: RSQKit
+
+- id: nginx
+  name: Nginx
+  description: >-
+    Nginx is a high-performance HTTP server and reverse proxy, as well as an
+    IMAP/POP3 proxy server, commonly used to serve static content and as a
+    load balancer.
+  url: 'https://nginx.org/'
+  catalog: RSQKit
+
+- id: apache-http-server
+  name: Apache HTTP Server
+  description: >-
+    The Apache HTTP Server is a widely-used open source web server providing
+    robust and extensible features to serve web content.
+  url: 'https://httpd.apache.org/'
+  catalog: RSQKit
