@@ -1,7 +1,7 @@
 ---
 title: "DOME Registry"
 search_exclude: false
-description: "A repository supporting standardised machine learning method disclosures to supplement publication text in the life sciences."
+description: "A repository supporting standardised machine learning method disclosures in the life sciences."
 contributors: ["Gavin Farrell", "Omar Attafi"]
 page_id: dome_registry
 type: research_software_story
@@ -104,7 +104,7 @@ Documentation is distributed across GitHub and the web platform to support both 
 The DOME Registry operates as a resilient multi-node service delivered jointly by UNIPD (ELIXIR Italy) and CERTH (ELIXIR Greece). This dual-institutional approach ensures operational redundancy, while a 10-year service guarantee provides long-term stability beyond typical grant cycles.
 
 * **Financial Sustainability:** The project is supported by a mix of permanent core funding and competitive grants. A key pillar is the **[ELIXIR NextGenIT grant](https://elixir-italy.org/project/elixirxnextgenit/)** (Jan 2024 - Dec 2028), which includes a signed guarantee from the University of Padua to provision the DOME Registry for the next 10 years. Other funding sources include **[ELIXIR ML SIS](https://elixir-europe.org/focus-groups/machine-learning)** (Machine Learning Strategic Implementation Study), **[EVERSE EC](https://everse.software/)**, and **[STEERS EC](https://elixir-europe.org/about-us/how-funded/eu-projects/steers)**.
-* **Operational Maintenance:** The core infrastructure is maintained by the Biocomputing Lab at UNIPD with a dedicated full-time technician. Services are partially mirrored at CERTH to ensure high availability and fault tolerance.
+* **Operational Maintenance:** The core infrastructure is maintained by the Biocomputing Lab at UNIPD with a dedicated full-time technician. Services are partially mirrored (front end) at CERTH to ensure high availability and fault tolerance.
 * **Content Strategy:** Current curation is manual, but scaling plans involve implementing LLM-based triage models. Active integration with publishers (e.g., [GigaScience](https://academic.oup.com/gigascience), [Gigabyte](https://gigabytejournal.com/)) ensures a continuous stream of new content.
 * **Risk Mitigation:** Technical failure is mitigated by the mirror setup and regular backups. Staffing gaps are addressed by permanent technician roles and overlapping PhD cycles. In the unlikely event both labs cease operations, the open GitHub repository allows the community to fork and redeploy.
 
