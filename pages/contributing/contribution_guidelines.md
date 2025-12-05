@@ -56,7 +56,7 @@ You can copy a template into one of these services, collaboratively edit and the
 
 The editorial board will then be in touch about your contribution.
 
-See the [Page Sytle Guidelines](page_style_guidelines) for a list of page templates.
+See the [Page Style Guidelines](page_style_guidelines) for a list of page templates.
 
 ### Other Ways to Contribute
 
