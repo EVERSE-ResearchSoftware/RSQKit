@@ -54,7 +54,7 @@ Here's a sample `codemeta.json` file to get you started:
   "name": "Your Software Name",
   "description": "A brief description of your software.",
   "version": "1.0.0",
-"referencePublication": {
+  "referencePublication": {
     "@type": "ScholarlyArticle",
     "headline": "A New Algorithm for Applied Mathematics using Python and NumPy",
     "identifier": "https://doi.org/10.1016/j.jsc.2023.10.001",
