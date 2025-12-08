@@ -88,7 +88,6 @@ Here's a sample `codemeta.json` file to get you started:
       "givenName": "Key",
       "familyName": "Contributor",
       "identifier": "https://orcid.org/0000-0001-9999-9999",
-      }
     }
   ],
   "license": "https://spdx.org/licenses/MIT",
