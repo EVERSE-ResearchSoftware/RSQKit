@@ -90,7 +90,7 @@ Here's a sample `codemeta.json` file to get you started:
       }
     }
   ],
-  "license": "MIT",
+  "license": "https://spdx.org/licenses/MIT",
   "codeRepository": "https://github.com/yourusername/your-repo",
   "issueTracker": "https://github.com/yourusername/your-repo/issues",
   "programmingLanguage": "Python",
