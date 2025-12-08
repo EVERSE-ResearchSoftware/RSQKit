@@ -39,7 +39,11 @@ For more on software metadata, check out the [Software Metadata](./software_meta
 ### How to Create It
 
 - **Do It Yourself**: You can manually create the file using the CodeMeta schema. Check out the example below.
-- **Use Tools**: Try {% tool "codemetagenerator" %} for a form-based approach or {% tool "somef" %} for command-line generation. Always review and add details like ORCIDs and funder info.
+- **Use Tools**:  
+  - {% tool "codemetagenerator" %} for a form-based approach  
+  - {% tool "somef" %} for command-line generation  
+  - {% tool "autocodemeta %} for an interactive tool that guides you through creating a `codemeta.json` file step by step: https://w3id.org/autocodemeta
+  - NB Always review and add details like ORCID iDs and funder info.
 - **Archive Your Work**: Release your software on a platform that assigns DOIs, like {% tool "zenodo" %}. Add the DOI to your `codemeta.json` as an `identifier`.
 - **Validate**: Use a service like {% tool "jasonldvalidator" %} to ensure everything is correct.
 
@@ -49,7 +53,7 @@ Here's a sample `codemeta.json` file to get you started:
 
 ```json
 {
-  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@context": "https://doi.org/10.5063/schema/codemeta-3.1",
   "@type": "SoftwareSourceCode",
   "name": "Your Software Name",
   "description": "A brief description of your software.",
@@ -84,9 +88,6 @@ Here's a sample `codemeta.json` file to get you started:
       "givenName": "Key",
       "familyName": "Contributor",
       "identifier": "https://orcid.org/0000-0001-9999-9999",
-      "role": {
-          "@type": "Role",
-          "roleName": "SoftwareMaintainer"
       }
     }
   ],
@@ -95,8 +96,8 @@ Here's a sample `codemeta.json` file to get you started:
   "issueTracker": "https://github.com/yourusername/your-repo/issues",
   "programmingLanguage": "Python",
   "keywords": ["software", "example", "codemeta"],
-  "dateCreated": "Wednesday 1 October 2023",
-  "dateModified": "Wednesday 10 October 2023",
+  "dateCreated": "2023-10-01",
+  "dateModified": "2023-10-10",
   "softwareRequirements": [
     "numpy",
     "pandas"
