@@ -82,6 +82,7 @@ subitems:
     description: Guidelines and solutions for tackling common software tasks
     url: /tasks
     image_url: /assets/img/flaticon/checklist.png
+    sort: alphabetical
     subitems:
       - title: "Choosing languages, tools & infrastructures"
         url: /languages_tools_infrastructures
