@@ -112,7 +112,7 @@ By using them, researchers can better understand how their software performs acr
 [fair-data]: https://doi.org/10.1038/sdata.2016.18
 [fair-workflows]: https://doi.org/10.1038/s41597-025-04451-9
 [fair-rs]: https://doi.org/10.15497/RDA00068
-[rs-quality]: ./rs-quality
+[rs-quality]: ./quality
 [fair-metrics]: https://doi.org/10.5281/zenodo.15535629
 [software_metadata]: ./software_metadata
 [software_documentation]: ./software_documentation
