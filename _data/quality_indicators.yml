@@ -168,66 +168,6 @@
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#ci-tests
     status: Active
     version: 1.0.0
--   abbreviation: software_has_citation
-    alternateName: FRSM-12
-    author:
-        '@type': schema:Organization
-        name: FAIR-IMPACT
-    contact:
-    -   '@type': schema:Person
-        name: Daniel Garijo
-    -   '@type': schema:Person
-        name: Andres Montero
-    created: 23-05-2025
-    description: This indicator aims to determine if the project uses a citation to
-        reference contributors and authors (e.g., through a CFF file, in the README,
-        etc).
-    identifier:
-        '@id': https://w3id.org/everse/i/indicators/software_has_citation
-    keywords:
-    - citation
-    - metadata
-    - fair
-    - contributors
-    name: Software uses citation
-    qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/fairness
-    sameAs: https://doi.org/10.25504/FAIRsharing.c585c5
-    source:
-        name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
-            context
-        url: https://zenodo.org/records/10047401
-    status: Active
-    version: 1.0.0
--   abbreviation: software_has_license
-    alternateName: FRSM-15
-    author:
-        '@type': schema:Organization
-        name: OpenSSF
-        url: https://openssf.org/
-    contact:
-    -   '@type': schema:Person
-        name: Daniel Garijo
-    -   '@type': schema:Person
-        name: Andres Montero
-    created: 23-05-2025
-    description: This check tries to determine if the project has published a license
-    identifier:
-        '@id': https://w3id.org/everse/i/indicators/software_has_license
-    keywords:
-    - license
-    - metadata
-    - fair
-    name: Software has license
-    qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/fairness
-    source:
-    -   name: 'OpenSSF Scorecard: License'
-        url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#license
-    -   name: Reuse, licensing and legal aspects. RSMD-6.2
-        url: https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/
-    status: Active
-    version: 1.0.0
 -   abbreviation: has_no_linting_issues
     alternateName: has_no_linting_issues
     author:
@@ -555,6 +495,37 @@
         url: https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/
     status: Active
     version: 1.0.0
+-   abbreviation: software_has_citation
+    alternateName: FRSM-12
+    author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 23-05-2025
+    description: This indicator aims to determine if the project uses a citation to
+        reference contributors and authors (e.g., through a CFF file, in the README,
+        etc).
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/software_has_citation
+    keywords:
+    - citation
+    - metadata
+    - fair
+    - contributors
+    name: Software uses citation
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    sameAs: https://doi.org/10.25504/FAIRsharing.c585c5
+    source:
+        name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
+            context
+        url: https://zenodo.org/records/10047401
+    status: Active
+    version: 1.0.0
 -   abbreviation: software_documentation
     alternateName: FRSM-05
     author:
@@ -570,7 +541,7 @@
     description: This indicator aims to determine if a software project comes with
         many forms of documentation like readme or readthedocs
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/software_documentation
+        '@id': https://w3id.org/everse/i/indicators/software_has_documentation
     keywords:
     - documentation
     - fair
@@ -584,6 +555,35 @@
     source:
         name: FLOSS Best Practices Criteria
         url: https://www.bestpractices.dev/en/criteria/0#0.documentation_basics
+    status: Active
+    version: 1.0.0
+-   abbreviation: software_has_license
+    alternateName: FRSM-15
+    author:
+        '@type': schema:Organization
+        name: OpenSSF
+        url: https://openssf.org/
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 23-05-2025
+    description: This check tries to determine if the project has published a license
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/software_has_license
+    keywords:
+    - license
+    - metadata
+    - fair
+    name: Software has license
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+    -   name: 'OpenSSF Scorecard: License'
+        url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#license
+    -   name: Reuse, licensing and legal aspects. RSMD-6.2
+        url: https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/
     status: Active
     version: 1.0.0
 -   abbreviation: software_has_tests
