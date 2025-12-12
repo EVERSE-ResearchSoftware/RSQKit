@@ -617,6 +617,37 @@
         url: https://zenodo.org/records/10047401
     status: Active
     version: 1.0.0
+-   abbreviation: software_test_coverage
+    author:
+        '@type': schema:Organization
+        name: ELIXIR-Steers
+        url: https://elixir-europe.org/about-us/how-funded/eu-projects/steers
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 03-12-2025
+    description: Indicates that the test suite covers most (or ideally all) the code
+        branches, input fields, and functionality
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/software_test_coverage
+    keywords:
+    - test coverage
+    - code coverage
+    - branch coverage
+    - coverage threshold
+    - test completeness
+    name: Software has sufficient test coverage
+    qualityDimension:
+    -   '@id': https://w3id.org/everse/i/dimensions/reliability
+    -   '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    source:
+        name: ELIXIR Steers D2.1 Report on best-practices and indicators available
+            and used by selected Communities
+        url: https://doi.org/10.5281/zenodo.17035105
+    status: Active
+    version: 0.0.1
 -   abbreviation: static_analysis_common_vulnerabilities
     author:
         '@type': Organization
