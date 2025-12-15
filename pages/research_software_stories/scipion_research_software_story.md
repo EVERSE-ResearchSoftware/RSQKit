@@ -1,7 +1,7 @@
 ---
 title: "Research Software Story - SCIPION"
 description: "Scipion is an integrated platform that unifies cryo-EM image processing tools to manage, execute, and reproduce complete structural reconstruction workflows."
-contributors: ["Carlos Óscar Sorzano", "Lola Sánchez", "Irene Sánchez"]
+contributors: ["Carlos Oscar Sorzano", "Lola Sanchez", "Irene Sanchez"]
 page_id: scipion_research_software_story
 type: research_software_story
 ---
