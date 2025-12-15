@@ -92,7 +92,7 @@ The DOME Registry aspires to fully adhere to the FAIR principles for research so
 
 Documentation is distributed across GitHub and the web platform to support both technical contributors and end-users.
 
-* **GitHub:** The README file covers basic deployment and setup (see {% tool "github" %}/BioComputingUP/dome-registry), though improvements are planned.
+* **GitHub:** The README file covers basic deployment and setup (see [BioComputingUP/dome-registry](https://github.com/BioComputingUP/dome-registry) on {% tool "github" %}).
 * **Training & Tutorials:** The [DOME Training Course](https://biodataanalysisgroup.github.io/DOME-Training-Course/) provides educational materials.
 * **Submission Guides:** The [Submission Page](https://registry.dome-ml.org/review) and [Video Tutorials](https://youtu.be/fmVppa9ESw0) guide users through the process.
 * **Integrations & API:** [Integration standards](https://registry.dome-ml.org/integrations) and [API documentation](https://registry.dome-ml.org/api/) are available online.
