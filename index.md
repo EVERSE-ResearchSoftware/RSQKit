@@ -7,9 +7,9 @@ layout: home
 <div class="landingpage">
     <section class="container g-lg-5 mb-5">
         <div>
-            <h1 class="text-center">Research Software Quality Toolkit for Sciences</h1>
+            <h1 class="text-center">Research Software Quality Toolkit (RSQKit)</h1>
             <p class="text-center mt-2">
-                Research Software Quality Toolkit (RSQKit) lists curated best practices, tools and resources for improving the quality of research software
+             Tasks, tools, stories, and resources to support your research software to be repeatable, reproducible, trustworthy, resilient, understandable, efficient, adaptable and maintainable.
             </p>
         </div>
     </section>
@@ -36,7 +36,6 @@ layout: home
             {%- assign sidebar = site.data.sidebars[page.sidebar] %}
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
                 {%- for folder in sidebar.subitems %}
-                    {%- unless folder.title == "Get involved" %}
                     <div class="col">
                         <div class="card bg-white h-100">
                             <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-6 mx-auto" alt="{{folder.title}} icon" style="width: 15%; padding: 20px 5px 5px 0px;">
@@ -48,7 +47,6 @@ layout: home
                             </div>
                         </div>
                     </div>
-                    {%- endunless %}
                 {%- endfor %}
             </div>
         </div>

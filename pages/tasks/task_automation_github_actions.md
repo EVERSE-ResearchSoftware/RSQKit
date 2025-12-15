@@ -8,7 +8,6 @@ related_pages:
   tasks: [ci_cd, task_automation_gitlab_ci_cd]
 quality_indicators: [software_has_ci-tests]
 keywords: ["ci cd", "ci/cd", "ci", "cd", "task automation", "github actions"]
-
 ---
 
 ## Task automation using GitHub Actions
@@ -103,33 +102,3 @@ Copy the following `step` into your workflow file:
         - name: Run tests
           run: pytest
   ```
-
-
-## Further guidance
-
-### General documentation
-
-* [GitHub Actions documentation](https://docs.github.com/en/actions) - Official documentation covering all aspects of GitHub Actions.
-* [GitHub marketplace for actions](https://github.com/marketplace/actions) - Browse and search for actions to use in your workflows.
-* [GitHub actions examples](https://github.com/actions) - Collection of sample workflows and configurations.
-* [YAML syntax guide](https://yaml.org/) - Learn YAML syntax for writing workflow files.
-
-### Specific tools used in the examples 
-
-* [setup-python Action](https://github.com/actions/setup-python) - Official action for setting up Python in GitHub Actions workflows.
-* [pytest Documentation](https://docs.pytest.org/en/stable/) - Comprehensive guide for writing and running Python tests with pytest.  
-
-### Security considerations
-
-* [Using Secrets in GitHub Actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions) - Guide on securely managing sensitive information in GitHub Actions workflows.
-
-### Other training materials
-
-* [Carpentries Intermediate Research Software Development guide (Python)](https://carpentries-incubator.github.io/python-intermediate-development/23-continuous-integration-automated-testing.html) (episode on continuous integration for automated testing)
-* [Software Carpentry course for Managing Research Software Projects](https://swcarpentry.github.io/managing-research-software-projects/14-continuous/)
-* [The Turing Way's Guide for Reproducible Research](https://book.the-turing-way.org/reproducible-research/ci/ci-github-actions) (chapter on Continuous Integration with GitHub Actions)
-* [Python 201](https://python-tutorial.dev/201/tutorial/testing.html#ci-cd) (CI / CD) chapter
-
-## References 
-
-The official [GitHub Actions documentation](https://docs.github.com/en/actions) was consulted for accuracy and best practices.

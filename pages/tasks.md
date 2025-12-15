@@ -1,5 +1,6 @@
 ---
 title: Tasks
+description: Common tasks used to improve the quality of research software in some aspect
 ---
 
 In this section, information is organised around regular research software development, sharing, deploying and maintenance tasks or challenges.

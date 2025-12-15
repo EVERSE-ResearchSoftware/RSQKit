@@ -7,7 +7,6 @@ related_pages:
   tasks: [citing_software, creating_good_readme, documenting_software, software_metadata]
 quality_indicators: []
 keywords: ["software project", "organising software project"]
-
 ---
 
 ## Why does organising your software project matter?
@@ -114,7 +113,7 @@ For best practices and guidance for designing research projects in particular fo
 [creating_good_readme]: ./creating_good_readme
 [licensing_software]: ./licensing_software
 [releasing_code]: ./releasing_software
-[software_documentation]: ./documenting_software
+[software_documentation]: ./software_documentation
 [version_control]: ./using_version_control
 [software_metadata]: ./software_metadata
 [cff]: https://citation-file-format.github.io/
