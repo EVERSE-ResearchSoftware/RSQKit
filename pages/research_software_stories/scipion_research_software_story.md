@@ -1,152 +1,150 @@
 ---
 title: "Research Software Story - SCIPION"
 description: "Scipion is an integrated platform that unifies cryo-EM image processing tools to manage, execute, and reproduce complete structural reconstruction workflows."
-contributors: ["Carlos Óscar Sorzano", "Lola Sánchez", "Irene Sánchez"] 
+contributors: ["Carlos Óscar Sorzano", "Lola Sánchez", "Irene Sánchez"]
 page_id: scipion_research_software_story
 type: research_software_story
 ---
+# Research Software Story – Scipion
 
+## The Problem
 
-# **Research Software Story – Scipion**
+Unifying complex cryo-EM workflows for reproducibility and efficiency
 
-## **The Problem**
+Cryo-electron microscopy (cryo-EM) and electron tomography generate large volumes of raw movies, micrographs, particles, and reconstructions that require multi-step processing with specialized tools. Traditionally, researchers combined these tools manually, which often led to duplicated effort, fragmented workflows, and challenges with reproducibility. Existing software solutions were not fully interoperable, required extensive manual configuration, and demanded significant expertise to produce consistent results.
 
-## Unifying complex cryo-EM workflows for reproducibility and efficiency
+Scipion addresses these challenges by providing a unified, modular framework that integrates multiple cryo-EM and tomography software packages into a single workflow. It automates data format conversion, manages project metadata, and enables reproducible, end-to-end pipelines, reducing manual effort and increasing reliability and interoperability across tools. More interestingly, it allows comparison of results from multiple algorithms using consensus methods, which help detect parameter misestimation and highlight the parameters whose estimated values are more reliable.
 
-## Cryo-electron microscopy (cryo-EM) and electron tomography generate large volumes of raw movies, micrographs, particles, and reconstructions that require multi-step processing with specialized tools. Traditionally, researchers combined these tools manually, which often led to duplicated effort, fragmented workflows, and challenges with reproducibility. Existing software solutions were not fully interoperable, required extensive manual configuration, and demanded significant expertise to produce consistent results.
+## User Community
 
-## Scipion addresses these challenges by providing a unified, modular framework that integrates multiple cryo-EM and tomography software packages into a single workflow. It automates data format conversion, manages project metadata, and enables reproducible, end-to-end pipelines, reducing manual effort and increasing reliability and interoperability across tools. More interestingly, it allows comparison of results from multiple algorithms using consensus methods, which help detect parameter misestimation and highlight the parameters whose estimated values are more reliable.
+Cryo-EM researchers and structural biology facilities
 
-## **User Community**
+The primary users of Scipion include cryo-EM and tomography researchers, structural biologists, and staff at cryo-electron microscopy platforms. Users range from early-career scientists to experienced facility operators, typically with strong domain expertise but varying levels of software engineering experience.
 
-## Cryo-EM researchers and structural biology facilities
+ Development is coordinated by the core team at the **Spanish National Center for Biotechnology (CNB-CSIC)**, with contributions from the broader community through plugins and workflow extensions. Users often become contributors as they adapt or extend workflows for their projects.
 
-## The primary users of Scipion include cryo-EM and tomography researchers, structural biologists, and staff at cryo-electron microscopy platforms. Users range from early-career scientists to experienced facility operators, typically with strong domain expertise but varying levels of software engineering experience.
+* Developers: Core CNB-CSIC team and external contributors creating plugins or protocol integrations.
 
-## Development is coordinated by the core team at the **Spanish National Center for Biotechnology (CNB-CSIC)**, with contributions from the broader community through plugins and workflow extensions. Users often become contributors as they adapt or extend workflows for their projects.
+* Users: Structural biology labs, national and international cryo-EM facilities, and researchers in academia.
 
-* ## Developers: Core CNB-CSIC team and external contributors creating plugins or protocol integrations.
+* Interaction: Communication occurs through GitHub, mailing lists, workshops, and facility training sessions.
 
-* ## Users: Structural biology labs, national and international cryo-EM facilities, and researchers in academia.
+## Technical Aspects
 
-* ## Interaction: Communication occurs through GitHub, mailing lists, workshops, and facility training sessions.
+Modular workflow engine for cryo-EM pipelines
 
-## **Technical Aspects**
+Scipion is a **research software infrastructure** designed to unify cryo-EM workflows and, in general, algorithms for the analysis of biological structures. It provides a framework for defining reproducible workflows that wrap multiple external tools and manage metadata consistently.
 
-## Modular workflow engine for cryo-EM pipelines
+* Languages: Python (core, GUI, workflows), C/C++ (computation-intensive modules).
 
-## Scipion is a **research software infrastructure** designed to unify cryo-EM workflows and, in general, algorithms for the analysis of biological structures. It provides a framework for defining reproducible workflows that wrap multiple external tools and manage metadata consistently.
+* Codebase: Actively maintained, modular, supports hundreds of plugins.
 
-* ## Languages: Python (core, GUI, workflows), C/C++ (computation-intensive modules).
+* Deployment: Runs locally, on HPC clusters, or in containerized environments (Apptainer).
 
-* ## Codebase: Actively maintained, modular, supports hundreds of plugins.
+* Constraints: Handles large datasets, GPU acceleration, and integrates multiple heterogeneous cryo-EM tools.
 
-* ## Deployment: Runs locally, on HPC clusters, or in containerized environments (Apptainer).
+## Libraries and Systems
 
-* ## Constraints: Handles large datasets, GPU acceleration, and integrates multiple heterogeneous cryo-EM tools.
+Integration with cryo-EM software ecosystem
 
-## **Libraries and Systems**
+Scipion depends on multiple domain-specific libraries and external systems:
 
-## Integration with cryo-EM software ecosystem
+* RELION, CryoSPARC, XMIPP, EMAN2, SPHIRE, CTFFIND, MotionCor2, Topaz, among others.
 
-## Scipion depends on multiple domain-specific libraries and external systems:
+* MPI and CUDA for distributed computing.
 
-* ## RELION, CryoSPARC, XMIPP, EMAN2, SPHIRE, CTFFIND, MotionCor2, Topaz, among others.
+* SQLite for project metadata.
 
-* ## MPI and CUDA for distributed computing.
+* Standard cryo-EM file formats (STAR, MRC).
 
-* ## SQLite for project metadata.
+## Software Quality Practices
 
-* ## Standard cryo-EM file formats (STAR, MRC).
+Open-source development with continuous validation
 
-## **Software Quality Practices**
+Scipion follows open-source best practices. The code is hosted on **GitHub**, and contributions are managed through pull requests with peer review. Continuous Integration (CI) ensures builds, automated tests, and plugin validation.
 
-## Open-source development with continuous validation
+* Version control: Git/GitHub.
 
-## Scipion follows open-source best practices. The code is hosted on **GitHub**, and contributions are managed through pull requests with peer review. Continuous Integration (CI) ensures builds, automated tests, and plugin validation.
+* Code review: Mandatory for all pull requests; SonarCloud performs a check.
 
-* ## Version control: Git/GitHub.
+* Testing: Automated CI tests plus validation through real-world cryo-EM workflows; checked by BuildBot.
 
-* ## Code review: Mandatory for all pull requests; SonarCloud performs a check.
+* Decision making: Core team reviews significant changes; community feedback is incorporated via GitHub issues.
 
-* ## Testing: Automated CI tests plus validation through real-world cryo-EM workflows; checked by BuildBot.
+## Developer Community
 
-* ## Decision making: Core team reviews significant changes; community feedback is incorporated via GitHub issues.
+Building a collaborative ecosystem for cryo-EM workflows
 
-## **Developer Community**
+New developers typically begin as users who identify workflow gaps or plugin needs. They then contribute plugins or workflow improvements via GitHub. Scipion provides extensive training and documentation to facilitate onboarding.
 
-## Building a collaborative ecosystem for cryo-EM workflows
+* Onboarding: Workshops, tutorials, and facility-led training.
 
-## New developers typically begin as users who identify workflow gaps or plugin needs. They then contribute plugins or workflow improvements via GitHub. Scipion provides extensive training and documentation to facilitate onboarding.
+* User stories: Researchers run complete cryo-EM pipelines efficiently and reproducibly.
 
-* ## Onboarding: Workshops, tutorials, and facility-led training.
+* Learning resources: example workflows, extensive documentation, GitHub documentation.
 
-* ## User stories: Researchers run complete cryo-EM pipelines efficiently and reproducibly.
+## Tools
 
-* ## Learning resources: example workflows, extensive documentation, GitHub documentation.
+Supporting development and quality with modern software tools
 
-## **Tools**
+Scipion employs a range of tools to maintain quality and stability:
 
-## Supporting development and quality with modern software tools
+* **Git/GitHub**: Version control and collaboration.
 
-## Scipion employs a range of tools to maintain quality and stability:
+* **CI/CD systems**: Automated testing of workflows and plugins.
 
-* ## **Git/GitHub**: Version control and collaboration.
+* **Visualization and workflow GUI**: Monitoring and debugging complex pipelines.
 
-* ## **CI/CD systems**: Automated testing of workflows and plugins.
+These tools streamline development, ensure reproducible results, and lower barriers for new contributors.
 
-* ## **Visualization and workflow GUI**: Monitoring and debugging complex pipelines.
+## FAIR & Open
 
-## These tools streamline development, ensure reproducible results, and lower barriers for new contributors.
+FAIR principles and open development practices
 
-## **FAIR & Open**
+Scipion aligns with FAIR and open-source principles:
 
-## FAIR principles and open development practices
+* **Findable**: Publicly hosted on GitHub; plugins cataloged; versioned releases.
 
-## Scipion aligns with FAIR and open-source principles:
+* **Accessible**: Open-source license; installation via source or Apptainer.
 
-* ## **Findable**: Publicly hosted on GitHub; plugins cataloged; versioned releases.
+* **Interoperable**: Standardized metadata and integrated format conversion for multiple tools.
 
-* ## **Accessible**: Open-source license; installation via source or Apptainer.
+* **Reusable**: Workflows are reproducible and portable; the plugin system enables extension.
 
-* ## **Interoperable**: Standardized metadata and integrated format conversion for multiple tools.
+## Documentation
 
-* ## **Reusable**: Workflows are reproducible and portable; the plugin system enables extension.
+Comprehensive guides for users and developers
 
-## **Documentation**
+Scipion documentation is maintained on ReadTheDocs, GitHub, and the project website:
 
-## Comprehensive guides for users and developers
+* Installation guides for local, HPC, and containerized environments.
 
-## Scipion documentation is maintained on ReadTheDocs, GitHub, and the project website:
+* Tutorials and examples for cryo-EM workflows.
 
-* ## Installation guides for local, HPC, and containerized environments.
+* Developer guides for plugin creation and API reference.
 
-* ## Tutorials and examples for cryo-EM workflows.
+* Training materials from workshops and EM facilities.
 
-* ## Developer guides for plugin creation and API reference.
+Documentation is continuously updated, and community contributions expand tutorials and practical examples.
 
-* ## Training materials from workshops and EM facilities.
+## Sustainability
 
-## Documentation is continuously updated, and community contributions expand tutorials and practical examples.
+Maintaining Scipion for long-term cryo-EM research
 
-## **Sustainability**
+Scipion is maintained by the core CNB-CSIC team, with contributions from external developers and research infrastructures. Sustainability relies on:
 
-## Maintaining Scipion for long-term cryo-EM research
+* Active user base in cryo-EM facilities worldwide.
 
-## Scipion is maintained by the core CNB-CSIC team, with contributions from external developers and research infrastructures. Sustainability relies on:
+* Modular plugin system and open-source ecosystem.
 
-* ## Active user base in cryo-EM facilities worldwide.
+* Funding from grants and European research infrastructures (Instruct-ERIC, ELIXIR-ES).
 
-* ## Modular plugin system and open-source ecosystem.
+## References
 
-* ## Funding from grants and European research infrastructures (Instruct-ERIC, ELIXIR-ES).
+Scipion builds upon and integrates with the following resources:
 
-## **References**
+* Scipion GitHub Repository: [https://github.com/I2PC](https://github.com/I2PC)
 
-## Scipion builds upon and integrates with the following resources:
+* Scipion webpage: [https://scipion.i2pc.es](https://scipion.i2pc.es/)
 
-* ## Scipion GitHub Repository: [https://github.com/I2PC](https://github.com/I2PC)
-
-* ## Scipion webpage: [https://scipion.i2pc.es](https://scipion.i2pc.es/)
-
-* ## Scipion documentation and tutorials: [https://scipion-em.github.io/docs/release-3.0.0/index.html](https://scipion-em.github.io/docs/release-3.0.0/index.html)
+* Scipion documentation and tutorials: [https://scipion-em.github.io/docs/release-3.0.0/index.html](https://scipion-em.github.io/docs/release-3.0.0/index.html)
