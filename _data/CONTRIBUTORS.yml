@@ -9,8 +9,6 @@
 #    image_url: absolute path to image (defaults to image from GitHub)
 # 
 # You can reference contributors by their name in the fromntmatter section of content pages using parameter "contributors".
-
-
 Eva Martín del Pico:
     git: EvaMart
     orcid: 0000-0001-8324-2897
@@ -176,3 +174,5 @@ Daniel S.Katz:
     orcid: 0000-0001-5934-7525
     affiliation: NCSA, University of Illinois
     role: contributor
+Lola Sánchez:
+    git: lolasanchezzz
