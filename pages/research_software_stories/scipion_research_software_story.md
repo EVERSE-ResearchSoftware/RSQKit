@@ -155,8 +155,15 @@ Sustainability relies on:
 
 Scipion builds upon and integrates with the following resources:
 
-* Scipion GitHub Repository: [https://github.com/I2PC](https://github.com/I2PC)
+* Scipion GitHub Repository: <https://github.com/I2PC>
 
-* Scipion webpage: [https://scipion.i2pc.es](https://scipion.i2pc.es/)
+* Scipion webpage: <https://scipion.i2pc.es>
 
-* Scipion documentation and tutorials: [https://scipion-em.github.io/docs/release-3.0.0/index.html](https://scipion-em.github.io/docs/release-3.0.0/index.html)
+* Scipion documentation and tutorials: <https://scipion-em.github.io/docs/release-3.0.0/index.html>
+
+<!-- External References embedded as links -->
+
+[SCIPION_GITHUB]: https://github.com/I2PC
+[SCIPION_WEBPAGE]: https://scipion.i2pc.es/
+[SCIPION_DOCS]: https://scipion-em.github.io/docs/release-3.0.0/index.html
+
