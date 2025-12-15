@@ -1,3 +1,4 @@
+---
 # List of contributors
 #
 # Full Name:
@@ -7,7 +8,7 @@
 #    role: the role of the contributor (current possible values "editor" or leave empty)
 #    affiliation: affiliation
 #    image_url: absolute path to image (defaults to image from GitHub)
-# 
+#
 # You can reference contributors by their name in the fromntmatter section of content pages using parameter "contributors".
 
 
@@ -37,9 +38,9 @@ Fotis Psomopoulos:
     orcid: 0000-0002-0222-4273
     email: fpsom@certh.gr
     role: editor
-    affiliation: Institute of Applied Biosciences(INAB|CERTH) / ELIXIR-GR 
+    affiliation: Institute of Applied Biosciences(INAB|CERTH) / ELIXIR-GR
 Salvador Capella-Gutierrez:
-    email: salvador.capella@bsc.es 
+    email: salvador.capella@bsc.es
     affiliation: Barcelona Supercomputing Centre (BSC)
     role: contributor
 Patrick Bos:
@@ -181,7 +182,7 @@ Gavin Farrell:
     affiliation: University of Padova
     orcid: 0000-0001-5166-8551
     role: contributor
- Omar Attafi:
+Omar Attafi:
     git: Abdelghaniomar
     affiliation: University of Padova
     orcid: 0009-0002-2327-9430
