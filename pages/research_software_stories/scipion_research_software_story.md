@@ -5,7 +5,7 @@ contributors: ["Carlos Óscar Sorzano", "Lola Sánchez", "Irene Sánchez"]
 page_id: scipion_research_software_story
 type: research_software_story
 ---
-# Research Software Story – Scipion
+<!-- This heading is automatically inserted -- # Research Software Story – Scipion -->
 
 ## The Problem
 
