@@ -1043,3 +1043,16 @@
   description: >-
     Dockstore is a free and open source platform for sharing reusable and scalable analytical bioinformatics tools and workflows.
   url: 'https://dockstore.org/'
+  catalog: RSQKit
+- id: domereg
+  name: DOME Registry
+  description: >-
+    A centralized, community-driven web platform that operationalizes the DOME recommendations (Data, Optimization, Model, Evaluation) to enable the standardized reporting, discovery, and transparent validation of machine learning methods in the life sciences.
+  url: 'https://registry.dome-ml.org'
+  catalog: RSQKit
+- id: osaieco
+  name: OSAI AI Ecosystem
+  description: >-
+    A living, community-curated inventory of over 300 AI tools and resources mapped to practical pathways for implementing Open and Sustainable AI (OSAI) practices in research.
+  url: 'https://osai.dome-ml.org/ai-ecosystem'
+  catalog: RSQKit

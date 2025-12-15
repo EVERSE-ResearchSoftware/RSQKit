@@ -7,7 +7,6 @@ description: "The Research Software Quality Kit is a resource to help researcher
 # Pin the version to 5.0.0 because otherwise we get WIP breakage
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@5.0.0
 
-
 sass:
   style: compressed
   sourcemap: never
