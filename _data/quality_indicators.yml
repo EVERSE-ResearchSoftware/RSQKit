@@ -675,6 +675,37 @@
         url: https://www.bestpractices.dev/en/criteria/0#0.static_analysis_common_vulnerabilities
     status: Active
     version: 1.0.0
+-   abbreviation: support_issue_tracking
+    author:
+        '@type': Organization
+        name: OpenSSF
+        url: https://openssf.org/
+    contactPoint:
+        '@type': schema:Person
+        email: federica.quaglia@unipd.it
+        name: Federica Quaglia
+    created: 03-12-2025
+    description: The software project offers an accessible issue tracking system (e.g.,
+        GitHub/GitLab Issues or a helpdesk) that is used to report, document, and
+        manage bugs, enhancement requests, and user-facing operational issues.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/support_issue_tracking
+    keywords:
+    - support
+    - issues
+    - helpdesk
+    - maintenance
+    - user support
+    name: Software provides issue tracking
+    qualityDimension:
+        '@id': 'https://w3id.org/everse/i/dimensions/maintainability '
+    source:
+        '@id': https://zenodo.org/records/17035105
+        name: ELIXIR-STEERS D2.1 Report on best-practices and indicators available
+            and used by selected Communities
+        url: https://zenodo.org/records/17035105
+    status: Active
+    version: 1.0.0
 -   abbreviation: fuzzing_use
     author:
         '@type': schema:Organization
