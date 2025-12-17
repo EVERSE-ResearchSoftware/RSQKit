@@ -1,1 +1,196 @@
-[]
+-   abbreviation: compatibility
+    description: "Degree to which a product, system or component can exchange information\
+        \ with other products, systems or components, and/or perform its required\
+        \ functions while sharing the same common environment and resources. This\
+        \ characteristic is composed of the following sub-characteristics:\n    -Co-existence\
+        \ - Degree to which a product can perform its required functions efficiently\
+        \ while sharing a common environment and resources with other products, without\
+        \ detrimental impact on any other product.\n    -Interoperability - Degree\
+        \ to which a system, product or component can exchange information with other\
+        \ products and mutually use the information that has been exchanged."
+    identifier: https://w3id.org/everse/i/dimensions/compatibility
+    name: Compatibility
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   abbreviation: fairness
+    description: 'FAIRness refers to the degree to which research software adheres
+        to the FAIR principles: Findable, Accessible, Interoperable, and Reusable.
+        These principles, adapted for research software, aim to enhance the discoverability,
+        accessibility, interoperability, and reusability of software, thereby maximizing
+        its value and impact in scientific research.'
+    identifier: https://w3id.org/everse/i/dimensions/fairness
+    name: FAIRness
+    source:
+        name: Introducing the FAIR Principles for research software
+        url: https://www.nature.com/articles/s41597-022-01710-x
+-   abbreviation: flexibility
+    description: "Degree to which a product can be adapted to changes in its requirements,\
+        \ contexts of use or system environment. This characteristic is composed of\
+        \ the following sub-characteristics:\n    - Adaptability - Degree to which\
+        \ a product or system can effectively and efficiently be adapted for or transferred\
+        \ to different hardware, software or other operational or usage environments.\n\
+        \    - Scalability - Degree to which a product can handle growing or shrinking\
+        \ workloads or to adapt its capacity to handle variability.\n    - Installability\
+        \ - Degree of effectiveness and efficiency with which a product or system\
+        \ can be successfully installed and/or uninstalled in a specified environment.\n\
+        \    - Replaceability - Degree to which a product can replace another specified\
+        \ software product for the same purpose in the same environment."
+    identifier: https://w3id.org/everse/i/dimensions/flexibility
+    name: Flexibility
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   abbreviation: functional_suitability
+    created: 03-04-2025
+    description: "This characteristic represents the degree to which a product or\
+        \ system provides functions that meet stated and implied needs when used under\
+        \ specified conditions. This characteristic is composed of the following sub-characteristics:\
+        \ \n    Functional completeness - Degree to which the set of functions covers\
+        \ all the specified tasks and intended users' objectives.\n     Functional\
+        \ correctness - Degree to which a product or system provides accurate results\
+        \ when used by intended users.\n    Functional appropriateness - Degree to\
+        \ which the functions facilitate the accomplishment of specified tasks and\
+        \ objectives."
+    identifier: https://w3id.org/everse/i/dimensions/functional_suitability
+    name: Functional suitability
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   abbreviation: interaction_capability
+    description: "Degree to which a product or system can be interacted with by specified\
+        \ users to exchange information via the user interface to complete specific\
+        \ tasks in a variety of contexts of use. This characteristic is composed of\
+        \ the following sub-characteristics:\n    - Appropriateness recognizability\
+        \ - Degree to which users can recognize whether a product or system is appropriate\
+        \ for their needs.\n    - Learnability - Degree to which the functions of\
+        \ a product or system can be learnt to be used by specified users within a\
+        \ specified amount of time.\n    - Operability - Degree to which a product\
+        \ or system has attributes that make it easy to operate and control.\n   \
+        \ - User error protection. Degree to which a system prevents users against\
+        \ operation errors.\n    - User engagement - Degree to which a user interface\
+        \ presents functions and information in an inviting and motivating manner\
+        \ encouraging continued interaction.\n    - Inclusivity - Degree to which\
+        \ a product or system can be used by people of various backgrounds (such as\
+        \ people of various ages, abilities, cultures, ethnicities, languages, genders,\
+        \ economic situations, etc.).\n    - User assistance - Degree to which a product\
+        \ can be used by people with the widest range of characteristics and capabilities\
+        \ to achieve specified goals in a specified context of use.\n    - Self-descriptiveness\
+        \ - Degree to which a product presents appropriate information, where needed\
+        \ by the user, to make its capabilities and use immediately obvious to the\
+        \ user without excessive interactions with a product or other resources (such\
+        \ as user documentation, help desks or other users)."
+    identifier: https://w3id.org/everse/i/dimensions/interaction_capability
+    name: Interaction Capability
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   abbreviation: maintainability
+    description: "This characteristic represents the degree of effectiveness and efficiency\
+        \ with which a product or system can be modified to improve it, correct it\
+        \ or adapt it to changes in environment, and in requirements.This characteristic\
+        \ is composed of the following sub-characteristics:\n    - Modularity - Degree\
+        \ to which a system or computer program is composed of discrete components\
+        \ such that a change to one component has minimal impact on other components.\n\
+        \    - Reusability - Degree to which a product can be used as an asset in\
+        \ more than one system, or in building other assets.\n    - Analysability\
+        \ - Degree of effectiveness and efficiency with which it is possible to assess\
+        \ the impact on a product or system of an intended change to one or more of\
+        \ its parts, to diagnose a product for deficiencies or causes of failures,\
+        \ or to identify parts to be modified.\n    - Modifiability - Degree to which\
+        \ a product or system can be effectively and efficiently modified without\
+        \ introducing defects or degrading existing product quality.\n    - Testability\
+        \ - Degree of effectiveness and efficiency with which test criteria can be\
+        \ established for a system, product or component and tests can be performed\
+        \ to determine whether those criteria have been met."
+    identifier: https://w3id.org/everse/i/dimensions/maintainability
+    name: Maintainability
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   abbreviation: performance_efficiency
+    description: "This characteristic represents the degree to which a product performs\
+        \ its functions within specified time and throughput parameters and is efficient\
+        \ in the use of resources (such as CPU, memory, storage, network devices,\
+        \ energy, materials...) under specified conditions. This characteristic is\
+        \ composed of the following sub-characteristics:\n    -Time behaviour - Degree\
+        \ to which the response time and throughput rates of a product or system,\
+        \ when performing its functions, meet requirements.\n    -Resource utilization\
+        \ - Degree to which the amounts and types of resources used by a product or\
+        \ system, when performing its functions, meet requirements.\n    - Capacity\
+        \ - Degree to which the maximum limits of a product or system parameter meet\
+        \ requirements."
+    identifier: https://w3id.org/everse/i/dimensions/performance_efficiency
+    name: Performance Efficiency
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   abbreviation: reliability
+    description: "Degree to which a system, product or component performs specified\
+        \ functions under specified conditions for a specified period of time. This\
+        \ characteristic is composed of the following sub-characteristics:\n    -\
+        \ Faultlessness - Degree to which a system, product or component performs\
+        \ specified functions without fault under normal operation.\n    - Availability\
+        \ - Degree to which a system, product or component is operational and accessible\
+        \ when required for use.\n    - Fault tolerance - Degree to which a system,\
+        \ product or component operates as intended despite the presence of hardware\
+        \ or software faults.\n    - Recoverability - Degree to which, in the event\
+        \ of an interruption or a failure, a product or system can recover the data\
+        \ directly affected and re-establish the desired state of the system."
+    identifier: https://w3id.org/everse/i/dimensions/reliability
+    name: Reliability
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   abbreviation: safety
+    description: "This characteristic represents the degree to which a product under\
+        \ defined conditions to avoid a state in which human life, health, property,\
+        \ or the environment is endangered. This characteristic is composed of the\
+        \ following sub-characteristics:\n    - Operational constraint - Degree to\
+        \ which a product or system constrains its operation to within safe parameters\
+        \ or states when encountering operational hazard.\n    - Risk identification\
+        \ - Degree to which a product can identify a course of events or operations\
+        \ that can expose life, property or environment to unacceptable risk.\n  \
+        \  - Fail safe - Degree to which a product can automatically place itself\
+        \ in a safe operating mode, or to revert to a safe condition in the event\
+        \ of a failure.\n    - Hazard warning - Degree to which a product or system\
+        \ provides warnings of unacceptable risks to operations or internal controls\
+        \ so that they can react in sufficient time to sustain safe operations.\n\
+        \    - Safe integration - Degree to which a product can maintain safety during\
+        \ and after integration with one or more components."
+    identifier: https://w3id.org/everse/i/dimensions/safety
+    name: Safety
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   abbreviation: security
+    description: "Degree to which a product or system defends against attack patterns\
+        \ by malicious actors and protects information and data so that persons or\
+        \ other products or systems have the degree of data access appropriate to\
+        \ their types and levels of authorization. This characteristic is composed\
+        \ of the following sub-characteristics:\n    - Confidentiality - Degree to\
+        \ which a product or system ensures that data are accessible only to those\
+        \ authorized to have access.\n    - Integrity - Degree to which a system,\
+        \ product or component ensures that the state of its system and data are protected\
+        \ from unauthorized modification or deletion either by malicious action or\
+        \ computer error.\n    - Non-repudiation - Degree to which actions or events\
+        \ can be proven to have taken place so that the events or actions cannot be\
+        \ repudiated later.\n    - Accountability - Degree to which the actions of\
+        \ an entity can be traced uniquely to the entity.\n    - Authenticity - Degree\
+        \ to which the identity of a subject or resource can be proved to be the one\
+        \ claimed.\n    - Resistance - Degree to which the product or system sustains\
+        \ operations while under attack from a malicious actor."
+    identifier: https://w3id.org/everse/i/dimensions/security
+    name: Security
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   abbreviation: sustainability
+    description: The capacity of the software to endure. In other words, sustainability
+        means that the software will continue to be available in the future, on new
+        platforms, meeting new needs.
+    identifier: https://w3id.org/everse/i/dimensions/sustainability
+    name: Sustainability
+    source:
+        name: Defining Software Sustainability
+        url: https://danielskatzblog.wordpress.com/2016/09/13/defining-software-sustainability/
