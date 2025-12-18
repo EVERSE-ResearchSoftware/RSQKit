@@ -155,7 +155,7 @@
     description: This indicator aims to determine if the project runs tests before
         pull requests are merged.
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/software_has_ci-tests
+        '@id': https://w3id.org/everse/i/indicators/has_ci-tests
     keywords:
     - continuous
     - integration
@@ -526,7 +526,7 @@
         url: https://zenodo.org/records/10047401
     status: Active
     version: 1.0.0
--   abbreviation: software_documentation
+-   abbreviation: software_has_documentation
     alternateName: FRSM-05
     author:
         '@type': schema:Organization
@@ -706,7 +706,7 @@
         url: https://zenodo.org/records/17035105
     status: Active
     version: 1.0.0
--   abbreviation: fuzzing_use
+-   abbreviation: uses_fuzzing
     author:
         '@type': schema:Organization
         name: OpenSSF
@@ -717,13 +717,13 @@
     -   '@type': schema:Person
         name: Andres Montero
     created: 23-06-2025
-    description: 'This indicator checks that If the software produced by the project
+    description: 'This indicator checks that the software produced by the project
         includes software written using a memory-unsafe language (e.g., C or C++),
         then at least one dynamic tool (e.g., a fuzzer or web application scanner)
         be routinely used in combination with a mechanism to detect memory safety
         problems such as buffer overwrites. '
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/fuzzing_use
+        '@id': https://w3id.org/everse/i/indicators/uses_fuzzing
     keywords:
     - fuzzing
     - test
@@ -736,7 +736,7 @@
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#fuzzing
     status: Active
     version: 1.0.0
--   abbreviation: uses_tool_for_warnings_or_mistakes
+-   abbreviation: uses_tool_for_warnings_and_mistakes
     author:
         '@type': schema:Organization
         name: OpenSSF
@@ -752,7 +752,7 @@
         look for code quality errors or common simple mistakes, if there is at least
         one FLOSS tool that can implement this criterion in the selected language.
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/uses_tool_for_warnings_or_mistakes
+        '@id': https://w3id.org/everse/i/indicators/uses_tool_for_warnings_and_mistakes
     keywords:
     - linting
     - code analysis
