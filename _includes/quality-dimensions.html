@@ -1,9 +1,12 @@
 {% for item in site.data.quality_dimensions %}
 <section class="quality-dimension">
-  <h2 id="{{ item.abbreviation | slugify }}" style="display:flex; align-items:center; gap:0.5rem;">
-    <span>{{ item.name }}</span>
-    <a href="https://github.com/EVERSE-ResearchSoftware/indicators/blob/main/dimensions/{{ item.abbreviation }}.json">
-      <img src="{{ '/assets/img/json-ld-logo.png' | relative_url }}" style="height:1.2em;">
+  <h2 id="{{ item.abbreviation | slugify }}">
+    {{ item.name }}
+    <a
+      class="quality-dimension-source"
+      href="https://github.com/EVERSE-ResearchSoftware/indicators/blob/main/dimensions/{{ item.abbreviation }}.json"
+      style="margin-left: auto; font-size: 0.5em; font-weight: normal; text-decoration: none;">
+      Source
     </a>
   </h2>
 
