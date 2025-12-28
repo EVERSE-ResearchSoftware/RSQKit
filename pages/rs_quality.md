@@ -20,6 +20,7 @@ This is still work in progress - we expect indicators in particular to be update
 {% for item in site.data.quality_dimensions %}
 <h2>{{ item.name }}</h2>
   <p>
-    {{ item.description | newline_to_br }}
+    {{ item.description | newline_to_br }} <br>
+    See more on <a href="https://everse.software/TechRadar/{{ item.name | slugify: 'raw' | replace: '-', '_' | downcase }}">TechRadar</a>
   </p>
 {% endfor %}
