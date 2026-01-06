@@ -1,3 +1,4 @@
+---
 # List of contributors
 #
 # Full Name:
@@ -7,7 +8,7 @@
 #    role: the role of the contributor (current possible values "editor" or leave empty)
 #    affiliation: affiliation
 #    image_url: absolute path to image (defaults to image from GitHub)
-# 
+#
 # You can reference contributors by their name in the fromntmatter section of content pages using parameter "contributors".
 
 
@@ -18,7 +19,7 @@ Eva Martín del Pico:
 Laura Portell-Silva:
     git: lauportell
     email: laura.portell@bsc.es
-    orcid: 0000-0003-0390- 3208
+    orcid: 0000-0003-0390-3208
     role: editor
     affiliation: Barcelona Supercomputing Center / ELIXIR-ES
 Pablo Martinez-Diaz:
@@ -37,9 +38,9 @@ Fotis Psomopoulos:
     orcid: 0000-0002-0222-4273
     email: fpsom@certh.gr
     role: editor
-    affiliation: Institute of Applied Biosciences(INAB|CERTH) / ELIXIR-GR 
+    affiliation: Institute of Applied Biosciences(INAB|CERTH) / ELIXIR-GR
 Salvador Capella-Gutierrez:
-    email: salvador.capella@bsc.es 
+    email: salvador.capella@bsc.es
     affiliation: Barcelona Supercomputing Centre (BSC)
     role: contributor
 Patrick Bos:
@@ -145,11 +146,11 @@ Michael Sparks:
     affiliation: The University of Manchester / Software Sustainability Institute
     role: editor
 Robert Speck:
-  git: pancetta
-  email: r.speck@fz-juelich.de
-  orcid: 0000-0002-3879-1210
-  role: contributor
-  affiliation: Jülich Supercomputing Centre, Forschungszentrum Jülich GmbH
+    git: pancetta
+    email: r.speck@fz-juelich.de
+    orcid: 0000-0002-3879-1210
+    role: contributor
+    affiliation: Jülich Supercomputing Centre, Forschungszentrum Jülich GmbH
 Guido Juckeland:
     git: juckel
     email: g.juckeland@hzdr.de
@@ -176,3 +177,27 @@ Daniel S.Katz:
     orcid: 0000-0001-5934-7525
     affiliation: NCSA, University of Illinois
     role: contributor
+Gavin Farrell:
+    git: gavinf97
+    affiliation: University of Padova
+    orcid: 0000-0001-5166-8551
+    role: contributor
+Omar Attafi:
+    git: Abdelghaniomar
+    affiliation: University of Padova
+    orcid: 0009-0002-2327-9430
+    role: contributor
+Carlos Oscar Sorzano:
+    git: cossorzano
+    affiliation: CNB-CSIC
+    orcid: 0000-0002-9473-283X
+    role: contributor
+Irene Sanchez:
+    git: sanlopez
+    affiliation: CNB-CSIC
+    orcid: 0000-0003-0031-3093
+    role: contributor
+Lola Sanchez:
+    git: lolasanchezzz
+    affiliation: CNB-CSIC
+    role: author

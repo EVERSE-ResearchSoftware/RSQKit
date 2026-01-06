@@ -7,7 +7,6 @@ related_pages:
   tasks: [software_documentation]
 quality_indicators: [software_has_documentation]
 keywords: ["readme"]
-
 ---
 
 ## Why is it important to have a good README file?

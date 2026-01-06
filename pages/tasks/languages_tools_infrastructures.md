@@ -40,7 +40,7 @@ Also check out the [Netherlands eScience Center Guide to Software Development][n
 Most of the following considerations apply to software languages, frameworks and technologies alike, unless explicitly noted otherwise.
 
 #### People and community
-- What software is used widely in your field already? It may make sense for interoperability and reusability (the I and R in [FAIR](../fair_rs.md)) to choose the same software, if possible.
+- What software is used widely in your field already? It may make sense for interoperability and reusability (the I and R in [FAIR](fair_rs.md)) to choose the same software, if possible.
 - Similarly, what existing practices and experience are available in your community? Can you benefit from this?
    * Also look at the expertise available at your institute/organisation.
      Having an expert at a nearby desk to ask questions or even coach you can be invaluable.
@@ -116,6 +116,6 @@ Some interesting templates to consider for research software:
 - [The Netherlands eScience Center Python template](https://github.com/NLeSC/python-template): create a Python package that follows research software best practices
 - [BestieTemplate.jl](https://github.com/JuliaBesties/BestieTemplate.jl): Julia package template for research software
 - For R, the [usethis](https://usethis.r-lib.org) package provides a good basis for developing R packages.
-- RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/tasks/TEMPLATE_tasks.md).
+- RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/tasks/TEMPLATE_task.md).
 
 [nesc-rs-guide]: https://guide.esciencecenter.nl/
