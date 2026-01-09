@@ -19,22 +19,29 @@ The aim of this document was to illustrate the lifecycle of research software an
 
 The [Research Software Lifecycle report](https://doi.org/10.5281/zenodo.8324828) nicely summarises the stages in the diagram - the **software development lifecycle** within the wider **research context (cycle)**.
 
-The **research part of the lifecycle that involves software development** (note this is not a general research lifecycle) consists of the following stages:
+Note that here we are discussing the **research part of the lifecycle that involves software development** and not a general research lifecycle.
+It is also important to emphasise that the stages described here are not strictly linear. 
+In practice, activities often happen overlap or occur in a different order depending on the project context (e.g. release and archiving often happen in parallel). 
+The lifecycle should therefore be understood as a general model that captures common patterns across many research projects involving software development, rather than a prescriptive sequence of steps. 
+This flexibility reflects the iterative and exploratory nature of research and supports a wide range of disciplines, team sizes, and development practices.
+
+So, the **research part of the lifecycle** typically consists of the following stages:
 
 - [planning](#planning) as a response to a research question
 - software implementation - starting the internal software development cycle
 - [software evaluation](#use--evaluation) in the context of the research question
+- [archiving](#archiving)
 - [publication](#publication)
 - [community feedback](#community-feedback)
-- [software archiving & preservation](#archiving--preservation)
 
-The **software development lifecycle** consists of the following stages:
+The **software development part of the lifecycle** consists of the following stages:
 
 - [gathering software requirements](#requirements)
 - [software design](#design)
 - [software development](#development)
 - [quality assurance (including testing) and writing documentation](#qa--documentation)
 - [release and/or deployment](#release--deployment)
+- [archiving](#archiving)
 - [maintenance](#maintenance)
 
 It also helps to consider the lifecycle of your research software project through the lens of a software management plan (SMP).
@@ -56,7 +63,7 @@ Having a roadmap for the initial development and later stages can be instrumenta
 
 When the high-level research planning has been done, the software implementation (in the wider sense) phase starts.
 
-The first stage is to gather and/or analyse software requirements.
+The first stage is to gather and translate the research question into a set of software requirements.
 This can be done in a more formal way, e.g. by using user stories, or in a more informal way, e.g. by discussing the requirements with the team members.
 This stage is usually done in close collaboration with the research team, to make sure the research question is well understood and the requirements are aligned with it.
 
@@ -119,21 +126,13 @@ Where possible, software should be made open source before platform integration 
 However, other distribution models are also possible. 
 For instance, when offering software as a service, a sustainable business model may be required — such as providing a free community edition alongside a professional version supported through service fees.
 
-### Maintenance
+### Archiving
 
-The maintenance stage is typically the longest stage in the software lifecycle, although it can also be the shortest one if the software is not used or not maintained, which is often the case for research software (especially tier 1 software).
-It may include the following activities:
+Software should be preserved in dedicated archival services that are separate from repositories used for development and release. 
+While platforms such as GitHub or GitLab are well suited to collaborative development - they are not designed to guarantee long-term preservation.
 
-- **Bug fixing**: identify and fix bugs in the software.
-- **Feature development**: add new features to the software based on user feedback and requirements.
-- **Refactoring**: improve the code quality and maintainability of the software.
-- **Performance optimisation**: improve the performance of the software by optimizing the code and algorithms.
-- **Security updates**: apply security patches and updates to the software to ensure its security and stability.
-- **Documentation updates**: update the documentation to reflect the changes in the software.
-- **User support**: provide support to users of the software, including answering questions, resolving issues, and providing training.
-- **Versioning**: manage the versions of the software, including tagging releases, maintaining a changelog, and managing dependencies.
-
-Issue tracking via a platform like GitHub can facilitate the collection of user feedback and bug reports.
+Archival services provide stable storage, persistent identifiers, curated metadata, and preservation policies that ensure software remains accessible and citable over time, even if development platforms, projects, or organisations change.
+Separating preservation from active development therefore supports sustainability and reproducibility, and ensures that research software continues to deliver value and scholarly impact over time. 
 
 ### Publication
 
@@ -150,6 +149,22 @@ Several standards are in use and under harmonization via several EOSC-related gr
 Currently used standards are the [Citation File Format](https://citation-file-format.github.io/) and [CodeMeta](https://codemeta.github.io/).
 The findability can be increased by adding a citation to software and referencing in accompanying articles.
 
+### Maintenance
+
+The maintenance stage is typically the longest stage in the software lifecycle, although it can also be the shortest one if the software is not used or not maintained, which is often the case for research software (especially tier 1 software).
+It may include the following activities:
+
+- **Bug fixing**: identify and fix bugs in the software.
+- **Feature development**: add new features to the software based on user feedback and requirements.
+- **Refactoring**: improve the code quality and maintainability of the software.
+- **Performance optimisation**: improve the performance of the software by optimizing the code and algorithms.
+- **Security updates**: apply security patches and updates to the software to ensure its security and stability.
+- **Documentation updates**: update the documentation to reflect the changes in the software.
+- **User support**: provide support to users of the software, including answering questions, resolving issues, and providing training.
+- **Versioning**: manage the versions of the software, including tagging releases, maintaining a changelog, and managing dependencies.
+
+Issue tracking via a platform like GitHub can facilitate the collection of user feedback and bug reports.
+
 ### Community Feedback
 
 The form, amount and timeliness of community feedback to research software can vary substantially depending on the size, maturity and targeted application range and audience.
@@ -158,15 +173,6 @@ The community feedback stage can be facilitated by appropriate communication cha
 In this stage, the user stories can be changed and also new application classes can be defined.
 
 Feedback and use of research software can either lead to new research questions initiating another full development cycle, trigger smaller implementation cycles in the context of software updates/maintenance or lead to termination of the development/service and "sunsetting" the research software.
-
-### Archiving & Preservation
-
-Whether research software is going through another iteration of development/maintenance or is being sunset - it should be preserved in dedicated archival services that are separate from repositories used for development and release. 
-While platforms such as GitHub or GitLab are well suited to collaborative development - they are not designed to guarantee long-term preservation.
-
-Archival services provide stable storage, persistent identifiers, curated metadata, and preservation policies that ensure software remains accessible and citable over time, even if development platforms, projects, or organisations change.
-Separating preservation from active development therefore supports sustainability and reproducibility, and ensures that research software continues to deliver value and scholarly impact over time. 
-
 
 ## Research Software Lifecycle & Three-Tier Model
 
