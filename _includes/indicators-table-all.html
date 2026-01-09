@@ -1,0 +1,39 @@
+
+{%- assign indicators = site.data.quality_indicators %}
+
+{% if indicators.size > 0 %}
+<div class="table-responsive mt-3">
+    <table class="tooltable table display">
+    <thead>
+    <tr class="text-nowrap">
+        <th>Quality indicator</th>
+        <th>Description</th>
+        <th>Related pages</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Get all task pages with quality indicators -->
+    {%- assign pages = site.pages | where: "type", "tasks" | where_exp: "page", "page.quality_indicators != nil" %}
+
+    {%- for indicator in indicators %}
+    <!-- Create an empty array -->
+    {% assign pages_that_mention_indicator = "" | split: "," %}
+    {% for page in pages %}
+        {% if page.quality_indicators contains indicator.abbreviation %}
+            {%- assign pages_that_mention_indicator = pages_that_mention_indicator | push: page %}
+        {% endif %}
+    {% endfor %}
+    <tr>
+        <td><a href="{{ indicator.identifier['@id'] }}">{{ indicator.name }}</a></td>
+        <td style="word-wrap: break-word;">{{ indicator.description }}</td>
+        <td>
+        {% for page_that_mentions_indicator in pages_that_mention_indicator %}
+            <a class="nohover" href="{{page_that_mentions_indicator.url | relative_url }}" data-bs-toggle="tooltip" title="{{page_that_mentions_indicator.type | replace: '_', ' ' | capitalize }}"><span class="badge default-badge">{{ page_that_mentions_indicator.title | truncate: 50 }}</span></a>
+        {% endfor %}
+        </td>
+    </tr>
+    {%- endfor %}
+    </tbody>
+    </table>
+</div>
+{%- endif %}
