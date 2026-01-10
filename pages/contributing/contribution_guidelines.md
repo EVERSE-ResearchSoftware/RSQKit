@@ -15,6 +15,17 @@ The RSQKit **Editorial Board Members** work together with Internal Contributors 
 By contributing, you agree that we may redistribute your work under [our license][licence].
 In exchange, we will address your issues and/or assess your change proposal as promptly as we can.
 
+## Contribution Purpose and Quality Principles
+
+Before contributing content, please also follow these underlying content principles to ensure high‑quality RSQKit pages:
+- **Explain why the topic matters:** help readers understand why the issue/task is important for research software quality.
+- **Be accurate and clear:** content should be factually correct, technically accurate, and written in clear language.
+- **Provide self‑sufficient guidance:** the page should contain enough explanation and guidance that a reader could apply the information correctly even if it’s the only resource they read.
+- **Link to high‑quality external resources for deeper learning:** not to replace your guidance, but to motivate readers to continue learning.
+- **Use metadata fields correctly:** to improve discoverability of the page.
+
+These principles reflect how content is reviewed and curated by the Editorial Board, and help with onboarding new contributors.
+
 ## Markdown Content
 
 RSQKit's content mainly consists of [pages][pages] in Markdown (in addition to [data and metadata][data] in YAML).
@@ -22,6 +33,8 @@ Markdown is a lightweight and human-readable markup language that gets translate
 For more information about the Markdown format, please check the [Markdown guidelines](https://guides.github.com/features/mastering-markdown/).
 
 You may also find the ["Markdown Cheatsheet" from RDMKit][markdown-cheatsheet] very useful as a quick reference.
+
+**Tip:** Pair the content quality principles above with Markdown best practices — clear headings, logical structure, and accurate explanations help readers absorb the content better.
 
 ## How to Contribute
 
@@ -50,7 +63,7 @@ Working with Git from command line is technically more challenging, as you will 
 
 Check out [the instructions on how to fork and set up RSQKit locally on your machine][installation-instructions].
 
-### Via Google Docs, Microsoft 365 etc
+### Via Google Docs, Microsoft 365, etc
 
 You can copy a template into one of these services, collaboratively edit and then submit or update an existing [issue][issues]; be sure to include the link to your contribution.
 
@@ -67,12 +80,17 @@ Email the [Editorial Board][contact] with a short explanation of your contributi
 
 Whichever contribution route you choose, we welcome the following types of contributions:
 
-- [reports on issues, bugs and typos](#reporting-an-issue) in the RSQKit content
-- suggestions for new content by creating a [new issue](#reporting-an-issue) for discussion
-- comments on [existing issues][issues] and reviews of [existing pull requests][pull-requests]
-- [pull requests](#creating-a-pull-request) to fix issues, bugs and typos in the RSQKit content
+- [Reports on issues, bugs and typos](#reporting-an-issue) in the RSQKit content.
+- Suggestions for new content by creating a [new issue](#reporting-an-issue) for discussion.
+- Comments on [existing issues][issues] and reviews of [existing pull requests][pull-requests].
+- [Pull requests](#creating-a-pull-request) to fix issues, bugs and typos in the RSQKit content.
 
-If you plan to submit a pull request that adds new content or significantly changes existing content, please [contact the Editorial Board][contact] to discuss this first so that the effort is only spent on making a change that will be be accepted.
+Before you start significant new content:
+- Check whether a similar task/page already exists.
+- Consider whether your idea aligns with the content principles above.
+- You can open an issue first to discuss scope, structure, and purpose before writing.
+
+If you plan to submit a pull request that adds new content or significantly changes existing content, please [contact the Editorial Board][contact] to discuss this first so that the effort is only spent on making a change that will be accepted.
 
 ### Reporting an Issue
 
@@ -80,13 +98,12 @@ Issues, bugs or remarks or suggestions for new content are tracked via [GitHub's
 You can create an issue and a member of the Editorial Board will review it and assign a person responsible for looking into it.
 Alternatively, you can [email the Editorial Board][contact] and they will create a GitHub issue on your behalf.
 
-Here are some guidelines for reporting issues.
-
-- Add a clear and concise description of what the issue is
-- Provide a URL of the page where the issue occurs, if applicable
-- Add screenshots to help explain the issue, if applicable
-- For bug reports, provide the platform information you used when a bug was detected - for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2)
-- Add any additional context that may be helpful in addressing the issue
+Here are some guidelines for reporting issues:
+- Add a clear and concise description of what the issue is.
+- Provide a URL of the page where the issue occurs, if applicable.
+- Add screenshots to help explain the issue, if applicable.
+- For bug reports, provide the platform information you used when a bug was detected - for example operating system (e.g. iOS), browser type and version (e.g. Firefox 132.0.2).
+- Add any additional context that may be helpful in addressing the issue.
 
 ### Creating a Pull Request
 
@@ -109,7 +126,7 @@ If you think some of these files should be updated, please [contact the Editoria
 ## Contributor Responsibilities
 
 When contributing to this project, please keep in mind the following:
-
+- Ensure your page’s **purpose, accuracy, and references** align with the Quality Principles above.
 - Follow our [**Page Style Guidelines**][page-style-guidelines] for the sake of page consistency.
 - Check our [**Metadata Guidelines**][metadata-guidelines] in order to be able to fill in the data and page metadata and to format the layout correctly.
 - Make sure that the content you provide respects copyright.
@@ -117,6 +134,7 @@ When contributing to this project, please keep in mind the following:
 - Check the [**Editors Checklist**][editors-checklist] and make sure you have complied with the requirements, to avoid having to resolve many issues during the revision process.
 - If others assisted with your contribution by writing or supplying resources like diagrams or links, be sure to acknowledge them after obtaining their permission.
 - Check [**Installation Instructions**][installation-instructions] if you want to develop and test changes locally on your machine.
+- Participate in review discussions (issue comments, PR reviews) to refine and improve the content collaboratively.
 
 ### Spelling check
 
