@@ -56,7 +56,7 @@ So, adopting the [FAIR software practices][fair_rs] - the “openness & reusabil
 
 Quality dimensions (or characteristics) represent high-level categories of software attributes. 
 They define "what" quality looks like in a specific context. 
-For example, the ISO/IEC 25010 standard defines dimensions such as Maintainability, Security, and Performance Efficiency. They are often qualitative and reflect the needs of stakeholders (users, developers, or maintainers).
+For example, the [ISO/IEC 25010 standard][iso-25010] defines dimensions such as Maintainability, Security, and Performance Efficiency. They are often qualitative and reflect the needs of stakeholders (users, developers, or maintainers).
 
 Quality indicators (or metrics) are measurable, objective variables used to assess the status of a specific dimension. 
 An indicator provides the evidence required to determine if a dimension is being satisfied. 
@@ -66,7 +66,7 @@ See the related page on [software quality dimensions in RSQKit](quality_dimensio
 
 See the [all indicators page](all_indicators) where we list [software quality indicators](indicators), their definitions and related RQDKit task pages.
 
-The EVERSE project (the home of RSQKit) is working on formally defining a number of research software [quality dimensions][quality-dimensions] and their associated [indicators](https://w3id.org/everse/i/indicators) (which are to be used to assess the quality of software), based on [existing work on ensuring software quality][ensuring-software-quality] and [ISO standards for software and data quality](https://iso25000.com/index.php/en/).
+The EVERSE project (the home of RSQKit) is working on formally defining a number of research software [quality dimensions][quality-dimensions] and their associated [indicators](https://w3id.org/everse/i/indicators) (which are to be used to assess the quality of software), based on [existing work on ensuring software quality][ensuring-software-quality] and [ISO standards for software and data quality][iso-25010].
 
 [fair-rs-nature]: https://www.nature.com/articles/s41597-022-01710-x
 [fair_rs]: ./fair_rs
@@ -78,3 +78,4 @@ The EVERSE project (the home of RSQKit) is working on formally defining a number
 [indicators]: https://everse.software/indicators/website/indicators.html#
 [rs_quality_dimensions]: ./quality_dimensions
 [techradar]: https://everse.software/TechRadar/
+[iso-25010]: https://iso25000.com/en/iso-25000-standards/iso-25010
