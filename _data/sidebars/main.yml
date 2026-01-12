@@ -4,7 +4,7 @@
 subitems:
   #- title: About RSQKit
   #  url: /about
-  - title: Research software
+  - title: Research software & quality
     url: /research_software
     image_url: /assets/img/flaticon/analyze.png
     description: Research software and its quality - definitions and considerations
