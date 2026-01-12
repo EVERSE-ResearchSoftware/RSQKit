@@ -21,6 +21,10 @@ subitems:
         subitems:
           - title: Quality dimensions
             url: /quality_dimensions
+  - title: Research software stories
+    url: /research_software_stories
+    image_url: /assets/img/flaticon/search.png
+    description: Examples of research software and their quality practices
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
     #image_url: /assets/img/flaticon/research-and-development.png
@@ -37,10 +41,6 @@ subitems:
         url: /panosc
       - title: SSHOC
         url: /sshoc
-  - title: Research software stories
-    url: /research_software_stories
-    image_url: /assets/img/flaticon/search.png
-    description: Examples of research software and their quality practices
   - title: Roles
     description: Resources tailored to different roles in research software funding & development
     url: /your_role
