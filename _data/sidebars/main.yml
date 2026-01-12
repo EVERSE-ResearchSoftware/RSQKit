@@ -7,6 +7,7 @@ subitems:
   - title: Research software
     url: /research_software
     image_url: /assets/img/flaticon/analyze.png
+    description: Research software quality definitions and considerations
     subitems:
       - title: What is research software?
         url: /research_software#what-is-research-software
@@ -136,8 +137,10 @@ subitems:
         url: /fair_rs
       - title: "Using containers"
         url: /using_containers
-  - title: All quality indicators
+  - title: All indicators
     url: /all_indicators
+    description: Browse quality indicators and their connections to tasks
+    image_url: /assets/img/flaticon/quality.png
   - title: All tools and resources
     url: /all_tools_and_resources
     description: Browse tools and resources for research software quality
