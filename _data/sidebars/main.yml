@@ -20,7 +20,7 @@ subitems:
         image_url: /assets/img/flaticon/quality.png
         subitems:
           - title: Quality dimensions
-            url: /rs_quality_dimensions
+            url: /quality_dimensions
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
     #image_url: /assets/img/flaticon/research-and-development.png
