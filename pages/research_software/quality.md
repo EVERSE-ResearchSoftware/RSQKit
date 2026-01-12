@@ -50,7 +50,7 @@ Reproducibility often hinges on the [FAIR principles][fair-rs-nature]: if your c
 FAIR is not a completely separate concern — it is a crucial subset of quality, primarily ensuring that your software can actually be discovered, understood, and exercised by others (or by you, months down the line).
 A truly high-quality, reproducible research software package will typically satisfy both classical software-engineering criteria (tests, style, documentation, performance) and the FAIR principles.
 
-So, adopting the [FAIR software practices][fair_rs] - the “openness & reusability” slice of software quality - is essential for reproducibility, but most impactful when combined with all the other [quality practices](rs_quality_dimensions) like [testing][testing_software], [version control][using_version_control], and [robust software design][robust_software_design].
+So, adopting the [FAIR software practices][fair_rs] - the “openness & reusability” slice of software quality - is essential for reproducibility, but most impactful when combined with all the other [quality practices](quality_dimensions) like [testing][testing_software], [version control][using_version_control], and [robust software design][robust_software_design].
 
 ## Software Quality Dimensions & Indicators
 
@@ -62,7 +62,7 @@ Quality imdicators (or metrics) are measurable, objective variables used to asse
 An indicator provides the evidence required to determine if a dimension is being satisfied. 
 For example, "Unit Test Coverage" is one of the indicators for the Reliability dimension.
 
-See the related page on [software quality dimensions in RSQKit](rs_quality_dimensions) where we cover the [definitions of the dimensions](quality-dimensions) and links to associated tools in [TechRadar](techradar).
+See the related page on [software quality dimensions in RSQKit](quality_dimensions) where we cover the [definitions of the dimensions](quality-dimensions) and links to associated tools in [TechRadar](techradar).
 
 See the [all indicators page](all_indicators) where we list [software quality indicators](indicators), their definitions and related RQDKit task pages.
 
@@ -76,5 +76,5 @@ The EVERSE project (the home of RSQKit) is working on formally defining a number
 [robust_software_design]: https://www.nilebits.com/blog/2024/08/software-design-principles-building-applications/
 [quality-dimensions]: https://w3id.org/everse/i/dimensions/
 [indicators]: https://everse.software/indicators/website/indicators.html#
-[rs_quality_dimensions]: ./rs_quality_dimensions
+[rs_quality_dimensions]: ./quality_dimensions
 [techradar]: https://everse.software/TechRadar/
