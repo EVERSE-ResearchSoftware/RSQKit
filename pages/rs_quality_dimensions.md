@@ -1,5 +1,5 @@
 ---
-title: Research Software Quality
+title: Research Software Quality Dimensions
 ---
 
 This section is focused on the definition and assessment of research software quality, keeping in mind that quality standards vary depending on the software’s purpose.
@@ -17,10 +17,4 @@ Each of the quality dimensions will be an umbrella for a number of [quality indi
 Current research software quality dimensions are described below.
 This is still work in progress - we expect indicators in particular to be updated in the near future.
 
-{% for item in site.data.quality_dimensions %}
-<h2>{{ item.name }}</h2>
-  <p>
-    {{ item.description | newline_to_br }} <br>
-    See more on <a href="https://everse.software/TechRadar/{{ item.name | slugify: 'raw' | replace: '-', '_' | downcase }}">TechRadar</a>
-  </p>
-{% endfor %}
+{% include dimensions.html %}
