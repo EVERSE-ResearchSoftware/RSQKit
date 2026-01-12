@@ -7,7 +7,7 @@ subitems:
   - title: Research software
     url: /research_software
     image_url: /assets/img/flaticon/analyze.png
-    description: Research software quality definitions and considerations
+    description: Research software and its quality - definitions and considerations
     subitems:
       - title: What is research software?
         url: /research_software#what-is-research-software
