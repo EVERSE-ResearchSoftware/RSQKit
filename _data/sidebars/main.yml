@@ -7,7 +7,7 @@ subitems:
   - title: Research software
     url: /research_software
     image_url: /assets/img/flaticon/analyze.png
-    description: Research software quality definitions and considerations
+    description: Research software and its quality - definitions and considerations
     subitems:
       - title: What is research software?
         url: /research_software#what-is-research-software
@@ -17,10 +17,10 @@ subitems:
         url: /life_cycle
       - title: Quality
         url: /quality
-  - title: Quality dimensions
-    description: Research software quality dimensions
-    url: /rs_quality_dimensions
-    image_url: /assets/img/flaticon/quality.png
+        image_url: /assets/img/flaticon/quality.png
+        subitems:
+          - title: Quality dimensions
+            url: /quality_dimensions
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
     #image_url: /assets/img/flaticon/research-and-development.png
