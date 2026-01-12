@@ -58,7 +58,7 @@ Quality dimensions (or characteristics) represent high-level categories of softw
 They define "what" quality looks like in a specific context. 
 For example, the ISO/IEC 25010 standard defines dimensions such as Maintainability, Security, and Performance Efficiency. They are often qualitative and reflect the needs of stakeholders (users, developers, or maintainers).
 
-Quality imdicators (or metrics) are measurable, objective variables used to assess the status of a specific dimension. 
+Quality indicators (or metrics) are measurable, objective variables used to assess the status of a specific dimension. 
 An indicator provides the evidence required to determine if a dimension is being satisfied. 
 For example, "Unit Test Coverage" is one of the indicators for the Reliability dimension.
 
