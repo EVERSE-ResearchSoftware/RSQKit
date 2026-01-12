@@ -1,0 +1,8 @@
+<h3> Dimensions </h3>
+{% for item in site.data.quality_dimensions %}
+<h4>{{ item.name }}</h4>
+<p>
+    {{ item.description | newline_to_br }} <br/><br/>
+    See more on <a href="https://everse.software/TechRadar/{{ item.name | slugify: 'raw' | replace: '-', '_' | downcase }}">TechRadar</a>
+</p>
+{% endfor %}

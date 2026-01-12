@@ -16,33 +16,10 @@ subitems:
         url: /life_cycle
       - title: Quality
         url: /quality
-  - title: Quality dimensions & indicators
-    description: Dimensions and indicators of research software quality
-    url: /rs_quality
+  - title: Quality dimensions
+    description: Research software quality dimensions
+    url: /rs_quality_dimensions
     image_url: /assets/img/flaticon/quality.png
-    subitems:
-      - title: Compatibility
-        url: /rs_quality#compatibility
-      - title: FAIRness
-        url: /rs_quality#fairness
-      - title: Flexibility
-        url: /rs_quality#flexibility
-      - title: Functional suitability
-        url: /rs_quality#functional-suitability
-      - title: Interaction capability
-        url: /rs_quality#interaction-capability
-      - title: Maintainability
-        url: /rs_quality#maintainability
-      - title: Performance efficiency
-        url: /rs_quality#performance-efficiency
-      - title: Reliability
-        url: /rs_quality#reliability
-      - title: Safety
-        url: /rs_quality#safety
-      - title: Security
-        url: /rs_quality#security
-      - title: Sustainability
-        url: /rs_quality#sustainability
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
     #image_url: /assets/img/flaticon/research-and-development.png
