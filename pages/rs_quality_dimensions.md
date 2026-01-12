@@ -8,7 +8,7 @@ Moreover, it should be further clarified that we recognise the challenge of bala
 
 Beyond strict technical aspects of research software quality, this page will also address additional factors that influence research software excellence, such as assessing the software's FAIRness, the Open Source nature of projects and their sustainability.
 
-## Quality Dimensions & Indicators
+## Quality Dimension Definitions
 
 EVERSE project is working to formally define a number of [research software quality dimensions](https://w3id.org/everse/i/dimensions) along with a [formal schema](https://w3id.org/everse/rsqd) to be used in machine readable metadata embedded in various resources.
 
