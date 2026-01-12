@@ -409,3 +409,12 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   abbreviation: sustainability
+    description: The capacity of the software to endure. In other words, sustainability
+        means that the software will continue to be available in the future, on new
+        platforms, meeting new needs.
+    identifier: https://w3id.org/everse/i/dimensions/sustainability
+    name: Sustainability
+    source:
+        name: Defining Software Sustainability
+        url: https://danielskatzblog.wordpress.com/2016/09/13/defining-software-sustainability/
