@@ -2,7 +2,7 @@
 title: Research Software Quality Dimensions
 ---
 
-We distinguish between abstract quality dimensions (high-level categories like reliability or maintainability defined by standards such as [ISO/IEC 25010][ISO-IEC-25010] and concrete quality indicators (measurable proxies like test coverage or community engagement). 
+We distinguish between abstract quality dimensions (high-level categories like reliability or maintainability defined by standards such as [ISO/IEC 25010][iso-25010] and concrete quality indicators (measurable proxies like test coverage or community engagement). 
 While indicators provide empirical evidence, they cannot fully capture the subjective, context-dependent nature and dimensions of "good" software.
 
 Assessing research software for quality requires balancing "fit for purpose" (the ability of a tool to solve a specific scientific problem) against long-term goals of reusability and sustainability as championed by the FAIR4RS principles.
@@ -21,4 +21,4 @@ This is still work in progress - we expect indicators in particular to be update
 
 {% include dimensions.html %}
 
-[ISO-IEC-25010]: https://iso25000.com/en/iso-25000-standards/iso-25010
+[iso-25010]: https://iso25000.com/en/iso-25000-standards/iso-25010
