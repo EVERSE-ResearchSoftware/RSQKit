@@ -201,3 +201,18 @@ Lola Sanchez:
     git: lolasanchezzz
     affiliation: CNB-CSIC
     role: author
+Vassilios Ioannidis:
+    git: vioannid
+    affiliation: SIB Swiss Institute of Bioinformatics 
+    orcid: 0000-0002-4209-2578
+    role: contributor
+Carlos Martinez Ortiz:
+    git: c-martinez
+    affiliation: Netherlands eScience Center
+    orcid: 0000-0001-5565-7577
+    role: contributor
+Marek Suchánek:
+    git: MarekSuchanek
+    orcid: 0000-0001-7525-9218
+    affiliation: CTU in Prague
+    role: contributor

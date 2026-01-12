@@ -1056,3 +1056,9 @@
     A living, community-curated inventory of over 300 AI tools and resources mapped to practical pathways for implementing Open and Sustainable AI (OSAI) practices in research.
   url: 'https://osai.dome-ml.org/ai-ecosystem'
   catalog: RSQKit
+- id: software-management-wizard
+  name: Software Management Wizard
+  description: >-
+    Software Management Wizard builds on the Data Stewardship Wizard (DSW) project to provide guided, structured support for creating and maintaining Software Management Plans (SMPs) throughout the software lifecycle. It enables teams to collaboratively produce SMPs that are both human-readable and machine-actionable, while aligning with community standards and supporting different types of research software.
+  url: 'https://smw.dsw.elixir-europe.org/'
+  catalog: RSQKit
