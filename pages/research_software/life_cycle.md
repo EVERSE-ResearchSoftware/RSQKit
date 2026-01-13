@@ -17,7 +17,7 @@ The aim of this document was to illustrate the lifecycle of research software an
 
 ## Lifecycle Stages
 
-The [Research Software Lifecycle report](https://doi.org/10.5281/zenodo.8324828) nicely summarises the stages in the diagram - the **software development lifecycle** within the wider **research context (cycle)**.
+The [Research Software Lifecycle report](https://doi.org/10.5281/zenodo.8324828) summarises the stages in the diagram - the **software development lifecycle** within the wider **research context (cycle)**.
 
 Note that here we are discussing the **research part of the lifecycle that involves software development** and not a general research lifecycle.
 It is also important to emphasise that the stages described here are not strictly linear. 
