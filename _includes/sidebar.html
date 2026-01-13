@@ -35,7 +35,7 @@
             {% if folder.title contains "Tasks" %}
                 {% assign subfolders = folder.subitems | sort: "title" %}
             {% else %}
-                {% assign subfolders = folder.subitems | sort: "title" %}
+                {% assign subfolders = folder.subitems %}
             {% endif %}
 
             {%- for subfolder in subfolders %}
