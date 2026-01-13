@@ -65,9 +65,11 @@
         '@type': Person
         name: Thomas Vuillaume
     created: 20-03-2025
-    description: Indicator that checks the completeness of a codemeta.json file, i.e.,
-        the percentage of properties that are filled with metadata. This indicator
-        does not assess the quality of the metadata fields available.
+    description: This indicator checks that the codemeta file is sufficiently complete
+        (according to community expectations). That is, the percentage of properties
+        that are filled with metadata is above an acceptable threshold established
+        by a target community. This indicator does not assess the quality of the metadata
+        fields available.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/codemeta_completeness
     keywords:
@@ -141,6 +143,38 @@
         url: https://fair-impact.github.io/RSMD-guidelines/4.Description_Classification/
     status: Active
     version: 1.0.0
+-   abbreviation: functional_correctness
+    author:
+        '@type': schema:Organization
+        name: University of Padova
+    contactPoint:
+        '@type': schema:Person
+        email: gavinmichael.farrell@studenti.unipd.it
+        name: Gavin Farrell
+    created: 03-12-2025
+    description: For analysis code specifically, is there a quantifiable measure of
+        the functional correctness of the software output. This indicator focuses
+        on computational/statistical correctness. For example, in an ML model software
+        context, the indicator measures whether the repository reports metrics like
+        Accuracy, F1-score, or ROC-AUC to prove the model performs as intended. However
+        other performance metrics may also address the indicator. Evaluation metrics
+        may be provided through documentation, tables or scripts available in the
+        source code of the target tool.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/functional_correctness
+    keywords:
+    - correctness
+    - machine learning
+    - models
+    name: has a measure of functional correctness
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    source:
+        '@id': https://dome-ml.org/guidelines
+        name: DOME Recommendations for Supervised Machine Learning (Evaluation section)
+        url: https://dome-ml.org/guidelines#evaluation-section
+    status: Active
+    version: 1.0.0
 -   abbreviation: has_ci-tests
     author:
         '@type': schema:Organization
@@ -155,7 +189,7 @@
     description: This indicator aims to determine if the project runs tests before
         pull requests are merged.
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/software_has_ci-tests
+        '@id': https://w3id.org/everse/i/indicators/has_ci-tests
     keywords:
     - continuous
     - integration
@@ -166,66 +200,6 @@
     source:
         name: 'OpenSSF Scorecard: CI-Tests'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#ci-tests
-    status: Active
-    version: 1.0.0
--   abbreviation: software_has_citation
-    alternateName: FRSM-12
-    author:
-        '@type': schema:Organization
-        name: FAIR-IMPACT
-    contact:
-    -   '@type': schema:Person
-        name: Daniel Garijo
-    -   '@type': schema:Person
-        name: Andres Montero
-    created: 23-05-2025
-    description: This indicator aims to determine if the project uses a citation to
-        reference contributors and authors (e.g., through a CFF file, in the README,
-        etc).
-    identifier:
-        '@id': https://w3id.org/everse/i/indicators/software_has_citation
-    keywords:
-    - citation
-    - metadata
-    - fair
-    - contributors
-    name: Software uses citation
-    qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/fairness
-    sameAs: https://doi.org/10.25504/FAIRsharing.c585c5
-    source:
-        name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
-            context
-        url: https://zenodo.org/records/10047401
-    status: Active
-    version: 1.0.0
--   abbreviation: software_has_license
-    alternateName: FRSM-15
-    author:
-        '@type': schema:Organization
-        name: OpenSSF
-        url: https://openssf.org/
-    contact:
-    -   '@type': schema:Person
-        name: Daniel Garijo
-    -   '@type': schema:Person
-        name: Andres Montero
-    created: 23-05-2025
-    description: This check tries to determine if the project has published a license
-    identifier:
-        '@id': https://w3id.org/everse/i/indicators/software_has_license
-    keywords:
-    - license
-    - metadata
-    - fair
-    name: Software has license
-    qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/fairness
-    source:
-    -   name: 'OpenSSF Scorecard: License'
-        url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#license
-    -   name: Reuse, licensing and legal aspects. RSMD-6.2
-        url: https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/
     status: Active
     version: 1.0.0
 -   abbreviation: has_no_linting_issues
@@ -555,7 +529,40 @@
         url: https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/
     status: Active
     version: 1.0.0
--   abbreviation: software_documentation
+-   abbreviation: software_has_citation
+    alternateName: FRSM-12
+    author:
+        '@type': schema:Organization
+        name: FAIR-IMPACT
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 23-05-2025
+    description: This indicator aims to determine if the project uses a citation to
+        reference contributors and authors (e.g., through a CFF file, in the README,
+        etc).
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/software_has_citation
+    keywords:
+    - citation
+    - metadata
+    - fair
+    - contributors
+    name: Software uses citation
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    sameAs: https://doi.org/10.25504/FAIRsharing.c585c5
+    source:
+    -   name: Research Software Metadata guidelines - Credit and attribution
+        url: https://fair-impact.github.io/RSMD-guidelines/5.Credit_Attribution/
+    -   name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
+            context
+        url: https://zenodo.org/records/10047401
+    status: Active
+    version: 1.0.0
+-   abbreviation: software_has_documentation
     alternateName: FRSM-05
     author:
         '@type': schema:Organization
@@ -570,7 +577,7 @@
     description: This indicator aims to determine if a software project comes with
         many forms of documentation like readme or readthedocs
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/software_documentation
+        '@id': https://w3id.org/everse/i/indicators/software_has_documentation
     keywords:
     - documentation
     - fair
@@ -584,6 +591,35 @@
     source:
         name: FLOSS Best Practices Criteria
         url: https://www.bestpractices.dev/en/criteria/0#0.documentation_basics
+    status: Active
+    version: 1.0.0
+-   abbreviation: software_has_license
+    alternateName: FRSM-15
+    author:
+        '@type': schema:Organization
+        name: OpenSSF
+        url: https://openssf.org/
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 23-05-2025
+    description: This check tries to determine if the project has published a license
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/software_has_license
+    keywords:
+    - license
+    - metadata
+    - fair
+    name: Software has license
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+    -   name: 'OpenSSF Scorecard: License'
+        url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#license
+    -   name: Reuse, licensing and legal aspects. RSMD-6.2
+        url: https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/
     status: Active
     version: 1.0.0
 -   abbreviation: software_has_tests
@@ -617,6 +653,37 @@
         url: https://zenodo.org/records/10047401
     status: Active
     version: 1.0.0
+-   abbreviation: software_test_coverage
+    author:
+        '@type': schema:Organization
+        name: ELIXIR-Steers
+        url: https://elixir-europe.org/about-us/how-funded/eu-projects/steers
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 03-12-2025
+    description: Indicates that the test suite covers most (or ideally all) the code
+        branches, input fields, and functionality
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/software_test_coverage
+    keywords:
+    - test coverage
+    - code coverage
+    - branch coverage
+    - coverage threshold
+    - test completeness
+    name: Software has sufficient test coverage
+    qualityDimension:
+    -   '@id': https://w3id.org/everse/i/dimensions/reliability
+    -   '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    source:
+        name: ELIXIR Steers D2.1 Report on best-practices and indicators available
+            and used by selected Communities
+        url: https://doi.org/10.5281/zenodo.17035105
+    status: Active
+    version: 0.0.1
 -   abbreviation: static_analysis_common_vulnerabilities
     author:
         '@type': Organization
@@ -635,7 +702,7 @@
     - security
     - vulnerabilities
     - static analysis
-    name: has static analysis for common vulnerabilities
+    name: Has static analysis for common vulnerabilities
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/security
     source:
@@ -644,7 +711,38 @@
         url: https://www.bestpractices.dev/en/criteria/0#0.static_analysis_common_vulnerabilities
     status: Active
     version: 1.0.0
--   abbreviation: fuzzing_use
+-   abbreviation: support_issue_tracking
+    author:
+        '@type': Organization
+        name: OpenSSF
+        url: https://openssf.org/
+    contactPoint:
+        '@type': schema:Person
+        email: federica.quaglia@unipd.it
+        name: Federica Quaglia
+    created: 03-12-2025
+    description: The software project offers an accessible issue tracking system (e.g.,
+        GitHub/GitLab Issues or a helpdesk) that is used to report, document, and
+        manage bugs, enhancement requests, and user-facing operational issues.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/support_issue_tracking
+    keywords:
+    - support
+    - issues
+    - helpdesk
+    - maintenance
+    - user support
+    name: Software provides issue tracking
+    qualityDimension:
+        '@id': 'https://w3id.org/everse/i/dimensions/maintainability '
+    source:
+        '@id': https://zenodo.org/records/17035105
+        name: ELIXIR-STEERS D2.1 Report on best-practices and indicators available
+            and used by selected Communities
+        url: https://zenodo.org/records/17035105
+    status: Active
+    version: 1.0.0
+-   abbreviation: uses_fuzzing
     author:
         '@type': schema:Organization
         name: OpenSSF
@@ -655,13 +753,13 @@
     -   '@type': schema:Person
         name: Andres Montero
     created: 23-06-2025
-    description: 'This indicator checks that If the software produced by the project
+    description: 'This indicator checks that the software produced by the project
         includes software written using a memory-unsafe language (e.g., C or C++),
         then at least one dynamic tool (e.g., a fuzzer or web application scanner)
         be routinely used in combination with a mechanism to detect memory safety
         problems such as buffer overwrites. '
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/fuzzing_use
+        '@id': https://w3id.org/everse/i/indicators/uses_fuzzing
     keywords:
     - fuzzing
     - test
@@ -674,7 +772,7 @@
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#fuzzing
     status: Active
     version: 1.0.0
--   abbreviation: uses_tool_for_warnings_or_mistakes
+-   abbreviation: uses_tool_for_warnings_and_mistakes
     author:
         '@type': schema:Organization
         name: OpenSSF
@@ -690,7 +788,7 @@
         look for code quality errors or common simple mistakes, if there is at least
         one FLOSS tool that can implement this criterion in the selected language.
     identifier:
-        '@id': https://w3id.org/everse/i/indicators/uses_tool_for_warnings_or_mistakes
+        '@id': https://w3id.org/everse/i/indicators/uses_tool_for_warnings_and_mistakes
     keywords:
     - linting
     - code analysis

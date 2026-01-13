@@ -1043,7 +1043,6 @@
   description: >-
     Dockstore is a free and open source platform for sharing reusable and scalable analytical bioinformatics tools and workflows.
   url: 'https://dockstore.org/'
-
 - id: eslint
   name: ESLint
   description: >-
@@ -1051,7 +1050,6 @@
     enforces code quality and style rules through static analysis.
   url: 'https://eslint.org/'
   catalog: RSQKit
-
 - id: angular
   name: Angular
   description: >-
@@ -1060,7 +1058,6 @@
     applications.
   url: 'https://angular.io/'
   catalog: RSQKit
-
 - id: nestjs
   name: NestJS
   description: >-
@@ -1069,7 +1066,6 @@
     server-side applications.
   url: 'https://nestjs.com/'
   catalog: RSQKit
-
 - id: jest
   name: Jest
   description: >-
@@ -1078,7 +1074,6 @@
     snapshot capabilities.
   url: 'https://jestjs.io/'
   catalog: RSQKit
-
 - id: nodejs
   name: Node.js
   description: >-
@@ -1087,7 +1082,6 @@
     model suited to building scalable network applications.
   url: 'https://nodejs.org/'
   catalog: RSQKit
-
 - id: mongodb
   name: MongoDB
   description: >-
@@ -1095,7 +1089,6 @@
     high availability, and easy scalability.
   url: 'https://www.mongodb.com/'
   catalog: RSQKit
-
 - id: mongoose
   name: Mongoose
   description: >-
@@ -1103,7 +1096,6 @@
     providing a schema-based solution to model application data.
   url: 'https://mongoosejs.com/'
   catalog: RSQKit
-
 - id: orcid
   name: ORCID
   description: >-
@@ -1112,7 +1104,6 @@
     those identifiers.
   url: 'https://orcid.org/'
   catalog: RSQKit
-
 - id: bip-scholar
   name: BIP! Scholar
   description: >-
@@ -1120,7 +1111,6 @@
     indicators drawn from OpenAIRE and related sources.
   url: 'https://bip.imsi.athenarc.gr/scholar'
   catalog: RSQKit
-
 - id: nginx
   name: Nginx
   description: >-
@@ -1129,11 +1119,28 @@
     load balancer.
   url: 'https://nginx.org/'
   catalog: RSQKit
-
 - id: apache-http-server
   name: Apache HTTP Server
   description: >-
     The Apache HTTP Server is a widely-used open source web server providing
     robust and extensible features to serve web content.
   url: 'https://httpd.apache.org/'
+  catalog: RSQKit
+- id: domereg
+  name: DOME Registry
+  description: >-
+    A centralized, community-driven web platform that operationalizes the DOME recommendations (Data, Optimization, Model, Evaluation) to enable the standardized reporting, discovery, and transparent validation of machine learning methods in the life sciences.
+  url: 'https://registry.dome-ml.org'
+  catalog: RSQKit
+- id: osaieco
+  name: OSAI AI Ecosystem
+  description: >-
+    A living, community-curated inventory of over 300 AI tools and resources mapped to practical pathways for implementing Open and Sustainable AI (OSAI) practices in research.
+  url: 'https://osai.dome-ml.org/ai-ecosystem'
+  catalog: RSQKit
+- id: software-management-wizard
+  name: Software Management Wizard
+  description: >-
+    Software Management Wizard builds on the Data Stewardship Wizard (DSW) project to provide guided, structured support for creating and maintaining Software Management Plans (SMPs) throughout the software lifecycle. It enables teams to collaboratively produce SMPs that are both human-readable and machine-actionable, while aligning with community standards and supporting different types of research software.
+  url: 'https://smw.dsw.elixir-europe.org/'
   catalog: RSQKit
