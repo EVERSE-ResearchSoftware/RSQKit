@@ -177,6 +177,24 @@ Daniel S.Katz:
     orcid: 0000-0001-5934-7525
     affiliation: NCSA, University of Illinois
     role: contributor
+Mehdi Zoubiri:
+    git: Mehdi-SK
+    email: mehdi.zoubiri@phd.unipd.it
+    orcid: 0009-0009-3602-3558
+    affiliation: University of Padova / ELIXIR-IT
+    role: contributor
+Federica Quaglia:
+    git: federicaquaglia
+    email: federica.quaglia8@gmail.com
+    orcid: 0000-0002-0341-4888
+    affiliation: University of Padova / ELIXIR-IT
+    role: contributor
+Kamel Eddine Adel Bouhraoua:
+    git: adelbke
+    email: kameleddineadel.bouhraoua@studenti.unipd.it
+    orcid: 0000-0001-9531-6339
+    affiliation: University of Padova / ELIXIR-IT
+    role: contributor
 Gavin Farrell:
     git: gavinf97
     affiliation: University of Padova
