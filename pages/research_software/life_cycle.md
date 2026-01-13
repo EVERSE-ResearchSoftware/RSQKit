@@ -46,7 +46,7 @@ The **software development part of the lifecycle** consists of the following sta
 
 It also helps to consider the lifecycle of your research software project through the lens of a software management plan (SMP).
 A software management plan is a document that describes how the software will be developed, maintained, published, archived, etc. - describing what happens in many of the software lifecycle stages.
-There are several guides available for writing a software management plan, such as the [Practical guide to Software Management Plans](https://zenodo.org/records/7589725).
+Please see the RSQKit [Software Management Planning] (software_management_planning) page for more information about them.
 
 ### Planning
 
