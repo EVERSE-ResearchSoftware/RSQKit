@@ -65,9 +65,11 @@
         '@type': Person
         name: Thomas Vuillaume
     created: 20-03-2025
-    description: Indicator that checks the completeness of a codemeta.json file, i.e.,
-        the percentage of properties that are filled with metadata. This indicator
-        does not assess the quality of the metadata fields available.
+    description: This indicator checks that the codemeta file is sufficiently complete
+        (according to community expectations). That is, the percentage of properties
+        that are filled with metadata is above an acceptable threshold established
+        by a target community. This indicator does not assess the quality of the metadata
+        fields available.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/codemeta_completeness
     keywords:
@@ -139,6 +141,38 @@
         url: https://zenodo.org/records/10047401
     -   name: Description & classification. RSMD-4.1
         url: https://fair-impact.github.io/RSMD-guidelines/4.Description_Classification/
+    status: Active
+    version: 1.0.0
+-   abbreviation: functional_correctness
+    author:
+        '@type': schema:Organization
+        name: University of Padova
+    contactPoint:
+        '@type': schema:Person
+        email: gavinmichael.farrell@studenti.unipd.it
+        name: Gavin Farrell
+    created: 03-12-2025
+    description: For analysis code specifically, is there a quantifiable measure of
+        the functional correctness of the software output. This indicator focuses
+        on computational/statistical correctness. For example, in an ML model software
+        context, the indicator measures whether the repository reports metrics like
+        Accuracy, F1-score, or ROC-AUC to prove the model performs as intended. However
+        other performance metrics may also address the indicator. Evaluation metrics
+        may be provided through documentation, tables or scripts available in the
+        source code of the target tool.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/functional_correctness
+    keywords:
+    - correctness
+    - machine learning
+    - models
+    name: has a measure of functional correctness
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    source:
+        '@id': https://dome-ml.org/guidelines
+        name: DOME Recommendations for Supervised Machine Learning (Evaluation section)
+        url: https://dome-ml.org/guidelines#evaluation-section
     status: Active
     version: 1.0.0
 -   abbreviation: has_ci-tests
@@ -521,7 +555,9 @@
         '@id': https://w3id.org/everse/i/dimensions/fairness
     sameAs: https://doi.org/10.25504/FAIRsharing.c585c5
     source:
-        name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
+    -   name: Research Software Metadata guidelines - Credit and attribution
+        url: https://fair-impact.github.io/RSMD-guidelines/5.Credit_Attribution/
+    -   name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
             context
         url: https://zenodo.org/records/10047401
     status: Active
@@ -666,7 +702,7 @@
     - security
     - vulnerabilities
     - static analysis
-    name: has static analysis for common vulnerabilities
+    name: Has static analysis for common vulnerabilities
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/security
     source:
