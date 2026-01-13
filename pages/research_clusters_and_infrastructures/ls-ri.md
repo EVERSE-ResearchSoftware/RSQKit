@@ -11,4 +11,6 @@ An example is the [ELIXIR STEERS](https://elixir-europe.org/about-us/how-funded/
 
 ## Services
 
-### Training catalogue The [TeSS Life Sciences Training Catalogue](https://tess.elixir-europe.org/) is a platform that was developed to provide a one-stop shop for trainers and trainees to discover online information and content, including training materials, events and interactive tutorials. While its scope is wider than research software, training materials on the best practices mentioned in the RSQKit may also be found.
+### Training catalogue 
+
+The [TeSS Life Sciences Training Catalogue](https://tess.elixir-europe.org/) is a platform that was developed to provide a one-stop shop for trainers and trainees to discover online information and content, including training materials, events and interactive tutorials. While its scope is wider than research software, training materials on the best practices mentioned in the RSQKit may also be found.
