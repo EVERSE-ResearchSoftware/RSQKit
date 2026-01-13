@@ -21,7 +21,7 @@ The [Research Software Lifecycle report](https://doi.org/10.5281/zenodo.8324828)
 
 Note that here we are discussing the **research part of the lifecycle that involves software development** and not a general research lifecycle.
 It is also important to emphasise that the stages described here are not strictly linear. 
-In practice, activities often happen overlap or occur in a different order depending on the project context (e.g. release and archiving often happen in parallel). 
+In practice, activities often overlap or occur in a different order depending on the project context (e.g. release and archiving often happen in parallel). 
 The lifecycle should therefore be understood as a general model that captures common patterns across many research projects involving software development, rather than a prescriptive sequence of steps. 
 This flexibility reflects the iterative and exploratory nature of research and supports a wide range of disciplines, team sizes, and development practices.
 
