@@ -166,7 +166,7 @@
     - correctness
     - machine learning
     - models
-    name: has a measure of functional correctness
+    name: Has a measure of functional correctness
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/functional_suitability
     source:
