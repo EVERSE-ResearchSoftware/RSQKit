@@ -46,7 +46,7 @@ This structure (task-description-considerations-solutions) should be repeated if
 ** Add any missing tools into the _data/tool_and_resource_list.yml file
 
   - When referring to a tool on the page use the tool format, e.g. {% tool "git" %}. 
-  - Only reference tools and resources that are relevant and add clear value for the task being described.
+  - Only reference tools and resources that are relevant and add clear value for the task being described (err on the side of referencing a tool/resource rather than not).
 
 ** Read existing pages to get inspiration
 
