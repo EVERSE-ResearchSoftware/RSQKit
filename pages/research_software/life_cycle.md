@@ -25,12 +25,12 @@ In practice, activities often overlap or occur in a different order depending on
 The lifecycle should therefore be understood as a general model that captures common patterns across many research projects involving software development, rather than a prescriptive sequence of steps. 
 This flexibility reflects the iterative and exploratory nature of research and supports a wide range of disciplines, team sizes, and development practices.
 
-So, the **research part of the lifecycle** typically consists of the following stages:
+In this context, we consider the **research part of the lifecycle** typically comprising the following stages:
 
 - [planning](#planning) as a response to a research question
 - software implementation - starting the internal software development cycle
 - [software evaluation](#use--evaluation) in the context of the research question
-- [archiving](#archiving)
+- [research artifact archiving](#archiving)
 - [publication](#publication)
 - [community feedback](#community-feedback)
 
@@ -41,7 +41,7 @@ The **software development part of the lifecycle** consists of the following sta
 - [software development](#development)
 - [quality assurance (including testing) and writing documentation](#qa--documentation)
 - [release and/or deployment](#release--deployment)
-- [archiving](#archiving)
+- [software archiving](#archiving)
 - [maintenance](#maintenance)
 
 It also helps to consider the lifecycle of your research software project through the lens of a software management plan (SMP).
@@ -128,11 +128,14 @@ For instance, when offering software as a service, a sustainable business model 
 
 ### Archiving
 
+Research artifact archival focuses on preserving diverse and more general research materials (text, data, objects) for historical/future use, emphasising context and provenance, while software archival is a subset of this activity specifically targeting source code and its development history.
+
 Software should be preserved in dedicated archival services that are separate from repositories used for development and release. 
 While platforms such as GitHub or GitLab are well suited to collaborative development - they are not designed to guarantee long-term preservation.
+Software archival require specialised long-term repositories like Software Heritage for computational reproducibility and unique identifiers (SWHIDs) to ensure the logic of scientific claims remains accessible and verifiable, treating code as a fundamental research output alongside papers and datasets. 
 
 Archival services provide stable storage, persistent identifiers, curated metadata, and preservation policies that ensure software remains accessible and citable over time, even if development platforms, projects, or organisations change.
-Separating preservation from active development therefore supports sustainability and reproducibility, and ensures that research software continues to deliver value and scholarly impact over time. 
+Separating preservation from active software development therefore supports sustainability and reproducibility, and ensures that research software continues to deliver value and scholarly impact over time. 
 
 ### Publication
 
