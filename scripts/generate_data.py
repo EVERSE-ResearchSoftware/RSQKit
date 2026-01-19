@@ -5,6 +5,8 @@ import yaml
 import os
 import base64
 import requests
+import csv
+import io
 
 def get_github_repo_contents(repo_owner, repo_name, path=""):
     """
@@ -58,6 +60,37 @@ def get_github_file_content(repo_owner, repo_name, file_path):
     except (base64.binascii.Error, UnicodeDecodeError) as e:
         print(f"Error decoding file content for {file_path}: {e}")
         return None
+    
+    
+def get_consensus_summary_from_github(repo_owner, repo_name):
+    """
+    Fetches and parses docs/consensus_summary.csv from a GitHub repository.
+
+    Returns:
+        dict indexed by indicator URI.
+    """
+    csv_path = "docs/consensus_summary.csv"
+    content = get_github_file_content(repo_owner, repo_name, csv_path)
+
+    if not content:
+        print("Warning: consensus_summary.csv not found or empty.")
+        return {}
+
+    consensus = {}
+    reader = csv.DictReader(io.StringIO(content))
+
+    for row in reader:
+        indicator_uri = row.get("Indicator (to get more info)", "").strip()
+        if not indicator_uri:
+            continue
+
+        consensus[indicator_uri] = {
+            "Relevant for Analysis Code": row.get("Relevant for Analysis Code"),
+            "Relevant for Prototype tool": row.get("Relevant for Prototype tool"),
+            "Relevant for RS infrastructure": row.get("Relevant for RS infrastructure"),
+        }
+
+    return consensus
 
 
 def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_file="data.yaml", filter_keys=False):
@@ -73,6 +106,8 @@ def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_fi
             yaml.dump([], outfile)
         print(f"Created empty output file: {output_file}")
         return
+    
+    consensus_data = get_consensus_summary_from_github(repo_owner, repo_name)
 
     _data = []
 
@@ -85,6 +120,12 @@ def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_fi
                 instance = json.loads(file_content)
                 if filter_keys:
                     instance = dict(filter(lambda item: "@" not in item[0], instance.items()))
+                    
+                indicator_uri = (instance.get("identifier", {}).get("@id"))
+
+            if indicator_uri and indicator_uri in consensus_data:
+                instance["relevant in tiers"] = consensus_data[indicator_uri]
+                    
                 _data.append(instance)
         except json.JSONDecodeError as e:
             print(f"Error decoding JSON from {file_path}: {e}")
