@@ -121,12 +121,22 @@ def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_fi
                 if filter_keys:
                     instance = dict(filter(lambda item: "@" not in item[0], instance.items()))
                     
-                indicator_uri = (instance.get("identifier", {}).get("@id"))
+                indicator_uri = None
 
-            if indicator_uri and indicator_uri in consensus_data:
+                if repo_path == "indicators":
+                    identifier = instance.get("identifier")
+                    if isinstance(identifier, dict):
+                        indicator_uri = identifier.get("@id")
+
+                elif repo_path == "dimensions":
+                    identifier = instance.get("identifier")
+                    if isinstance(identifier, str):
+                        indicator_uri = identifier
+
+            if repo_path == "indicators" and indicator_uri and indicator_uri in consensus_data:
                 instance["relevant in tiers"] = consensus_data[indicator_uri]
                     
-                _data.append(instance)
+            _data.append(instance)
         except json.JSONDecodeError as e:
             print(f"Error decoding JSON from {file_path}: {e}")
         except Exception as e:
