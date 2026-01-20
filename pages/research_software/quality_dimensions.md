@@ -19,6 +19,9 @@ Each of the quality dimensions will be an umbrella for a number of [quality indi
 Current research software quality dimensions are described below.
 This is still work in progress - we expect indicators in particular to be updated in the near future.
 
+Before dimensions include <br/>
 {% include dimensions.html %}
+After dimensions include <br/>
+
 
 [iso-25010]: https://iso25000.com/en/iso-25000-standards/iso-25010
