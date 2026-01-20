@@ -154,7 +154,7 @@ The findability can be increased by adding a citation to software and referencin
 
 ### Maintenance
 
-The maintenance stage is typically the longest stage in the software lifecycle, although it can also be the shortest one if the software is not used or not maintained, which is often the case for research software (especially tier 1 software).
+The maintenance stage is typically the longest stage in the software lifecycle, although it can also be the shortest one if the software is not used or not maintained, which is often the case for research software (especially tier 1 - i.e. analysis code - software).
 It may include the following activities:
 
 - **Bug fixing**: identify and fix bugs in the software.
