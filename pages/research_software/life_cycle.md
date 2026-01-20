@@ -132,7 +132,7 @@ Research artifact archival focuses on preserving diverse and more general resear
 
 Software should be preserved in dedicated archival services that are separate from repositories used for development and release. 
 While platforms such as GitHub or GitLab are well suited to collaborative development - they are not designed to guarantee long-term preservation.
-Software archival require specialised long-term repositories like Software Heritage for computational reproducibility and unique identifiers (SWHIDs) to ensure the logic of scientific claims remains accessible and verifiable, treating code as a fundamental research output alongside papers and datasets. 
+Software archival require specialised long-term repositories like {% tool "softwareheritage" %} for computational reproducibility and unique identifiers (SWHIDs) to ensure the logic of scientific claims remains accessible and verifiable, treating code as a fundamental research output alongside papers and datasets. 
 
 Archival services provide stable storage, persistent identifiers, curated metadata, and preservation policies that ensure software remains accessible and citable over time, even if development platforms, projects, or organisations change.
 Separating preservation from active software development therefore supports sustainability and reproducibility, and ensures that research software continues to deliver value and scholarly impact over time. 
