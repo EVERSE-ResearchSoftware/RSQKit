@@ -17,7 +17,7 @@ their undisputed advantages - tend to break at similar steps in the real world.
 An environment working on one machine might break on another because of
 different operating system, the existence or absence of globally installed
 packages, different hardware etc.
-You local software might behave different as a docker-container, yield different
+Your local software might behave different as a docker-container, yield different
 results or may not run at all.
 
 ## Advantages and Drawbacks
@@ -25,7 +25,7 @@ results or may not run at all.
 ### Advantages
 
 - The same definition runs nearly everywhere the same.
-- Generating a docker-image of your software is included
+- Generating a docker-image of your software is included, making your software results more easily reproducible.
 - Automatically setting up multiple services that get started (and even seeded)
   automatically and can be used reproducibly, i.e.
   - Setting up a Database-Service in the backgrund
@@ -51,14 +51,13 @@ are ready to go.
 
 Then you should best head over to the [documentation on languages](https://devenv.sh/languages/)
 and find the language you actually work with. In most cases the bulk should be
-done by enabling the language with a `languages.xxx.enable = true;` and
+done by enabling the language with a `languages.xxx.enable = true;` in the configuration file and
 optionally a version (like python-2 vs python-3), dependencies, system-libraries
 etc.
 
 Also you can easily enable plugins and hooks for your team, if you prefer so.
 There are already [git-hooks](https://devenv.sh/git-hooks/#1-make-sure-that-commits-are-well-formatted-at-commit-time)
-prepared, that can be adapted to your liking. Never have code not up to standard
-in your repository.
+prepared, that can be adapted to your liking.
 
 
 
