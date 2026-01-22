@@ -47,7 +47,7 @@ Patrick Bos:
     git: egpbos
     email: p.bos@esciencecenter.nl
     orcid: 0000-0002-6033-960X
-    role: editor
+    role: contributor
     affiliation: Netherlands eScience Center
 Daniel Garijo:
     git: dgarijo
@@ -228,7 +228,7 @@ Carlos Martinez Ortiz:
     git: c-martinez
     affiliation: Netherlands eScience Center
     orcid: 0000-0001-5565-7577
-    role: contributor
+    role: editor
 Marek Suchánek:
     git: MarekSuchanek
     orcid: 0000-0001-7525-9218
