@@ -115,7 +115,7 @@ Risks include: knowledge loss without published outputs, dependence on SRSE stew
 ## **References**
 
 * GreenPhysECS repository: [https://github.com/UofM-Green-Compute/GreenPhysECS/](https://github.com/UofM-Green-Compute/greenphysecs)  
-* Managing Creativity presentation, PyCon UK 2025: [https://doi.org/10.5281/zenodo.17969796](https://doi.org/10.5281/zenodo.17969796)  
+* Managing Creativity presentation, PyCon UK 2007: [https://doi.org/10.5281/zenodo.17969796](https://doi.org/10.5281/zenodo.17969796)  
 * Flecs ECS framework: [https://www.flecs.dev/](https://www.flecs.dev/)  
 * Pandoc document system: [https://pandoc.org/](https://pandoc.org/)  
 * AtomECS paper: [https://arxiv.org/abs/2105.06447](https://arxiv.org/abs/2105.06447)  
