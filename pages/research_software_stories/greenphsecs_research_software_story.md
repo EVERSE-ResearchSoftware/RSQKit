@@ -1,6 +1,5 @@
 ---
-title: "flecs-in-docker"
-search_exclude: true # set to false if you want this page to show up in search results (it's 'true for the template as we don't want that in search results)
+title: "Research Software Story - GreenPhysECS"
 description: "Applying ECS to Physics Simulation with Energy Tracking"
 contributors: ["Michael Sparks"]
 page_id: greenphysecs_research_software_story
