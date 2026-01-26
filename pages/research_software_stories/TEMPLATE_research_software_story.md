@@ -20,7 +20,7 @@ All markdown and page metadata comment sections can be removed before you submit
 -->
 
 
-## The Problem 
+## The Problem
 ### Add a short one-two liner subtitle for the description of the problem
 
 <!--
@@ -38,7 +38,7 @@ All markdown and page metadata comment sections can be removed before you submit
 *Write 2-3 full sentences first, then add bullets if helpful.*
 
 -->
-## The Community 
+## User Community
 ### Add a short one-two liner subtitle about the community/communities that use or will potentially use this software
 
 <!--
@@ -60,7 +60,7 @@ All markdown and page metadata comment sections can be removed before you submit
 
 -->
 
-## Technical Aspects  
+## Technical Aspects
 
 <!--
 
@@ -78,7 +78,7 @@ All markdown and page metadata comment sections can be removed before you submit
 
 -->
 
-### Libraries and Systems 
+### Libraries and Systems
 
 <!--
 **What major libraries, systems, or ecosystems does the software depend on?**
@@ -94,7 +94,7 @@ All markdown and page metadata comment sections can be removed before you submit
 
 -->
 
-## Software Practices 
+## Software Practices
 ### Add a short one-two liner subtitle about which software practices are being used and their benefits to the user community
 
 <!--
@@ -114,7 +114,7 @@ All markdown and page metadata comment sections can be removed before you submit
 
 -->
 
-## Community 
+## Developer Community
 ### Add a short one-two liner subtitle about how the software is being adopted for usage and how a community is being built around it
 
 <!--
@@ -133,8 +133,8 @@ All markdown and page metadata comment sections can be removed before you submit
 
 -->
 
-## Tools 
-### Add a short one-two liner subtitle about the other tools that help in improving your research software  
+## Tools
+### Add a short one-two liner subtitle about the other tools that help in improving your research software
 
 <!--
 
@@ -151,7 +151,7 @@ Note: if any tools mentioned don’t exist in https://github.com/EVERSE-Research
 
 -->
 
-## FAIR & Open 
+## FAIR & Open
 ### Add a short one-two liner subtitle about how your research software is aligned with FAIR and/or Open practices
 
 <!--
@@ -171,7 +171,7 @@ Note: to understand more about FAIR see - https://everse.software/RSQKit/fair_rs
 
 -->
 
-## Documentation 
+## Documentation
 ### Add a short one-two liner subtitle about how documenting the research software helps the user community using the research software
 
 <!--
@@ -190,7 +190,7 @@ Note: to understand more about FAIR see - https://everse.software/RSQKit/fair_rs
 
 -->
 
-## Sustainability 
+## Sustainability
 ### Add a short one-two liner subtitle about how is the research software being made sustainable
 
 <!--
@@ -210,7 +210,7 @@ Note: to understand more about FAIR see - https://everse.software/RSQKit/fair_rs
 
 -->
 
-## References 
+## References
 
 <!--
 
