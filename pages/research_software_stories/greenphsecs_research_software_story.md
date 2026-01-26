@@ -6,10 +6,6 @@ page_id: greenphysecs_research_software_story
 type: research_software_story
 ---
 
-## **GreenPhysECS**
-
-### **Applying ECS to physics simulation to explore tractable parallelism**
-
 ## **The Problem**
 
 ### **Applying ECS to physics simulation to explore tractable parallelism**
