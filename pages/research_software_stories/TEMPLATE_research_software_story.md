@@ -38,7 +38,7 @@ All markdown and page metadata comment sections can be removed before you submit
 *Write 2-3 full sentences first, then add bullets if helpful.*
 
 -->
-## The Community 
+## User Community 
 ### Add a short one-two liner subtitle about the community/communities that use or will potentially use this software
 
 <!--
@@ -114,7 +114,7 @@ All markdown and page metadata comment sections can be removed before you submit
 
 -->
 
-## Community 
+## Developer Community 
 ### Add a short one-two liner subtitle about how the software is being adopted for usage and how a community is being built around it
 
 <!--
