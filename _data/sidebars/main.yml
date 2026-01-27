@@ -25,6 +25,21 @@ subitems:
     url: /research_software_stories
     image_url: /assets/img/flaticon/search.png
     description: Examples of research software and their quality practices
+    subitems:
+      - title: APICURON - credit platform for scientific contributions
+        url: /apicuron_research_software_story
+      - title: DOME - registry of ML methods
+        url: /dome_registry_research_software_story
+      - title: ACTS - particle physics track reconstruction
+        url: /acts_research_software_story
+      - title: BALER - ML-based compression of scientific data
+        url: /baler_research_software_story
+      - title: GreenPhysECS — using ECS in physics simulation
+        url: /greenphsecs_research_software_story
+      - title: Scipion - cryo-EM image processing toolkit for structural reconstruction
+        url: /scipion_research_software_story
+      - title: xAODAnaHelpers - analysis framework for high-level ATLAS data
+        url: /xah_research_software_story
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
     #image_url: /assets/img/flaticon/research-and-development.png
