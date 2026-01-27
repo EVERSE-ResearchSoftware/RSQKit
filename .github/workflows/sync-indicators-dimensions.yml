@@ -1,4 +1,4 @@
-# .github/workflows/data.yml
+# .github/workflows/sync-indicators-dimensions.yml
 name: Sync Indicators and Dimensions
 
 on:
