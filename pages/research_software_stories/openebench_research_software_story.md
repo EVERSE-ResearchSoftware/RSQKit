@@ -1,7 +1,7 @@
 ---
 title: "Research Software Story - OpenEBench"
 description: "OpenEBench is an open, community-driven platform for benchmarking and monitoring bioinformatics software, enabling transparent performance evaluation and improved research software quality."
-contributors: [Laura Portell-Silva, Jose María Fernández]
+contributors: [Laura Portell-Silva, José María Fernández]
 page_id: openebench_research_software_story
 type: research_software_story # leave this as is
 ---
@@ -75,7 +75,7 @@ OpenEBench is developed as an open‑source platform with code repositories host
 
 - *Version control*: Both BSC Gitlab and GitHub‑based repositories with clear topic tagging for discoverability.
 - *Code review*: Pull requests are used to ensure changes align with project objectives and maintain quality standards.
-- *Testing and validation*: Benchmarking workflows, maintained by the different scientific communities, are encouraged to include validation and verification of results.
+- *Testing and validation*: Benchmarking workflows, maintained by the different scientific communities (usually in GitHub), are encouraged to include validation and verification of results.
 - *Community feedback*: Issues and discussions capture user feedback, drive prioritisation, and support continuous improvement across releases.
 
 ## Developer Community 
@@ -122,4 +122,10 @@ As mentioned above, OpenEBench is maintained by the TechBioLab at BSC and suppor
 - OpenEBench scientific benchmarking: https://openebench.bsc.es/benchmarking
 - OpenEBench Software Observatory: https://openebench.bsc.es/observatory/Trends
 - OpenEBench ReadTheDocs: https://openebench.readthedocs.io/en/latest/
-  
+- OpenEBEnch Scientific benchmarking data model: https://github.com/inab/benchmarking-data-model/
+- OpenEBEnch Scientific benchmarking REST and graphQL code: https://gitlab.bsc.es/inb/elixir/openebench/openebench-backend-legacy
+- Quest for Orthologs benchmarking metrics computation workflow: https://github.com/qfo/benchmark-webservice 
+- OpenEBench Scientific benchmarking tools: https://gitlab.bsc.es/inb/elixir/openebench/oeb-sci-admin-tools
+- OpenEBench Scientific level2 ingestion tools: https://github.com/inab/OEB_level2_data_migration
+- OpenEBench Scientific frontend code: https://github.com/inab/openEBench-nuxt
+- OpenEBench Technical monitoring repository metadata enricher: https://github.com/inab/opeb-repo-enricher
