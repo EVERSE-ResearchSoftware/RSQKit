@@ -96,10 +96,24 @@ OpenEBench relies on a combination of development and deployment tools that stre
 ### OpenEBench is fully aligned with FAIR and open science principles
 
 OpenEBench promotes openness and FAIR compliance across its code, workflows, and benchmarking results:
-- The code is publicly hosted on GitHub under an open-source license.
-- APIs and workflows use standard formats to support interoperability.
-- Users can access software, documentation, and benchmark data freely, and contribute via GitHub.
-- The development process is transparent, with community involvement in decisions and feature development.
+- The different git repositories holding both the code and the data model are publicly hosted both on GitHub
+  and BSC's Gitlab under open-source licenses ([Apache-2.0](https://spdx.org/licenses/Apache-2.0.html),
+  [CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html),
+  [LGPLv2](https://spdx.org/licenses/LGPL-2.1-or-later.html), etc...).
+- APIs and workflows use either standard or documented formats to support interoperability. Some examples:
+  * Metrics workflows provided by the communities must be written in Nextflow. The steps must depend on 
+    docker images, which should be public and distributable. Their docker recipes and build process should be public.
+    When the docker images are not distributable, the docker recipes must be public.
+    All the metrics workflows from the different communities have to support
+    the very same minimal named parameters, and produce their main outputs listing the metrics
+    assigned to the assessed participants, following a minimal dataset data model
+    ([model](https://github.com/inab/OEB_level2_data_migration/blob/master/oeb_level2/schemas/minimal_bdm_oeb_level2.yaml)
+    and [sample](https://github.com/inab/OEB_level2_data_migration/tree/master/minimal_dataset_examples)).
+  * REST API both returns and accepts documents following the OEB benchmarking data model,
+    described in JSON Schema with several relational extensions ([link to the 1.0 model](https://github.com/inab/benchmarking-data-model/tree/master/json-schemas/1.0.x), [examples of 1.0 model](https://github.com/inab/benchmarking-data-model/tree/master/prototype-data/1.0.x) and [graphical representation of the 1.0 model](https://github.com/inab/benchmarking-data-model/blob/master/json-schemas/openebench-bdm-1.0.x.dot.pdf)).
+- Users can access software, documentation, and benchmark data freely, and contribute via GitHub or BSC's Gitlab.
+- The development process is transparent, with scientific and technical benchmarking
+  communities involvement in decisions and feature development.
 
 ## Documentation 
 ### Comprehensive documentation ensures the community can effectively use of OpenEBench
