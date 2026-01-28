@@ -38,7 +38,7 @@ do not break previous behavior or introduce unexpected bugs and that tests are r
 - **Efficiency** – the software performs its tasks in a reasonable time and uses computational resources effectively, minimising unnecessary CPU or memory usage, avoiding redundant disk writes, and using data structures and algorithms that scale appropriately with the size of the problem. 
 - **Maintainability** – the codebase is structured in a way that makes it easy to update, fix, or extend without introducing errors — supporting the longevity of research projects.
 
-These aspects are more [formally defined][rs_quality] as dimensions of software quality and related indicators (see below) that can help assess and improve quality aspects.
+These aspects are more [formally defined][rs_quality_dimensions] as dimensions of software quality and related indicators (see below) that can help assess and improve quality aspects.
 
 ### FAIR Research Software
 
@@ -50,12 +50,23 @@ Reproducibility often hinges on the [FAIR principles][fair-rs-nature]: if your c
 FAIR is not a completely separate concern — it is a crucial subset of quality, primarily ensuring that your software can actually be discovered, understood, and exercised by others (or by you, months down the line).
 A truly high-quality, reproducible research software package will typically satisfy both classical software-engineering criteria (tests, style, documentation, performance) and the FAIR principles.
 
-So, adopting the [FAIR software practices][fair_rs] - the “openness & reusability” slice of software quality - is essential for reproducibility, but most impactful when combined with all the other [quality practices](rs_quality) like [testing][testing_software], [version control][using_version_control], and [robust software design][robust_software_design].
+So, adopting the [FAIR software practices][fair_rs] - the “openness & reusability” slice of software quality - is essential for reproducibility, but most impactful when combined with all the other [quality practices](quality_dimensions) like [testing][testing_software], [version control][using_version_control], and [robust software design][robust_software_design].
 
-## Formal Software Quality Dimensions & Indicators
+## Software Quality Dimensions & Indicators
 
-The EVERSE project (the home of RSQKit) is working on [formally defining][rs_quality] a number of research software [quality dimensions][quality-dimensions] and their associated [indicators](https://w3id.org/everse/i/indicators) (which are to be used to assess the quality of software), based on [existing work on ensuring software quality][ensuring-software-quality] and [ISO standards for software and data quality](https://iso25000.com/index.php/en/).
-See the [related page](rs_quality) for more details.
+Quality dimensions (or characteristics) represent high-level categories of software attributes. 
+They define "what" quality looks like in a specific context. 
+For example, the [ISO/IEC 25010 standard][iso-25010] defines dimensions such as Maintainability, Security, and Performance Efficiency. They are often qualitative and reflect the needs of stakeholders (users, developers, or maintainers).
+
+Quality indicators (or metrics) are measurable, objective variables used to assess the status of a specific dimension. 
+An indicator provides the evidence required to determine if a dimension is being satisfied. 
+For example, "Unit Test Coverage" is one of the indicators for the Reliability dimension.
+
+See the related page on [software quality dimensions in RSQKit](quality_dimensions) where we cover the [definitions of the dimensions](quality-dimensions) and links to associated tools in [TechRadar](techradar).
+
+See the [all indicators page](all_indicators) where we list [software quality indicators](indicators), their definitions and related RQDKit task pages.
+
+The EVERSE project (the home of RSQKit) is working on formally defining a number of research software [quality dimensions][quality-dimensions] and their associated [indicators](https://w3id.org/everse/i/indicators) (which are to be used to assess the quality of software), based on [existing work on ensuring software quality][ensuring-software-quality] and [ISO standards for software and data quality][iso-25010].
 
 [fair-rs-nature]: https://www.nature.com/articles/s41597-022-01710-x
 [fair_rs]: ./fair_rs
@@ -65,4 +76,6 @@ See the [related page](rs_quality) for more details.
 [robust_software_design]: https://www.nilebits.com/blog/2024/08/software-design-principles-building-applications/
 [quality-dimensions]: https://w3id.org/everse/i/dimensions/
 [indicators]: https://everse.software/indicators/website/indicators.html#
-[rs_quality]: ./rs_quality
+[rs_quality_dimensions]: ./quality_dimensions
+[techradar]: https://everse.software/TechRadar/
+[iso-25010]: https://iso25000.com/en/iso-25000-standards/iso-25010
