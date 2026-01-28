@@ -82,7 +82,7 @@ OpenEBench is developed as an open‑source platform with code repositories host
 ### Add a short one-two liner subtitle about how the software is being adopted for usage and how a community is being built around it
 
 OpenEBench is developed and maintained at the Technologies for Biomedical Research Laboratory
- (TechBioLab) at the [Barcelona Supercomputing Center (BSC)](https://www.bsc.es/) as part of the [ELIXIR Tools Platform](https://elixir-europe.org/platforms/tools). New contributors can get started by exploring the different git repositories, following tutorials, and participating in community discussions. The platform encourages collaborative development and feedback to continuously improve benchmarking events.
+ (TechBioLab) at the [Barcelona Supercomputing Center (BSC)](https://www.bsc.es/) as part of the [ELIXIR Tools Platform](https://elixir-europe.org/platforms/tools). New contributors can get started by exploring the different git repositories (https://github.com/inab/openebench-hub) and participating in community discussions (https://openebench.bsc.es/benchmarking). The platform encourages collaborative development and feedback to continuously improve benchmarking events.
 
 ## Tools 
 ### OpenEBench uses tools to be FAIR-compliant
@@ -106,9 +106,9 @@ OpenEBench promotes openness and FAIR compliance across its code, workflows, and
 
 OpenEBench provides multiple documentation resources to help users navigate the platform and contribute to development:
 - Main entry point: [OpenEBench ReadTheDocs](https://openebench.readthedocs.io/en/latest/)
-- README files for each repository explaining setup and usage
-- Templates and examples for workflow examples and benchmarking pipelines
-- Step-by-step guides for developers and administrators
+- README files for each repository explaining setup and usage [https://github.com/inab/openebench-hub]
+- Templates and examples for workflow examples and benchmarking pipelines [https://github.com/inab/TCGA_benchmarking_workflow]
+- Step-by-step guides for developers and administrators [https://openebench.readthedocs.io/en/latest/how_to/3_participate.html]
 
 ## Sustainability 
 ### Add a short one-two liner subtitle about how is the research software being made sustainable
