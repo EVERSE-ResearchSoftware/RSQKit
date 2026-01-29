@@ -98,7 +98,7 @@ Tools and resources are described in the [tool and resource data file (`_data/to
 Most likely it will be a list of research software quality indicators (defined in the [quality indicators data file (`_data/quality_indicators.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_indicators.yml)).
 * `catalog`: this metadata identifies the catalog or source to which a tool belongs. It is used to indicate whether a tool is part of the RSQKit catalog or the TechRadar catalog or both. For now distinguish
 Helps categorize tools by their owning or originating catalog
-Allowed values: `RSQkit`, `TechRadar` 
+Allowed values: `RSQKit`, `TechRadar` 
 
 An example of a tool definition is given below:
 
