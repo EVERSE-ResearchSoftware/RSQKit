@@ -96,19 +96,9 @@ Tools and resources are described in the [tool and resource data file (`_data/to
 * `url`: URL of the tool or resource
 * `quality_indicator`:  research software quality indicators associated with this tool. We have not settled 100% on the format of attribute yet - this is still work in progress. 
 Most likely it will be a list of research software quality indicators (defined in the [quality indicators data file (`_data/quality_indicators.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_indicators.yml)).
-
-An example of a tool definition is given below:
-
-```yml
-- description: > 
-    The System Package Data Exchange (SPDX) License List is a list of commonly found licenses 
-    and exceptions used in free and open or collaborative software, data, hardware, or 
-    documentation, and is an integral part of the SPDX Specification.
-  id: spdx
-  name: SPDX License List
-  url: https://spdx.org/licenses/
-```
-
+* `catalog`: this metadata identifies the catalog or source to which a tool belongs. It is used to indicate whether a tool is part of the RSQkit catalog or the TechRadar catalog or both. For now distinguish
+Helps categorize tools by their owning or originating catalog
+Allowed values: `RSQkit`, `TechRadar` 
 Pages in RSQKit can include references to tools and resources.
 Such references will appear visually different on a page - with a little wrench icon and a pop-up window which shows up on hover over and includes the tool/resource description and a website link.
 
