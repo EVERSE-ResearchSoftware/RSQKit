@@ -40,6 +40,8 @@ subitems:
         url: /scipion_research_software_story
       - title: xAODAnaHelpers - analysis framework for high-level ATLAS data
         url: /xah_research_software_story
+      - title: OpenEBench - The ELIXIR benchmarking platform
+        url: /openebench_research_software_story
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
     #image_url: /assets/img/flaticon/research-and-development.png
