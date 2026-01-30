@@ -117,16 +117,3 @@ Risks include: knowledge loss without published outputs, dependence on SRSE stew
 * AtomECS paper: [https://arxiv.org/abs/2105.06447](https://arxiv.org/abs/2105.06447)  
 * AtomECS repository: [https://github.com/TeamAtomECS/AtomECS](https://github.com/TeamAtomECS/AtomECS)
 
-# **Appendices**
-
-### **Lessons**
-
-This work indicates that ECS is a plausible architectural approach for dynamic physics simulations, particularly where analytical solutions are impractical. Its value currently lies in structuring thought and encouraging data-parallel decomposition rather than in immediate performance gains. Containerisation proved crucial for reproducibility and supervision across heterogeneous student operating systems.
-
-### **Impact**
-
-The project provides an early exemplar for teaching-oriented research software that blends simulation, software architecture, carbon tracking, and reproducibility. It offers a replicable model for supervising small research software teams with limited time budget and heterogeneous skill levels.
-
-### **Future Directions**
-
-Potential directions include: adding formal testing, multi-CPU execution, CI/CD, and GPU exploration; integrating carbon estimation for carbon-aware job scheduling; publishing a Zenodo release; producing papers on the utility of ECS for physics; and developing tutorials or videos on containerised research software workflows
