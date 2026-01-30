@@ -4,9 +4,10 @@
 subitems:
   #- title: About RSQKit
   #  url: /about
-  - title: Research software
+  - title: Research software & quality
     url: /research_software
     image_url: /assets/img/flaticon/analyze.png
+    description: Research software and its quality - definitions and considerations
     subitems:
       - title: What is research software?
         url: /research_software#what-is-research-software
@@ -16,33 +17,31 @@ subitems:
         url: /life_cycle
       - title: Quality
         url: /quality
-  - title: Quality dimensions & indicators
-    description: Dimensions and indicators of research software quality
-    url: /rs_quality
-    image_url: /assets/img/flaticon/quality.png
+        image_url: /assets/img/flaticon/quality.png
+        subitems:
+          - title: Quality dimensions
+            url: /quality_dimensions
+  - title: Research software stories
+    url: /research_software_stories
+    image_url: /assets/img/flaticon/search.png
+    description: Examples of research software and their quality practices
     subitems:
-      - title: Compatibility
-        url: /rs_quality#compatibility
-      - title: FAIRness
-        url: /rs_quality#fairness
-      - title: Flexibility
-        url: /rs_quality#flexibility
-      - title: Functional suitability
-        url: /rs_quality#functional-suitability
-      - title: Interaction capability
-        url: /rs_quality#interaction-capability
-      - title: Maintainability
-        url: /rs_quality#maintainability
-      - title: Performance efficiency
-        url: /rs_quality#performance-efficiency
-      - title: Reliability
-        url: /rs_quality#reliability
-      - title: Safety
-        url: /rs_quality#safety
-      - title: Security
-        url: /rs_quality#security
-      - title: Sustainability
-        url: /rs_quality#sustainability
+      - title: APICURON - credit platform for scientific contributions
+        url: /apicuron_research_software_story
+      - title: DOME - registry of ML methods
+        url: /dome_registry_research_software_story
+      - title: ACTS - particle physics track reconstruction
+        url: /acts_research_software_story
+      - title: BALER - ML-based compression of scientific data
+        url: /baler_research_software_story
+      - title: GreenPhysECS — using ECS in physics simulation
+        url: /greenphsecs_research_software_story
+      - title: Scipion - cryo-EM image processing toolkit for structural reconstruction
+        url: /scipion_research_software_story
+      - title: xAODAnaHelpers - analysis framework for high-level ATLAS data
+        url: /xah_research_software_story
+      - title: OpenEBench - The ELIXIR benchmarking platform
+        url: /openebench_research_software_story
   - title: Research clusters & infrastructures
     url: /research_clusters_and_infrastructures
     #image_url: /assets/img/flaticon/research-and-development.png
@@ -59,10 +58,6 @@ subitems:
         url: /panosc
       - title: SSHOC
         url: /sshoc
-  - title: Research software stories
-    url: /research_software_stories
-    image_url: /assets/img/flaticon/search.png
-    description: Examples of research software and their quality practices
   - title: Roles
     description: Resources tailored to different roles in research software funding & development
     url: /your_role
@@ -104,25 +99,25 @@ subitems:
       - title: "Software identifiers"
         url: /software_identifiers
       - title: "Software documentation"
-        url: software_documentation
+        url: /software_documentation
       - title: "Documenting software project"
-        url: documenting_software_project
+        url: /documenting_software_project
       - title: "Documenting code"
-        url: documenting_code
+        url: /documenting_code
       - title: "Creating a good README"
         url: /creating_good_readme
       - title: "Software metadata"
-        url: software_metadata
+        url: /software_metadata
       - title: "Packaging software"
-        url: packaging_software
+        url: /packaging_software
       - title: "Releasing software"
-        url: releasing_software
+        url: /releasing_software
       - title: "Archiving software"
-        url: archiving_software
+        url: /archiving_software
       - title: "Publishing software"
         url: /publishing_software
       - title: "Computational workflows"
-        url: computational_workflows
+        url: /computational_workflows
       - title: CI/CD
         url: /ci_cd
         subitems:
@@ -136,6 +131,10 @@ subitems:
         url: /fair_rs
       - title: "Using containers"
         url: /using_containers
+  - title: All indicators
+    url: /all_indicators
+    description: Browse quality indicators and their connections to tasks
+    image_url: /assets/img/flaticon/quality.png
   - title: All tools and resources
     url: /all_tools_and_resources
     description: Browse tools and resources for research software quality

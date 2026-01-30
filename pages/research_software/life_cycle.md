@@ -17,12 +17,36 @@ The aim of this document was to illustrate the lifecycle of research software an
 
 ## Lifecycle Stages
 
-The [Research Software Lifecycle report](https://doi.org/10.5281/zenodo.8324828) nicely summarises the stages in the diagram - the software lifecycle within the wider research context (cycle).
-Below we cite heavily from this report, adding details where necessary, and provide links to relevant task pages.
+The [Research Software Lifecycle report](https://doi.org/10.5281/zenodo.8324828) summarises the stages in the diagram - the **software development lifecycle** within the wider **research context (cycle)**.
 
-It helps to consider the lifecycle of your research software project through the lens of a software management plan (SMP).
-A software management plan is a document that describes how the software will be developed, maintained, published, archived, etc.
-There are several guides available for writing a software management plan, such as the [Practical guide to Software Management Plans](https://zenodo.org/records/7589725).
+Note that here we are discussing the **research part of the lifecycle that involves software development** and not a general research lifecycle.
+It is also important to emphasise that the stages described here are not strictly linear. 
+In practice, activities often overlap or occur in a different order depending on the project context (e.g. release and archiving often happen in parallel). 
+The lifecycle should therefore be understood as a general model that captures common patterns across many research projects involving software development, rather than a prescriptive sequence of steps. 
+This flexibility reflects the iterative and exploratory nature of research and supports a wide range of disciplines, team sizes, and development practices.
+
+In this context, we consider the **research part of the lifecycle** typically comprising the following stages:
+
+- [planning](#planning) as a response to a research question
+- software implementation - starting the internal software development cycle
+- [software evaluation](#use--evaluation) in the context of the research question
+- [research artifact archiving](#archiving)
+- [publication](#publication)
+- [community feedback](#community-feedback)
+
+The **software development part of the lifecycle** consists of the following stages:
+
+- [gathering software requirements](#requirements)
+- [software design](#design)
+- [software development](#development)
+- [quality assurance (including testing) and writing documentation](#qa--documentation)
+- [release and/or deployment](#release--deployment)
+- [software archiving](#archiving)
+- [maintenance](#maintenance)
+
+It also helps to consider the lifecycle of your research software project through the lens of a software management plan (SMP).
+A software management plan is a document that describes how the software will be developed, maintained, published, archived, etc. - describing what happens in many of the software lifecycle stages.
+Please see the RSQKit [Software Management Planning](software_management_planning) page for more information about them.
 
 ### Planning
 
@@ -39,7 +63,7 @@ Having a roadmap for the initial development and later stages can be instrumenta
 
 When the high-level research planning has been done, the software implementation (in the wider sense) phase starts.
 
-The first stage is to gather and/or analyse software requirements.
+The first stage is to gather and translate the research question into a set of software requirements.
 This can be done in a more formal way, e.g. by using user stories, or in a more informal way, e.g. by discussing the requirements with the team members.
 This stage is usually done in close collaboration with the research team, to make sure the research question is well understood and the requirements are aligned with it.
 
@@ -78,7 +102,7 @@ Preferably, such QA processes are automated through [Continuous Integration][ci_
 [Documentation][software_documentation] is the process of creating and maintaining the documentation for the software, including user manuals, API documentation, and developer guides.
 QA and documentation can be done in parallel with the development stage, or as a separate stage after the development is completed.
 
-### Evaluation
+### Use & Evaluation
 
 Use and evaluation of software by end-users follows testing and QA by developers, and precedes formal community feedback.
 Researchers rely on software to carry out analyses, visualise data, and generate results — so evaluating the software they use is an essential part of responsible research practice. 
@@ -86,7 +110,7 @@ Users need to consider whether a piece of software is fit for purpose, reliable,
 Evaluation may involve checking documentation, testing reproducibility, reviewing how results change with different parameters, or assessing how well the software performs on available hardware. 
 By engaging critically and systematically with the tools they use, researchers can better understand the limitations and strengths of the software that underpins their work, helping to ensure their findings are trustworthy and reproducible.
 
-### Deployment
+### Release & Deployment
 
 Research software is not only shared as source code or downloadable executables — it is increasingly made available through online platforms that allow direct use as a service. 
 Delivering software in this way (as Software as a Service, or SaaS) introduces additional considerations compared to traditional on-premise deployment. 
@@ -102,21 +126,16 @@ Where possible, software should be made open source before platform integration 
 However, other distribution models are also possible. 
 For instance, when offering software as a service, a sustainable business model may be required — such as providing a free community edition alongside a professional version supported through service fees.
 
-### Maintenance
+### Archiving
 
-The maintenance stage is typically the longest stage in the software lifecycle, although it can also be the shortest one if the software is not used or not maintained, which is often the case for research software (especially tier 1 software).
-It may include the following activities:
+Research artifact archival focuses on preserving diverse and more general research materials (text, data, objects) for historical/future use, emphasising context and provenance, while software archival is a subset of this activity specifically targeting source code and its development history.
 
-- **Bug fixing**: identify and fix bugs in the software.
-- **Feature development**: add new features to the software based on user feedback and requirements.
-- **Refactoring**: improve the code quality and maintainability of the software.
-- **Performance optimisation**: improve the performance of the software by optimizing the code and algorithms.
-- **Security updates**: apply security patches and updates to the software to ensure its security and stability.
-- **Documentation updates**: update the documentation to reflect the changes in the software.
-- **User support**: provide support to users of the software, including answering questions, resolving issues, and providing training.
-- **Versioning**: manage the versions of the software, including tagging releases, maintaining a changelog, and managing dependencies.
+Software should be preserved in dedicated archival services that are separate from repositories used for development and release. 
+While platforms such as GitHub or GitLab are well suited to collaborative development - they are not designed to guarantee long-term preservation.
+Software archival require specialised long-term repositories like {% tool "softwareheritage" %} for computational reproducibility and unique identifiers (SWHIDs) to ensure the logic of scientific claims remains accessible and verifiable, treating code as a fundamental research output alongside papers and datasets. 
 
-Issue tracking via a platform like GitHub can facilitate the collection of user feedback and bug reports.
+Archival services provide stable storage, persistent identifiers, curated metadata, and preservation policies that ensure software remains accessible and citable over time, even if development platforms, projects, or organisations change.
+Separating preservation from active software development therefore supports sustainability and reproducibility, and ensures that research software continues to deliver value and scholarly impact over time. 
 
 ### Publication
 
@@ -133,16 +152,30 @@ Several standards are in use and under harmonization via several EOSC-related gr
 Currently used standards are the [Citation File Format](https://citation-file-format.github.io/) and [CodeMeta](https://codemeta.github.io/).
 The findability can be increased by adding a citation to software and referencing in accompanying articles.
 
+### Maintenance
+
+The maintenance stage is typically the longest stage in the software lifecycle, although it can also be the shortest one if the software is not used or not maintained, which is often the case for research software (especially tier 1 - i.e. analysis code - software).
+It may include the following activities:
+
+- **Bug fixing**: identify and fix bugs in the software.
+- **Feature development**: add new features to the software based on user feedback and requirements.
+- **Refactoring**: improve the code quality and maintainability of the software.
+- **Performance optimisation**: improve the performance of the software by optimizing the code and algorithms.
+- **Security updates**: apply security patches and updates to the software to ensure its security and stability.
+- **Documentation updates**: update the documentation to reflect the changes in the software.
+- **User support**: provide support to users of the software, including answering questions, resolving issues, and providing training.
+- **Versioning**: manage the versions of the software, including tagging releases, maintaining a changelog, and managing dependencies.
+
+Issue tracking via a platform like GitHub can facilitate the collection of user feedback and bug reports.
+
 ### Community Feedback
 
 The form, amount and timeliness of community feedback to research software can vary substantially depending on the size, maturity and targeted application range and audience.
 In addition to the dissemination of the scientific articles describing (and advertising) the software, presentations at conferences and other meetings potentially help to initiate and grow a user community.
-The community feedback stage can be facilitated by appropriate communication channels (helpdesk, issue tracker, email lists, chat applications ...) or even an established means to let the community contribute to or assess the quality of the software in general. 
+The community feedback stage can be facilitated by appropriate communication channels (helpdesk, issue tracker, email lists, chat applications, ...) or other established means to let the community contribute to or assess the use and quality of the software in general.
+In this stage, the user stories can be changed and also new application classes can be defined.
 
-### Continuation or Termination 
-
-Feedback and reuse can either lead to new research questions initiating another full cycle, trigger smaller implementation cycles in the context of software maintenance or termination of the development/service.
-Particularly in this stage, the user stories can be changed and also the application classes can be newly defined.
+Feedback and use of research software can either lead to new research questions initiating another full development cycle, trigger smaller implementation cycles in the context of software updates/maintenance or lead to termination of the development/service and "sunsetting" the research software.
 
 ## Research Software Lifecycle & Three-Tier Model
 

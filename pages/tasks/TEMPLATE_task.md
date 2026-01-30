@@ -13,20 +13,24 @@ keywords: [] # a comma separated list of keywords related to this page (surround
 
 <!-- GUIDANCE
 
-** The following should be the approach taken when writing RSQKit task pages:
+** The following should be the approach taken when writing or reviewing RSQKit task pages:
 
-   - Explain why the topic matters.
-   - Be accurate.
+   - The reader should clearly understand why the topic matters and why this task is important for research software quality.
+   - Be accurate and ensure the content is factually correct and reflects current good practices on research software.
    - Provide a good enough level of content so that if it's the only resource read:
       - It gives the correct impression.
       - Readers can apply the information correctly.
       - If sufficient, gives a conceptual overview and then point to existing high quality material. 
    - Motivate further learning by providing links. 
+     - Prefer linking to high-quality external documentation, standards, training materials, or community guidance rather than duplicating their content.
+     - Aim for the page to stand on its own as a “good enough” introduction to the topic, even when external links are not followed.
+   - Overall, a reader should be able to leave the page with a correct understanding of the task and how to approach it.
 
 ** The format of the task pages are sets of headings:
 
 Task 
    - The task or sub-task description e.g., "Why is it important to have a good README file?" and a further sub-task might be, "What key sections should a README include?"
+   - This section may also briefly state what the page aims to provide (e.g. overview, practical guidance, and pointers to further resources).
 Description 
    - A short description of what the task or problem is about and why it matters.
 Considerations 
@@ -35,16 +39,22 @@ Considerations
 Solutions
   - Steps and aspects of undertaking the task that takes into account the considerations. 
   - You could use a bulleted list for brevity.
+  - Where appropriate, clearly indicate which parts are conceptual guidance and which are actionable steps.
 
 This structure (task-description-considerations-solutions) should be repeated if the overall task breaks down into distinct sub-tasks.
 
-Add any missing tools into the _data/tool_and_resource_list.yml file; when referring to a tool on the page use the tool format, e.g. {% tool "git" %} . 
+** Add any missing tools into the _data/tool_and_resource_list.yml file
+
+  - When referring to a tool on the page use the tool format, e.g. {% tool "git" %}. 
+  - Only reference tools and resources that are relevant and add clear value for the task being described (err on the side of referencing a tool/resource rather than not).
 
 ** Read existing pages to get inspiration
 
 Read some of the existing task pages on RSQKit - https://everse.software/RSQKit/tasks and copy the approach of those you like and ideally align with the above.
-  
+
 ** All markdown comments and page metadata comments can be removed before making a pull request.
+
+The RSQKit Editorial Board applies these principles when reviewing task pages; following them will help ensure consistency and quality across the toolkit.
 
 -->
 

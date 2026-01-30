@@ -1,0 +1,7 @@
+{% for item in site.data.quality_dimensions %}
+<h3>{{ item.name }}</h3>
+<p>
+    {{ item.description | markdownify }}
+    Read more about <strong>{{ item.name | downcase }} dimension</strong> on <a href="https://everse.software/TechRadar/{{ item.name | slugify: 'raw' | replace: '-', '_' | downcase }}">TechRadar</a>.
+</p>
+{% endfor %}

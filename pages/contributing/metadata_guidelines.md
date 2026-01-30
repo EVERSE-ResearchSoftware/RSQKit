@@ -96,6 +96,7 @@ Tools and resources are described in the [tool and resource data file (`_data/to
 * `url`: URL of the tool or resource
 * `quality_indicator`:  research software quality indicators associated with this tool. We have not settled 100% on the format of attribute yet - this is still work in progress. 
 Most likely it will be a list of research software quality indicators (defined in the [quality indicators data file (`_data/quality_indicators.yml`)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/_data/quality_indicators.yml)).
+* `catalog`: this metadata identifies the catalog or source to which a tool belongs. It is used to indicate whether a tool is part of the RSQKit catalog or the TechRadar catalog or both and help categorise tools by their owning or originating catalog. Allowed values: `RSQKit`, `TechRadar` 
 
 An example of a tool definition is given below:
 
@@ -107,6 +108,7 @@ An example of a tool definition is given below:
   id: spdx
   name: SPDX License List
   url: https://spdx.org/licenses/
+  catalog: RSQKit
 ```
 
 Pages in RSQKit can include references to tools and resources.

@@ -27,9 +27,11 @@ def load_yaml_tools_from_rsqkit():
             print("YAML content is not a list")
     return tools
 
+
 def load_jsonld_tools_from_techradar(requests_headers=None):
     tools = {}
-    JSON_MATCH_FIELD = "schema:description" 
+    REQUIRED_FIELD = "description"   # new plain schema field
+
     response = requests.get(TECHRADAR_GITHUB_API_URL, headers=requests_headers)
     response.raise_for_status()
     files = response.json()
@@ -40,10 +42,17 @@ def load_jsonld_tools_from_techradar(requests_headers=None):
             file_response = requests.get(raw_url, headers=requests_headers)
             file_response.raise_for_status()
             data = json.loads(file_response.text)
-            if JSON_MATCH_FIELD in data:
-                tools[data["schema:name"]] = data
+
+            # Use "name" as key
+            tool_name = data.get("name")
+            if not tool_name:
+                print(f"No 'name' field in {file['name']} — skipping")
+                continue
+
+            if REQUIRED_FIELD in data:
+                tools[tool_name] = data
             else:
-                print(f"'{JSON_MATCH_FIELD}' not found in {file['name']}")
+                print(f"'{REQUIRED_FIELD}' not found in {file['name']}")
     return tools
 
 def compare_tool_definitions(yaml_tool, jsonld_tool, fields_to_compare, field_mapping):
@@ -52,8 +61,16 @@ def compare_tool_definitions(yaml_tool, jsonld_tool, fields_to_compare, field_ma
 
     for yaml_field in fields_to_compare:
         jsonld_field = field_mapping.get(yaml_field, yaml_field)
+
+        # fallback to schema:name forms if needed
+        if jsonld_field not in jsonld_tool:
+            legacy_key = f"schema:{jsonld_field}"
+            if legacy_key in jsonld_tool:
+                jsonld_field = legacy_key
+
         yaml_val = yaml_tool.get(yaml_field)
         json_val = jsonld_tool.get(jsonld_field)
+
         print(f"Comparing '{yaml_field}' → '{jsonld_field}' for tool: {tool_name}")
 
         if yaml_val is None or json_val is None:
@@ -63,10 +80,8 @@ def compare_tool_definitions(yaml_tool, jsonld_tool, fields_to_compare, field_ma
         diff = DeepDiff(yaml_val, json_val, ignore_order=True)
         if diff:
             discrepancies[yaml_field] = diff
-            print(f" Description in RSQkit for tool {tool_name} :: {yaml_val}")
-            print(f" Description in TechRadar for tool {tool_name} :: {json_val}")
-        else:
-            print(f"No difference found for '{yaml_field}' in tool: {tool_name}")
+            print(f"RSQkit: {yaml_val}")
+            print(f"TechRadar: {json_val}")
     return discrepancies
 
 
@@ -107,9 +122,7 @@ def main():
     techradar_tools = load_jsonld_tools_from_techradar(requests_headers=requests_headers)
 
     FIELDS_TO_COMPARE = ["description"]
-    FIELD_MAPPING = {
-        "description": "schema:description"  # multiple fields to compare can be added
-    }
+    FIELD_MAPPING = { "description": "description" } # multiple fields to compare can be added
 
     all_discrepancies = {}
 

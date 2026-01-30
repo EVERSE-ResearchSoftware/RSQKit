@@ -41,7 +41,20 @@ defaults:
       path: "pages/tasks/"
     values:
       type: tasks
-      type_img: /assets/img/font-awesome-free/list-check-solid.svg
+      type_img: /assets/img/flaticon/checklist.png
+      page_citation: true
+  -
+    scope:
+      path: "pages/research_software_stories/"
+    values:
+      type: research_software_stories
+      type_img: /assets/img/flaticon/search.png
+      page_citation: true
+  - scope:
+      path: "pages/research_clusters_and_infrastructures/"
+    values:
+      type: research_clusters_and_infrastructures
+      type_img: /assets/img/flaticon/science.png
       page_citation: true
   -
     scope:
@@ -64,7 +77,7 @@ defaults:
       path: "pages/your_role/"
     values:
       type: your_role
-      type_img: /assets/img/font-awesome-free/user-solid.svg
+      type_img: /assets/img/flaticon/management.png
   -
     scope:
       path: "pages/research_communities/"
