@@ -205,17 +205,17 @@ Omar Attafi:
     affiliation: University of Padova
     orcid: 0009-0002-2327-9430
     role: contributor
-Carlos Oscar Sorzano:
+Carlos Óscar Sorzano:
     git: cossorzano
     affiliation: CNB-CSIC
     orcid: 0000-0002-9473-283X
     role: contributor
-Irene Sanchez:
+Irene Sánchez:
     git: sanlopez
     affiliation: CNB-CSIC
     orcid: 0000-0003-0031-3093
     role: contributor
-Lola Sanchez:
+Lola Sánchez:
     git: lolasanchezzz
     affiliation: CNB-CSIC
     role: author
@@ -236,3 +236,5 @@ Marek Suchánek:
     role: contributor
 Andrés Montero:
     git: andriumon
+    role: contributor
+
