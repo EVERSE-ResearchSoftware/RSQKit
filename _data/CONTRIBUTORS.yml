@@ -215,7 +215,7 @@ Irene Sanchez:
     affiliation: CNB-CSIC
     orcid: 0000-0003-0031-3093
     role: contributor
-Lola Sanchez:
+Lola Sánchez:
     git: lolasanchezzz
     affiliation: CNB-CSIC
     role: author
@@ -236,3 +236,5 @@ Marek Suchánek:
     role: contributor
 Andrés Montero:
     git: andriumon
+    role: contributor
+
