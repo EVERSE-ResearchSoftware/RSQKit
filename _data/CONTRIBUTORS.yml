@@ -16,6 +16,7 @@ Eva Martín del Pico:
     git: EvaMart
     orcid: 0000-0001-8324-2897
     role: author
+    affiliation: Barcelona Supercomputing Center / ELIXIR-ES
 Laura Portell-Silva:
     git: lauportell
     email: laura.portell@bsc.es
@@ -219,6 +220,11 @@ Lola Sánchez:
     git: lolasanchezzz
     affiliation: CNB-CSIC
     role: author
+José María Fernández:
+    git: jmfernandez
+    affiliation: Barcelona Supercomputing Center / ELIXIR-ES
+    orcid: 0000-0002-4806-5140
+    role: contributor
 Vassilios Ioannidis:
     git: vioannid
     affiliation: SIB Swiss Institute of Bioinformatics 
