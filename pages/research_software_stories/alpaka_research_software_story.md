@@ -49,7 +49,7 @@ alpaka is classified as Tier 3 Research Software Infrastructure (Services includ
 - **Language:** Modern [C++20][LANGUAGE_CPP20] for expressive template metaprogramming
 - **Codebase size:** Approximately 45k lines of code (30k in core library headers) and 10k lines of comments
 - **Architecture:** Header-only library that doesn't "run" but translates at compile time
-- **Compilation approach:** Compiler processes templates to generate hardware-specific code ({% tool "cuda" %}, HIP/ROCm, {% tool "openmp" %}, etc.)
+- **Compilation approach:** Compiler processes templates to generate hardware-specific code ({% tool "cuda" %}, HIP/ROCm, OpenMP, etc.)
 - **Performance:** Zero runtime overhead compared to hand-written platform-specific code
 
 When developers write alpaka-based algorithms and compile with a specific backend selected, the compiler produces native code for that platform. 
@@ -62,7 +62,7 @@ alpaka's dependencies vary based on the selected compilation backend:
 - **{% tool "cuda" %}:** Required when compiling for NVIDIA GPUs
 - **[HIP][HIP]/ROCm:** Required when targeting AMD GPUs
 - **[OneAPI SYCL][SYCL]:** Required for Intel GPUs or optionally CPUs
-- **{% tool "openmp" %}:** Used for thread-parallel CPU execution
+- **OpenMP:** Used for thread-parallel CPU execution
 - **[TBB (Threading Building Blocks)][TBB]:** Alternative for task-based CPU parallelism
 
 This backend architecture means deploying alpaka-based code requires only the specific toolchain relevant to the target hardware, keeping deployment practical despite broad platform support.
@@ -127,7 +127,7 @@ alpaka adheres to the [FAIR principles for research software][FAIR_PRINCIPLES]:
 
 * **Accessible**: Core licensed under [MPLv2 (Mozilla Public License v2.0)][LICENSE_MPL2], examples under [ISC (Internet Systems Consortium)][LICENSE_ISC] allowing incorporation into projects with different licensing requirements; documentation under [CC-BY 4.0][LICENSE_CCBY].
 
-* **Interoperable**: Designed to work seamlessly with standard HPC frameworks and supports multiple hardware backends ({% tool "cuda" %}, HIP, {% tool "openmp" %}, [SYCL][SYCL]), enabling integration across diverse computing environments.
+* **Interoperable**: Designed to work seamlessly with standard HPC frameworks and supports multiple hardware backends ({% tool "cuda" %}, HIP, OpenMP, [SYCL][SYCL]), enabling integration across diverse computing environments.
 
 * **Reusable**: alpaka provides well-documented, tested components with comprehensive [coding guidelines][ALPAKA_STYLE] and clear [contribution process][ALPAKA_CONTRIBUTING], enabling reuse and easy adaptation across multiple research projects.
 
