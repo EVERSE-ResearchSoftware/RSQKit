@@ -53,7 +53,7 @@ PIConGPU builds on several key dependencies:
 
 - **[alpaka][ALPAKA]**: Core abstraction library enabling portability across different accelerators
 - **{% tool "cmake" %}:** Build configuration and management
-- **{% tool "mpi" %}:** Parallel execution across multiple nodes
+- **MPI:** Parallel execution across multiple nodes
 - **{% tool "boost" %}:** Essential C++ utilities and data structures
 - **[OpenPMD-api][OPENPMD]:** HPC IO abstraction library for parallel [ADIOS2][ADIOS2] or [HDF5][HDF5]
 
