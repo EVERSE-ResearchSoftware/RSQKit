@@ -53,8 +53,8 @@ PIConGPU builds on several key dependencies:
 
 - **[alpaka][ALPAKA]**: Core abstraction library enabling portability across different accelerators
 - **{% tool "cmake" %}:** Build configuration and management
-- **MPI:** Parallel execution across multiple nodes
-- **Boost:** Essential C++ utilities and data structures
+- **[MPI][MPI]:** Parallel execution across multiple nodes
+- **[Boost][Boost]:** Essential C++ utilities and data structures
 - **[OpenPMD-api][OPENPMD]:** HPC IO abstraction library for parallel [ADIOS2][ADIOS2] or [HDF5][HDF5]
 
 The focused dependency set reflects a deliberate strategy of relying on well-established, widely-available libraries rather than accumulating numerous smaller dependencies.
@@ -186,3 +186,5 @@ The combination of permanent funding, experienced maintainers, and established c
 [PLASMA_PHYSICS]: https://en.wikipedia.org/wiki/Plasma_(physics)
 [LASER_PLASMA_ACCEL]: https://en.wikipedia.org/wiki/Laser-plasma_accelerator
 [HPC_ARCHS]: https://www.top500.org/
+[MPI]: https://www.open-mpi.org/doc/
+[Boost]: https://www.boost.org/libraries/latest/grid/
