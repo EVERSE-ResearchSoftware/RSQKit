@@ -60,7 +60,7 @@ Compiling the same source with different backends produces different optimized i
 alpaka's dependencies vary based on the selected compilation backend:
 
 - **{% tool "cuda" %}:** Required when compiling for NVIDIA GPUs
-- **{% tool "hip" %}/{% tool "rocm" %}:** Required when targeting AMD GPUs
+- **[HIP][HIP]/{% tool "rocm" %}:** Required when targeting AMD GPUs
 - **[OneAPI SYCL][SYCL]:** Required for Intel GPUs or optionally CPUs
 - **{% tool "openmp" %}:** Used for thread-parallel CPU execution
 - **[TBB (Threading Building Blocks)][TBB]:** Alternative for task-based CPU parallelism
