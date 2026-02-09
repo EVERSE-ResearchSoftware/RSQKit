@@ -49,7 +49,7 @@ alpaka is classified as Tier 3 Research Software Infrastructure (Services includ
 - **Language:** Modern [C++20][LANGUAGE_CPP20] for expressive template metaprogramming
 - **Codebase size:** Approximately 45k lines of code (30k in core library headers) and 10k lines of comments
 - **Architecture:** Header-only library that doesn't "run" but translates at compile time
-- **Compilation approach:** Compiler processes templates to generate hardware-specific code ({% tool "cuda" %}, HIP/{% tool "rocm" %}, {% tool "openmp" %}, etc.)
+- **Compilation approach:** Compiler processes templates to generate hardware-specific code ({% tool "cuda" %}, HIP/ROCm, {% tool "openmp" %}, etc.)
 - **Performance:** Zero runtime overhead compared to hand-written platform-specific code
 
 When developers write alpaka-based algorithms and compile with a specific backend selected, the compiler produces native code for that platform. 
@@ -60,7 +60,7 @@ Compiling the same source with different backends produces different optimized i
 alpaka's dependencies vary based on the selected compilation backend:
 
 - **{% tool "cuda" %}:** Required when compiling for NVIDIA GPUs
-- **[HIP][HIP]/{% tool "rocm" %}:** Required when targeting AMD GPUs
+- **[HIP][HIP]/ROCm:** Required when targeting AMD GPUs
 - **[OneAPI SYCL][SYCL]:** Required for Intel GPUs or optionally CPUs
 - **{% tool "openmp" %}:** Used for thread-parallel CPU execution
 - **[TBB (Threading Building Blocks)][TBB]:** Alternative for task-based CPU parallelism
