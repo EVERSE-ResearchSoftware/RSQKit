@@ -2,7 +2,7 @@
 title: "Research Software Story - PIConGPU"
 search_exclude: false
 description: "PIConGPU is used to simulate nonlinear plasma physics, from laser plasma accelerators to astrophysics research."
-contributors: ["Guido Juckeland", "Srobona Ghosh"]
+contributors: ["Guido Juckeland", "Srobona Ghosh", "René Widera", "Richard Pausch"]
 page_id: picongpu
 type: research_software_story
 ---

@@ -2,7 +2,7 @@
 title: "Research Software Story - alpaka"
 search_exclude: false
 description: "alpaka is a header-only C++ template library that enables writing platform and performance portable applications. It can use CPUs with sequential and thread parallel code, GPUs via multiple programming paradigms and also FPGAs."
-contributors: ["Guido Juckeland", "Srobona Ghosh"]
+contributors: ["Guido Juckeland", "Srobona Ghosh", "René Widera", "Simeon Ehrig"]
 page_id: alpaka
 type: research_software_story
 ---
@@ -38,7 +38,7 @@ The development team combines computer scientists and physicists, with work main
 - CMS experiment and other scientific collaborations requiring performance portability
 - Users comfortable with parallel programming concepts and template-heavy C++ code
 
-The community maintains connection through [online videos and onboarding documents][ALPAKA_DOCS], a [Mattermost][TOOL_MATTERMOST] team with core users, and personnel exchange visits between institutions.
+The community maintains connection through [online videos][1][2] and [onboarding documents][ALPAKA_DOCS], a [Mattermost][TOOL_MATTERMOST] team with core users, and personnel exchange visits between institutions.
 
 ## Technical Aspects
 ### Header-only C++ template library for compile-time code generation
@@ -95,7 +95,7 @@ Onboarding new alpaka developers requires attention to the specialized C++ templ
 The process is highly individualized, tailored to each contributor's background and the specific areas where they'll work.
 
 **Resources for developers:**
-- Online videos introducing alpaka's architecture and design philosophy
+- [Online videos][1][2] introducing alpaka's architecture and design philosophy
 - [Written documentation][ALPAKA_DOCS] explaining the template machinery
 - [Mattermost][TOOL_MATTERMOST] team for real-time support from experienced developers
 - Personnel exchange visits for intensive knowledge transfer through pair programming
@@ -206,3 +206,5 @@ The combination of institutional support, dual-institution governance, and estab
 [LICENSE_CCBY]: https://creativecommons.org/licenses/by/4.0/
 [READTHEDOCS]: https://readthedocs.org/
 [ROCm]: https://rocm.docs.amd.com/en/latest/
+[1]: https://m.youtube.com/playlist?list=PLVyQXsMxRYdEoahVQAqf9_rewGj3VkXb4
+[2]: https://m.youtube.com/playlist?list=PLUGnsLpYzQZsEqvH675ghq3ibACjFIKQh
