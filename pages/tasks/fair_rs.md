@@ -30,12 +30,12 @@ Let's have a quick look into what each of the above principle means in practice.
 - [Create a description of your software][software_metadata] to make it discoverable by search engines and other search tools
 - Use standards (such as {% tool "codemeta" %}) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
 - Place your software in a public software repository (and ideally register it in a [general-purpose or domain-specific software registry][software-registries])
-- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ({% tool "swhid" %}) provided by {% tool "software-heritage" %}.  
+- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by {% tool "software-heritage" %}. 
 In addition to findability of your software, identifiers can help you get credit for your work by providing citable references.
 - More broadly, use software sharing and collaborative platforms, as they facilitate code publication, sharing and findability:
   - general-purpose software repositories - {% tool "github" %} and {% tool "gitlab" %}
-  - programming language-specific software repositories - {% tool "pypi" %} (for Python) and {% tool "cran" %} (for R)
-  - software registries - {% tool "biotools" %} (for biosciences) and {% tool "awesome-research-software-registries" %}, providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
+  - programming language-specific software repositories - {% tool "pypi" %} (for {% tool "python" %}) and {% tool "cran" %} (for R)
+  - software registries - {% tool "biotools" %} (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
 
 ### How can we Make our Software Accessible?
 
@@ -52,7 +52,7 @@ In addition to findability of your software, identifiers can help you get credit
 ### How can we Make our Software Reusable?
 
 - [Document your software][software_documentation] (including its functionality, how to install and run it) to make it more understandable by others who may wish to reuse or extend it
-- [Give a licence to your software][licensing_software] clearly stating how it can be reused (check the {% tool "opensource-licence-guide" %} or {% tool "choosealicense" %} on choosing the licence most appropriate for your needs)
+- [Give a licence to your software][licensing_software] clearly stating how it can be reused (check the [open source licence guide][opensource-licence-guide] or {% "choosealicense" %} on choosing the licence most appropriate for your needs)
 - State how to [cite your software][citing_software], so people can give you credit when they reuse it
 - More broadly, follow best practices for software development, e.g. [structure your software][organising_software_projects] using common patterns and use coding conventions to make your code readable and understandable by people
 
@@ -75,9 +75,9 @@ This mean that software may be FAIR, but still not very good in terms of what it
 
 Tools and frameworks exist for assessing software FAIRness:
 
-- {% tool "fairsoft-evaluator" %}
-- {% tool "fair-software-test" %}
-- {% tool "fair-software-checklist" %} - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
+- {% tool "fair-rs-evaluator" %}
+- {% tool "fair-rs-test" %}
+- {% tool "fair-rs-checklist" %} - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
 - {% tool "howfairis" %} - a command line tool to evaluate a software repository's compliance with the FAIR principles
 - {% tool "codecheck" %} - an approach for independent execution of computations underlying research articles
 - [Common metrics for Research Software][fair-metrics] that may used to assess each of the FAIR4RS principles
@@ -87,3 +87,31 @@ Their role is to make quality aspects visible, help researchers identify strengt
 In the context of research software, such assessments are diagnostic rather than evaluative — they guide reflection, transparency, and learning, not scoring or ranking. 
 By using them, researchers can better understand how their software performs across different aspects of FAIRness and make informed decisions about how to improve it.
 
+[awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
+[biotools]: https://bio.tools
+[cff]: https://citation-file-format.github.io/
+[codecheck]: https://codecheck.org.uk/project/
+[cran]: https://cran.r-project.org/web/packages/
+[fair-cookbook]: https://faircookbook.elixir-europe.org/content/home.html
+[fair-rs-evaluator]: https://openebench.bsc.es/observatory/Evaluation
+[fair-rs-test]: https://github.com/marioa/fair-test?tab=readme-ov-file
+[fair-rs-checklist]: https://fairsoftwarechecklist.net
+[fair4ml]: https://www.rd-alliance.org/groups/fair-machine-learning-fair4ml-ig/activity/
+[opensource-licence-guide]: https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project
+[rsmd-g1]: https://fair-impact.github.io/RSMD-guidelines/1.General/
+[swhid]: https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html
+[software-registries]: https://github.com/NLeSC/awesome-research-software-registries
+[zenodo]: https://zenodo.org/
+[fair-data]: https://doi.org/10.1038/sdata.2016.18
+[fair-workflows]: https://doi.org/10.1038/s41597-025-04451-9
+[fair-rs]: https://doi.org/10.15497/RDA00068
+[rs-quality]: ./quality
+[fair-metrics]: https://doi.org/10.5281/zenodo.15535629
+[software_metadata]: ./software_metadata
+[software_documentation]: ./software_documentation
+[licensing_software]: ./licensing_software
+[documenting_code]: ./documenting_code
+[archiving_software.md]: ./archiving_software
+[testing_software]: ./testing_software
+[citing_software]: ./citing_software
+[organising_software_projects]: ./organising_software_projects
