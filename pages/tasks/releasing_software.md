@@ -5,7 +5,7 @@ contributors: ["Christian Hüser", "Shoaib Sufi", "Daniel Garijo"]
 page_id: releasing_software
 related_pages:
   tasks: [software_identifiers, packaging_software, publishing_software]
-quality_indicators: [software_has_releases]
+quality_indicators: [has_releases]
 keywords: ["release software", "releasing software", "releasing code", "release code"]
 
 ---
