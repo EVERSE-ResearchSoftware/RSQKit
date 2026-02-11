@@ -1,11 +1,12 @@
 ---
-title: Adopting FAIR software practices
+title: Adopting FAIR Research Software Practices
 description: What practices and tools can help improve FAIRness of software?
-contributors: ["Aleksandra Nenadic", "Daniel Garijo"]
+contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Thomas Vuillaume"]
 page_id: fair_rs
-indicators: []
-related_pages: 
-  tasks: [software_metadata, citing_software, licensing_software, software_documentation, documenting_code, archiving_software, organising_software_projects]
+related_pages:
+  tasks: [software_metadata, citing_software, licensing_software, software_documentation, documenting_code, archiving_software, organising_software_projects, testing_software]
+child_pages: []
+quality_indicators: []
 keywords: ["fair software", "fair"]
 ---
 
@@ -27,14 +28,14 @@ Let's have a quick look into what each of the above principle means in practice.
 ### How can we Make our Software Findable?
 
 - [Create a description of your software][software_metadata] to make it discoverable by search engines and other search tools
-- Use standards (such as [CodeMeta][codemeta]) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
+- Use standards (such as {% tool "codemeta" %}) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
 - Place your software in a public software repository (and ideally register it in a [general-purpose or domain-specific software registry][software-registries])
-- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by [Zenodo][zenodo], [FigShare][figshare], or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by [Software Heritage][software-heritage]. 
+- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by {% tool "software-heritage" %}. 
 In addition to findability of your software, identifiers can help you get credit for your work by providing citable references.
 - More broadly, use software sharing and collaborative platforms, as they facilitate code publication, sharing and findability:
-  - general-purpose software repositories - [GitHub][github] and [GitLab][gitlab]
-  - programming language-specific software repositories - [PyPi][pypi] (for Python) and [CRAN][cran] (for R)
-  - software registries - [BioTools][biotools] (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
+  - general-purpose software repositories - {% tool "github" %} and {% tool "gitlab" %}
+  - programming language-specific software repositories - {% tool "pypi" %} (for {% tool "python" %}) and {% tool "cran" %} (for R)
+  - software registries - {% tool "biotools" %} (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
 
 ### How can we Make our Software Accessible?
 
@@ -43,7 +44,7 @@ In addition to findability of your software, identifiers can help you get credit
 
 ### How can we Make our Software Interoperable?
 
-- Use community-agreed standard formats for inputs and outputs of [your software and its metadata][software_metadata] (e.g. [CodeMeta][codemeta])
+- Use community-agreed standard formats for inputs and outputs of [your software and its metadata][software_metadata] (e.g. {% tool "codemeta" %})
 - Communicate with other software and tools via standard protocols and APIs
 - Using standard data exchange, input and output formats and communication protocols helps create interoperable software that can more readily integrate with other tools into more complex pipelines 
 - More broadly - explain the [functionality of your software and protocols (e.g command line interface) for interaction with it][documenting_code]
@@ -51,7 +52,7 @@ In addition to findability of your software, identifiers can help you get credit
 ### How can we Make our Software Reusable?
 
 - [Document your software][software_documentation] (including its functionality, how to install and run it) to make it more understandable by others who may wish to reuse or extend it
-- [Give a licence to your software][licensing_software] clearly stating how it can be reused (check the [open source licence guide][opensource-licence-guide] or [choosealicense.com][choosealicense] on choosing the licence most appropriate for your needs)
+- [Give a licence to your software][licensing_software] clearly stating how it can be reused (check the [open source licence guide][opensource-licence-guide] or {% "choosealicense" %} on choosing the licence most appropriate for your needs)
 - State how to [cite your software][citing_software], so people can give you credit when they reuse it
 - More broadly, follow best practices for software development, e.g. [structure your software][organising_software_projects] using common patterns and use coding conventions to make your code readable and understandable by people
 
@@ -74,11 +75,11 @@ This mean that software may be FAIR, but still not very good in terms of what it
 
 Tools and frameworks exist for assessing software FAIRness:
 
-- [FAIRsoft evaluator][fair-rs-evaluator]
-- [FAIR software test][fair-rs-test]
-- [FAIR Software Checklist][fair-rs-checklist] - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
-- ["How FAIR is your software"][howfairis] - a command line tool to evaluate a software repository's compliance with the FAIR principles
-- [CODECHECK][codecheck] - an approach for independent execution of computations underlying research articles
+- {% tool "fair-rs-evaluator" %}
+- {% tool "fair-rs-test" %}
+- {% tool "fair-rs-checklist" %} - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
+- {% tool "howfairis" %} - a command line tool to evaluate a software repository's compliance with the FAIR principles
+- {% tool "codecheck" %} - an approach for independent execution of computations underlying research articles
 - [Common metrics for Research Software][fair-metrics] that may used to assess each of the FAIR4RS principles
 
 They not meant to criticise or discredit software or its authors. 
@@ -89,24 +90,16 @@ By using them, researchers can better understand how their software performs acr
 [awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [biotools]: https://bio.tools
 [cff]: https://citation-file-format.github.io/
-[choosealicense]: https://choosealicense.com/
 [codecheck]: https://codecheck.org.uk/project/
-[codemeta]: (https://codemeta.github.io/)
 [cran]: https://cran.r-project.org/web/packages/
 [fair-cookbook]: https://faircookbook.elixir-europe.org/content/home.html
 [fair-rs-evaluator]: https://openebench.bsc.es/observatory/Evaluation
 [fair-rs-test]: https://github.com/marioa/fair-test?tab=readme-ov-file
 [fair-rs-checklist]: https://fairsoftwarechecklist.net
 [fair4ml]: https://www.rd-alliance.org/groups/fair-machine-learning-fair4ml-ig/activity/
-[figshare]: https://figshare.com/
-[github]: https://github.com
-[gitlab]: https://about.gitlab.com/
-[howfairis]: https://github.com/fair-software/howfairis/
 [opensource-licence-guide]: https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project
 [rsmd-g1]: https://fair-impact.github.io/RSMD-guidelines/1.General/
 [swhid]: https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html
-[pypi]: https://pypi.org/
-[software-heritage]: https://www.softwareheritage.org/
 [software-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [zenodo]: https://zenodo.org/
 [fair-data]: https://doi.org/10.1038/sdata.2016.18
