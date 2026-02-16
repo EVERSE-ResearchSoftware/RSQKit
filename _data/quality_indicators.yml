@@ -20,6 +20,10 @@
     name: Software is archived in a scholarly repository
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     source:
         '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
         name: Accessibility and preservation. RSMD 2.2
@@ -49,6 +53,10 @@
     name: Software is archived in Software Heritage
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: recommended
     source:
         '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
         name: Accessibility and preservation. RSMD 2.1
@@ -79,6 +87,10 @@
     name: CodeMeta completeness
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: not relevant
+        Relevant for RS infrastructure: good to have
     status: Active
     version: 1.0.0
 -   abbreviation: dependency_management
@@ -101,6 +113,10 @@
     -   '@id': https://w3id.org/everse/i/dimensions/sustainability
     -   '@id': https://w3id.org/everse/i/dimensions/security
     -   '@id': https://w3id.org/everse/i/dimensions/compatibility
+    relevant in tiers:
+        Relevant for Analysis Code: recommended
+        Relevant for Prototype tool: recommended
+        Relevant for RS infrastructure: crucial
     source:
     -   identifier: https://zenodo.org/record/14852424
         name: 'Software Quality Indicators from BioHackathon 2024 (Sheet: Sustanability,
@@ -135,6 +151,10 @@
     name: Software has descriptive metadata
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     source:
     -   name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
             context
@@ -197,6 +217,10 @@
     name: Software has continuous integration tests
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     source:
         name: 'OpenSSF Scorecard: CI-Tests'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#ci-tests
@@ -225,6 +249,10 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/fairness
     -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     source:
     -   name: Super-Linter
         url: https://github.com/super-linter/super-linter
@@ -255,6 +283,10 @@
     name: Software is published as a downloadable package
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/flexibility
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: not relevant
+        Relevant for RS infrastructure: recommended
     source:
         name: 'OpenSSF Scorecard: Packaging'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#packaging
@@ -315,6 +347,10 @@
     name: Software requires human code review.
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: not relevant
+        Relevant for RS infrastructure: good to have
     source:
         name: 'OpenSSF Scorecard: Code-Review'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#code-review
@@ -342,6 +378,10 @@
     name: Software is listed in a registry
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: recommended
+        Relevant for Prototype tool: recommended
+        Relevant for RS infrastructure: crucial
     source:
         '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
         name: Accessibility and preservation. RSMD 2.3
@@ -377,6 +417,10 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/fairness
     -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: recommended
     source:
     -   name: 'EOSC-SWRelMan-11: Metadata: Supportability, Maintainability, Availability.'
         url: https://doi.org/10.5281/zenodo.10647227
@@ -402,6 +446,10 @@
     name: No critical vulnerabilities
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/security
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     source:
     -   '@id': https://www.bestpractices.dev/en/criteria/0#0.vulnerabilities_critical_fixed
         name: OpenSSF Best practice Critical Vulnerability Fixed
@@ -429,6 +477,10 @@
     name: No leaked credentials
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/security
+    relevant in tiers:
+        Relevant for Analysis Code: crucial
+        Relevant for Prototype tool: crucial
+        Relevant for RS infrastructure: crucial
     source:
     -   '@id': https://www.bestpractices.dev/en/criteria/0#0.no_leaked_credentials
         name: OpenSSF Best practice No Leaked Credentials
@@ -490,6 +542,10 @@
     name: Software has ci/cd workflows in its repository
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     source:
     -   name: 'OpenSSF Scorecard: CI-Tests'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#ci-tests
@@ -705,6 +761,10 @@
     name: Has static analysis for common vulnerabilities
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/security
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     source:
         '@id': https://www.bestpractices.dev/en/criteria/0
         name: FLOSS Best Practices Criteria (Passing Badge)
@@ -767,6 +827,10 @@
     name: Software uses fuzzing
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/safety
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: not relevant
+        Relevant for RS infrastructure: good to have
     source:
         name: 'OpenSSF Scorecard: Fuzzing'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#fuzzing
@@ -797,6 +861,10 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/fairness
     -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: recommended
     source:
     -   name: 'OpenSSF Best Practices badge: Warning Flags'
         url: https://www.bestpractices.dev/en/criteria/0#0.warnings
@@ -867,6 +935,10 @@
     name: Software follows versioning standards
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: recommended
+        Relevant for RS infrastructure: crucial
     source:
         '@id': https://doi.org/10.5281/zenodo.15535629
         name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary

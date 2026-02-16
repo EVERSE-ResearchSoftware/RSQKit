@@ -7,9 +7,9 @@ layout: home
 <div class="landingpage">
     <section class="container g-lg-5 mb-5">
         <div>
-            <h1 class="text-center">Research Software Quality Toolkit for Sciences</h1>
+            <h1 class="text-center">Research Software Quality Toolkit (RSQKit)</h1>
             <p class="text-center mt-2">
-                Research Software Quality Toolkit (RSQKit) lists curated best practices, tools and resources for improving the quality of research software
+             Tasks, tools, stories, and resources to support your research software to be repeatable, reproducible, trustworthy, resilient, understandable, efficient, adaptable and maintainable.
             </p>
         </div>
     </section>
