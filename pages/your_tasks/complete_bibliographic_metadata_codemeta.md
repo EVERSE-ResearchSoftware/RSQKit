@@ -8,7 +8,6 @@ related_pages:
   your_tasks: [software_metadata]
 quality_indicators: [codemeta_completeness, descriptive_metadata] # Add relevant quality indicators here
 keywords: ["codemeta", "bibliographic metadata", "software citation"]
-training: 
   - name: "EVERSE TeSS"
     registry: TeSS
     url: "https://everse-training.app.cern.ch"
