@@ -10,7 +10,6 @@ quality_indicators: [codemeta_completeness, descriptive_metadata] # Add relevant
 keywords: ["codemeta", "bibliographic metadata", "software citation"]
   - name: "EVERSE TeSS"
     registry: TeSS
-    url: "https://everse-training.app.cern.ch"
 ---
 
 ## How to provide complete bibliographic metadata as a CodeMeta file?
