@@ -6,7 +6,7 @@ contributors: [Gavin J. Pringle] # Add contributors' names here
 page_id: complete_bibliographic_metadata_codemeta
 related_pages:
   your_tasks: [software_metadata]
-quality_indicators: [] # Add relevant quality indicators here
+quality_indicators: [codemeta_completeness, descriptive_metadata] # Add relevant quality indicators here
 keywords: ["codemeta", "bibliographic metadata", "software citation"]
 training: 
   - name: "EVERSE TeSS"
