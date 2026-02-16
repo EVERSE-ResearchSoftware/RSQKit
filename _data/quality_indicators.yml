@@ -319,6 +319,10 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/maintainability
     -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     sameAs: https://doi.org/10.25504/FAIRsharing.ef9fc3
     source:
         name: OpenSSF Best Practices (change control)
@@ -512,6 +516,10 @@
     name: Software has persistent and unique identifier
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: recommended
+        Relevant for Prototype tool: recommended
+        Relevant for RS infrastructure: crucial
     sameAs: https://doi.org/10.25504/FAIRsharing.87c9a8
     source:
         name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
@@ -576,6 +584,10 @@
     -   '@id': https://w3id.org/everse/i/dimensions/fairness
     -   '@id': https://w3id.org/everse/i/dimensions/flexibility
     -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: recommended
+        Relevant for RS infrastructure: crucial
     sameAs: https://doi.org/10.25504/FAIRsharing.b8eeb9
     source:
     -   name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
@@ -609,6 +621,10 @@
     name: Software uses citation
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     sameAs: https://doi.org/10.25504/FAIRsharing.c585c5
     source:
     -   name: Research Software Metadata guidelines - Credit and attribution
@@ -643,6 +659,10 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/fairness
     -   '@id': https://w3id.org/everse/i/dimensions/interaction_capability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: recommended
+        Relevant for RS infrastructure: crucial
     sameAs: https://doi.org/10.25504/FAIRsharing.452bcd
     source:
         name: FLOSS Best Practices Criteria
@@ -671,6 +691,10 @@
     name: Software has license
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: crucial
+        Relevant for Prototype tool: crucial
+        Relevant for RS infrastructure: crucial
     source:
     -   name: 'OpenSSF Scorecard: License'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#license
@@ -702,6 +726,10 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/fairness
     -   '@id': https://w3id.org/everse/i/dimensions/reliability
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     sameAs: https://doi.org/10.25504/FAIRsharing.a2dd1a
     source:
         name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
@@ -900,6 +928,10 @@
     name: Software makes use of version control
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: crucial
+        Relevant for Prototype tool: crucial
+        Relevant for RS infrastructure: crucial
     sameAs: https://doi.org/10.25504/FAIRsharing.d2b2c5
     source:
     -   name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
