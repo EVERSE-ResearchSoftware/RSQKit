@@ -8,7 +8,6 @@ related_pages:
   your_tasks: [software_metadata]
 quality_indicators: [codemeta_completeness, descriptive_metadata] # Add relevant quality indicators here
 keywords: ["codemeta", "bibliographic metadata", "software citation"]
-    registry: TeSS
 ---
 
 ## How to provide complete bibliographic metadata as a CodeMeta file?
