@@ -30,8 +30,7 @@
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
     status: Active
     version: 1.0.0
-- &id001
-    abbreviation: archived_in_software_heritage
+-   abbreviation: archived_in_software_heritage
     alternateName: FRSM-08
     author:
         '@type': schema:Organization
@@ -64,7 +63,36 @@
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
     status: Active
     version: 1.0.0
-- *id001
+-   abbreviation: codemeta_completeness
+    author:
+    -   '@type': schema:Person
+        name: Thomas Vuillaume
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    contact:
+        '@type': Person
+        name: Thomas Vuillaume
+    created: 20-03-2025
+    description: This indicator checks that the codemeta file is sufficiently complete
+        (according to community expectations). That is, the percentage of properties
+        that are filled with metadata is above an acceptable threshold established
+        by a target community. This indicator does not assess the quality of the metadata
+        fields available.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/codemeta_completeness
+    keywords:
+    - codemeta
+    - metadata
+    - fair
+    name: CodeMeta completeness
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: not relevant
+        Relevant for RS infrastructure: good to have
+    status: Active
+    version: 1.0.0
 -   abbreviation: dependency_management
     author:
         '@type': Person
