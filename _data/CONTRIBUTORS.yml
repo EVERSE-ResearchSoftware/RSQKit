@@ -243,4 +243,15 @@ Marek Suchánek:
 Andrés Montero:
     git: andriumon
     role: contributor
-
+Vincent Pollet:
+    affiliation: LAPP, University Savoie Mont-Blanc, CNRS
+    git: vincent-pollet
+    orcid: 0009-0006-7215-9231
+    email: vincent.pollet@lapp.in2p3.fr
+    role: contributor
+Thibaut Oprinsen:
+    affiliation: LAPP, University Savoie Mont-Blanc, CNRS
+    git: toprinse
+    orcid: 0009-0001-5377-5796
+    role: contributor
+    email: thibaut.oprinsen@lapp.in2p3.fr

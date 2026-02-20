@@ -36,6 +36,8 @@ subitems:
         url: /baler_research_software_story
       - title: GreenPhysECS — using ECS in physics simulation
         url: /greenphsecs_research_software_story
+      - title: Phoenix2 - libraries for transverse topics in data acquisition and analysis
+        url: /phoenix2_research_software_story
       - title: Scipion - cryo-EM image processing toolkit for structural reconstruction
         url: /scipion_research_software_story
       - title: xAODAnaHelpers - analysis framework for high-level ATLAS data
