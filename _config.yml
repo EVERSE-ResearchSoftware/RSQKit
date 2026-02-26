@@ -7,6 +7,11 @@ description: "The Research Software Quality Kit is a resource to help researcher
 # Pin the version to 5.0.0 because otherwise we get WIP breakage
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@5.0.0
 
+# Add a custom variable to define the codebase purpose clearly for agents
+agent_context:
+  purpose: "Documentation and resource hub for research software quality"
+  tech_stack: "Jekyll with ELIXIR Toolkit Theme"
+
 sass:
   style: compressed
   sourcemap: never
@@ -106,3 +111,5 @@ plugins:
   - jekyll-github-metadata
   - jekyll-octicons
   - jekyll-scholar
+  - jekyll-seo-tag #Generates JSON-LD and OpenGraph (crucial for LLMs)
+  - jekyll-feed    #Provides a structured feed of updates
