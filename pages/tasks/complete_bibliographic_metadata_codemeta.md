@@ -12,13 +12,13 @@ keywords: ["codemeta", "bibliographic metadata", "software citation"]
 
 ## How to provide complete bibliographic metadata as a CodeMeta file?
 
-### Why It Matters
+### Description 
 
 Creating a `codemeta.json` file is like giving your software a passport. 
 It makes your project easy to find, cite, and use. 
 This file helps others understand what your software does and who contributed to it.
 
-### What to Focus On
+### Considerations 
 
 When you're setting up a `codemeta.json` file, keep these things in mind:
 
@@ -32,13 +32,13 @@ When you're setting up a `codemeta.json` file, keep these things in mind:
 
 For more on software metadata, check out the [Software Metadata](./software_metadata) page.
 
-### How to Create It
+### Solutions 
 
 - **Do It Yourself**: You can manually create the file using the CodeMeta schema. Check out the example below.
 - **Use Tools**:  
   - {% tool "codemetagenerator" %} for a form-based approach  
   - {% tool "somef" %} for command-line generation  
-  - {% tool "autocodemeta" %} for an interactive tool that guides you through creating a `codemeta.json` file step by step: https://w3id.org/autocodemeta
+  - {% tool "autocodemeta" %} for an interactive tool that guides you through creating a `codemeta.json` file step by step.
   - NB Always review and add details like ORCID iDs and funder info.
 - **Archive Your Work**: Release your software on a platform that assigns DOIs, like {% tool "zenodo" %}. Add the DOI to your `codemeta.json` as an `identifier`.
 - **Validate**: Use a service like {% tool "jasonldvalidator" %} to ensure everything is correct.
