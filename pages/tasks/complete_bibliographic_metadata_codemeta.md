@@ -2,7 +2,7 @@
 title: "How to provide complete bibliographic metadata as a CodeMeta file"
 search_exclude: false
 description: "Guidance on creating a complete CodeMeta file for software projects."
-contributors: [Gavin J. Pringle] # Add contributors' names here
+contributors: ["Gavin J. Pringle"] # Add contributors' names here
 page_id: complete_bibliographic_metadata_codemeta
 related_pages:
   your_tasks: [software_metadata]
