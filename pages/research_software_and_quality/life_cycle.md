@@ -1,5 +1,6 @@
 ---
 title: Research Software Lifecycle
+description: Research software stages from planning and development to publication, preservation, maintenance and community feedback, showing how software evolves within the research process
 contributors: ["Aleksandra Nenadic", "Patrick Bos", "Jason Maassen", "Daniel Garijo",  "Shoaib Sufi", "Laura Portell-Silva", "Michael Sparks", "Daniel S.Katz"]
 coordinators: ["Aleksandra Nenadic"]
 ---

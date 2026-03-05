@@ -3,7 +3,6 @@ title: "Research Software Story - GreenPhysECS"
 description: "Applying ECS to Physics Simulation with Energy Tracking"
 contributors: ["Michael Sparks"]
 page_id: greenphysecs_research_software_story
-type: research_software_story
 ---
 
 ## The Problem

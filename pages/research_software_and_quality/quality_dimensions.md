@@ -1,5 +1,6 @@
 ---
 title: Research Software Quality Dimensions
+description: High-level attributes of research software, each assessed through specific indicators
 ---
 
 We distinguish between abstract quality dimensions (high-level categories like reliability or maintainability defined by standards such as [ISO/IEC 25010][iso-25010] and concrete quality indicators (measurable proxies like test coverage or community engagement). 

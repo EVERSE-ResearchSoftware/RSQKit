@@ -1,5 +1,6 @@
 ---
 title: Three-Tier Model of Research Software
+description: Framework that classifies research software by purpose into analysis code, prototype tools, and research software infrastructure to guide appropriate practices and support
 contributors: ["Aleksandra Nenadic", "Daniel Garijo",  "Shoaib Sufi", "Fotis Psomopoulos"]
 coordinators: ["Aleksandra Nenadic"]
 ---
