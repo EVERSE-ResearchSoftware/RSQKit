@@ -3,7 +3,6 @@ title: "Research Software Story - ACTS"
 description: "ACTS - Toolkit for Track Reconstruction in Particle Physics Experiments"
 contributors: ["Michael Sparks", "Caterina Doglioni", "Pratik Jawahar"]
 page_id: acts_research_software_story
-type: research_software_story
 ---
 
 ## The Problem

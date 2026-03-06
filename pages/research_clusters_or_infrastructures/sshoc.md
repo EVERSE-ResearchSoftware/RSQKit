@@ -1,7 +1,6 @@
 ---
 title: SSHOC - social sciences & humanities
 description: Social Sciences and Humanities Open Cluster (SSHOC) cluster bring together a range of disciplines and methodological backgrounds
-type: research_cluster_or_infrastructure
 ---
 
 The social sciences and humanities (SSH) bring together researchers from a wide range of disciplines and methodological backgrounds, spanning from those studying cultural heritage using 3D digital technologies to interdisciplinary scholars exploring innovative approaches to analyse existing data.

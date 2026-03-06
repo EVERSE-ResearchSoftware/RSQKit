@@ -4,7 +4,6 @@ search_exclude: true # set to false if you want this page to show up in search r
 description: "" # a description of the page - A brief description of the exemplar or use case and which problem it solves and which domains (or if its cross domain) it applies to. 
 contributors: [] # a comma separated list of contributors' names, as found in _data/CONTRIBUTORS.yml (add yourself to the files if you do not have an entry)
 page_id: # unique page id, ideally lowercase words separated by underscore(s) - for example page_id of 'Galaxy' could be galaxy
-type: research_software_story # leave this as is
 ---
 
 <!-- 

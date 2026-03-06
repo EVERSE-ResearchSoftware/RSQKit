@@ -12,7 +12,7 @@ columns:
     width: 1
     children:
       - url_text: Get involved
-        url: /get_involved
+        url: /contributing
       - url_text: Contributors
         url: /contributors
   - type: links

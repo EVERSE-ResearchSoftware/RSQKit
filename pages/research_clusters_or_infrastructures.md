@@ -1,5 +1,5 @@
 ---
-title: Research Clusters & Infrastructures
+title: Research Clusters or Infrastructures
 ---
 
 This section lists research clusters and research infrastructures where software is a core part of activities.
@@ -15,4 +15,4 @@ They include:
 Research Clusters (e.g. [Science Clusters](https://science-clusters.eu/)) are a network of research infrastructures in a given domain (e.g. astronomy, life sciences, environmentl sciences) that work together to harmonise services, share data and support open science. They provide a structured way to coordinate infrastructures, avoid duplication and for example, create common standards for data, workflows, and training.
 
 
-{% include section-navigation-tiles.html type="research_cluster_or_infrastructure" search=true col=3 %}
+{% include section-navigation-tiles.html type="research_clusters_or_infrastructures" search=true col=3 %}

@@ -3,7 +3,6 @@ title: "Research Software Story - BALER"
 description: "Machine-Learning-Based Compression of Scientific Data in Real Time"
 contributors: ["Michael Sparks", "Caterina Doglioni", "James Smith"]
 page_id: baler_research_software_story
-type: research_software_story
 ---
 
 ## The Problem

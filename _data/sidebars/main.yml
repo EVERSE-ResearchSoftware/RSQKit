@@ -5,12 +5,12 @@ subitems:
   #- title: About RSQKit
   #  url: /about
   - title: Research software & quality
-    url: /research_software
+    url: /research_software_and_quality
     image_url: /assets/img/flaticon/analyze.png
     description: Research software and its quality - definitions and considerations
     subitems:
       - title: What is research software?
-        url: /research_software#what-is-research-software
+        url: /research_software
       - title: Three-tier model
         url: /three_tier_view
       - title: Lifecycle
@@ -42,8 +42,8 @@ subitems:
         url: /xah_research_software_story
       - title: OpenEBench - The ELIXIR benchmarking platform
         url: /openebench_research_software_story
-  - title: Research clusters & infrastructures
-    url: /research_clusters_and_infrastructures
+  - title: Research clusters or infrastructures
+    url: /research_clusters_or_infrastructures
     #image_url: /assets/img/flaticon/research-and-development.png
     image_url: /assets/img/flaticon/science.png
     description: Use cases and software practices across research communities
@@ -60,7 +60,7 @@ subitems:
         url: /sshoc
   - title: Roles
     description: Resources tailored to different roles in research software funding & development
-    url: /your_role
+    url: /roles
     image_url: /assets/img/flaticon/management.png
     subitems:
       - title: Researcher who codes
@@ -140,7 +140,7 @@ subitems:
     description: Browse tools and resources for research software quality
     image_url: /assets/img/flaticon/tools.png
   - title: Get involved
-    url: /get_involved
+    url: /contributing
     description: Various resources on how to contribute to RSQKit
     image_url: /assets/img/flaticon/jigsaw.png
     subitems:
@@ -157,6 +157,6 @@ subitems:
       - title: Contributors
         url: /contributors
       - title: List of all pages
-        url: /all_task_pages 
+        url: /all_pages
 #  - title: All training resources
 #    url: /all_training_resources
