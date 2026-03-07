@@ -356,7 +356,8 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
--   abbreviation: security
+- &id001
+    abbreviation: security
     description: 'Degree to which a product or system defends against attack patterns
         by malicious actors and protects information and data so that persons or other
         products or systems have the degree of data access appropriate to their types
@@ -409,12 +410,4 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
--   abbreviation: sustainability
-    description: The capacity of the software to endure. In other words, sustainability
-        means that the software will continue to be available in the future, on new
-        platforms, meeting new needs.
-    identifier: https://w3id.org/everse/i/dimensions/sustainability
-    name: Sustainability
-    source:
-        name: Defining Software Sustainability
-        url: https://danielskatzblog.wordpress.com/2016/09/13/defining-software-sustainability/
+- *id001
