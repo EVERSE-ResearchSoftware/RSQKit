@@ -4,21 +4,24 @@ title: "RSQKit: Research Software Quality Kit"
 description: "The Research Software Quality Kit is a resource to help researchers that code, Research Software Engineers, and anyone in between learn about and apply best practices in creating research software and code."
 # Metadata description of the website
 
-# Pin the version to 5.0.0 because otherwise we get WIP breakage
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@5.0.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@6.0.0
 
 sass:
   style: compressed
   sourcemap: never
 
+# Matomo settings
 matomo: https://matomo.research.software/
-# Matomo domain where Matomo is running
 matomo_id: 7
 matomo_cookies: false
 
 exclude:
   - README.md
-  - Gemfile
+  - .gitignore
+  - var/
+  - vendor
+  - Gemfile*
+  - LICENSE
 
 defaults:
   -
