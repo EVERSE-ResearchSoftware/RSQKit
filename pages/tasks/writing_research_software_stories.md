@@ -6,7 +6,7 @@ page_id: writing_research_software_story
 related_pages:
   tasks: [software_documentation, documenting_software_project, citing_software]
 quality_indicators: [software_has_documentation]
-keywords: ["research software", "software sustainability", "research software stories"]
+keywords: ["research software", "software sustainability", "research software stories", "research software story"]
 ---
 
 ## Task
