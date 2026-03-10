@@ -8,7 +8,6 @@ gem 'kramdown-parser-gfm', '~> 1.1'
 gem 'jekyll-octicons'
 gem 'csv'
 gem 'observer'
-gem 'jekyll-feed'
 
 group :jekyll_plugins do
   gem 'jekyll-redirect-from', '~> 0.16.0'
