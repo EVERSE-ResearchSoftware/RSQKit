@@ -93,6 +93,40 @@
         Relevant for RS infrastructure: good to have
     status: Active
     version: 1.0.0
+-   abbreviation: cyclomatic_complexity_ok
+    author:
+        '@type': schema:Person
+        name: Daniel Garijo
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 10-03-2026
+    description: Cyclomatic complexity (i.e., the number of linearly independent paths
+        through a program’s source code) of the whole software component or modules/components/classes/functions/methods
+        should follow the conventions established by the community  responsible for
+        maintaining the tool. Cyclomatic complexity is created by calculating the
+        number of different code paths in the flow of the program. A program that
+        has complex control flow requires more tests to achieve good code coverage
+        and is less maintainable.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/cyclomatic_complexity_ok
+    keywords:
+    - maintainability
+    - complexity, code
+    name: Cyclomatic complexity follows community conventions
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+    -   identifier: https://zenodo.org/records/10647227
+        name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
+        url: https://zenodo.org/records/10647227
+    -   name: 'Socially-Informed Jupyter Notebook Quality: A Role- and Lifecycle-Aware
+            Metrics Framework'
+        url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11216562&tag=1
+    status: Active
+    version: 1.0.0
 -   abbreviation: dependency_management
     author:
         '@type': Person
