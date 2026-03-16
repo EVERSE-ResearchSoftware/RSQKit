@@ -93,6 +93,35 @@
         Relevant for RS infrastructure: good to have
     status: Active
     version: 1.0.0
+-   abbreviation: coupling_between_objects_ok
+    author:
+        '@type': schema:Person
+        name: Daniel Garijo
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 11-03-2026
+    description: The coupling between objects (CBO) ratio is maintained at a reasonable
+        level according to the community's standards or expectations
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/coupling_between_objects_ok
+    keywords:
+    - maintainability
+    - coupling, software
+    name: Coupling between objects follows community conventions
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+    -   identifier: https://zenodo.org/records/10647227
+        name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
+        url: https://zenodo.org/records/10647227
+    -   name: 'Socially-Informed Jupyter Notebook Quality: A Role- and Lifecycle-Aware
+            Metrics Framework'
+        url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11216562&tag=1
+    status: Active
+    version: 1.0.0
 -   abbreviation: cyclomatic_complexity_ok
     author:
         '@type': schema:Person
@@ -392,6 +421,70 @@
     source:
         name: 'OpenSSF Scorecard: Code-Review'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#code-review
+    status: Active
+    version: 1.0.0
+-   abbreviation: internal_cohesion_ok
+    author:
+        '@type': schema:Person
+        name: Daniel Garijo
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 11-03-2026
+    description: The cohesion among methods/functions of a module is maintained to
+        a reasonable level according to community expectations and standards. Cohesion
+        describes how related the functions within a single module are. Low cohesion
+        implies that a given module performs tasks which are not very related to each
+        other and hence can create problems as the module becomes large
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/internal_cohesion_ok
+    keywords:
+    - maintainability
+    - cohesion
+    - module
+    - code
+    name: Cohesion among methods/functions of a module follows community conventions
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+    -   identifier: https://zenodo.org/records/10647227
+        name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
+        url: https://zenodo.org/records/10647227
+    -   name: 'Socially-Informed Jupyter Notebook Quality: A Role- and Lifecycle-Aware
+            Metrics Framework'
+        url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11216562&tag=1
+    status: Active
+    version: 1.0.0
+-   abbreviation: lines_of_code_ok
+    author:
+        '@type': schema:Person
+        name: Daniel Garijo
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 10-03-2026
+    description: Number of lines of code for the whole software project or components/modules/classes/functions/methods
+        should follow the conventions established by the community responsible for
+        maintaining the source code
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/lines_of_code_ok
+    keywords:
+    - maintainability
+    - lines, code
+    name: Number of lines of code follows community standards or expectations
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+    -   identifier: https://zenodo.org/records/10647227
+        name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
+        url: https://zenodo.org/records/10647227
+    -   name: 'Socially-Informed Jupyter Notebook Quality: A Role- and Lifecycle-Aware
+            Metrics Framework'
+        url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11216562&tag=1
     status: Active
     version: 1.0.0
 -   abbreviation: listed_in_registry
