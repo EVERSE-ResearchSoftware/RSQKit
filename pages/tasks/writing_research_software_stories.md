@@ -14,7 +14,7 @@ keywords: ["research software", "software sustainability", "research software st
 ### Description
 
 Research software projects often accumulate a great deal of knowledge that is never written down.
-The reasons a tool exists, the assumptions behind its design, how the community around it works, and the practices used to develop and maintain it frequently live in people's heads, issue trackers, or scattered conversations.
+The reasons a tool exists, the assumptions behind its design, how the community around it works, and the quality practices used to develop and maintain it frequently live in people's heads, issue trackers, or scattered conversations.
 
 Capturing that context is surprisingly difficult.
 
@@ -74,7 +74,7 @@ When describing workflows, practices, and dependencies, teams frequently discove
 Missing documentation, fragile assumptions, unclear ownership, or absent development practices often become visible during the process.
 
 In this sense, writing the story is not only an exercise in communication but also an exercise in reflection.
-It can highlight where additional RSQKit tasks might be useful and help teams think about how their software could be made more sustainable over time.
+It can highlight where additional [RSQKit tasks](./tasks) might be useful and help teams think about how their software could be made more sustainable over time.
 
 ### Solutions
 
@@ -118,8 +118,8 @@ By asking questions based on the template and transcribing the responses, it is 
 This interview-based approach can capture language and explanations that might otherwise be difficult to reconstruct later.
 
 Lastly, sitting somewhere between the two, is a structured prompting approach.
-This uses a language language model (eg ChatGPT) in the role of interviewer.
-Using a system prompt it's possible to flip the interaction from you asking the model questions to it asking you questions.
+This uses a Large Language Model (LLM) such as [Claude](https://claude.ai/) or [Mistral Le Chat](https://mistral.ai/products/le-chat) in the role of interviewer.
+Using a [system prompt](https://github.com/sparkslabs/EVERSE-Seminar-Nov2025-ResearchSoftwareStories/tree/main/GPT-PromptTools) it's possible to flip the interaction from you asking the model questions to it asking you questions.
 The system prompt can also be instructed to request supporting material such as README files, previous notes, or transcripts.
 It can then be instructed to focus on gaps in the information and probe for additional detail.
 The model asks questions corresponding to each section of the template, repeats it back and again asks "is there anything else?"
@@ -145,7 +145,7 @@ Often three things need refinement:
 
 In this way Research Software Stories act as practical examples of how research software is developed and sustained in real projects.
 
-A collection of example Research Software Stories is available within RSQKit and can provide useful reference points when writing a new one.
+A collection of example Research Software Stories is available [within RSQKit](./research_software_stories) and can provide useful reference points when writing a new one.
 
 ### Further guidance and examples
 
@@ -154,49 +154,37 @@ The seminar walks through the motivation, the structure of the template, and a l
 
 The full seminar recording is available here:
 
-* EVERSE seminar: *Research Software Stories*
-  <https://www.youtube.com/watch?v=enx7sBsaQws>
+* EVERSE seminar: [Research Software Stories](https://www.youtube.com/watch?v=enx7sBsaQws)
 
 The recording is fairly long, but it is structured as a series of shorter segments:
 
-* Introduction — what research software stories are and where they came from
-  <https://www.youtube.com/watch?v=enx7sBsaQws&t=145s>
+* [Introduction]( https://www.youtube.com/watch?v=enx7sBsaQws&t=145s) — what research software stories are and where they came from
 
-* What a Research Software Story contains
-  <https://www.youtube.com/watch?v=enx7sBsaQws&t=913s>
+* [What a Research Software Story contains](https://www.youtube.com/watch?v=enx7sBsaQws&t=913s)
 
-* Why writing one is useful
-  <https://www.youtube.com/watch?v=enx7sBsaQws&t=1662s>
+* [Why writing one is useful](https://www.youtube.com/watch?v=enx7sBsaQws&t=1662s)
 
-* Walkthrough of the template
-  <https://youtu.be/enx7sBsaQws?t=2687>
+* [Walkthrough of the template](https://youtu.be/enx7sBsaQws?t=2687)
 
 The seminar also demonstrates the guided writing approach described above, including recording an interview, transcribing it, and producing an initial "version-zero" story:
 
-* Guided writing overview
-  <https://youtu.be/enx7sBsaQws?t=4096>
+* [Guided writing overview](https://youtu.be/enx7sBsaQws?t=4096)
 
-* Interview demonstration
-  <https://youtu.be/enx7sBsaQws?t=4345>
+* [Interview demonstration](https://youtu.be/enx7sBsaQws?t=4345)
 
-* Transcription and assembly of the first draft
-  <https://www.youtube.com/watch?v=enx7sBsaQws&t=6295s>
+* [Transcription and assembly of the first draft](https://www.youtube.com/watch?v=enx7sBsaQws&t=6295s)
 
 The notes and supporting material used in the seminar are available here:
 
-* Seminar summary and handout
-  <https://github.com/sparkslabs/EVERSE-Seminar-Nov2025-ResearchSoftwareStories/blob/main/Session_Summary_Handout.pdf>
+* [Seminar summary and handout](https://github.com/sparkslabs/EVERSE-Seminar-Nov2025-ResearchSoftwareStories/blob/main/Session_Summary_Handout.pdf)
 
-* Detailed seminar notes
-  <https://github.com/sparkslabs/EVERSE-Seminar-Nov2025-ResearchSoftwareStories/tree/main/DetailedNotes>
+* [Detailed seminar notes](https://github.com/sparkslabs/EVERSE-Seminar-Nov2025-ResearchSoftwareStories/tree/main/DetailedNotes)
 
 Tools for a sample guided prompting approach are also available:
 
-* Prompt tools for guided story creation
-  <https://github.com/sparkslabs/EVERSE-Seminar-Nov2025-ResearchSoftwareStories/tree/main/GPT-PromptTools>
+* [Prompt tools for guided story creation](https://github.com/sparkslabs/EVERSE-Seminar-Nov2025-ResearchSoftwareStories/tree/main/GPT-PromptTools)
 
 Lastly, an example Research Software Story created using this approach can be found here:
 
-* GreenPhysECS research software story
-  <https://everse.software/RSQKit/greenphsecs_research_software_story>
+* [GreenPhysECS research software story](https://everse.software/RSQKit/greenphsecs_research_software_story)
 
