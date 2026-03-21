@@ -289,6 +289,32 @@
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#ci-tests
     status: Active
     version: 1.0.0
+-   abbreviation: has_contribution_guidelines
+    author:
+        '@type': schema:Organization
+        name: CESSDA
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 17-03-2026
+    description: The software repository provides contribution guidelines in case
+        someone wants to contribute to the project.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/has_contribution_guidelines
+    keywords:
+    - linting
+    - code analysis
+    - fair
+    name: Software repository has contribution guidelines
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/sustainability
+    source:
+    -   name: Software Requirements
+        url: https://docs.tech.cessda.eu/software/requirements.html
+    status: Active
+    version: 1.0.0
 -   abbreviation: has_no_linting_issues
     alternateName: has_no_linting_issues
     author:
