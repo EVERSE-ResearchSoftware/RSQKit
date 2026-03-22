@@ -1151,3 +1151,52 @@
     helping to understand, debug, and improve R scripts.
   url: https://github.com/flowr-analysis/flowr
   catalog: RSQKit
+- id: pixi
+  name: Pixi
+  description: >-
+    Pixi is a fast, modern, and reproducible package and environment management tool for developers of all backgrounds, based on the conda ecosystem.
+  url: 'https://pixi.prefix.dev/latest/'
+  catalog: TechRadar
+- id: nanobind
+  name: nanobind
+  description: >-
+    nanobind is a small binding library that exposes C++ types in Python and vice versa.
+  url: 'https://nanobind.readthedocs.io/en/latest/'
+  catalog: RSQKit
+- id: ctest
+  name: ctest
+  description: >-
+    The ctest executable is the CMake test driver program. 
+    CMake-generated build trees created for projects that use the enable_testing() and add_test() commands have testing support. 
+    This program will run the tests and report results.
+  url: 'https://cmake.org/cmake/help/latest/manual/ctest.1.html'
+  catalog: RSQKit
+- id: cargo
+  name: cargo
+  description: >-
+    Cargo is the Rust package manager. 
+    Cargo downloads your Rust package’s dependencies, compiles your packages, makes distributable 
+    packages, and uploads them to crates.io, the Rust community’s package registry. 
+  url: 'https://doc.rust-lang.org/cargo/'
+  catalog: RSQKit
+- id: maqao
+  name: maqao
+  description: >-
+    MAQAO (Modular Assembly Quality Analyzer and Optimizer) is a performance analysis and optimization framework 
+    operating at binary level with a focus on core performance. Its main goal of is to guide application developers 
+    along the optimization process through synthetic reports and hints. 
+  url: 'https://maqao.org/'
+  catalog: TechRadar
+- id: malt
+  name: malt
+  description: >-
+    MALT is a memory tool to find where you allocate your memory. It also provides you some statistics about memory usage 
+    and help to find memory leaks.
+  url: 'https://memtt.github.io/malt/doc/latest/'
+  catalog: TechRadar
+- id: renovate
+  name: renovate
+  description: >-
+    Automates dependency updates, multi-platform and multi-language.
+  url: 'https://docs.renovatebot.com/'
+  catalog: TechRadar
