@@ -27,7 +27,7 @@ In the DAQ world, there are many message passing libraries one can use for data 
 
 This is what led to the creation of the Phoenix libraries.
 
-One particularly interesting aspect of the phoenix libraries is the possibility to develop one's software use "mock-up" back-ends. Let's say you are writing an analysis software and need to gather data from several detectors to analyse them together. Unfortunately your detectors are not build yet and won't be available before 5 years. By using the "mock" back-end, you are able to develop your software without committing _now_ to a solution. When the detectors are finally available, you will be able to switch to the most relevant solution at that time without effort, due to the back-end consistency! Even better: you will be able to test and benchmark all possible back-ends and decide, looking at measured numbers and not expected performances on future (currently non-existing) hardware!
+One particularly interesting aspect of the phoenix libraries is the possibility to develop one's software using "mock-up" back-ends. Let's say you are writing an analysis software and need to gather data from several detectors to analyse them together. Unfortunately your detectors are not build yet and won't be available before 5 years. By using the "mock" back-end, you are able to develop your software without committing _now_ to a solution. When the detectors are finally available, you will be able to switch to the most relevant solution at that time without effort, due to the back-end consistency! Even better: you will be able to test and benchmark all possible back-ends and decide, looking at measured numbers and not expected performances on future (currently non-existing) hardware!
 
 
 ## User Community
