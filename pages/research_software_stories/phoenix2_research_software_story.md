@@ -1,10 +1,8 @@
 ---
 title: "Phoenix2"
-search_exclude: false
 description: "An ecosystem of minimalist, modular and extensible libraries for transverse topics in data acquisition and analysis software in C++, Python and Rust."
 contributors: ["Vincent Pollet", "Thibaut Oprinsen"]
-page_id: phoenix2
-type: research_software_story
+page_id: phoenix2_research_software_story
 ---
 
 ## The Problem
