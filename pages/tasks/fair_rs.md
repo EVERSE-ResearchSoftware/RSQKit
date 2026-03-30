@@ -1,5 +1,5 @@
 ---
-title: Adopting FAIR Research Software Practices
+title: Adopting FAIR research software practices
 description: What practices and tools can help improve FAIRness of software?
 contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Thomas Vuillaume"]
 page_id: fair_rs
@@ -10,7 +10,7 @@ quality_indicators: []
 keywords: ["fair software", "fair"]
 ---
 
-## What is FAIR Research Software?
+## What is FAIR research software?
 
 FAIR stands for Findable, Accessible, Interoperable, and Reusable and comprises a set of principles designed to increase the visibility and usefulness of your research to others.
 The [FAIR data principles][fair-data], first published in 2016, are widely known and applied today to other areas, including [software][fair-rs], [scientific workflows][fair-workflows], or [machine learning projects][fair4ml].
@@ -25,38 +25,38 @@ The FAIR software principles for software mean that it should be:
 Let's have a quick look into what each of the above principle means in practice.
 [Five Recommendations for FAIR Software](https://fair-software.eu/) also gives a quick overview of what is making software more FAIR entails.
 
-### How can we Make our Software Findable?
+### How can we make our software findable?
 
 - [Create a description of your software][software_metadata] to make it discoverable by search engines and other search tools
 - Use standards (such as {% tool "codemeta" %}) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
 - Place your software in a public software repository (and ideally register it in a [general-purpose or domain-specific software registry][software-registries])
-- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by {% tool "software-heritage" %}. 
+- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by {% tool "softwareheritage" %}. 
 In addition to findability of your software, identifiers can help you get credit for your work by providing citable references.
 - More broadly, use software sharing and collaborative platforms, as they facilitate code publication, sharing and findability:
   - general-purpose software repositories - {% tool "github" %} and {% tool "gitlab" %}
   - programming language-specific software repositories - {% tool "pypi" %} (for {% tool "python" %}) and {% tool "cran" %} (for R)
   - software registries - {% tool "biotools" %} (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
 
-### How can we Make our Software Accessible?
+### How can we make our software accessible?
 
 - Make sure people can obtain get a copy your software using standard communication protocols (e.g. HTTP, FTP, etc.)
 - The code and its description (metadata) should be available even when the software is no longer actively developed (this includes earlier versions of the software) - see [software archiving][archiving_software]
 
-### How can we Make our Software Interoperable?
+### How can we make our software interoperable?
 
 - Use community-agreed standard formats for inputs and outputs of [your software and its metadata][software_metadata] (e.g. {% tool "codemeta" %})
 - Communicate with other software and tools via standard protocols and APIs
 - Using standard data exchange, input and output formats and communication protocols helps create interoperable software that can more readily integrate with other tools into more complex pipelines 
 - More broadly - explain the [functionality of your software and protocols (e.g command line interface) for interaction with it][documenting_code]
 
-### How can we Make our Software Reusable?
+### How can we make our software reusable?
 
 - [Document your software][software_documentation] (including its functionality, how to install and run it) to make it more understandable by others who may wish to reuse or extend it
 - [Give a licence to your software][licensing_software] clearly stating how it can be reused (check the [open source licence guide][opensource-licence-guide] or {% tool "choosealicense" %} on choosing the licence most appropriate for your needs)
 - State how to [cite your software][citing_software], so people can give you credit when they reuse it
 - More broadly, follow best practices for software development, e.g. [structure your software][organising_software_projects] using common patterns and use coding conventions to make your code readable and understandable by people
 
-## FAIR and Quality
+## FAIR and quality
 
 FAIR software sits squarely within the broader umbrella of **quality research software**.
 [Quality software][rs-quality] is defined by multiple aspects - e.g. correctness, performance, maintainability, usability, robustness, and reproducibility, among others.
@@ -65,7 +65,7 @@ Reproducibility (the “openness & reusability” slice of software quality) oft
 So, FAIR is a crucial subset of quality, primarily ensuring that your software can actually be discovered, understood, and exercised by others (or by you, months down the line).
 A truly high-quality, reproducible research software package will typically satisfy both classical software-engineering criteria (tests, style, documentation, performance) and the FAIR principles.
 
-## Tools and Practices for FAIR
+## Tools and practices for FAIR
 
 There are various tools and practices that support the development of FAIR research software - some of them listed above.
 These tools and practices work together, as no single tool or practice will fully address one principle, but can contribute to multiple principles simultaneously.
@@ -75,10 +75,9 @@ This mean that software may be FAIR, but still not very good in terms of what it
 
 Tools and frameworks exist for assessing software FAIRness:
 
-- {% tool "fair-rs-evaluator" %}
-- {% tool "fair-rs-test" %}
 - {% tool "fair-rs-checklist" %} - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
-- {% tool "howfairis" %} - a command line tool to evaluate a software repository's compliance with the FAIR principles
+- {% tool "fair-rs-evaluator" %} - OpenBench's tool for assessing the FAIRness of software tool from its metadata
+- {% tool "fair-rs-checklist" %} - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center- {% tool "howfairis" %} - a command line tool to evaluate a software repository's compliance with the FAIR principles
 - {% tool "codecheck" %} - an approach for independent execution of computations underlying research articles
 - [Common metrics for Research Software][fair-metrics] that may used to assess each of the FAIR4RS principles
 

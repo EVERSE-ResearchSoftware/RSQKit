@@ -1200,3 +1200,35 @@
     Automates dependency updates, multi-platform and multi-language.
   url: 'https://docs.renovatebot.com/'
   catalog: TechRadar
+- id: cran
+  name: CRAN
+  description: >-
+    CRAN (The Comprehensive R Archive Network) is a network of worldwide servers storing identical, up-to-date versions of code, 
+    documentation, and packages for the R programming language. It is the primary repository for R, providing essential tools 
+    for statistical computing, data analysis, and graphics, including base R binaries for Windows, macOS, and Linux.
+  url: https://cran.r-project.org/
+  catalog: RSQKit
+- id: biotools
+  name: bio.tools
+  description: >-
+    Essential scientific and technical information about software tools, databases and services for bioinformatics and the life sciences.
+  url: https://bio.tools/
+  catalog: RSQKit
+- id: fair-rs-evaluator
+  name: FAIRsoft Evaluator
+  description: >-
+    A tool for assessing the FAIRness of software from its metadata using the FAIRsoft indicators.
+  url: https://openebench.bsc.es/observatory/Evaluation
+  catalog: RSQKit
+- id: fair-rs-checklist
+  name: FAIR software checklist
+  description: >-
+    FAIR software checklist - an interactive self-assessment tool with questions about FAIRness of research software.
+  url: https://fairsoftwarechecklist.net
+  catalog: RSQKit
+- id: codecheck
+  name: CODECHECK
+  description: >-
+    CODECHECK tackles one of the main challenges of computational research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
+  url: https://codecheck.org.uk/
+  catalog: RSQKit
