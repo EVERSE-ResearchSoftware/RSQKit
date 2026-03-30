@@ -75,8 +75,6 @@ This mean that software may be FAIR, but still not very good in terms of what it
 
 Tools and frameworks exist for assessing software FAIRness:
 
-- {% tool "fair-rs-evaluator" %}
-- {% tool "fair-rs-test" %}
 - {% tool "fair-rs-checklist" %} - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
 - {% tool "howfairis" %} - a command line tool to evaluate a software repository's compliance with the FAIR principles
 - {% tool "codecheck" %} - an approach for independent execution of computations underlying research articles
