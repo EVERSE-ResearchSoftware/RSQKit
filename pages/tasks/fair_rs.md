@@ -1,5 +1,5 @@
 ---
-title: Adopting FAIR Research Software Practices
+title: Adopting FAIR research software practices
 description: What practices and tools can help improve FAIRness of software?
 contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Thomas Vuillaume"]
 page_id: fair_rs
@@ -10,7 +10,7 @@ quality_indicators: []
 keywords: ["fair software", "fair"]
 ---
 
-## What is FAIR Research Software?
+## What is FAIR research software?
 
 FAIR stands for Findable, Accessible, Interoperable, and Reusable and comprises a set of principles designed to increase the visibility and usefulness of your research to others.
 The [FAIR data principles][fair-data], first published in 2016, are widely known and applied today to other areas, including [software][fair-rs], [scientific workflows][fair-workflows], or [machine learning projects][fair4ml].
@@ -25,7 +25,7 @@ The FAIR software principles for software mean that it should be:
 Let's have a quick look into what each of the above principle means in practice.
 [Five Recommendations for FAIR Software](https://fair-software.eu/) also gives a quick overview of what is making software more FAIR entails.
 
-### How can we Make our Software Findable?
+### How can we make our software findable?
 
 - [Create a description of your software][software_metadata] to make it discoverable by search engines and other search tools
 - Use standards (such as {% tool "codemeta" %}) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
@@ -37,19 +37,19 @@ In addition to findability of your software, identifiers can help you get credit
   - programming language-specific software repositories - {% tool "pypi" %} (for {% tool "python" %}) and {% tool "cran" %} (for R)
   - software registries - {% tool "biotools" %} (for biosciences) and [Awesome Research Software Registries][awesome-rs-registries], providing a list of research software registries (by country, organisation, domain and programming language) where research software can be registered to help promote its discovery
 
-### How can we Make our Software Accessible?
+### How can we make our software accessible?
 
 - Make sure people can obtain get a copy your software using standard communication protocols (e.g. HTTP, FTP, etc.)
 - The code and its description (metadata) should be available even when the software is no longer actively developed (this includes earlier versions of the software) - see [software archiving][archiving_software]
 
-### How can we Make our Software Interoperable?
+### How can we make our software interoperable?
 
 - Use community-agreed standard formats for inputs and outputs of [your software and its metadata][software_metadata] (e.g. {% tool "codemeta" %})
 - Communicate with other software and tools via standard protocols and APIs
 - Using standard data exchange, input and output formats and communication protocols helps create interoperable software that can more readily integrate with other tools into more complex pipelines 
 - More broadly - explain the [functionality of your software and protocols (e.g command line interface) for interaction with it][documenting_code]
 
-### How can we Make our Software Reusable?
+### How can we make our software reusable?
 
 - [Document your software][software_documentation] (including its functionality, how to install and run it) to make it more understandable by others who may wish to reuse or extend it
 - [Give a licence to your software][licensing_software] clearly stating how it can be reused (check the [open source licence guide][opensource-licence-guide] or {% tool "choosealicense" %} on choosing the licence most appropriate for your needs)
