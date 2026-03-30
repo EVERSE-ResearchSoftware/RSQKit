@@ -4,8 +4,7 @@ title: "RSQKit: Research Software Quality Kit"
 description: "The Research Software Quality Kit is a resource to help researchers that code, Research Software Engineers, and anyone in between learn about and apply best practices in creating research software and code."
 # Metadata description of the website
 
-# Pin the version to 5.0.0 because otherwise we get WIP breakage
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@5.0.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@6.0.0
 
 # Add a custom variable to define the codebase purpose clearly for agents
 agent_context:
@@ -16,8 +15,8 @@ sass:
   style: compressed
   sourcemap: never
 
+# Matomo settings
 matomo: https://matomo.research.software/
-# Matomo domain where Matomo is running
 matomo_id: 7
 matomo_cookies: false
 
@@ -56,23 +55,36 @@ defaults:
       type: research_software_stories
       type_img: /assets/img/flaticon/search.png
       page_citation: true
-  - scope:
-      path: "pages/research_clusters_and_infrastructures/"
+  -
+    scope:
+      path: "pages/research_clusters_or_infrastructures/"
     values:
-      type: research_clusters_and_infrastructures
+      type: research_clusters_or_infrastructures
       type_img: /assets/img/flaticon/science.png
       page_citation: true
   -
     scope:
-      path: "pages/tasks/TEMPLATE_task.md"
-      type: "pages"
+      path: "pages/research_software_and_quality/"
     values:
-        sitemap: false
-        search_exclude: true
-        no_robots: true
+      type: research_software_and_quality
+      type_img: /assets/img/flaticon/quality.png
+      page_citation: true
   -
     scope:
-      path: "pages/your_role/TEMPLATE_your_role.md"
+      path: "pages/roles/"
+    values:
+      type: roles
+      type_img: /assets/img/flaticon/management.png
+  -
+    scope:
+      path: "pages/contributing/"
+    values:
+      type: contributing
+      type_img: /assets/img/flaticon/jigsaw.png
+      page_citation: false
+  -
+    scope:
+      path: "pages/tasks/TEMPLATE_task.md"
       type: "pages"
     values:
       sitemap: false
@@ -80,16 +92,34 @@ defaults:
       no_robots: true
   -
     scope:
-      path: "pages/your_role/"
+      path: "pages/roles/TEMPLATE_role.md"
+      type: "pages"
     values:
-      type: your_role
-      type_img: /assets/img/flaticon/management.png
+      sitemap: false
+      search_exclude: true
+      no_robots: true
   -
     scope:
-      path: "pages/research_communities/"
+      path: "pages/research_clusters_or_infrastructures/TEMPLATE_research_cluster_or_infrastructure.md"
+      type: "pages"
     values:
-      type: research_community
-      type_img: /assets/img/font-awesome-free/people-group-solid.svg
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/research_software_stories/TEMPLATE_research_software_story.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+#  -
+#    scope:
+#      path: "pages/research_communities/"
+#    values:
+#      type: research_communities
+#      type_img: /assets/img/font-awesome-free/people-group-solid.svg
 
 training:
   - name: "EVERSE TeSS"

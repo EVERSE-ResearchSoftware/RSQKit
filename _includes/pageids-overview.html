@@ -1,9 +1,10 @@
-{%- assign sidebar = site.data.sidebars[include.sidebar]['subitems'] -%}
-{%- for sections in sidebar %}
-{%- assign section = sections.title | downcase | replace: " ", "_" %}
-{%- assign section_pages = site.pages | where:"type", section | where_exp: "item", "item.search_exclude != true" | where_exp: "item", "item.page_id != nil"   %}
-{%- unless section_pages.size == 0 %}
-<h2>{{sections.title}}</h2>
+{% assign sidebar = site.data.sidebars[include.sidebar]['subitems'] %}
+{% for section in sidebar %}
+{% assign section_type = section.url %}
+{% assign section_type = section_type | remove: "/" %}
+{% assign section_pages = site.pages | where: "type", section_type | where_exp: "item", "item.search_exclude != true" %}
+{% if section_pages != nil and section_pages.size > 0 %}
+<h2>{{section.title}}</h2>
 <div class="table-responsive">
     <table class="table ">
         <thead>
@@ -13,14 +14,20 @@
         </tr>
         </thead>
         <tbody>
-        {%- for section_page in section_pages %}
+        {% for page in section_pages %}
         <tr>
-            <td><a href="{{ section_page.url | relative_url }}">{{section_page.title}}</a></td>
-            <td>{{section_page.description | default: "no description"}}</td>
+            <td><a href="{{ page.url | relative_url }}">{{page.title}}</a></td>
+            <td>
+            {%- if page.description %}
+                {{page.description}}
+            {%- elsif page.summary %}
+                {{page.summary}}
+            {% endif %}
+            </td>
         </tr>
-        {%- endfor %}
+        {% endfor %}
         </tbody>
     </table>
 </div>
-{%- endunless %}
-{%- endfor %}
+{% endif %}
+{% endfor %}

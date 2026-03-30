@@ -1,6 +1,6 @@
 ---
-title: Use of containers
-description: How can you use containers and why should you use it in software development?
+title: Using containers
+description: Why and how to use containers for research software development?
 contributors: ["Shraddha Bajare"]
 page_id: using_containers
 related_pages: 

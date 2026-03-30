@@ -3,7 +3,6 @@ title: "DOME Registry"
 description: "A repository supporting standardised machine learning method disclosures in the life sciences."
 contributors: ["Gavin Farrell", "Omar Attafi"]
 page_id: dome_registry
-type: research_software_story
 ---
 
 ## The Problem 

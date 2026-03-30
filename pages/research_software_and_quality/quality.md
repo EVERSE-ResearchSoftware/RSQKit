@@ -1,5 +1,6 @@
 ---
 title: Quality of Research Software
+description: Software quality through reproducibility questions, FAIR and open-source practices, and measurable quality dimensions and indicators
 ---
 
 ## What Questions Should I Ask About My Research Software?
