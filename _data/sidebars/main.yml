@@ -110,6 +110,9 @@ subitems:
         url: /creating_good_readme
       - title: "Software metadata"
         url: /software_metadata
+        subitems:
+          - title: "Creating bibliographic metadata with CodeMeta"
+            url: /complete_bibliographic_metadata_codemeta
       - title: "Packaging software"
         url: /packaging_software
       - title: "Releasing software"

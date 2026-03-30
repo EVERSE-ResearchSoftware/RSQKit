@@ -1148,6 +1148,7 @@
   name: Auto CodeMeta generator
   description: The Auto CodeMeta generator is a web application designed to simplify the creation of codemeta.json files, which are used to provide structured metadata for research software and code.
   url: https://autocodemeta.linkeddata.es/
+  catalog: RSQKit
 - name: flowR
   id: flowr
   description: >-

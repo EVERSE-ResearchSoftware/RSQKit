@@ -17,4 +17,3 @@ group :jekyll_plugins do
   gem 'jekyll-scholar', '~> 7.1.3'
   gem 'jekyll-remote-theme'
 end
-

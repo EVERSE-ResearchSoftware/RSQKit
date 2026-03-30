@@ -1,7 +1,6 @@
 ---
-title: "How to provide complete bibliographic metadata as a CodeMeta file"
-search_exclude: false
-description: "Guidance on creating a complete CodeMeta file for software projects."
+title: "Creating bibliographic metadata with CodeMeta"
+description: "Guidance on creating a CodeMeta file for software projects."
 contributors: ["Gavin J. Pringle"] # Add contributors' names here
 page_id: complete_bibliographic_metadata_codemeta
 related_pages:
@@ -9,8 +8,6 @@ related_pages:
 quality_indicators: [codemeta_completeness, descriptive_metadata] # Add relevant quality indicators here
 keywords: ["codemeta", "bibliographic metadata", "software citation"]
 ---
-
-## How to provide complete bibliographic metadata as a CodeMeta file?
 
 ### Description 
 
