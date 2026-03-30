@@ -1226,3 +1226,9 @@
     FAIR software checklist - an interactive self-assessment tool with questions about FAIRness of research software.
   url: https://fairsoftwarechecklist.net
   catalog: RSQKit
+- id: codecheck
+  name: CODECHECK
+  description: >-
+    CODECHECK tackles one of the main challenges of computational research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
+  url: https://codecheck.org.uk/
+  catalog: RSQKit
