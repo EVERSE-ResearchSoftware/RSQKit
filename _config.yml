@@ -22,7 +22,11 @@ matomo_cookies: false
 
 exclude:
   - README.md
-  - Gemfile
+  - .gitignore
+  - var/
+  - vendor
+  - Gemfile*
+  - LICENSE
   - gems
 
 defaults:
