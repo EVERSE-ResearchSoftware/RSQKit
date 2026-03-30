@@ -30,7 +30,7 @@ Let's have a quick look into what each of the above principle means in practice.
 - [Create a description of your software][software_metadata] to make it discoverable by search engines and other search tools
 - Use standards (such as {% tool "codemeta" %}) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
 - Place your software in a public software repository (and ideally register it in a [general-purpose or domain-specific software registry][software-registries])
-- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by {% tool "software-heritage" %}. 
+- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by {% tool "softwareheritage" %}. 
 In addition to findability of your software, identifiers can help you get credit for your work by providing citable references.
 - More broadly, use software sharing and collaborative platforms, as they facilitate code publication, sharing and findability:
   - general-purpose software repositories - {% tool "github" %} and {% tool "gitlab" %}
