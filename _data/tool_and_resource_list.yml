@@ -1203,7 +1203,8 @@
 - id: cran
   name: CRAN
   description: >-
-  CRAN (The Comprehensive R Archive Network) is a network of worldwide servers storing identical, up-to-date versions of code, 
-  documentation, and packages for the R programming language. It is the primary repository for R, providing essential tools 
-  for statistical computing, data analysis, and graphics, including base R binaries for Windows, macOS, and Linux.
+    CRAN (The Comprehensive R Archive Network) is a network of worldwide servers storing identical, up-to-date versions of code, 
+    documentation, and packages for the R programming language. It is the primary repository for R, providing essential tools 
+    for statistical computing, data analysis, and graphics, including base R binaries for Windows, macOS, and Linux.
   url: https://cran.r-project.org/
+  catalog: RSQKit
