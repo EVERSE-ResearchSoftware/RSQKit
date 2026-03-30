@@ -52,7 +52,7 @@ In addition to findability of your software, identifiers can help you get credit
 ### How can we Make our Software Reusable?
 
 - [Document your software][software_documentation] (including its functionality, how to install and run it) to make it more understandable by others who may wish to reuse or extend it
-- [Give a licence to your software][licensing_software] clearly stating how it can be reused (check the [open source licence guide][opensource-licence-guide] or {% "choosealicense" %} on choosing the licence most appropriate for your needs)
+- [Give a licence to your software][licensing_software] clearly stating how it can be reused (check the [open source licence guide][opensource-licence-guide] or {% tool "choosealicense" %} on choosing the licence most appropriate for your needs)
 - State how to [cite your software][citing_software], so people can give you credit when they reuse it
 - More broadly, follow best practices for software development, e.g. [structure your software][organising_software_projects] using common patterns and use coding conventions to make your code readable and understandable by people
 
