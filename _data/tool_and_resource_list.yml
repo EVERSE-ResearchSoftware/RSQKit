@@ -1214,4 +1214,15 @@
     Essential scientific and technical information about software tools, databases and services for bioinformatics and the life sciences.
   url: https://bio.tools/
   catalog: RSQKit
-  
+- id: fair-rs-evaluator
+  name: FAIRsoft Evaluator
+  description: >-
+    A tool for assessing the FAIRness of software from its metadata using the FAIRsoft indicators.
+  url: https://openebench.bsc.es/observatory/Evaluation
+  catalog: RSQKit
+- id: fair-rs-checklist
+  name: FAIR software checklist
+  description: >-
+    FAIR software checklist - an interactive self-assessment tool with questions about FAIRness of research software.
+  url: https://fairsoftwarechecklist.net
+  catalog: RSQKit
