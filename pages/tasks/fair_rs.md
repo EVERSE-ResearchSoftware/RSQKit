@@ -56,7 +56,7 @@ In addition to findability of your software, identifiers can help you get credit
 - State how to [cite your software][citing_software], so people can give you credit when they reuse it
 - More broadly, follow best practices for software development, e.g. [structure your software][organising_software_projects] using common patterns and use coding conventions to make your code readable and understandable by people
 
-## FAIR and Quality
+## FAIR and quality
 
 FAIR software sits squarely within the broader umbrella of **quality research software**.
 [Quality software][rs-quality] is defined by multiple aspects - e.g. correctness, performance, maintainability, usability, robustness, and reproducibility, among others.
@@ -65,7 +65,7 @@ Reproducibility (the “openness & reusability” slice of software quality) oft
 So, FAIR is a crucial subset of quality, primarily ensuring that your software can actually be discovered, understood, and exercised by others (or by you, months down the line).
 A truly high-quality, reproducible research software package will typically satisfy both classical software-engineering criteria (tests, style, documentation, performance) and the FAIR principles.
 
-## Tools and Practices for FAIR
+## Tools and practices for FAIR
 
 There are various tools and practices that support the development of FAIR research software - some of them listed above.
 These tools and practices work together, as no single tool or practice will fully address one principle, but can contribute to multiple principles simultaneously.
