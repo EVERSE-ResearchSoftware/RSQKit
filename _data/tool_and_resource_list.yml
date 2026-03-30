@@ -1208,3 +1208,10 @@
     for statistical computing, data analysis, and graphics, including base R binaries for Windows, macOS, and Linux.
   url: https://cran.r-project.org/
   catalog: RSQKit
+- id: biotools
+  name: bio.tools
+  description: >-
+    Essential scientific and technical information about software tools, databases and services for bioinformatics and the life sciences.
+  url: https://bio.tools/
+  catalog: RSQKit
+  
