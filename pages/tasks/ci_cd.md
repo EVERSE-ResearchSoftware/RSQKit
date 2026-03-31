@@ -8,8 +8,6 @@ child_pages: [task_automation_github_actions, task_automation_gitlab_ci_cd]
 keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
 ---
 
-## How can you use CI/CD in software development?
-
 ### Description
 
 CI (Continuous Integration) and CD (Continuous Delivery/Continuous Deployment) are software development practices aimed at automating and improving the process of software integration, testing, and delivery.
@@ -72,12 +70,15 @@ CI/CD tools and platforms for different stages of code development and deploymen
 - Monitoring - tools like Prometheus, Grafana, and New Relic are used for real-time monitoring in production to ensure system health.
 - Infrastructure as Code (IaC) - tools like {% tool "terraform" %}, {% tool "vagrant" %} or {% tool "ansible" %} automate infrastructure provisioning and configuration, ensuring consistency across environments.
 
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
 ## Tool- or Domain-Specific Tasks
 
 This is a suggested list tool-specific sub-tasks to have a look at.
 
-{% assign child_pages = page.child_pages | join: ', ' %}
 {% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=4 %}
+{% endif %}
 
 [task_automation_github_actions]: ./task_automation_github_actions
 [task_automation_gitlab_ci_cd]: ./task_automation_gitlab_ci_cd
