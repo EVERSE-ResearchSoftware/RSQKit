@@ -6,7 +6,9 @@ page_id: software_metadata
 related_pages:
   tasks: [software_identifiers]
 quality_indicators: [descriptive_metadata, codemeta_completeness]
+child_pages: [complete_bibliographic_metadata_codemeta]
 keywords: ["software metadata", "codemeta", "software citation", "cff"]
+
 ---
 
 ## What is software metadata?
@@ -91,3 +93,10 @@ Alternatively, {% tool "somefvider" %} will allow you to download auto-generated
 
 Using CodeMeta file to describe your software will propagate between different archival infrastructures, platforms and services which understand CodeMeta descriptions and can ingest existing `codemeta.json` files automatically ({% tool "zenodo" %}, {% tool "figshare" %}, {% tool "inveniordm" %} and {% tool "softwareheritage" %}).
 This means you will not have to duplicate the work when using such services - e.g. when [obtaining a DOI for your software](./software_identifiers), if you have `codemeta.json` file already you will not have to fill in the corresponding software metadata again.
+
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=4 %}
