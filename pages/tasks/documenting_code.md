@@ -4,7 +4,7 @@ description: How to write technical documentation to explain to other developers
 contributors: ["Azza Gamgami", "Aleksandra Nenadic", "Laura Portell-Silva"]
 page_id: documenting_code
 related_pages:
-  tasks: [documenting_software_project, writing_readable_code, creating_good_readme]
+  tasks: [documenting_software_project, writing_readable_code, creating_good_readme, licensing_software]
 child_pages: [documenting_software_readthedocs]
 quality_indicators: [software_has_documentation]
 keywords: ["documentation", "code documentation"]
@@ -141,12 +141,14 @@ While no software can completely write software documentation for you, several t
 * Leverage CI/DC tools, offered by platforms such as {% tool "github" %} and {% tool "gitlab" %} to automate quality assurance and release of your updated documentation to the public. For example, take a look at the [GitHub actions in the RSQKit repository](https://github.com/EVERSE-ResearchSoftware/RSQKit/actions) 
 for some automated tasks.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
 ## Tool- or Domain-Specific Tasks
 
 This is a suggested list tool-specific sub-tasks to have a look at.
 
-{% assign child_pages = page.child_pages | join: ', ' %}
 {% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [documenting_software_project]: ./documenting_software_project
 [creating_good_readme]: ./creating_good_readme

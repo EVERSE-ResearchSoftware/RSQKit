@@ -4,7 +4,7 @@ description: Why and how to use containers for research software development?
 contributors: ["Shraddha Bajare"]
 page_id: using_containers
 related_pages: 
-  your_tasks: [ci_cd]
+  tasks: [ci_cd]
 keywords: ["containers", "docker", "apptainer", "software packaging", "reproducibility", "portability", "containerization", "software deployment"]
 training:
   - name: "EVERSE TeSS"
@@ -128,11 +128,18 @@ pytest:
       - apptainer exec my-container-v1.0.0.sif python -m unittest discover tests/
 ```
 
-**Note:**  
+**Note:** 
 Apptainer generally does not support port mapping like Docker.  
 For networked services, Docker is usually preferred.
 
-## References
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [Docker documentation]: https://docs.docker.com/get-started/docker-overview/
 [Docker reference docs for CLI, APIs, and platform behaviors]: https://docs.docker.com/reference/

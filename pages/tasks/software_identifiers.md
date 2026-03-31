@@ -141,6 +141,14 @@ You can see the Zenodo DOI badge under `Details`:
 
 ![Badge in a software repository](../../images/badge_in_repo.png)
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [calver]: https://calver.org/
 [citable-github-ssi]: https://www.software.ac.uk/blog/making-code-citable-zenodo-and-github

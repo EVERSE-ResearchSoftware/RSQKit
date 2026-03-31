@@ -80,6 +80,15 @@ Container and workflow registries allow you to:
 * package and share ready-to-run code and environments – users can pull and run a container with no manual setup.
 * versioned distribution – each container or workflow can have tagged versions, just like source code releases.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
 [publishing_software]: ./publishing_software
 [releasing_software]: ./releasing_software
 [python-package-github]: https://medium.com/@thomas.vidori/how-to-create-a-python-package-and-publish-it-on-github-eebc78b2a12d

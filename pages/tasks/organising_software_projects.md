@@ -110,6 +110,15 @@ project_name/
 
 For best practices and guidance for designing research projects in particular focused on data - check out [the Turing Way Project's Guide for project design][turing-project-design].
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
 [creating_good_readme]: ./creating_good_readme
 [licensing_software]: ./licensing_software
 [releasing_code]: ./releasing_software

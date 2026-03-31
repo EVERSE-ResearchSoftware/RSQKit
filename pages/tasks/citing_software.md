@@ -72,3 +72,12 @@ You can also use the `CFFinit` tool to update an existing `CITATION.cff` file by
 
 A more detailed description on how to create `CITATION.cff` files can be found in the [Turing Way's Handbook for Open and Reproducible Research](https://book.the-turing-way.org/communication/citable/citable-cff.html).
 You can find a list of additional tools to create, validate and convert `CITATION.cff` files in the [CFF GitHub Repository](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench).
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}

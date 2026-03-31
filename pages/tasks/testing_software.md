@@ -232,6 +232,15 @@ Here are a few examples of these principles:
   - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.
   - Continuous Integration automates repetitive tests, saves time and ensures tests are run consistently across different environments and platforms.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
 [software-testing]: https://en.wikipedia.org/wiki/Software_testing
 [software-quality-assurance]: https://en.wikipedia.org/wiki/Software_quality_assurance
 [software-testing-tactics]: https://en.wikipedia.org/wiki/Software_testing_tactics
