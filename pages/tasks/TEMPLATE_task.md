@@ -67,12 +67,11 @@ The RSQKit Editorial Board applies these principles when reviewing task pages; f
 
 ### Solutions 
 
-
-## Tool or domain specific tasks <!-- OPTIONAL (remove this till end of page if not needed) -->
-
-<!--
-Use this section to list tool or domain specific (sub-)tasks. List the pages in the `child_pages:` attribute in the page metadata. Then uncomment the following, including it in the page:
-
 {% assign child_pages = page.child_pages | join: ', ' %}
-{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=4 %}
--->
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}

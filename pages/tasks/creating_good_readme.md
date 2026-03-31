@@ -151,6 +151,16 @@ For more information, see [our guidelines](https://everse.software/RSQKit/licens
 {% tool "somef" %} is a [tool to automatically extract information (metadata) from README files][somef-paper].
 It is not an assessment tool for README files, but can be used for detecting missing parts of a README file.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
+
 [documenting_software]: ./documenting_software
 [README-best-practices]: https://tilburgsciencehub.com/topics/collaborate-share/share-your-work/content-creation/readme-best-practices/
 [readme-guidelines]: https://data.4tu.nl/s/documents/Guidelines_for_creating_a_README_file.pdf

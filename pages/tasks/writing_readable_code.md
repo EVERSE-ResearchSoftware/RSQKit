@@ -84,6 +84,15 @@ have built-in support for checking conformance to style conventions and they wil
 - Use existing and well-tested libraries or packages for common functionality and tasks (e.g. reading and writing data in standard formats) to avoid duplication and reimplementing
 functionality in custom, more error-prone code.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
 [ssi]: https://www.software.ac.uk/
 [fair-rs-principles]: https://www.nature.com/articles/s41597-022-01710-x
 [intermediate-rs-dev]: https://carpentries-incubator.github.io/python-intermediate-development/

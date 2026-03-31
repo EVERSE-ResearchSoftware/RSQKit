@@ -117,6 +117,15 @@ It can maximise their quality and value as research assets and facilitate their 
 
 The[ Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW)][WCI-FW], a global and open community of researchers and developers working with computational workflows across disciplines and domains, has systematically addressed the application of both FAIR data and software principles to computational workflows.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
 [apache-airflow-dag]: https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html
 [cwl]: https://www.commonwl.org/
 [wdl]: https://openwdl.org/
