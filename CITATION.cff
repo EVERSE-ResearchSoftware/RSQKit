@@ -19,6 +19,6 @@ keywords:
   - software quality
   - research
   - RSE
-license: Apache-2.0
 version: v1.0.0
 date-released: '2025-02-25'
+license-url: "https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/LICENSE.md"
