@@ -39,5 +39,13 @@ For example, to create a software release on GitHub:
 - Click on `Publish release`.
 - If your repository is integrated with Zenodo - a new [DOI][software_identifiers] for this software release will automatically be issued by {% tool "zenodo" %}.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [software_identifiers]: ./software_identifiers

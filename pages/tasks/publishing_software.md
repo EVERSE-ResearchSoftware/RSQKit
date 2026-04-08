@@ -25,4 +25,5 @@ Tasks to consider when publishing your software include:
 This is the suggested order in which you should look at the related sub-tasks.
 
 {% assign child_pages = page.child_pages | join: ', ' %}
-{% include section-navigation-tiles.html type="tasks" custom=child_pages training=false sort=false col=3 %}
+{% include section-navigation-tiles.html type="tasks" custom=child_pages training=false sort=false col=2 %}
+

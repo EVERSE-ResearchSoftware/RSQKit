@@ -111,6 +111,15 @@ Not using virtual environments at all and mixing different tools to manage them 
 
 Decide on a package manager and a virtual environment management tool for your programming language and start using them.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software
 [intermediate-rs-dev]: https://carpentries-incubator.github.io/python-intermediate-development/

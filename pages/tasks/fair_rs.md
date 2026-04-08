@@ -86,6 +86,15 @@ Their role is to make quality aspects visible, help researchers identify strengt
 In the context of research software, such assessments are diagnostic rather than evaluative — they guide reflection, transparency, and learning, not scoring or ranking. 
 By using them, researchers can better understand how their software performs across different aspects of FAIRness and make informed decisions about how to improve it.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
 [awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [biotools]: https://bio.tools
 [cff]: https://citation-file-format.github.io/

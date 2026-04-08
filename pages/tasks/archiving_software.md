@@ -61,6 +61,16 @@ Software archiving is now a foundational component of digital research infrastru
 As the scientific community moves toward open, reproducible, and [FAIR (Findable, Accessible, Interoperable, Reusable) principles][fair_rs], robust software preservation practices are essential. 
 Researchers must adopt workflows and tools that not only produce results but also ensure those results can be trusted and reused decades from now.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
+
 [fair_rs]: fair_rs.md
 [software_metadata]: ./software_metadata
 [documenting_software]: ./software_documentation
