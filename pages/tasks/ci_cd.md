@@ -8,8 +8,6 @@ child_pages: [task_automation_github_actions, task_automation_gitlab_ci_cd]
 keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
 ---
 
-## How can you use CI/CD in software development?
-
 ### Description
 
 CI (Continuous Integration) and CD (Continuous Delivery/Continuous Deployment) are software development practices aimed at automating and improving the process of software integration, testing, and delivery.
