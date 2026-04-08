@@ -10,8 +10,6 @@ quality_indicators: [has_ci-tests]
 keywords: ["ci cd", "ci/cd", "ci", "cd", "task automation", "github actions"]
 ---
 
-## Task automation using GitHub Actions
-
 ### Description
 
 {% tool "github-actions" %} is a powerful [automation tool](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions) ([continuous integration (CI)](https://docs.github.com/en/actions/about-github-actions/about-continuous-integration-with-github-actions) and [continuous delivery (CD)](https://docs.github.com/en/actions/about-github-actions/about-continuous-deployment-with-github-actions) platform) that allows you to define workflows (called `actions`) for your repository that help automate tasks such as building, testing and deploying code.
