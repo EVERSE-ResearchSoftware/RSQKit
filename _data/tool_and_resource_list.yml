@@ -1237,3 +1237,8 @@
     CODECHECK tackles one of the main challenges of computational research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
   url: https://codecheck.org.uk/
   catalog: RSQKit
+- id: rsfc
+  name: RSFC
+  description: >-
+    A command line tool that performs a quality assessment based on a series of Research Software Quality Indicators (RSQIs)
+  url: https://rsfc.linkeddata.es
