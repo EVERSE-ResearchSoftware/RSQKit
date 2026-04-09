@@ -77,9 +77,10 @@ Tools and frameworks exist for assessing software FAIRness:
 
 - {% tool "fair-rs-checklist" %} - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
 - {% tool "fair-rs-evaluator" %} - OpenBench's tool for assessing the FAIRness of software tool from its metadata
-- {% tool "fair-rs-checklist" %} - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center- {% tool "howfairis" %} - a command line tool to evaluate a software repository's compliance with the FAIR principles
+- {% tool "howfairis" %} - a command line tool to evaluate a software repository's compliance with the FAIR principles
 - {% tool "codecheck" %} - an approach for independent execution of computations underlying research articles
 - [Common metrics for Research Software][fair-metrics] that may used to assess each of the FAIR4RS principles
+- {% tool "rsfc" %} - a command line interface to automatically evaluate the FAIRness of a Github or Gitlab repository
 
 They not meant to criticise or discredit software or its authors. 
 Their role is to make quality aspects visible, help researchers identify strengths and areas for improvement, and support the evolution of good practices. 
@@ -123,3 +124,4 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 [testing_software]: ./testing_software
 [citing_software]: ./citing_software
 [organising_software_projects]: ./organising_software_projects
+[rsfc]: https://rsfc.linkeddata.es
