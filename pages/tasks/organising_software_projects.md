@@ -5,7 +5,7 @@ contributors: ["Aleksandra Nenadic"]
 page_id: organising_software_projects
 related_pages:
   tasks: [citing_software, creating_good_readme, documenting_software, software_metadata]
-quality_indicators: []
+quality_indicators: [software_has_documentation, internal_cohesion]
 keywords: ["software project", "organising software project"]
 ---
 

@@ -2,7 +2,7 @@
 title: Publishing software
 description: How do you publish your software for reuse by others?
 page_id: publishing_software
-indicators: []
+indicators: [has_releases, software_has_documentation, has_published_package, software_has_license, has_contribution_guidelines, versioning_standards_use, archived_in_software_heritage, archived_in_scholarly_repository, listed_in_registry, descriptive_metadata, software_has_citation]
 child_pages: [software_documentation, software_metadata, software_identifiers, citing_software, packaging_software, releasing_software, archiving_software] 
 #keywords: ["software publishing", "software documentation", "software license", "software licence", "publish software", "software packaging", "software citation", "software identifiers", "software archiving"]
 page_citation: false

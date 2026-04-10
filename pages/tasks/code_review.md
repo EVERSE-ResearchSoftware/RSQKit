@@ -5,7 +5,7 @@ contributors: ["Aleksandra Nenadic"]
 page_id: code_review
 related_pages:
   tasks: []
-quality_indicators: [human_code_review_requirement]
+quality_indicators: [human_code_review_requirement, uses_tool_for_warnings_and_mistakes]
 keywords: ["code review"]
 ---
 
