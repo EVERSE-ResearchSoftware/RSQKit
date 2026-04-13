@@ -5,7 +5,7 @@ contributors: ["Aleksandra Nenadic", "Christian Hüser", "Patrick Bos"]
 page_id: testing_software
 related_pages:
   tasks: []
-quality_indicators: [software_has_tests, has_ci-tests]
+quality_indicators: [software_has_tests, has_ci-tests, software_test_coverage]
 keywords: ["software testing", "code testing", "software test", "code test"]
 
 ---
