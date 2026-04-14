@@ -73,13 +73,14 @@ defaults:
     values:
       type: roles
       type_img: /assets/img/flaticon/management.png
+      page_citation: true
   -
     scope:
       path: "pages/contributing/"
     values:
       type: contributing
       type_img: /assets/img/flaticon/jigsaw.png
-      page_citation: false
+      page_citation: true
   -
     scope:
       path: "pages/tasks/TEMPLATE_task.md"

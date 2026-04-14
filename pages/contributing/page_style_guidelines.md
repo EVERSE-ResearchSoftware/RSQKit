@@ -1,6 +1,7 @@
 ---
 title: Page Style Guidelines
 summary: Comprehensive guidelines for page style and formatting.
+contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Shoaib Sufi"]
 ---
 
 RSQKit uses British English for content.

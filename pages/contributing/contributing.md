@@ -1,6 +1,7 @@
 ---
 title: Get involved
 summary: Different ways to get involved with the project and pointers to various guidelines for contributions.
+contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Shoaib Sufi"]
 ---
 
 The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot.
