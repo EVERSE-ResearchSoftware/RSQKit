@@ -10,7 +10,7 @@ Nevertheless, if you do wish to run the RSQKit website locally for development a
 
 We provide instructions for installing RSQKit and all the software necessary to run it directly on you machine or within a Docker container.
 
-## Installing RSQKit directly on your machine
+## Installing Ruby and prerequisite software
 
 **Prerequisites:** `ruby`, `bundler` and `jekyll`.
 
@@ -21,6 +21,16 @@ To install Ruby, follow the [Ruby installation instructions](https://www.ruby-la
 You will also need [Bundler](https://bundler.io/) (a gem to manage other Ruby gems on your system) - but it is usually preinstalled with modern distributions of Ruby.
 
 To install Jekyll, follow the [official installation instructions](https://jekyllrb.com/docs/installation/).
+
+### Managing Ruby environment
+
+It is recommended to install a Ruby version and environment (package) manager tool. 
+This is to ensure that each Ruby project (including RSQKit) you are working on has an isolated version of Ruby and required Ruby gems.
+
+There are several Ruby environment manager tools - you should use the one you are familiar with.
+If you have not used one before - try [`rbenv`](https://github.com/rbenv/rbenv).
+
+## Installing and running RSQKit locally
 
 After successfully installing `ruby`, `bundler` and `jekyll`, clone the RSQKit repository on your machine (e.g. using SSH):
 
