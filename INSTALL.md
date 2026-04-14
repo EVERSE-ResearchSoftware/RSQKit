@@ -25,9 +25,9 @@ To install Jekyll, follow the [official installation instructions](https://jekyl
 ### Managing Ruby environment
 
 It is recommended to install a Ruby version and environment (package) manager tool. 
-This is to ensure that each Ruby project (including RSQKit) you are working on has an isolated version of Ruby and required Ruby gems.
+This is to ensure that each Ruby project (including RSQKit) you are working on has an isolated version of Ruby and required Ruby gems (dependencies).
 
-There are several Ruby environment manager tools - you should use the one you are familiar with.
+There are several Ruby environment manager tools to chose from - use the one of your choice.
 If you have not used one before - try [`rbenv`](https://github.com/rbenv/rbenv).
 
 ## Installing and running RSQKit locally
