@@ -23,6 +23,13 @@ With experiments existing for multiple decades, high quality, efficient and main
 
 The [Open-source Scientific Software and Service Repository](https://escape-ossr.gitlab.io/ossr-pages/) enables researchers to save time and resources by improving the reproducibility of scientific results through high-quality software from within the community.
 
+If you are looking to contribute or learn more about OSSR services, the following resources may be helpful:
+- [Guidelines for contributing to OSSR projects](https://escape-ossr.gitlab.io/ossr-pages/page/contribute/guidelines_ossr/)
+- [Information on containerization services provided by OSSR](https://escape-ossr.gitlab.io/ossr-pages/page/services/containerization/)
+- [Onboarding page for contributing to OSSR](https://escape-ossr.gitlab.io/ossr-pages/page/contribute/onboarding/) (as an example of domain specific research software practices)
+- [ESCAPE project deliverable on license, provenance, and metadata guidelines](https://doi.org/10.5281/zenodo.7540575)
+- [Open-source scientific research (OSSR) contribution guidelines](https://escape-ossr.gitlab.io/ossr-pages/page/contribute/guidelines_ossr/)
+
 ### Other services
 
 More services for citizen science, open data and data analysis can be found in the [ESCAPE services catalogue](https://projectescape.eu/services).
