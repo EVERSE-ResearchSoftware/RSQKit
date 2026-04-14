@@ -38,10 +38,16 @@ After successfully installing `ruby`, `bundler` and `jekyll`, clone the RSQKit r
 git clone git@github.com:EVERSE-ResearchSoftware/RSQKit.git
 ```
 
-Next, you will need to install the dependencies of the RSQKit itself:
+Navigate to `RSQKit` folder.
 
 ``` bash
 cd RSQKit
+```
+Create your Ruby environment for the RSQKit project (using whatever tool you selected for this).
+
+Next, install the RSQKit's dependencies:
+
+``` bash
 bundle install
 ```
 
