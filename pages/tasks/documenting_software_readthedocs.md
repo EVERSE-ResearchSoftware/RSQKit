@@ -105,9 +105,9 @@ mkdocs:
 
 Integrate your project with Continuous Integration (CI) to automatically rebuild your documentation whenever changes are made:
 
-* {% tool "github-actions" %}: set up a workflow that triggers on every `push` or `pull request`. This helps automate the process of updating the documentation whenever you make changes to the source files.
+* {% tool "github_actions" %}: set up a workflow that triggers on every `push` or `pull request`. This helps automate the process of updating the documentation whenever you make changes to the source files.
 
-* {% tool "gitlab-ci-cd" %}: similarly to GitHub, you can configure GitLab CI pipelines to handle automatic updates.
+* {% tool "gitlab-cicd" %}: similarly to GitHub, you can configure GitLab CI pipelines to handle automatic updates.
 
 #### 6. Customise and Build Documentation
 

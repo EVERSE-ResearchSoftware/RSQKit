@@ -33,9 +33,9 @@ For more on software metadata, check out the [Software Metadata](./software_meta
 
 - **Do It Yourself**: You can manually create the file using the CodeMeta schema. Check out the example below.
 - **Use Tools**:  
-  - {% tool "codemetagenerator" %} for a form-based approach  
+  - {% tool "codemeta-generator" %} for a form-based approach  
   - {% tool "somef" %} for command-line generation  
-  - {% tool "autocodemeta" %} for an interactive tool that guides you through creating a `codemeta.json` file step by step.
+  - {% tool "auto-codemeta" %} for an interactive tool that guides you through creating a `codemeta.json` file step by step.
   - NB Always review and add details like ORCID iDs and funder info.
 - **Archive Your Work**: Release your software on a platform that assigns DOIs, like {% tool "zenodo" %}. Add the DOI to your `codemeta.json` as an `identifier`.
 - **Validate**: Use a service like {% tool "jasonldvalidator" %} to ensure everything is correct.

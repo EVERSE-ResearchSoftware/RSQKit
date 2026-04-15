@@ -14,9 +14,9 @@ keywords: ["ci cd", "ci/cd", "ci", "cd", "task automation", "gitlab ci/cd"]
 
 ### Description
 
-{% tool "gitlab-ci-cd" %} is the tool used in [GitLab hosted projects to run CI/CD pipelines][gitlab-ci-documentation].
+{% tool "gitlab-cicd" %} is the tool used in [GitLab hosted projects to run CI/CD pipelines][gitlab-ci-documentation].
 It is the equivalent of [Github Actions][task_automation_github_actions] for GitHub-hosted repositories.
-If you are interested in migrating your {% tool "github-actions" %} "actions" into GitLab CI/CD, you can follow the [GitLab-dedicated article on Github Actions migration](https://docs.gitlab.com/ci/migration/github_actions/).
+If you are interested in migrating your {% tool "github_actions" %} "actions" into GitLab CI/CD, you can follow the [GitLab-dedicated article on Github Actions migration](https://docs.gitlab.com/ci/migration/github_actions/).
 
 Why would you set up a GitLab CI/CD pipeline?
 It can help you automate:
