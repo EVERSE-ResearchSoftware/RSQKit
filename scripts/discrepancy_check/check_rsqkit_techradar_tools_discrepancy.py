@@ -10,7 +10,7 @@ from deepdiff import DeepDiff
 from rich.table import Table
 from rich.console import Console
 
-TECHRADAR_GITHUB_API_URL = "https://api.github.com/repos/EVERSE-ResearchSoftware/TechRadar/contents/data/quality-tools"
+TECHRADAR_GITHUB_API_URL = "https://api.github.com/repos/EVERSE-ResearchSoftware/TechRadar/contents/quality-tools"
 
 def load_yaml_tools_from_rsqkit():
     YAML_MATCH_FIELD = "description"
