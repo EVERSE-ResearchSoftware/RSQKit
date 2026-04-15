@@ -74,7 +74,7 @@ The project employs a well-integrated toolchain to ensure high software quality 
 * **Package Management:** Node Package Manager ([NPM](https://www.npmjs.com/)) handles dependencies.
 * **Productivity:** {% tool "github-copilot" %} is used to assist with developer productivity and accelerate progress.
 * **Containerisation:** Full containerisation with {% tool "docker" %} is planned but not yet implemented. Currently, the environment is managed via detailed setup instructions and version-locked dependencies (`package.json`) to ensure consistency across local setups.
-* **Future Plans:** {% tool "github-actions" %}, automated dependency updates ({% tool "dependabot" %} to maintain security with minimal effort), and AI code generation are being considered to accelerate development progress, though risks regarding codebase stability and knowledge retention are acknowledged.
+* **Future Plans:** {% tool "github_actions" %}, automated dependency updates ({% tool "dependabot" %} to maintain security with minimal effort), and AI code generation are being considered to accelerate development progress, though risks regarding codebase stability and knowledge retention are acknowledged.
 
 ## FAIR & Open 
 ### Adhering to FAIR principles for research software to ensure findability, accessibility, interoperability, and reusability

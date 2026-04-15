@@ -182,7 +182,7 @@
     research papers, data sets, research software, reports, and other
     research-related digital artefacts.
   url: 'https://zenodo.org/'
-  catalog: RSQKit
+  catalog: TechRadar
 - id: figshare
   name: FigShare
   description: >-
@@ -258,12 +258,12 @@
   description: Publish static websites directly from GitHub repository
   url: 'https://pages.github.com/'
   catalog: TechRadar
-- id: github-actions
+- id: github_actions
   name: GitHub Actions
   description: 'GitHub''s infrastructure for continuous integration, deployment and delivery'
   url: 'https://github.com/features/actions'
   catalog: TechRadar
-- id: gitlab-ci-cd
+- id: gitlab-cicd
   name: GitLab CI/CD
   description: 'GitLab''s infrastructure for continuous integration, deployment and delivery'
   url: 'https://docs.gitlab.com/ee/topics/build_your_application.html'
@@ -304,7 +304,7 @@
     prioritize security and privacy risks.
   url: 'https://github.com/bearer/bearer'
   catalog: TechRadar
-- id: hermesworkflows
+- id: hermes-workflow
   name: Hermes Workflows
   description: >-
     The HERMES workflow enables automated publication of rich research software
@@ -312,7 +312,7 @@
     tooling.
   url: 'https://docs.software-metadata.pub/en/latest/'
   catalog: TechRadar
-- id: cffinitgenerator
+- id: cffinit
   name: CFFINIT Generator
   description: >-
     Generate software citation metadata files with ease. CITATION.cff files are
@@ -320,7 +320,7 @@
     software (and datasets).
   url: 'https://citation-file-format.github.io/cff-initializer-javascript/#/'
   catalog: TechRadar
-- id: codemetagenerator
+- id: codemeta-generator
   name: CodeMeta Generator
   description: >-
     A free, open-source project that creates a minimal metadata schema for
@@ -356,7 +356,7 @@
   description: Automated Python code formatter
   url: 'https://github.com/psf/black'
   catalog: TechRadar
-- id: precommit
+- id: pre-commit
   name: precommit
   description: A framework for managing and maintaining multi-language pre-commit hooks
   url: 'https://pre-commit.com/'
@@ -368,12 +368,12 @@
     SPDX Tags
   url: 'https://reuse.software/'
   catalog: TechRadar
-- id: fairaware
+- id: fair-aware
   name: FAIR Aware
   description: Guided approach to assess the FAIRness of data
   url: 'https://fairaware.dans.knaw.nl/'
   catalog: TechRadar
-- id: creativecommons-licence-chooser
+- id: creative-commons-license-chooser
   name: Creative Commons License Chooser
   description: >-
     Creative Commons license chooser to help you select an appropriate Creative
@@ -424,8 +424,8 @@
     environments.
   url: 'https://apptainer.org/'
   catalog: TechRadar
-- id: singularity
-  name: Singularity
+- id: singularityce 
+  name: SingularityCE
   description: >-
     Singularity is an open source container platform allows us to create and run
     containers that package up pieces of software in a way that is portable and
@@ -528,8 +528,8 @@
   description: 'Automation server to support building, testing and deploying software'
   url: 'https://www.jenkins.io/'
   catalog: TechRadar
-- id: travis
-  name: Travis
+- id: travis-ci
+  name: Travis CI
   description: 'CI platform to support building, testing and deploying software'
   url: 'https://www.travis-ci.com/'
   catalog: TechRadar
@@ -580,7 +580,7 @@
     Invenio Framework and Zenodo
   url: 'https://inveniosoftware.org/products/rdm/'
   catalog: RSQKit
-- id: softwareheritage
+- id: software-heritage
   name: Software Heritage
   description: >-
     Software Heritage archive is the largest public collection of source code in
@@ -600,14 +600,14 @@
     automatically extracting relevant software information from README files
   url: 'https://github.com/KnowledgeCaptureAndDiscovery/somef'
   catalog: TechRadar
-- id: somefvider
+- id: somef-vider
   name: SOMEF Vider
   description: >-
     Somef Vider is a web application that retrieves the metadata of the given
     GitHub repository through the Software Metadata Extraction Framework (SOMEF)
     and shows it in a user-friendly way.
   url: 'https://somef.linkeddata.es/'
-  catalog: RSQKit
+  catalog: TechRadar
 - id: readthedocs
   name: Read the Docs
   description: >-
@@ -852,8 +852,8 @@
   description: Bundler is a Ruby gems and environment management tool for Ruby projects.
   url: 'https://bundler.io/'
   catalog: RSQKit
-- id: fair-python-coockiecutter
-  name: FAIR Python Coockiecutter
+- id: fair-python-cookiecutter
+  name: FAIR Python Cookiecutter
   description: >-
     FAIR Python Cookiecutter is a cookiecutter template command-line tool to
     help you kickstart a modern best-practice Python project with FAIR metadata
@@ -1144,11 +1144,11 @@
     Software Management Wizard builds on the Data Stewardship Wizard (DSW) project to provide guided, structured support for creating and maintaining Software Management Plans (SMPs) throughout the software lifecycle. It enables teams to collaboratively produce SMPs that are both human-readable and machine-actionable, while aligning with community standards and supporting different types of research software.
   url: 'https://smw.dsw.elixir-europe.org/'
   catalog: RSQKit
-- id: autocodemeta
+- id: auto-codemeta
   name: Auto CodeMeta generator
   description: The Auto CodeMeta generator is a web application designed to simplify the creation of codemeta.json files, which are used to provide structured metadata for research software and code.
   url: https://autocodemeta.linkeddata.es/
-  catalog: RSQKit
+  catalog: TechRadar
 - name: flowR
   id: flowr
   description: >-
@@ -1199,8 +1199,8 @@
     and help to find memory leaks.
   url: 'https://memtt.github.io/malt/doc/latest/'
   catalog: TechRadar
-- id: renovate
-  name: renovate
+- id: renovatebot
+  name: renovate bot
   description: >-
     Automates dependency updates, multi-platform and multi-language.
   url: 'https://docs.renovatebot.com/'
