@@ -1242,3 +1242,31 @@
   description: >-
     A command line tool that performs a quality assessment based on a series of Research Software Quality Indicators (RSQIs)
   url: https://rsfc.linkeddata.es
+- id: apache-license
+  name: Apache-2.0
+  description: A permissive license that lets you use, modify, and distribute code (even commercially) with attribution and patent protection.
+  url: https://spdx.org/licenses/Apache-2.0.html
+- id: cc-by-license
+  name: CC-BY-SA-4.0
+  description: A Creative Commons license that allows any use (including commercial) as long as proper credit is given.
+  url: https://spdx.org/licenses/CC-BY-SA-4.0.html
+- id: lgplv2
+  name: LGPLv2
+  description: A  copyleft license allowing linking in proprietary software, but modifications to the LGPL code itself must stay open.
+  url: https://spdx.org/licenses/LGPL-2.1-or-later.html
+- id: php
+  name: PHP
+  description: A widely used open-source scripting language designed for web development that runs on the server side.
+  url: https://www.php.net/
+- id: openebench
+  name: OpenEBench
+  description: An open infrastructure for benchmarking bioinformatics tools and workflows, enabling continuous evaluation and comparison of scientific software.
+  url: https://openebench.bsc.es/
+- id: openebench-vre
+  name: OpenEBench VRE
+  description: A virtual research environment that provides integrated tools and workflows for running, managing and analyzing bioinformatics benchmarks within OpenEBench.
+  url: https://openebench.bsc.es/vre/home/
+- id: openebench-observatory
+  name: OpenEBench Software Observatory
+  description: A platform component that monitors and analyses bioinformatics software quality, usage and sustainability within the OpenEBench ecosystem.
+  url: https://openebench.bsc.es/observatory/
