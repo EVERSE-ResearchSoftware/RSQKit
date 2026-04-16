@@ -54,7 +54,7 @@ The {% tool "openebench" %} codebase is primarily developed using:
 - {% tool "java" %} and {% tool "python" %} for data processing and benchmarking workflows infrastructure.
 - Observatory backend: {% tool "python" %} (FastAPI as REST API paradigm) and {% tool "javascript" %} (Node/Express.js).
 - {% tool "java" %} for REST and graphQL services of the [scientific benchmarking][OPENEBENCH_SCI], and {% tool "python" %} for accessory REST services.
-- PHP for {% tool "openebench-vre" %}, which uses bash and Nextflow for orchestrating benchmarking pipelines.
+- {% tool "php" %} for {% tool "openebench-vre" %}, which uses bash and Nextflow for orchestrating benchmarking pipelines.
 - Most of the frontends are written in Javascript based on Nuxt framework.
 
 The platform is organised into independent but interoperable components, enabling reuse across different benchmarking communities and facilitating long-term maintenance and extension.
