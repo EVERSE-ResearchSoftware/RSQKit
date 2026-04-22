@@ -1,7 +1,7 @@
 ---
 title: "Using static analysis"
 description: "How to use static analysis tools to detect bugs, enforce coding standards, and improve the quality of research software."
-contributors: []
+contributors: ["Claude Sonnet", "Shoaib Sufi"]
 page_id: static_analysis
 related_pages:
   tasks: [ci_cd, code_review, languages_tools_infrastructures, reproducible_software_environments]
