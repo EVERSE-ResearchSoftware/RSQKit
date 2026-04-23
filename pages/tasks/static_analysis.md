@@ -1,7 +1,7 @@
 ---
 title: "Using static analysis"
 description: "How to use static analysis tools to detect bugs, enforce coding standards, and improve the quality of research software."
-contributors: ["Claude Sonnet", "Shoaib Sufi"]
+contributors: ["Shoaib Sufi"]
 page_id: static_analysis
 related_pages:
   tasks: [ci_cd, code_review, languages_tools_infrastructures, reproducible_software_environments]
@@ -59,9 +59,12 @@ The following are authoritative and highly regarded resources for going deeper o
 
 - **[pre-commit framework documentation](https://pre-commit.com/)** — The definitive guide to wiring static analysis and other checks into your local development workflow across any language. Covers installation, hook configuration, and CI integration — the most direct path from "I have a tool" to "the tool runs automatically".
 
-- **[Software Engineering at Google](https://abseil.io/resources/swe-book) — Winters, Manshreck & Wright (O'Reilly, freely available online)** — Chapter 20 covers how to think about static analysis at scale, including false positive rates, developer trust, and rolling tools out to large codebases. The strategic framing maps directly onto the considerations above, particularly if you are introducing static analysis to an established project.
+- **[Software Engineering at Google](https://abseil.io/resources/swe-book) — Winters, Manshreck & Wright (O'Reilly, freely available online)** — Chapter 26 covers how to think about static analysis at scale, including false positive rates, developer trust, and rolling tools out to large codebases. The strategic framing maps directly onto the considerations above, particularly if you are introducing static analysis to an established project.
 
 - **[Continuous Delivery](https://continuousdelivery.com/) — Jez Humble & David Farley** — The authoritative text on building automated delivery pipelines with quality gates built in. If you want to understand why static analysis belongs in your CI pipeline rather than being run ad hoc, and how it fits alongside testing and other automated checks, this is the place to start.
 
 - **[Code Complete](https://www.microsoftpressstore.com/store/code-complete-9780735619678) — Steve McConnell (Microsoft Press)** — A foundational text on software construction quality. Not exclusively about static analysis, but provides the broader context for why code quality practices matter and how they interact. Most useful if you want to understand the principles behind the tools rather than just use them.
 
+## AI Disclosure 
+
+This work was produced with the assistance of Claude Sonnet 4.6, under the strict editorial control and factual verification of the human author.
