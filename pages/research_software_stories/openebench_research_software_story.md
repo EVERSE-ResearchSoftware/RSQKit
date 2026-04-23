@@ -124,7 +124,7 @@ These tools ensure the software remains stable and reproducible across environme
     
 **Reusable**:
 - The different git repositories holding both the code and the data model are publicly hosted both on {% tool "github" %}
-  and BSC's Gitlab under open-source licenses ({% tool "apache-license" %}), {% tool "cc-by-license" %}, {% tool "lgplv2 %}, etc...).
+  and BSC's Gitlab under open-source licenses ({% tool "apache-license" %}), {% tool "cc-by-license" %}, {% tool "lgplv2" %}, etc...).
 - Metrics workflows provided by the communities must be written in Nextflow and depend on Docker images, enabling reuse.
 - The development process is transparent, with scientific and technical benchmarking communities involvement in decisions and feature development.
 
