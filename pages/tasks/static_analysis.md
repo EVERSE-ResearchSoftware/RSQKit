@@ -40,14 +40,14 @@ Static analysis is the automated examination of source code without executing it
 **Actionable steps**
 
 - **Choose a tool appropriate for your language and goals:**
-  - *Python*: [ruff](https://docs.astral.sh/ruff/) (fast linter and formatter), [mypy](https://mypy.readthedocs.io/) or [pyright](https://github.com/microsoft/pyright) (type checking), [bandit](https://bandit.readthedocs.io/) (security)
-  - *R*: [lintr](https://lintr.r-lib.org/) (linting and style)
-  - *C/C++*: [clang-tidy](https://clang.llvm.org/extra/clang-tidy/) (linting and bug-finding), [cppcheck](https://cppcheck.sourceforge.io/) (static analysis)
-  - *Fortran*: [fortran-linter](https://github.com/cphyc/fortran-linter), [flint](https://github.com/JonasToth/flint) (options are more limited than for modern languages)
-  - *Julia*: [JET.jl](https://aviatesk.github.io/JET.jl/stable/) (type-based error detection), [Aqua.jl](https://juliatesting.github.io/Aqua.jl/stable/) (package quality checks)
+  - *Python*: {% tool "ruff" %} (fast linter and formatter), {% tool "mypy" %} or {% tool "pyright" %} (type checking), {% tool "bandit" %} (security)
+  - *R*: {% tool "lintr" %} (linting and style)
+  - *C/C++*: {% tool "clang-tidy" %} (linting and bug-finding), {% tool "cppcheck" %} (static analysis)
+  - *Fortran*: {% tool "fortran-linter" %}, {% tool "flint" %} (options are more limited than for modern languages)
+  - *Julia*: {% tool "jet-jl" %} (type-based error detection), {% tool "aqua-jl" %} (package quality checks)
 - **Start with the tool's default or recommended configuration** — don't spend time customising rules before you understand what the tool flags in your codebase.
 - **Integrate into your CI pipeline** — run static analysis automatically on every pull request or push. Most tools produce output that CI systems (GitHub Actions, GitLab CI, etc.) can surface as pass/fail checks.
-- **Add a pre-commit hook** — running a fast linter locally before you commit catches issues earlier and reduces CI noise. [pre-commit](https://pre-commit.com/) is a widely used framework for managing this across languages.
+- **Add a pre-commit hook** — running a fast linter locally before you commit catches issues earlier and reduces CI noise. {% tool "precommit" %} is a widely used framework for managing this across languages.
 - **Agree team conventions** — document which tools you are using, which rules are enabled, and how suppressions should be handled. This prevents individual developers from working around warnings silently.
 - **Fix issues incrementally** — if you are introducing static analysis to an existing project, use the tool's baseline or ignore-file mechanism to suppress pre-existing issues, then address them in batches over time.
 

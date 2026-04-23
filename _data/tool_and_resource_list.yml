@@ -1237,3 +1237,65 @@
     CODECHECK tackles one of the main challenges of computational research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
   url: https://codecheck.org.uk/
   catalog: RSQKit
+- id: pyright
+  name: Pyright
+  description: >-
+    Pyright is a fast type checker for Python, developed by Microsoft, with
+    support for type inference, strict mode, and integration with VS Code
+    and other editors via the Language Server Protocol.
+  url: 'https://github.com/microsoft/pyright'
+  catalog: RSQKit
+- id: lintr
+  name: lintr
+  description: >-
+    lintr is a static code analysis tool for R that checks for style,
+    syntax errors, and possible semantic issues, and integrates with
+    common R development environments.
+  url: 'https://lintr.r-lib.org/'
+  catalog: RSQKit
+- id: clang-tidy
+  name: clang-tidy
+  description: >-
+    clang-tidy is a clang-based C++ linter tool providing an extensible
+    framework for diagnosing and fixing typical programming errors, style
+    violations, and interface misuse.
+  url: 'https://clang.llvm.org/extra/clang-tidy/'
+  catalog: RSQKit
+- id: cppcheck
+  name: cppcheck
+  description: >-
+    cppcheck is a static analysis tool for C and C++ code that detects
+    bugs, undefined behaviour, and dangerous coding constructs without
+    requiring the code to compile.
+  url: 'https://cppcheck.sourceforge.io/'
+  catalog: RSQKit
+- id: fortran-linter
+  name: fortran-linter
+  description: >-
+    fortran-linter is a simple linting tool for Fortran source code that
+    checks for common style and correctness issues.
+  url: 'https://github.com/cphyc/fortran-linter'
+  catalog: RSQKit
+- id: flint
+  name: flint
+  description: >-
+    flint is a Fortran linter focused on enforcing coding standards and
+    detecting potential issues in Fortran source code.
+  url: 'https://github.com/JonasToth/flint'
+  catalog: RSQKit
+- id: jet-jl
+  name: JET.jl
+  description: >-
+    JET.jl is a Julia package that uses Julia's type inference to detect
+    potential errors and type instabilities in code without executing it,
+    functioning as a static analyser for Julia programs.
+  url: 'https://aviatesk.github.io/JET.jl/stable/'
+  catalog: RSQKit
+- id: aqua-jl
+  name: Aqua.jl
+  description: >-
+    Aqua.jl (Auto QUality Assurance for Julia packages) provides automated
+    quality checks for Julia packages, including ambiguity detection,
+    unbound type parameters, and stale dependency checks.
+  url: 'https://juliatesting.github.io/Aqua.jl/stable/'
+  catalog: RSQKit
