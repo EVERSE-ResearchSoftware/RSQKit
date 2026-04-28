@@ -10,7 +10,7 @@ Nevertheless, if you do wish to run the RSQKit website locally for development a
 
 We provide instructions for installing RSQKit and all the software necessary to run it directly on you machine or within a Docker container.
 
-## Installing Ruby and prerequisite software
+## Running RSQKit locally using Jekyll
 
 **Prerequisites:** `ruby`, `bundler` and `jekyll`.
 
@@ -77,3 +77,11 @@ docker-compose up
 ```
 
 You should now be able to access your local copy of RSQKit on <http://127.0.0.1:4000>.
+
+If you experience a message error like `jekyll-1 | Liquid Exception: No repo name found.`, it might be that Jekyll cannot find the `origin` Git remote pointing to your github.com repository. 
+To fix this error, you can either:
+
+- Rename your local Git remote to `origin`. Do `git remote -v` to see the list of remotes, then `git remote rename <old-name-current-repo> origin`, or
+- Add `repository: EVERSE-ResearchSoftware RSQKit` line to `_config.yml`.
+
+Then re-run the previous two `docker-compose` commands.
