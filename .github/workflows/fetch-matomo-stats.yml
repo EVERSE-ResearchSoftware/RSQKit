@@ -5,7 +5,11 @@ on:
     - cron: '0 6 1 * *'    # runs first of each month at 6am UTC
   workflow_dispatch:       
   push:
-    branches: [main]       
+    branches: 
+      - main
+    pull_request:
+      branches:
+        - "add_stats"   
 
 jobs:
   fetch-stats:
@@ -27,7 +31,7 @@ jobs:
         env:
           MATOMO_URL:     ${{ secrets.MATOMO_URL }}      # optional — defaults to https://matomo.research.software/
           MATOMO_SITE_ID: ${{ secrets.MATOMO_SITE_ID }}  # optional — defaults to 7
-          MATOMO_TOKEN:   ${{ secrets.MATOMO_TOKEN }}    # leave unset to use dummy data
+          MATOMO_TOKEN:   ${{ secrets.MATOMO_TOKEN }}    # if unset to uses dummy data
         run: python scripts/matomo_stats/fetch_matomo_stats.py
 
       - name: Commit updated stats
