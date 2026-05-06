@@ -5,8 +5,8 @@ on:
     - cron: '0 6 1 * *'    # runs first of each month at 6am UTC
   workflow_dispatch:       
   push:
-    branches: 
-      - main
+    # branches: 
+    #   - main
     pull_request:
       branches:
         - "add_stats"   
@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch Matomo stats
+      - name: Fetch Matomo Stats
         env:
           MATOMO_URL:     ${{ secrets.MATOMO_URL }}      # optional — defaults to https://matomo.research.software/
           MATOMO_SITE_ID: ${{ secrets.MATOMO_SITE_ID }}  # optional — defaults to 7
