@@ -94,7 +94,7 @@ def main():
             output = DUMMY_DATA
 
     out_path = os.path.join(
-        os.path.dirname(__file__), "../_data/matomo_stats.json"
+        os.path.dirname(__file__), "../../_data/matomo_stats.json"
     )
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2)

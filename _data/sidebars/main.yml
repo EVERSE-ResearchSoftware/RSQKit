@@ -163,7 +163,7 @@ subitems:
         url: /contributors
       - title: List of all pages
         url: /all_pages
-  - title: Site stats
+  - title: Site Statistics
     url: /site_statistics
     description: Browse site statistics
 #  - title: All training resources
