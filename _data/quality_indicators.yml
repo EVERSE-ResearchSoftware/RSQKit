@@ -63,6 +63,33 @@
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
     status: Active
     version: 1.0.0
+-   abbreviation: code_duplication_ok
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 14-04-2026
+    description: The code duplication ratio is maintained at a reasonable level according
+        to community's standards and conventions. Code duplication ratio is the percentage
+        of code within a code base or project that is syntactically identical, often
+        measured using code blocks. An example for calculating it may be (lines_duplicated/lines_of_code)*100.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/code_duplication_ok
+    keywords:
+    - maintainability
+    - duplication
+    - quality
+    - code
+    name: Code duplication follows community conventions
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+        name: 'Definition, approaches, and analysis of code duplication detection
+            (2006–2020): a critical review'
+        url: https://doi.org/10.1007/s00521-022-07707-2
+    status: Active
+    version: 1.0.0
 -   abbreviation: codemeta_completeness
     author:
     -   '@type': schema:Person
