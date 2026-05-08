@@ -90,6 +90,40 @@
         url: https://doi.org/10.1007/s00521-022-07707-2
     status: Active
     version: 1.0.0
+-   abbreviation: code_smells_ok
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 14-04-2026
+    description: The code smell ratio is maintained at a reasonable level according
+        to community standards and conventions. Code smells are indicators of possible
+        design problems mainly for maintainability of the code (i.e. functions too
+        large, code that is how to read, too many input parameters for a function,
+        etc.). The density of code smells can be estimated with the code smell ratio,
+        an estimator of code smells within a codebase of project often meassured using
+        rule-based checks (i.e. Sonarqube). An example for calculating it could be
+        (code_smells/lines_of_code)*1000.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/code_smells_ok
+    keywords:
+    - maintainability
+    - quality
+    - code smell
+    - code
+    name: Code smells follow community conventions
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+    -   name: 'Socially-Informed Jupyter Notebook Quality: A Role- and Lifecycle-Aware
+            Metrics Framework'
+        url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11216562&tag=1
+    -   name: A Systematic Literature Review on the Code Smells Datasets and Validation
+            Mechanisms
+        url: https://doi.org/10.1145/3596908
+    status: Active
+    version: 1.0.0
 -   abbreviation: codemeta_completeness
     author:
     -   '@type': schema:Person
@@ -155,7 +189,7 @@
     created: 10-03-2026
     description: Cyclomatic complexity (i.e., the number of linearly independent paths
         through a program’s source code) of the whole software component or modules/components/classes/functions/methods
-        should follow the conventions established by the community  responsible for
+        should follow the conventions established by the community responsible for
         maintaining the tool. Cyclomatic complexity is created by calculating the
         number of different code paths in the flow of the program. A program that
         has complex control flow requires more tests to achieve good code coverage
@@ -558,6 +592,41 @@
         '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
         name: Accessibility and preservation. RSMD 2.3
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
+    status: Active
+    version: 1.0.0
+-   abbreviation: maintainability_index_ok
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 14-04-2026
+    description: 'The maintainability index (i.e., degree of effectiveness and efficiency
+        with which a product or system can be modified by the intended maintainers)
+        should follow conventions and standards established by the community responsible
+        for maintaining the source code or system. The maintainability index depends
+        on 3 main factors: cyclomatic complexiy, lines of code and halstead volume
+        (amount of information that needs to be processed to understand the code).
+        An example for calculating it could be MAX(0,(171 - 5.2 * ln(Halstead Volume)
+        - 0.23 * (Cyclomatic Complexity) - 16.2 * ln(Lines of Code))*100 / 171).'
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/maintainability_index_ok
+    keywords:
+    - maintainability
+    - code
+    - maintainability index
+    name: Maintainability index follows community conventions
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+    -   identifier: https://zenodo.org/records/10647227
+        name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
+        url: https://zenodo.org/records/10647227
+    -   name: 'Socially-Informed Jupyter Notebook Quality: A Role- and Lifecycle-Aware
+            Metrics Framework'
+        url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11216562&tag=1
+    -   name: Code metrics - Maintainability index range and meaning
+        url: https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-maintainability-index-range-and-meaning?view=visualstudio
     status: Active
     version: 1.0.0
 -   abbreviation: metadata_is_up_to_date
