@@ -159,6 +159,7 @@ The project emphasises modular design, open standards, and containerization to r
 
 <!-- External References embedded as links -->
 
+- [OPENEBENCH]: https://openebench.bsc.es/
 - [OPENEBENCH_GITHUB]: https://github.com/inab/openebench-hub
 - [OPENEBENCH_TECH]: https://openebench.bsc.es/tool
 - [OPENEBENCH_SCI]: https://openebench.bsc.es/benchmarking
