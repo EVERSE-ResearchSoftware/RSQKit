@@ -11,7 +11,7 @@ quality_indicators: [] # a comma separated list of indicators related to this pa
 keywords: [] # a comma separated list of keywords related to this page (surround multi-word terms in quotes), e.g. keywords: ["ci", "cd", "continuous integration", "continuous deployment"] - these terms will be used to automatically discover relevant training
 ---
 
-<!-- GUIDANCE
+*START GUIDANCE (REMOVE THIS SECTION FROM YOUR TASK PAGE)*
 
 ** The following should be the approach taken when writing or reviewing RSQKit task pages:
 
@@ -56,7 +56,7 @@ Read some of the existing task pages on RSQKit - https://everse.software/RSQKit/
 
 The RSQKit Editorial Board applies these principles when reviewing task pages; following them will help ensure consistency and quality across the toolkit.
 
--->
+*END GUIDANCE*
 
 
 ## Task (or sub-task) 
