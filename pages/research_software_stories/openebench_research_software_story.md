@@ -155,7 +155,7 @@ The project emphasises modular design, open standards, and containerization to r
 - [OpenEBench Scientific benchmarking tools][OPENEBENCH_TOOLS]
 - [OpenEBench Scientific level2 ingestion tools][OPENEBENCH_ING_TOOLS]
 - [OpenEBench Scientific frontend code][OPENEBENCH_FRONTEND]
-- OpenEBench's [Technical monitoring repository metadata enricher][OPENEBENCH_TECH_METADATA]
+- [OpenEBench Technical monitoring repository metadata enricher][OPENEBENCH_TECH_METADATA]
 
 
 <!-- External References embedded as links -->
