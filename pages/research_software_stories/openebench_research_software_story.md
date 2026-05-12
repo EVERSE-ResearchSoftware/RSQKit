@@ -149,7 +149,7 @@ The project emphasises modular design, open standards, and containerization to r
 - [OpenEBench scientific benchmarking][OPENEBENCH_SCI]
 - [OpenEBench Software Observatory][OPENEBENCH_OB]
 - [OpenEBench ReadTheDocs][OPENEBENCH_DOC]
-- [OpenEBEnch Scientific benchmarking data model][OPENEBENCH_MODEL]
+- [OpenEBench Scientific benchmarking data model][OPENEBENCH_MODEL]
 - [OpenEBench Scientific benchmarking REST and graphQL code][OPENEBENCH_API]
 - [Quest for Orthologs benchmarking metrics computation workflow][OPENEBENCH_BENCH]
 - [OpenEBench Scientific benchmarking tools][OPENEBENCH_TOOLS]
