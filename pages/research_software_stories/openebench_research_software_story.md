@@ -145,7 +145,7 @@ The project emphasises modular design, open standards, and containerization to r
 ## References 
 
 - [OpenEBench main entry point][OPENEBENCH]
-- [OpenEBench technical monitoring][[OPENEBENCH_TECH]
+- [OpenEBench technical monitoring][OPENEBENCH_TECH]
 - [OpenEBench scientific benchmarking][OPENEBENCH_SCI]
 - [OpenEBench Software Observatory][OPENEBENCH_OB]
 - [OpenEBench ReadTheDocs][OPENEBENCH_DOC]
