@@ -11,9 +11,10 @@ quality_indicators: [] # a comma separated list of indicators related to this pa
 keywords: [] # a comma separated list of keywords related to this page (surround multi-word terms in quotes), e.g. keywords: ["ci", "cd", "continuous integration", "continuous deployment"] - these terms will be used to automatically discover relevant training
 ---
 
-<!-- GUIDANCE
+```
+*---START GUIDANCE (REMOVE THIS SECTION FROM YOUR TASK PAGE)---*
 
-** The following should be the approach taken when writing or reviewing RSQKit task pages:
+**The following should be the approach taken when writing or reviewing RSQKit task pages:
 
    - The reader should clearly understand why the topic matters and why this task is important for research software quality.
    - Be accurate and ensure the content is factually correct and reflects current good practices on research software.
@@ -26,7 +27,7 @@ keywords: [] # a comma separated list of keywords related to this page (surround
      - Aim for the page to stand on its own as a “good enough” introduction to the topic, even when external links are not followed.
    - Overall, a reader should be able to leave the page with a correct understanding of the task and how to approach it.
 
-** The format of the task pages are sets of headings:
+**The format of the task pages are sets of headings:
 
 Task 
    - The task or sub-task description e.g., "Why is it important to have a good README file?" and a further sub-task might be, "What key sections should a README include?"
@@ -43,20 +44,21 @@ Solutions
 
 This structure (task-description-considerations-solutions) should be repeated if the overall task breaks down into distinct sub-tasks.
 
-** Add any missing tools into the _data/tool_and_resource_list.yml file
+**Add any missing tools into the _data/tool_and_resource_list.yml file
 
   - When referring to a tool on the page use the tool format, e.g. {% tool "git" %}. 
   - Only reference tools and resources that are relevant and add clear value for the task being described (err on the side of referencing a tool/resource rather than not).
 
-** Read existing pages to get inspiration
+**Read existing pages to get inspiration
 
 Read some of the existing task pages on RSQKit - https://everse.software/RSQKit/tasks and copy the approach of those you like and ideally align with the above.
 
-** All markdown comments and page metadata comments can be removed before making a pull request.
+**All Markdown comments and page metadata comments can be removed before making a pull request.
 
-The RSQKit Editorial Board applies these principles when reviewing task pages; following them will help ensure consistency and quality across the toolkit.
-
--->
+The RSQKit Editorial Board applies these principles when reviewing task pages -
+following them will help ensure consistency and quality across the toolkit.
+*---END GUIDANCE---*
+```
 
 
 ## Task (or sub-task) 
@@ -72,6 +74,8 @@ The RSQKit Editorial Board applies these principles when reviewing task pages; f
 ## Tool- or Domain-Specific Tasks
 
 This is a suggested list tool-specific sub-tasks to have a look at.
+
+## Further Reading
 
 {% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
 {% endif %}

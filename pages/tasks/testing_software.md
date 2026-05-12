@@ -188,7 +188,7 @@ Hence, testing is an integral part and a widely accepted use case of CI.
 Testing in a CI pipeline goes one step further compared to the sole use of test automation frameworks.
 In addition to using the test automation framework locally and starting the execution of test within it manually, CI determines when and how to execute our test cases automatically and runs them on an integration machine.
 For example, as soon as a commit is pushed or a merge to a software development branch is performed, the integration machine starts a CI pipeline and executes the test cases and reports the test results in the so-called CI job log.
-Popular examples of CI infrastructures include {% tool "github-actions" %} and {% tool "gitlab-ci-cd" %}.
+Popular examples of CI infrastructures include {% tool "github_actions" %} and {% tool "gitlab-cicd" %}.
 
 ### Considerations
 

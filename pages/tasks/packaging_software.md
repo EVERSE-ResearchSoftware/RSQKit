@@ -40,7 +40,7 @@ Here are some common ways to package and release your software:
 They are often the first step toward an open release and packaging too - they allow storing and distributing packages across multiple programming languages and formats.
 * **Software registries and package repositories** – once your code is ready to be installed or reused, you can package and publish it to discipline- or language-specific registries (for example, PyPI for Python, CRAN for R, npm for JavaScript, Maven Central for Java). 
 These make it easy for users to install your software directly from their environment.
-* **Container registries and workflow hubs** – for more complex or reproducible environments, you can publish your software as a {% tool "docker" %}/{% tool "singularity" %} container or share it on workflow repositories (e.g. {% tool "workflowhub" %}, {% tool "dockstore" %}) to support reproducible execution.
+* **Container registries and workflow hubs** – for more complex or reproducible environments, you can publish your software as a {% tool "docker" %}/{% tool "singularityce" %} container or share it on workflow repositories (e.g. {% tool "workflowhub" %}, {% tool "dockstore" %}) to support reproducible execution.
 
 #### Code Hosting Platforms
 
