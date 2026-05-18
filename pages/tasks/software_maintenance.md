@@ -55,19 +55,19 @@ Without it, software that took significant effort to build can become unusable w
 ### Solutions
 
 - **Write a thorough test suite and check your test coverage.** Use a coverage tool (e.g. {% tool "pytest-cov" %} for Python, {% tool "covr" %} for R) to understand how much of your code is exercised by tests, and identify gaps.
-- **Set up a continuous integration (CI) pipeline** that runs your test suite automatically on every commit and on a scheduled basis (e.g. weekly).
+- **[Set up a continuous integration (CI) pipeline](/ci_cd)** that runs your test suite automatically on every commit and on a scheduled basis (e.g. weekly).
   Scheduled runs catch breakage caused by external changes even when you are not actively developing.
   Tools such as {% tool "github_actions" %} or {% tool "gitlab-cicd" %} make this straightforward.
-- **Pin and manage your dependencies explicitly.** Use a dependency management tool appropriate to your language (e.g. {% tool "pip" %}, {% tool "venv" %}, {% tool "pip-tools" %}, {% tool "uv" %} or {% tool "poetry" %} for Python, {% tool "renv" %} for R) to record exact versions and make updates deliberate and auditable.
+- **Pin and manage your dependencies explicitly.** Use a [dependency management tool appropriate to your language](/reproducible_software_environments) (e.g. {% tool "pip" %}, {% tool "venv" %}, {% tool "pip-tools" %}, {% tool "uv" %} or {% tool "poetry" %} for Python, {% tool "renv" %} for R) to record exact versions and make updates deliberate and auditable.
   Consider using {% tool "dependabot" %} or {% tool "renovatebot" %} to automate dependency update pull requests.
-- **Keep your documentation current.** Review your README, installation guide, and usage examples whenever you make a substantive change to the software. If you cannot install and run your own software from scratch using only your documentation, it needs updating.
-- **Establish a clear issue tracker.** Use GitHub Issues, GitLab Issues, or an equivalent to record known bugs, planned improvements, and technical debt. This makes the maintenance backlog visible and shared, rather than held only in one person's head.
-- **Use {% tool "semantic-versioning" %}** to communicate the nature of changes to users. Following Semantic Versioning conventions (MAJOR.MINOR.PATCH) signals whether an update is a breaking change, a new feature, or a bug fix — helping users decide when and whether to upgrade.
-- **Write a CHANGELOG** and update it with each release. A clear record of what changed, when, and why is valuable both for your users and for your future self trying to understand the history of the software.
-- **Reduce the bus factor.** If you are the sole maintainer, document the key decisions, architecture, and operational knowledge in the repository itself — not just in your head. If possible, share ownership with at least one other person who can act if you are unavailable.
+- **[Keep your documentation current](/documenting_software_project).** Review your [README](/creating_good_readme), installation guide, and usage examples whenever you make a substantive change to the software. If you cannot install and run your own software from scratch using only your documentation, it needs updating.
+- **Establish a clear issue tracker.** Use GitHub Issues, GitLab Issues, or an equivalent to record known bugs, planned improvements, and technical debt. This makes the [maintenance backlog visible and shared](/organising_software_projects), rather than held only in one person's head.
+- **Use {% tool "semantic-versioning" %}** to communicate the nature of changes to users. Following Semantic Versioning conventions (MAJOR.MINOR.PATCH) signals whether an update is a breaking change, a new feature, or a bug fix — helping users decide when and whether to upgrade. See also [Releasing software](/releasing_software).
+- **Write a CHANGELOG** and update it with each [release](/releasing_software). A clear record of what changed, when, and why is valuable both for your users and for your future self trying to understand the history of the software.
+- **Reduce the bus factor.** If you are the sole maintainer, document the key decisions, architecture, and operational knowledge in the repository itself — not just in your head. If possible, share ownership with at least one other person who can act if you are unavailable. Regular [code review](/code_review) is one effective way to spread knowledge of the codebase.
 - **Recruit help from the community of developers or users.** Ask for help maintaining your project, label your issues clearly for low-entry barriers to contributing (e.g. `good first issue`), organise regular maintenance sprints to work on the software with your collaborators.
 - **Apply for funds specifically for software maintenance.** Funders are increasingly recognising the importance of investment in maintenance of key research software (e.g. see the [Software Sustainability Institute's Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund)) to ensure it remains reliable and accessible.
-- **Archive or deprecate software you can no longer maintain.** If you are unable to sustain active maintenance, make that clear in the repository (e.g. a prominent notice in the README, a repository archive, or an explicit deprecation statement). This is more helpful to users than silent abandonment.
+- **[Archive or deprecate software you can no longer maintain](/archiving_software).** If you are unable to sustain active maintenance, make that clear in the repository (e.g. a prominent notice in the README, a repository archive, or an explicit deprecation statement). This is more helpful to users than silent abandonment.
 
 ---
 
@@ -83,25 +83,25 @@ Actively tracking and managing technical debt keeps your software maintainable a
 ### Considerations
 
 - **Not all technical debt is equal.** Some debt — a temporary workaround, a known simplification — is intentional and acceptable.
-Unintentional debt (unclear code, missing tests, hardcoded values) is more dangerous because it is harder to reason about.
+  Unintentional debt (unclear code, missing tests, hardcoded values) is more dangerous because it is harder to reason about.
 - **Debt that is not recorded is invisible.** If known problems are only held in memory, they will be forgotten and will not be addressed systematically.
-Recording debt in an issue tracker or in code comments makes it visible and actionable.
+  Recording debt in an issue tracker or in code comments makes it visible and actionable.
 - **Paying down debt requires protected time.** Technical debt does not reduce itself.
-If maintenance and refactoring work is not explicitly allocated time alongside feature development, it will always be deferred.
+  If maintenance and refactoring work is not explicitly allocated time alongside feature development, it will always be deferred.
 - **Refactoring without tests is risky.** Before paying down significant structural debt, ensure you have tests that verify correct behaviour — otherwise you cannot be confident that your refactoring has not introduced regressions.
 
 ### Solutions
 
 - **Use your issue tracker to record known technical debt.** Create issues (or a label/tag such as `tech-debt`) for known problems, shortcuts, and areas that need refactoring.
-This makes the debt visible to everyone working on the project and allows it to be prioritised alongside other work.
+  This makes the debt visible to everyone working on the project and allows it to be prioritised alongside other work. See [Organising software projects](/organising_software_projects) for guidance on structuring your repository and issue tracker.
 - **Add `TODO` and `FIXME` comments in code** at the point where debt exists, with enough context for a future reader to understand the problem.
-Consider using a linting tool to surface these systematically.
+  Consider using a linting tool to surface these systematically. See [Documenting code](/documenting_code) for broader guidance on keeping code understandable.
 - **Allocate explicit time for maintenance and refactoring.** Whether this is a regular "maintenance sprint", a rule that a fixed fraction of each sprint is reserved for debt reduction, or simply scheduled time in your calendar — intentionality is required.
-Without it, debt will grow.
+  Without it, debt will grow.
 - **Refactor incrementally, not all at once.** Large-scale rewrites are high risk.
-Prefer small, targeted improvements — renaming for clarity, extracting a function, adding a missing test — that can be reviewed and validated individually.
+  Prefer small, targeted improvements — renaming for clarity, extracting a function, adding a missing test — that can be reviewed and validated individually. Use [code review](/code_review) to catch regressions and spread understanding of the changes.
 - **Use static analysis tools** to surface code quality issues automatically.
-Tools like {% tool "ruff" %} (Python), {% tool "lintr" %} (R), or {% tool "sonarqube" %} can flag common problems and track quality metrics over time.
+  Tools like {% tool "ruff" %} (Python), {% tool "lintr" %} (R), or {% tool "sonarqube" %} can flag common problems and track quality metrics over time.
 - **Practice refactoring on a realistic codebase.** The Carpentries Incubator lesson [Intermediate Research Software Development in Python][intermediate-rs-python] includes a dedicated episode on code refactoring (Section 3.4) that walks through decoupling, abstractions, and incremental improvement with tests in place — directly applicable to managing technical debt.
 
 ---
