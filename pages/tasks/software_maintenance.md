@@ -43,26 +43,26 @@ Without it, software that took significant effort to build can become unusable w
 
 - **Maintenance should be ongoing, not optional.** A piece of software that runs correctly today may fail tomorrow if a dependency releases a breaking change or a runtime environment is updated. Plan for maintenance as a recurring cost, not a one-time activity.
 - **The scope of maintenance grows with user base.** Software used only by its author needs less formal maintenance discipline than software shared with a team or community. Calibrate your effort to your context, but don't wait until the software is widely used before establishing good habits.
-- **Documentation is part of maintenance.** Bug fixes are only part of the maintenance work. 
-Code that works but cannot be understood, installed, or run by others is effectively unusable. 
-Keeping your README, installation instructions, and usage examples up to date is as important as keeping the code itself working.
-- **Dependencies are a liability as well as an asset.** Every dependency you take on is something that can change, deprecate, or introduce security issues. 
-A smaller, well-understood dependency tree is easier to maintain than a large one. Choose your software's dependencies carefully from a set of already well-maintained projects. 
+- **Documentation is part of maintenance.** Bug fixes are only part of the maintenance work.
+  Code that works but cannot be understood, installed, or run by others is effectively unusable.
+  Keeping your README, installation instructions, and usage examples up to date is as important as keeping the code itself working.
+- **Dependencies are a liability as well as an asset.** Every dependency you take on is something that can change, deprecate, or introduce security issues.
+  A smaller, well-understood dependency tree is easier to maintain than a large one. Choose your software's dependencies carefully from a set of already well-maintained projects.
 - **Automated testing makes maintenance tractable.** Without a test suite, every change — including updates to dependencies or environments — carries unknown risk. Tests let you be more confident that the software still behaves correctly after any change.
-- **Bus factor matters.** If only one person understands the software, it becomes unmaintainable the moment that person is unavailable. 
-Onboarding documentation, code comments, and shared ownership all reduce this risk.
+- **Bus factor matters.** If only one person understands the software, it becomes unmaintainable the moment that person is unavailable.
+  Onboarding documentation, code comments, and shared ownership all reduce this risk.
 
 ### Solutions
 
-- **Write a thorough test suite and check your test coverage.** Use a coverage tool (e.g. [pytest-cov](https://pytest-cov.readthedocs.io/) for Python, `covr` for R) to understand how much of your code is exercised by tests, and identify gaps.
+- **Write a thorough test suite and check your test coverage.** Use a coverage tool (e.g. {% tool "pytest-cov" %} for Python, {% tool "covr" %} for R) to understand how much of your code is exercised by tests, and identify gaps.
 - **Set up a continuous integration (CI) pipeline** that runs your test suite automatically on every commit and on a scheduled basis (e.g. weekly).
-Scheduled runs catch breakage caused by external changes even when you are not actively developing.
-Tools such as [GitHub Actions](https://docs.github.com/en/actions) or [GitLab CI/CD](https://docs.gitlab.com/ee/ci/) make this straightforward.
-- **Pin and manage your dependencies explicitly.** Use a dependency management tool appropriate to your language (e.g. `pip`, `venv`, [pip-tools](https://pip-tools.readthedocs.io/en/latest/), `uv` or [Poetry](https://python-poetry.org/) for Python, `renv` for R) to record exact versions and make updates deliberate and auditable.
-Consider using a tool like [Dependabot](https://docs.github.com/en/code-security/dependabot) or [Renovate](https://docs.renovatebot.com/) to automate dependency update pull requests.
+  Scheduled runs catch breakage caused by external changes even when you are not actively developing.
+  Tools such as {% tool "github_actions" %} or {% tool "gitlab-cicd" %} make this straightforward.
+- **Pin and manage your dependencies explicitly.** Use a dependency management tool appropriate to your language (e.g. {% tool "pip" %}, {% tool "venv" %}, {% tool "pip-tools" %}, {% tool "uv" %} or {% tool "poetry" %} for Python, {% tool "renv" %} for R) to record exact versions and make updates deliberate and auditable.
+  Consider using {% tool "dependabot" %} or {% tool "renovatebot" %} to automate dependency update pull requests.
 - **Keep your documentation current.** Review your README, installation guide, and usage examples whenever you make a substantive change to the software. If you cannot install and run your own software from scratch using only your documentation, it needs updating.
 - **Establish a clear issue tracker.** Use GitHub Issues, GitLab Issues, or an equivalent to record known bugs, planned improvements, and technical debt. This makes the maintenance backlog visible and shared, rather than held only in one person's head.
-- **Use semantic versioning** to communicate the nature of changes to users. Following [Semantic Versioning](https://semver.org/) conventions (MAJOR.MINOR.PATCH) signals whether an update is a breaking change, a new feature, or a bug fix — helping users decide when and whether to upgrade.
+- **Use {% tool "semantic-versioning" %}** to communicate the nature of changes to users. Following Semantic Versioning conventions (MAJOR.MINOR.PATCH) signals whether an update is a breaking change, a new feature, or a bug fix — helping users decide when and whether to upgrade.
 - **Write a CHANGELOG** and update it with each release. A clear record of what changed, when, and why is valuable both for your users and for your future self trying to understand the history of the software.
 - **Reduce the bus factor.** If you are the sole maintainer, document the key decisions, architecture, and operational knowledge in the repository itself — not just in your head. If possible, share ownership with at least one other person who can act if you are unavailable.
 - **Recruit help from the community of developers or users.** Ask for help maintaining your project, label your issues clearly for low-entry barriers to contributing (e.g. `good first issue`), organise regular maintenance sprints to work on the software with your collaborators.
@@ -101,7 +101,7 @@ Without it, debt will grow.
 - **Refactor incrementally, not all at once.** Large-scale rewrites are high risk.
 Prefer small, targeted improvements — renaming for clarity, extracting a function, adding a missing test — that can be reviewed and validated individually.
 - **Use static analysis tools** to surface code quality issues automatically.
-Tools like [ruff](https://docs.astral.sh/ruff/) (Python), [lintr](https://lintr.r-lib.org/) (R), or [SonarQube](https://www.sonarsource.com/products/sonarqube/) can flag common problems and track quality metrics over time.
+Tools like {% tool "ruff" %} (Python), {% tool "lintr" %} (R), or {% tool "sonarqube" %} can flag common problems and track quality metrics over time.
 - **Practice refactoring on a realistic codebase.** The Carpentries Incubator lesson [Intermediate Research Software Development in Python][intermediate-rs-python] includes a dedicated episode on code refactoring (Section 3.4) that walks through decoupling, abstractions, and incremental improvement with tests in place — directly applicable to managing technical debt.
 
 ---
