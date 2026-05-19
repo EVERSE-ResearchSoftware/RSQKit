@@ -313,6 +313,53 @@
         url: https://dome-ml.org/guidelines#evaluation-section
     status: Active
     version: 1.0.0
+-   abbreviation: has_active_communication_channels
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 18-05-2026
+    description: The project has communication channels (i.e. Slack, Gitter, etc.)
+        where users and developers can discuss project-related matters and also be
+        up to date with updates, notices and other relevant information.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/has_active_communication_channels
+    keywords:
+    - community
+    - communication channel
+    name: Project has active communication channels
+    qualityDimension:
+    -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    -   '@id': https://w3id.org/everse/i/dimensions/community
+    source:
+        identifier: https://zenodo.org/records/10647227
+        name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
+        url: https://zenodo.org/records/10647227
+    status: Active
+    version: 1.0.0
+-   abbreviation: has_active_contributors
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 18-05-2026
+    description: Contributions and/or other additions/updates to the project aren't
+        centralised on only the core maintainers, but also other contributors.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/has_active_contributors
+    keywords:
+    - contributor
+    - active
+    name: Project has active contributors beyond core maintainers
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/community
+    source:
+        name: 2.5 Community
+        url: https://github.com/EVERSE-ResearchSoftware/reference-framework/blob/main/source/02-framework/community.md
+    status: Active
+    version: 1.0.0
 -   abbreviation: has_ci-tests
     author:
         '@type': schema:Organization
@@ -364,7 +411,8 @@
     - fair
     name: Software repository has contribution guidelines
     qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/sustainability
+    -   '@id': https://w3id.org/everse/i/dimensions/sustaintability
+    -   '@id': https://w3id.org/everse/i/dimensions/community
     source:
     -   name: Software Requirements
         url: https://docs.tech.cessda.eu/software/requirements.html
@@ -890,6 +938,31 @@
         url: https://zenodo.org/records/10047401
     -   name: 'RSMD Guidelines - Re-execute: dependencies and execution environment'
         url: https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/
+    status: Active
+    version: 1.0.0
+-   abbreviation: response_timeframe_ok
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 18-05-2026
+    description: The maintainers of the project's repository respond to issues and/or
+        pull requests within a defined time frame that follows the related community's
+        conventions.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/response_timeframe_ok
+    keywords:
+    - response
+    - issue
+    - pull request
+    - timeframe
+    name: Responses to issues and/or pull requests are done within a defined timeframe
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/community
+    source:
+        name: 2.5 Community
+        url: https://github.com/EVERSE-ResearchSoftware/reference-framework/blob/main/source/02-framework/community.md
     status: Active
     version: 1.0.0
 -   abbreviation: software_has_citation
