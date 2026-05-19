@@ -1,7 +1,7 @@
 ---
 title: "Maintaining research software"
 description: "Guidance on keeping research software functioning, understandable, and usable over time — covering ongoing maintenance practices, dependency management, documentation, versioning, and the management of technical debt."
-contributors: []
+contributors: ["Aleksandra Nenadic"]
 page_id: maintaining_research_software
 related_pages:
   tasks: [ci_cd, documenting_software_project, releasing_software, archiving_software, code_review]
