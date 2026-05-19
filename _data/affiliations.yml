@@ -15,3 +15,58 @@
   expose: true
   type: organisation
   url: https://www.skao.int/en
+- name: ACTS
+  image_url: https://acts-project.github.io/acts_logo_colored.svg
+  expose: true
+  type: project
+  url: https://acts-project.github.io/
+- name: CERN
+  image_url: https://upload.wikimedia.org/wikipedia/commons/f/f1/CERN_logo_badge.svg
+  expose: true
+  type: institution
+  url: https://home.cern/
+- name: APICURON
+  image_url: https://apicuron.org/assets/APICURON_white.svg
+  expose: true
+  type: project
+  url: https://apicuron.org/
+- name: University of Padua
+  image_url: https://upload.wikimedia.org/wikipedia/en/thumb/d/db/University_of_Padua_seal.svg/330px-University_of_Padua_seal.svg.png
+  expose: true
+  type: institution
+  url: https://www.unipd.it/
+- name: LS-RI
+  image_url: https://lifescience-ri.eu/fileadmin/lifescience-ri/templates/site/elsri_logo--wosub.png
+  expose: true
+  type: research cluster
+  url: https://lifescience-ri.eu/home.html
+- name: ELIXIR
+  image_url: https://elixir-europe.org/sites/default/files/elixir_logo_0.png
+  expose: true
+  type: infrastructure
+  url: https://elixir-europe.org/
+- name: PaNOSC
+  image_url: https://www.panosc.eu/wp-content/uploads/2021/01/PaNOSClogo_web_RGB.jpg
+  expose: true
+  type: research cluster
+  url: https://www.panosc.eu/
+- name: ESCAPE
+  image_url: https://projectescape.eu/sites/default/files/logo-Escape_0.png
+  expose: true
+  type: research cluster
+  url: https://projectescape.eu/
+- name: SSHOC
+  image_url: https://marketplace.sshopencloud.eu/_next/static/media/logo-with-text.d028f0de.svg
+  expose: true
+  type: research cluster
+  url: https://marketplace.sshopencloud.eu/
+- name: ENVRI
+  image_url: https://envri.eu/wp-content/uploads/2025/01/ENVRI-Community-Logo.png
+  expose: true
+  type: research cluster
+  url: https://envri.eu/
+- name: Barcelona Supercomputing Centre
+  image_url: https://www.bsc.es/sites/default/files/public/bscw2/content/project/logos/CN042700-logobsc_pwl_5470.png
+  expose: true
+  type: institution
+  url: https://www.bsc.es/
