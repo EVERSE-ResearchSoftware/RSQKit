@@ -47,7 +47,7 @@ Static analysis is the automated examination of source code without executing it
   - *Julia*: {% tool "jet-jl" %} (type-based error detection), {% tool "aqua-jl" %} (package quality checks)
 - **Start with the tool's default or recommended configuration** — don't spend time customising rules before you understand what the tool flags in your codebase.
 - **Integrate into your CI pipeline** — run static analysis automatically on every pull request or push. Most tools produce output that CI systems (GitHub Actions, GitLab CI, etc.) can surface as pass/fail checks.
-- **Add a pre-commit hook** — running a fast linter locally before you commit catches issues earlier and reduces CI noise. {% tool "precommit" %} is a widely used framework for managing this across languages.
+- **Add a pre-commit hook** — running a fast linter locally before you commit catches issues earlier and reduces CI noise. {% tool "pre-commit" %} is a widely used framework for managing this across languages.
 - **Agree team conventions** — document which tools you are using, which rules are enabled, and how suppressions should be handled. This prevents individual developers from working around warnings silently.
 - **Fix issues incrementally** — if you are introducing static analysis to an existing project, use the tool's baseline or ignore-file mechanism to suppress pre-existing issues, then address them in batches over time.
 
