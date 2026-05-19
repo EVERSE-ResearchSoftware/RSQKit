@@ -1,6 +1,7 @@
 ---
 title: Editors Checklist
 summary: Checklist for editors (Editorial Board members) before approving changes to RSQKit content and infrastructure.
+contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Shoaib Sufi"]
 ---
 
 ### General Guidelines for Approving Pull Requests

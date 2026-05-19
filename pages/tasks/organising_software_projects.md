@@ -5,7 +5,7 @@ contributors: ["Aleksandra Nenadic"]
 page_id: organising_software_projects
 related_pages:
   tasks: [citing_software, creating_good_readme, documenting_software, software_metadata]
-quality_indicators: []
+quality_indicators: [software_has_documentation]
 keywords: ["software project", "organising software project"]
 ---
 
@@ -90,10 +90,10 @@ project_name/
 
 For research projects that contain code, if you are using Python - check out the following two tools:
 
-- {% tool 'fair-python-coockiecutter' %} is a command-line template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality. It generates project directories from predefined templates and ensures consistency by scaffolding a standardised project layout, including folders like `src/` for code, `tests/` for tests (shown below), and configuration files such as `pyproject.toml`, `README`, and `.gitignore`. This is especially helpful for teams or when starting new software projects, as it reduces setup time and enforces best practices.
+- {% tool 'fair-python-cookiecutter' %} is a command-line template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality. It generates project directories from predefined templates and ensures consistency by scaffolding a standardised project layout, including folders like `src/` for code, `tests/` for tests (shown below), and configuration files such as `pyproject.toml`, `README`, and `.gitignore`. This is especially helpful for teams or when starting new software projects, as it reduces setup time and enforces best practices.
 -  {% tool "poetry" %} is a dependency and packaging manager that simplifies Python project management. It uses a single `pyproject.toml` file to declare dependencies, manage virtual environments, and handle versioning and publishing.
 In addition, {% tool "poetry" %} will also create a new directory with the necessary structure for you if you are starting a new Python project from scratch.
-{% tool "poetry" %} itself does not enforce a specific directory structure, but it encourages and works well with the "src layout" (shown below), which is a widely adopted best practice in modern Python development (as does {% tool 'fair-python-coockiecutter' %}).
+{% tool "poetry" %} itself does not enforce a specific directory structure, but it encourages and works well with the "src layout" (shown below), which is a widely adopted best practice in modern Python development (as does {% tool 'fair-python-cookiecutter' %}).
 
 ```
 project_name/
@@ -109,6 +109,15 @@ project_name/
 ```
 
 For best practices and guidance for designing research projects in particular focused on data - check out [the Turing Way Project's Guide for project design][turing-project-design].
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [creating_good_readme]: ./creating_good_readme
 [licensing_software]: ./licensing_software

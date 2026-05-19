@@ -21,7 +21,7 @@ for specific programming languages, ensuring consistent behaviour of software ac
 Extremely useful when you are developing or modifying other people's software.
 - **Containerised environments** - use containers to encapsulate software and its dependencies, ensuring the software runs consistently across different systems regardless of the underlying host operating system.
   - {% tool "docker" %} - creates lightweight, isolated containers for packaging software and its dependencies.
-  - {% tool "singularity" %}, {% tool "apptainer" %} - focuses on containerisation for high-performance computing (HPC) and scientific computing.
+  - {% tool "singularityce" %}, {% tool "apptainer" %} - focuses on containerisation for high-performance computing (HPC) and scientific computing.
   - {% tool "docker-compose" %} - manages multi-container Docker applications, facilitating reproducible environments with multiple services.
 - **System-level environments** - work at the system level, ensuring that the entire system, including the operating system and application configurations, is reproducible.
   - {% tool "vagrant" %} - creates reproducible virtualised environments using configuration scripts to define virtual machines.
@@ -110,6 +110,15 @@ Not using virtual environments at all and mixing different tools to manage them 
 ### Solutions
 
 Decide on a package manager and a virtual environment management tool for your programming language and start using them.
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [pip-venv]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 [fair-rs]: https://carpentries-incubator.github.io/fair-research-software

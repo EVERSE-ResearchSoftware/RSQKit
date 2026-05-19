@@ -4,6 +4,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14923572.svg)](https://doi.org/10.5281/zenodo.14923572)
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:d33fc08f86c60800b338aeaa3bdda6b36ea06b55/)](https://archive.softwareheritage.org/swh:1:dir:d33fc08f86c60800b338aeaa3bdda6b36ea06b55;origin=https://doi.org/10.5281/zenodo.14923572;visit=swh:1:snp:5445273ed39fcd49db8cc068f7f0f84c1d8584dc;anchor=swh:1:rel:24d29b392ab7bb96f8864d51274068255317e70b;path=/EVERSE-ResearchSoftware-RSQKit-71347eb/)
 
 Research Software Quality Kit (RSQKit), developed as part of the [EVERSE project](https://everse.software/), contains curated best practices in improving the quality of research software. It is intended for use by researchers, research software engineers, those managing and procuring funding for projects with a large research software component, those running research infrastructures involving software and those developing research software related policy at organisations and in projects.  
 

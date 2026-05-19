@@ -54,6 +54,15 @@ See more on [how to cite your software project][citing_software].
 - Roadmap - an overview of the current and future development plans and milestones (this can also be a pointer to your issue tracker, e.g. in GitHub).
 - Changelog and release notes - a text file that contains a record of what notable changes are made between versions of software.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
 [open-api]: https://swagger.io/specification/
 [click]: https://click.palletsprojects.com/en/stable/
 [magicblast]: https://ncbi.github.io/magicblast/

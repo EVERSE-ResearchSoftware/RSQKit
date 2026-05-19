@@ -1,6 +1,7 @@
 ---
 title: ESCAPE - physics & astronomy
 description: ESCAPE is a science cluster bringing together communities & research infrastructure in the area of astronomy and particle physics
+contributors: ["Caterina Doglioni"]
 ---
 
 The [ESCAPE](https://projectescape.eu/) science cluster brings together communities and research infrastructures in the areas of astronomy and accelerator-based particle physics, specifically ESFRI facilities (SKAO, CTAO, KM3NeT, EST, ELT, HL-LHC, FAIR) and pan-European research infrastructures (CERN, ESO, JIVE).
@@ -22,6 +23,13 @@ With experiments existing for multiple decades, high quality, efficient and main
 ### Software catalogue
 
 The [Open-source Scientific Software and Service Repository](https://escape-ossr.gitlab.io/ossr-pages/) enables researchers to save time and resources by improving the reproducibility of scientific results through high-quality software from within the community.
+
+If you are looking to contribute or learn more about OSSR services, the following resources may be helpful:
+- [Guidelines for contributing to OSSR projects](https://escape-ossr.gitlab.io/ossr-pages/page/contribute/guidelines_ossr/)
+- [Information on containerization services provided by OSSR](https://escape-ossr.gitlab.io/ossr-pages/page/services/containerization/)
+- [Onboarding page for contributing to OSSR](https://escape-ossr.gitlab.io/ossr-pages/page/contribute/onboarding/) (as an example of domain specific research software practices)
+- [ESCAPE project deliverable on license, provenance, and metadata guidelines](https://doi.org/10.5281/zenodo.7540575)
+- [Open-source scientific research (OSSR) contribution guidelines](https://escape-ossr.gitlab.io/ossr-pages/page/contribute/guidelines_ossr/)
 
 ### Other services
 

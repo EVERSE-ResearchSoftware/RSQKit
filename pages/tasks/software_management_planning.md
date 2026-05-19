@@ -45,3 +45,12 @@ Before choosing an SMP solution, it is important to recognise that **different p
 - [Netherlands eScience Center Practical Guide to SMPs](https://doi.org/10.5281/zenodo.7589725): A detailed, practitioner-focused guide offering examples and recommendations for creating effective SMPs in computational research projects.
 - [Wellcome Trust Outputs Management Plans](https://wellcome.org/research-funding/guidance/prepare-to-apply/how-complete-outputs-management-plan): Although broader in scope, these plans include requirements relevant to software outputs and can inform funding-aligned SMP development. This approach seems to be adopted by several funders to cover diversity of research outputs.
 - [forschungsdaten.info Software Management Plans](http://forschungsdaten.info): A guide summarising what an SMP should contain (administrative & technical info, software description, QA, maintenance & sharing, legal/ethical aspects, user support, costs and responsibilities).
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}

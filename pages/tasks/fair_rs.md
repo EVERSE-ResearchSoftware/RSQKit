@@ -30,7 +30,7 @@ Let's have a quick look into what each of the above principle means in practice.
 - [Create a description of your software][software_metadata] to make it discoverable by search engines and other search tools
 - Use standards (such as {% tool "codemeta" %}) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
 - Place your software in a public software repository (and ideally register it in a [general-purpose or domain-specific software registry][software-registries])
-- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by {% tool "softwareheritage" %}. 
+- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by {% tool "software-heritage" %}. 
 In addition to findability of your software, identifiers can help you get credit for your work by providing citable references.
 - More broadly, use software sharing and collaborative platforms, as they facilitate code publication, sharing and findability:
   - general-purpose software repositories - {% tool "github" %} and {% tool "gitlab" %}
@@ -77,14 +77,24 @@ Tools and frameworks exist for assessing software FAIRness:
 
 - {% tool "fair-rs-checklist" %} - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center
 - {% tool "fair-rs-evaluator" %} - OpenBench's tool for assessing the FAIRness of software tool from its metadata
-- {% tool "fair-rs-checklist" %} - a self-assessment tool developed by the Australian Research Data Commons (ARDC) and the Netherlands eScience Center- {% tool "howfairis" %} - a command line tool to evaluate a software repository's compliance with the FAIR principles
+- {% tool "howfairis" %} - a command line tool to evaluate a software repository's compliance with the FAIR principles
 - {% tool "codecheck" %} - an approach for independent execution of computations underlying research articles
 - [Common metrics for Research Software][fair-metrics] that may used to assess each of the FAIR4RS principles
+- {% tool "rsfc" %} - a command line interface to automatically evaluate the FAIRness of a Github or Gitlab repository
 
 They not meant to criticise or discredit software or its authors. 
 Their role is to make quality aspects visible, help researchers identify strengths and areas for improvement, and support the evolution of good practices. 
 In the context of research software, such assessments are diagnostic rather than evaluative — they guide reflection, transparency, and learning, not scoring or ranking. 
 By using them, researchers can better understand how their software performs across different aspects of FAIRness and make informed decisions about how to improve it.
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [biotools]: https://bio.tools
@@ -114,3 +124,4 @@ By using them, researchers can better understand how their software performs acr
 [testing_software]: ./testing_software
 [citing_software]: ./citing_software
 [organising_software_projects]: ./organising_software_projects
+[rsfc]: https://rsfc.linkeddata.es

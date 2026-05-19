@@ -5,7 +5,7 @@ contributors: ["Aleksandra Nenadic", "Christian Hüser", "Patrick Bos"]
 page_id: testing_software
 related_pages:
   tasks: []
-quality_indicators: [software_has_tests, has_ci-tests]
+quality_indicators: [software_has_tests, has_ci-tests, software_test_coverage]
 keywords: ["software testing", "code testing", "software test", "code test"]
 
 ---
@@ -188,7 +188,7 @@ Hence, testing is an integral part and a widely accepted use case of CI.
 Testing in a CI pipeline goes one step further compared to the sole use of test automation frameworks.
 In addition to using the test automation framework locally and starting the execution of test within it manually, CI determines when and how to execute our test cases automatically and runs them on an integration machine.
 For example, as soon as a commit is pushed or a merge to a software development branch is performed, the integration machine starts a CI pipeline and executes the test cases and reports the test results in the so-called CI job log.
-Popular examples of CI infrastructures include {% tool "github-actions" %} and {% tool "gitlab-ci-cd" %}.
+Popular examples of CI infrastructures include {% tool "github_actions" %} and {% tool "gitlab-cicd" %}.
 
 ### Considerations
 
@@ -231,6 +231,15 @@ Here are a few examples of these principles:
 - [**Continuous Integration**][continuous-integration]
   - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.
   - Continuous Integration automates repetitive tests, saves time and ensures tests are run consistently across different environments and platforms.
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [software-testing]: https://en.wikipedia.org/wiki/Software_testing
 [software-quality-assurance]: https://en.wikipedia.org/wiki/Software_quality_assurance

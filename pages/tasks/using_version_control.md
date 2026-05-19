@@ -77,3 +77,12 @@ Implementing version control in a research context involves more than just choos
 * Maintain your repository:
    * Regularly backup your repository
    * Periodically clean up old branches and review access permissions
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}

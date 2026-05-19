@@ -188,3 +188,12 @@ Lastly, an example Research Software Story created using this approach can be fo
 
 * [GreenPhysECS research software story](https://everse.software/RSQKit/greenphsecs_research_software_story)
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+

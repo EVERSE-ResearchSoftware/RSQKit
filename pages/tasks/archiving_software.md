@@ -3,7 +3,7 @@ title: Archiving software
 description: How can you archive your software for preservation?
 contributors: ["Aleksandra Nenadic"]
 page_id: archiving_software
-indicators: []
+indicators: [archived_in_software_heritage, archived_in_scholarly_repository, listed_in_registry]
 related_pages:
   tasks: [software_identifiers, software_metadata, documenting_software, licensing_software]
 keywords: ["archiving software", "software preservation"]
@@ -47,10 +47,10 @@ It requires addressing multiple interrelated technical aspects:
 
 Several archival solutions for research software are emerging:
 
-- {% tool "softwareheritage" %} can provide an universal archive of source code, capturing the development history of open-source software at scale.
+- {% tool "software-heritage" %} can provide an universal archive of source code, capturing the development history of open-source software at scale.
 - {% tool "reprozip" %} captures the execution environment of research software, enabling portability and reproducibility across platforms.
 - {% tool "guix" %} / {% tool "nixos" %} are functional package managers that enable reproducible builds and isolated software environments.
-- Containers (e.g., {% tool "docker" %}, {% tool "singularity" %}) are popular tools for bundling applications with dependencies, especially in high-performance computing.
+- Containers (e.g., {% tool "docker" %}, {% tool "singularityce" %}) are popular tools for bundling applications with dependencies, especially in high-performance computing.
 - VM snapshots are used when containerisation is not feasible, particularly for GUI-based or legacy software.
 - Institutional repositories and {% tool "zenodo" %} provide [DOI-backed software][software_identifiers] archiving linked to publications, ensuring persistent citation and access.
 - [RO-Crate](https://www.researchobject.org/ro-crate/) has an honourable mention here, while it is not an archival mechanism it is a critical metadata format that ensures items (e.g., [workflows](computational_workflows)) that are archived are described, understandable and reusable.
@@ -60,6 +60,16 @@ Several archival solutions for research software are emerging:
 Software archiving is now a foundational component of digital research infrastructure. 
 As the scientific community moves toward open, reproducible, and [FAIR (Findable, Accessible, Interoperable, Reusable) principles][fair_rs], robust software preservation practices are essential. 
 Researchers must adopt workflows and tools that not only produce results but also ensure those results can be trusted and reused decades from now.
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
 
 [fair_rs]: fair_rs.md
 [software_metadata]: ./software_metadata

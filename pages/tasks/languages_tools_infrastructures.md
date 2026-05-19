@@ -72,7 +72,6 @@ We highlight three typical cases, related loosely to the [three tiers of researc
    However, the reason for you joining the project may be exactly to apply some new technology, possibly using some existing framework.
    In such cases the above social considerations would apply, but you will still be constrained in your choices by the existing languages or frameworks in the project.
 
-
 ### Good default languages 
 
 What follows is a somewhat opinionated list of good starting choices of programming languages for research software engineering projects.
@@ -117,5 +116,14 @@ Some interesting templates to consider for research software:
 - [BestieTemplate.jl](https://github.com/JuliaBesties/BestieTemplate.jl): Julia package template for research software
 - For R, the [usethis](https://usethis.r-lib.org) package provides a good basis for developing R packages.
 - RSQKit itself also uses templates to create pages, like [the one used for this task page](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/main/pages/tasks/TEMPLATE_task.md).
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [nesc-rs-guide]: https://guide.esciencecenter.nl/

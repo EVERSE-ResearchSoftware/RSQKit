@@ -5,7 +5,7 @@ contributors: ["Aleksandra Nenadic"]
 page_id: code_review
 related_pages:
   tasks: []
-quality_indicators: [human_code_review_requirement]
+quality_indicators: [human_code_review_requirement, uses_tool_for_warnings_and_mistakes, has_no_linting_issues]
 keywords: ["code review"]
 ---
 
@@ -71,3 +71,12 @@ Tools that can help:
 Initiatives:
 
 - [CODECHECK](https://codecheck.org.uk/) aims to tackle the challenge of supporting codecheckers in computational science with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}

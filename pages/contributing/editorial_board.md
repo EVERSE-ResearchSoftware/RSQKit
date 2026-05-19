@@ -1,6 +1,7 @@
 ---
 title: Editorial Board
 summary: Editorial Board oversees the topics and content featured in RSQKit.
+contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Shoaib Sufi"]
 ---
 
 The content of RSQKit is currently being approved and curated by the RSQKit Editorial Board, whose members are also know as the Editors.

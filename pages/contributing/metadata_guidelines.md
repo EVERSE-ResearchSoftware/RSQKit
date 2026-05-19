@@ -1,11 +1,11 @@
 ---
 title: Metadata Guidelines
 summary: Descriptions of different metadata schemas used to describe various resources and pages in RSQKit.
+contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Shoaib Sufi"]
 ---
 
 This page explains the metadata that can be used to describe various resources and pages in RSQKit.
 These guidelines have been adapted from the ELIXIR Toolkit theme's [page metadata guide](https://elixir-belgium.github.io/elixir-toolkit-theme/page_mechanics) and [tools and resources guide](https://elixir-belgium.github.io/elixir-toolkit-theme/resource_table).
-
 
 ## Contributor metadata
 

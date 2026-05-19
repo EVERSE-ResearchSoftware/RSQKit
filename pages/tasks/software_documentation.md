@@ -25,4 +25,5 @@ This includes, for example, comments, docstrings, software architecture and API 
 Both levels are important: project documentation helps people use and adopt your software, while code documentation helps people develop and sustain it.
 
 {% assign child_pages = page.child_pages | join: ', ' %}
-{% include section-navigation-tiles.html type="tasks" custom=child_pages training=false sort=false col=3 %}
+{% include section-navigation-tiles.html type="tasks" custom=child_pages training=false sort=false col=2 %}
+

@@ -26,7 +26,7 @@
 {%- if site.theme_variables.headings.resource-table-all-collapse %}
 <a data-bs-toggle="collapse" href="#tools_collapse" role="button" aria-expanded="false" aria-controls="tools_collapse" class="d-flex align-items-baseline pb-3 border-top info-collapse">
 {%- endif %}
-{% if site.theme_variables.headings.resource-table-all-collapse %}<h3 class="mb-0 mt-3 flex-grow-1 text-dark">{% else %}<h2 class="h2-like fs-2">{% endif %}{{site.theme_variables.headings.resource-table-all | default: 'Tools and resources on this page' }}{% if site.theme_variables.headings.resource-table-all-collapse %}</h3>{% else % %}</h2>{% endif %}
+{% if site.theme_variables.headings.resource-table-all-collapse %}<h3 class="mb-0 mt-3 flex-grow-1 text-dark">{% else %}<h2 class="h2-like fs-2">{% endif %}{{site.theme_variables.headings.resource-table-all | default: 'Tools and resources on this page' }}{% if site.theme_variables.headings.resource-table-all-collapse %}</h3>{% else %}</h2>{% endif %}
 {%- if site.theme_variables.headings.resource-table-all-collapse %}
 <i class="fa-solid fa-chevron-down fs-5"></i>
 </a>
@@ -49,11 +49,7 @@
 </th>
 <th>Description</th>
 <th>Related pages</th>
-<!--                <th>Registry {%- if include.tag -%}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="Links to related information in ELIXIR registries: related policies and standards in FAIRsharing, scientific and technical descriptions of the resource in bio.tools, and related training in TeSS.">-->
-<!--                        <i class="fa-solid fa-info-circle"></i>-->
-<!--                    </a>{%- endif %}-->
-<!--                </th>-->
+<th>More about tool on TechRadar</th>
 </tr>
 </thead>
 <tbody>
@@ -83,9 +79,6 @@
     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{tool.how_to_access}}"><span class="badge text-primary border border-primary"> <i class="fa-solid fa-key"></i></span></span>
     {%- endif %}
     {%- unless instances_tool == 0 or include.tag == nil %}
-    <!-- <a href="#national-resources-button">
-    <span class="badge text-white bg-primary"><i class="fa-solid fa-arrow-circle-down me-2"></i>Different instances available</span>
-</a> -->
     {%- endunless %}
 </div>
 {%- endif %}
@@ -99,23 +92,11 @@
 {%- endfor %}
 {%- endcapture %}
 <td>{{related_pages}}</td>
-<!--                <td>-->
-<!--                    {%- if tool.registry.biotools and tool.registry.biotools != "NA" %}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="Bio.tools" href="https://bio.tools/{{tool.registry.biotools}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>Tool info</span></a>-->
-<!--                    {%- endif %}-->
-<!--                    {%- if tool.registry.fairsharing and tool.registry.fairsharing != "NA" %}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Standards/Databases</span></a>-->
-<!--                    {%- endif %}-->
-<!--                    {%- if tool.registry.fairsharing-coll and tool.registry.fairsharing-coll != "NA" %}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing collection" href="https://fairsharing.org/{{tool.registry.fairsharing-coll}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Standards/Databases</span></a>-->
-<!--                    {%- endif %}-->
-<!--                    {%- if tool.registry.tess and tool.registry.tess != "NA" %}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="TeSS" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-graduation-cap me-2"></i>Training</span></a>-->
-<!--                    {%- endif %}-->
-<!--                    {%- if tool.registry.europmc and tool.registry.europmc != "NA" %}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="EuroPMC" href="https://europepmc.org/article/MED/{{tool.registry.europmc}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-book me-2"></i>Publication</span></a>-->
-<!--                    {%- endif %}-->
-<!--                </td>-->
+<td>
+{%- if tool.catalog == "TechRadar" %}
+<a href="https://everse.software/TechRadar/#/tool/{{ tool.id }}" target="_blank" rel="noopener">View on TechRadar ↗</a>
+{%- endif %}
+</td>
 </tr>
 {%- endfor %}
 {%- if tool_matches_total == 0 or include.tag %}
@@ -148,15 +129,10 @@
 <table class="tooltable table display">
 <thead>
 <tr class="text-nowrap">
-<th>Tool or resource
-</th>
+<th>Tool or resource</th>
 <th>Description</th>
 <th>Related pages</th>
-<!--                <th>Registry-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="Links to related information in ELIXIR registries: related policies and standards in FAIRsharing, scientific and technical descriptions of the resource in bio.tools, and related training in TeSS.">-->
-<!--                        <i class="fa-solid fa-info-circle"></i>-->
-<!--                    </a>-->
-<!--                </th>-->
+<th>More about tool on TechRadar</th>
 </tr>
 </thead>
 <tbody>
@@ -204,23 +180,11 @@
 {%- else %}
 <td></td>
 {%- endif %}
-<!--                <td>-->
-<!--                    {%- if tool.registry.biotools and tool.registry.biotools != "NA" %}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="Bio.tools" href="https://bio.tools/{{tool.registry.biotools}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>Tool info</span></a>-->
-<!--                    {%- endif %}-->
-<!--                    {%- if tool.registry.fairsharing and tool.registry.fairsharing != "NA" %}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Standards/Databases</span></a>-->
-<!--                    {%- endif %}-->
-<!--                    {%- if tool.registry.fairsharing-coll and tool.registry.fairsharing-coll != "NA" %}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing collection" href="https://fairsharing.org/{{tool.registry.fairsharing-coll}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Standards/Databases</span></a>-->
-<!--                    {%- endif %}-->
-<!--                    {%- if tool.registry.tess and tool.registry.tess != "NA" %}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="TeSS" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-graduation-cap me-2"></i>Training</span></a>-->
-<!--                    {%- endif %}-->
-<!--                    {%- if tool.registry.europmc and tool.registry.europmc != "NA" %}-->
-<!--                    <a data-bs-toggle="tooltip" data-bs-original-title="EuroPMC" href="https://europepmc.org/article/MED/{{tool.registry.europmc}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-book me-2"></i>Publication</span></a>-->
-<!--                    {%- endif %}-->
-<!--                </td>-->
+<td>
+{%- if tool.catalog == "TechRadar" %}
+<a href="https://everse.software/TechRadar/#/tool/{{ tool.id }}" target="_blank" rel="noopener">View on TechRadar ↗</a>
+{%- endif %}
+</td>
 </tr>
 {%- endfor %}
 {%- endfor %}

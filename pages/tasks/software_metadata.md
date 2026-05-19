@@ -78,7 +78,7 @@ See the [CodeMeta terms](https://codemeta.github.io/terms/) to understand which 
 
 - GitHub & GitLab code repositories support it to help document software for better discoverability.
 - Researchers use it to cite research software in academic papers.
-- Software repositories & archives like {% tool "zenodo" %}, {% tool "figshare" %}, {% tool "inveniordm" %} and {% tool "softwareheritage" %}, as well as many institutional repositories use it as a standardised metadata format across platforms.
+- Software repositories & archives like {% tool "zenodo" %}, {% tool "figshare" %}, {% tool "inveniordm" %} and {% tool "software-heritage" %}, as well as many institutional repositories use it as a standardised metadata format across platforms.
 - FAIR data initiatives support the use of CodeMeta format to [help with findability](https://zenodo.org/records/13996966/files/DASH_FAIR_CodeMeta_Oct_2024.pdf).
 
 ### How can you use CodeMeta?
@@ -86,17 +86,19 @@ See the [CodeMeta terms](https://codemeta.github.io/terms/) to understand which 
 You can use the [CodeMeta terms](https://codemeta.github.io/terms/) to create a `codemeta.json` file for your software projects and share it in the root of the source code repository (e.g. on GitHub & GitLab) along with your code.
 
 You can create the `codemeta.json` file:
-* by using {% tool "codemetagenerator" %}, an online form-based service to help you describe valid CodeMeta records.
+* by using {% tool "codemeta-generator" %}, an online form-based service to help you describe valid CodeMeta records.
 * by using {% tool "somef" %} command line tool and using the `-c` flag to export the CodeMeta file generated from your README file and available documentation. 
-Alternatively, {% tool "somefvider" %} will allow you to download auto-generated CodeMeta files (remember to double check the results).
+Alternatively, {% tool "somef-vider" %} will allow you to download auto-generated CodeMeta files (remember to double check the results).
 * manually, e.g. by using the [CodeMeta template](https://github.com/codemeta/codemeta/blob/master/codemeta.json) as a reference. JSON-LD files can be validated with services like {% tool "jasonldvalidator" %}.
 
-Using CodeMeta file to describe your software will propagate between different archival infrastructures, platforms and services which understand CodeMeta descriptions and can ingest existing `codemeta.json` files automatically ({% tool "zenodo" %}, {% tool "figshare" %}, {% tool "inveniordm" %} and {% tool "softwareheritage" %}).
+Using CodeMeta file to describe your software will propagate between different archival infrastructures, platforms and services which understand CodeMeta descriptions and can ingest existing `codemeta.json` files automatically ({% tool "zenodo" %}, {% tool "figshare" %}, {% tool "inveniordm" %} and {% tool "software-heritage" %}).
 This means you will not have to duplicate the work when using such services - e.g. when [obtaining a DOI for your software](./software_identifiers), if you have `codemeta.json` file already you will not have to fill in the corresponding software metadata again.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
 ## Tool- or Domain-Specific Tasks
 
 This is a suggested list tool-specific sub-tasks to have a look at.
 
-{% assign child_pages = page.child_pages | join: ', ' %}
-{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=4 %}
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}

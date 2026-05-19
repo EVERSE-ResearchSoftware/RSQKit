@@ -33,9 +33,9 @@ For more on software metadata, check out the [Software Metadata](./software_meta
 
 - **Do It Yourself**: You can manually create the file using the CodeMeta schema. Check out the example below.
 - **Use Tools**:  
-  - {% tool "codemetagenerator" %} for a form-based approach  
+  - {% tool "codemeta-generator" %} for a form-based approach  
   - {% tool "somef" %} for command-line generation  
-  - {% tool "autocodemeta" %} for an interactive tool that guides you through creating a `codemeta.json` file step by step.
+  - {% tool "auto-codemeta" %} for an interactive tool that guides you through creating a `codemeta.json` file step by step.
   - NB Always review and add details like ORCID iDs and funder info.
 - **Archive Your Work**: Release your software on a platform that assigns DOIs, like {% tool "zenodo" %}. Add the DOI to your `codemeta.json` as an `identifier`.
 - **Validate**: Use a service like {% tool "jasonldvalidator" %} to ensure everything is correct.
@@ -107,3 +107,11 @@ Here's a sample `codemeta.json` file to get you started:
 ```
 By following these steps, you can provide complete bibliographic metadata for your software project in a CodeMeta file, enhancing its discoverability and citation.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}

@@ -170,6 +170,15 @@ Otherwise, create a new file called, e.g. LICENSE, in the root directory to your
 * See RSQKit's [LICENSE file][rsqkit-licence] that specifies different licences for metadata, content and software. 
 * In case you want or need to apply licenses one a per file bases, have a look at {% tool "reuse" %}.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
 [spdx-licences]: https://spdx.org/licenses/
 [fair-rs-principles]: https://doi.org/10.15497/RDA00068
 [cc0]: https://creativecommons.org/publicdomain/zero/1.0/

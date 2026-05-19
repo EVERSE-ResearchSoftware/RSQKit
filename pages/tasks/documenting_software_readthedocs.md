@@ -105,9 +105,9 @@ mkdocs:
 
 Integrate your project with Continuous Integration (CI) to automatically rebuild your documentation whenever changes are made:
 
-* {% tool "github-actions" %}: set up a workflow that triggers on every `push` or `pull request`. This helps automate the process of updating the documentation whenever you make changes to the source files.
+* {% tool "github_actions" %}: set up a workflow that triggers on every `push` or `pull request`. This helps automate the process of updating the documentation whenever you make changes to the source files.
 
-* {% tool "gitlab-ci-cd" %}: similarly to GitHub, you can configure GitLab CI pipelines to handle automatic updates.
+* {% tool "gitlab-cicd" %}: similarly to GitHub, you can configure GitLab CI pipelines to handle automatic updates.
 
 #### 6. Customise and Build Documentation
 
@@ -127,6 +127,15 @@ After a successful build, the documentation will be published and publicly acces
 
 For further information, please refer to the [Read the Docs tutorial][readthedocs-tutorial].
 Additionally, check out the [RSQKit page on documenting code][documenting_code] for more insights.
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [readthedocs-tutorial]: https://docs.readthedocs.io/en/stable/tutorial/index.html
 [documenting_code]: ./documenting_code

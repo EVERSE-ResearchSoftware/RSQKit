@@ -8,8 +8,6 @@ child_pages: [task_automation_github_actions, task_automation_gitlab_ci_cd]
 keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
 ---
 
-## How can you use CI/CD in software development?
-
 ### Description
 
 CI (Continuous Integration) and CD (Continuous Delivery/Continuous Deployment) are software development practices aimed at automating and improving the process of software integration, testing, and delivery.
@@ -55,14 +53,14 @@ CI/CD tools and platforms for different stages of code development and deploymen
 
 - Version Control Systems (VCS) are essential for managing code and version control. Some such tools (like GitHub, GitLab, Bitbucket)
   also provide CI/CD processes and services built around code repositories - e.g. [GitHub Actions][task_automation_github_actions], [GitLab CI/CD][task_automation_gitlab_ci_cd] and BitBucket Pipelines.
-    - Additional tools such as {% tool "precommit" %} can be used alongside VCS to ensure code quality is maintained.
+    - Additional tools such as {% tool "pre-commit" %} can be used alongside VCS to ensure code quality is maintained.
 - CI/CD pipelines - automate the entire process from code integration to deployment. Common tools include:
-    - {% tool "github-actions" %} - integrated CI/CD directly within GitHub, with [easy-to-set-up workflows (called actions)][task_automation_github_actions].
-    - {% tool "gitlab-ci-cd" %}: integrated CI/CD directly within GitLab.
+    - {% tool "github_actions" %} - integrated CI/CD directly within GitHub, with [easy-to-set-up workflows (called actions)][task_automation_github_actions].
+    - {% tool "gitlab-cicd" %}: integrated CI/CD directly within GitLab.
     - BitBucket Pipelines: integrated CI/CD directly within BitBucket.
     - {% tool "jenkins" %}: highly customisable and widely used for CI/CD pipelines.
     - CircleCI: focuses on simplicity and speed for building and testing.
-    - {% tool "travis" %}: a cloud-based CI service often used for open-source projects.
+    - {% tool "travis-ci" %}: a cloud-based CI service often used for open-source projects.
     - Azure Pipelines: part of the Azure DevOps suite, supports various languages and platforms.
 - Testing tools - automated testing tools like JUnit, Selenium, Cypress, and Postman integrate with CI/CD workflows/pipelines to ensure the code meets quality standards.
 - Artefact repositories - tools like Artifactory or Nexus Repository store build artefacts (e.g., Docker images, binaries) for deployment.
@@ -72,12 +70,14 @@ CI/CD tools and platforms for different stages of code development and deploymen
 - Monitoring - tools like Prometheus, Grafana, and New Relic are used for real-time monitoring in production to ensure system health.
 - Infrastructure as Code (IaC) - tools like {% tool "terraform" %}, {% tool "vagrant" %} or {% tool "ansible" %} automate infrastructure provisioning and configuration, ensuring consistency across environments.
 
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
 ## Tool- or Domain-Specific Tasks
 
 This is a suggested list tool-specific sub-tasks to have a look at.
 
-{% assign child_pages = page.child_pages | join: ', ' %}
-{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=4 %}
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
 
 [task_automation_github_actions]: ./task_automation_github_actions
 [task_automation_gitlab_ci_cd]: ./task_automation_gitlab_ci_cd
