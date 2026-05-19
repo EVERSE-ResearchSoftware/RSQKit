@@ -43,7 +43,7 @@
 - name: ELIXIR
   image_url: https://elixir-europe.org/sites/default/files/elixir_logo_0.png
   expose: true
-  type: infrastructure
+  type: research infrastructure
   url: https://elixir-europe.org/
 - name: PaNOSC
   image_url: https://www.panosc.eu/wp-content/uploads/2021/01/PaNOSClogo_web_RGB.jpg
