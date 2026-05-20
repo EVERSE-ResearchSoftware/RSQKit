@@ -332,6 +332,7 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/maintainability
     -   '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
     source:
         identifier: https://zenodo.org/records/10647227
         name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
@@ -354,7 +355,8 @@
     - active
     name: Project has active contributors beyond core maintainers
     qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
     source:
         name: 2.5 Community
         url: https://github.com/EVERSE-ResearchSoftware/reference-framework/blob/main/source/02-framework/community.md
@@ -413,6 +415,7 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/sustaintability
     -   '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
     source:
     -   name: Software Requirements
         url: https://docs.tech.cessda.eu/software/requirements.html
@@ -959,7 +962,8 @@
     - timeframe
     name: Responses to issues and/or pull requests are done within a defined timeframe
     qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
     source:
         name: 2.5 Community
         url: https://github.com/EVERSE-ResearchSoftware/reference-framework/blob/main/source/02-framework/community.md
@@ -1066,6 +1070,35 @@
     source:
     -   name: 'OpenSSF Scorecard: License'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#license
+    -   name: Reuse, licensing and legal aspects. RSMD-6.2
+        url: https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/
+    status: Active
+    version: 1.0.0
+-   abbreviation: software_has_license_for_file_types
+    alternateName: FRSM-15
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 19-05-2026
+    description: This indicator determines if the project has an appropriate licenses
+        for its different file types (e.g., documentation, images, code, tests, etc.).
+        The REUSE specification defines good practices for accomplishing this task.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/software_has_license_for_file_types
+    keywords:
+    - license
+    - metadata
+    - fair
+    - reuse
+    - reusability
+    name: Software uses an appropriate license for different file types
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+    -   name: Reusability Conditions
+        url: https://github.com/EVERSE-ResearchSoftware/schemas/issues/5
     -   name: Reuse, licensing and legal aspects. RSMD-6.2
         url: https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/
     status: Active
