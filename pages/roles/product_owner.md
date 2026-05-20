@@ -40,3 +40,7 @@ Your responsibilities focus on defining, prioritising and guiding the developmen
 - Research software usability and accessibility guidance — ensuring software is usable by diverse research communities, including consideration of the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) and inclusive design practices.
 - Community governance models for research software — supporting transparent contribution and decision-making processes through practices such as contributor guidelines, codes of conduct, and open governance models. See guidance from [The Turing Way](https://book.the-turing-way.org/community-handbook/community-handbook.html) and the [Open Source Guides](https://opensource.guide/).
 - Research Software Maturity Models (RSMM) — understanding broader sustainability and quality considerations for research software projects. See the [Research Software Maturity Model (RSMM)](https://doi.org/10.48550/arXiv.2406.01788).
+
+## AI Disclosure
+
+This work was produced with the assistance of ChatGPT 5.5 Instant, under the strict editorial control and factual verification of the human author.
