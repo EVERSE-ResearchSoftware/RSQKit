@@ -3,6 +3,7 @@ title: "Research Software Story - xAODAnaHelpers"
 description: "Analysis Framework for High-Level ATLAS Data"
 contributors: ["Michael Sparks", "Caterina Doglioni", "Tobias Fitschen"]
 page_id: xah_research_software_story
+affiliations: ["ESCAPE"]
 ---
 
 ## The Problem

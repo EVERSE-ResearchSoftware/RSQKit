@@ -3,6 +3,7 @@ title: "Research Software Story - OpenEBench"
 description: "OpenEBench is an open, community-driven platform for benchmarking and monitoring bioinformatics software, enabling transparent performance evaluation and improved research software quality."
 contributors: [Laura Portell-Silva, José María Fernández, Eva Martín del Pico]
 page_id: openebench_research_software_story
+affiliations: ["LS-RI", "ELIXIR", "Barcelona Supercomputing Centre"]
 ---
 
 ## The Problem 
