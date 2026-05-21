@@ -1269,20 +1269,6 @@
     requiring the code to compile.
   url: 'https://cppcheck.sourceforge.io/'
   catalog: RSQKit
-- id: fortran-linter
-  name: fortran-linter
-  description: >-
-    fortran-linter is a simple linting tool for Fortran source code that
-    checks for common style and correctness issues.
-  url: 'https://github.com/cphyc/fortran-linter'
-  catalog: RSQKit
-- id: flint
-  name: flint
-  description: >-
-    flint is a Fortran linter focused on enforcing coding standards and
-    detecting potential issues in Fortran source code.
-  url: 'https://github.com/JonasToth/flint'
-  catalog: RSQKit
 - id: jet-jl
   name: JET.jl
   description: >-
