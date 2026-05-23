@@ -25,7 +25,7 @@
         whether research software achieves adoption, maintains quality, and evolves
         to meet changing research needs.'
     identifier: https://w3id.org/everse/i/dimensions/community
-    name: community
+    name: Community
     source:
     -   name: 2.5 Community
         url: https://github.com/EVERSE-ResearchSoftware/reference-framework/blob/main/source/02-framework/community.md
