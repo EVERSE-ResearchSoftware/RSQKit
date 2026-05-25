@@ -6,7 +6,7 @@ page_id: documenting_code
 related_pages:
   tasks: [documenting_software_project, writing_readable_code, creating_good_readme, licensing_software]
 child_pages: [documenting_software_readthedocs]
-quality_indicators: [software_has_documentation]
+quality_indicators: [software_has_documentation, code_documentation_coverage_ok]
 keywords: ["documentation", "code documentation"]
 
 ---
