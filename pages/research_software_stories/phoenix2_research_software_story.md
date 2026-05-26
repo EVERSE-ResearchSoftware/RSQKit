@@ -98,7 +98,7 @@ In addition, Phoenix provides some tools to help developing high quality softwar
 - benchmarking tools to measure execution time of C++ routines
 - Reporter tool aggregating results from {% tool "maqao" %}, {% tool "valgrind" %}, {% tool "malt" %} and benchmarks
 - documentation generation from `LaTeX` or `markdown`
-- {% tool "gitlab-ci-cd" %} catalog relying on {% tool "pixi" %}[tasks](https://pixi.prefix.dev/dev/workspace/advanced_tasks/) to centralize CI/CD definitions.
+- {% tool "gitlab-cicd" %} catalog relying on {% tool "pixi" %}[tasks](https://pixi.prefix.dev/dev/workspace/advanced_tasks/) to centralize CI/CD definitions.
 
 
 ## FAIR & Open
