@@ -96,7 +96,6 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 {% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
 {% endif %}
 
-
 [awesome-rs-registries]: https://github.com/NLeSC/awesome-research-software-registries
 [biotools]: https://bio.tools
 [cff]: https://citation-file-format.github.io/

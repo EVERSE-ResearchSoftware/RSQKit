@@ -39,7 +39,7 @@ Phoenix intends to be a generic base layer for research software, providing reli
 
 ## Technical Aspects
 
-The phoenix libraries are aiming to **facilitate the development and improve the quality** of data acquisition and data analysis software. Therefore, they include some field specific tools for data exchange between processes, abstract socket API with build-in mock-ups, serialization, ... but also a lot of general purpose utilities for research software: testing, benchmarking, configuration and argument parsing, string manipulation, code generation... Phoenix also provides a complete CI/CD workflow ({% tool "gitlab-ci-cd" %}) for projects managed with {% tool "pixi" %}.
+The phoenix libraries are aiming to **facilitate the development and improve the quality** of data acquisition and data analysis software. Therefore, they include some field specific tools for data exchange between processes, abstract socket API with build-in mock-ups, serialization, ... but also a lot of general purpose utilities for research software: testing, benchmarking, configuration and argument parsing, string manipulation, code generation... Phoenix also provides a complete CI/CD workflow ({% tool "gitlab-cicd" %}) for projects managed with {% tool "pixi" %}.
 
 Thanks to its modular design, a user interested in a specific subset of the features can install only the required packages, keeping their environment lightweight. Phoenix packages are implemented in either `C++`, `Rust` and `python` and packaged with {% tool "pixi" %} to the platform and language agnostic `conda` package format. Packages are available for the `linux-64` and `linux-aarch64` platforms. Additional platforms could be added upon request.
 
@@ -63,7 +63,7 @@ Phoenix packages mostly rely on the standard library of their language, but spec
 ## Software Practices
 ### Phoenix heavily leverages continuous integration and deployment best practices, and can help you do too!
 
-Phoenix strives to follow robust software development practices and heavily leverages {% tool "gitlab-ci-cd" %} [components](https://docs.gitlab.com/ci/components/) and {% tool "pixi" %}[tasks](https://pixi.prefix.dev/dev/workspace/advanced_tasks/) to standardize and automatize as many development and maintenance tasks as possible.
+Phoenix strives to follow robust software development practices and heavily leverages {% tool "gitlab-cicd" %} [components](https://docs.gitlab.com/ci/components/) and {% tool "pixi" %}[tasks](https://pixi.prefix.dev/dev/workspace/advanced_tasks/) to standardize and automatize as many development and maintenance tasks as possible.
 - The entire codebase is **version-controlled**.
 - **Continuous integration** validates the code, which is **thoroughly tested** by unit tests usually covering over 90% of the code.
 - Phoenix uses a **commit convention** that enables automatic detection of new releases according to [semantic versioning](https://semver.org/). 

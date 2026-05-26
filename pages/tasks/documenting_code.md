@@ -143,7 +143,6 @@ for some automated tasks.
 
 {% assign child_pages = page.child_pages | join: ', ' %}
 {% if child_pages != null and child_pages != '' %}
-
 ## Tool- or Domain-Specific Tasks
 
 This is a suggested list tool-specific sub-tasks to have a look at.
