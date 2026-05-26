@@ -8,9 +8,9 @@
     -   '@type': schema:Person
         name: Andres Montero
     created: 23-06-2025
-    description: 'The source code repository is archived in a scholarly repository
+    description: The source code repository is archived in a scholarly repository
         (e.g Zenodo, HAL) to ensure that software can be found and accessed in a scholarly
-        context '
+        context.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/archived_in_scholarly_repository
     keywords:
@@ -61,6 +61,56 @@
         '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
         name: Accessibility and preservation. RSMD 2.1
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
+    status: Active
+    version: 1.0.0
+-   abbreviation: code_churn_ok
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 20-05-2026
+    description: The code churn (how much a source code has changed over time) of
+        the project's source code is maintained within a reasonable level according
+        to the community's standards and conventions. An example of how to calculate
+        it would be code churn = added lines + deleted lines.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/code_churn_ok
+    keywords:
+    - code
+    - churn
+    - maintainability
+    name: Code churn follows community conventions
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+        name: 'Code churn: a measure for estimating the impact of code change'
+        url: https://ieeexplore.ieee.org/document/738486
+    status: Active
+    version: 1.0.0
+-   abbreviation: code_documentation_coverage_ok
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 20-05-2026
+    description: This check tries to determine if the project's codebase is mostly
+        documented according according to community conventions and standards (i.e.
+        docstrings).
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/code_documentation_coverage_ok
+    keywords:
+    - documentation
+    - docstring
+    - documentation coverage
+    name: The documentation coverage for the codebase follows community conventions
+    qualityDimension:
+    -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+        name: interrogate
+        url: https://interrogate.readthedocs.io/en/latest/
     status: Active
     version: 1.0.0
 -   abbreviation: code_duplication_ok
@@ -807,6 +857,29 @@
         name: OpenSSF Best practice No Leaked Credentials
     status: Active
     version: 1.0.0
+-   abbreviation: passed_tests_ok
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 20-05-2026
+    description: The software tool passes all the tests provided within its own repository.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/passed_tests_ok
+    keywords:
+    - tests
+    - test
+    - functionality
+    name: All tests defined by the software component pass
+    qualityDimension:
+    -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    -   '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    source:
+        name: About Code Coverage
+        url: https://docs.codecov.com/docs/about-code-coverage
+    status: Active
+    version: 1.0.0
 -   abbreviation: persistent_and_unique_identifier
     alternateName: FRSM-01
     author:
@@ -1138,6 +1211,31 @@
         url: https://zenodo.org/records/10047401
     status: Active
     version: 1.0.0
+-   abbreviation: software_is_containerized
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 20-05-2026
+    description: The project's repository where its source code is hosted includes
+        a container build file to containerize it (i.e. Dockerfile, Podman, Apptainer,
+        etc.).
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/software_is_containerized
+    keywords:
+    - container
+    - fair
+    - containerized
+    - docker
+    name: The project's repository includes a container build file
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+        name: Software Package Checklist
+        url: https://escape-ossr.gitlab.io/ossr-pages/contribute/checklist/
+    status: Active
+    version: 1.0.0
 -   abbreviation: software_test_coverage
     author:
         '@type': schema:Organization
@@ -1231,7 +1329,8 @@
         url: https://zenodo.org/records/17035105
     status: Active
     version: 1.0.0
--   abbreviation: uses_fuzzing
+- &id001
+    abbreviation: uses_fuzzing
     author:
         '@type': schema:Organization
         name: OpenSSF
@@ -1265,117 +1364,6 @@
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#fuzzing
     status: Active
     version: 1.0.0
--   abbreviation: uses_tool_for_warnings_and_mistakes
-    author:
-        '@type': schema:Organization
-        name: OpenSSF
-        url: https://openssf.org/
-    contact:
-    -   '@type': schema:Person
-        name: Daniel Garijo
-    -   '@type': schema:Person
-        name: Andres Montero
-    created: 27-06-2025
-    description: This indicator checks that the project enables one or more compiler
-        warning flags, a "safe" language mode, or uses a separate "linter" tool to
-        look for code quality errors or common simple mistakes, if there is at least
-        one FLOSS tool that can implement this criterion in the selected language.
-    identifier:
-        '@id': https://w3id.org/everse/i/indicators/uses_tool_for_warnings_and_mistakes
-    keywords:
-    - linting
-    - code analysis
-    - fair
-    name: Software uses a tool for warnings or mistakes
-    qualityDimension:
-    -   '@id': https://w3id.org/everse/i/dimensions/fairness
-    -   '@id': https://w3id.org/everse/i/dimensions/maintainability
-    relevant in tiers:
-        Relevant for Analysis Code: good to have
-        Relevant for Prototype tool: good to have
-        Relevant for RS infrastructure: recommended
-    source:
-    -   name: 'OpenSSF Best Practices badge: Warning Flags'
-        url: https://www.bestpractices.dev/en/criteria/0#0.warnings
-    -   '@id': https://zenodo.org/records/10723608
-        name: Ensure Software Quality
-        url: https://zenodo.org/records/10723608
-    status: Active
-    version: 1.0.0
--   abbreviation: version_control_use
-    alternateName: FRSM-17
-    author:
-    -   '@type': schema:Organization
-        name: Elixir focus group
-        url: https://zenodo.org/communities/elixir/records
-    -   '@type': schema:Organization
-        name: FAIR-IMPACT
-    contact:
-    -   '@type': schema:Person
-        name: Daniel Garijo
-    -   '@type': schema:Person
-        name: Andres Montero
-    created: 23-05-2025
-    description: This indicator aims to determine if a software project uses version
-        control.
-    identifier:
-        '@id': https://w3id.org/everse/i/indicators/version_control_use
-    keywords:
-    - version
-    - control
-    - fair
-    - repository
-    - identifier
-    name: Software makes use of version control
-    qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/fairness
-    relevant in tiers:
-        Relevant for Analysis Code: crucial
-        Relevant for Prototype tool: crucial
-        Relevant for RS infrastructure: crucial
-    sameAs: https://doi.org/10.25504/FAIRsharing.d2b2c5
-    source:
-    -   name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
-            context
-        url: https://zenodo.org/records/10047401
-    -   name: 'Software Quality Indicators: extraction, categorisation and recommendations
-            from canonical sources'
-        url: https://doi.org/10.5281/zenodo.15474784
-    -   name: Reference and identification. RSMD-3.1
-        url: https://fair-impact.github.io/RSMD-guidelines/3.Reference_identification/
-    status: Active
-    version: 1.0.0
--   abbreviation: versioning_standards_use
-    author:
-        '@type': schema:Organization
-        name: FAIR-IMPACT
-    contact:
-    -   '@type': schema:Person
-        name: Daniel Garijo
-    -   '@type': schema:Person
-        name: Andres Montero
-    created: 14-07-2025
-    description: This indicator aims to determine if the version (or versions) of
-        a software tool follows an established community convention like semantic
-        versioning (SemVer) or calendar versioning (CalVer).
-    identifier:
-        '@id': https://w3id.org/everse/i/indicators/versioning_standards_use
-    keywords:
-    - version
-    - versioning
-    - fair
-    - releases
-    name: Software follows versioning standards
-    qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/fairness
-    relevant in tiers:
-        Relevant for Analysis Code: good to have
-        Relevant for Prototype tool: recommended
-        Relevant for RS infrastructure: crucial
-    source:
-        '@id': https://doi.org/10.5281/zenodo.15535629
-        name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
-            context
-        url: https://doi.org/10.5281/zenodo.15535629
-    status: Active
-    version: 1.0.0
+- *id001
+- *id001
+- *id001
