@@ -1,21 +1,11 @@
 ---
 title: "Managing complex CI testing matrices for research software"
-search_exclude: true
 description: "Efficiently test research software across multiple compilers, libraries, architectures, and platforms while managing CI resource constraints and maintaining fast feedback loops"
-contributors: []
-page_id: complex_ci_testing_matrix
+contributors: ["Srobona Ghosh"]
+page_id: ci_testing_matrices
 related_pages:
-  your_tasks: [ci_cd, task_automation_github_actions, task_automation_gitlab_ci_cd]
-training:
-  - name: "Pairwise Testing with allpairspy"
-    registry: "PyPI"
-    url: "https://pypi.org/project/allpairspy/"
-  - name: "GitLab Dynamic Child Pipelines"
-    registry: "GitLab"
-    url: "https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#dynamic-child-pipelines"
-  - name: "Docker Multi-stage Builds"
-    registry: "Docker"
-    url: "https://docs.docker.com/build/building/multi-stage/"
+  tasks: [ci_cd, task_automation_github_actions, task_automation_gitlab_ci_cd]
+keywords: ["ci", "cd", "ci/cd", "testing"]
 ---
 
 ## How can I efficiently test my research software across multiple compiler versions, library dependencies, and target platforms?
@@ -295,11 +285,11 @@ Transitioning from simple CI testing to comprehensive multi-platform testing mat
 
 - Consider resource sustainability: Even with optimized matrices, extensive testing may be technically possible, but consumes computational resources and energy. Balance testing thoroughness with environmental impact by running full matrices only when necessary (e.g., before releases) and using smaller subsets for regular development work. Consider tradeoffs between coverage and efficiency when designing your matrix and scheduling jobs.
 
-## References
+## Acknowledgements
 
 This approach was successfully implemented by the Helmholtz-Zentrum Dresden-Rossendorf for the Alpaka performance-portability library and PIConGPU particle-in-cell simulation code, demonstrating significant reductions in CI resource usage while maintaining comprehensive testing coverage across multiple compilers, accelerator platforms, and HPC architectures.
 
-Further resources:
+## Further Reading
 
 - [Continuous Integration in Complex Research Software - Handling Complexity](https://zenodo.org/records/14643958)
 - [PIConGPU](https://github.com/ComputationalRadiationPhysics/picongpu)
@@ -307,3 +297,6 @@ Further resources:
 - [Alpaka Job Matrix Library](https://github.com/alpaka-group/alpaka-job-matrix-library)
 - [Container Registry for CI Images](https://codebase.helmholtz.cloud/crp/alpaka-group-container)
 - [Dynamic CI Pipelines in GitLab](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#dynamic-child-pipelines)
+- [Pairwise Testing with allpairspy](https://pypi.org/project/allpairspy/)
+- [GitLab Dynamic Child Pipelines](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#dynamic-child-pipelines)
+- [Docker Multi-stage Builds](https://docs.docker.com/build/building/multi-stage/)

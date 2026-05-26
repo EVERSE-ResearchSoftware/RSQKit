@@ -1,24 +1,14 @@
 ---
-title: "Using local GitLab CI infrastructure for your GitHub project"
-search_exclude: true
+title: "Using organisational GitLab CI infrastructure for your GitHub project"
 description: "Leverage local GitLab CI runners and specialized hardware for GitHub-hosted projects when standard CI resources are insufficient"
-contributors: []
-page_id: github_gitlab_ci_integration
+contributors: ["Shrabona"]
+page_id: org_gitlab_ci_infra_for_github_project
 related_pages:
-  your_tasks: [ci_cd, task_automation_github_actions, task_automation_gitlab_ci_cd]
-training:
-  - name: "GitLab CI/CD Documentation"
-    registry: "GitLab"
-    url: "https://docs.gitlab.com/ee/ci/"
-  - name: "GitHub Actions Documentation"
-    registry: "GitHub"
-    url: "https://docs.github.com/en/actions"
-  - name: "Alpaka Job Matrix Library"
-    registry: "GitHub"
-    url: "https://github.com/alpaka-group/alpaka-job-matrix-library"
+  tasks: [ci_cd, task_automation_github_actions, task_automation_gitlab_ci_cd]
+keywords: ["ci", "cd", "ci/cd"]
 ---
 
-## How can I use my organization's local GitLab CI infrastructure for a GitHub-hosted project?
+## How can I use my organization's GitLab CI infrastructure for a GitHub-hosted project?
 
 ### Description
 
@@ -313,11 +303,11 @@ Running a hybrid GitHub-GitLab CI setup introduces workflow complexity that need
 
 - Implement automated issue routing: Create systems that automatically route CI-related issues to appropriate support channels based on whether they originate from GitHub or GitLab components.
 
-## References
+## Acknowledgements
 
 This approach was successfully implemented by the Helmholtz-Zentrum Dresden-Rossendorf for the Alpaka project, demonstrating how research organizations can effectively combine GitHub's collaborative features with local specialized CI infrastructure. The implementation showcases the infrastructure integration techniques that make complex research software CI pipelines practical and maintainable.
 
-Further resources:
+## Further Reading
 
 - [Continuous Integration in Complex Research Software - Handling Complexity](https://zenodo.org/records/14643958)
 - [PIConGPU](https://github.com/ComputationalRadiationPhysics/picongpu)
@@ -325,3 +315,6 @@ Further resources:
 - [Alpaka Job Matrix Library](https://github.com/alpaka-group/alpaka-job-matrix-library)
 - [Container Registry for CI Images](https://codebase.helmholtz.cloud/crp/alpaka-group-container)
 - [Dynamic CI Pipelines in GitLab](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#dynamic-child-pipelines)
+- [GitLab CI/CD Documentation](https://docs.gitlab.com/ee/ci/)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [Alpaka Job Matrix Library](https://github.com/alpaka-group/alpaka-job-matrix-library)
