@@ -130,6 +130,10 @@ subitems:
             url: /task_automation_github_actions
           - title: "Task automation using GitLab CI/CD"
             url: /task_automation_gitlab_ci_cd
+          - title: "Managing complex CI testing matrices"
+            url: /ci_testing_matrices
+          - title: "Organisational GitLab CI for GitHub projects"
+            url: /org_gitlab_ci_infra_for_github_project
       - title: "Improving environmental sustainability"
         url: /improving_environmental_sustainability
       - title: "Adopting FAIR software practices"
