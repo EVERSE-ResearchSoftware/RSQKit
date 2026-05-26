@@ -1,4 +1,4 @@
-name: Fetch Matomo Statistics
+name: Fetch Matomo statistics
 
 on:
   schedule:
