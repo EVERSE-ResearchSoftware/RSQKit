@@ -56,19 +56,20 @@ Is there a paper about the software that should be cited instead?
 If you want people to cite your research software, you will need to help them do it properly.
 
 By adding a `CITATION.cff` file in your source code repository, you can provide all relevant citation information in a concise and structured way.
-Not only does this give your users all the right information to cite your software correctly, but is also enables other tools and services, such as [GitHub](https://github.blog/news-insights/company-news/enhanced-support-citations-github/), [Zenodo](https://support.zenodo.org/help/en-gb/24-github-integration/96-how-does-a-citation-cff-file-affect-metadata-of-my-github-release) and [Zotero](https://www.zotero.org/), to reuse the citation metadata you provide.
+Not only does this give your users all the right information to cite your software correctly, but is also enables other tools and services, such as {% tool "github" %}, {% tool "zenodo" %} and {% tool "zotero" %} to reuse the citation metadata you provide
+For example, see [GitHub's citation documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) and [Zenodo's citation documentation](https://support.zenodo.org/help/en-gb/24-github-integration/96-how-does-a-citation-cff-file-affect-metadata-of-my-github-release) pages.
 
 ### Solutions
 
 To create a `CITATION.cff` file for your software:
 
-* use the [CFFinit](https://citation-file-format.github.io/cff-initializer-javascript/#/) online tool to create a valid `CITATION.cff` file which you can download, or
+* use the {% tool "cffinit" %} online tool to create a valid `CITATION.cff` file which you can download, or
 * manually copy and paste an [example snippet](https://github.com/citation-file-format/citation-file-format?tab=readme-ov-file#structure) 
-into your `CITATION.cff` file and adapt it to your needs, then use [cffconvert](https://pypi.org/project/cffconvert/) to validate your `CITATION.cff` file.
+into your `CITATION.cff` file and adapt it to your needs, then use {% tool "cffconvert" %} to validate your `CITATION.cff` file.
 
 Once you have created a correct `CITATION.cff` file, can add it to the root directory of your source code repository.
 
-You can also use the `CFFinit` tool to update an existing `CITATION.cff` file by pasting its contents in the tool's online form, updating the fields and saving it.
+You can also use {% tool "cffinit" %} to update an existing `CITATION.cff` file by pasting its contents in the tool's online form, updating the fields and saving it.
 
 A more detailed description on how to create `CITATION.cff` files can be found in the [Turing Way's Handbook for Open and Reproducible Research](https://book.the-turing-way.org/communication/citable/citable-cff.html).
 You can find a list of additional tools to create, validate and convert `CITATION.cff` files in the [CFF GitHub Repository](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench).

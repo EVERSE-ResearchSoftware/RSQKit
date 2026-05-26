@@ -258,12 +258,12 @@
   description: Publish static websites directly from GitHub repository
   url: 'https://pages.github.com/'
   catalog: TechRadar
-- id: github-actions
+- id: github_actions
   name: GitHub Actions
   description: 'GitHub''s infrastructure for continuous integration, deployment and delivery'
   url: 'https://github.com/features/actions'
   catalog: TechRadar
-- id: gitlab-ci-cd
+- id: gitlab-cicd
   name: GitLab CI/CD
   description: 'GitLab''s infrastructure for continuous integration, deployment and delivery'
   url: 'https://docs.gitlab.com/ee/topics/build_your_application.html'
@@ -1270,3 +1270,11 @@
   name: OpenEBench Software Observatory
   description: A platform component that monitors and analyses bioinformatics software quality, usage and sustainability within the OpenEBench ecosystem.
   url: https://openebench.bsc.es/observatory/
+- id: zotero
+  name: Zotero
+  description: Free and open-source reference management software to manage bibliographic data and related research materials, such as PDF and ePUB files.
+  url: https://www.zotero.org/
+- id: cffconvert
+  name: cffconvert
+  description: Command line program to validate and convert CITATION.cff files.
+  url: https://github.com/citation-file-format/cffconvert

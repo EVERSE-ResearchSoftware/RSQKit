@@ -55,8 +55,8 @@ CI/CD tools and platforms for different stages of code development and deploymen
   also provide CI/CD processes and services built around code repositories - e.g. [GitHub Actions][task_automation_github_actions], [GitLab CI/CD][task_automation_gitlab_ci_cd] and BitBucket Pipelines.
     - Additional tools such as {% tool "pre-commit" %} can be used alongside VCS to ensure code quality is maintained.
 - CI/CD pipelines - automate the entire process from code integration to deployment. Common tools include:
-    - {% tool "github-actions" %} - integrated CI/CD directly within GitHub, with [easy-to-set-up workflows (called actions)][task_automation_github_actions].
-    - {% tool "gitlab-ci-cd" %}: integrated CI/CD directly within GitLab.
+    - {% tool "github_actions" %} - integrated CI/CD directly within GitHub, with [easy-to-set-up workflows (called actions)][task_automation_github_actions].
+    - {% tool "gitlab-cicd" %}: integrated CI/CD directly within GitLab.
     - BitBucket Pipelines: integrated CI/CD directly within BitBucket.
     - {% tool "jenkins" %}: highly customisable and widely used for CI/CD pipelines.
     - CircleCI: focuses on simplicity and speed for building and testing.

@@ -1,7 +1,7 @@
 ---
 title: "Using organisational GitLab CI infrastructure for your GitHub project"
 description: "Leverage local GitLab CI runners and specialized hardware for GitHub-hosted projects when standard CI resources are insufficient"
-contributors: ["Shrabona"]
+contributors: ["Srobona Ghosh"]
 page_id: org_gitlab_ci_infra_for_github_project
 related_pages:
   tasks: [ci_cd, task_automation_github_actions, task_automation_gitlab_ci_cd]
@@ -18,8 +18,8 @@ Research projects like [PIConGPU](https://github.com/ComputationalRadiationPhysi
 
 ### Considerations
 
-- Resource limitations on GitHub: Free {% tool "github-actions" %} have monthly limits and lack access to specialized hardware like GPUs or alternative CPU architectures required for performance-portable research software
-- Available local infrastructure: Your organization may have {% tool "gitlab-ci-cd" %} runners with specialized hardware including multiple CPU architectures (ARM, Power, AMD, Intel), GPUs (NVIDIA, AMD), HPC systems, or different operating systems (macOS, Windows)
+- Resource limitations on GitHub: Free {% tool "github_actions" %} have monthly limits and lack access to specialized hardware like GPUs or alternative CPU architectures required for performance-portable research software
+- Available local infrastructure: Your organization may have {% tool "gitlab-cicd" %} runners with specialized hardware including multiple CPU architectures (ARM, Power, AMD, Intel), GPUs (NVIDIA, AMD), HPC systems, or different operating systems (macOS, Windows)
 - Fork contribution workflow: Contributors often work from forks, which complicates direct integration with external CI systems, especially important for open-source research projects with distributed contributors
 - GitLab Premium limitations: GitLab's native GitHub integration requires Premium edition and has limitations with fork pull requests, making it unsuitable for many research organizations
 - Security considerations: External contributors need access to CI results without compromising internal infrastructure security
