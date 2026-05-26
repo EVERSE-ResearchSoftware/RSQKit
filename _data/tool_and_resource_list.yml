@@ -258,12 +258,12 @@
   description: Publish static websites directly from GitHub repository
   url: 'https://pages.github.com/'
   catalog: TechRadar
-- id: github_actions
+- id: github-actions
   name: GitHub Actions
   description: 'GitHub''s infrastructure for continuous integration, deployment and delivery'
   url: 'https://github.com/features/actions'
   catalog: TechRadar
-- id: gitlab-cicd
+- id: gitlab-ci-cd
   name: GitLab CI/CD
   description: 'GitLab''s infrastructure for continuous integration, deployment and delivery'
   url: 'https://docs.gitlab.com/ee/topics/build_your_application.html'
