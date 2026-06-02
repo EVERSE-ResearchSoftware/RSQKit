@@ -55,8 +55,29 @@ Read some of the existing task pages on RSQKit - https://everse.software/RSQKit/
 
 **All Markdown comments and page metadata comments can be removed before making a pull request.
 
-The RSQKit Editorial Board applies these principles when reviewing task pages -
-following them will help ensure consistency and quality across the toolkit.
+The RSQKit Editorial Board applies these principles when reviewing task pages - following them will help ensure consistency and quality across the toolkit.
+
+**Organising Links and Resources in Task pages
+
+When creating or updating task pages in RSQKit, organise links and resources clearly and consistently so that users can easily find and understand supporting materials. Task pages may include the following types of resources:
+- Relevant internal pages, referenced via the “relevant pages” section added through frontmatter metadata and also linked directly within the page text.
+- Training materials, currently sourced only from TeSS and discovered via keywords.
+- External resources (such as articles, websites, and books) that are not training materials, which are presently included as inline links but not collected in a dedicated section.
+- Tools, which are marked up using the tools tag and listed in a separate section.
+
+**Adding a Further Reading Section
+
+Task pages should include a dedicated Further Reading section to collect and highlight relevant external resources in a single location. The section should:
+- Include externally maintained resources that provide additional information, guidance, standards, tools, or best practices related to the task.
+- Allow resources to be added manually, regardless of whether they are referenced elsewhere on the page.
+
+All resources included in the Further Reading section should be curated and accompanied by a concise description that includes:
+- The intended audience, where relevant (e.g. beginners, practitioners, managers, or specialists).
+- A brief explanation of the resource and its relevance to the topic.
+- A direct and stable link to the source.
+
+Providing this context helps users identify the resources most relevant to their needs and level of expertise, supporting both general audiences and more specialised user groups.
+
 *---END GUIDANCE---*
 ```
 
