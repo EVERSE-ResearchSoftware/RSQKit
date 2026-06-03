@@ -157,30 +157,29 @@ The project emphasises modular design, open standards, and containerization to r
 - [OpenEBench Scientific level2 ingestion tools][OPENEBENCH_ING_TOOLS]
 - [OpenEBench Scientific frontend code][OPENEBENCH_FRONTEND]
 - [OpenEBench Technical monitoring repository metadata enricher][OPENEBENCH_TECH_METADATA]
-
-
+  
 <!-- External References embedded as links -->
 
-- [OPENEBENCH]: https://openebench.bsc.es/
-- [OPENEBENCH_GITHUB]: https://github.com/inab/openebench-hub
-- [OPENEBENCH_TECH]: https://openebench.bsc.es/tool
-- [OPENEBENCH_OB]: https://openebench.bsc.es/observatory
-- [OPENEBENCH_SCI]: https://openebench.bsc.es/benchmarking
-- [OPENEBENCH_DOC]: https://openebench.readthedocs.io/en/latest/
-- [OPENEBENCH_MODEL]: https://github.com/inab/benchmarking-data-model/
-- [OPENEBENCH_API]: https://gitlab.bsc.es/inb/elixir/openebench/openebench-backend-legacy
-- [OPENEBENCH_BENCH]: https://github.com/qfo/benchmark-webservice
-- [OPENEBENCH_TOOLS]: https://gitlab.bsc.es/inb/elixir/openebench/oeb-sci-admin-tools
-- [OPENEBENCH_ING_TOOLS]: https://github.com/inab/OEB_level2_data_migration
-- [OPENEBENCH_FRONTEND]: https://github.com/inab/openEBench-nuxt
-- [OPENEBENCH_TECH_METADATA]: https://github.com/inab/opeb-repo-enricher
-- [OPENEBENCH_README]: https://github.com/inab/openebench-hub
-- [OPENEBENCH_TEMPLATES]: https://github.com/inab/TCGA_benchmarking_workflow
-- [OPENEBENCH_GUIDE]: https://openebench.readthedocs.io/en/latest/how_to/3_participate.html
-- [BSC]: https://www.bsc.es/
-- [TOOLS_PLATFORM]: https://elixir-europe.org/platforms/tools
-- [MODEL]: https://github.com/inab/OEB_level2_data_migration/blob/master/oeb_level2/schemas/minimal_bdm_oeb_level2.yaml
-- [MODEL_EXAMPLE]: https://github.com/inab/OEB_level2_data_migration/tree/master/minimal_dataset_examples
-- [JSON_MODEL]: https://github.com/inab/benchmarking-data-model/tree/master/json-schemas/1.0.x
-- [JSON_EXAMPLE]: https://github.com/inab/benchmarking-data-model/tree/master/prototype-data/1.0.x
-- [MODEL_GRAF]: https://github.com/inab/benchmarking-data-model/blob/master/json-schemas/openebench-bdm-1.0.x.dot.pdf
+[OPENEBENCH]: https://openebench.bsc.es/
+[OPENEBENCH_GITHUB]: https://github.com/inab/openebench-hub
+[OPENEBENCH_TECH]: https://openebench.bsc.es/tool
+[OPENEBENCH_OB]: https://openebench.bsc.es/observatory
+[OPENEBENCH_SCI]: https://openebench.bsc.es/benchmarking
+[OPENEBENCH_DOC]: https://openebench.readthedocs.io/en/latest/
+[OPENEBENCH_MODEL]: https://github.com/inab/benchmarking-data-model/
+[OPENEBENCH_API]: https://gitlab.bsc.es/inb/elixir/openebench/openebench-backend-legacy
+[OPENEBENCH_BENCH]: https://github.com/qfo/benchmark-webservice
+[OPENEBENCH_TOOLS]: https://gitlab.bsc.es/inb/elixir/openebench/oeb-sci-admin-tools
+[OPENEBENCH_ING_TOOLS]: https://github.com/inab/OEB_level2_data_migration
+[OPENEBENCH_FRONTEND]: https://github.com/inab/openEBench-nuxt
+[OPENEBENCH_TECH_METADATA]: https://github.com/inab/opeb-repo-enricher
+[OPENEBENCH_README]: https://github.com/inab/openebench-hub
+[OPENEBENCH_TEMPLATES]: https://github.com/inab/TCGA_benchmarking_workflow
+[OPENEBENCH_GUIDE]: https://openebench.readthedocs.io/en/latest/how_to/3_participate.html
+[BSC]: https://www.bsc.es/
+[TOOLS_PLATFORM]: https://elixir-europe.org/platforms/tools
+[MODEL]: https://github.com/inab/OEB_level2_data_migration/blob/master/oeb_level2/schemas/minimal_bdm_oeb_level2.yaml
+[MODEL_EXAMPLE]: https://github.com/inab/OEB_level2_data_migration/tree/master/minimal_dataset_examples
+[JSON_MODEL]: https://github.com/inab/benchmarking-data-model/tree/master/json-schemas/1.0.x
+[JSON_EXAMPLE]: https://github.com/inab/benchmarking-data-model/tree/master/prototype-data/1.0.x
+[MODEL_GRAF]: https://github.com/inab/benchmarking-data-model/blob/master/json-schemas/openebench-bdm-1.0.x.dot.pdf
