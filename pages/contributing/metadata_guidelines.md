@@ -1,7 +1,7 @@
 ---
 title: Metadata Guidelines
 summary: Descriptions of different metadata schemas used to describe various resources and pages in RSQKit.
-contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Shoaib Sufi"]
+contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Shoaib Sufi", "Kenneth Rioja"]
 ---
 
 This page explains the metadata that can be used to describe various resources and pages in RSQKit.
@@ -185,6 +185,8 @@ An example of an RS Quality dimension definition is given below:
 
 ## Training metadata
 
+### In RSQKit
+
 Metadata about various training registries that RSQKit can integrate with is located in the `_config.yml` file in the project root.
 It can be configured via the following attribute:
 
@@ -199,3 +201,9 @@ training:
    - name: "EVERSE TeSS"
      url: "https://everse-training.app.cern.ch"
 ```
+
+### In EVERSE Training
+
+One can manually register a training material in [EVERSE Training](https://everse-training.app.cern.ch/). To make your material findable, keywords need to be properly describing your material. While registering your training material, we highly recommend to select keywords coming from the EVERSE [curated list for keywords](https://github.com/EVERSE-ResearchSoftware/training/blob/main/csv/keywords.csv). If your material is described with keywords from this list, it will be listed under the `Training` sections of relevant RSQKit pages. 
+
+For example, if your material is about reproducibility, including 'reproducibility' as one of the keywords in EVERSE Training will result in having your material featured in the [Reproducible software environments](https://everse.software/RSQKit/reproducible_software_environments) page from the RSQKit. Contact <contact.eversetraining@cern.ch> for more information.
