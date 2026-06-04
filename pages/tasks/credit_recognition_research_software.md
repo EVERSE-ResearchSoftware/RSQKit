@@ -1,7 +1,7 @@
 ---
 title: "Credit and recognition for research software and RSEs"
 description: "Guidance on making software contributions visible, citable, and verifiable, and on building the evidence needed for career progression as a Research Software Engineer."
-contributors: []
+contributors: ["Mehdi Zoubiri", "Federica Quaglia", "Thanasis Vergoulis", "Maria Makaronidou", "Shoaib Sufi"]
 page_id: credit_recognition_research_software
 related_pages:
 tasks: [citing_software, archiving_software, publishing_software, complete_bibliographic_metadata_codemeta, fair_rs]
