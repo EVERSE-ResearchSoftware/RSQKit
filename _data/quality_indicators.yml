@@ -8,9 +8,9 @@
     -   '@type': schema:Person
         name: Andres Montero
     created: 23-06-2025
-    description: 'The source code repository is archived in a scholarly repository
+    description: The source code repository is archived in a scholarly repository
         (e.g Zenodo, HAL) to ensure that software can be found and accessed in a scholarly
-        context '
+        context.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/archived_in_scholarly_repository
     keywords:
@@ -61,6 +61,56 @@
         '@id': https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/
         name: Accessibility and preservation. RSMD 2.1
         url: https://fair-impact.github.io/RSMD-guidelines/8.rsmd_checklist/#accessibility-and-preservation
+    status: Active
+    version: 1.0.0
+-   abbreviation: code_churn_ok
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 20-05-2026
+    description: The code churn (how much a source code has changed over time) of
+        the project's source code is maintained within a reasonable level according
+        to the community's standards and conventions. An example of how to calculate
+        it would be code churn = added lines + deleted lines.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/code_churn_ok
+    keywords:
+    - code
+    - churn
+    - maintainability
+    name: Code churn follows community conventions
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    source:
+        name: 'Code churn: a measure for estimating the impact of code change'
+        url: https://ieeexplore.ieee.org/document/738486
+    status: Active
+    version: 1.0.0
+-   abbreviation: code_documentation_coverage_ok
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 20-05-2026
+    description: This check tries to determine if the project's codebase is mostly
+        documented according according to community conventions and standards (i.e.
+        docstrings).
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/code_documentation_coverage_ok
+    keywords:
+    - documentation
+    - docstring
+    - documentation coverage
+    name: The documentation coverage for the codebase follows community conventions
+    qualityDimension:
+    -   '@id': https://w3id.org/everse/i/dimensions/maintainability
+    -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+        name: interrogate
+        url: https://interrogate.readthedocs.io/en/latest/
     status: Active
     version: 1.0.0
 -   abbreviation: code_duplication_ok
@@ -332,6 +382,7 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/maintainability
     -   '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
     source:
         identifier: https://zenodo.org/records/10647227
         name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
@@ -354,7 +405,8 @@
     - active
     name: Project has active contributors beyond core maintainers
     qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
     source:
         name: 2.5 Community
         url: https://github.com/EVERSE-ResearchSoftware/reference-framework/blob/main/source/02-framework/community.md
@@ -413,6 +465,7 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/sustaintability
     -   '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
     source:
     -   name: Software Requirements
         url: https://docs.tech.cessda.eu/software/requirements.html
@@ -804,6 +857,29 @@
         name: OpenSSF Best practice No Leaked Credentials
     status: Active
     version: 1.0.0
+-   abbreviation: passed_tests_ok
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 20-05-2026
+    description: The software tool passes all the tests provided within its own repository.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/passed_tests_ok
+    keywords:
+    - tests
+    - test
+    - functionality
+    name: All tests defined by the software component pass
+    qualityDimension:
+    -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    -   '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    source:
+        name: About Code Coverage
+        url: https://docs.codecov.com/docs/about-code-coverage
+    status: Active
+    version: 1.0.0
 -   abbreviation: persistent_and_unique_identifier
     alternateName: FRSM-01
     author:
@@ -959,7 +1035,8 @@
     - timeframe
     name: Responses to issues and/or pull requests are done within a defined timeframe
     qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/community
+    -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
     source:
         name: 2.5 Community
         url: https://github.com/EVERSE-ResearchSoftware/reference-framework/blob/main/source/02-framework/community.md
@@ -1070,6 +1147,35 @@
         url: https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/
     status: Active
     version: 1.0.0
+-   abbreviation: software_has_license_for_file_types
+    alternateName: FRSM-15
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 19-05-2026
+    description: This indicator determines if the project has an appropriate licenses
+        for its different file types (e.g., documentation, images, code, tests, etc.).
+        The REUSE specification defines good practices for accomplishing this task.
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/software_has_license_for_file_types
+    keywords:
+    - license
+    - metadata
+    - fair
+    - reuse
+    - reusability
+    name: Software uses an appropriate license for different file types
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+    -   name: Reusability Conditions
+        url: https://github.com/EVERSE-ResearchSoftware/schemas/issues/5
+    -   name: Reuse, licensing and legal aspects. RSMD-6.2
+        url: https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/
+    status: Active
+    version: 1.0.0
 -   abbreviation: software_has_tests
     alternateName: FRSM-14
     author:
@@ -1103,6 +1209,31 @@
         name: D5.2 - Metrics for automated FAIR software assessment in a disciplinary
             context
         url: https://zenodo.org/records/10047401
+    status: Active
+    version: 1.0.0
+-   abbreviation: software_is_containerized
+    contact:
+    -   '@type': schema:Person
+        name: Daniel Garijo
+    -   '@type': schema:Person
+        name: Andres Montero
+    created: 20-05-2026
+    description: The project's repository where its source code is hosted includes
+        a container build file to containerize it (i.e. Dockerfile, Podman, Apptainer,
+        etc.).
+    identifier:
+        '@id': https://w3id.org/everse/i/indicators/software_is_containerized
+    keywords:
+    - container
+    - fair
+    - containerized
+    - docker
+    name: The project's repository includes a container build file
+    qualityDimension:
+        '@id': https://w3id.org/everse/i/dimensions/fairness
+    source:
+        name: Software Package Checklist
+        url: https://escape-ossr.gitlab.io/ossr-pages/contribute/checklist/
     status: Active
     version: 1.0.0
 -   abbreviation: software_test_coverage
