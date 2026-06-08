@@ -58,7 +58,8 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
--   abbreviation: fairness
+- &id001
+    abbreviation: fairness
     description: 'FAIRness refers to the degree to which research software adheres
         to the FAIR principles: Findable, Accessible, Interoperable, and Reusable.
         These principles, adapted for research software, aim to enhance the discoverability,
@@ -69,76 +70,8 @@
     source:
         name: Introducing the FAIR Principles for research software
         url: https://www.nature.com/articles/s41597-022-01710-x
--   abbreviation: flexibility
-    description: 'Degree to which a product can be adapted to changes in its requirements,
-        contexts of use or system environment. This characteristic is composed of
-        the following sub-characteristics:
-
-
-        **Adaptability**
-
-
-        Degree to which a product or system can effectively and efficiently be adapted
-        for or transferred to different hardware, software or other operational or
-        usage environments.
-
-
-        **Scalability**
-
-
-        Degree to which a product can handle growing or shrinking workloads or to
-        adapt its capacity to handle variability.
-
-
-        **Installability**
-
-
-        Degree of effectiveness and efficiency with which a product or system can
-        be successfully installed and/or uninstalled in a specified environment.
-
-
-        **Replaceability**
-
-
-        Degree to which a product can replace another specified software product for
-        the same purpose in the same environment.'
-    identifier: https://w3id.org/everse/i/dimensions/flexibility
-    name: Flexibility
-    source:
-        name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
-- &id001
-    abbreviation: functional_suitability
-    created: 03-04-2025
-    description: 'This characteristic represents the degree to which a product or
-        system provides functions that meet stated and implied needs when used under
-        specified conditions. This characteristic is composed of the following sub-characteristics:
-
-
-        **Functional completeness**
-
-
-        Degree to which the set of functions covers all the specified tasks and intended
-        users'' objectives.
-
-
-        **Functional correctness**
-
-
-        Degree to which a product or system provides accurate results when used by
-        intended users.
-
-
-        **Functional appropriateness**
-
-
-        Degree to which the functions facilitate the accomplishment of specified tasks
-        and objectives.'
-    identifier: https://w3id.org/everse/i/dimensions/functional_suitability
-    name: Functional suitability
-    source:
-        name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+- *id001
+- *id001
 - *id001
 - *id001
 - *id001
