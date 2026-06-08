@@ -4,7 +4,7 @@ description: What practices and tools can help improve FAIRness of software?
 contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Thomas Vuillaume"]
 page_id: fair_rs
 related_pages:
-  tasks: [software_metadata, citing_software, licensing_software, software_documentation, documenting_code, archiving_software, organising_software_projects, testing_software]
+  tasks: [software_metadata, citing_software, licensing_software, software_documentation, documenting_code, archiving_software, structuring_software_projects, testing_software]
 child_pages: []
 quality_indicators: [software_has_license, software_has_citation, software_has_documentation, archived_in_software_heritage, archived_in_scholarly_repository, listed_in_registry, software_has_tests, software_test_coverage, software_is_containerized, has_active_communication_channels, descriptive_metadata, persistent_and_unique_identifier, requirements_specified]
 keywords: ["fair software", "fair"]
