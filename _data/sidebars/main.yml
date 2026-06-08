@@ -86,8 +86,8 @@ subitems:
     subitems:
       - title: "Choosing languages, tools & infrastructures"
         url: /languages_tools_infrastructures
-      - title: "Organising software projects"
-        url: /organising_software_projects
+      - title: "Structuring software projects"
+        url: /structuring_software_projects
       - title: "Using version control"
         url: /using_version_control
       - title: "Reproducible software environments"
