@@ -67,14 +67,14 @@ When creating or updating task pages in RSQKit, organise links and resources cle
 
 **Adding a Further Reading Section
 
-Task pages should include a dedicated Further Reading section to collect and highlight relevant external resources in a single location. The section should:
+Task pages can include a dedicated Further Reading section to collect and highlight relevant external resources in a single location. The section should:
 - Include externally maintained resources that provide additional information, guidance, standards, tools, or best practices related to the task.
 - Allow resources to be added manually, regardless of whether they are referenced elsewhere on the page.
 
 All resources included in the Further Reading section should be curated and accompanied by a concise description that includes:
 - The intended audience, where relevant (e.g. beginners, practitioners, managers, or specialists).
 - A brief explanation of the resource and its relevance to the topic.
-- A direct and stable link to the source.
+- A direct and stable link to the resource.
 
 Providing this context helps users identify the resources most relevant to their needs and level of expertise, supporting both general audiences and more specialised user groups.
 
@@ -96,7 +96,7 @@ Providing this context helps users identify the resources most relevant to their
 
 This is a suggested list tool-specific sub-tasks to have a look at.
 
-## Further Reading
-
 {% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
 {% endif %}
+
+## Further Reading
