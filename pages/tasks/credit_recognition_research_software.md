@@ -7,7 +7,6 @@ related_pages:
 tasks: [citing_software, archiving_software, publishing_software, complete_bibliographic_metadata_codemeta, fair_rs]
 quality_indicators: [software_has_citation, persistent_and_unique_identifier, archived_in_scholarly_repository, descriptive_metadata, codemeta_completeness, versioning_standards_use]
 keywords: ["credit", "recognition", "orcid", "citation", "doi", "codemeta", "citation.cff", "research software engineer", "rse", "open science", "career progression", "contributor roles"]
-training:
 
   url: "https://everse-training.app.cern.ch"
 
