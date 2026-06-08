@@ -13,7 +13,7 @@ keywords: ["credit", "recognition", "orcid", "citation", "doi", "codemeta", "cit
 
 ## How do you ensure contributors to your research software receive appropriate credit?
 
-Research software, along with the people who develop, maintain, and train others in its use, is fundamental to modern science. Yet traditional research assessment still prioritises publications over code, workflows, and maintenance. This page provides practical guidance on making software contributions visible, citable, and verifiable — and on building the evidence base you need for career progression as an RSE.
+Research software, along with the people who develop, maintain, and train others in its use, is fundamental to modern science. Yet traditional research assessment still prioritises publications over code, workflows, and maintenance. This page provides practical guidance on making software contributions visible, citable, and verifiable — and on building the evidence base you need for using your software work for career progression cases.
 
 ### Description
 
