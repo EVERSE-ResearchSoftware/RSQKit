@@ -72,7 +72,7 @@ subitems:
       - title: Principal Investigator
         url: /principal_investigator
       - title: Product owner
-        url: /principal_investigator
+        url: /product_owner
       - title: Policy maker
         url: /policy_maker
       - title: Trainer
