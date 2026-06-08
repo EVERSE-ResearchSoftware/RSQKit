@@ -76,7 +76,7 @@ Impact in research software is not captured by citation counts alone. For RSEs a
 
 #### Build credibility through peer recognition
 
-- Participation in initiatives such as [HiddenREF](https://hidden-ref.org/) or [SSI Fellowships](https://www.software.ac.uk/programmes/fellowship-programme) signals community standing in ways that metrics alone cannot. These carry particular weight with reviewers unfamiliar with how to evaluate technical work, because they represent an external judgement of quality and leadership within the RSE community.
+- Participation in initiatives such as [HiddenREF](https://hidden-ref.org/) or [SSI Fellowships](https://www.software.ac.uk/programmes/fellowship-programme) signals community standing in ways that metrics alone cannot. These carry particular weight with reviewers unfamiliar with how to evaluate technical work, because they represent an external judgement of quality and leadership within the Research Software Community.
 
 ---
 
