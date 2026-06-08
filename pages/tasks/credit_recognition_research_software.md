@@ -9,7 +9,6 @@ quality_indicators: [software_has_citation, persistent_and_unique_identifier, ar
 keywords: ["credit", "recognition", "orcid", "citation", "doi", "codemeta", "citation.cff", "research software engineer", "rse", "open science", "career progression", "contributor roles"]
 training:
 
-- name: "EVERSE TeSS"
   url: "https://everse-training.app.cern.ch"
 
 ---
