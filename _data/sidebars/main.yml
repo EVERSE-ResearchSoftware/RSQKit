@@ -71,6 +71,8 @@ subitems:
         url: /research_software_engineer
       - title: Principal Investigator
         url: /principal_investigator
+      - title: Product owner
+        url: /product_owner
       - title: Policy maker
         url: /policy_maker
       - title: Trainer
