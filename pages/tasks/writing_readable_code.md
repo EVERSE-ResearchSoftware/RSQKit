@@ -75,7 +75,7 @@ In addition to documenting your source code - [see more on documenting your soft
 - Follow a code style guide for your programming language that is agreed upon by the community and other programmers will find easy to read. 
 Style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of code.
 Consistency with a style guide is important but consistency within a project or a module is more important - if you are joining an existing project, look at the existing code and make sure to adopt whatever practices are already in place.
-- Follow [guidelines and conventions on consistent and informative directory structure][structuring_software_projects] for your software or research projects - this way, people will immediately know where to find things within your project.
+- Follow [guidelines and conventions on consistent and informative directory structure][software_project_structure] for your software or research projects - this way, people will immediately know where to find things within your project.
 - Use automated code formatters (such as {% tool "black" %}) to enforce code styles and formatting rules.
 - Automate style checks to help ensure your code is consistent. Many modern Integrated Development Environments (IDEs), such as {% tool "vscode" %}, {% tool "pycharm" %}, {% tool "rstudio" %} or {% tool "eclipse" %}, 
 have built-in support for checking conformance to style conventions and they will warn you when you deviate or even autocorrect things for you.
@@ -107,4 +107,4 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 [clean-code-book]: https://www.oreilly.com/library/view/clean-code-a/9780136083238/
 [documenting_code]: ./documenting_code
 [documenting_software_project]: ./documenting_software_project
-[structuring_software_projects]: ./structuring_software_projects
+[software_project_structure]: ./software_project_structure

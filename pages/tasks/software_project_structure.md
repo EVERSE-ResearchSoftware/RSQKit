@@ -1,6 +1,6 @@
 ---
-title: Structuring software projects
-description: How to organise your software project?
+title: Software project structure
+description: How to organise your code and software folders?
 contributors: ["Aleksandra Nenadic"]
 page_id: structuring_software_projects
 related_pages:
@@ -28,37 +28,56 @@ Organising code or research project directories in a consistent manner is essent
 - In research projects, well-organised code, data, and documentation support easier result reproduction and validation.
 - Well-documented and consistent directory structures help future research build upon existing work more effectively.
 
-## What are some good practices in organising software projects?
+## What are some good practices in organising software projects into directory structure?
 
-Below are some good practices for setting up and maintaining a software (or a research) project's directory structure and storing code, data, results, tests, auxiliary information and metadata.
+Typically, as you start developing software from scratch, you might put all the code and data in the project directory's root.
+However, as your software project grows and you find yourself having to store other files, e.g. results, tests, auxiliary information and metadata in addition to your code and data, you may consider organising your directory differently.
 
-- **Top-level directory of the project**
-  - Put all files related to a project into a single directory. 
-  - Choose a meaningful name that reflects the project’s purpose or topic.
-  - Add `README` file to describe the project and instructions on installing and running the code and reproducing the results - see more on creating good [README files][creating_good_readme].
-  - Add `LICENSE` file to describe the how others can reuse your software or work - see more on [licensing software][licensing_software].
-  - Add [`CITATION.cff`][cff] file to describe how to cite the project - see more on [citing software][citing_software].
-  - Add `codemeta.json` file (or similar metadata standard) to describe your software's metadata - see more on [software metadata][software_metadata].
-- **Subdirectories of the project** - organise the project into sub-directories clearly labelled based on the type of their content, for example:
-  - `data` - for storing your data. Further organise raw, cleaned, intermediate, and/or processed data in separate subdirectories (e.g. `data/raw`, `data/clean`, `data/processed`) to maintain clarity and prevent overwriting or losing the original raw data. 
-  - `code` (or `scripts` or `src`) - for storing your source code.
-  - `results` - for storing analysis outputs, summary statistics, or any data generated after processing.
-  - `doc` - for storing detailed code/project description (e.g. on how the project is organised, methodologies, and file dependencies) and detailed [software documentation][software_documentation].
+Below are some established good practices for setting up and maintaining a software project's directory structure.
+
+### Directory structure
+
+Put all files related to the project into a **single directory** and choose a meaningful name for it that reflects the project’s purpose or topic.
+
+**Top-level directory** of the project should contain various auxiliary information and metadata about your software, making it easy for others to find out what it does and how to reuse it.
+This information is especially important as you start sharing your work with others - e.g. as a repository on code sharing platforms such as {% tool "github" %} or {% tool "gitlab" %}.
+For example:
+
+  - `README` file to describe the project and instructions on installing and running the code and reproducing the results - see more on creating good [README files][creating_good_readme].
+  - `LICENSE` file to describe the how others can reuse your software or work - see more on [licensing software][licensing_software].
+  - [`CITATION.cff`][cff] file to describe how to cite the project - see more on [citing software][citing_software].
+  - `codemeta.json` file (or similar metadata standard) to describe your software's metadata - see more on [software metadata][software_metadata].
+
+Organise the rest of the software project's file into **sub-directories** clearly labelled based on the type of their content.
+For example:
+
+  - `code` (or `scripts` or `src`) directory for storing your source code.
+  - `data` folder to store your data. Further organise raw, cleaned, intermediate, and/or processed data in separate subdirectories (e.g. `data/raw`, `data/clean`, `data/processed`) to maintain clarity and prevent overwriting or losing the original raw data.
+  - `results` folder for storing analysis outputs, summary statistics, or any data generated after processing.
+  - `doc` folder for storing various [software documentation and guides][software_documentation].
   - `figures` (or `fig`) - for storing all visualisations like charts, graphs, and figures generated from the code/analysis (alternatively, these can go in the `results` directory).
-  - `papers` or `presentations` or `references` - a folder for research papers, articles, or any other literature cited or referenced in the research project.
-  - If specific subdirectories in your project require distinct descriptions or licenses (for example, the license for your code may differ from that of your data, which is often the case), include separate README or LICENSE files in those subdirectories to apply to the files within them.
-- **Naming conventions for files and directories**
-  - Avoid special characters or spaces (they can cause errors when read by computers); use underscores (_) or hyphens (-) to separate words instead
+  - `papers` or `presentations` or `references` folders for research papers, articles, or any other literature cited or referenced in the research project. 
+These could go into separate projects so you do not mix them with your software - especially if you are developing a software package for use by others and research papers are not relevant in that context.
+  - If specific subdirectories in your project require distinct descriptions or licenses (for example, the license for your code may differ from that of your data), include separate README or LICENSE files in those subdirectories to apply to the files within them.
+
+### Naming conventions
+
+In addition to using standard and self-explanatory directory names mentioned above, follow other **naming conventions for files and directories**, for example:
+
+  - Avoid special characters or spaces (they can cause errors when read by computers); use underscores (_) or hyphens (-) to separate words instead and be consistent.
   - Name files to reflect their contents, version, or date (or, even better, use version control to track different versions).
-- **Version control**
-  - If possible, you should put the whole software project under [version control][version_control] and in its own repository
+
+### Use version control
+
+Put the whole software project under **[version control][version_control]** and in its own repository:
+
   - At the very least, code (and data) sub-directories should be version controlled; you can also version control documentation, manuscripts, results, etc. - i.e. anything that is written manually and not generated automatically
   - If data files are too large (or contain sensitive information) to track by version control and expose in public repositories, you should untrack them (e.g. using `.gitignore` file in Git). The same goes if you are storing passwords in files - they should not be version controlled.
-  - Use tags or [releases][releasing_code] to mark specific versions of results (a version submitted to a journal, dissertation version, poster version, etc.) so as to avoid using version numbers in file names and proliferation of different files.
+  - Use tags or [releases][releasing_code] afforded to us by code sharing platforms to mark specific versions of results (a version submitted to a journal, dissertation version, poster version, etc.) so as to avoid using version numbers in file names and proliferation of different files.
 
 ### Example project structures
 
-Below is an example of a directory structure for a generic research project.
+Below is an example of a directory structure for a generic research project that contains code and data.
 This is not the only way to organise your project folder (there is no official or standard way and you may not have all the same subfolders in your project), but it is a good practice to follow that will be understandable by many others.
 
 ```
@@ -88,7 +107,7 @@ project_name/
 └── ...
 ```
 
-For research projects that contain code, if you are using Python - check out the following two tools:
+For research projects that contain Python code - check out the following two tools:
 
 - {% tool 'fair-python-cookiecutter' %} is a command-line template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality. It generates project directories from predefined templates and ensures consistency by scaffolding a standardised project layout, including folders like `src/` for code, `tests/` for tests (shown below), and configuration files such as `pyproject.toml`, `README`, and `.gitignore`. This is especially helpful for teams or when starting new software projects, as it reduces setup time and enforces best practices.
 -  {% tool "poetry" %} is a dependency and packaging manager that simplifies Python project management. It uses a single `pyproject.toml` file to declare dependencies, manage virtual environments, and handle versioning and publishing.
