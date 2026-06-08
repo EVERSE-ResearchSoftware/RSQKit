@@ -16,7 +16,7 @@ You help ensure that research software projects remain achievable, well-organise
 Research software projects often involve distributed teams, evolving research requirements, fixed-term funding and interdisciplinary collaboration.
 Managing uncertainty, dependencies, competing priorities and sustainability concerns is therefore a key part of this role.
 
-Close collaboration with [product owners](./product_owner), [principal investigators](./principal_investigator)[Research Software Engineers (RSEs)](./research_software_engineer), researchers, infrastructure providers, and institutional stakeholders is essential.
+Close collaboration with [product owners](./product_owner), [principal investigators](./principal_investigator), [Research Software Engineers (RSEs)](./research_software_engineer), researchers, infrastructure providers, and institutional stakeholders is essential.
 
 ## Software development & quality responsibilities, challenges & tasks
 
