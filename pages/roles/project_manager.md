@@ -8,7 +8,7 @@ page_id: project_manager
 ## Introduction
 
 As a **project manager** in a research software project, you are responsible for coordinating the successful delivery of software-related projects and managing various resources - including people, tasks and timelines.
-Your role focuses on planning, organisation, communication, risk management and ensuring that software development activities progress effectively and timely.
+Your role focuses on planning, organisation, communication, risk management and ensuring that software development activities progress effectively and timely. In larger projects where a project manager can be supported many of the tasks of the [principal investigator](./principal_investigator) are out sourced to by the principal investigator to the project manager with the principal investigator taking more of a senior stakeholder, project sponser role. 
 
 Unlike a [Product Owner](./product_owner), whose primary focus is maximising the usefulness and impact of the software and effective communication with researchers and external collaborators, your role focuses on delivery coordination and operational management.
 You help ensure that research software projects remain achievable, well-organised, properly resourced and aligned with project objectives and constraints.
