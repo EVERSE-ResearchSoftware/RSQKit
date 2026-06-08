@@ -75,7 +75,7 @@ following them will help ensure consistency and quality across the toolkit.
 
 This is a suggested list tool-specific sub-tasks to have a look at.
 
-## Further Reading
-
 {% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
 {% endif %}
+
+## Further Reading
