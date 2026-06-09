@@ -153,7 +153,7 @@ It is not an assessment tool for README files, but can be used for detecting mis
 
 ## Further Reading
 
-- **[Record of a specific analysis](https://rsspdc.org/checklists/rsspdc-specific-record.html#documentation) ** This Research Software Sharing, Publication, & Distribution Checklists (RSSPDC) documentation checklist complements this page's narrative guidance with a graduated self-assessment tool — its Bronze-through-Platinum tiers let you check your README against concrete criteria, with particular emphasis on reproducibility and verifiability that is especially relevant for analysis code underpinning published results.
+- **[Record of a specific analysis](https://rsspdc.org/checklists/rsspdc-specific-record.html#documentation)** This Research Software Sharing, Publication, & Distribution Checklists (RSSPDC) documentation checklist complements this page's narrative guidance with a graduated self-assessment tool — its Bronze-through-Platinum tiers let you check your README against concrete criteria, with particular emphasis on reproducibility and verifiability that is especially relevant for analysis code underpinning published results.
 
 - **[README.md: History and Components](https://medium.com/@NSomar/readme-md-history-and-components-a365aff07f10)** This article traces the origins of the README convention and systematically breaks down its key structural components, giving readers a concise mental model of both why READMEs exist and what belongs in them. That historical and structural grounding complements RSQKit's task-oriented guidance by helping readers understand the reasoning behind README best practices.
 
