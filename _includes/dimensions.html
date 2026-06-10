@@ -2,6 +2,6 @@
 <h3>{{ item.name }}</h3>
 <p>
     {{ item.description | markdownify }}
-    Read more about <strong>{{ item.name | downcase }} dimension</strong> on <a href="https://everse.software/TechRadar/{{ item.name | slugify: 'raw' | replace: '-', '_' | downcase }}">TechRadar</a>.
+    See the <a href="https://everse.software/indicators/website/dimensions.html#{{ item.name | slugify: 'raw' | replace: '-', '_' | downcase }}">official dimension entry for <strong>{{ item.name | downcase }}</strong></a> on the <a href="https://everse.software/indicators/website/dimensions.html">Dimensions & Indicators site</a>.
 </p>
 {% endfor %}
