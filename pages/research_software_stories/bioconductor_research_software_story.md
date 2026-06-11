@@ -165,6 +165,7 @@ This story draws on a combination of foundational publications, project document
 * The Bioconductor Development, Maintenance, and Peer Review Guide.
 * Bioconductor Annual Reports.
 
+<!--
 ### Open TODOs
 
 1. Complete the **Libraries & Systems** section after consultation with the Bioconductor core team.
@@ -186,3 +187,5 @@ Bioconductor has become one of the most widely used open-source ecosystems in co
 ## Appendix: Future Directions
 
 Potential future directions include support for emerging biological data modalities, continued integration with cloud computing platforms, expansion of training and outreach activities, evolution of core infrastructure, and continued investment in community governance and sustainability mechanisms. These directions will continue to be shaped by both scientific requirements and community priorities.
+
+-->
