@@ -1,5 +1,3 @@
-Here is Draft 0 in the RSQKit template format.
-
 ---
 
 title: "Bioconductor"
