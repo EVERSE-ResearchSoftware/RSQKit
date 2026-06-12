@@ -42,7 +42,7 @@ Software contributions — maintenance, bug fixes, code review, documentation �
 
 #### Automate credit capture using recognition platforms
 
-- [APICURON](https://apicuron.org/) lets you define the activities you want to recognise and push contribution events to its API. It generates badges, medals, and community leaderboards, and surfaces contributions directly on contributors' {% tool "orcid" %} profiles — moving recognition from self-reported to externally validated.
+- {% tool "apicuron" %} lets you define the activities you want to recognise and push contribution events to its API. It generates badges, medals, and community leaderboards, and surfaces contributions directly on contributors' {% tool "orcid" %} profiles — moving recognition from self-reported to externally validated.
 - {% tool "bip-scholar" %} leverages OpenAIRE Graph metadata (from {% tool "zenodo" %} DOIs and similar sources) to generate open science indicators such as software popularity and reuse metrics, integrating these into multi-dimensional researcher profiles.
 
 ---
@@ -64,7 +64,7 @@ Impact in research software is not captured by citation counts alone. For RSEs a
 
 #### Build a verifiable evidence base from your tracked contributions
 
-- [APICURON](https://apicuron.org/) and {% tool "bip-scholar" %} together provide structured, externally validated evidence of your work. APICURON's contribution tracking covers the activity record; BIP! Scholar adds reach and reuse metrics. Together they give you concrete, citable data points to anchor your career narrative in a CV or promotion case.
+- {% tool "apicuron" %} and {% tool "bip-scholar" %} together provide structured, externally validated evidence of your work. APICURON's contribution tracking covers the activity record; BIP! Scholar adds reach and reuse metrics. Together they give you concrete, citable data points to anchor your career narrative in a CV or promotion case.
 
 #### Link your software releases to your ORCID record
 
