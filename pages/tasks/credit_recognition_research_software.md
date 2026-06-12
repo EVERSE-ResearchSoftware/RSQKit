@@ -1,5 +1,5 @@
 ---
-title: "Credit and recognition for research software and RSEs"
+title: "Credit and recognition for research software and people who write it"
 description: "Guidance on making software contributions visible, citable and verifiable, and building the evidence needed for career progression for people who write research code."
 contributors: ["Mehdi Zoubiri", "Federica Quaglia", "Thanasis Vergoulis", "Maria Makaronidou", "Shoaib Sufi"]
 page_id: credit_recognition_research_software
