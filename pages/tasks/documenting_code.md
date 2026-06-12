@@ -1,6 +1,6 @@
 ---
 title: Documenting code
-description: How to write technical documentation to explain to other developers how your code works internally?
+description: How to write technical documentation to explain to other developers and administrators how your code works internally?
 contributors: ["Azza Gamgami", "Aleksandra Nenadic", "Laura Portell-Silva"]
 page_id: documenting_code
 related_pages:
@@ -17,7 +17,7 @@ keywords: ["documentation", "code documentation"]
 
 Code documentation explains how the code works internally.
 It supports developers who maintain or wish to extend the code by making its logic and structure easier to understand and follow.
-When compared to [software project documentation][documenting_software_project], which helps people use and adopt your software, code documentation helps people develop and sustain it.
+When compared to [software project documentation][documenting_software_project], which helps people use and adopt your software, code documentation helps people develop, deploy and sustain it.
 
 Check ["How to Write Software Documentation in 7 Simple Steps"](https://technicalwriterhq.com/documentation/software-documentation/how-to-write-software-documentation/) and [Ten Simple Rules for documenting scientific software](https://doi.org/10.1371/journal.pcbi.1006561) for more reading on the topic.
 
@@ -27,16 +27,16 @@ Check ["How to Write Software Documentation in 7 Simple Steps"](https://technica
   For example, it can include: source code documentation, requirements specifications, software architecture, installation and usage, command line interface (CLI), API specification, deployment guide, tutorials and how-to guides, troubleshooting guides and FAQs.
 * It should be automatically generated where possible, and use standard documentation formats such as (R)Markdown, reStructuredText, HTML, PDF, or wikis.
 * Each piece of code documentation serves a distinct purpose and is aimed at different technical audience:
-  * *Administrators* – who are responsible for installing, configuring, managing, and maintaining software systems.
   * *Developers* – who create, modify, debug, and maintain software applications.
+  * *Administrators* – who are responsible for installing, configuring, deploying and administering software systems.
   * *Testers* – who test the code according to its specification.
+  * *End users* - who use the software for personal or work-related tasks. They are typically not the target audience of code documentation (but rather [software project documentation][documenting_software_project]).
+  However, they will need installation gudies and usage examples documentation which can be considered techical/code documentation.
 * Code documentation can vary depending on the aspect of the code it addresses:
   * *Product documentation* provides comprehensive information about the software’s features, functionality, usage, and maintenance. Examples include requirements documents, high-level descriptions (e.g., README files), source code documentation, user guides, and API references. It targets multiple audiences, ensuring they can understand, operate, and troubleshoot the software.
   * *Process documentation* is primarily intended for the development team and may include plans, progress reports, working papers, and notes that capture development ideas and decisions.
 
-It should be noted that *end users* - individuals who use the software for personal or work-related tasks - are not the target audience of code documentation (but rather [software project documentation][documenting_software_project]).
-
-It should also be noted that code and software project documentation are sometimes mixed together - for example installation and usage documentation may be targeted at end-users and developers/administrators alike.
+It should also be noted that code and software project documentation are sometimes mixed together - for example installation and usage documentation may be targeted at end users and developers/administrators alike.
 
 ### Solutions
 
