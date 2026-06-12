@@ -5,25 +5,8 @@ contributors: ["Aleksandra Nenadic"]
 page_id: maintaining_research_software
 related_pages:
   tasks: [ci_cd, documenting_software_project, releasing_software, archiving_software, code_review]
-quality_indicators:
-  - dependency_management
-  - has_ci-tests
-  - repository_workflows
-  - software_has_tests
-  - software_has_documentation
-  - support_issue_tracking
-  - versioning_standards_use
-  - has_releases
-  - metadata_is_up_to_date
-keywords:
-  - "software maintenance"
-  - "technical debt"
-  - "dependency management"
-  - "continuous integration"
-  - "semantic versioning"
-  - "changelog"
-  - "refactoring"
-  - "bus factor"
+quality_indicators: [dependency_management, has_ci-tests, repository_workflows, software_has_tests, software_has_documentation, support_issue_tracking, versioning_standards_use, has_releases, metadata_is_up_to_date]
+keywords: ["software maintenance", "technical debt", "bus factor", "changelog", "refactoring"]
 training:
   - name: "EVERSE TeSS"
     url: "https://everse-training.app.cern.ch"
