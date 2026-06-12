@@ -37,6 +37,7 @@ These are the key software-related things a researcher who codes is typically re
 - Documenting code (even minimally) to recall how it works or explain it in papers
 - Validating results via debugging or comparing outcomes across test cases
 - When projects grow more complex, researchers who code often benefit from working with [RSEs](./research_software_engineer) to improve code quality, scalability, and reusability.
+- If the develop prototype tools (e.g. libraries) or infrastructure tiers of software they then usually gain a responsibility to support and promote the system they have developed.
 
 ## Software development & quality guidance
 
