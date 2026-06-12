@@ -33,6 +33,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
+          # Check if there are changes in the _data directory
           if git diff --quiet _data/; then
             echo "No changes to commit in _data/ directory."
             exit 0
@@ -40,13 +41,14 @@ jobs:
           
           git add _data/*.yml
           git commit -m "Automated update of RSQKit data files"
-          
+          # Retry push in case of temporary network issues or conflicts
           retry_count=0
           max_retries=3
           until git push || [ $retry_count -eq $max_retries ]; do
             retry_count=$((retry_count+1))
             echo "Push failed. Retrying attempt $retry_count/$max_retries..."
             sleep 5
+            # Pull latest changes before retrying push to resolve potential conflicts
             git pull --rebase
           done
           if [ $retry_count -eq $max_retries ]; then
