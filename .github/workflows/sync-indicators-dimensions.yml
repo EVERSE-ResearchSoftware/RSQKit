@@ -48,6 +48,7 @@ jobs:
             retry_count=$((retry_count+1))
             echo "Push failed. Retrying attempt $retry_count/$max_retries..."
             sleep 5
+            # Pull latest changes before retrying push to resolve potential conflicts
             git pull --rebase
           done
           if [ $retry_count -eq $max_retries ]; then
