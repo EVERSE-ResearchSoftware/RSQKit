@@ -1278,3 +1278,14 @@
   name: cffconvert
   description: Command line program to validate and convert CITATION.cff files.
   url: https://github.com/citation-file-format/cffconvert
+
+- id: apicuron
+  name: APICURON
+  description: >-
+    APICURON is a platform for recognising and tracking researcher contributions
+    beyond traditional publications. Resources define the activities they want to
+    recognise and push contribution events to the API, which generates badges,
+    medals, and leaderboards, and surfaces contributions on contributors' ORCID
+    profiles.
+  url: 'https://apicuron.org/'
+  catalog: RSQKit
