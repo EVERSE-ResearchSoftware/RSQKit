@@ -1200,7 +1200,7 @@
   url: 'https://memtt.github.io/malt/doc/latest/'
   catalog: TechRadar
 - id: renovatebot
-  name: renovate bot
+  name: Renovatebot
   description: >-
     Automates dependency updates, multi-platform and multi-language.
   url: 'https://docs.renovatebot.com/'
@@ -1270,15 +1270,46 @@
   name: OpenEBench Software Observatory
   description: A platform component that monitors and analyses bioinformatics software quality, usage and sustainability within the OpenEBench ecosystem.
   url: https://openebench.bsc.es/observatory/
+- id: pytest-cov
+  name: pytest-cov
+  description: >-
+    pytest-cov is a pytest plugin that produces coverage reports for Python code,
+    integrating with the coverage.py library to show which lines are exercised by tests.
+  url: 'https://pytest-cov.readthedocs.io/'
+  catalog: RSQKit
+- id: pip-tools
+  name: pip-tools
+  description: >-
+    pip-tools is a set of command-line tools to help keep Python package dependencies
+    up to date and pinned reproducibly via requirements.in and requirements.txt files.
+  url: 'https://pip-tools.readthedocs.io/en/latest/'
+  catalog: RSQKit
+- id: lintr
+  name: lintr
+  description: >-
+    lintr is a static analysis tool for R code that checks for style errors,
+    syntax errors, and possible semantic issues, helping to enforce consistent
+    coding standards across R projects.
+  url: 'https://lintr.r-lib.org/'
+  catalog: RSQKit
+- id: covr
+  name: covr
+  description: >-
+    covr is an R package for measuring test coverage of R code, reporting which
+    lines and functions are exercised by a test suite and integrating with
+    continuous integration services to track coverage over time.
+  url: 'https://covr.r-lib.org/'
+  catalog: RSQKit
 - id: zotero
   name: Zotero
   description: Free and open-source reference management software to manage bibliographic data and related research materials, such as PDF and ePUB files.
   url: https://www.zotero.org/
+  catalog: RSQKit
 - id: cffconvert
   name: cffconvert
   description: Command line program to validate and convert CITATION.cff files.
   url: https://github.com/citation-file-format/cffconvert
-
+  catalog: RSQKit
 - id: apicuron
   name: APICURON
   description: >-
