@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-06-12",
+  "total_visits": 18472,
+  "total_unique_visitors": 11823,
+  "top_countries": [
+    {
+      "name": "United Kingdom",
+      "visits": 3241
+    },
+    {
+      "name": "Germany",
+      "visits": 2187
+    },
+    {
+      "name": "United States",
+      "visits": 1943
+    },
+    {
+      "name": "Netherlands",
+      "visits": 1502
+    },
+    {
+      "name": "France",
+      "visits": 987
+    },
+    {
+      "name": "Italy",
+      "visits": 834
+    },
+    {
+      "name": "Spain",
+      "visits": 721
+    },
+    {
+      "name": "Sweden",
+      "visits": 614
+    },
+    {
+      "name": "Switzerland",
+      "visits": 589
+    },
+    {
+      "name": "Australia",
+      "visits": 412
+    }
+  ],
+  "referrers": [
+    {
+      "type": "Direct Entry",
+      "visits": 6823
+    },
+    {
+      "type": "Search Engines",
+      "visits": 5341
+    },
+    {
+      "type": "Websites",
+      "visits": 4102
+    },
+    {
+      "type": "Social Networks",
+      "visits": 1876
+    },
+    {
+      "type": "Campaigns",
+      "visits": 330
+    }
+  ]
+}

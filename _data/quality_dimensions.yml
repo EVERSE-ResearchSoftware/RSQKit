@@ -1,4 +1,7 @@
--   abbreviation: community
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/community
+    '@type': SoftwareQualityDimension
+    abbreviation: community
     description: 'Research software development and maintenance increasingly depend
         on active communities of contributors, users, and stakeholders. A thriving
         community can compensate for technical limitations, ensure long-term viability,and
@@ -33,7 +36,10 @@
         url: https://producingoss.com/en/index.html
     -   name: Achieving Quality in Open Source Software
         url: https://dl.acm.org/doi/10.1109/MS.2007.2
--   abbreviation: compatibility
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/compatibility
+    '@type': SoftwareQualityDimension
+    abbreviation: compatibility
     description: 'Degree to which a product, system or component can exchange information
         with other products, systems or components, and/or perform its required functions
         while sharing the same common environment and resources. This characteristic
@@ -58,7 +64,10 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
--   abbreviation: fairness
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/fairness
+    '@type': SoftwareQualityDimension
+    abbreviation: fairness
     description: 'FAIRness refers to the degree to which research software adheres
         to the FAIR principles: Findable, Accessible, Interoperable, and Reusable.
         These principles, adapted for research software, aim to enhance the discoverability,
@@ -69,7 +78,10 @@
     source:
         name: Introducing the FAIR Principles for research software
         url: https://www.nature.com/articles/s41597-022-01710-x
--   abbreviation: flexibility
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/flexibility
+    '@type': SoftwareQualityDimension
+    abbreviation: flexibility
     description: 'Degree to which a product can be adapted to changes in its requirements,
         contexts of use or system environment. This characteristic is composed of
         the following sub-characteristics:
@@ -107,8 +119,10 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
--   abbreviation: functional_suitability
-    created: 03-04-2025
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    '@type': SoftwareQualityDimension
+    abbreviation: functional_suitability
     description: 'This characteristic represents the degree to which a product or
         system provides functions that meet stated and implied needs when used under
         specified conditions. This characteristic is composed of the following sub-characteristics:
@@ -138,7 +152,10 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
--   abbreviation: interaction_capability
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/interaction_capability
+    '@type': SoftwareQualityDimension
+    abbreviation: interaction_capability
     description: 'Degree to which a product or system can be interacted with by specified
         users to exchange information via the user interface to complete specific
         tasks in a variety of contexts of use. This characteristic is composed of
@@ -206,7 +223,10 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
--   abbreviation: maintainability
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/maintainability
+    '@type': SoftwareQualityDimension
+    abbreviation: maintainability
     description: 'This characteristic represents the degree of effectiveness and efficiency
         with which a product or system can be modified to improve it, correct it or
         adapt it to changes in environment, and in requirements. This characteristic
@@ -254,7 +274,10 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
--   abbreviation: open_source_software
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/open_source_software
+    '@type': SoftwareQualityDimension
+    abbreviation: open_source_software
     description: Open source software is software with source code that anyone can
         inspect, modify, and enhance. Research software can be published with or without
         open access to the source code. Open access to source code aligns better with
@@ -276,7 +299,10 @@
         url: https://doi.org/10.5281/zenodo.14204478
     -   name: What is Open Source?
         url: https://opensource.com/resources/what-open-source
--   abbreviation: performance_efficiency
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/performance_efficiency
+    '@type': SoftwareQualityDimension
+    abbreviation: performance_efficiency
     description: 'This characteristic represents the degree to which a product performs
         its functions within specified time and throughput parameters and is efficient
         in the use of resources (such as CPU, memory, storage, network devices, energy,
@@ -307,7 +333,9 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
-- &id001
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/reliability
+    '@type': SoftwareQualityDimension
     abbreviation: reliability
     description: 'Degree to which a system, product or component performs specified
         functions under specified conditions for a specified period of time. This
@@ -346,6 +374,120 @@
     source:
         name: ISO/IEC 25010 standard
         url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
-- *id001
-- *id001
-- *id001
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/safety
+    '@type': SoftwareQualityDimension
+    abbreviation: safety
+    description: 'This characteristic represents the degree to which a product under
+        defined conditions avoids a state in which human life, health, property, or
+        the environment is endangered. This characteristic is composed of the following
+        sub-characteristics:
+
+
+        **Operational constraint**
+
+
+        Degree to which a product or system constrains its operation to within safe
+        parameters or states when encountering operational hazard.
+
+
+        **Risk identification**
+
+
+        Degree to which a product can identify a course of events or operations that
+        can expose life, property or environment to unacceptable risk.
+
+
+        **Fail safe**
+
+
+        Degree to which a product can automatically place itself in a safe operating
+        mode, or to revert to a safe condition in the event of a failure.
+
+
+        **Hazard warning**
+
+
+        Degree to which a product or system provides warnings of unacceptable risks
+        to operations or internal controls so that they can react in sufficient time
+        to sustain safe operations.
+
+
+        **Safe integration**
+
+
+        Degree to which a product can maintain safety during and after integration
+        with one or more components.'
+    identifier: https://w3id.org/everse/i/dimensions/safety
+    name: Safety
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/security
+    '@type': SoftwareQualityDimension
+    abbreviation: security
+    description: 'Degree to which a product or system defends against attack patterns
+        by malicious actors and protects information and data so that persons or other
+        products or systems have the degree of data access appropriate to their types
+        and levels of authorization. This characteristic is composed of the following
+        sub-characteristics:
+
+
+        **Confidentiality**
+
+
+        Degree to which a product or system ensures that data are accessible only
+        to those authorized to have access.
+
+
+        **Integrity**
+
+
+        Degree to which a system, product or component ensures that the state of its
+        system and data are protected from unauthorized modification or deletion either
+        by malicious action or computer error.
+
+
+        **Non-repudiation**
+
+
+        Degree to which actions or events can be proven to have taken place so that
+        the events or actions cannot be repudiated later.
+
+
+        **Accountability**
+
+
+        Degree to which the actions of an entity can be traced uniquely to the entity.
+
+
+        **Authenticity**
+
+
+        Degree to which the identity of a subject or resource can be proved to be
+        the one claimed.
+
+
+        **Resistance**
+
+
+        Degree to which the product or system sustains operations while under attack
+        from a malicious actor.'
+    identifier: https://w3id.org/everse/i/dimensions/security
+    name: Security
+    source:
+        name: ISO/IEC 25010 standard
+        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-   '@context': https://w3id.org/everse/rsqd#
+    '@id': https://w3id.org/everse/i/dimensions/sustainability
+    '@type': SoftwareQualityDimension
+    abbreviation: sustainability
+    description: The capacity of the software to endure. In other words, sustainability
+        means that the software will continue to be available in the future, on new
+        platforms, meeting new needs.
+    identifier: https://w3id.org/everse/i/dimensions/sustainability
+    name: Sustainability
+    source:
+        name: Defining Software Sustainability
+        url: https://danielskatzblog.wordpress.com/2016/09/13/defining-software-sustainability/

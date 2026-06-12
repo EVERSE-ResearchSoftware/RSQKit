@@ -71,6 +71,10 @@ subitems:
         url: /research_software_engineer
       - title: Principal Investigator
         url: /principal_investigator
+      - title: Project manager
+        url: /project_manager
+      - title: Product owner
+        url: /product_owner
       - title: Policy maker
         url: /policy_maker
       - title: Trainer
@@ -82,8 +86,8 @@ subitems:
     subitems:
       - title: "Choosing languages, tools & infrastructures"
         url: /languages_tools_infrastructures
-      - title: "Organising software projects"
-        url: /organising_software_projects
+      - title: "Software project structure"
+        url: /software_project_structure
       - title: "Using version control"
         url: /using_version_control
       - title: "Reproducible software environments"
@@ -168,5 +172,8 @@ subitems:
         url: /contributors
       - title: List of all pages
         url: /all_pages
+  - title: Site Statistics
+    url: /site_statistics
+    description: Browse site statistics
 #  - title: All training resources
 #    url: /all_training_resources
