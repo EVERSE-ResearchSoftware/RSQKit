@@ -5,7 +5,7 @@ contributors: ["Aleksandra Nenadic"]
 page_id: code_review
 related_pages:
   tasks: []
-quality_indicators: [human_code_review_requirement, uses_tool_for_warnings_and_mistakes, has_no_linting_issues]
+quality_indicators: [human_code_review_requirement, uses_tool_for_warnings_and_mistakes, has_no_linting_issues, code_duplication_ok, lines_of_code_ok, cyclomatic_complexity_ok, maintainability_index_ok, code_smells_ok, internal_cohesion_ok, coupling_between_objects_ok]
 keywords: ["code review"]
 ---
 

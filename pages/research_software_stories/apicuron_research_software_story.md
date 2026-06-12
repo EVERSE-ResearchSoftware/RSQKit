@@ -4,6 +4,7 @@ search_exclude: false
 description: "APICURON aims to provide a recognition model for contributions beyond traditional publications, including research software, data sources, and training material" 
 contributors: ["Mehdi Zoubiri", "Federica Quaglia", "Kamel Eddine Adel Bouhraoua"]
 page_id: apicuron
+affiliations: ["LS-RI", "ELIXIR"]
 ---
 
 

@@ -5,7 +5,7 @@ contributors: ["Aleksandra Nenadic", "Christian Hüser", "Patrick Bos"]
 page_id: testing_software
 related_pages:
   tasks: []
-quality_indicators: [software_has_tests, has_ci-tests, software_test_coverage]
+quality_indicators: [software_has_tests, has_ci-tests, software_test_coverage, passed_tests_ok]
 keywords: ["software testing", "code testing", "software test", "code test"]
 
 ---
@@ -262,8 +262,6 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 [test-automation-frameworks]: https://en.wikipedia.org/wiki/Test_automation#Framework_approach_in_automation
 [manual-testing]: https://en.wikipedia.org/wiki/Manual_testing
 [continuous-integration]: https://en.wikipedia.org/wiki/Continuous_integration
-[github-actions]: https://docs.github.com/en/actions
-[gitlab-ci-cd]: https://docs.gitlab.com/ee/topics/build_your_application.html
 [pytest]: https://docs.pytest.org/en/stable/
 [testthat]: https://testthat.r-lib.org/
 [test-patterns]: http://xunitpatterns.com/

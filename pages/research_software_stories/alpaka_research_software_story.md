@@ -4,6 +4,7 @@ search_exclude: false
 description: "alpaka is a header-only C++ template library that enables writing platform and performance portable applications. It can use CPUs with sequential and thread parallel code, GPUs via multiple programming paradigms and also FPGAs."
 contributors: ["Guido Juckeland", "Srobona Ghosh", "René Widera", "Simeon Ehrig"]
 page_id: alpaka
+affiliations: ["PaNOSC"]
 ---
 
 ## The Problem
