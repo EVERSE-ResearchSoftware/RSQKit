@@ -1238,7 +1238,7 @@
   url: https://codecheck.org.uk/
   catalog: RSQKit
 - id: rsfc
-  name: RSFC
+  name: Research Software FAIRness Checks
   description: >-
     A command line tool that performs a quality assessment based on a series of Research Software Quality Indicators (RSQIs)
   url: https://rsfc.linkeddata.es
