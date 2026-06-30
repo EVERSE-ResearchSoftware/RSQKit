@@ -1320,3 +1320,31 @@
     profiles.
   url: 'https://apicuron.org/'
   catalog: RSQKit
+- id: openssf-scorecard
+  name: OpenSSF Scorecard
+  description: >-
+    OpenSSF Scorecard is an automated tool from the Open Source Security Foundation
+    that assesses open source repositories for security risks using checks such as
+    branch protection, code review, CI testing, dependency update tooling, pinned
+    dependencies, signed releases, token permissions, binary artefacts, and security
+    policy presence.
+  url: 'https://openssf.org/projects/scorecard/'
+  catalog: RSQKit
+
+- id: owasp-dependency-check
+  name: OWASP Dependency-Check
+  description: >-
+    OWASP Dependency-Check is a Software Composition Analysis tool that identifies
+    project dependencies and checks whether they contain publicly disclosed
+    vulnerabilities, with command line, build tool, and CI/CD integrations.
+  url: 'https://owasp.org/www-project-dependency-check/'
+  catalog: RSQKit
+
+- id: github-secret-scanning
+  name: GitHub secret scanning
+  description: >-
+    GitHub secret scanning detects hardcoded credentials such as API keys, tokens,
+    passwords, and other secrets in repositories and related GitHub content, and
+    creates alerts to support remediation.
+  url: 'https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning'
+  catalog: RSQKit
