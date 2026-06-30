@@ -32,7 +32,7 @@ A Code of Conduct protects your contributors and you: it gives you something con
 
 ### Solutions
 
-- Start from a widely used template rather than writing your own from scratch; the [Contributor Covenant](https://www.contributor-covenant.org/) is the most commonly adopted code of conduct in open source and includes a builder tool to customize the reporting section.
+- Start from a widely used template rather than writing your own from scratch; the {% tool "contributor-covenant" %} is the most commonly adopted code of conduct in open source and includes a builder tool to customize the reporting section.
 - Place the document as `CODE_OF_CONDUCT.md` in your repository root, and link to it from your README and contributing guide so it is visible before anyone needs it; if your code is hosted on GitHub, you can also add it through the repository interface, which offers Contributor Covenant and Citizen Code of Conduct templates with a guided form.
 - If your group maintains several repositories under one organization, add the file to a `.github` repository instead of duplicating it everywhere; GitHub will use it as the default for any repository that doesn't define its own.
 - Keep the standards concrete: list specific examples of both welcome and unwelcome behavior rather than only abstract principles, so contributors can self-assess against real examples.
@@ -69,9 +69,9 @@ A working enforcement process needs a clear reporting channel, a defined set of 
 
 ## Further Reading
 
+- **[Contributor Covenant](https://www.contributor-covenant.org/)** — The most widely adopted code of conduct template in open source, with an interactive builder for customizing the reporting section to your project; useful as a drop-in starting document rather than writing one from scratch.
 - **[Your Code of Conduct — Open Source Guide](https://opensource.guide/code-of-conduct/)** — GitHub's practical guide to adopting and enforcing a code of conduct, including concrete examples of how real projects structured their reporting contacts and enforcement notes; a good starting point for the operational side of this task.
 - **[How to Create a Code of Conduct for an Open-Source Project — Open {re}Source](https://openresource.dev/articles/how-to-create-a-code-of-conduct-for-an-open-source-project/)** — A step-by-step walkthrough from goal-setting through publication, review cadence, and enforcement, with practical detail on hosting platform features such as GitHub's default community health files; useful for the full lifecycle of the document, not just the initial draft.
-- **[Contributor Covenant](https://www.contributor-covenant.org/)** — The most widely adopted code of conduct template in open source, with an interactive builder for customizing the reporting section to your project; useful as a drop-in starting document rather than writing one from scratch.
 - **[Contributor Covenant 3.0 announcement](https://ethicalsource.dev/blog/contributor-covenant-3/)** — Explains the rationale behind the latest major revision, including its shift toward restorative, proportionate enforcement; useful background for understanding why enforcement processes look the way they do in current templates.
 - **[Code of Conduct — Google Open Source](https://opensource.google/documentation/reference/releasing/template/CODE_OF_CONDUCT)** — A real-world example of a Contributor Covenant adaptation in production use at scale, useful as a reference for how a large organization phrased scope and maintainer responsibilities.
 
