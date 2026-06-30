@@ -122,8 +122,8 @@ jobs:
 
 ## Further Reading
 
-- **[OWASP Secure Coding Practices Quick Reference Guide](https://owasp.org/)** — This is a practical checklist of secure coding practices that can be integrated into the software development lifecycle.
-It is useful when you want concrete coding requirements covering areas such as input validation, authentication, access control, cryptography, error handling, data protection, and file management.
+- **[OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)** — This is an actively maintained collection of concise, practical articles on specific application security topics, written and curated by the OWASP community.
+It is useful when you want concrete, task-focused guidance on areas such as input validation, authentication, authorisation, cryptographic storage, and secrets management, with each cheat sheet giving actionable recommendations you can apply directly.
 
 - **[OWASP Developer Guide](https://devguide.owasp.org/)** — This guide introduces software security concepts for developers and points to deeper OWASP resources.
 It is a good starting point when you need an accessible map of application security principles, secure development practices, verification, operations, and security culture.
@@ -136,6 +136,7 @@ It is useful for assessing your own project baseline and for reviewing the secur
 
 - **[Evaluating Software Supply Chain Security in Research Software](https://arxiv.org/abs/2508.03856)** — This paper examines supply chain security in research software repositories and highlights the relevance of practices such as signed releases and branch protection.
 It is especially relevant if you want research-software-specific evidence for why repository and dependency security matter.
+
 
 ## AI Disclosure
 
