@@ -1348,3 +1348,22 @@
     creates alerts to support remediation.
   url: 'https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning'
   catalog: RSQKit
+- id: sigstore
+  name: Sigstore
+  description: >-
+    Sigstore is an open source project under the Linux Foundation that provides
+    free tooling to sign, verify, and protect software artefacts. It uses
+    short-lived certificates (Fulcio) and a transparency log (Rekor) to make
+    cryptographic signing practical without managing long-lived keys.
+  url: 'https://www.sigstore.dev/'
+  catalog: RSQKit
+
+- id: cosign
+  name: Cosign
+  description: >-
+    Cosign is the Sigstore command-line client for signing and verifying
+    container images and other artefacts such as blobs and SBOMs. It supports
+    keyless signing using an OpenID Connect identity, so signing can run from CI
+    without long-lived signing keys.
+  url: 'https://github.com/sigstore/cosign'
+  catalog: RSQKit

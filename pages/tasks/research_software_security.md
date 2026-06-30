@@ -5,7 +5,7 @@ contributors: ["Shoaib Sufi"]
 page_id: research_software_security
 related_pages:
   tasks: [code_review, testing_software, ci_cd, maintaining_research_software, software_management_planning]
-quality_indicators: [dependency_management, no_critical_vulnerability, no_leaked_credentials, has_no_linting_issues, static_analysis_common_vulnerabilities, repository_workflows, human_code_review_requirement]
+quality_indicators: [dependency_management, no_critical_vulnerability, no_leaked_credentials, static_analysis_common_vulnerabilities, repository_workflows, human_code_review_requirement]
 keywords: ["research software security", "secure coding", "secrets management", "dependency scanning", "static analysis", "software supply chain", "ci/cd", "vulnerability management"]
 ---
 
@@ -94,14 +94,15 @@ jobs:
 ```
 
 - **Use repository controls to reduce supply chain risk.**
-  Enable branch protection, require code review, require passing CI checks, and restrict workflow token permissions.
-  Use {% tool "openssf-scorecard" %} to check repository practices such as binary artefacts, branch protection, pinned dependencies, signed releases, and token permissions.
+  Enable branch protection, require code review, require passing CI checks, and restrict workflow token permissions so that automation runs with least privilege.
   These controls make it harder for accidental changes, compromised accounts, or unsafe automation to alter your default branch or release process unnoticed.
+  The Scorecard baseline described above already surfaces which of these controls are missing, so use it to track them rather than auditing each one by hand.
 
 - **Use signed releases when users depend on your published artefacts.**
   Signed releases help downstream users verify that release artefacts have not been tampered with.
   Consider this especially when users install your software from release archives, package registries, containers, or workflow registries.
-  Use repository and release tooling that supports verifiable release artefacts, and include release checks in your security baseline.
+  A common route is to sign artefacts with {% tool "sigstore" %} and its {% tool "cosign" %} command-line tool, which supports keyless signing from CI so you do not have to manage long-lived signing keys.
+  Signing your releases also satisfies the OpenSSF Scorecard signed-releases check.
 
 - **Choose security tools that match your project language and risk profile.**
   For Python, start with {% tool "bandit" %}, {% tool "pytest" %}, {% tool "gitleaks" %}, and {% tool "owasp-dependency-check" %}.
@@ -138,5 +139,5 @@ It is especially relevant if you want research-software-specific evidence for wh
 
 ## AI Disclosure
 
-This work was produced with the assistance of M365 Copilot based on GPT-5 reasoning model, under the strict editorial control and factual verification of the human author.
-
+This work was produced with the assistance of M365 Copilot based on GPT-5 reasoning model, Claude Opus 4.8 was subsequently used to check and modify the output.
+Strict editorial control and factual verification was performed by the human author.
