@@ -1,30 +1,28 @@
 ---
 title: Creating a good README
-description: How to create a good README document for software projects?
+description: How to create a good README document for your software project.
 contributors: ["Esteban González", "Aleksandra Nenadic", "Daniel Garijo"]
 page_id: creating_good_readme
 related_pages:
-  tasks: [software_documentation]
-quality_indicators: [software_has_documentation]
-keywords: ["readme"]
+  tasks: [software_documentation, documenting_software_project, documenting_code, licensing_software]
+quality_indicators: [software_has_documentation, software_has_citation, software_has_license, requirements_specified]
+keywords: ["readme", "documentation", "installation", "citation", "license", "contribution"]
 ---
 
-## Why is it important to have a good README file?
+## Why does your research software need a good README?
 
 ### Description
 
-A README file is a key document in a software project that provides an overview of the software to help developers and users understand the project and how to use it.
-It is typically written in plain text or Markdown format and placed in the project's root directory and shared along with code.
+Your README file is a key document in a software project that provides an overview of the software to help developers and users understand the project and how to use it.
+You typically write it in plain text or Markdown and place it in your project's root directory, so it is shared along with the code.
 For software shared in a public software repository - the README file serves as the project's homepage and a central reference for documentation, aiding software's accessibility and promoting engagement for open source projects.
 
-The README file is the entry point to the [documentation associated with a software project][documenting_software] and the [code within the project][documenting_code].
+The README file is the entry point to the [documentation associated with a software project](./documenting_software_project.md) and the [code within the project](./documenting_code.md).
 The main purpose of the README is to:
 
 - Describe the software project and its purpose.
-- Facilitate the installation and explain the use of the software - including installation instructions, 
-dependencies and usage guidelines.
-- Include contribution guidelines to help community understand how to contribute to the project and ensure smooth collaboration. 
-This may cover coding standards, pull request procedures, issue reporting, and community rules.
+- Facilitate the installation and explain the use of the software - including installation instructions, dependencies and usage guidelines.
+- Include contribution guidelines to help community understand how to contribute to the project and ensure smooth collaboration. This may cover coding standards, pull request procedures, issue reporting, and community rules.
 
 For research software, additional aspects should be considered and README should also:
 
@@ -34,23 +32,23 @@ For research software, additional aspects should be considered and README should
 
 ### Considerations
 
-A [well-written README document][README-best-practices]:
+A [well-written README document](https://tilburgsciencehub.com/topics/collaborate-share/share-your-work/content-creation/readme-best-practices/):
 
 - promotes the [adoption of your software](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4281782).
 - enhances the transparency of your research.
 - supports software maintenance throughout its lifecycle.
 
-Also check [guidelines for creating a good README][readme-guidelines].
+Also check [guidelines for creating a good README](https://data.4tu.nl/s/documents/Guidelines_for_creating_a_README_file.pdf).
 
-## What key sections should a README include?
+## What sections should you include in your README?
 
 ### Description 
 
-A README file is the first document that a researchers read when they are interested on using a software. 
+Your README is usually the first document a researcher reads when they are interested in using your software.
 For this reason, it should contain all the relevant information to install and to execute it. 
 It includes references to additional information such as API documentation, specifications, scientific publications related, tutorials, guidelines, etc.
 
-A basic software documentation emphasises these aspect:
+A basic README emphasises these aspects:
 
 - Understandability: a user can comprehend the structure and the purpose of the software.
 - Usability: a user can understand how to use the software.
@@ -60,12 +58,13 @@ These aspects should be addressed in different sections of the README.
 
 ### Considerations
 
-A README document should:
+Your README document should:
 
 * describe the purpose and features of the software.
 * describe how to run and use the code and (optionally) reproduce the scientific experiment it implements. 
 * acknowledge the funding bodies and contributors.
 * indicate how the software should be cited or acknowledged.
+* be held to the same accuracy and completeness expectations if you use AI assistance to draft or edit it — verify that commands, requirements, and citation details are correct before publishing.
 
 ### Solutions
 
@@ -123,8 +122,7 @@ You can use this section to describe the process to get the results.
 
 #### Contribution
 
-Research software should be a collaborative effort, so a mechanism to allow other researchers to collaborate with the project is needed.
-In this section, you can describe how this mechanism is.
+Research software works best as a collaborative effort, so describe the mechanism you use to let others contribute.
 For example, if you want to add a new feature, you can create a pull request to integrate this new feature.
 
 #### Acknowledgements
@@ -142,20 +140,26 @@ You can see a list of them used to make your project more fair in {% tool "howfa
 
 #### License
 
-Software without a license cannot be reused in other applications.
+Software without a license cannot legally be reused in other applications.
 While having a [license file](https://everse.software/RSQKit/licensing_software) is a common practice in code repositories, you may also add this information explicitly as a section of your README file.
 For more information, see [our guidelines](https://everse.software/RSQKit/licensing_software) on how to select an appropriate license.
 
 #### Automated extraction of metadata from README
 
-{% tool "somef" %} is a [tool to automatically extract information (metadata) from README files][somef-paper].
+{% tool "somef" %} is a [tool to automatically extract information (metadata) from README files](https://ieeexplore.ieee.org/document/9006447/).
 It is not an assessment tool for README files, but can be used for detecting missing parts of a README file.
 
 ## Further Reading
 
+- **[Guidelines for creating a README file](https://data.4tu.nl/s/documents/Guidelines_for_creating_a_README_file.pdf)** A concise, practical checklist for structuring a README, written specifically with research data and software in mind. Use it as a quick reference once you already know what each section should contain.
+
 - **[Record of a specific analysis](https://rsspdc.org/checklists/rsspdc-specific-record.html#documentation)** This Research Software Sharing, Publication, & Distribution Checklists (RSSPDC) documentation checklist complements this page's narrative guidance with a graduated self-assessment tool — its Bronze-through-Platinum tiers let you check your README against concrete criteria, with particular emphasis on reproducibility and verifiability that is especially relevant for analysis code underpinning published results.
 
 - **[README.md: History and Components](https://medium.com/@NSomar/readme-md-history-and-components-a365aff07f10)** This article traces the origins of the README convention and systematically breaks down its key structural components, giving readers a concise mental model of both why READMEs exist and what belongs in them. That historical and structural grounding complements RSQKit's task-oriented guidance by helping readers understand the reasoning behind README best practices.
+
+## AI Disclosure
+
+This work was produced with the assistance of Claude Sonnet 4.6, under the strict editorial control and factual verification of the human author.
 
 {% assign child_pages = page.child_pages | join: ', ' %}
 {% if child_pages != null and child_pages != '' %}
@@ -165,10 +169,3 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 
 {% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
 {% endif %}
-
-
-[documenting_software]: ./documenting_software
-[README-best-practices]: https://tilburgsciencehub.com/topics/collaborate-share/share-your-work/content-creation/readme-best-practices/
-[readme-guidelines]: https://data.4tu.nl/s/documents/Guidelines_for_creating_a_README_file.pdf
-[documenting_code]: ./documenting_code
-[somef-paper]: https://ieeexplore.ieee.org/document/9006447/
