@@ -69,7 +69,7 @@
                                 },
                                 params: {
                                     pageSize: 5,
-                                    q: '{{ page.keywords | join: " OR " }}'
+                                    keywords: {{ page.keywords | jsonify }}
                                 },
                                 baseUrl: '{{ training.url }}',
                                 instanceName: '{{ training.name }}'
