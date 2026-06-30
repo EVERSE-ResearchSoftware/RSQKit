@@ -12,10 +12,14 @@ keywords: ["diversity", "equity", "inclusion", "dei", "accessibility", "code of 
 ## How do you foster diversity, equity, and inclusion in your research software project?
 
 This page covers why diversity, equity, and inclusion (DEI) matter specifically for research software, and gives practical guidance across contribution processes, documentation, community building, governance, and events.
-Diversity refers to the range of backgrounds, identities, and perspectives represented in your project; equity refers to fair access to opportunities and resources, accounting for the fact that people start from different positions; inclusion refers to whether people who are present can actually participate fully and feel they belong.
-A project can be demographically diverse while still being inequitable — for example, if only contributors with institutional funding can attend in-person events — so the three need to be considered together rather than treating diversity alone as the goal.
 
-Research software is usually built inside academic structures — labs, grants, supervisory relationships — that carry their own power imbalances on top of the usual open source ones.
+- Diversity refers to the range of backgrounds, identities, and perspectives represented in your project;
+- equity refers to fair access to opportunities and resources, accounting for the fact that people start from different positions;
+- inclusion refers to whether people who are present can actually participate fully and feel they belong.
+
+A project can be demographically diverse while still being inequitable, for example, only contributors with institutional funding can attend in-person events.  As such, the three need to be considered together rather than treating diversity alone as the goal.
+
+Research software is usually built inside academic structures, such as labs, grants, supervisory relationships, etc., that carry their own power imbalances on top of the usual open source ones.
 A student contributing to their advisor's codebase, a postdoc dependent on a PI for authorship and references, or a research software engineer with no formal authority over the scientists who use their tool: these dynamics shape who can safely raise concerns, propose changes, or simply show up, in ways that general open source community-building advice doesn't fully capture.
 Treating DEI as an ongoing practice rather than a one-off policy is what makes the difference for research software projects in particular, because the underlying academic hierarchy doesn't go away on its own.
 
