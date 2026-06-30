@@ -124,6 +124,8 @@ subitems:
         url: /releasing_software
       - title: "Archiving software"
         url: /archiving_software
+      - title: "Code of conduct"
+        url: /code_of_coduct
       - title: "Publishing software"
         url: /publishing_software
       - title: "Computational workflows"
