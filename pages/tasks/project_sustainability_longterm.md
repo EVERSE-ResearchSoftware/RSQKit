@@ -25,15 +25,16 @@ Without explicit attention to software project sustainability, research software
 
 Use the following dimensions and actions to systematically address software project sustainability across its lifecycle.
 
-| Sustainability dimension      | What you need to address             | What you should do                                                                                                                                                           |
-| ----------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Technical sustainability      | Maintainability and software quality | Address technical sustainability through design, architecture, and long-term maintainability practices; see **How to design sustainable and future-proof research software** |
-| Organisational sustainability | Ownership and governance             | Define roles and responsibilities; establish decision processes; ensure long-term ownership and accountability structures                                                    |
-| Economic sustainability       | Funding and resources                | Combine grants, institutional support, and partnerships; define funding strategy and continuity; align with CORSA/SustainOSS-style funding models                            |
-| Community sustainability      | Contributions and engagement         | Build a contributor base; define contribution guidelines; recognise contributors; distribute knowledge to reduce single points of failure                                    |
-| Adoptability                  | Usability and workflow integration   | Provide documentation and examples; support onboarding; ensure reproducibility and integration into research workflows                                                       |
-| Resourcing strategy           | Access to expertise and capacity     | Use internal teams or external expertise to sustain development and maintenance; see **Outsourcing for additional research software expertise**                              |
-| Lifecycle management          | Evolution and end-of-life            | Define maintenance scope; identify future maintainers early; document handover; define archiving and end-of-life strategy                                                    |
+| Sustainability dimension      | What you need to address              | What you should do                                                                                                                                                                                                                                                                                 |
+| ----------------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Technical sustainability      | Maintainability and software quality  | Address technical sustainability through design, architecture, and long-term maintainability practices; see \[How to design sustainable and future-proof research software]                                                                                                                        |
+| Organisational sustainability | Ownership and governance              | Define roles and responsibilities; establish decision processes; integrate sustainability into lifecycle management and align with project governance structures                                                                                                                                   |
+| Economic sustainability       | Funding and resources                 | Combine grants, institutional support, and partnerships; define funding continuity and long-term support strategies; align with CORSA and SustainOSS-style funding models                                                                                                                          |
+| Community sustainability      | Contributions and engagement          | Build a contributor base; define contribution guidelines; recognise contributors; establish communication channels; align with practices in [Maintaining research software](https://everse.software/RSQKit/) [\[everse.software\]](https://everse.software/RSQKit/tasks/) |
+| Adoptability                  | Usability and workflow integration    | Provide documentation, examples, and onboarding material; support reproducibility and integration into research workflows; align with [Documenting software project](https://everse.software/RSQKit/) [\[everse.software\]](https://everse.software/RSQKit/tasks/)        |
+| Resourcing strategy           | Access to expertise and capacity      | Use internal teams or external expertise to sustain development and maintenance; see \[Outsourcing for additional research software expertise]                                                                                                                                                     |
+| Lifecycle management          | Evolution and end-of-life             | Define maintenance scope; plan releases and archiving; define end-of-life strategy; align with [Archiving software](https://everse.software/RSQKit/) [\[everse.software\]](https://everse.software/RSQKit/tasks/)                                                         |
+| Sustainability planning       | Explicit management of sustainability | Use a Software Management Plan to define sustainability goals, risks, dependencies, and mitigation strategies; see [Software Management Planning](https://everse.software/RSQKit/) [\[everse.software\]](https://everse.software/RSQKit/tasks/)                           |
 
 ***
 
@@ -43,13 +44,13 @@ Use the following dimensions and actions to systematically address software proj
   It helps you assess your current maturity level and prioritise improvements across technical, organisational, and community aspects.  
   It is especially useful if you want to operationalise sustainability in a structured and measurable way.
 
-* **<https://sustainoss.org/>** — A curated collection of practices for sustaining open source software projects.  
-  It focuses on how software projects survive economically and organisationally, including funding models and governance structures.  
-  It is directly aligned with the sustainability concerns addressed in this page.
+* **<https://everse.software/RSQKit/>** — The Research Software Quality Kit provides task-based guidance, tools, and best practices to improve reliability, maintainability, and sustainability of research software across its lifecycle.   
+  It integrates sustainability with other quality dimensions such as reproducibility, documentation, and reuse.  
+  It is useful as a central reference for navigating related practices and task pages. [\[everse.software\]](https://everse.software/RSQKit/)
 
-* **<https://www.software.ac.uk/>** — Provides guidance, training, and case studies on sustaining research software.  
-  It covers governance, community building, and long-term maintenance practices grounded in real projects.  
-  It is useful for translating sustainability principles into practice.
+* **<https://sustainoss.org/>** — A curated collection of practices for sustaining open source software projects.  
+  It focuses on how software survives economically and organisationally, including funding models and governance.  
+  It complements RSQKit by focusing specifically on sustainability mechanisms.
 
 * **<https://numfocus.org/>** — Demonstrates how fiscal sponsorship and governance structures support long-term sustainability of scientific software.  
   It provides concrete examples combining funding, organisational support, and community engagement.  
