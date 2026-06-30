@@ -1,5 +1,5 @@
 ---
-title: "Fostering diversity, equity, and inclusion"
+title: "Fostering diversity, equity, and inclusion in reserach software projects"
 description: "Practical guidance for research software projects on diversity, equity, and inclusion (DEI), covering inclusive contribution processes, accessible documentation and onboarding, support for underrepresented contributors, governance, and event accessibility, with attention to the academic power dynamics specific to research software."
 contributors: ["Gavin J. Pringle"]
 page_id: diversity_equity_inclusion
