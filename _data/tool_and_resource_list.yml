@@ -1320,3 +1320,50 @@
     profiles.
   url: 'https://apicuron.org/'
   catalog: RSQKit
+- id: openssf-scorecard
+  name: OpenSSF Scorecard
+  description: >-
+    OpenSSF Scorecard is an automated tool from the Open Source Security Foundation
+    that assesses open source repositories for security risks using checks such as
+    branch protection, code review, CI testing, dependency update tooling, pinned
+    dependencies, signed releases, token permissions, binary artefacts, and security
+    policy presence.
+  url: 'https://openssf.org/projects/scorecard/'
+  catalog: RSQKit
+
+- id: owasp-dependency-check
+  name: OWASP Dependency-Check
+  description: >-
+    OWASP Dependency-Check is a Software Composition Analysis tool that identifies
+    project dependencies and checks whether they contain publicly disclosed
+    vulnerabilities, with command line, build tool, and CI/CD integrations.
+  url: 'https://owasp.org/www-project-dependency-check/'
+  catalog: RSQKit
+
+- id: github-secret-scanning
+  name: GitHub secret scanning
+  description: >-
+    GitHub secret scanning detects hardcoded credentials such as API keys, tokens,
+    passwords, and other secrets in repositories and related GitHub content, and
+    creates alerts to support remediation.
+  url: 'https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning'
+  catalog: RSQKit
+- id: sigstore
+  name: Sigstore
+  description: >-
+    Sigstore is an open source project under the Linux Foundation that provides
+    free tooling to sign, verify, and protect software artefacts. It uses
+    short-lived certificates (Fulcio) and a transparency log (Rekor) to make
+    cryptographic signing practical without managing long-lived keys.
+  url: 'https://www.sigstore.dev/'
+  catalog: RSQKit
+
+- id: cosign
+  name: Cosign
+  description: >-
+    Cosign is the Sigstore command-line client for signing and verifying
+    container images and other artefacts such as blobs and SBOMs. It supports
+    keyless signing using an OpenID Connect identity, so signing can run from CI
+    without long-lived signing keys.
+  url: 'https://github.com/sigstore/cosign'
+  catalog: RSQKit
