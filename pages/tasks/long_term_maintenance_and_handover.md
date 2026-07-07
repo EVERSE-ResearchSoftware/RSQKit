@@ -91,7 +91,7 @@ This task is about the practical process of transferring responsibility for the 
 
 - Work through a handover checklist at least four weeks before your involvement ends:
   1. create a single document or repository issue that lists the location and status of all critical project infrastructure,
-  2. document the build, deployment, and data pipeline steps clearly enough for a non-expert colleague to reproduce a working build from scratch,
+  2. document the build, deployment, and data pipeline steps clearly enough for a non-expert colleague to reproduce a working build from scratch. For data pipeline, see [Data Management Plan (DMP) explained in the RDMKit](https://rdmkit.elixir-europe.org/data_management_plan),
   3. confirm the automated test suite passes and record the exact command to run it in a clean environment,
   4. transfer administrative ownership of repositories, CI pipelines, package registries, and domain names to a shared institutional or lab account,
   5. hold a final debrief with your PI or lab head to confirm they hold working administrative access before your personal credentials expire.
