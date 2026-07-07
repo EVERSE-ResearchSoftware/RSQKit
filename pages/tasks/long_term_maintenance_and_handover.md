@@ -4,38 +4,37 @@ description: How to manage and plan for the long-term maintenance of research so
 contributors: ["Kenneth Rioja"]
 page_id: long_term_maintenance_and_handover
 related_pages:
-  tasks: [maintaining_research_software, archiving_software, software_management_planning, documenting_software_project]
+  tasks: [maintaining_research_software, archiving_software, software_management_planning, documenting_software_project, writing_research_software_story]
 quality_indicators: [archived_in_scholarly_repository, archived_in_software_heritage, has_contribution_guidelines]
 keywords: ["maintenance", "handover", "sustainability", "succession planning", "solo maintainer", "archiving", "organising software project"]
 ---
 
-## How do you manage and plan for the long-term maintenance of your research software and project before funding ends?
+## Funding ends soon: How do you manage for the long-term maintenance of your research software?
 
 ### Description
 
 Research software is usually built within a fixed-term grant, but the questions it answers and the users who depend on it often outlive the funding.
 Without an explicit maintenance plan, software quietly stops working as dependencies age, operating systems change, and the people who understood it move on.
 Planning for maintenance while you are still funded is far cheaper than trying to revive an abandoned project later.
-This task is about deciding, early and deliberately, what level of upkeep your software needs and who will provide it.
+This task is about project management, and more particularly deciding, early and deliberately, what level of upkeep your software needs and who will provide it.
 In many research groups you may be the sole developer, maintainer, and infrastructure administrator for the lab's software, which makes this planning a personal responsibility as much as a technical one.
 
 ### Considerations
 
 - Not all research software needs the same level of maintenance – a one-off analysis code has different needs from a research software infrastructure used by an active research community, so match your plan to the software's actual role and audience (see [the Three-Tier Model of Research Software](/three_tier_view)).
 - As a solo maintainer, your departure creates an immediate risk for the codebase, which makes early, explicit conversations with your PI or lab leadership about boundaries and succession a necessity rather than an afterthought.
-- Maintenance burden grows with every dependency, supported platform, and external integration; reducing scope before the end of funding reduces what someone else has to keep alive – see [Maintaining research software](/maintaining_research_software) for ongoing dependency-management practices.
 - A maintenance plan needs an owner, even if that owner is "no one after this date" – explicitly stating that the software will become unmaintained is more honest and more useful to users than silence.
 - Funders and institutions increasingly expect a sustainability or software management plan as part of the proposal, so building maintenance thinking in from the start avoids scrambling at the end; see [Software Management Planning](/software_management_planning) for the fuller process.
-- If AI coding assistants are used to help with maintenance tasks such as dependency upgrades or bug fixes, the resulting changes need the same review and testing as any other contribution – AI assistance does not reduce the need for human verification.
+- If you have multiple dependencies: Maintenance burden grows with every dependency, supported platform, and external integration; reducing scope before the end of funding reduces what someone else has to keep alive – see [Maintaining research software](/maintaining_research_software) for ongoing dependency-management practices.
 
 ### Solutions
 
 **Conceptual guidance:**
 
 - Decide, as early as possible, what "maintained" means for your project: security patches only, active feature development, or somewhere in between.
-- Maintenance in a research setting often extends beyond the codebase itself – keeping data pipelines running and documentation aligned with current institutional data-management requirements is part of the same job.
 - Distinguish between technical maintenance (keeping the software running and dependencies current) and community maintenance (responding to issues, reviewing contributions, answering questions).
 - If you are a solo maintainer, schedule an explicit sustainability conversation with your PI well before your contract ends to decide whether the project will be institutionalised, handed off, or archived.
+- Maintenance in a research setting often extends beyond the codebase itself – keeping data pipelines running and documentation aligned with current institutional data-management requirements is part of the same job.
 
 **Actionable steps:**
 
@@ -56,16 +55,16 @@ This software is actively maintained as part of [Project/Lab Name], funded by [F
 For questions or to discuss taking over maintenance, contact [PI Email Address].
 ```
 
-- Reduce your dependency footprint before funding ends, since every dependency removed is technical debt someone else won't inherit:
+- If a successor team, community, or institution is willing to take on maintenance, agree this explicitly and in writing before funding ends, rather than assuming it will happen informally.
+- Set up automated checks (continuous integration, dependency update bots) so that basic problems surface without a human having to go looking for them – see our task page about [Continuous Integration and Continuous Delivery/Deployment ](/ci_cd).
+- Archive a citable, versioned snapshot of the software in a long-term repository such as {% tool "zenodo" %} or {% tool "software-heritage" %}, so the software remains accessible and citable even if active development stops entirely – see [Archiving software](/archiving_software) for the full process.
+- If you have multiple dependencies: Reduce your dependency footprint before funding ends, since every dependency removed is technical debt someone else won't inherit:
   - audit and prune unused packages,
   - replace heavy external libraries with lighter alternatives where practical,
   - pin exact versions in your environment configuration,
   - vendor small, critical helper scripts to remove fragile external dependencies.
-- Set up automated checks (continuous integration, dependency update bots) so that basic problems surface without a human having to go looking for them – see our task page about [Continuous Integration and Continuous Delivery/Deployment ](/ci_cd).
-- Archive a citable, versioned snapshot of the software in a long-term repository such as {% tool "zenodo" %} or {% tool "software-heritage" %}, so the software remains accessible and citable even if active development stops entirely – see [Archiving software](/archiving_software) for the full process.
-- If a successor team, community, or institution is willing to take on maintenance, agree this explicitly and in writing before funding ends, rather than assuming it will happen informally.
 
-## How do you hand over your research software when your involvement ends?
+## Your contract ends soon: How do you hand over your research software?
 
 ### Description
 
@@ -75,11 +74,11 @@ This task is about the practical process of transferring responsibility for the 
 
 ### Considerations
 
-- The right handover process scales with project size: a single-developer script needs far less than a multi-contributor tool with external users, so do not over-engineer the handover for a small project or under-prepare it for a large one.
 - Academic contracts rarely allow for a clean overlap period with a successor, given funding gaps and hiring delays, so plan for an asynchronous handover – one that relies on self-contained documentation rather than assuming live training sessions will happen.
-- Institutional knowledge about *why* the software is built the way it is tends to disappear fastest – code comments and commit history rarely capture design rationale on their own.
+- Institutional knowledge about *why* the software is built the way it is tends to disappear fastest – code comments and commit history rarely capture design rationale on their own. To know more about it see [Research Software Stories](/writing_research_software_stories).
+- The right handover process scales with project size: a single-developer script needs far less than a multi-contributor tool with external users, so do not over-engineer the handover for a small project or under-prepare it for a large one.
 - Access and infrastructure (repository ownership, CI credentials, package registry accounts, domain names) are easy to forget during a handover and can quietly break the project later if they remain tied to one person.
-- A clear, permissive software license set early avoids legal ambiguity that can block a handover or reuse later.
+- A clear, permissive software license set early avoids legal ambiguity that can block a handover or reuse later (see [Licensing Software](/licensing_software))
 
 ### Solutions
 
@@ -92,13 +91,13 @@ This task is about the practical process of transferring responsibility for the 
 
 - Work through a handover checklist at least four weeks before your involvement ends:
   1. create a single document or repository issue that lists the location and status of all critical project infrastructure,
-  2. confirm the automated test suite passes and record the exact command to run it in a clean environment,
-  3. transfer administrative ownership of repositories, CI pipelines, package registries, and domain names to a shared institutional or lab account,
-  4. document the build, deployment, and data pipeline steps clearly enough for a non-expert colleague to reproduce a working build from scratch,
+  2. document the build, deployment, and data pipeline steps clearly enough for a non-expert colleague to reproduce a working build from scratch,
+  3. confirm the automated test suite passes and record the exact command to run it in a clean environment,
+  4. transfer administrative ownership of repositories, CI pipelines, package registries, and domain names to a shared institutional or lab account,
   5. hold a final debrief with your PI or lab head to confirm they hold working administrative access before your personal credentials expire.
+- Record the project's design decisions and known limitations, even retrospectively – future maintainers benefit far more from "why" than from code alone. To write such a document, please follow the guided task [Writing Research Software Stories](/writing_research_software_stories#further-guidance-and-examples).
 - Write or update a CONTRIBUTING or MAINTAINERS document – see [Documenting software project](/documenting_software_project) for the standard file set this fits into.
-- Record the project's design decisions and known limitations, even retrospectively – future maintainers benefit far more from "why" than from code alone.
-- If no successor is available, say so explicitly in the README and consider archiving the repository in read-only mode rather than leaving it in an ambiguous, silently abandoned state.
+- If no successor is available, say so explicitly in the README and consider archiving the repository in read-only mode rather than leaving it in an ambiguous, silently abandoned state (See more in [Archiving software](/archiving_software)).
 - For larger or community-facing projects, follow a structured handover guideline such as the one referenced below, which provides checklists scaled to project size.
 
 ## Further Reading
