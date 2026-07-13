@@ -1320,3 +1320,12 @@
     profiles.
   url: 'https://apicuron.org/'
   catalog: RSQKit
+- id: perf
+  name: perf
+  description: >-
+    perf is a performance analysis tool for Linux built on top of the
+    kernel's perf_events interface, used for CPU profiling, hardware
+    counter sampling, and tracing of compiled programs.
+  url: 'https://perf.wiki.kernel.org/index.php/Main_Page'
+  catalog: RSQKit
+
