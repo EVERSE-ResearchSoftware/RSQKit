@@ -120,6 +120,8 @@ subitems:
             url: /complete_bibliographic_metadata_codemeta
       - title: "Packaging software"
         url: /packaging_software
+      - title: "Performance profiling and optimization"
+        url: /performance_profiling_and_optimization
       - title: "Releasing software"
         url: /releasing_software
       - title: "Archiving software"
