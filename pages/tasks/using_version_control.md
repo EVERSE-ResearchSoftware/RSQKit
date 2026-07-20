@@ -98,7 +98,8 @@ Choosing a VCS is only the first step. You also need to establish a working rout
    * Use code review, through pull or merge requests, before merging changes into your main branch.
 * Maintain your repository over time:
    * Regularly backup your repository
-   * Periodically clean up old branches and review who has access.
+ * Automate cleanup where possible: enable the "delete source branch" option on merge/pull requests so feature branches are removed as soon as they're merged.
+* Periodically clean up any remaining stale branches and review who has access.
 
 {% assign child_pages = page.child_pages | join: ', ' %}
 {% if child_pages != null and child_pages != '' %}
