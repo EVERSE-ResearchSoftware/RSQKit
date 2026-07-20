@@ -82,7 +82,7 @@ Choosing a VCS is only the first step. You also need to establish a working rout
 ### Solutions
 
 * Establish a clear workflow:
-   * Define a branching strategy appropriate to your project's size, something like Git Flow can help for larger projects, but a single main branch with short-lived feature branches is often enough for smaller ones.
+   * Define a branching strategy appropriate to your project's size, something like Git Flow can help for larger projects, but a single main/master branch with short-lived feature/dev branches is often enough for smaller projects.
    * Set guidelines for commit messages and code review, so changes are easy to understand later.
 * Integrate version control into your development environment:
    * Set up your Integrated Development Environment (IDE), such as {% tool "vscode" %}, {% tool "rstudio" %}, {% tool "pycharm" %} or {% tool "eclipse" %}, or a text editor to work with your VCS
