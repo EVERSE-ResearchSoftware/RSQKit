@@ -5,7 +5,7 @@ page_id: software_documentation
 contributors: ["Aleksandra Nenadic", "Laura Portell-Silva"]
 coordinators: ["Aleksandra Nenadic"]
 child_pages: [documenting_software_project, documenting_code]
-quality_indicators: [software_has_documentation]
+quality_indicators: [software_has_documentation, code_documentation_coverage_ok]
 #keywords: ["software documentation", "documentation", "code documentation", "code comments", "readme", "mkdocs", "readthedocs"]
 page_citation: false
 ---

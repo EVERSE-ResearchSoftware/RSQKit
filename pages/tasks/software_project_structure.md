@@ -1,0 +1,150 @@
+---
+title: Software project structure
+description: How to organise your code and software folders?
+contributors: ["Aleksandra Nenadic"]
+page_id: structuring_software_projects
+related_pages:
+  tasks: [citing_software, creating_good_readme, documenting_software, software_metadata]
+quality_indicators: [software_has_documentation]
+keywords: ["software project", "organising software project"]
+---
+
+## Why does structuring your software project matter?
+
+### Description
+
+The directory structure for organising your software projects (or research projects in general) involves creating a clear and logical layout for files and data, facilitating easy navigation, collaboration and reproducibility.
+A well-structured and consistent project organisation, aligned with common practices, is essential for making your work more accessible.
+This approach helps others (and yourself) quickly locate information, which is particularly valuable for long-term projects or collaborative efforts.
+
+### Considerations
+
+Organising code or research project directories in a consistent manner is essential for several reasons:
+
+- A clear structure makes it easier for you and others to understand the project's layout.
+- Contributors can quickly locate necessary resources without navigating a cluttered or chaotic directory.
+- Consistent naming conventions and directory structures enable efficient code sharing, review, and seamless transitions between projects that follow similar conventions.
+- Proper separation of code, configuration files, and data facilitates faster issue isolation and resolution.
+- In research projects, well-organised code, data, and documentation support easier result reproduction and validation.
+- Well-documented and consistent directory structures help future research build upon existing work more effectively.
+
+## What are some good practices in organising software projects into directory structure?
+
+Typically, as you start developing software from scratch, you might put all the code and data in the project directory's root.
+However, as your software project grows and you find yourself having to store other files, e.g. results, tests, auxiliary information and metadata in addition to your code and data, you may consider organising your directory differently.
+
+Below are some established good practices for setting up and maintaining a software project's directory structure.
+
+### Directory structure
+
+Put all files related to the project into a **single directory** and choose a meaningful name for it that reflects the project’s purpose or topic.
+
+**Top-level directory** of the project should contain various auxiliary information and metadata about your software, making it easy for others to find out what it does and how to reuse it.
+This information is especially important as you start sharing your work with others - e.g. as a repository on code sharing platforms such as {% tool "github" %} or {% tool "gitlab" %}.
+For example:
+
+  - `README` file to describe the project and instructions on installing and running the code and reproducing the results - see more on creating good [README files][creating_good_readme].
+  - `LICENSE` file to describe the how others can reuse your software or work - see more on [licensing software][licensing_software].
+  - [`CITATION.cff`][cff] file to describe how to cite the project - see more on [citing software][citing_software].
+  - `codemeta.json` file (or similar metadata standard) to describe your software's metadata - see more on [software metadata][software_metadata].
+
+Organise the rest of the software project's file into **sub-directories** clearly labelled based on the type of their content.
+For example:
+
+  - `code` (or `scripts` or `src`) directory for storing your source code.
+  - `data` folder to store your data. Further organise raw, cleaned, intermediate, and/or processed data in separate subdirectories (e.g. `data/raw`, `data/clean`, `data/processed`) to maintain clarity and prevent overwriting or losing the original raw data.
+  - `results` folder for storing analysis outputs, summary statistics, or any data generated after processing.
+  - `doc` folder for storing various [software documentation and guides][software_documentation].
+  - `figures` (or `fig`) - for storing all visualisations like charts, graphs, and figures generated from the code/analysis (alternatively, these can go in the `results` directory).
+  - `papers` or `presentations` or `references` folders for research papers, articles, or any other literature cited or referenced in the research project. 
+These could go into separate projects so you do not mix them with your software - especially if you are developing a software package for use by others and research papers are not relevant in that context.
+  - If specific subdirectories in your project require distinct descriptions or licenses (for example, the license for your code may differ from that of your data), include separate README or LICENSE files in those subdirectories to apply to the files within them.
+
+### Naming conventions
+
+In addition to using standard and self-explanatory directory names mentioned above, follow other **naming conventions for files and directories**, for example:
+
+  - Avoid special characters or spaces (they can cause errors when read by computers); use underscores (_) or hyphens (-) to separate words instead and be consistent.
+  - Name files to reflect their contents, version, or date (or, even better, use version control to track different versions).
+
+### Use version control
+
+Put the whole software project under **[version control][version_control]** and in its own repository:
+
+  - At the very least, code (and data) sub-directories should be version controlled; you can also version control documentation, manuscripts, results, etc. - i.e. anything that is written manually and not generated automatically
+  - If data files are too large (or contain sensitive information) to track by version control and expose in public repositories, you should untrack them (e.g. using `.gitignore` file in Git). The same goes if you are storing passwords in files - they should not be version controlled.
+  - Use tags or [releases][releasing_code] afforded to us by code sharing platforms to mark specific versions of results (a version submitted to a journal, dissertation version, poster version, etc.) so as to avoid using version numbers in file names and proliferation of different files.
+
+### Example project structures
+
+Below is an example of a directory structure for a generic research project that contains code and data.
+This is not the only way to organise your project folder (there is no official or standard way and you may not have all the same subfolders in your project), but it is a good practice to follow that will be understandable by many others.
+
+```
+project_name/
+├── README                # overview of the project
+├── LICENSE               # license (reuse terms) for the project as a whole
+├── CITATION.cff          # citation information for the project
+├── data/                 # data files used in the project
+│   ├── README            # describe the origin of your data
+│   ├── raw/              # store your raw data and do not modify it
+│   └── processed/        # store cleaned/processed/modified data separately 
+├── manuscript/           # manuscript describing the results
+├── results/              # results of the analysis (data, tables)  
+│   ├── preliminary/
+│   └── final/
+├── figures/              # results of the analysis (figures)
+│   ├── comparison_plot.png
+│   └── regression_chart.pdf
+├── src/                  # contains source code for the project
+│   ├── LICENSE           # license that just applies to the code
+│   ├── requirements.txt  # software requirements and dependencies
+│   ├── main_script.py    # main script/code entry point
+│   └── ...
+├── doc/                  # documentation for your software
+│   ├── index.html            # entry point into the documentation website    
+│   └── ...
+└── ...
+```
+
+For research projects that contain Python code - check out the following two tools:
+
+- {% tool 'fair-python-cookiecutter' %} is a command-line template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality. It generates project directories from predefined templates and ensures consistency by scaffolding a standardised project layout, including folders like `src/` for code, `tests/` for tests (shown below), and configuration files such as `pyproject.toml`, `README`, and `.gitignore`. This is especially helpful for teams or when starting new software projects, as it reduces setup time and enforces best practices.
+-  {% tool "poetry" %} is a dependency and packaging manager that simplifies Python project management. It uses a single `pyproject.toml` file to declare dependencies, manage virtual environments, and handle versioning and publishing.
+In addition, {% tool "poetry" %} will also create a new directory with the necessary structure for you if you are starting a new Python project from scratch.
+{% tool "poetry" %} itself does not enforce a specific directory structure, but it encourages and works well with the "src layout" (shown below), which is a widely adopted best practice in modern Python development (as does {% tool 'fair-python-cookiecutter' %}).
+
+```
+project_name/
+├── pyproject.toml         # Poetry config: dependencies, metadata, build system
+├── README.md              # Project description
+├── src/                   # Source code root (recommended layout)
+│   └── your_package/      # Actual Python package/module
+│       ├── __init__.py
+│       └── ...
+├── tests/                 # Unit and integration tests
+│   └── test_something.py
+└── .gitignore
+```
+
+For best practices and guidance for designing research projects in particular focused on data - check out [the Turing Way Project's Guide for project design][turing-project-design].
+
+{% assign child_pages = page.child_pages | join: ', ' %}
+{% if child_pages != null and child_pages != '' %}
+## Tool- or Domain-Specific Tasks
+
+This is a suggested list tool-specific sub-tasks to have a look at.
+
+{% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
+{% endif %}
+
+[creating_good_readme]: ./creating_good_readme
+[licensing_software]: ./licensing_software
+[releasing_code]: ./releasing_software
+[software_documentation]: ./software_documentation
+[version_control]: ./using_version_control
+[software_metadata]: ./software_metadata
+[cff]: https://citation-file-format.github.io/
+[citing_software]: ./citing_software
+[turing-project-design]: https://book.the-turing-way.org/project-design/pd-overview/project-repo/project-repo-advanced/
+[directory-structure-poetry]: https://medium.com/@sjalexandre/python-tutorial-managing-projects-with-poetry-cd2deab72697

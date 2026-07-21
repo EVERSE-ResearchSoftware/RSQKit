@@ -1,84 +1,56 @@
 #!/usr/bin/env python
 
-import json
 import yaml
 import os
-import base64
 import requests
 import csv
 import io
+import sys
 
-def get_github_repo_contents(repo_owner, repo_name, path=""):
+def fetch_json_from_api(url):
     """
-    Fetches the contents of a directory within a GitHub repository.
-
+    Standard HTTP GET request to fetch JSON data from a public endpoint.
+    Crashes safely if the server is down or returns an error status code.
+    
     Args:
-        repo_owner (str): The owner of the GitHub repository.
-        repo_name (str): The name of the GitHub repository.
-        path (str, optional): The path to the directory within the repository. Defaults to "".
-
+        url (str): The target API endpoint URL.
+        
     Returns:
-        list: A list of dictionaries, each representing a file or directory in the specified path.
-              Returns an empty list if the request fails or the path doesn't exist.
+        dict: The parsed JSON payload from the API response.
     """
-    api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{path}"
     try:
-        response = requests.get(api_url)
-        response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
+        response = requests.get(url)
+        response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching repository contents from {api_url}: {e}")
-        return []
+        print(f"CRITICAL ERROR fetching API data from {url}: {e}")
+        sys.exit(1)
 
 
-def get_github_file_content(repo_owner, repo_name, file_path):
+def get_consensus_summary_from_github():
     """
-    Fetches the content of a specific file from a GitHub repository.
-
-    Args:
-        repo_owner (str): The owner of the GitHub repository.
-        repo_name (str): The name of the GitHub repository.
-        file_path (str): The path to the file within the repository.
-
+    Downloads and parses the consensus summary CSV file from GitHub.
+    
     Returns:
-        str: The decoded content of the file. Returns None if the request fails or the file content cannot be decoded.
+        dict: A dictionary indexed by indicator URI containing tier relevance metadata.
     """
-    api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}"
+    url = "https://api.github.com/repos/EVERSE-ResearchSoftware/indicators/contents/docs/consensus_summary.csv"
     try:
-        response = requests.get(api_url)
+        response = requests.get(url)
         response.raise_for_status()
         content_encoded = response.json().get("content")
-        if content_encoded:
-            content_decoded = base64.b64decode(content_encoded).decode("utf-8")
-            return content_decoded
-        else:
-            print(f"Error: No content found for file {file_path} in {repo_owner}/{repo_name}")
-            return None
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching file content from {api_url}: {e}")
-        return None
-    except (base64.binascii.Error, UnicodeDecodeError) as e:
-        print(f"Error decoding file content for {file_path}: {e}")
-        return None
-    
-    
-def get_consensus_summary_from_github(repo_owner, repo_name):
-    """
-    Fetches and parses docs/consensus_summary.csv from a GitHub repository.
-
-    Returns:
-        dict indexed by indicator URI.
-    """
-    csv_path = "docs/consensus_summary.csv"
-    content = get_github_file_content(repo_owner, repo_name, csv_path)
-
-    if not content:
-        print("Warning: consensus_summary.csv not found or empty.")
-        return {}
+        if not content_encoded:
+            print("CRITICAL ERROR: No content found for consensus_summary.csv")
+            sys.exit(1)
+            
+        import base64
+        content = base64.b64decode(content_encoded).decode("utf-8")
+    except Exception as e:
+        print(f"CRITICAL ERROR fetching consensus CSV: {e}")
+        sys.exit(1)
 
     consensus = {}
     reader = csv.DictReader(io.StringIO(content))
-
     for row in reader:
         indicator_uri = row.get("Indicator (to get more info)", "").strip()
         if not indicator_uri:
@@ -89,105 +61,92 @@ def get_consensus_summary_from_github(repo_owner, repo_name):
             "Relevant for Prototype tool": row.get("Relevant for Prototype tool"),
             "Relevant for RS infrastructure": row.get("Relevant for RS infrastructure"),
         }
-
     return consensus
 
 
-def generate_rsqkit_data_from_github(repo_owner, repo_name, repo_path, output_file="data.yaml", filter_keys=False):
-    contents = get_github_repo_contents(repo_owner, repo_name, repo_path)
-    json_files = [item for item in contents if item.get("type") == "file" and item.get("name", "").endswith(".json")]
-
-    if not json_files:
-        print(f"No json files found in {repo_owner}/{repo_name}/{repo_path} directory.")
-        # Create an empty file if no JSON files are found to avoid errors in downstream processes
-        if not os.path.exists(os.path.dirname(output_file)):
-             os.makedirs(os.path.dirname(output_file), exist_ok=True)
-        with open(output_file, "w") as outfile:
-            yaml.dump([], outfile)
-        print(f"Created empty output file: {output_file}")
-        return
+def generate_rsqkit_data_from_api(api_url, data_type, output_file, clean_internal_keys=True):
+    """
+    Retrieves data from the public API wrapper, extracts the targeted array,
+    injects GitHub consensus information, and writes the structured result into a YAML file.
     
-    consensus_data = get_consensus_summary_from_github(repo_owner, repo_name)
+    Args:
+        api_url (str): The public wrapper URL containing the graph database collection.
+        data_type (str): The node collection key to extract (either 'indicators' or 'dimensions').
+        output_file (str): Target path for the output YAML file.
+        clean_internal_keys (bool): If True, filters out backend metadata properties like '_filename'.
+    """
+    raw_payload = fetch_json_from_api(api_url)
+    
+    if isinstance(raw_payload, dict) and data_type in raw_payload:
+        data_list = raw_payload[data_type]
+    else:
+        print(f"CRITICAL ERROR: Expected a dictionary containing the key '{data_type}' from {api_url}")
+        sys.exit(1)
+        
+    if not isinstance(data_list, list):
+        print(f"CRITICAL ERROR: The key property '{data_type}' is not a list. Got: {type(data_list)}")
+        sys.exit(1)
+        
+    consensus_data = get_consensus_summary_from_github() if data_type == "indicators" else {}
+    processed_data = []
 
-    _data = []
-
-    for file_info in json_files:
-        file_path = file_info["path"]
-        # print(f"Processing {file_path}...")
+    for instance in data_list:
         try:
-            file_content = get_github_file_content(repo_owner, repo_name, file_path)
-            if file_content:
-                instance = json.loads(file_content)
-                if filter_keys:
-                    instance = dict(filter(lambda item: "@" not in item[0], instance.items()))
+            if clean_internal_keys:
+                instance = dict(filter(lambda item: not item[0].startswith('_'), instance.items()))
+                
+            indicator_uri = None
+
+            if data_type == "indicators":
+                identifier = instance.get("identifier")
+                if isinstance(identifier, dict):
+                    indicator_uri = identifier.get("@id")
                     
-                indicator_uri = None
+                if indicator_uri and indicator_uri in consensus_data:
+                    instance["relevant in tiers"] = consensus_data[indicator_uri]
 
-                if repo_path == "indicators":
-                    identifier = instance.get("identifier")
-                    if isinstance(identifier, dict):
-                        indicator_uri = identifier.get("@id")
-
-                elif repo_path == "dimensions":
-                    identifier = instance.get("identifier")
-                    if isinstance(identifier, str):
-                        indicator_uri = identifier
-
-            if repo_path == "indicators" and indicator_uri and indicator_uri in consensus_data:
-                instance["relevant in tiers"] = consensus_data[indicator_uri]
+            elif data_type == "dimensions":
+                identifier = instance.get("identifier")
+                if isinstance(identifier, str):
+                    indicator_uri = identifier
                     
-            _data.append(instance)
-        except json.JSONDecodeError as e:
-            print(f"Error decoding JSON from {file_path}: {e}")
+            processed_data.append(instance)
+            
         except Exception as e:
-            error_message = f"{file_path}: Unexpected error - {e}"
-            print(f"Error: {error_message}")
+            print(f"CRITICAL ERROR processing an item from {data_type}: {e}")
+            sys.exit(1)
 
-    # Ensure the output directory exists
     output_dir = os.path.dirname(output_file)
     if output_dir and not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-
     try:
         with open(output_file, "w", encoding="utf-8") as outfile:
             yaml.dump(
-                _data,
+                processed_data,
                 outfile,
                 default_flow_style=False,
-                allow_unicode=True, # Changed to True to support unicode characters
+                allow_unicode=True,
                 indent=4,
             )
-        print(f"The data of {len(_data)} files from {repo_owner}/{repo_name}/{repo_path} was saved as {output_file}")
-    except IOError as e:
-        print(f"Error writing to output file {output_file}: {e}")
+        print(f"Successfully processed {len(processed_data)} {data_type} into {output_file}")
     except Exception as e:
-        print(f"Unexpected error writing YAML file: {e}")
+        print(f"CRITICAL ERROR writing YAML file {output_file}: {e}")
+        sys.exit(1)
 
 
-# Generate data for indicators
-generate_rsqkit_data_from_github(
-    repo_owner="EVERSE-ResearchSoftware",
-    repo_name="indicators",
-    repo_path="indicators",
-    output_file="_data/quality_indicators.yml",
-    filter_keys=True
-)
+if __name__ == "__main__":
 
-# Generate data for dimensions
-generate_rsqkit_data_from_github(
-    repo_owner="EVERSE-ResearchSoftware",
-    repo_name="indicators",
-    repo_path="dimensions",
-    output_file="_data/quality_dimensions.yml",
-    filter_keys=True
-)
+    generate_rsqkit_data_from_api(
+        api_url="https://everse.software/indicators/api/indicators.json",
+        data_type="indicators",
+        output_file="_data/quality_indicators.yml",
+        clean_internal_keys=True
+    )
 
-# # Generate data for dimensions
-# generate_rsqkit_data_from_github(
-#     repo_owner="EVERSE-ResearchSoftware",
-#     repo_name="TechRadar",
-#     repo_path="data/software-tools",
-#     output_file="_data/tool_and_resource_list.yml",
-#     filter_keys=True
-# )
+    generate_rsqkit_data_from_api(
+        api_url="https://everse.software/indicators/api/dimensions.json",
+        data_type="dimensions",
+        output_file="_data/quality_dimensions.yml",
+        clean_internal_keys=True
+    )

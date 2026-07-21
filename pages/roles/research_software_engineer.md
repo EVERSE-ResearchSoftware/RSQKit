@@ -18,6 +18,7 @@ RSEs have a deeper understanding of engineering practices, performance, software
 Main responsibilities and common challenges of this role in relation to research software development and Research Software Quality include:
 
 - Collaboration with researchers: translating research problems into technical requirements and help implement solutions
+- Software architecting: designing software systems that satisfy functional and non-functional requirements
 - Software development: writing and maintaining code for research projects (prototyping, optimisation, refactoring)
 - Code quality and best practices: applying best practices like version control, testing, documentation, and continuous integration
 - Reproducibility & sustainability: ensuring research outputs are reproducible and software is maintainable
@@ -58,7 +59,7 @@ Environmental sciences:
 
 ## Software development & quality guidance
 
-- [Organising software projects](./organising_software_projects) - a well-structured project directory facilitates collaboration, maintenance, and reproducibility
+- [Software project structure](./software_project_structure) - a well-structured project directory facilitates collaboration, maintenance and reproducibility
 - [Adopting FAIR principles](./fair_rs) promotes transparency and facilitates wider adoption of research software
 - Code quality best practices - [version control](./using_version_control), [testing](./testing_software), [documentation](./documenting_software) and [licensing](./licensing_software)
 - [Software testing practices](./testing_software) and automating tests using [Continuous Integration](./ci_cd) (CI)
