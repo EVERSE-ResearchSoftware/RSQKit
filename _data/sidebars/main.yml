@@ -126,6 +126,8 @@ subitems:
         url: /archiving_software
       - title: "Publishing software"
         url: /publishing_software
+      - title: "Improving research software security"
+        url: /research_software_security
       - title: "Computational workflows"
         url: /computational_workflows
       - title: CI/CD
