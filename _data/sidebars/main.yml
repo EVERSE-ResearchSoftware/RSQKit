@@ -145,6 +145,8 @@ subitems:
         url: /fair_rs
       - title: "Using containers"
         url: /using_containers
+      - title: "Static Analysis"
+        url: /static_analysis
   - title: All indicators
     url: /all_indicators
     description: Browse quality indicators and their connections to tasks
