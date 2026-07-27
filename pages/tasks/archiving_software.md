@@ -5,7 +5,7 @@ contributors: ["Aleksandra Nenadic"]
 page_id: archiving_software
 indicators: [archived_in_software_heritage, archived_in_scholarly_repository, listed_in_registry]
 related_pages:
-  tasks: [software_identifiers, software_metadata, documenting_software, licensing_software]
+  tasks: [publishing_software, software_identifiers, software_metadata, documenting_software, licensing_software]
 keywords: ["archiving software", "software preservation"]
 ---
 
