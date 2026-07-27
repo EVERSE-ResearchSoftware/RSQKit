@@ -1326,3 +1326,5 @@
     GitHub Packages is GitHub's service to publish and consume packages, store your packages alongside your code, and share your packages privately with your team or publicly with the open source community. 
     It also allows automation of package building with GitHub Actions.
   url: 'https://docs.github.com/en/packages'
+  catalog: RSQKit
+
