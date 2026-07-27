@@ -17,7 +17,7 @@ However, software is inherently fragile: it evolves rapidly, becomes deprecated,
 As a result, many research outputs become irreproducible or unusable within just a few years due to the lack of access to the original software environment.
 Without systematic software archiving, research risks losing critical components of its provenance, making long-term validation, replication, and reuse of results impossible.
 
-Putting code on {% tool "github" %} or {% tool "gitlab" %} (or any similar code hosting service) is good practice for code sharing, versioning and even code packaging, it is not enough for long-term software archiving.
+Putting code on {% tool "github" %} or {% tool "gitlab" %} (or any similar code hosting service) is good practice for [code sharing (publishing)](./publishing_software), versioning (e.g. using tags or releases on GitHub/GitLab) and even code packaging (e.g. with [GitHub Packages service](https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages)), it is not enough for long-term software archiving.
 This is because these are commercial services - if they change their policies, remove repositories (e.g. for inactivity, or security reasons), or even shut down (which has happened to code sharing platforms in the past), your code could disappear.
 
 Archival means long-term preservation independent of any one platform.
