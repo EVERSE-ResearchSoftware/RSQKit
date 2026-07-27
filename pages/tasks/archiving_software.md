@@ -43,6 +43,10 @@ It requires addressing multiple interrelated technical aspects:
 - [Licensing][licensing_software] constraints - proprietary software dependencies can limit what can legally be archived and shared.
 - [Metadata][software_metadata] and [documentation][documenting_software] - proper archival demands machine- and human-readable metadata, including usage instructions, authorship, and configuration settings.
 
+Archiving software does not mean that development has ended or that the software is no longer being maintained. 
+Archiving preserves a specific version of the software — often corresponding to a project deliverable, software release or a research publication — for long-term access, citation, and reproducibility, while development and maintenance may continue in parallel.
+Software may therefore be archived multiple times throughout its lifecycle as new releases are produced.
+
 ### Archival solutions for research software
 
 Several archival solutions for research software are emerging:
@@ -54,6 +58,9 @@ Several archival solutions for research software are emerging:
 - VM snapshots are used when containerisation is not feasible, particularly for GUI-based or legacy software.
 - Institutional repositories and {% tool "zenodo" %} provide [DOI-backed software][software_identifiers] archiving linked to publications, ensuring persistent citation and access.
 - [RO-Crate](https://www.researchobject.org/ro-crate/) has an honourable mention here, while it is not an archival mechanism it is a critical metadata format that ensures items (e.g., [workflows](computational_workflows)) that are archived are described, understandable and reusable.
+
+#### 
+
 
 ### Conclusion
 
