@@ -45,22 +45,24 @@ It requires addressing multiple interrelated technical aspects:
 
 Archiving software does not mean that development has ended or that the software is no longer being maintained. 
 Archiving preserves a specific version of the software — often corresponding to a project deliverable, software release or a research publication — for long-term access, citation, and reproducibility, while development and maintenance may continue in parallel.
-Software may therefore be archived multiple times throughout its lifecycle as new releases are produced.
+Software may therefore be archived multiple times throughout its [lifecycle](./life_cycle) as new releases are produced.
 
 ### Archival solutions for research software
 
 Several archival solutions for research software are emerging:
 
+- Institutional repositories and {% tool "zenodo" %} provide [DOI-backed software][software_identifiers] archiving linked to publications, ensuring persistent citation and access.
 - {% tool "software-heritage" %} can provide an universal archive of source code, capturing the development history of open-source software at scale.
 - {% tool "reprozip" %} captures the execution environment of research software, enabling portability and reproducibility across platforms.
 - {% tool "guix" %} / {% tool "nixos" %} are functional package managers that enable reproducible builds and isolated software environments.
 - Containers (e.g., {% tool "docker" %}, {% tool "singularityce" %}) are popular tools for bundling applications with dependencies, especially in high-performance computing.
 - VM snapshots are used when containerisation is not feasible, particularly for GUI-based or legacy software.
-- Institutional repositories and {% tool "zenodo" %} provide [DOI-backed software][software_identifiers] archiving linked to publications, ensuring persistent citation and access.
 - [RO-Crate](https://www.researchobject.org/ro-crate/) has an honourable mention here, while it is not an archival mechanism it is a critical metadata format that ensures items (e.g., [workflows](computational_workflows)) that are archived are described, understandable and reusable.
 
-#### 
-
+Archiving software on services such as {% tool "zenodo" %} typically involves uploading a compressed archive (e.g. a ZIP or TAR.GZ file) containing the software source code, together with metadata and supporting documentation for a specific version.
+Archiving research software can be streamlined by connecting a development repository (e.g. on GitHub) to an archival service (e.g. Zenodo). 
+After the integration is set up, each tagged software release on GitHub is automatically packaged into an archive and archived in Zenodo, eliminating the need to manually upload software archives.
+Connecting GitHub and Zenodo seamlessly links software publishing and archiving steps in the [software lifecycle](./life_cycle).
 
 ### Conclusion
 
