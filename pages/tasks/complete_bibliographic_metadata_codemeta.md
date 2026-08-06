@@ -1,7 +1,7 @@
 ---
 title: "Creating bibliographic metadata with CodeMeta"
 description: "Guidance on creating a CodeMeta file for software projects."
-contributors: ["Gavin J. Pringle"] # Add contributors' names here
+contributors: ["Gavin Pringle"] # Add contributors' names here
 page_id: complete_bibliographic_metadata_codemeta
 related_pages:
   your_tasks: [software_metadata]
