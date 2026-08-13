@@ -145,6 +145,10 @@ subitems:
         url: /fair_rs
       - title: "Using containers"
         url: /using_containers
+  - title: Guidance for AI
+    description: Guidance and practices using AI when creating quality research software
+    url: /ai
+    image_url: /assets/img/flaticon/checklist.png
   - title: All indicators
     url: /all_indicators
     description: Browse quality indicators and their connections to tasks
