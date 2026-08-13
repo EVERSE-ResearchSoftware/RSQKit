@@ -71,6 +71,10 @@ subitems:
         url: /research_software_engineer
       - title: Principal Investigator
         url: /principal_investigator
+      - title: Project manager
+        url: /project_manager
+      - title: Product owner
+        url: /product_owner
       - title: Policy maker
         url: /policy_maker
       - title: Trainer
@@ -82,8 +86,8 @@ subitems:
     subitems:
       - title: "Choosing languages, tools & infrastructures"
         url: /languages_tools_infrastructures
-      - title: "Organising software projects"
-        url: /organising_software_projects
+      - title: "Software project structure"
+        url: /software_project_structure
       - title: "Using version control"
         url: /using_version_control
       - title: "Reproducible software environments"
@@ -102,10 +106,11 @@ subitems:
         url: /software_identifiers
       - title: "Software documentation"
         url: /software_documentation
-      - title: "Documenting software project"
-        url: /documenting_software_project
-      - title: "Documenting code"
-        url: /documenting_code
+        subitems:
+          - title: "Documenting software project"
+            url: /documenting_software_project
+          - title: "Documenting code"
+            url: /documenting_code
       - title: "Creating a good README"
         url: /creating_good_readme
       - title: "Software metadata"
@@ -130,6 +135,10 @@ subitems:
             url: /task_automation_github_actions
           - title: "Task automation using GitLab CI/CD"
             url: /task_automation_gitlab_ci_cd
+          - title: "Managing complex CI testing matrices"
+            url: /ci_testing_matrices
+          - title: "Organisational GitLab CI for GitHub projects"
+            url: /org_gitlab_ci_infra_for_github_project
       - title: "Improving environmental sustainability"
         url: /improving_environmental_sustainability
       - title: "Adopting FAIR software practices"
@@ -163,5 +172,8 @@ subitems:
         url: /contributors
       - title: List of all pages
         url: /all_pages
+  - title: Site Statistics
+    url: /site_statistics
+    description: Browse site statistics
 #  - title: All training resources
 #    url: /all_training_resources

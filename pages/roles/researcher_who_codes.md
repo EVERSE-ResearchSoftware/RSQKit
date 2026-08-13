@@ -37,10 +37,11 @@ These are the key software-related things a researcher who codes is typically re
 - Documenting code (even minimally) to recall how it works or explain it in papers
 - Validating results via debugging or comparing outcomes across test cases
 - When projects grow more complex, researchers who code often benefit from working with [RSEs](./research_software_engineer) to improve code quality, scalability, and reusability.
+- If the develop prototype tools (e.g. libraries) or infrastructure tiers of software they then usually gain a responsibility to support and promote the system they have developed.
 
 ## Software development & quality guidance
 
-- [Organising software projects](./organising_software_projects) - a well-structured project directory facilitates collaboration, maintenance, and reproducibility
+- [Software project structure](./software_project_structure) - a well-structured project directory facilitates collaboration, maintenance and reproducibility
 - [Adopting FAIR principles](./fair_rs) promotes transparency and facilitates wider adoption of research software
 - Code quality best practices - [version control](./using_version_control), [testing](./testing_software), [documentation](./documenting_software) and [licensing](./licensing_software)
 - [Software testing practices](./testing_software) and automating tests using [Continuous Integration](./ci_cd) (CI)

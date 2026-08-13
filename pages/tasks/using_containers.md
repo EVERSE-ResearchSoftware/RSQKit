@@ -5,6 +5,7 @@ contributors: ["Shraddha Bajare"]
 page_id: using_containers
 related_pages: 
   tasks: [ci_cd]
+quality_indicators: [software_is_containerized]
 keywords: ["containers", "docker", "apptainer", "software packaging", "reproducibility", "portability", "containerization", "software deployment"]
 training:
   - name: "EVERSE TeSS"

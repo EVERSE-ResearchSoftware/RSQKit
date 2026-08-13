@@ -1,7 +1,7 @@
 ---
 title: Contribution Guidelines
 summary: Detailed guidelines for various contributions to RSQKit.
-contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Shoaib Sufi"]
+contributors: ["Aleksandra Nenadic", "Daniel Garijo", "Shoaib Sufi", "Laura Portell-Silva"]
 ---
 
 The RSQKit is currently in a startup phase and still under heavy development which means its structure and content is likely to change a lot.

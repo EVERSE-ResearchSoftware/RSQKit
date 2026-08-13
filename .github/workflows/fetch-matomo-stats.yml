@@ -1,0 +1,68 @@
+name: Fetch Matomo statistics
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'  # first of each month at 06:00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - "main"
+
+permissions:
+  contents: write
+
+# Prevent overlapping runs
+concurrency:
+  group: matomo-stats
+  cancel-in-progress: true
+
+jobs:
+  fetch-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch Matomo Stats
+        env:
+          MATOMO_URL: ${{ secrets.MATOMO_URL }}
+          MATOMO_SITE_ID: ${{ secrets.MATOMO_SITE_ID }}
+          MATOMO_TOKEN: ${{ secrets.MATOMO_TOKEN }}
+        run: python scripts/matomo_stats/fetch_matomo_stats.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add _data/matomo_stats.json
+          
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "Update Matomo site visitor statistics"
+          
+          for i in 1 2 3; do
+            git pull --rebase --autostash
+            if git push; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            echo "Push failed. Retrying ($i/3)..."
+            sleep 5
+          done
+          
+          echo "Push failed after retries"
+          exit 1

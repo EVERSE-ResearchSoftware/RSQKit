@@ -5,7 +5,9 @@ contributors: ["Aleksandra Nenadic"]
 page_id: trainer
 ---
 
-## Introduction As a trainer, you design or deliver training courses in research software development and quality for specific research domain or in general.
+## Introduction 
+
+As a trainer, you design or deliver training courses in research software development and quality for a specific research domain or in general.
 
 Your primary audience is PhD students, postdocs, researchers and technicians [who code](./researcher_who_codes) or early career [Research Software Engineers (RSEs)](./research_software_engineer).
 
