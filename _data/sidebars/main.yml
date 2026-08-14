@@ -151,7 +151,7 @@ subitems:
     image_url: /assets/img/flaticon/checklist.png
     subitems:
       - title: "Developing Research Software with AI"
-        url: /developing_research_software_with_ai
+        url: /how_do_you_use_AI_to_develop_quality_research_software
       - title: "Usecases across the spectrum"
         url: /ai_usecases_across_the_spectrum
       - title: "AI Intensity Considerations"
