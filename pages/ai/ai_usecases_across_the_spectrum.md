@@ -121,7 +121,11 @@ Reserve agents for problems ordinary scripts, CI or scheduled jobs don't already
 
 ## 9 Hone the skills needed to evaluate AI-assisted work
 
-Using AI well depends on being able to judge what it produces. That judgement does not appear automatically as AI intensity increases: developers still need to understand code, tests, architecture, scientific constraints, debugging, review and project context well enough to recognise when an answer is plausible, incomplete or simply wrong. Practising those skills manually is therefore not just a fallback for situations where AI cannot be used; it is part of maintaining the ability to use higher-intensity AI responsibly.
+Using AI well depends on being able to judge what it produces. That judgement does not appear automatically as AI intensity increases: developers still need to understand code, tests, architecture, scientific constraints, debugging, review and project context well enough to recognise when an answer is plausible, incomplete or simply wrong.
+
+Bluntly: Manual practice is part of the evaluation infrastructure for AI-assisted practice.
+
+Practising those skills manually is therefore not just a fallback for situations where AI cannot be used; it is part of maintaining the ability to use higher-intensity AI responsibly.
 
 ### Worked example: practising the manual equivalent of a higher-intensity task
 
@@ -137,7 +141,8 @@ Different kinds of work justify different forms of AI assistance, and the right 
 
 Start from the work rather than the tool. Increase intensity when additional context, editing capability or automation solves a real problem, and reduce it when the same result can be achieved more simply or when review and understanding can no longer keep pace.
 
-Whatever level you use, preserve the things that matter most: research correctness, effective guardrails, the ability to roll back changes, and reproducibility.
+Whatever level you use, preserve the things that matter most: research correctness, effective guardrails, the ability to roll back changes, and reproducibility. And remember that **manual practice is the core skill for evaluating  AI-assisted practice** : maintaining the skills needed to understand, test and challenge the work is what makes higher-intensity assistance usable responsibly.
+
 
 [NOGENAI]: practices/no_genai_usage.md
 [CHAT]: practices/conversational_interaction.md
@@ -150,4 +155,3 @@ Whatever level you use, preserve the things that matter most: research correctne
 [CLOUD_AGENTS]: practices/managed_or_cloud_coding_agents.md
 [CI_REPO_AGENTS]: practices/ci_pr_repository_agents.md
 [AUTO_AGENTS]: practices/open_ended_autonomous_agents.md
-
