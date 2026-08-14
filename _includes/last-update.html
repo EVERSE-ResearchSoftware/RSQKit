@@ -1,6 +1,6 @@
 {%- assign last_update = site.data.last_updates[page.path] -%}
 {%- if last_update %}
-<p class="text-muted">
+<p class="text-muted" style="text-align:right">
     Last updated:
     <time datetime="{{ last_update | date: '%Y-%m-%d' }}">{{ last_update | date: '%-d %B %Y' }}</time>
 </p>
