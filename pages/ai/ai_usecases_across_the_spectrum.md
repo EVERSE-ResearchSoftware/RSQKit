@@ -1,7 +1,7 @@
 ---
 title: "Usecases across the spectrum"
 description: How real world tasks map to the Spectrum Intensity
-contributors: [ "Michael Sparks" ]
+contributors: [ "Michael Sparks", "Hugo Bacard" ]
 page_id: ai_usecases_across_the_spectrum
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 15

@@ -1,7 +1,7 @@
 ---
 title: Developing Research Software with AI
 description: How do you use AI to develop quality research software
-contributors: [ "Michael Sparks" ]
+contributors: [ "Michael Sparks", "Shoaib Sufi", "Aleksandra Nenadic" ]
 page_id: developing_research_software_with_ai
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1
