@@ -45,9 +45,9 @@ Each practice has guidance on the following topics
 The organising principle used in this section is a ["Spectrum of Intensity of AI Usage"][spectrum_of_intensity_of_ai_usage].
 The purpose of the spectrum is to assist in deciding what level of intensity is suitable for your work.
 
-This correlates with how much context, authority,and autonomy a tool has. 
+This correlates with how much context, authority,and autonomy a tool has.
 It is not a maturity scale.
-Higher intensity does not mean better practice. 
+Higher intensity does not mean better practice.
 It does not mean higher skill.
 It does not mean better quality.
 
@@ -61,16 +61,13 @@ Intensity correlates with a number of other issues including:
 * Level of AI use/autonomy in the workflow
 * Complexity of the AI setup
 * Cost, Environmental impacts
-* Severity of consequences (blast radius) of failure 
+* Severity of consequences (blast radius) of failure
 * Volume, complexity and novelty of output
 
 **Questions to consider of your project and of yourself:**
 
 * Where does your project sit? Where should it sit?
 * Where do you sit? Where do you **want** to be? Where **should** you be?
-
-
-
 
 
 {% assign task_pages = site.pages
@@ -113,7 +110,7 @@ Guidance pages focus on overview, high level, and cross cutting concerns.
 ## Practices
 
 Practice pages focus on specific guidance for a given style of usage,
-ordered by intensity level. 
+ordered by intensity level.
 
 {% include section-navigation-tiles.html
   custom=practice_ids

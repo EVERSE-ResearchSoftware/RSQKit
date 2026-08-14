@@ -1,6 +1,6 @@
 ---
 title: "CI/PR/repository agents (intensity 9)"
-description: Practice Overview for CI/PR/repository agents 
+description: Practice Overview for CI/PR/repository agents
 contributors: [ "Michael Sparks" ]
 page_id: ci_pr_repository_agents
 keywords: ["ai", "software development", "task automation", "github actions" ]
