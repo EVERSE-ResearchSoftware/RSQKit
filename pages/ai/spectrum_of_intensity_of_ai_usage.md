@@ -13,7 +13,7 @@ order: 10
 
 ### Overview
 
-The spectrum below describes AI usage practices by intensity.
+The spectrum below describes AI usage practices by intensity. What does this mean? It essentially equates to how much autonomy the AI tooling has relative to your control. The more autonomous the AI usage, the higher the intensity - since it can operate faster and for longer without your intervention. In some cases this may equate with higher costs. It often equates with higher risk because more can happen without your intervention. That means if more goes wrong for any reason, the more intense the clean up operation...
 
 The numbering is for convenience. Higher numbers *imply* more intense AI use. They do not imply better practice, greater maturity or better quality.
 
