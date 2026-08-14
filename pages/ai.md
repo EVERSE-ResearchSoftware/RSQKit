@@ -42,7 +42,7 @@ Each practice has guidance on the following topics
 
 ### Spectrum of Intensity of AI Usage
 
-The organising principle used in this section is a ["Spectrum of Intensity of AI Usage"][spectrum_of_intensity_of_ai_usage].
+The organising principle used in this section is a [Spectrum of Intensity of AI Usage][spectrum_of_intensity_of_ai_usage] .
 The purpose of the spectrum is to assist in deciding what level of intensity is suitable for your work.
 
 This correlates with how much context, authority,and autonomy a tool has.
