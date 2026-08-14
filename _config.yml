@@ -31,7 +31,7 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
-      layout: "page"
+      layout: "page-with-last-update"
       sidebar: main
   -
     scope:
