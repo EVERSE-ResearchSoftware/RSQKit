@@ -60,18 +60,9 @@ The tool landscape changes quickly, so this comparison should be treated as a wa
 
 | **Approach** | **Typical shape** | **Strengths** | **Main cautions** |
 |--------------|-------------------|---------------|-------------------|
-| Claude Code-style terminal agents \
-| Agentic coding tool in or near the developer terminal; can read a codebase, edit files, run commands and integrate with development workflows. \
-| Good for local iterative work, debugging, documentation, tests and repository navigation where a developer can supervise commands and diffs. \
-| Powerful because it can act. Use sandboxes, command approval, restricted credentials and clear "no push/deploy/delete" rules. Treat shell access as a major boundary. |
-| OpenAI Codex-style managed/cloud agents \
-| Coding agent working in a configured cloud environment or connected repository, often asynchronously and sometimes in parallel workspaces. \
-| Good for isolated tasks, parallel candidate patches, routine issues, tests and documentation when the environment is well specified. \
-| Repository permissions, cloud context and PR creation need governance. Provide setup docs and tests; avoid broad organisation access and sensitive data. |
-| Ollama/local-model approaches \
-| Local runtime for running models on local hardware, often combined with editor plugins, scripts or custom agent harnesses. \
-| Useful where local control, experimentation, cost control or data locality matters. Can support private prototypes and custom workflows. \
-| Local does not automatically mean safe or high quality. Smaller/local models may perform worse on complex code; custom harnesses need their own permission, logging and review design. |
+| Claude Code-style terminal agents | Agentic coding tool in or near the developer terminal; can read a codebase, edit files, run commands and integrate with development workflows. | Good for local iterative work, debugging, documentation, tests and repository navigation where a developer can supervise commands and diffs. | Powerful because it can act. Use sandboxes, command approval, restricted credentials and clear "no push/deploy/delete" rules. Treat shell access as a major boundary. |
+| OpenAI Codex-style managed/cloud agents | Coding agent working in a configured cloud environment or connected repository, often asynchronously and sometimes in parallel workspaces. | Good for isolated tasks, parallel candidate patches, routine issues, tests and documentation when the environment is well specified. | Repository permissions, cloud context and PR creation need governance. Provide setup docs and tests; avoid broad organisation access and sensitive data. |
+| Ollama/local-model approaches | Local runtime for running models on local hardware, often combined with editor plugins, scripts or custom agent harnesses. | Useful where local control, experimentation, cost control or data locality matters. Can support private prototypes and custom workflows. | Local does not automatically mean safe or high quality. Smaller/local models may perform worse on complex code; custom harnesses need their own permission, logging and review design. |
 
 In practice these approaches overlap. A terminal agent may call remote models. A cloud agent may work from a repository with local-style tests. An Ollama-based setup may be connected to an editor or agent framework. For research software, the selection question is less "which is best?" and more "which mode gives enough help while keeping context, permissions, review and reproducibility under control?"
 
