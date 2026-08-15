@@ -129,7 +129,7 @@ Practising those skills manually is therefore not just a fallback for situations
 
 ### Worked example: practising the manual equivalent of a higher-intensity task
 
-For a task you would normally perform with [Repository-aware assistance][REPO_AGENT] or a [Constrained local tool-using agent][LOCAL_AGENTS], deliberately perform an equivalent piece of work using [No Gen-AI Usage][NOGENAI]. Trace the relevant code yourself, identify the tests, form a hypothesis, make the change and evaluate the result. The aim is not to prove that manual work is superior, but to keep the skills needed to assess whether an AI-assisted version of the same process is sound.
+For a task you would normally perform with [Repository-aware assistance][REPO_AGENT] or a [Constrained local tool-using agent][LOCAL_AGENTS], deliberately perform an equivalent piece of work using [No Gen-AI Usage][NOGENAI]. This can be writing the code yourself, manually orchestrating agents and so on. Trace the relevant code yourself, identify the tests, form a hypothesis, make the change and evaluate the result. The aim is enhance the skills needed to assess whether an AI-assisted version of the same process is sound.
 
 As tasks become larger, evaluation also needs to evolve. Reading every generated line is practical for a small artefact, but it doesn't scale to repository-wide or agentic work. At higher intensities, evaluation relies more on independently derived tests, invariants, reproducible checks, targeted review and even adversarial agents that look for weaknesses in another agent's implementation or evaluation. Those techniques reduce some of the review burden, but they still depend on people having enough expertise to design the checks and recognise weak evidence.
 
