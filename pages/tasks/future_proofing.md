@@ -31,7 +31,6 @@ The goal is not perfection from day one, but a baseline level of reproducibility
 ### Solutions
 
 - **Capture your software environment explicitly.** Use a dependency file (`requirements.txt`, `environment.yml`, `pyproject.toml`, `renv.lock`) so that others can recreate the environment you used. See the [Reproducible software environments](/reproducible_software_environments) page for guidance on containers and environment managers.
-- **Version and archive your software alongside your data.** Assign a version number to each release you use in a publication, and archive both the software and data together using a persistent identifier such as a Zenodo DOI. See the [Releasing software](/releasing_software) page for guidance.
 
 
 ## Further Reading
