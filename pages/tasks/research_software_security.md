@@ -113,6 +113,8 @@ jobs:
 
 - **Document your security expectations.**
   Add a `SECURITY.md` file explaining how people should report vulnerabilities, which versions are supported, and what information is useful in a report.
+  Back this up with a private reporting channel so that a finder is not left choosing between a public issue and saying nothing: on GitHub, enable private vulnerability reporting so anyone can submit a report from your repository's Security tab, and you can triage and patch it privately before disclosure.
+  GitLab has no direct equivalent, so name a security contact in your `SECURITY.md` or ask reporters to open a confidential issue, which only project members can see.
   If your software handles sensitive data, clinical data, personal data, credentials, or externally exposed services, involve institutional security, data governance, or information governance colleagues early.
   Make security decisions visible in your documentation so that contributors understand what is expected and users understand the level of care applied.
 
@@ -122,11 +124,17 @@ jobs:
 
 ## Further Reading
 
+- **[OWASP Top 10:2025](https://owasp.org/Top10/2025/)** — This is the current edition of OWASP's consensus list of the most critical risks in web applications, drawn from contributed vulnerability data and a practitioner survey.
+It gives you a shared vocabulary for talking about risk with collaborators and reviewers, and it is especially relevant to research software because supply chain failures now appear as a top-three category in their own right.
+
 - **[OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)** — This is an actively maintained collection of concise, practical articles on specific application security topics, written and curated by the OWASP community.
 It is useful when you want concrete, task-focused guidance on areas such as input validation, authentication, authorisation, cryptographic storage, and secrets management, with each cheat sheet giving actionable recommendations you can apply directly.
 
 - **[OWASP Developer Guide](https://devguide.owasp.org/)** — This guide introduces software security concepts for developers and points to deeper OWASP resources.
 It is a good starting point when you need an accessible map of application security principles, secure development practices, verification, operations, and security culture.
+
+- **[OWASP API Security Top 10](https://owasp.org/API-Security/editions/2023/en/0x11-t10/)** — This is OWASP's companion list for APIs, covering risks such as object-level authorisation failures, unrestricted resource consumption, and unsafe consumption of third-party APIs.
+It is worth reading if your software exposes a web API, a service endpoint, or a data submission interface, because these risks are largely distinct from those in the general Top 10; the 2023 edition is the most recent at the time of writing.
 
 - **[NIST Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf)** — The SSDF provides a structured set of secure software development practices for reducing vulnerabilities and improving communication about secure development.
 It is most useful when you need a framework for planning, assessing, or explaining security practices across a project or organisation.
@@ -141,4 +149,5 @@ It is especially relevant if you want research-software-specific evidence for wh
 ## AI Disclosure
 
 This work was produced with the assistance of M365 Copilot based on GPT-5 reasoning model, Claude Opus 4.8 was subsequently used to check and modify the output.
+Claude Opus 5 was later used to verify sources and extend the page.
 Strict editorial control and factual verification was performed by the human author.
