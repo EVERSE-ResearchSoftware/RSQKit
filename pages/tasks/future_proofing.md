@@ -3,7 +3,10 @@ title: Future-proofing your research software
 description: How to design and build research software so that it remains usable and reproducible years after the initial project ends
 contributors: ["Giacomo Peru"]
 page_id: future_proofing
-related_pages: [using_version_control, reproducible_software_environments, licensing_software, releasing_software]
+related_pages:
+  tasks: [using_version_control, reproducible_software_environments, licensing_software, releasing_software]
+quality_indicators: []
+keywords: []
 ---
 
 ## How do you design research software for long-term reproducibility?
