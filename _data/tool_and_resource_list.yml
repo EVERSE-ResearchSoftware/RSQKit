@@ -1245,14 +1245,6 @@
     and other editors via the Language Server Protocol.
   url: 'https://github.com/microsoft/pyright'
   catalog: RSQKit
-- id: lintr
-  name: lintr
-  description: >-
-    lintr is a static code analysis tool for R that checks for style,
-    syntax errors, and possible semantic issues, and integrates with
-    common R development environments.
-  url: 'https://lintr.r-lib.org/'
-  catalog: RSQKit
 - id: clang-tidy
   name: clang-tidy
   description: >-
@@ -1337,7 +1329,8 @@
   description: >-
     lintr is a static analysis tool for R code that checks for style errors,
     syntax errors, and possible semantic issues, helping to enforce consistent
-    coding standards across R projects.
+    coding standards across R projects and it integrates with common R
+    development environments.
   url: 'https://lintr.r-lib.org/'
   catalog: RSQKit
 - id: covr
