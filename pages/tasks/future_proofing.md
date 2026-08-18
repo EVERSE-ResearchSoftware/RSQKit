@@ -30,7 +30,12 @@ The goal is not perfection from day one, but a baseline level of reproducibility
 
 ### Solutions
 
+- **Prefer open, documented file formats.** Store data and results in formats that do not require proprietary software to read (e.g. CSV, JSON, HDF5, NetCDF, plain text) rather than formats tied to a specific tool or vendor.
+- **Use version control throughout.** Version control is the foundation of reproducibility: it gives you an auditable record of what changed and when. See the [Using version control](/using_version_control) page.
+- **Version and archive your software alongside your data.** Assign a version number to each release you use in a publication, and archive both the software and data together using a persistent identifier such as a Zenodo DOI. See the [Releasing software](/releasing_software) page for guidance.
+- **Choose dependencies carefully.** Prefer well-maintained, widely-used libraries with a track record of stability over niche or single-author packages. Pin versions in your dependency file, and document *why* you depend on a given library so that future maintainers can evaluate alternatives if needed.
 - **Capture your software environment explicitly.** Use a dependency file (`requirements.txt`, `environment.yml`, `pyproject.toml`, `renv.lock`) so that others can recreate the environment you used. See the [Reproducible software environments](/reproducible_software_environments) page for guidance on containers and environment managers.
+- **[Use containers](/using_containers) for stronger environment guarantees.** A container image (Docker, Singularity/Apptainer) captures the full runtime environment and can be archived and re-executed years later.
 
 
 ## Further Reading
