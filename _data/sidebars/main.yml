@@ -147,6 +147,8 @@ subitems:
         url: /using_containers
       - title: "Static Analysis"
         url: /static_analysis
+      - title: "Future proofing"
+        url: /future_proofing
   - title: All indicators
     url: /all_indicators
     description: Browse quality indicators and their connections to tasks
