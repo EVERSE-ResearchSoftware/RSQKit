@@ -1320,3 +1320,11 @@
     profiles.
   url: 'https://apicuron.org/'
   catalog: RSQKit
+- id: contributor-covenant
+  name: Contributor Covenant
+  description: >-
+    Contributor Covenant is a widely adopted code of conduct template for
+    open source and other collaborative communities, with an interactive
+    builder for customizing the reporting and enforcement sections.
+  url: 'https://www.contributor-covenant.org/'
+  catalog: RSQKit
