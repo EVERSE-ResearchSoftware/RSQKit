@@ -145,6 +145,8 @@ subitems:
         url: /fair_rs
       - title: "Using containers"
         url: /using_containers
+      - title: "Future proofing"
+        url: /future_proofing
   - title: All indicators
     url: /all_indicators
     description: Browse quality indicators and their connections to tasks
