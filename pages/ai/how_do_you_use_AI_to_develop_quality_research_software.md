@@ -6,145 +6,103 @@ page_id: how_do_you_use_AI_to_develop_quality_research_software
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1
 ---
-
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-000.png)
 
 ## Description
 
-AI may democratise code-based innovation in ways not seen since the creation of the modern spreadsheet.
-Research software is part of this shift.
+AI may democratise code-based innovation in ways not seen since the modern spreadsheet. Research software is part of this shift.
 
-Tools that broaden automation beyond specialist programmers are evolving quickly.
-Sensible ways to use them are still emerging.
+Tools that extend automation beyond specialist programmers are evolving quickly. Sensible ways to use them are still emerging. This matters for researchers who code and RSEs who support them.
 
-This matters for researchers who code.
-It also matters for RSEs who support them.
+AI tools can help with requirements analysis, testing, documentation, review, refactoring and maintenance. They can also produce plausible code, explanations and project activity that still need careful review.
 
-AI tools can help with requirements analysis, testing, documentation, review, refactoring and maintenance.
-They can also produce code, explanations and project activity that look plausible, but still need careful review.
+The question is therefore not simply "should I use AI?". Better questions are:
 
-The question is therefore not simply "should I use AI?"
-
-A better question is:
-
-* What kind of AI assistance is appropriate for this task?
-* What can the tool see?
-* What can the tool change?
+* What AI assistance is appropriate for this task?
+* What can the tool see and change?
 * How will the result be checked?
 * Who is responsible for accepting the work?
 * What happens if the tool is wrong?
 
-This page presents a spectrum of AI assistance based on "intensity of usage".
-This roughly means the degree of context, automation, authority and autonomy involved: from no GenAI use, through conversational use, to agentic development.
+This page presents a spectrum of AI assistance based on "intensity of usage". This roughly means the autonomy, automation, authority and context involved, from no GenAI use through conversational use to agentic development.
+Higher intensity does not mean better quality, greater developer maturity, higher skill or better practice.
 
-Higher intensity does not mean better quality.
-It does not imply greater developer maturity, skill level, or better practice.
+As these tools spread, keeping research software verifiable and correct becomes more important, not less. Software must also remain reviewable: understandable, maintainable and reproducible.
 
-Given the nature of the tooling, keeping research software verifiable and correct becomes more important, not less.
-The software also needs to remain reviewable: understandable, maintainable and reproducible.
-
-For each practice on the spectrum, this page asks:
+For each practice, this page asks:
 
 * What is it?
 * How might you start?
-* What are appropriate tasks?
-* What are the concerns and risks?
+* What tasks suit it?
+* What are the risks?
 * What quality practices help?
-* When might lower or higher intensity AI practices be appropriate?
+* When is lower or higher intensity appropriate?
 
-Environmental sustainability matters here too.
-It is as important to ask when lower-intensity AI use is enough as it is to ask when more automation is useful.
+Environmental sustainability matters too. It is as important to ask when lower-intensity AI is enough as when more automation helps.
 
-GenAI encourages faster code creation.
-There is an old adage: if you want to go fast, go alone; if you want to go far, go together.
+GenAI encourages faster code creation. There is an old adage: if you want to go fast, go alone; if you want to go far, go together. A GenAI tool may create code quickly, but the researcher must still understand, verify and validate it.
 
-That balance is sharper here.
-A GenAI tool may create code quickly, but the researcher still needs to understand, verify and validate the result.
+The goal is informed choice, not adoption of any particular practice. Even if you use no GenAI yourself, understanding AI-generated systems and contributions from others remains useful.
 
-The goal of this page is to support informed choice. It is not to promote adoption of any particular practice.
-
-Even if you choose no GenAI use in your own tooling, understanding the implications of AI-generated systems and contributions from others is still useful.
-
-This page gives an overview. It cannot be extensive on every practice.
-
+This page gives an overview, not an exhaustive treatment of every practice.
 
 ## Considerations
 
-The key considerations here are:
+The key questions are:
 
 * What is the intensity of AI use?
 * Does the result **look** correct, or is it correct?
 * Are you mistaking ownership familiarity for understanding?
-* What are the hazards, and what mitigations are needed?
+* What hazards exist, and what mitigations are needed?
 
-These questions matter whether the detailed spectrum is used directly,
-or whether the reader is only choosing between a few common AI practices.
-
+These matter whether you use the full spectrum or choose between a few common practices.
 
 ### Intensity of AI Usage
 
-This page uses "intensity of AI usage" to describe how much context, authority,
-automation and autonomy a tool has.
+"Intensity of AI usage" primarily describes how much autonomy a tool has, not necessarily compute level. ie how much work can be done without your intervention.
 
-This is not a maturity scale.
+It is not a maturity scale. Higher intensity does not mean better practice, higher skill or better quality.
 
-Higher intensity does not mean better practice.
-It does not mean higher skill.
-It does not mean better quality.
+The term "intensity" is chosen because correlates with:
 
-The phrase is deliberate because intensity correlates with other things:
-
-* Amount of AI use in the workflow
+* Amount of AI use
 * Risk of introduced errors
-* Complexity of the AI setup
+* Setup complexity
 * Cost
 * Environmental impact
-* Severity of consequences of failure
-* Level of autonomy
-* Volume of output
-* Difficulty of review
+* Consequences of failure
+* Autonomy
+* Output volume
+* Review difficulty
 * Complexity and novelty of output
-* Risk of burnout for the person driving the system
+* Burnout risk for the person driving the system
 
-This is different from many software engineering tools. "More version control" is rarely a bad thing. "More static analysis" rarely increases project risk.
+Also, this differs from many software engineering tools. More version control is rarely bad. More static analysis rarely raises project risk.
 
-More AI can increase risk:
+More AI can:
 
-* More context means more exposure.
-* More automation means more to review.
-* More authority means larger blast radius.
-* More output means more opportunity for plausible mistakes to hide.
+* expose more context
+* create more material to review
+* increase the blast radius
+* give plausible mistakes more places to hide
 
-As a result, moving along the spectrum is not levelling up.
-A lower-intensity practice may be the better engineering choice.
-
+Moving along the spectrum is therefore not levelling up. Lower-intensity practice may be the better engineering choice.
 
 ### Apparent Correctness vs Correctness
 
-Many LLMs produce language that signals intellect and understanding.
+Many LLMs produce language that signals intellect and understanding. That matters because style affects trust. Formal, fluent, high-reading-age prose can make weak reasoning seem stronger.
 
-This matters because style affects trust.
-Formal, fluent, high-reading-age prose can make weak reasoning look stronger than it is.
+There is a saying: "to eat your cake and have it". Many people remember the weaker version: "to have your cake and eat it". Stated plainly, the error is visible.
 
-There is a saying: "to eat your cake and have it".
-Many people remember the weaker version: "to have your cake and eat it".
-Stated plainly, the error is visible.
-
-Now consider this version:
+Now consider:
 
 > It would, I think, be entirely proper to indicate that, where consumption of
 > the cake has been established in advance, the matter may proceed indecisively
 > towards possession without any necessary procedural contradiction.
 
-That sounds more sophisticated. It is not more correct.
+It sounds more sophisticated. It is not more correct. LLM output can have the same problem. Fluent prose may sound authoritative while being wrong. The same applies to code. It may look idiomatic and still fail.
 
-LLM output can have this problem.
-The prose may be fluent.
-The answer may sound authoritative.
-
-The same can and does occur with code. The code may look idiomatic. The result may still be wrong.
-
-For example, this code has a serious operational bug, but would likely pass simple functionality tests:
+For example:
 
 ```python
 class Handler(BaseHTTPRequestHandler):
@@ -154,93 +112,59 @@ class Handler(BaseHTTPRequestHandler):
         result = future.result()
 ```
 
-Presented alone, many people will say "of course that is wrong".
-In a larger patch - 5 lines in 300 or more - it is much easier to miss.
+This has a serious operational bug but may pass simple functionality tests. Shown alone, many people will spot it. Buried as five lines in a 300-line patch, it is easier to miss. (This specific threadpool example may disappear from generated results. The general problem remains)
 
-The problem is not syntax or that, when pointed out, the code obviously fails.
-The problem is that it may pass tests while failing under real use.
-
-That makes it an operational error. This also makes it harder to catch if you are not the one writing the code.
-
-This specific threadpool example may disappear from generated results over time.
-The general problem will remain.
+The problem is not syntax. It is that the code may pass tests yet fail under real use. That makes it harder to catch when you did not write it.
 
 **The appearance of correctness while being incorrect is an ongoing risk.**
 
-Research software is especially exposed to this.
-A change can look tidy, pass basic tests, and still alter assumptions about units,
-missing data, tolerances, ordering, thresholds, sampling, model behaviour or
-data provenance.
+Research software is especially exposed. A tidy change may pass basic tests while altering assumptions about units, missing data, tolerances, ordering, thresholds, sampling, model behaviour or data provenance.
 
 ### Mistaking Ownership Familiarity for Understanding
 
-When reviewing work from colleagues, people build familiarity.
+When reviewing colleagues' work, people build familiarity.
 
-You may start to think:
+You may think:
 
 * this person is usually right
 * this person is improving
 * this person often makes API mistakes
 * this person writes code I can learn from
 
-That familiarity is not perfect - people still make mistakes.
+That familiarity is imperfect. People still make mistakes. Teams may argue over small pull requests from new contributors, then waive through large ones from "known good" people.
 
-People sometimes argue over small pull requests from new contributors, then waive through large pull requests from "known good" people.
+With people, shared context can partly mitigate this. A person can learn the codebase, explain intent, answer questions and improve through review.  LLMs do not improve in the same way. Without a model or tool change, the system is not learning your project judgement as a person does.
 
-With people, this can be partly mitigated because shared context grows.
-A person can learn the codebase.
-They can answer questions.
-They can explain intent.
-They can improve through review.
+AI-generated work can also create false familiarity. You caused the code to exist. You may recognise it and have discussed it with the tool. That does not mean you understand it.
 
-With LLMs, that pattern does not work in the same way.
+This matters later - six months or two years on, someone may need to know:
 
-Without a model or tool change, the system is not learning your project judgement
-in the way a person does.
-
-AI-generated work can create false familiarity.
-You caused the code to exist.
-You may recognise it.
-You may have discussed it with the tool.
-That does not mean you understand it.
-
-This matters when the work is reviewed later.
-
-Six months later, or two years later, someone may need to know:
-
-* why this change was made
-* what requirement it satisfied
-* what assumptions it relied on
-* what tests were meaningful
+* why a change was made
+* what requirement it met
+* what assumptions it used
+* which tests mattered
 * what was not checked
 
-If AI-generated work enters the project without a clear rationale, the project inherits code without memory.
-
-That is potentially dangerous in research software.
-
-Research code often encodes scientific assumptions that are not obvious from the code alone.
+If AI-generated work enters a project without clear rationale, the project inherits code without memory. That can be dangerous in research software, where scientific assumptions may not be obvious from code alone.
 
 **Ownership of generated code is not the same as understanding generated code.**
 
 ### Risk Analysis
 
-Risk increases as context, authority and autonomy increase.
+Risk rises as autonomy, authority and context increase. Asking a chat tool to explain an error has one kind of risk. Letting it edit a repository, run shell commands, open pull requests or interact with external systems has another.
 
-Asking a chat tool to explain an error message has one kind of risk.
-Allowing a tool to edit a repository, run shell commands, open pull requests, or interact with external systems has another.
-
-The core questions are:
+Ask:
 
 * What can the tool see?
-* What can the tool change?
+* What can it change?
 * What happens if it is wrong?
-* What prevents harm before a person notices?
+* What prevents harm before someone notices?
 * **How large is the blast radius?**
 
-More generated code, commits, comments or pull requests do not necessarily mean better research software.
+More generated code, commits, comments or pull requests do not necessarily improve research software.
+There are many valid reasons not to use AI, including:
 
-There can be good reasons not to use AI, including:
-
+* Skill development / craft honing
 * learning
 * reviewer capacity
 * confidentiality
@@ -251,25 +175,23 @@ There can be good reasons not to use AI, including:
 * ethical concerns
 * lack of project agreement
 
-When considering and mitigating risk, there are a number of specific considerations:
+Specific risk considerations include:
+
+* This is a probabilistic tool, not a person. Treating it as a person capable of understanding, memory and deterministic action will trip you up. (Asking the talkie toaster to be an expert does not make it one)
 
 * Correctness often matters more than apparent correctness.
 
-* Scientific assumptions embedded in code may not be obvious from the code.
-  They may depend on domain knowledge, data provenance, experimental context, or research claims.
+* Scientific assumptions may depend on domain knowledge, data provenance, experimental context or research claims that code alone does not reveal.
 
-* Consequences scale with code maturity and use. The more mature or used a tool is the greater the risks. A quick visualisation script has different quality requirements from software used in clinical, safety-critical or high-consequence contexts.
+* Consequences scale with software maturity and use. A quick visualisation script has different requirements from clinical, safety-critical or other high-consequence software.
 
-* The same AI practice can be reasonable in one context and unacceptable in another.
+* The same AI practice may be reasonable in one context and unacceptable in another.
 
-* GenAI tools are best treated as powerful but fallible tool-using systems. They can be useful.
-  They can also damage any code, data, files or systems they can access.
-  This is simply a consequence of the probablistic nature of how these systems currently operate.
+* GenAI tools are powerful but fallible tool-using systems. They can be useful, but can also damage code, data, files or systems they can access. This follows from the probabilistic nature of current systems.
 
+* Natural language is not a control. Nor is asking a system to "check its own work". Such instructions may influence behaviour but cannot guarantee it. Where guarantees matter, secondary controls are needed. Their importance rises with AI intensity.
 
-* Natural language is not a strong control. Nor is asking the system to "check its own work". At best such controls suggest specific control flows which may be followed, but without guarantee. Where guaranteed controls are needed, secondary measures and systems will be necessary. These become more important as the level of AI intensity usage increases.
-
-* Where the consequence matters, use structural controls:
+* Where consequences matter, use structural controls:
   - least privilege
   - read-only access
   - isolated checkouts
@@ -280,108 +202,69 @@ When considering and mitigating risk, there are a number of specific considerati
   - backups
   - limits on cost, time and tool access
 
-* Simple "approval before action" is not enough for sensitive data, credentials,
-  unpublished results, private repositories, controlled information or
-  high-consequence work.
+* Simple "approval before action" is insufficient for sensitive data, credentials, unpublished results, private repositories, controlled information or high-consequence work.
 
-* The aim of this page is therefore not only to describe AI practices.
-  It is to help identify the risks, choose a proportionate level of AI intensity,
-  and apply quality practices that keep research software reviewable, reproducible
-  and correct.
-
+The aim is not just to describe AI practices. It is to identify risks, choose proportionate intensity and keep research software reviewable, reproducible and correct.
 
 ## Solutions
 
-[Start from the work][ai_usecases_across_the_spectrum], not the tool or practice.
+[Start from the work][ai_usecases_across_the_spectrum], not the tool.
 
-First decide whether AI is useful at all.
-Then choose the practice that gives a clear benefit, preferably [at the lowest intensity that still fits the task][ai_intensity_considerations].
+First decide whether AI is useful. Then choose a practice with clear benefit, preferably [the lowest intensity that still fits the task][ai_intensity_considerations].
 
-For each AI practice you choose:
+For each practice:
 
-* Define the task
-* Consider if the intensity of AI usage is appropriate for that task
-* Decide what context the tool may access
-* Decide what systems the tool may control
-* Identify the quality checks and balances
-* Consider how you will review correctness.
-* Perform that review before the result becomes part of the research record or shared project.
+* Define the task.
+* Decide whether its AI intensity is appropriate.
+* Decide what context the tool may access.
+* Decide what systems it may control.
+* Identify quality checks and safeguards.
+* Decide how correctness will be reviewed.
+* Complete that review before the result enters the research record or shared project.
 
-The phrase "keep the human in the loop" hides an important problem.
+"Keep the human in the loop" hides an important problem. The loop exists because someone wants work done. If that person becomes only a reviewer of generated material, rather than a creator, designer or investigator, false familiarity can build quickly.
 
-The loop exists because a person wants the work done.
-If that person becomes only a reviewer of generated material, rather than a creator, designer or investigator, false familiarity can build quickly.
+Reviewing plausible output can feel like understanding. It is not the same.  Reviewer capacity and mental health matter too. Switching from creator to reviewer can itself have an impact. A workflow that turns a researcher or maintainer into a rubber stamp is not a quality workflow.
 
-Reviewing a stream of plausible output can feel like understanding.
-It is not the same thing.
+Beyond this:
 
-It also matters for reviewer capacity and mental health.
-There is also potentially a mental health impact of switching from creator to reviewer
-A workflow that turns a researcher or maintainer into a rubber stamp is not a quality workflow.
+* Pick the lowest-intensity tooling that meets the need. This limits generated work you must understand, evaluate and test.
 
-Beyond the above:
+* Do not allow access to production data, production systems or backups unless explicitly governed.
 
-* Pick the lowest intensity tooling that matches your need.
-  This limits the volume of generated work you need to understand, evaluate and test.
+* Treat AI output as candidate work. AI may prepare artefacts, branches, patches or pull requests. A responsible person accepts, commits, promotes, merges, publishes or deploys them.
 
-* Do not allow access to production data, production systems or backup systems
-  unless that access is explicitly governed.
+* Keep generated artefacts small enough to review. If you cannot understand the code, documentation or output, you cannot rely on it.
 
-* Treat AI output as candidate work.
-  The AI may prepare artefacts, branches, patches or pull requests.
-  A responsible person accepts, commits, promotes, merges, publishes or deploys them.
+* Give every important part of the system a named owner. This includes generated code, tests, documentation, prompts, configuration, workflows and acceptance criteria.
 
-* Keep generated artefacts small enough to review.
-  If you cannot understand the code, documentation or output, you cannot rely on it.
+* Use strong testing. Generated test-driven or behaviour-driven tests still need validation by the person responsible for the result. You might write high-level acceptance tests yourself and ask the system for supporting tests. Those remain your responsibility.
 
-* Every important part of the system needs a named owner.
-  This includes generated code, generated tests, documentation, prompts,
-  configuration, workflows and acceptance criteria.
+* For editor and repository-aware tools, use small branches or separate local checkouts. Ask for small changes. Avoid broad prompts such as "refactor this code" without explicit guidance. Require rationale. Run tests, but do not treat passing tests as proof of correctness.
 
-* Strong testing is necessary.
-  If you generate test-driven or behaviour-driven tests, those tests still need validation by the person responsible for the result.
-  You might write high-level acceptance tests yourself and ask the system to fill in supporting tests.
-  That supporting material is still your responsibility.
+* For agentic systems, give the tool its own local copy of what it needs. For example, use a separate checkout and remove or disable Git remotes where appropriate. You can then pull or copy candidate changes while preventing direct pushes, pull request creation, merges or deployment from that checkout. This is a guardrail, not a complete security control.
 
-* For editor and repository-aware tools, use small branches or separate local checkouts.
-  Ask for small changes.
-  Avoid broad prompts such as "refactor this code" without explicit guidance.
-  Require a clear rationale for changes.
-  Make sure tests are run, but do not treat passing tests as proof of correctness.
+* For open repositories, include an `AGENTS.md` or equivalent instruction file. Explain what is acceptable, what is not, and why. Such files guide behaviour but are not security controls.
 
-* For agentic systems, give the tool its own local copy of what it needs.
-  For example, use a separate checkout and remove or disable Git remotes where appropriate.
-  This lets you pull or copy candidate changes from the AI working copy, while preventing direct push, pull request creation, merge or deployment from that checkout.
-  This is a guardrail, not a complete security control.
-
-* For open repositories, include an `AGENTS.md` or equivalent instruction file.
-  Use it to guide tools and contributors on what is acceptable, what is not, and why.
-  These files guide behaviour; they are not security controls.
-
-* For open repositories, consider separating the repository used by people from the repository or staging area used by machines.
-  This gives issues, pull requests and discussions from people greater prominence.
-  It does not prevent GenAI-based contribution.
-  It provides a management funnel for dealing with machine-generated issues, suggestions and pull requests.
+* For open repositories, consider separating the repository used by people from the repository or staging area used by machines. This gives human issues, pull requests and discussions more prominence while retaining a management funnel for machine-generated contributions.
 
 Most importantly, keep asking:
 
 * Is this approach still right?
 * Is it maintainable?
 * Is the review burden acceptable?
-* Are the responsible people still making the important decisions?
+* Are responsible people still making important decisions?
 * Does the workflow improve the software, or only increase activity?
 
-Evaluate whether AI use improves the system as a whole:
-maintainability, review burden, reproducibility, security, researcher understanding,
-provenance and maintainer attention.
+Evaluate whether AI improves the system as a whole: maintainability, review burden, reproducibility, security, researcher understanding, provenance and maintainer attention.
 
 ## Other Key Parts of this Guidance
 
-* [Spectrum of Intensity of AI Usage][spectrum_of_intensity_of_ai_usage] exists to help make decisions around specific AI practices to use in developing research software quality - from No Gen AI through to swarms of autonomous agents.
+* [Spectrum of Intensity of AI Usage][spectrum_of_intensity_of_ai_usage] supports decisions about AI practices for developing quality research software, from No Gen AI to swarms of autonomous agents.
 
-* [Examples tools and mechanisms][example_tools_comparisons] brings together common current tools that can be useful when developing research software using AI. These are compared against each other and how they assist in different parts of the AI spectrum. Tools here are rapidly changing, so please do suggest new ones that are gaining traction.
+* [Examples tools and mechanisms][example_tools_comparisons] compares common current tools and how they support different parts of the spectrum. These tools change quickly, so new examples are welcome.
 
-* [Cross Cutting Practices][cross_cutting_practices] captures a number of quality practices that are worth consideration. These intend to illustrate and capture current best practices, rather than be exhaustive. Again, practice here is evolving.
+* [Cross Cutting Practices][cross_cutting_practices] captures quality practices worth considering. It reflects current best practice rather than attempting to be exhaustive.
 
 ## References and further reading
 
