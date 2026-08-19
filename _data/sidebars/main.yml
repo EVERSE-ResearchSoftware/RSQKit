@@ -126,6 +126,8 @@ subitems:
         url: /archiving_software
       - title: "Publishing software"
         url: /publishing_software
+      - title: "Improving research software security"
+        url: /research_software_security
       - title: "Computational workflows"
         url: /computational_workflows
       - title: CI/CD
@@ -145,6 +147,10 @@ subitems:
         url: /fair_rs
       - title: "Using containers"
         url: /using_containers
+      - title: "Static Analysis"
+        url: /static_analysis
+      - title: "Future proofing"
+        url: /future_proofing
   - title: Guidance for AI
     description: Guidance and practices using AI when creating quality research software
     url: /ai
