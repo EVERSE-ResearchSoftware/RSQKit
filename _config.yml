@@ -56,6 +56,13 @@ defaults:
       page_citation: true
   -
     scope:
+      path: "pages/ai/"
+    values:
+      type: tasks_ai
+      type_img: /assets/img/flaticon/search.png
+      page_citation: true
+  -
+    scope:
       path: "pages/research_clusters_or_infrastructures/"
     values:
       type: research_clusters_or_infrastructures

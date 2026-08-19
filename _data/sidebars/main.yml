@@ -151,6 +151,46 @@ subitems:
         url: /static_analysis
       - title: "Future proofing"
         url: /future_proofing
+  - title: Guidance for AI
+    description: Guidance and practices using AI when creating quality research software
+    url: /ai
+    image_url: /assets/img/flaticon/checklist.png
+    subitems:
+      - title: "Developing Research Software with AI"
+        url: /how_do_you_use_AI_to_develop_quality_research_software
+      - title: "Usecases across the spectrum"
+        url: /ai_usecases_across_the_spectrum
+      - title: "AI Intensity Considerations"
+        url: /ai_intensity_considerations
+      - title: "Cross Cutting Practices"
+        url: /cross_cutting_practices
+      - title: "Examples tools and mechanisms"
+        url: /example_tools_comparisons
+      - title: "Spectrum of Intensity of AI Usage"
+        url: /spectrum_of_intensity_of_ai_usage
+        subitems:
+          - title: "No Gen-AI Usage (intensity 0)"
+            url: /no_genai_usage
+          - title: "Conversational Interaction (intensity 1)"
+            url: /conversational_interaction
+          - title: "Conversational artefact creation (intensity 2)"
+            url: /conversational_artefact_creation
+          - title: "Conversational Creation with Zip Files (intensity 3)"
+            url: /conversational_creation_with_zip_files_etc
+          - title: "IDE autocomplete and inline suggestions (intensity 4)"
+            url: /ide_autocomplete_and_inline_suggestions
+          - title: "Editor-integrated local assistant (intensity 5)"
+            url: /editor_integrated_local_assistant
+          - title: "Repository-aware assistance (intensity 6)"
+            url: /repository_aware_assistance
+          - title: "Constrained local tool-using agents (intensity 7)"
+            url: /constrained_local_tool_using_agents
+          - title: "Managed or cloud coding agents (intensity 8)"
+            url: /managed_or_cloud_coding_agents
+          - title: "CI/PR/repository agents (intensity 9)"
+            url: /ci_pr_repository_agents
+          - title: "Open-ended autonomous agents (intensity 10)"
+            url: /open_ended_autonomous_agents
   - title: All indicators
     url: /all_indicators
     description: Browse quality indicators and their connections to tasks

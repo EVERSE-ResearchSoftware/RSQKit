@@ -144,6 +144,7 @@ Elena Breitmoser:
 Michael Sparks:
     git: sparkslabs
     email: sparks.m@gmail.com
+    orcid: 0009-0001-3059-0000
     affiliation: The University of Manchester / Software Sustainability Institute
     role: editor
 Robert Speck:
@@ -277,3 +278,13 @@ Gavin Pringle:
     role: contributor
     email: g.pringle@epcc.ed.ac.uk
     git: gavinpringle
+Ahmad Alam:
+    git: ahmadalam
+    orcid: 0000-0002-8364-0809
+    affiliation: The University of Manchester
+    role: contributor
+Hugo Bacard:
+    git: hbacard
+    orcid: 0000-0001-9216-494X
+    affiliation: CNRS
+    role: contributor
