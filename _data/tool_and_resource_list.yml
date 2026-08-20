@@ -1349,7 +1349,7 @@
 - id: cffconvert
   name: cffconvert
   description: Command line program to validate and convert CITATION.cff files.
-  url: https://github.com/citation-file-format/cffconvert
+  url: 'https://github.com/citation-file-format/cffconvert'
   catalog: RSQKit
 - id: apicuron
   name: APICURON
@@ -1361,6 +1361,13 @@
     profiles.
   url: 'https://apicuron.org/'
   catalog: RSQKit
+- id: github-packages
+  name: GitHub Packages
+  description: >- 
+    GitHub Packages is GitHub's service to publish and consume packages, store your packages alongside your code, and share your packages privately with your team or publicly with the open source community. 
+    It also allows automation of package building with GitHub Actions.
+  url: 'https://docs.github.com/en/packages'
+  catalog: RSQKit
 - id: openssf-scorecard
   name: OpenSSF Scorecard
   description: >-
@@ -1371,7 +1378,6 @@
     policy presence.
   url: 'https://openssf.org/projects/scorecard/'
   catalog: RSQKit
-
 - id: owasp-dependency-check
   name: OWASP Dependency-Check
   description: >-
@@ -1380,7 +1386,6 @@
     vulnerabilities, with command line, build tool, and CI/CD integrations.
   url: 'https://owasp.org/www-project-dependency-check/'
   catalog: RSQKit
-
 - id: github-secret-scanning
   name: GitHub secret scanning
   description: >-
@@ -1398,7 +1403,6 @@
     cryptographic signing practical without managing long-lived keys.
   url: 'https://www.sigstore.dev/'
   catalog: RSQKit
-
 - id: cosign
   name: Cosign
   description: >-
