@@ -1,7 +1,7 @@
 ---
 title: Using version control
 description: How do you choose and implement version control for your research software?
-contributors: ["Giacomo Peru"]
+contributors: ["Giacomo Peru", "Aida Jafarbigloo"]
 page_id: using_version_control
 related_pages:
   tasks: []
