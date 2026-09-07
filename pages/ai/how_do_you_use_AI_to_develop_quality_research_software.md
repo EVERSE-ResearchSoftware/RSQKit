@@ -93,7 +93,7 @@ Moving along the spectrum is therefore not levelling up. Lower-intensity practic
 
 Many LLMs produce language that signals intellect and understanding. That matters because style affects trust. Formal, fluent, high-reading-age prose can make weak reasoning seem stronger.
 
-There is a saying: "to eat your cake and have it". Many people remember the weaker version: "to have your cake and eat it". Stated plainly, the error is visible.
+There is a saying: "to eat your cake and have it". Many people remember the weaker version: "to have your cake and eat it".  The problem with the latter may be less obvious: how can you still have something after you have eaten it?
 
 Now consider:
 
