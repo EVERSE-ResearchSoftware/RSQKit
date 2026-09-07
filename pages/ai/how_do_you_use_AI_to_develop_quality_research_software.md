@@ -196,7 +196,7 @@ There are many valid reasons not to use AI, including:
 
 Specific risk considerations include:
 
-* This is a probabilistic tool, not a person. Treating it as a person capable of understanding, memory and deterministic action will trip you up. (Asking the talkie toaster to be an expert does not make it one)
+* This is a probabilistic tool, not a person. Treating it as a person capable of understanding, memory and deterministic action will trip you up. (Asking an LLM to be an expert does not make it one)
 
 * Correctness often matters more than apparent correctness.
 
