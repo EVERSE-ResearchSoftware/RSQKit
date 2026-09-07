@@ -227,9 +227,9 @@ The aim is not just to describe AI practices. It is to identify risks, choose pr
 
 ## Solutions
 
-[Start from the work][ai_usecases_across_the_spectrum], not the tool.
+[Start from the work](ai_usecases_across_the_spectrum), not the tool.
 
-First decide whether AI is useful. Then choose a practice with clear benefit, preferably [the lowest intensity that still fits the task][ai_intensity_considerations].
+First decide whether AI is useful. Then choose a practice with clear benefit, preferably [the lowest intensity that still fits the task](ai_intensity_considerations).
 
 For each practice:
 
@@ -279,11 +279,11 @@ Evaluate whether AI improves the system as a whole: maintainability, review burd
 
 ## Other Key Parts of this Guidance
 
-* [Spectrum of Intensity of AI Usage][spectrum_of_intensity_of_ai_usage] supports decisions about AI practices for developing quality research software, from No Gen AI to swarms of autonomous agents.
+* [Spectrum of Intensity of AI Usage](spectrum_of_intensity_of_ai_usage) supports decisions about AI practices for developing quality research software, from No Gen AI to swarms of autonomous agents.
 
-* [Examples tools and mechanisms][example_tools_comparisons] compares common current tools and how they support different parts of the spectrum. These tools change quickly, so new examples are welcome.
+* [Examples tools and mechanisms](example_tools_comparisons) compares common current tools and how they support different parts of the spectrum. These tools change quickly, so new examples are welcome.
 
-* [Cross Cutting Practices][cross_cutting_practices] captures quality practices worth considering. It reflects current best practice rather than attempting to be exhaustive.
+* [Cross Cutting Practices](cross_cutting_practices) captures quality practices worth considering. It reflects current best practice rather than attempting to be exhaustive.
 
 ## References and further reading
 
