@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks", "Hugo Bacard" ]
 page_id: ai_usecases_across_the_spectrum
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 15
+inbeta: true
 ---
 
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-000.png)

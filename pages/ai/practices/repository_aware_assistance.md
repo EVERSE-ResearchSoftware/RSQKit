@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks" ]
 page_id: repository_aware_assistance
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1006
+inbeta: true
 ---
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-007.png)
 <p style='text-align: right;'>

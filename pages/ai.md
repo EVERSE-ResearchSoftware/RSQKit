@@ -3,6 +3,7 @@ title: AI Guidance and Practice
 description: Tasks and practices using AI to improve the quality of research software
 contributors: [ "Michael Sparks", "Ahmad Alam", "Shoaib Sufi", "Aleksandra Nenadic" ]
 keywords: [ "ai" ]
+inbeta: true
 ---
 
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-000.png)

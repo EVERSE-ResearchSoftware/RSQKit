@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks" ]
 page_id: conversational_artefact_creation
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1002
+inbeta: true
 ---
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-003.png)
 <p style='text-align: right;'>

@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks" ]
 page_id: example_tools_comparisons
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 30
+inbeta: true
 ---
 
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-000.png)

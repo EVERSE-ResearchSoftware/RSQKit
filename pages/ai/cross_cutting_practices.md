@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks", "Caterina Doglioni", "Shoaib Sufi", "Ahmad Ala
 page_id: cross_cutting_practices
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 20
+inbeta: true
 ---
 
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-000.png)

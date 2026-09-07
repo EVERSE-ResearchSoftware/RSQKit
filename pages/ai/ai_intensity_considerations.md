@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks", "Caterina Doglioni" ]
 page_id: ai_intensity_considerations
 keywords: ["AI", "sustainability" ]
 order: 40
+inbeta: true
 ---
 
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-000.png)

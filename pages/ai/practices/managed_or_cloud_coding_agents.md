@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks" ]
 page_id: managed_or_cloud_coding_agents
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1008
+inbeta: true
 ---
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-009.png)
 <p style='text-align: right;'>

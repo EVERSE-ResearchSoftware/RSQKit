@@ -1,3 +1,9 @@
+{%- if page.inbeta %}
+<p style="text-align:right">
+    <b><a href="https://github.com/EVERSE-ResearchSoftware/RSQKit/discussions/717">Beta Guidance</a></b>
+</p>
+{%- endif %}
+
 {%- assign last_update = site.data.last_updates[page.path] -%}
 {%- if last_update %}
 <p class="text-muted" style="text-align:right">

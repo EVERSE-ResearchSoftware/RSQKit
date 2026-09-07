@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks" ]
 page_id: editor_integrated_local_assistant
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1005
+inbeta: true
 ---
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-006.png)
 <p style='text-align: right;'>

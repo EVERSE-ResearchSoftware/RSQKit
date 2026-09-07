@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks" ]
 page_id: ide_autocomplete_and_inline_suggestions
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1004
+inbeta: true
 ---
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-005.png)
 <p style='text-align: right;'>

@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks" ]
 page_id: no_genai_usage
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1000
+inbeta: true
 ---
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-001.png)
 <p style='text-align: right;'>

@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks" ]
 page_id: open_ended_autonomous_agents
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1010
+inbeta: true
 ---
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-011.png)
 <p style='text-align: right;'>

@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks" ]
 page_id: constrained_local_tool_using_agents
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1007
+inbeta: true
 ---
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-008.png)
 <p style='text-align: right;'>

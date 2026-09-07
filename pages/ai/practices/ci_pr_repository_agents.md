@@ -5,6 +5,7 @@ contributors: [ "Michael Sparks" ]
 page_id: ci_pr_repository_agents
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1009
+inbeta: true
 ---
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-010.png)
 <p style='text-align: right;'>
