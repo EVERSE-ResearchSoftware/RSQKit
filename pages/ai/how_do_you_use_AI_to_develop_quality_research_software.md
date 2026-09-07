@@ -5,7 +5,7 @@ contributors: [ "Michael Sparks", "Shoaib Sufi", "Aleksandra Nenadic" ]
 page_id: how_do_you_use_AI_to_develop_quality_research_software
 keywords: ["ai", "software development", "task automation", "github actions" ]
 order: 1
-inbeta: true
+-inbeta: true
 ---
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-000.png)
 
@@ -113,7 +113,25 @@ class Handler(BaseHTTPRequestHandler):
         result = future.result()
 ```
 
-This has a serious operational bug but may pass simple functionality tests. Shown alone, many people will spot it. Buried as five lines in a 300-line patch, it is easier to miss. (This specific threadpool example may disappear from generated results. The general problem remains)
+This example has a serious operational bug but may pass simple functionality tests. (based on a real example)
+
+The fix is to move the line labelled "latent bug" as follows:
+
+```python
+class Handler(BaseHTTPRequestHandler):
+    pool = ThreadPoolExecutor(max_workers=4) # Move outside do_GET request
+    def do_GET(self):
+        future = self.pool.submit(work, 12)
+        result = future.result()
+```
+
+Why? Simple tests checking "did the request happen" and "was a threadpool used" will pass. However, each request creates its own ThreadPoolExecutor, so `max_workers=4` only limits *that request's* pool. It does not limit concurrency across the server. The intended limit on the shared resource is lost.
+
+Under light testing this will work. Under production load, many requests will create many pools and threads, possibly overwhelming the server and making the failure very difficult to diagnose.
+
+That would still pass the same checks, "did the request happen" and "was a threadpool used", but also enforce the intended limit under load.
+
+Shown alone, many experienced developers will spot the problem. Buried as five lines in a 300-line patch, it is easier to miss. (This specific threadpool example may disappear from generated results. The general problem remains)
 
 The problem is not syntax. It is that the code may pass tests yet fail under real use. That makes it harder to catch when you did not write it.
 
