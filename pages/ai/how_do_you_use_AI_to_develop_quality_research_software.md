@@ -198,7 +198,7 @@ Specific risk considerations include:
 
 * This is a probabilistic tool, not a person. Treating it as a person capable of understanding, memory and deterministic action will trip you up. (Asking an LLM to be an expert does not make it one)
 
-* Correctness often matters more than apparent correctness.
+* Correctness often matters more than apparent correctness. (when brainstorming this might not be true)
 
 * Scientific assumptions may depend on domain knowledge, data provenance, experimental context or research claims that code alone does not reveal.
 
