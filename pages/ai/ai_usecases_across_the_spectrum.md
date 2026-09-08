@@ -14,7 +14,9 @@ inbeta: true
 
 ## Introduction
 
-Start with what you are trying to achieve. Then choose the least intensive AI practice that helps. Preserve research correctness, guardrails, rollback and reproducibility.
+These usecases cover a wide range of examples, and aim to illustrate specific scenarios starting from different points in the spectrum. For example, "plan, specify and design" starts from the lower end of the spectrum, but similar work at higher ends would use greater levels of strong specification/testing - as per the [cross cutting practice](cross_cutting_practices)
+
+As usual, start with what you are trying to achieve. Then choose the least intensive AI practice that helps. Preserve research correctness, guardrails, rollback and reproducibility.
 
 The same task can take several forms. A [short conversation][CHAT] can clarify a problem. [Selected files][CHAT_ZIPS] add useful context. [Repository-aware assistance][REPO_AGENT] helps when work spans a project. An agent earns its place when [running tools and iterating][AUTO_AGENTS] actually saves effort.
 
