@@ -7,7 +7,7 @@ keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1008
 inbeta: true
 ---
-![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-009.png)
+![Spectrum of AI Intensity Usage](images/ai/AI_Spectrum-009.png)
 <p style='text-align: right;'>
 <a href="constrained_local_tool_using_agents">prev</a>
 <a href="spectrum_of_intensity_of_ai_usage">spectrum</a>

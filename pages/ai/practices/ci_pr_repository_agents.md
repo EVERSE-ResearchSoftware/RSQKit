@@ -7,7 +7,7 @@ keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1009
 inbeta: true
 ---
-![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-010.png)
+![Spectrum of AI Intensity Usage](images/ai/AI_Spectrum-010.png)
 <p style='text-align: right;'>
 <a href="managed_or_cloud_coding_agents">prev</a>
 <a href="spectrum_of_intensity_of_ai_usage">spectrum</a>
