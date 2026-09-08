@@ -223,5 +223,7 @@ subitems:
   - title: Site Statistics
     url: /site_statistics
     description: Browse site statistics
+    image_url: /assets/img/flaticon/analyze.png
+  
 #  - title: All training resources
 #    url: /all_training_resources
