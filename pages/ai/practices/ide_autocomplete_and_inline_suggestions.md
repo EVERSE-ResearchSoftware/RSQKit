@@ -3,7 +3,7 @@ title: "IDE autocomplete and inline suggestions (intensity 4)"
 description: Practice Overview for IDE autocomplete and inline suggestions
 contributors: [ "Michael Sparks" ]
 page_id: ide_autocomplete_and_inline_suggestions
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1004
 inbeta: true
 ---

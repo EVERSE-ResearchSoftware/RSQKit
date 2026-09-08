@@ -3,7 +3,7 @@ title: "AI Intensity Considerations"
 description: Making good choices on AI intensity decisions
 contributors: [ "Michael Sparks", "Caterina Doglioni" ]
 page_id: ai_intensity_considerations
-keywords: ["AI", "sustainability" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant", "sustainability" ]
 order: 40
 inbeta: true
 ---

@@ -3,7 +3,7 @@ title: "Editor-integrated local assistant (intensity 5)"
 description: Practice Overview for Editor-integrated local assistant
 contributors: [ "Michael Sparks" ]
 page_id: editor_integrated_local_assistant
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1005
 inbeta: true
 ---

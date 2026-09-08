@@ -3,7 +3,7 @@ title: "Open-ended autonomous agents (intensity 10)"
 description: Practice Overview for Open-ended autonomous agents
 contributors: [ "Michael Sparks" ]
 page_id: open_ended_autonomous_agents
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1010
 inbeta: true
 ---

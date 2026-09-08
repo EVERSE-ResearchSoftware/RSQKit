@@ -3,7 +3,7 @@ title: Examples tools and mechanisms
 description: Overview and comparison of tools useful at different levels of the AI spectrum
 contributors: [ "Michael Sparks" ]
 page_id: example_tools_comparisons
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 30
 inbeta: true
 ---

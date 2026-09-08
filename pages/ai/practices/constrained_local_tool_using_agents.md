@@ -3,7 +3,7 @@ title: "Constrained local tool-using agents (intensity 7)"
 description: Practice Overview for Constrained local tool-using agents
 contributors: [ "Michael Sparks" ]
 page_id: constrained_local_tool_using_agents
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1007
 inbeta: true
 ---

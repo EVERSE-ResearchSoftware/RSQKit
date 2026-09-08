@@ -3,7 +3,7 @@ title: Cross Cutting Practices
 description: General guidance useful at all levels
 contributors: [ "Michael Sparks", "Caterina Doglioni", "Shoaib Sufi", "Ahmad Alam" ]
 page_id: cross_cutting_practices
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 20
 inbeta: true
 ---

@@ -3,7 +3,7 @@ title: "Conversational Interaction (intensity 1)"
 description: Practice Overview for Conversational Interaction
 contributors: [ "Michael Sparks" ]
 page_id: conversational_interaction
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1001
 inbeta: true
 ---

@@ -3,7 +3,7 @@ title: "Conversational artefact creation (intensity 2)"
 description: Practice Overview for Conversational artefact creation
 contributors: [ "Michael Sparks" ]
 page_id: conversational_artefact_creation
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1002
 inbeta: true
 ---

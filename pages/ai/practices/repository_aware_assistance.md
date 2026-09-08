@@ -3,7 +3,7 @@ title: "Repository-aware assistance (intensity 6)"
 description: Practice Overview for Repository-aware assistance
 contributors: [ "Michael Sparks" ]
 page_id: repository_aware_assistance
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1006
 inbeta: true
 ---

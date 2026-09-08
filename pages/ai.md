@@ -2,7 +2,7 @@
 title: AI Guidance and Practice
 description: Tasks and practices using AI to improve the quality of research software
 contributors: [ "Michael Sparks", "Ahmad Alam", "Shoaib Sufi", "Aleksandra Nenadic" ]
-keywords: [ "ai" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 inbeta: true
 ---
 

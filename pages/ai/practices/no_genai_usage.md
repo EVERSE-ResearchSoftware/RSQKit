@@ -3,7 +3,7 @@ title: "No Gen-AI Usage (intensity 0)"
 description: Practice Overview for No GenAI Usage
 contributors: [ "Michael Sparks" ]
 page_id: no_genai_usage
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1000
 inbeta: true
 ---

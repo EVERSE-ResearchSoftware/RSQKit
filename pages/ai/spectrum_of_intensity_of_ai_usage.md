@@ -3,7 +3,7 @@ title: Spectrum of Intensity of AI Usage
 description: A model for assessing how to use AI in your project
 contributors: [ "Michael Sparks" ]
 page_id: spectrum_of_intensity_of_ai_usage
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 10
 inbeta: true
 ---

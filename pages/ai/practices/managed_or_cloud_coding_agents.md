@@ -3,7 +3,7 @@ title: "Managed or cloud coding agents (intensity 8)"
 description: Practice Overview for Managed or cloud coding agents
 contributors: [ "Michael Sparks" ]
 page_id: managed_or_cloud_coding_agents
-keywords: ["ai", "software development", "task automation", "github actions" ]
+keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 order: 1008
 inbeta: true
 ---
