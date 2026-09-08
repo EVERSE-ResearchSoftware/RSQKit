@@ -71,10 +71,21 @@ For cautious adoption, a sensible route is: conversational explanation; small ge
 
 ## References and further reading
 
-* Anthropic Claude Code documentation, "Claude Code overview" and "How Claude Code works", code.claude.com/docs.
-* OpenAI Codex documentation and product overview, platform.openai.com/docs/codex and openai.com/codex.
-* Ollama documentation, docs.ollama.com.
-* Greg Wilson, "Twelve Ways to be Wrong about AI for Programming", Third Bit, 20 May 2026.
-* OWASP Top 10 for LLM Applications, especially risks around excessive agency and insecure tool use.
-* NIST Secure Software Development Framework and AI Risk Management Framework for broader security and governance context.
-* International Energy Agency, "Energy and AI" and 2026 updates on data centre electricity demand and onsite gas-based generation, iea.org.
+* Anthropic Claude Code documentation, "Claude Code overview" and "How Claude Code works", [code.claude.com/docs][CLAUDE_DOCS]
+* [OpenAI Codex documentation][CODE_PLATFORM] and [product overview][CODEX_OVERVIEW].
+* [Ollama documentation][OLLAMA_DOCS].
+* Greg Wilson, "[Twelve Ways to be Wrong about AI for Programming][TWELVE_WAYS]", Third Bit, 20 May 2026.
+* [OWASP Top 10 for LLM Applications][OWASP_TOP_10], especially risks around excessive agency and insecure tool use.
+* [NIST Secure Software Development Framework and AI Risk Management Framework][NIST_SECURE_DEV] for broader security and governance context.
+* International Energy Agency, "[Energy and AI][IEE_ENERGY_AI]" and 2026 updates on data centre electricity demand and onsite gas-based generation, iea.org.
+* Research Software Engineers in the Age of GenAI: Same Value, Changing Practice. Stephan Druskat, Michelle Barker, Ian Cosden, Cunliang Geng, Robert Haines, Daniel S. Katz, Joseph Shingleton, Ben van Werkhoven  <https://www.researchsoft.org/blog/2026-05-28/>
+* Research Software Engineering in the Age of Generative AI: Building a Community Vision  Barker, M., Katz, D. S., Hartley, K., Ahern, S., Chue Hong, N., Cosden, I., Daniels, R., Druskat, S., Dubey, A., Elmatad, Y., Geng, C., Gesing, S., Haines, R., Hetherington, J., Hodges, T., Howison, J., Kopec-Harding, K., Littauer, R., Maimone, C., … Yehudi, Y. (2026). Research Software Engineering in the Age of Generative AI: Building a Community Vision. Zenodo. <https://doi.org/10.5281/zenodo.20320884>
+
+[CLAUDE_DOCS]: https://code.claude.com/docs
+[CODEX_PLATFORM]: https://learn.chatgpt.com/docs/cloud
+[CODEX_OVERVIEW]: https://openai.com/codex/
+[OLLAMA_DOCS]: https://docs.ollama.com/
+[TWELVE_WAYS]: https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/
+[OWASP_TOP_10]: https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/
+[NIST_SECURE_DEV]: https://www.nist.gov/itl/ai-risk-management-framework/ 
+[IEE_ENERGY_AI]: https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary/
