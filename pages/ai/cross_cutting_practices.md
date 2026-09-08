@@ -19,6 +19,20 @@ This applies both in terms of how to get started, but also in terms of how to ap
 The key thing is to start with the work you want to achieve, then identify the practices that are actually useful to you and your project.
 
 
+### Use strong specifications and tests
+
+Strong tests and specifications give people and AI tools a stable target. New code can then be checked against that target.
+
+AI-assisted coding works better when intended behaviour is kept separate from the implementation.
+
+Tests can provide a shared, executable description of what the software should do. [BDD][BDD]-style [acceptance tests][ACCEPTANCETESTS] (eg using [Gherkin][GHERKIN]) can capture key behaviour in terms people can review and discuss. Lower-level unit tests, often developed with [TDD][TDD] (eg using Python's [`unittest`][UNITTESTS]), can capture details, edge cases and interfaces.
+
+This is useful when code may be rewritten or regenerated. The aim is not to reproduce the same lines of code. It is to reproduce the behaviour that matters.
+
+Tests also help when moving from exploratory work to production software. A researcher may first create a sketch or prototype. They can then capture its key behaviour as AI-written acceptance tests for verification. This is important before asking an AI tool to refactor, extend or reimplement it.
+
+AI can help write tests and specifications. It can also check its own homework. But those checks should be independently verified by a person or a different AI system. This helps avoid the same misunderstanding appearing in both the code and its tests.
+
 ### You promote the work, the AI does not
 
 A useful default is:
@@ -173,3 +187,10 @@ Periodically ask:
 
 Often the right response is not a better prompt.
 It is less authority, less context, fewer tools, or no AI for that task.
+<!-- References -->
+
+[BDD]: https://cucumber.io/docs/bdd/
+[GHERKIN]: https://cucumber.io/docs/gherkin/reference/
+[TDD]: https://agilealliance.org/glossary/tdd/
+[UNITTESTS]: https://docs.python.org/3/library/unittest.html
+[ACCEPTANCETESTS]: https://en.wikipedia.org/wiki/Acceptance_testing
