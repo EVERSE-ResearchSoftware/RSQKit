@@ -138,6 +138,7 @@ This becomes more important as tools gain access to repositories, terminals, CI 
 
 The risks include unsafe action and bad code.
 
+
 ### Do not treat prompts as controls
 
 Natural language instructions are useful.
@@ -152,6 +153,8 @@ Natural language guidance should be backed up by actual guardrails. For example:
 * "Do not access production data" is weaker than "production data is unavailable".
 
 Where the consequence matters, structural controls follow standard best practices for untrusted domains.
+
+Examples of structural controls include:
 
 * least privilege
 * read-only access
