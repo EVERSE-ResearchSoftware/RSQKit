@@ -12,6 +12,13 @@ inbeta: true
 
 ## Cross Cutting Practices
 
+### Start With the work, Start Simple, Extend later
+
+This applies both in terms of how to get started, but also in terms of how to apply practices. It's very easy to read practices like this page, and assume that we're advocating doing everything at once. These are practices, designed to keep your code, your work, your research, understandable, reproducible and safe. If you're playing with ideas some of the practices make no sense. If you're managing a project that requires reproducibility and dependability you probably want to consider which of these practices give you the largest benefit.
+
+The key thing is to start with the work you want to achieve, then identify the practices that are actually useful to you and your project.
+
+
 ### You promote the work, the AI does not
 
 A useful default is:
