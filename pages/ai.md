@@ -6,7 +6,7 @@ keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
 inbeta: true
 ---
 
-![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-000.png)
+![Spectrum of AI Intensity Usage](images/ai/AI_Spectrum-000.png)
 
 ## How do you use AI to develop quality research software?
 
