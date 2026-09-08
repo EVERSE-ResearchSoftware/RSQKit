@@ -54,49 +54,6 @@ For a shared project, this may mean a maintainer reviews, adapts and merges it t
 
 For research outputs, this may mean the researcher responsible for the result can explain how the generated artefact was checked.
 
-### Use a separate AI working copy
-
-Where practical, give AI tooling its own local checkout.
-Treat that checkout as owned by the tool, not as your main working copy.
-
-The aim is to let the AI prepare changes without giving it authority to change shared project state.
-
-A useful pattern is:
-
-* create a separate local checkout for the AI tool
-* remove or disable remote push access from that checkout
-* keep your own normal checkout separate
-* add the AI checkout as a local remote, or copy patches across manually
-* inspect and pull individual changes into your own checkout
-* commit and push only changes you understand and approve
-
-Removing a Git remote is a useful guardrail. It is not a complete security control.
-
-Do not give the tool credentials, tokens, or access it does not need.
-
-This is especially useful where the AI tool can run Git commands, stage files,
-commit changes, create branches, or interact with repository tooling.
-
-The point is not that this makes AI output safe.
-The point is that it gives the people working with AI a clear review boundary.
-
-### Treat remote execution as a governance boundary
-
-When an AI tool runs outside your local machine, the risk changes.
-
-A managed or cloud agent may receive repository access, logs, configuration, test output, project structure, private package names or other context.
-
-Before connecting a remote service, decide:
-
-* What code, code and logs it may see
-* What repositories it may access
-* What permissions it receives
-* Whether it can create branches or pull requests
-* Whether it can use paid or shared compute resources
-
-Remote execution may be useful. It can reduce setup difficulties and run checks in a clean environment.
-It should **not** be treated as merely a more convenient local editor - due to greater risks.
-
 
 ### Protect maintainer attention
 
@@ -120,6 +77,25 @@ Useful controls include:
 * no expectation that every AI-generated suggestion will be reviewed
 
 The aim is to stop machine-generated volume from becoming a second inbox with unmanageable priority.
+
+
+### Treat remote execution as a governance boundary
+
+When an AI tool runs outside your local machine, the risk changes.
+
+A managed or cloud agent may receive repository access, logs, configuration, test output, project structure, private package names or other context.
+
+Before connecting a remote service, decide:
+
+* What code, code and logs it may see
+* What repositories it may access
+* What permissions it receives
+* Whether it can create branches or pull requests
+* Whether it can use paid or shared compute resources
+
+Remote execution may be useful. It can reduce setup difficulties and run checks in a clean environment.
+It should **not** be treated as merely a more convenient local editor - due to greater risks.
+
 
 ### Review actions as well as outputs
 
@@ -190,6 +166,35 @@ Periodically ask:
 
 Often the right response is not a better prompt.
 It is less authority, less context, fewer tools, or no AI for that task.
+
+### Consider Using a separate AI working copy
+
+Where practical, give AI tooling its own local checkout, especially where it acts on your behalf.
+Treat that checkout as owned by the tool, not as your main working copy.
+
+The aim is to let the AI prepare changes without giving it authority to change shared project state.
+
+A useful pattern is:
+
+* create a separate local checkout for the AI tool
+* remove or disable remote push access from that checkout
+* keep your own normal checkout separate
+* add the AI checkout as a local remote, or copy patches across manually
+* inspect and pull individual changes into your own checkout
+* commit and push only changes you understand and approve
+
+Removing a Git remote is a useful guardrail. It is not a complete security control.
+
+Do not give the tool credentials, tokens, or access it does not need.
+
+This is especially useful where the AI tool can run Git commands, stage files,
+commit changes, create branches, or interact with repository tooling.
+
+The point is not that this makes AI output safe.
+The point is that it gives the people working with AI a clear review boundary.
+
+
+
 <!-- References -->
 
 [BDD]: https://cucumber.io/docs/bdd/
