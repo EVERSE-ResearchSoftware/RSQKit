@@ -93,3 +93,9 @@ The three-tier of research software aligns closely with practical Software Manag
 As outlined in the ["Practical Guide to Software Management Plans"](https://doi.org/10.5281/zenodo.7038280), SMPs can be tailored to low, medium, and high management levels, corresponding to analysis code, prototype tools, and research software infrastructure respectively.
 This alignment demonstrates how the three-tier model can guide the development of appropriate management practices for different types of research software, ensuring that software management efforts are appropriately scaled to the nature and intended use of the software.
 By mapping specific SMP requirements to each tier, researchers and institutions can enhance the quality and sustainability of research software across all levels of complexity and scope.
+
+## Research software quality guidance for each RS tier
+Each research software tier may have different quality expectations from different communities, making it difficult to suggest a consensus of which indicators should a tier address. Based on votes from experts of different communities in EVERSE, a first tiers-to-indicators alignment has been proposed in the [following page](https://everse.software/indicators/website/rs_tiers.html). The alignment is presented as a table, in which each indicator is labelled as "crucial", "recommended", "good to have" or "not relevant" for a given tier. 
+
+Additional guidance on which task pages may be browsed to address or improve a given quality indicator, together with its corresponding recommendation for each tier, is available in the [all indicators page](all_indicators) in the RSQKit.
+

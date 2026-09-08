@@ -37,7 +37,7 @@ For example, to create a software release on GitHub:
 - Decide on a software versioning scheme you will use and use a unique name or number for this release.
 - Add release notes - a short and non overly technical summary of the changelog intended for end-users.
 - Click on `Publish release`.
-- If your repository is integrated with Zenodo - a new [DOI][software_identifiers] for this software release will automatically be issued by {% tool "zenodo" %}.
+- If your software repository is integrated (connected) with Zenodo - this snapshot of your software (the release) will also be archived on {% tool "zenodo" %} for long-term preservation and a new [DOI][software_identifiers] for this software release will automatically be issued by {% tool "zenodo" %}.
 
 {% assign child_pages = page.child_pages | join: ', ' %}
 {% if child_pages != null and child_pages != '' %}

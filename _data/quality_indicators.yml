@@ -1225,7 +1225,7 @@
     - user support
     name: Software provides issue tracking
     qualityDimension:
-        '@id': 'https://w3id.org/everse/i/dimensions/maintainability '
+        '@id': 'https://w3id.org/everse/i/dimensions/maintainability'
     source:
         '@id': https://zenodo.org/records/17035105
         name: ELIXIR-STEERS D2.1 Report on best-practices and indicators available
@@ -1292,7 +1292,7 @@
     - fair
     name: Software repository has contribution guidelines
     qualityDimension:
-    -   '@id': https://w3id.org/everse/i/dimensions/sustaintability
+    -   '@id': https://w3id.org/everse/i/dimensions/sustainability
     -   '@id': https://w3id.org/everse/i/dimensions/community
     -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
     source:

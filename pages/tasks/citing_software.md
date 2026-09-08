@@ -3,7 +3,7 @@ title: Citing software
 description: How can people cite your software?
 contributors: ["Jason Maassen"]
 page_id: citing_software
-indicators: [software_has_citation]
+quality_indicators: [software_has_citation]
 related_pages:
   tasks: [software_identifiers, software_metadata]
 keywords: ["citation", "cff"]

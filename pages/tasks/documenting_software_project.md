@@ -23,11 +23,14 @@ When compared to [technical code documentation][documenting_code], which explain
 
 * Audience - identify who will read the documentation (e.g., end users, collaborators, contributors) and write at the right level of detail and technical depth.
 Typically, software project documentation does not cover in-depth [technical documentation][documenting_code] apart from how to install and run the software, but may point to it.
+* Pitching the right level is harder than it sounds - documentation often drifts to one of two extremes: either it reads like a developer guide full of internal implementation detail that a first-time user does not need, or it stops at a bare quickstart and never tells a more advanced user how to actually configure or extend the software.
+Both extremes leave someone unserved, so check who is missing before publishing: could a new user get started from this, and could someone who wants to go deeper find a way in?
 * Purpose - clarify what the documentation is meant to achieve — e.g., helping users install and run the software, explaining research context, or enabling contributions.
 * Structure - organise information logically. For example, consider including a clear description (README), installation guide, usage examples, contribution guidelines, and license information.
 * Keep it up to date - update documentation whenever functionality or dependencies change; outdated documentation can be less helpful than none.
 * Accessibility - ensure the documentation is easy to find, read, and navigate (e.g., hosted on GitHub Pages, with clear headings and links to different parts of documentation held in various files).
 * Reproducibility - include enough information for others to reproduce results — such as environment setup, data requirements, and example workflows.
+
 
 ### Solutions
 
@@ -37,22 +40,33 @@ Project documentation details key external-facing elements of a software project
 An excellent overview of what documentation each software project should provide can be found in the [Turing Way's "Guide for Reproducible Research"](https://book.the-turing-way.org/reproducible-research/reproducible-research) - section on [project documentation](https://book.the-turing-way.org/reproducible-research/code-documentation/code-documentation-project).
 Also check ["How to Write Software Documentation in 7 Simple Steps"](https://technicalwriterhq.com/documentation/software-documentation/how-to-write-software-documentation/) and [Ten Simple Rules for documenting scientific software](https://doi.org/10.1371/journal.pcbi.1006561).
 
-Project documentation should include the following:
+Not all of the items below carry equal weight, so treat them as three tiers rather than a flat checklist.
 
-- README - a text or Markdown file in the project root that introduces and explains a project and explains the basic functionality, dependencies and usage of your software. README
-  also acts as a homepage for your project on code sharing platforms such as {% tool "github" %} and {% tool "gitlab" %}.
-  See more on [how to create a good README document for your software project][creating_good_readme].
-- Installation instructions (INSTALL) - a text or Markdown file in the project root that provides steps on how to download and/or run software. This information can also be a section in the README.
-- Licensing (LICENSE) - a text or Markdown file in the project root that lets users know under what legal conditions they are allowed to use the software. 
-See more on [how to license your software project][licensing_software].
-- Software citation (CITATION) - a CFF, text or Markdown file in the project root that lets people know how to cite or credit your software. 
-See more on [how to cite your software project][citing_software].
-- Contributing guidelines (CONTRIBUTING) - a text or Markdown file in the project root that describes how people can contribute to the development of software and get involved in the project.
-- Code of Conduct (CODE_OF_CONDUCT) - a text or Markdown file in the project root that helps create and maintain a collaboration environment that promotes participation, collaboration and exchange of ideas, while fostering respect among developers.
-- List of all authors and contributors to the software - e.g. listed under a section in README or in a separate file AUTHORS/CONTRIBUTORS in the project root, or a pointer to a list of project collaborators.
-- Pointers to various other technical documentation about your software (installation guide, source code/API documentation, deployment documentation, etc.).
-- Roadmap - an overview of the current and future development plans and milestones (this can also be a pointer to your issue tracker, e.g. in GitHub).
-- Changelog and release notes - a text file that contains a record of what notable changes are made between versions of software.
+**Minimum - without these, nobody can use your software at all:**
+
+* README - a text or Markdown file in the project root that introduces and explains a project and explains the basic functionality, dependencies and usage of your software. README
+also acts as a homepage for your project on code sharing platforms such as GitHub and GitLab.
+See more on [how to create a good README document for your software project](https://everse.software/RSQKit/creating_good_readme).
+* Installation instructions (INSTALL) - a text or Markdown file in the project root that provides steps on how to download and/or run software. This information can also be a section in the README.
+
+**Recommended once you want your software reused or cited:**
+
+* Licensing (LICENSE) - a text or Markdown file in the project root that lets users know under what legal conditions they are allowed to use the software. Without this, others may not be legally able to reuse your code even if they want to.
+See more on [how to license your software project](https://everse.software/RSQKit/licensing_software).
+* Software citation (CITATION) - a CFF, text or Markdown file in the project root that lets people know how to cite or credit your software. In research, citation is often the main form of credit you get for software work, so this is worth setting up early.
+See more on [how to cite your software project](https://everse.software/RSQKit/citing_software).
+
+**Needed once your project has, or expects, multiple contributors:**
+
+* Contributing guidelines (CONTRIBUTING) - a text or Markdown file in the project root that describes how people can contribute to the development of software and get involved in the project.
+* Code of Conduct (CODE_OF_CONDUCT) - a text or Markdown file in the project root that helps create and maintain a collaboration environment that promotes participation, collaboration and exchange of ideas, while fostering respect among developers.
+* List of all authors and contributors to the software - e.g. listed under a section in README or in a separate file AUTHORS/CONTRIBUTORS in the project root, or a pointer to a list of project collaborators.
+* Changelog and release notes - a text file that contains a record of what notable changes are made between versions of software.
+
+**Optional, and useful mainly as the project matures:**
+
+* Pointers to various other technical documentation about your software (installation guide, source code/API documentation, deployment documentation, etc.).
+* Roadmap - an overview of the current and future development plans and milestones (this can also be a pointer to your issue tracker, e.g. in GitHub).
 
 {% assign child_pages = page.child_pages | join: ', ' %}
 {% if child_pages != null and child_pages != '' %}

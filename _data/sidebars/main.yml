@@ -116,10 +116,12 @@ subitems:
       - title: "Software metadata"
         url: /software_metadata
         subitems:
-          - title: "Creating bibliographic metadata with CodeMeta"
-            url: /complete_bibliographic_metadata_codemeta
+          - title: "Creating software metadata with CodeMeta"
+            url: /complete_software_metadata_codemeta
       - title: "Packaging software"
         url: /packaging_software
+      - title: "Performance profiling and optimization"
+        url: /performance_profiling_and_optimization
       - title: "Releasing software"
         url: /releasing_software
       - title: "Archiving software"

@@ -5,6 +5,7 @@ contributors: [ "Aleksandra Nenadic", "Oliver Woolland", "Phil Reed", "Shoaib Su
 page_id: computational_workflows
 related_pages:
   tasks: [reproducible_software_environments]
+quality_indicators: [requirements_specified]
 keywords: ["computational workflow", "workflow", "wms", "galaxy", "snakemake", "nextflow", "apache-airflow", "wdl"]
 ---
 
