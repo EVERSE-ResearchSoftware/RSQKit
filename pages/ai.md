@@ -46,7 +46,7 @@ Each practice has guidance on the following topics
 The organising principle used in this section is a [Spectrum of Intensity of AI Usage](spectrum_of_intensity_of_ai_usage) .
 The purpose of the spectrum is to assist in deciding what level of intensity is suitable for your work.
 
-This correlates with how much context, authority,and autonomy a tool has.
+This correlates with how much context, authority, and autonomy a tool has.
 It is not a maturity scale.
 Higher intensity does not mean better practice.
 It does not mean higher skill.
