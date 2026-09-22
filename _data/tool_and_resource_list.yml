@@ -1420,3 +1420,91 @@
     without long-lived signing keys.
   url: 'https://github.com/sigstore/cosign'
   catalog: RSQKit
+- id: aflpp
+  name: AFL++
+  description: >-
+    AFL++ is a coverage-guided fuzzer and the maintained successor to
+    American Fuzzy Lop (AFL). It supports persistent-mode fuzzing,
+    fork-server mode, and integration with libFuzzer, honggfuzz, and
+    other harnesses.
+  url: 'https://aflplus.plus/'
+  catalog: RSQKit
+- id: coverage-py
+  name: coverage.py
+  description: >-
+    coverage.py is a Python code-coverage tool that measures which
+    statements and branches execute during a test run, producing
+    line- and branch-coverage reports in text, HTML, or XML format.
+  url: 'https://coverage.readthedocs.io/'
+  catalog: RSQKit
+- id: lcov
+  name: lcov
+  description: >-
+    lcov is a graphical front end for gcov that collects coverage data from
+    multiple source files and produces HTML reports showing line, function,
+    and branch coverage.
+  url: 'https://github.com/linux-test-project/lcov'
+  catalog: RSQKit
+- id: gprof
+  name: gprof
+  description: >-
+    gprof is the GNU profiler, part of GNU Binutils, which produces flat
+    profiles and call graphs for programs compiled with the -pg option.
+  url: 'https://sourceware.org/binutils/docs/gprof/'
+  catalog: RSQKit
+- id: addresssanitizer
+  name: AddressSanitizer
+  description: >-
+    AddressSanitizer (ASan) is a memory error detector built into GCC and
+    Clang, enabled with -fsanitize=address, which finds out-of-bounds
+    accesses, use-after-free, and memory leaks at runtime.
+  url: 'https://clang.llvm.org/docs/AddressSanitizer.html'
+  catalog: RSQKit
+- id: undefinedbehaviorsanitizer
+  name: UndefinedBehaviorSanitizer
+  description: >-
+    UndefinedBehaviorSanitizer (UBSan) is a runtime checker built into GCC and
+    Clang, enabled with -fsanitize=undefined, which detects undefined behaviour
+    such as signed integer overflow, misaligned access, and null dereferences.
+  url: 'https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html'
+  catalog: RSQKit
+- id: threadsanitizer
+  name: ThreadSanitizer
+  description: >-
+    ThreadSanitizer (TSan) is a data race detector built into GCC and Clang,
+    enabled with -fsanitize=thread, for multithreaded C and C++ code.
+  url: 'https://clang.llvm.org/docs/ThreadSanitizer.html'
+  catalog: RSQKit
+- id: atheris
+  name: Atheris
+  description: >-
+    Atheris is a coverage-guided fuzzing engine for Python code and native
+    CPython extensions, based on libFuzzer, which can be combined with
+    AddressSanitizer or UndefinedBehaviorSanitizer when fuzzing native code.
+  url: 'https://github.com/google/atheris'
+  catalog: RSQKit
+- id: verrou
+  name: Verrou
+  description: >-
+    Verrou is a Valgrind tool that finds floating-point round-off errors by
+    perturbing rounding modes at runtime, so that results which are sensitive
+    to rounding become visible without recompiling the program.
+  url: 'https://github.com/edf-hpc/verrou'
+  catalog: RSQKit
+- id: verificarlo
+  name: Verificarlo
+  description: >-
+    Verificarlo is an LLVM-based compiler that instruments floating-point
+    operations with Monte Carlo Arithmetic and other backends to estimate the
+    numerical accuracy and stability of a program.
+  url: 'https://github.com/verificarlo/verificarlo'
+  catalog: RSQKit
+- id: zap
+  name: ZAP
+  description: >-
+    ZAP (Zed Attack Proxy, formerly OWASP ZAP) is a dynamic application
+    security testing tool that scans running web applications for
+    vulnerabilities and can run in CI pipelines.
+  url: 'https://www.zaproxy.org/'
+  catalog: RSQKit
+
