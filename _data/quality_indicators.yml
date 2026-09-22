@@ -18,6 +18,10 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/fairness
     -   '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: recommended
+        Relevant for RS infrastructure: crucial
     source:
         name: About Code Coverage
         url: https://docs.codecov.com/docs/about-code-coverage
@@ -45,6 +49,10 @@
     name: Code churn follows community conventions
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: recommended
     source:
         name: 'Code churn: a measure for estimating the impact of code change'
         url: https://ieeexplore.ieee.org/document/738486
@@ -73,6 +81,10 @@
     name: Code duplication follows community conventions
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: recommended
     source:
         name: 'Definition, approaches, and analysis of code duplication detection
             (2006–2020): a critical review'
@@ -106,6 +118,10 @@
     name: Code smells follow community conventions
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: recommended
     source:
     -   name: 'Socially-Informed Jupyter Notebook Quality: A Role- and Lifecycle-Aware
             Metrics Framework'
@@ -160,7 +176,7 @@
         a reasonable level according to community expectations and standards. Cohesion
         describes how related the functions within a single module are. Low cohesion
         implies that a given module performs tasks which are not very related to each
-        other and hence can create problems as the module becomes large
+        other and hence can create problems as the module becomes large.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/internal_cohesion_ok
     keywords:
@@ -171,6 +187,10 @@
     name: Cohesion among methods/functions of a module follows community conventions
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: good to have
     source:
     -   identifier: https://zenodo.org/records/10647227
         name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
@@ -190,7 +210,7 @@
     -   '@type': schema:Person
         name: Andres Montero
     description: The coupling between objects (CBO) ratio is maintained at a reasonable
-        level according to the community's standards or expectations
+        level according to the community's standards or expectations.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/coupling_between_objects_ok
     keywords:
@@ -199,6 +219,10 @@
     name: Coupling between objects follows community conventions
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: not relavant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: recommended
     source:
     -   identifier: https://zenodo.org/records/10647227
         name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
@@ -232,6 +256,10 @@
     name: Cyclomatic complexity follows community conventions
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: good to have
     source:
     -   identifier: https://zenodo.org/records/10647227
         name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
@@ -269,6 +297,10 @@
     name: Has a measure of functional correctness
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: recommended
+        Relevant for RS infrastructure: crucial
     source:
         '@id': https://dome-ml.org/guidelines
         name: DOME Recommendations for Supervised Machine Learning (Evaluation section)
@@ -334,6 +366,10 @@
     name: Maintainability index follows community conventions
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: good to have
     source:
     -   identifier: https://zenodo.org/records/10647227
         name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
@@ -357,7 +393,7 @@
         '@type': schema:Person
         name: Tom François
         schema:email: tom.francois@lapp.in2p3.fr
-    description: Checks if reported critical vulnerabilities have been fixed
+    description: Checks if reported critical vulnerabilities have been fixed.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/no_critical_vulnerability
     keywords:
@@ -389,7 +425,7 @@
         name: Tom François
         schema:email: tom.francois@lapp.in2p3.fr
     description: Checks if hardcoded secrets like passwords, API keys, and tokens
-        is stored in the public git repository
+        is stored in the public git repository.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/no_leaked_credentials
     keywords:
@@ -421,7 +457,7 @@
         name: Andres Montero
     description: Number of lines of code for the whole software project or components/modules/classes/functions/methods
         should follow the conventions established by the community responsible for
-        maintaining the source code
+        maintaining the source code.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/lines_of_code_ok
     keywords:
@@ -430,6 +466,10 @@
     name: Number of lines of code follows community standards or expectations
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: good to have
     source:
     -   identifier: https://zenodo.org/records/10647227
         name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
@@ -461,6 +501,10 @@
     -   '@id': https://w3id.org/everse/i/dimensions/maintainability
     -   '@id': https://w3id.org/everse/i/dimensions/community
     -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: good to have
     source:
         identifier: https://zenodo.org/records/10647227
         name: Task Force Sub Group 3 - Review of Software Quality Attributes and Characteristics
@@ -487,6 +531,10 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/community
     -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: recommended
     source:
         name: 2.5 Community
         url: https://github.com/EVERSE-ResearchSoftware/reference-framework/blob/main/source/02-framework/community.md
@@ -518,6 +566,10 @@
     name: Project repository has no binary artifacts
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/security
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: good to have
     source:
         name: Binary-Artifacts
         url: https://github.com/ossf/scorecard/blob/c22063e786c11f9dd714d777a687ff7c4599b600/docs/checks.md#binary-artifacts
@@ -549,6 +601,10 @@
     name: Project repository is active
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: good to have
     source:
         name: 'OpenSSF Scorecard: Maintained'
         url: https://github.com/ossf/scorecard/blob/cd152cb6742c5b8f2f3d2b5193b41d9c50905198/docs/checks.md#maintained
@@ -577,6 +633,10 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/community
     -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: recommended
     source:
         name: 2.5 Community
         url: https://github.com/EVERSE-ResearchSoftware/reference-framework/blob/main/source/02-framework/community.md
@@ -736,7 +796,7 @@
     description: 'This indicator aims to determine if a software component comes with
         descriptive metadata that provides information. This includes, but is not
         limited to: name, domain, programming language, date created, date of first
-        publication, keywords, related links, etc..'
+        publication, keywords, related links, etc.'
     identifier:
         '@id': https://w3id.org/everse/i/indicators/descriptive_metadata
     keywords:
@@ -774,7 +834,7 @@
     -   '@type': schema:Person
         name: Andres Montero
     description: This indicator aims to determine if a software project comes with
-        many forms of documentation like readme or readthedocs
+        many forms of documentation like readme or readthedocs.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/software_has_documentation
     keywords:
@@ -810,7 +870,7 @@
         name: Daniel Garijo
     -   '@type': schema:Person
         name: Andres Montero
-    description: This check tries to determine if the project has published a license
+    description: This check tries to determine if the project has published a license.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/software_has_license
     keywords:
@@ -883,7 +943,7 @@
     description: This indicator tries to determine if the software identifier is based
         on a suitable identifier scheme, and test it can be resolved. This is done
         by checking if the identifier uses an identifier scheme contained in a list
-        of globally unique identifier schemes
+        of globally unique identifier schemes.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/persistent_and_unique_identifier
     keywords:
@@ -959,7 +1019,7 @@
     -   '@type': schema:Person
         name: Andres Montero
     description: Indicates that the test suite covers most (or ideally all) the code
-        branches, input fields, and functionality
+        branches, input fields, and functionality.
     identifier:
         '@id': https://w3id.org/everse/i/indicators/software_test_coverage
     keywords:
@@ -972,6 +1032,11 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/reliability
     -   '@id': https://w3id.org/everse/i/dimensions/functional_suitability
+    -   '@id': https://w3id.org/everse/i/dimensions/sustainability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: crucial
     source:
         name: ELIXIR Steers D2.1 Report on best-practices and indicators available
             and used by selected Communities
@@ -1225,7 +1290,11 @@
     - user support
     name: Software provides issue tracking
     qualityDimension:
-        '@id': 'https://w3id.org/everse/i/dimensions/maintainability'
+        '@id': https://w3id.org/everse/i/dimensions/maintainability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: recommended
+        Relevant for RS infrastructure: recommended
     source:
         '@id': https://zenodo.org/records/17035105
         name: ELIXIR-STEERS D2.1 Report on best-practices and indicators available
@@ -1255,7 +1324,7 @@
     - test
     - functionality
     - fair
-    name: Software provides tests.
+    name: Software provides tests
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/fairness
     -   '@id': https://w3id.org/everse/i/dimensions/reliability
@@ -1295,6 +1364,10 @@
     -   '@id': https://w3id.org/everse/i/dimensions/sustainability
     -   '@id': https://w3id.org/everse/i/dimensions/community
     -   '@id': https://w3id.org/everse/i/dimensions/open_source_software
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: recommended
+        Relevant for RS infrastructure: good to have
     source:
     -   name: Software Requirements
         url: https://docs.tech.cessda.eu/software/requirements.html
@@ -1436,6 +1509,10 @@
     name: Software uses an appropriate license for different file types
     qualityDimension:
         '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: good to have
     source:
     -   name: Reusability Conditions
         url: https://github.com/EVERSE-ResearchSoftware/schemas/issues/5
@@ -1540,6 +1617,10 @@
     qualityDimension:
     -   '@id': https://w3id.org/everse/i/dimensions/maintainability
     -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    relevant in tiers:
+        Relevant for Analysis Code: not relevant
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: good to have
     source:
         name: interrogate
         url: https://interrogate.readthedocs.io/en/latest/
@@ -1566,7 +1647,12 @@
     - docker
     name: The project's repository includes a container build file
     qualityDimension:
-        '@id': https://w3id.org/everse/i/dimensions/fairness
+    -   '@id': https://w3id.org/everse/i/dimensions/fairness
+    -   '@id': https://w3id.org/everse/i/dimensions/susatinability
+    relevant in tiers:
+        Relevant for Analysis Code: good to have
+        Relevant for Prototype tool: good to have
+        Relevant for RS infrastructure: recommended
     source:
         name: Software Package Checklist
         url: https://escape-ossr.gitlab.io/ossr-pages/contribute/checklist/

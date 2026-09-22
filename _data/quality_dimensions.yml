@@ -63,7 +63,7 @@
     name: Compatibility
     source:
         name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+        url: https://web.archive.org/web/20260423164113/https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 -   '@context': https://w3id.org/everse/rsqd#
     '@id': https://w3id.org/everse/i/dimensions/fairness
     '@type': SoftwareQualityDimension
@@ -118,7 +118,7 @@
     name: Flexibility
     source:
         name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+        url: https://web.archive.org/web/20260423164113/https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 -   '@context': https://w3id.org/everse/rsqd#
     '@id': https://w3id.org/everse/i/dimensions/functional_suitability
     '@type': SoftwareQualityDimension
@@ -151,7 +151,7 @@
     name: Functional suitability
     source:
         name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+        url: https://web.archive.org/web/20260423164113/https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 -   '@context': https://w3id.org/everse/rsqd#
     '@id': https://w3id.org/everse/i/dimensions/interaction_capability
     '@type': SoftwareQualityDimension
@@ -222,7 +222,7 @@
     name: Interaction Capability
     source:
         name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+        url: https://web.archive.org/web/20260423164113/https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 -   '@context': https://w3id.org/everse/rsqd#
     '@id': https://w3id.org/everse/i/dimensions/maintainability
     '@type': SoftwareQualityDimension
@@ -273,7 +273,7 @@
     name: Maintainability
     source:
         name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+        url: https://web.archive.org/web/20260423164113/https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 -   '@context': https://w3id.org/everse/rsqd#
     '@id': https://w3id.org/everse/i/dimensions/open_source_software
     '@type': SoftwareQualityDimension
@@ -290,7 +290,7 @@
         contribute new functionality or fix bugs. Moreover, by integrating with the
         greater open source ecosystem, researchers can leverage tools and support
         communities already available. As such, for most academic communities with
-        limited resources, it is also a good choice from a software engineering perspective
+        limited resources, it is also a good choice from a software engineering perspective.
     identifier: https://w3id.org/everse/i/dimensions/open_source_software
     name: Open Source Software
     source:
@@ -332,7 +332,7 @@
     name: Performance Efficiency
     source:
         name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+        url: https://web.archive.org/web/20260423164113/https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 -   '@context': https://w3id.org/everse/rsqd#
     '@id': https://w3id.org/everse/i/dimensions/reliability
     '@type': SoftwareQualityDimension
@@ -373,7 +373,7 @@
     name: Reliability
     source:
         name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+        url: https://web.archive.org/web/20260423164113/https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 -   '@context': https://w3id.org/everse/rsqd#
     '@id': https://w3id.org/everse/i/dimensions/safety
     '@type': SoftwareQualityDimension
@@ -422,7 +422,7 @@
     name: Safety
     source:
         name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+        url: https://web.archive.org/web/20260423164113/https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 -   '@context': https://w3id.org/everse/rsqd#
     '@id': https://w3id.org/everse/i/dimensions/security
     '@type': SoftwareQualityDimension
@@ -478,7 +478,7 @@
     name: Security
     source:
         name: ISO/IEC 25010 standard
-        url: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+        url: https://web.archive.org/web/20260423164113/https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 -   '@context': https://w3id.org/everse/rsqd#
     '@id': https://w3id.org/everse/i/dimensions/sustainability
     '@type': SoftwareQualityDimension
