@@ -153,6 +153,8 @@ subitems:
         url: /static_analysis
       - title: "Future proofing"
         url: /future_proofing
+      - title: "Dynamic Analysis"
+        url: /dynamic_analysis
   - title: Guidance for AI
     description: Guidance and practices using AI when creating quality research software
     url: /ai
