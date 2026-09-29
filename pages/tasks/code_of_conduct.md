@@ -53,7 +53,7 @@ A working enforcement process needs a clear reporting channel, a defined set of 
 
 - Decide who receives reports before you need the process, and make sure there is an alternative contact for reports about the usual recipients themselves.
 - Reports may involve sensitive personal information; treat them as confidential by default and be explicit about who will see a report.
-- A documented range of responses — from a private conversation to removal from the project — lets you respond proportionately instead of either ignoring an issue or escalating immediately to the most severe option.
+- A documented range of responses — from a private conversation to temporary suspension or permanent exclusion from the project — lets you respond proportionately instead of either ignoring an issue or escalating immediately to the most severe option.
 - Not every uncomfortable interaction is a Code of Conduct violation; sometimes the right response is to clarify expectations with the person involved rather than treat it as a formal violation.
 - Treat every report as worth investigating even if it doesn't match your own experience of the person involved, and gather more than one perspective before deciding what happened.
 - Revisit the Code of Conduct periodically, since your community's needs and the available template versions both evolve over time.
