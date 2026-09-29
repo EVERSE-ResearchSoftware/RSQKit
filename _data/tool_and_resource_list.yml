@@ -1237,6 +1237,46 @@
     CODECHECK tackles one of the main challenges of computational research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
   url: https://codecheck.org.uk/
   catalog: RSQKit
+- id: pyright
+  name: Pyright
+  description: >-
+    Pyright is a fast type checker for Python, developed by Microsoft, with
+    support for type inference, strict mode, and integration with VS Code
+    and other editors via the Language Server Protocol.
+  url: 'https://github.com/microsoft/pyright'
+  catalog: RSQKit
+- id: clang-tidy
+  name: clang-tidy
+  description: >-
+    clang-tidy is a clang-based C++ linter tool providing an extensible
+    framework for diagnosing and fixing typical programming errors, style
+    violations, and interface misuse.
+  url: 'https://clang.llvm.org/extra/clang-tidy/'
+  catalog: RSQKit
+- id: cppcheck
+  name: cppcheck
+  description: >-
+    cppcheck is a static analysis tool for C and C++ code that detects
+    bugs, undefined behaviour, and dangerous coding constructs without
+    requiring the code to compile.
+  url: 'https://cppcheck.sourceforge.io/'
+  catalog: RSQKit
+- id: jet-jl
+  name: JET.jl
+  description: >-
+    JET.jl is a Julia package that uses Julia's type inference to detect
+    potential errors and type instabilities in code without executing it,
+    functioning as a static analyser for Julia programs.
+  url: 'https://aviatesk.github.io/JET.jl/stable/'
+  catalog: RSQKit
+- id: aqua-jl
+  name: Aqua.jl
+  description: >-
+    Aqua.jl (Auto QUality Assurance for Julia packages) provides automated
+    quality checks for Julia packages, including ambiguity detection,
+    unbound type parameters, and stale dependency checks.
+  url: 'https://juliatesting.github.io/Aqua.jl/stable/'
+  catalog: RSQKit
 - id: rsfc
   name: Research Software FAIRness Checks
   description: >-
@@ -1289,7 +1329,8 @@
   description: >-
     lintr is a static analysis tool for R code that checks for style errors,
     syntax errors, and possible semantic issues, helping to enforce consistent
-    coding standards across R projects.
+    coding standards across R projects and it integrates with common R
+    development environments.
   url: 'https://lintr.r-lib.org/'
   catalog: RSQKit
 - id: covr
@@ -1308,7 +1349,7 @@
 - id: cffconvert
   name: cffconvert
   description: Command line program to validate and convert CITATION.cff files.
-  url: https://github.com/citation-file-format/cffconvert
+  url: 'https://github.com/citation-file-format/cffconvert'
   catalog: RSQKit
 - id: apicuron
   name: APICURON
@@ -1319,4 +1360,63 @@
     medals, and leaderboards, and surfaces contributions on contributors' ORCID
     profiles.
   url: 'https://apicuron.org/'
+  catalog: RSQKit
+- id: perf
+  name: perf
+  description: >-
+    perf is a performance analysis tool for Linux built on top of the
+    kernel's perf_events interface, used for CPU profiling, hardware
+    counter sampling, and tracing of compiled programs.
+  url: 'https://perf.wiki.kernel.org/index.php/Main_Page'
+  catalog: RSQKit
+- id: github-packages
+  name: GitHub Packages
+  description: >- 
+    GitHub Packages is GitHub's service to publish and consume packages, store your packages alongside your code, and share your packages privately with your team or publicly with the open source community. 
+    It also allows automation of package building with GitHub Actions.
+  url: 'https://docs.github.com/en/packages'
+  catalog: RSQKit
+- id: openssf-scorecard
+  name: OpenSSF Scorecard
+  description: >-
+    OpenSSF Scorecard is an automated tool from the Open Source Security Foundation
+    that assesses open source repositories for security risks using checks such as
+    branch protection, code review, CI testing, dependency update tooling, pinned
+    dependencies, signed releases, token permissions, binary artefacts, and security
+    policy presence.
+  url: 'https://openssf.org/projects/scorecard/'
+  catalog: RSQKit
+- id: owasp-dependency-check
+  name: OWASP Dependency-Check
+  description: >-
+    OWASP Dependency-Check is a Software Composition Analysis tool that identifies
+    project dependencies and checks whether they contain publicly disclosed
+    vulnerabilities, with command line, build tool, and CI/CD integrations.
+  url: 'https://owasp.org/www-project-dependency-check/'
+  catalog: RSQKit
+- id: github-secret-scanning
+  name: GitHub secret scanning
+  description: >-
+    GitHub secret scanning detects hardcoded credentials such as API keys, tokens,
+    passwords, and other secrets in repositories and related GitHub content, and
+    creates alerts to support remediation.
+  url: 'https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning'
+  catalog: RSQKit
+- id: sigstore
+  name: Sigstore
+  description: >-
+    Sigstore is an open source project under the Linux Foundation that provides
+    free tooling to sign, verify, and protect software artefacts. It uses
+    short-lived certificates (Fulcio) and a transparency log (Rekor) to make
+    cryptographic signing practical without managing long-lived keys.
+  url: 'https://www.sigstore.dev/'
+  catalog: RSQKit
+- id: cosign
+  name: Cosign
+  description: >-
+    Cosign is the Sigstore command-line client for signing and verifying
+    container images and other artefacts such as blobs and SBOMs. It supports
+    keyless signing using an OpenID Connect identity, so signing can run from CI
+    without long-lived signing keys.
+  url: 'https://github.com/sigstore/cosign'
   catalog: RSQKit

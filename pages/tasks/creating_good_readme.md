@@ -17,7 +17,7 @@ Your README file is a key document in a software project that provides an overvi
 You typically write it in plain text or Markdown and place it in your project's root directory, so it is shared along with the code.
 For software shared in a public software repository - the README file serves as the project's homepage and a central reference for documentation, aiding software's accessibility and promoting engagement for open source projects.
 
-The README file is the entry point to the [documentation associated with a software project](./documenting_software_project.md) and the [code within the project](./documenting_code.md).
+The README file is the entry point to the [documentation associated with a software project][documenting-project] and the [code within the project][documenting-code].
 The main purpose of the README is to:
 
 - Describe the software project and its purpose.
@@ -32,13 +32,13 @@ For research software, additional aspects should be considered and README should
 
 ### Considerations
 
-A [well-written README document](https://tilburgsciencehub.com/topics/collaborate-share/share-your-work/content-creation/readme-best-practices/):
+A [well-written README document][readme-practices]:
 
-- promotes the [adoption of your software](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4281782).
+- promotes the [adoption of your software][adoption-paper].
 - enhances the transparency of your research.
 - supports software maintenance throughout its lifecycle.
 
-Also check [guidelines for creating a good README](https://data.4tu.nl/s/documents/Guidelines_for_creating_a_README_file.pdf).
+Also check [guidelines for creating a good README][readme-guidelines].
 
 ## What sections should you include in your README?
 
@@ -141,21 +141,21 @@ You can see a list of them used to make your project more fair in {% tool "howfa
 #### License
 
 Software without a license cannot legally be reused in other applications.
-While having a [license file](https://everse.software/RSQKit/licensing_software) is a common practice in code repositories, you may also add this information explicitly as a section of your README file.
-For more information, see [our guidelines](https://everse.software/RSQKit/licensing_software) on how to select an appropriate license.
+While having a [license file][licensing-software] is a common practice in code repositories, you may also add this information explicitly as a section of your README file.
+For more information, see [our guidelines][licensing-software] on how to select an appropriate license.
 
 #### Automated extraction of metadata from README
 
-{% tool "somef" %} is a [tool to automatically extract information (metadata) from README files](https://ieeexplore.ieee.org/document/9006447/).
+{% tool "somef" %} is a [tool to automatically extract information (metadata) from README files][somef-paper].
 It is not an assessment tool for README files, but can be used for detecting missing parts of a README file.
 
 ## Further Reading
 
-- **[Guidelines for creating a README file](https://data.4tu.nl/s/documents/Guidelines_for_creating_a_README_file.pdf)** A concise, practical checklist for structuring a README, written specifically with research data and software in mind. Use it as a quick reference once you already know what each section should contain.
+- **[Guidelines for creating a README file][readme-guidelines]** A concise, practical checklist for structuring a README, written specifically with research data and software in mind. Use it as a quick reference once you already know what each section should contain.
 
-- **[Record of a specific analysis](https://rsspdc.org/checklists/rsspdc-specific-record.html#documentation)** This Research Software Sharing, Publication, & Distribution Checklists (RSSPDC) documentation checklist complements this page's narrative guidance with a graduated self-assessment tool — its Bronze-through-Platinum tiers let you check your README against concrete criteria, with particular emphasis on reproducibility and verifiability that is especially relevant for analysis code underpinning published results.
+- **[Record of a specific analysis][rsspdc-record]** This Research Software Sharing, Publication, & Distribution Checklists (RSSPDC) documentation checklist complements this page's narrative guidance with a graduated self-assessment tool — its Bronze-through-Platinum tiers let you check your README against concrete criteria, with particular emphasis on reproducibility and verifiability that is especially relevant for analysis code underpinning published results.
 
-- **[README.md: History and Components](https://medium.com/@NSomar/readme-md-history-and-components-a365aff07f10)** This article traces the origins of the README convention and systematically breaks down its key structural components, giving readers a concise mental model of both why READMEs exist and what belongs in them. That historical and structural grounding complements RSQKit's task-oriented guidance by helping readers understand the reasoning behind README best practices.
+- **[README.md: History and Components][readme-history]** This article traces the origins of the README convention and systematically breaks down its key structural components, giving readers a concise mental model of both why READMEs exist and what belongs in them. That historical and structural grounding complements RSQKit's task-oriented guidance by helping readers understand the reasoning behind README best practices.
 
 ## AI Disclosure
 
@@ -169,3 +169,13 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 
 {% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
 {% endif %}
+
+[adoption-paper]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4281782
+[documenting-code]: ./documenting_code.md
+[documenting-project]: ./documenting_software_project.md
+[licensing-software]: https://everse.software/RSQKit/licensing_software
+[readme-guidelines]: https://data.4tu.nl/s/documents/Guidelines_for_creating_a_README_file.pdf
+[readme-history]: https://medium.com/@NSomar/readme-md-history-and-components-a365aff07f10
+[readme-practices]: https://tilburgsciencehub.com/topics/collaborate-share/share-your-work/content-creation/readme-best-practices/
+[rsspdc-record]: https://rsspdc.org/checklists/rsspdc-specific-record.html#documentation
+[somef-paper]: https://ieeexplore.ieee.org/document/9006447/

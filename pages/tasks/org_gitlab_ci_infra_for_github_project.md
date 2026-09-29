@@ -6,6 +6,7 @@ page_id: org_gitlab_ci_infra_for_github_project
 related_pages:
   tasks: [ci_cd, task_automation_github_actions, task_automation_gitlab_ci_cd]
 keywords: ["ci", "cd", "ci/cd"]
+quality_indicators: [repository_workflows]
 ---
 
 ## How can I use my organization's GitLab CI infrastructure for a GitHub-hosted project?
