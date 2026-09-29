@@ -31,7 +31,7 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
-      layout: "page"
+      layout: "page-with-last-update"
       sidebar: main
   -
     scope:
@@ -52,6 +52,13 @@ defaults:
       path: "pages/research_software_stories/"
     values:
       type: research_software_stories
+      type_img: /assets/img/flaticon/search.png
+      page_citation: true
+  -
+    scope:
+      path: "pages/ai/"
+    values:
+      type: tasks_ai
       type_img: /assets/img/flaticon/search.png
       page_citation: true
   -
