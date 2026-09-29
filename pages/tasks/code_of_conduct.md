@@ -25,7 +25,7 @@ A Code of Conduct protects your contributors and you: it gives you something con
 - Establish the Code of Conduct as early as possible, ideally when the project is created, rather than retrofitting it after a conflict has already occurred.
 - Adopting a well-established, widely used template gives your community an instantly recognizable signal and saves you from drafting standards from scratch.
 - You still need to customize the reporting contact, the scope, and any project-specific norms — a template alone does not constitute an enforcement plan.
-- Research software projects frequently have power imbalances baked in (a PI versus a graduate student, a maintainer versus a first-time external contributor), so your enforcement process needs to work even when the reported person outranks the reporter.
+- Research software projects often involve significant power imbalances (a PI versus a graduate student, a maintainer versus a first-time external contributor), so your enforcement process needs to work even when the reported person outranks the reporter.
 - Scope is easy to underspecify: people usually think first of issues, pull requests, and discussions, but a research software community also interacts at conferences, in chat tools, and at lab meetings, so decide explicitly whether those spaces are covered too.
 - If your project sits within a university or institute, consider having the draft reviewed by a relevant stakeholder, such as a research integrity office or legal advisor, before publishing it.
 - A Code of Conduct that exists but is never enforced is worse than no Code of Conduct at all — it signals that the stated values aren't actually taken seriously.
