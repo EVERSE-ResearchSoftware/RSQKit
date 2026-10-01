@@ -19,5 +19,57 @@
         </a>
 </p>
 {% endunless %}
+{%- assign task_pages = site.pages | where: "type", "tasks" | where_exp: "p", "p.quality_indicators != nil" %}
+{%- assign dim_indicators = "" | split: "," %}
+{%- for indicator in site.data.quality_indicators %}
+    {%- assign in_dimension = false %}
+    {%- for qd in indicator.qualityDimension %}
+        {%- if qd['@id'] == item['@id'] %}{% assign in_dimension = true %}{% endif %}
+    {%- endfor %}
+    {%- if in_dimension %}
+        {%- assign indicator_has_task = false %}
+        {%- for p in task_pages %}
+            {%- if p.quality_indicators contains indicator.abbreviation %}{% assign indicator_has_task = true %}{% endif %}
+        {%- endfor %}
+        {%- comment %} Only indicators with at least one related task must appear {% endcomment %}
+        {%- if indicator_has_task %}
+            {%- assign dim_indicators = dim_indicators | push: indicator %}
+        {%- endif %}
+    {%- endif %}
+{%- endfor %}
 
+{%- if dim_indicators.size > 0 %}
+<p><strong>Related quality indicators and tasks in RSQKit</strong></p>
+<div class="table-responsive">
+<table class="table">
+  <thead>
+    <tr><th>Quality Indicator</th><th>Related RSQKit task</th></tr>
+  </thead>
+  <tbody>
+  {%- for indicator in dim_indicators %}
+    {%- if forloop.index == 6 %}
+  </tbody>
+  <tbody class="collapse" id="more-{{ item.abbreviation }}">
+    {%- endif %}
+    <tr>
+      <td><a href="{{ indicator.identifier['@id'] }}">{{ indicator.name }}</a></td>
+      <td>
+        {%- assign has_task = false %}
+        {%- for p in task_pages %}
+            {%- if p.quality_indicators contains indicator.abbreviation %}
+                <a class="nohover" href="{{ p.url | relative_url }}"><span class="badge default-badge">{{ p.title | truncate: 50 }}</span></a>
+            {%- endif %}
+        {%- endfor %}
+      </td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+</div>
+{%- if dim_indicators.size > 5 %}
+<button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#more-{{ item.abbreviation }}" aria-expanded="false" aria-controls="more-{{ item.abbreviation }}">
+  Show all {{ dim_indicators.size }} indicators
+</button>
+{%- endif %}
+{%- endif %}
 {% endfor %}
