@@ -6,4 +6,7 @@ services:
     volumes:
       - .:/usr/src/site:Z
     working_dir: /usr/src/site
-    command: bundle exec jekyll serve --host 0.0.0.0 --port 4000 --watch --force_polling
+    # The baseurl here is set so that local testing using docker matches the
+    # URL for github pages This enables us to catch problems with things
+    # like image URLs pointing into the wrong locations unexpectedly.
+    command: bundle exec jekyll serve --baseurl "/RSQKit" --host 0.0.0.0 --port 4000 --watch --force_polling
