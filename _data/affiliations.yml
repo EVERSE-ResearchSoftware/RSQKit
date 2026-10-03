@@ -50,7 +50,7 @@
   note: "actually from archive.org snapshot"
   expose: true
   type: research cluster
-  url: https://lifescience-ri.eu/home.html
+  url: https://lifescience-ri.eu/
 - name: ELIXIR
   image_url: /images/affiliations/elixir_logo_0.png
   source_image_url: https://elixir-europe.org/sites/default/files/elixir_logo_0.png
