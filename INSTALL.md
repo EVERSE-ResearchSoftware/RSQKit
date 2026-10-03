@@ -10,6 +10,34 @@ Nevertheless, if you do wish to run the RSQKit website locally for development a
 
 We provide instructions for installing RSQKit and all the software necessary to run it directly on you machine or within a Docker container.
 
+We provide instructions for building and serving RSQKit from within a local Docker container. (preferred)
+There are also non-docker instructions if you prefer to not install docker.
+
+
+## Installing RSQKit using a Docker container
+
+This is the preferred setup for testing RSQKit pages are working correctly.
+This approach does not rely on anything locally installed, except for
+Docker.
+
+**Prerequisites:** `docker` and `docker-compose`.
+
+To install a Docker engine locally, follow the [official installation instructions](https://docs.docker.com/engine/install/).
+Docker Compose is available natively on Docker Desktop, as a Docker Engine plugin, and as a standalone tool - check [Compose installation
+instructions](https://docs.docker.com/compose/install/) for your setup.
+
+We provide `docker-compose.yml` file for RSQKit container to help you set up.
+
+After successfully setting up `docker` and `docker-compose`, run the following commands.
+
+``` bash
+docker-compose build
+docker-compose up
+```
+
+You should now be able to access your local copy of RSQKit on <http://127.0.0.1:4000/RSQKit>.
+
+
 ## Running RSQKit locally using Jekyll
 
 **Prerequisites:** `ruby`, `bundler` and `jekyll`.
@@ -54,27 +82,8 @@ bundle install
 You can build and run the RSQKit locally using the following command from within the RSQKit folder:
 
 ``` bash
-bundle exec jekyll serve
+bundle exec jekyll serve --baseurl /RSQKit
 ```
 
-You should now be able to access your local copy of RSQKit on <http://127.0.0.1:4000>.
-
-## Installing RSQKit using a Docker container
-
-**Prerequisites:** `docker` and `docker-compose`.
-
-To install a Docker engine locally, follow the [official installation instructions](https://docs.docker.com/engine/install/).
-Docker Compose is available natively on Docker Desktop, as a Docker Engine plugin, and as a standalone tool - check [Compose installation
-instructions](https://docs.docker.com/compose/install/) for your setup.
-
-We provide `docker-compose.yml` file for RSQKit container to help you set up.
-
-After successfully setting up `docker` and `docker-compose`, run the following commands.
-
-``` bash
-docker-compose build
-docker-compose up
-```
-
-You should now be able to access your local copy of RSQKit on <http://127.0.0.1:4000>.
+You should now be able to access your local copy of RSQKit on <http://127.0.0.1:4000/RSQKit>.
 
