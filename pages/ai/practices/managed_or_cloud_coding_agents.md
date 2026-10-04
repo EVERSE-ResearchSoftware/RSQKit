@@ -1,6 +1,6 @@
 ---
 title: "Managed or cloud coding agents (intensity 8)"
-description: Practice Overview for Managed or cloud coding agents
+description: A hosted or managed agent working asynchronously in remote environment
 contributors: [ "Michael Sparks" ]
 page_id: managed_or_cloud_coding_agents
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]

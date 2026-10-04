@@ -1,6 +1,6 @@
 ---
 title: "No Gen-AI Usage (intensity 0)"
-description: Practice Overview for No GenAI Usage
+description: Considerations for no GenAI usage, especially in a GenAI world
 contributors: [ "Michael Sparks" ]
 page_id: no_genai_usage
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]

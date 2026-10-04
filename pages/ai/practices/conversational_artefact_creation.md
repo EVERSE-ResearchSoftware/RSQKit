@@ -1,6 +1,6 @@
 ---
 title: "Conversational artefact creation (intensity 2)"
-description: Practice Overview for Conversational artefact creation
+description: Chat-based creation of small, reviewable outputs
 contributors: [ "Michael Sparks" ]
 page_id: conversational_artefact_creation
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]

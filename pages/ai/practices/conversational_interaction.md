@@ -1,6 +1,6 @@
 ---
 title: "Conversational Interaction (intensity 1)"
-description: Practice Overview for Conversational Interaction
+description: Chats regarding for explanations, trade-offs, errors and conceptual help
 contributors: [ "Michael Sparks" ]
 page_id: conversational_interaction
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
