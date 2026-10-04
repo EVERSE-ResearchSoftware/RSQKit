@@ -1,6 +1,6 @@
 ---
 title: "Repository-aware assistance (intensity 6)"
-description: Practice Overview for Repository-aware assistance
+description: The tool can search and reason across the repository
 contributors: [ "Michael Sparks" ]
 page_id: repository_aware_assistance
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]

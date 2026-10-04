@@ -1,6 +1,6 @@
 ---
 title: "Constrained local tool-using agents (intensity 7)"
-description: Practice Overview for Constrained local tool-using agents
+description: An agent can edit files, run commands and iterate locally under supervision.
 contributors: [ "Michael Sparks" ]
 page_id: constrained_local_tool_using_agents
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]

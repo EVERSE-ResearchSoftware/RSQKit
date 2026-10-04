@@ -1,6 +1,6 @@
 ---
 title: "Conversational Creation with Zip Files (intensity 3)"
-description: Practice Overview for Conversational Creation with Zip Files (etc)
+description: Providing selected files, snippets, or zip files to discuss, use and improve
 contributors: [ "Michael Sparks" ]
 page_id: conversational_creation_with_zip_files_etc
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]

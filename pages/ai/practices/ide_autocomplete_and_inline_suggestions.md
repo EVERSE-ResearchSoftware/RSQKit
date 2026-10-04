@@ -1,6 +1,6 @@
 ---
 title: "IDE autocomplete and inline suggestions (intensity 4)"
-description: Practice Overview for IDE autocomplete and inline suggestions
+description: AI suggestions appear in your editor, while editing
 contributors: [ "Michael Sparks" ]
 page_id: ide_autocomplete_and_inline_suggestions
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]

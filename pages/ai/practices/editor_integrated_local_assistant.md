@@ -1,6 +1,6 @@
 ---
 title: "Editor-integrated local assistant (intensity 5)"
-description: Practice Overview for Editor-integrated local assistant
+description: The assistant can make bounded edits inside the editor
 contributors: [ "Michael Sparks" ]
 page_id: editor_integrated_local_assistant
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]

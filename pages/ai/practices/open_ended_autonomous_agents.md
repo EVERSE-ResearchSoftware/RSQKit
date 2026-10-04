@@ -1,6 +1,6 @@
 ---
 title: "Open-ended autonomous agents (intensity 10)"
-description: Practice Overview for Open-ended autonomous agents
+description: Broad tool-using systems with persistence, scheduling or external integrations
 contributors: [ "Michael Sparks" ]
 page_id: open_ended_autonomous_agents
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]

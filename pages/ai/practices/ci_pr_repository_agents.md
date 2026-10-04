@@ -1,6 +1,6 @@
 ---
 title: "CI/PR/repository agents (intensity 9)"
-description: Practice Overview for CI/PR/repository agents
+description: Agents are integrated into repository workflows. Can triage bugs, review and create PRs
 contributors: [ "Michael Sparks" ]
 page_id: ci_pr_repository_agents
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
