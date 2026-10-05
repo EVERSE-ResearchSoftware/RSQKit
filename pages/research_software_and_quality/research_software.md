@@ -26,6 +26,10 @@ Research software is software or code that is used to generate, process or analy
 For example, software used to guide a telescope that is used to conduct scientific research is not considered research software.
 On the other hand, formulas or macros in spreadsheets used to analyse data are considered **research code** as they are a form of computer programming that allow one to create, calculate, and change data sets in a number of different ways.
 
+This spectrum is only one way of viewing research software, and it is not the view the RSQKit leans on most heavily.
+In practice the RSQKit organises its guidance around several complementary views: the [three-tier model](three_tier_view) of analysis code, prototype tools and research software infrastructure; the [software lifecycle](life_cycle); the [research clusters and infrastructures](../research_clusters_or_infrastructures) in which software is developed; the [roles](../roles) of the people who build and use it; and the [quality dimensions](quality_dimensions) and [indicators](../all_indicators) against which quality is assessed.
+The inclusive and exclusive definitions above orient the reader in the debate; these views are how the RSQKit approaches research software quality in practice.
+
 The RSQKit does not mandate the definition of what research software is, however its authors and the [Editorial Board](./editorial_board) may be opinionated on what they believe the definition is and this may vary over time and be reflected in the RSQKit pages.
 Since the focus of the RSQKit is to highlight quality practice, most of the advice (especially around [computational tasks](../tasks)) could be applied to software in research.
 However, many of the best practices are found in research software and we hope the RSQKit helps promote the practices to other areas of research and allows cross-pollination of ideas and practice.
