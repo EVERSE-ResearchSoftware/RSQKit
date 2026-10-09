@@ -1,6 +1,6 @@
 ---
 title: "Conversational Interaction (intensity 1)"
-description: Chats regarding for explanations, trade-offs, errors and conceptual help
+description: Chats regarding explanations, trade-offs, errors and conceptual help
 contributors: [ "Michael Sparks" ]
 page_id: conversational_interaction
 keywords: [ "llm", "AI-Assisted", "AI as an Assistant" ]
