@@ -66,7 +66,7 @@ Documentation and onboarding form a new contributor's first interaction with a p
 ## How do you welcome and support contributors from underrepresented groups?
 
 ### Description
-Welcoming underrepresented contributors is not the same as having a public statement that the project welcomes them; it requires concrete practices that reduce the specific friction those contributors are more likely to encounter.
+Welcoming underrepresented contributors is not the same as having a public statement that the project welcomes them: it requires concrete practices that reduce the specific friction those contributors are more likely to encounter.
 In research software, this applies to researchers from underrepresented disciplines or institutions as well as demographic groups, since the field's prestige hierarchy shapes whose contributions get taken seriously.
 Sustained support, rather than one-time outreach effort, determines whether contributors remain engaged in the long-term.
 
@@ -122,42 +122,44 @@ Running events in hybrid mode, combining in-person and online participation rath
 ### Considerations
 - Scheduling a recurring event in a single time zone systematically excludes contributors in other regions.
 - In-person events involve substantial travel, accommodation, registration costs that are not equally absorbable across institutions, career stages, and countries, shaping who can attend regardless of interest.
-- Childcare, dietary needs, and physical accessibility (venue access, captioning, quiet spaces) are concrete, addressable factors, not abstract concerns, and are often easiest to address by asking attendees directly in advance rather than guessing.
+- Childcare, dietary needs, and physical accessibility (venue access, captioning, quiet spaces) are concrete, addressable factors, not abstract concerns, and are often easiest to address simply by asking attendees directly in advance.
 - A code of conduct that applies in principle but isn't actively enforced at an event provides little real protection; someone needs to be visibly responsible for handling concerns during the event itself.
-- Hybrid formats remove physical-travel barriers entirely for people with mobility impairments or limited travel budgets, and let neurodivergent attendees who find in-person events overstimulating choose a lower-intensity way to participate, but they introduce their own accessibility considerations, such as ensuring remote participants have genuine influence on outcomes rather than passive observer status.
-- Hybrid participation allows for a broader range of contributors, is one practical way to help projects identify a wider variety of requirements, use cases, and potential solutions.
+- Hybrid formats remove physical-travel barriers entirely for people with mobility impairments or limited travel budgets, and let neurodivergent attendees who find in-person events overstimulating choose a lower-intensity way to participate; however, they introduce their own accessibility considerations, such as ensuring remote participants have genuine influence on outcomes rather than passive observer status.
 
 ### Solutions
-- Rotate or stagger meeting and event times across time zones where there is a recurring schedule, rather than fixing it permanently to one region.
+- Rotate or stagger meeting and event times across time zones where there is a recurring schedule, rather than fixing it permanently to one time zone.
 - Offer travel or registration grants where budget allows, and be transparent about the application process and criteria.
 - Ask registrants in advance about accessibility, dietary, and childcare needs, and act on the responses rather than treating the question as a formality.
 - Name a specific person or team responsible for code of conduct enforcement at the event, and make sure attendees know how to reach them during the event, not just in a document published beforehand.
 - Default to hybrid for recurring meetings and community calls, not only flagship events, since the accessibility benefit applies to routine project activity, not just conferences.
-- Design at least part of the agenda (for example, decision-making sessions, Q&A, and voting) so remote attendees have a real role rather than only watching a stream — a chat-monitored question queue and a remote-attendee speaking slot are minimal ways to do this.
+- Design at least part of the agenda for decision-making sessions, Q&A, and voting, for instance, so remote attendees have a real role rather than only watching a stream. A chat-monitored question queue and a remote-attendee speaking slot are minimal ways to do this.
+- The chair repeats questions if unclear for remote participants, and quality checks (sound, bandwidth, etc) are be run before remote presentations are delivered.
 
 ## How do you find good DEI resources and frameworks for your project?
 
 ### Description
-DEI in open source and research software is an active area with established communities producing practical, freely available guidance; you do not need to design your approach from first principles.
-Using existing frameworks gives you a tested starting point and a shared vocabulary with other projects, rather than reinventing terminology and practices project by project.
+DEI in open source and research software is an active area with established communities producing practical, freely available guidance. You do not need to design your approach from first principles.
+
+Using existing frameworks gives you a tested starting point and a shared vocabulary with other projects, rather than reinventing terminology and practices on a project-by-project basis.
+
 The two resources below are specifically curated for open source and research-adjacent communities, which makes them a more direct fit than general DEI material aimed at other industries.
 
 ### Considerations
-- DEI resource quality varies widely; prefer resources maintained by communities with direct open source or research software experience over generic corporate DEI material, since the specific barriers differ.
-- A resource hub or checklist is most useful as a starting point for prioritization, not as a compliance list to complete in full — partial, well-implemented changes tend to outperform many superficial ones.
-- Frameworks built for general open source communities (not specifically research software) are still valuable, but you should expect to adapt them for the academic power dynamics covered above.
-- Revisit these resources periodically; DEI practice in open source continues to develop, and a resource hub that is actively maintained will reflect that better than a static document from several years ago.
+- DEI resource quality varies widely. prefer resources maintained by communities with direct open source or research software experience over generic corporate material, as the specific barriers in these environments differ.
+- A resource hub or checklist is most useful as a starting point for prioritisation, rather than a compliance list to complete in full; a few well-implemented changes typically prove more effective than many superficial ones.
+- Frameworks built for general open source communities rather than research software specifically remain valuable, though you should expect to adapt them to address academic power dynamics.
+- Revisit these resources periodically. DEI practice in open source continues to evolve, and an actively maintained resource hub will reflect those developments far better than a static document from several years ago.
 
 ### Solutions
-- Browse the [All In for Maintainers DEI Resource Hub](https://allinopensource.org/maintainers/DEI-resources/), a curated, topic-organized collection of DEI resources for open source maintainers covering accessibility, community building, code of conduct, inclusive language, and governance; use its topic index to find material relevant to whichever sub-topic on this page you want to go deeper on.
-- If your project runs events of any kind, work through the [NumFOCUS DISCOVER Cookbook](https://discover-cookbook.numfocus.org/intro.html), which is built specifically for organizers of scientific computing conferences and events and explicitly distinguishes high-impact, low-effort actions from larger commitments, so you can prioritize realistically.
-- Treat both resources as living references to return to as your project grows, rather than a one-time read, since they are updated as practice in the field develops.
+- Browse the [All In for Maintainers DEI Resource Hub](https://allinopensource.org/maintainers/DEI-resources/), a curated collection of DEI resources for open-source maintainers covering accessibility, community building, codes of conduct, inclusive language, and governance. Use its topic index to find material relevant to whichever subtopic on this page you want to explore further.
+- If your project runs events of any kind, work through the [NumFOCUS DISCOVER Cookbook](https://discover-cookbook.numfocus.org/intro.html). Built specifically for organisers of scientific computing conferences and events, it explicitly distinguishes high-impact, low-effort actions from larger commitments so you can prioritise realistically.
+- Treat both resources as living references to return to as your project grows, rather than a one-time read, since they are updated as practice in the field evolves.
 
 ## Further Reading
 
-- **[The All In for Maintainers DEI Resource Hub](https://allinopensource.org/maintainers/DEI-resources/)** — A curated, regularly updated archive of DEI resources for open source maintainers, organized by topic (accessibility, community building, code of conduct, governance, and more); useful as a first stop for going deeper on any sub-topic covered on this page.
-- **[The NumFOCUS DISCOVER Cookbook](https://discover-cookbook.numfocus.org/intro.html)** — A practical guide built specifically for organizers of scientific computing conferences and events, with suggestions ranked by impact and effort; directly relevant to research software projects that run workshops, sprints, or community calls.
-- **[The Turing Way: Diversity and Inclusion](https://book.the-turing-way.org/index.html)** — An open, collaboratively written handbook on reproducible and inclusive research practice, with chapters addressing equity and inclusion written specifically for research and research software contexts.
+- **[The All In for Maintainers DEI Resource Hub](https://allinopensource.org/maintainers/DEI-resources/)** — A curated, regularly updated archive of DEI resources for open source maintainers, organized by topic (accessibility, community building, code of conduct, governance, and more). It is useful as a first stop for going deeper on any sub-topic covered on this page.
+- **[The NumFOCUS DISCOVER Cookbook](https://discover-cookbook.numfocus.org/intro.html)** — A practical guide built specifically for organizers of scientific computing conferences and events, with suggestions ranked by impact and effort.
+- **[The Turing Way: Diversity and Inclusion](https://book.the-turing-way.org/index.html)** — An open, collaboratively written handbook on reproducible and inclusive research practice, featuring chapters on equity and inclusion written specifically for research and research software contexts.
 - **[GitHub's Open Source Guides: Building Welcoming Communities](https://opensource.guide/building-community/)** — Practical, example-driven guidance on growing a healthy contributor base; a useful general complement to the research-specific resources above.
 - **[corsa-center/oss-documents](https://github.com/corsa-center/oss-documents)** — A community-maintained collection of governance, contributing, code of conduct, and DEI resources for open source projects, including the two resources above alongside related material on governance and contribution documents.
 - **[GDPR Article 9: Processing of special categories of personal data](https://gdpr-info.eu/art-9-gdpr/)** — The official regulation text, with commentary, covering sex, racial or ethnic origin, sexual orientation, and other sensitive categories; the right starting point before adding any demographic question to an event registration form, since it sets out when such data can be collected and what conditions apply.
