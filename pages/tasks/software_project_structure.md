@@ -52,6 +52,8 @@ Organise the rest of the software project's file into **sub-directories** clearl
 For example:
 
   - `code` (or `scripts` or `src`) directory for storing your source code.
+    If your workflow has several steps, use separate subdirectories such as `src/prepare_data`, `src/analyse`, and `src/plot`, with shared code in `src/utils`.
+    This makes each step easier to find and lets automation scripts select the code for a whole step without listing individual files.
   - `data` folder to store your data. Further organise raw, cleaned, intermediate, and/or processed data in separate subdirectories (e.g. `data/raw`, `data/clean`, `data/processed`) to maintain clarity and prevent overwriting or losing the original raw data.
   - `results` folder for storing analysis outputs, summary statistics, or any data generated after processing.
   - `doc` folder for storing various [software documentation and guides][software_documentation].
