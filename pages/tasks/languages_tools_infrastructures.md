@@ -6,7 +6,7 @@ page_id: languages_tools_infrastructures
 related_pages:
    tasks: []
 quality_indicators: []
-keywords: ["programming language", "software infrastructure", "software tool"]
+keywords: ["programming language", "software infrastructure"]
 ---
 
 ## How to choose programming languages, tools and infrastructures?

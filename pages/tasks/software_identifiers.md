@@ -6,7 +6,7 @@ page_id: software_identifiers
 related_pages:
   tasks: [releasing_software]
 quality_indicators: [persistent_and_unique_identifier]
-keywords: ["software identifier", "software release", "software version", "versioning"]
+keywords: ["software identifier", "software release", "software version", "versioning", "Zenodo"]
 
 ---
 

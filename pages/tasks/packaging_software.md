@@ -7,8 +7,7 @@ page_id: packaging_software
 related_pages:
   tasks: [releasing_software, publishing_software] 
 quality_indicators: [has_published_package, has_releases]
-keywords: ["package software", "packaging software", "releasing software", "release software", "pypi"]
-
+keywords: ["package", "packaging", "releasing", "release", "python"]
 ---
 
 ## How to package and release your software?

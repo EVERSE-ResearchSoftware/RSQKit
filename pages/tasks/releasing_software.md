@@ -6,7 +6,7 @@ page_id: releasing_software
 related_pages:
   tasks: [software_identifiers, packaging_software, publishing_software]
 quality_indicators: [has_releases, versioning_standards_use]
-keywords: ["release software", "releasing software", "releasing code", "release code"]
+keywords: ["release", "releasing software", "releasing code", "release code"]
 
 ---
 

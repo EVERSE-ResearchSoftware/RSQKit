@@ -6,7 +6,7 @@ page_id: structuring_software_projects
 related_pages:
   tasks: [citing_software, creating_good_readme, documenting_software, software_metadata]
 quality_indicators: [software_has_documentation]
-keywords: ["software project", "organising software project"]
+keywords: ["software project"]
 ---
 
 ## Why does structuring your software project matter?

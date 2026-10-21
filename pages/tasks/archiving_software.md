@@ -6,7 +6,7 @@ page_id: archiving_software
 quality_indicators: [archived_in_software_heritage, archived_in_scholarly_repository, listed_in_registry]
 related_pages:
   tasks: [publishing_software, software_identifiers, software_metadata, documenting_software, licensing_software]
-keywords: ["archiving software", "software preservation"]
+keywords: ["archiving software", "software preservation", "zenodo", "publication", "software heritage"]
 ---
 
 
