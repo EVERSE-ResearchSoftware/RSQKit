@@ -95,7 +95,7 @@ This alignment demonstrates how the three-tier model can guide the development o
 By mapping specific SMP requirements to each tier, researchers and institutions can enhance the quality and sustainability of research software across all levels of complexity and scope.
 
 ## Research software quality guidance for each RS tier
-Each research software tier may have different quality expectations from different communities, making it difficult to suggest a consensus of which indicators should a tier address. Based on votes from experts of different communities in EVERSE, a first tiers-to-indicators alignment has been proposed in the [following page](https://everse.software/indicators/website/rs_tiers.html). The alignment is presented as a table, in which each indicator is labelled as "crucial", "recommended", "good to have" or "not relevant" for a given tier. 
+Each research software tier may have different quality expectations from different communities, making it difficult to suggest a consensus of which indicators should a tier address. Based on votes from experts of different communities in EVERSE, an [alignment between research software tiers and quality indicators has been proposed](https://everse.software/indicators/website/rs_tiers.html). The alignment is presented as a table, in which each indicator is labelled as "crucial", "recommended", "good to have" or "not relevant" for a given tier.
 
 Additional guidance on which task pages may be browsed to address or improve a given quality indicator, together with its corresponding recommendation for each tier, is available in the [all indicators page](all_indicators) in the RSQKit.
 
