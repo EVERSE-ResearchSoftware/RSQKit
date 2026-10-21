@@ -65,7 +65,7 @@ For example, "Unit Test Coverage" is one of the indicators for the Reliability d
 
 See the related page on [software quality dimensions in RSQKit](quality_dimensions) where we cover the [definitions of the dimensions](quality-dimensions) and links to associated tools in [TechRadar](techradar).
 
-See the [all indicators page](all_indicators) where we list [software quality indicators](indicators), their definitions and related RQDKit task pages.
+See the [all indicators page](all_indicators) where we list [software quality indicators](all_indicators), their definitions and related RSQKit task pages.
 
 The EVERSE project (the home of RSQKit) is working on formally defining a number of research software [quality dimensions][quality-dimensions] and their associated [indicators](https://w3id.org/everse/i/indicators) (which are to be used to assess the quality of software), based on [existing work on ensuring software quality][ensuring-software-quality] and [ISO standards for software and data quality][iso-25010].
 
