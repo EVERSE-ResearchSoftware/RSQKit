@@ -6,7 +6,7 @@ page_id: reproducible_software_environments
 related_pages:
   tasks: [computational_workflows]
 quality_indicators: [requirements_specified, software_is_containerized]
-keywords: ["reproducible environment", "reproducibility", "virtual environment", "docker", "singularity"]
+keywords: ["reproducible environment", "reproducibility", "virtual environment", "docker", "singularity", "container"]
 ---
 
 
