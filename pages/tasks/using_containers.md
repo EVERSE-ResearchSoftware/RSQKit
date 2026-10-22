@@ -6,7 +6,7 @@ page_id: using_containers
 related_pages: 
   tasks: [ci_cd]
 quality_indicators: [software_is_containerized]
-keywords: ["container", "docker", "apptainer", "software packaging", "portability", "containerization", "software deployment", "reproducible environment"]
+keywords: ["container", "docker", "apptainer", "software packaging", "portability", "software deployment", "reproducible environment"]
 training:
   - name: "EVERSE TeSS"
     registry: TeSS

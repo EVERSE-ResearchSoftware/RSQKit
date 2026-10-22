@@ -6,7 +6,7 @@ page_id: documenting_software_readthedocs
 related_pages:
   tasks: [documenting_code, software_documentation]
 quality_indicators: [software_has_documentation]
-keywords: ["documentation", "readthedocs", "read the docs"]
+keywords: ["documentation", "readthedocs"]
 
 ---
 
