@@ -4,7 +4,7 @@ description: How to prepare a software management plan?
 contributors: ["Marek Suchánek", "Eva Martín del Pico", "Vassilios Ioannidis", "Carlos Martinez Ortiz"] 
 page_id: software_management_planning
 quality_indicators: []
-keywords: ["software management plan", "smp", "research software management", "best practices", "planning"]
+keywords: ["software management plan", "smp", "research software management", "good practices", "planning"]
 ---
 
 ### Description 
