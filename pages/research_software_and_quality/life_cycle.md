@@ -8,12 +8,13 @@ coordinators: ["Aleksandra Nenadic"]
 
 The research software lifecycle provides a model for understanding the different phases encountered during the development of research software.
 
-<div class="mt-5 d-flex justify-content-center">
+<div class="d-flex justify-content-center">
 
 <svg
         id="research-software-lifecycle-index"
         data-name="research-software-lifecycle-index"
         viewBox="0 0 632.32 710.94"
+        width="75%"
         version="1.1"
         sodipodi:docname="rs-lifecycle (1).svg"
         inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
