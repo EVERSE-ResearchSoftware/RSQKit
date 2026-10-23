@@ -52,8 +52,6 @@ Organise the rest of the software project's file into **sub-directories** clearl
 For example:
 
   - `code` (or `scripts` or `src`) directory for storing your source code.
-    If your workflow has several steps, use separate subdirectories such as `src/prepare_data`, `src/analyse`, and `src/plot`, with shared code in `src/utils`.
-    This makes each step easier to find and lets automation scripts select the code for a whole step without listing individual files.
   - `data` folder to store your data. Further organise raw, cleaned, intermediate, and/or processed data in separate subdirectories (e.g. `data/raw`, `data/clean`, `data/processed`) to maintain clarity and prevent overwriting or losing the original raw data.
   - `results` folder for storing analysis outputs, summary statistics, or any data generated after processing.
   - `doc` folder for storing various [software documentation and guides][software_documentation].
@@ -109,6 +107,10 @@ project_name/
 └── ...
 ```
 
+For an example of organising code within an analytical pipeline, see [NHS England's example Reproducible Analytical Pipeline in R][nhs-rap-example].
+It groups code into directories such as `src/data_ingestion` and `src/data_processing`, reflecting stages of that pipeline.
+This is one approach for an analytical project, rather than a general recommendation for structuring reusable software packages.
+
 For research projects that contain Python code - check out the following two tools:
 
 - {% tool 'fair-python-cookiecutter' %} is a command-line template tool that can help you set up a Python software project skeleton that uses modern state-of-the-art development tools and helps you follow best practices for code and metadata quality. It generates project directories from predefined templates and ensures consistency by scaffolding a standardised project layout, including folders like `src/` for code, `tests/` for tests (shown below), and configuration files such as `pyproject.toml`, `README`, and `.gitignore`. This is especially helpful for teams or when starting new software projects, as it reduces setup time and enforces best practices.
@@ -150,3 +152,4 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 [citing_software]: ./citing_software
 [turing-project-design]: https://book.the-turing-way.org/project-design/pd-overview/project-repo/project-repo-advanced/
 [directory-structure-poetry]: https://medium.com/@sjalexandre/python-tutorial-managing-projects-with-poetry-cd2deab72697
+[nhs-rap-example]: https://github.com/nhsengland/RAP_example_pipeline_r
