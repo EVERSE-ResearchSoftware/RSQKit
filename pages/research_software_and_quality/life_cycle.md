@@ -1892,7 +1892,8 @@ Separating preservation from active software development therefore supports sust
 While [software is worth being published per se][publishing_software], currently in research, the publication of research software usually accompanies the completion and publication of a document such as a student thesis, scientific article or project report.
 Further ingredients such as input and result data, containers, notebooks, or workflow descriptions should ideally yield an integrated research compendium/object.
 Research software should in itself be citable and should be referenced in the document.
-Research software engineers (RSEs) often play an important role in developing the software, without necessarily becoming co-author of the resulting papers or datasets.
+
+Research software engineers (RSEs) often play an important role in developing the software, without necessarily becoming co-authors of the resulting papers or datasets.
 It is therefore important to give them recognition for their contributions through software citation.
 In addition to publishing the software itself, various dedicated journals exist that offer the service of publishing research software papers (e.g. [Journal of Open Source Software](https://joss.theoj.org/), [Journal of Open Research Software](https://openresearchsoftware.metajnl.com/), [SoftwareX](https://www.journals.elsevier.com/softwarex/)).
 The publication/deployment stage of research software can be facilitated by, e.g., (i) CD frameworks, (ii) publication services, (iii) archival services or (iv) training and support services, (v) [research software directories](https://github.com/research-software-directory).
