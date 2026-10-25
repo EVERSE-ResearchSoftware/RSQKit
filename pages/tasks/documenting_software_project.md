@@ -1,10 +1,10 @@
 ---
-title: Documenting software project
+title: Documenting a software project
 description: How to write clear and useful software project documentation for end-users and collaborators?
 contributors: ["Azza Gamgami", "Aleksandra Nenadic", "Laura Portell-Silva"]
 page_id: documenting_software_project
 related_pages:
-  tasks: [software_documentation, documenting_code, documenting_software_readthedocs, creating_good_readme]
+  tasks: [software_documentation, documenting_code, documenting_software_readthedocs, creating_good_readme, code_of_conduct]
 quality_indicators: [software_has_documentation]
 keywords: ["software documentation", "documentation", "code documentation"]
 
@@ -46,20 +46,21 @@ Not all of the items below carry equal weight, so treat them as three tiers rath
 
 * README - a text or Markdown file in the project root that introduces and explains a project and explains the basic functionality, dependencies and usage of your software. README
 also acts as a homepage for your project on code sharing platforms such as GitHub and GitLab.
-See more on [how to create a good README document for your software project](https://everse.software/RSQKit/creating_good_readme).
+See more on [how to create a good README document for your software project][creating_good_readme].
 * Installation instructions (INSTALL) - a text or Markdown file in the project root that provides steps on how to download and/or run software. This information can also be a section in the README.
 
 **Recommended once you want your software reused or cited:**
 
 * Licensing (LICENSE) - a text or Markdown file in the project root that lets users know under what legal conditions they are allowed to use the software. Without this, others may not be legally able to reuse your code even if they want to.
-See more on [how to license your software project](https://everse.software/RSQKit/licensing_software).
+See more on [how to license your software project][licensing_software].
 * Software citation (CITATION) - a CFF, text or Markdown file in the project root that lets people know how to cite or credit your software. In research, citation is often the main form of credit you get for software work, so this is worth setting up early.
-See more on [how to cite your software project](https://everse.software/RSQKit/citing_software).
+See more on [how to cite your software project][citing_software].
 
 **Needed once your project has, or expects, multiple contributors:**
 
 * Contributing guidelines (CONTRIBUTING) - a text or Markdown file in the project root that describes how people can contribute to the development of software and get involved in the project.
 * Code of Conduct (CODE_OF_CONDUCT) - a text or Markdown file in the project root that helps create and maintain a collaboration environment that promotes participation, collaboration and exchange of ideas, while fostering respect among developers.
+See more on [creating and enforcing a code of conduct][code_of_conduct].
 * List of all authors and contributors to the software - e.g. listed under a section in README or in a separate file AUTHORS/CONTRIBUTORS in the project root, or a pointer to a list of project collaborators.
 * Changelog and release notes - a text file that contains a record of what notable changes are made between versions of software.
 
@@ -84,3 +85,4 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 [citing_software]: ./citing_software
 [creating_good_readme]: ./creating_good_readme
 [licensing_software]: ./licensing_software
+[code_of_conduct]: ./code_of_conduct
