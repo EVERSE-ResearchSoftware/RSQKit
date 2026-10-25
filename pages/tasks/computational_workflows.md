@@ -114,7 +114,7 @@ It simplifies workflow sharing, supports interoperability, and is especially use
 ## Integration with the FAIR principles
 
 As digital objects to be shared, discovered, and reused, computational workflows benefit from adhering to [the FAIR principles][fair-rs] in general and specifically the [FAIR recommendations for workflows][fair-for-workflows].
-It can maximise their quality and value as research assets and facilitate their adoption by the wider community, which is essential for [modern research data management][rmdkit].
+It can maximise their quality and value as research assets and facilitate their adoption by the wider community, which is essential for [modern research data management][rdmkit].
 
 The[ Workflows Community Initiative’s FAIR Workflows Working Group (WCI-FW)][WCI-FW], a global and open community of researchers and developers working with computational workflows across disciplines and domains, has systematically addressed the application of both FAIR data and software principles to computational workflows.
 
