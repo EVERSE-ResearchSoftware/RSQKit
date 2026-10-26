@@ -1,27 +1,27 @@
 ---
-title: "Fostering diversity, equity, and inclusion in research software projects"
-description: "Practical guidance for research software projects on diversity, equity, and inclusion (DEI), covering inclusive contribution processes, accessible documentation and onboarding, support for underrepresented contributors, governance, and event accessibility, with attention to the academic power dynamics specific to research software."
+title: "Fostering equity, diversity, and inclusion in research software projects"
+description: "Practical guidance for research software projects on equity, diversity, and inclusion (EDI), covering inclusive contribution processes, accessible documentation and onboarding, support for underrepresented contributors, governance, and event accessibility, with attention to the academic power dynamics specific to research software."
 contributors: ["Gavin Pringle"]
-page_id: diversity_equity_inclusion
+page_id: equity_diversity_inclusion
 related_pages:
   tasks: [documenting_software_project, software_management_planning, credit_recognition_research_software]
 quality_indicators: [has_contribution_guidelines, has_active_contributors, has_active_communication_channels, response_timeframe_ok]
-keywords: ["diversity", "equity", "inclusion", "dei", "accessibility", "code of conduct", "underrepresented groups", "open source governance"]
+keywords: [ "equity", "diversity", "inclusion", "dei", "edi", "accessibility", "code of conduct", "underrepresented groups", "open source governance"]
 ---
 
-## How do you foster diversity, equity, and inclusion in your research software project?
+## How do you foster equity, diversity, and inclusion in your research software project?
 
-This page briefly outlines why diversity, equity, and inclusion (DEI) matter specifically for research software, and then gives practical guidance across contributions, documentation, governance and community activities.
+This page briefly outlines why equity, diversity, and inclusion (EDI) matter specifically for research software, and then gives practical guidance across contributions, documentation, governance and community activities.
 
-- Diversity refers to the range of backgrounds, identities, and perspectives represented in your project.
 - Equity refers to fair access to opportunities and resources, accounting for the fact that people start from different positions.
+- Diversity refers to the range of backgrounds, identities, and perspectives represented in your project.
 - Inclusion refers to whether people who are present can actually participate fully and feel they belong.
 
 A project can be demographically diverse while still being inequitable, for example, only contributors with institutional funding can attend in-person events. As such, the three need to be considered together rather than treating diversity alone as the goal.
 
-Research software is typically developed within academic structures, such as laboratories, research grants, and supervisory relationships, that introduce power dynamics beyond those found in traditional open source communities. Hierarchies between principal investigators (PIs), postdocs, research software engineers, and students influence who can safely raise concerns, propose code changes, or challenge technical decisions without risking their funding, supervision, or career prospects. Because these institutional structures persist, treating diversity, equity, and inclusion as an ongoing practice rather than a static policy is essential, ensuring that governance, contribution pathways, and community processes actively mitigate these inherent imbalances.
+Research software is typically developed within academic structures, such as laboratories, research grants, and supervisory relationships, that introduce power dynamics beyond those found in traditional open source communities. Hierarchies between principal investigators (PIs), postdocs, research software engineers, and students influence who can safely raise concerns, propose code changes, or challenge technical decisions without risking their funding, supervision, or career prospects. Because these institutional structures persist, treating equity, diversity, and inclusion as an ongoing practice rather than a static policy is essential, ensuring that governance, contribution pathways, and community processes actively mitigate these inherent imbalances.
 
-DEI is closely linked to software sustainability, quality, and innovation. Projects accessible to a broad range of contributors attract and retain maintainers while preventing knowledge concentration. Furthermore, varied backgrounds and life experiences bring diverse perspectives to light, helping to identify requirements, reveal unaddressed use cases, and inspire distinct solutions.
+EDI is closely linked to software sustainability, quality, and innovation. Projects accessible to a broad range of contributors attract and retain maintainers while preventing knowledge concentration. Furthermore, varied backgrounds and life experiences bring diverse perspectives to light, helping to identify requirements, reveal unaddressed use cases, and inspire distinct solutions.
 
 ## How do you design inclusive contribution processes?
 
@@ -87,10 +87,10 @@ Sustained support, rather than one-time outreach effort, determines whether cont
 - Under GDPR, whenever you collect demographic data, you must be completely transparent by explaining why you need it, who can access it, how you plan to use it, and how long you will keep it. Always make sure these questions are very easy to skip, and never make attending or participating depend on answering them.
 - Use collected data to drive real action rather than just report on numbers. Spotting participation gaps helps you adjust outreach and invite presenters or chairs from underrepresented groups; visible representation shows newcomers they are truly welcome. This targeted recruitment is known as positive action, though it is always worth checking local regulations and funder policies first, as permissible practices vary by jurisdiction.
 
-## How do you build DEI into your project's governance?
+## How do you build EDI into your project's governance?
 
 ### Description
-Governance, that is, who makes decisions, how leadership roles are filled, how disputes are resolved, etc., determines whether DEI commitments endure or rely solely on individual advocates.
+Governance, that is, who makes decisions, how leadership roles are filled, how disputes are resolved, etc., determines whether EDI commitments endure or rely solely on individual advocates.
 To mitigate academic hierarchies and informal control by grant holders, writing governance down ensures decision-making processes remain transparent and survive changes in personnel.
 
 ### Considerations
@@ -130,23 +130,23 @@ Event accessibility spans physical access, scheduling, financial cost, and the s
 - Design at least part of the agenda for decision-making sessions, Q&A, and voting, for instance, so remote attendees have a real role rather than only watching a stream. A chat-monitored question queue and a remote-attendee speaking slot are minimal ways to do this.
 - The chair repeats questions if unclear for remote participants, and quality checks (sound, bandwidth, etc.) are run before remote presentations are delivered.
 
-## How do you find good DEI resources and frameworks for your project?
+## How do you find good EDI resources and frameworks for your project?
 
 ### Description
-DEI in open source and research software is an active area with established communities producing practical, freely available guidance. You do not need to design your approach from first principles.
+EDI in open source and research software is an active area with established communities producing practical, freely available guidance. You do not need to design your approach from first principles.
 
 Using existing frameworks gives you a tested starting point and a shared vocabulary with other projects, rather than reinventing terminology and practices on a project-by-project basis.
 
-The two resources below are specifically curated for open source and research-adjacent communities, which makes them a more direct fit than general DEI material aimed at other industries.
+The two resources below are specifically curated for open source and research-adjacent communities, which makes them a more direct fit than general EDI material aimed at other industries.
 
 ### Considerations
-- DEI resource quality varies widely. Prefer resources maintained by communities with direct open source or research software experience over generic corporate material, as the specific barriers in these environments differ.
+- EDI resource quality varies widely. Prefer resources maintained by communities with direct open source or research software experience over generic corporate material, as the specific barriers in these environments differ.
 - A resource hub or checklist is most useful as a starting point for prioritisation, rather than a compliance list to complete in full; a few well-implemented changes typically prove more effective than many superficial ones.
 - Frameworks built for general open source communities remain valuable, though you should adapt them to mitigate academic hierarchies.
-- Revisit these resources periodically. DEI practice in open source continues to evolve, and an actively maintained resource hub will reflect those developments far better than a static document from several years ago.
+- Revisit these resources periodically. EDI practice in open source continues to evolve, and an actively maintained resource hub will reflect those developments far better than a static document from several years ago.
 
 ### Solutions
-- Browse the [All In for Maintainers DEI Resource Hub](https://allinopensource.org/maintainers/DEI-resources/), a curated collection of DEI resources for open source maintainers covering accessibility, community building, codes of conduct, inclusive language, and governance. Use its topic index to find material relevant to whichever subtopic on this page you want to explore further.
+- Browse the [All In for Maintainers EDI Resource Hub](https://allinopensource.org/maintainers/EDI-resources/), a curated collection of EDI resources for open source maintainers covering accessibility, community building, codes of conduct, inclusive language, and governance. Use its topic index to find material relevant to whichever subtopic on this page you want to explore further.
 - If your project runs events of any kind, work through the [NumFOCUS DISCOVER Cookbook](https://discover-cookbook.numfocus.org/intro.html). Built specifically for organisers of scientific computing conferences and events, it explicitly distinguishes high-impact, low-effort actions from larger commitments so you can prioritise realistically.
 - Treat both resources as living references to return to as your project grows, rather than a one-time read, since they are updated as practice in the field evolves.
 
@@ -154,7 +154,7 @@ The two resources below are specifically curated for open source and research-ad
 
 - **[The Turing Way: Diversity and Inclusion](https://book.the-turing-way.org/index.html)** — An open, collaboratively written handbook on reproducible and inclusive research practice, featuring chapters on equity and inclusion written specifically for research and research software contexts.
 - **[GitHub's Open Source Guides: Building Welcoming Communities](https://opensource.guide/building-community/)** — Practical, example-driven guidance on growing a healthy contributor base; a useful general complement to the research-specific resources above.
-- **[corsa-center/oss-documents](https://github.com/corsa-center/oss-documents)** — A community-maintained collection of governance, contributing, code of conduct, and DEI resources for open source projects, including the two resources above alongside related material on governance and contribution documents.
+- **[corsa-center/oss-documents](https://github.com/corsa-center/oss-documents)** — A community-maintained collection of governance, contributing, code of conduct, and EDI resources for open source projects, including the two resources above alongside related material on governance and contribution documents.
 - **[GDPR Article 9: Processing of special categories of personal data](https://gdpr-info.eu/art-9-gdpr/)** — The official regulation text, with commentary, covering sex, racial or ethnic origin, sexual orientation, and other sensitive categories; the right starting point before adding any demographic question to an event registration form, since it sets out when such data can be collected and what conditions apply.
 
 ## AI Disclosure
