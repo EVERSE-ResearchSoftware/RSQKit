@@ -146,3 +146,4 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 [Docker reference docs for CLI, APIs, and platform behaviors]: https://docs.docker.com/reference/
 [RedHat containerization]: https://www.redhat.com/en/topics/containers
 [Apptainer user guide]: https://apptainer.org/docs/user/latest/index.html
+[ci_cd]: ./ci_cd
