@@ -79,7 +79,7 @@ The term research software infrastructure used in the model was influenced by th
 
 Since its introduction, the model has gained international recognition.
 It has been referenced in various contexts, including the ["FAIR Principles for Research Software (FAIR4RS Principles)"](https://doi.org/10.1038/s41597-022-01710-x).
-Similar tiered approaches have been adopted by other organisations, such as the German Aerospace Centre (DLR) in their ["Software Engineering Guidelines"](https://doi.org/10.5281/zenodo.1344612).
+Similar tiered approaches have been adopted by other organisations, such as the German Aerospace Center (DLR) in their ["Software Engineering Guidelines"](https://doi.org/10.5281/zenodo.1344612).
 
 The three-tier model aligns with a broader vision of recognising research software as a first-class output of research.
 It provides a framework for addressing specific challenges at each tier, from increasing transparency in analysis code to enabling broad impact through quality prototype tools and ensuring sustained support for research software infrastructure.
