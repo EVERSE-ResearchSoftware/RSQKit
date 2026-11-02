@@ -39,7 +39,7 @@ Below are some established good practices for setting up and maintaining a softw
 
 Put all files related to the project into a **single directory** and choose a meaningful name for it that reflects the project’s purpose or topic.
 
-**Top-level directory** of the project should contain various auxiliary information and metadata about your software, making it easy for others to find out what it does and how to reuse it.
+The **Top-level directory** of the project should contain various auxiliary information and metadata about your software, making it easy for others to find out what it does and how to reuse it.
 This information is especially important as you start sharing your work with others - e.g. as a repository on code sharing platforms such as {% tool "github" %} or {% tool "gitlab" %}.
 For example:
 
@@ -48,7 +48,7 @@ For example:
   - [`CITATION.cff`][cff] file to describe how to cite the project - see more on [citing software][citing_software].
   - `codemeta.json` file (or similar metadata standard) to describe your software's metadata - see more on [software metadata][software_metadata].
 
-Organise the rest of the software project's file into **sub-directories** clearly labelled based on the type of their content.
+Organise the rest of the software project's files into **sub-directories** clearly labelled based on the type of their content.
 For example:
 
   - `code` (or `scripts` or `src`) directory for storing your source code.
