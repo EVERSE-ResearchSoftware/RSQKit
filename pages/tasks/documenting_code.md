@@ -26,7 +26,7 @@ Check ["How to Write Software Documentation in 7 Simple Steps"](https://technica
 * Software documentation should be accessible, clear, consistent, regularly updated, cover all key software aspects and encourage feedback.
   For example, it can include: source code documentation, requirements specifications, software architecture, installation and usage, command line interface (CLI), API specification, deployment guide, tutorials and how-to guides, troubleshooting guides and FAQs.
 * It should be automatically generated where possible, and use standard documentation formats such as (R)Markdown, reStructuredText, HTML, PDF, or wikis.
-* Each piece of code documentation serves a distinct purpose and is aimed at different technical audience:
+* Each piece of code documentation serves a distinct purpose and is aimed at different technical audiences:
   * *Developers* – who create, modify, debug, and maintain software applications.
   * *Administrators* – who are responsible for installing, configuring, deploying and administering software systems.
   * *Testers* – who test the code according to its specification.
