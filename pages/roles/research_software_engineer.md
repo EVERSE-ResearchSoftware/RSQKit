@@ -13,6 +13,10 @@ The tasks and responsibilities in this role can vary significantly depending on 
 
 RSEs have a deeper understanding of engineering practices, performance, software quality and tooling and work alongside researchers to translate scientific problems into robust software solutions and are often required to work across multiple projects or domains.
 
+What sets RSEs apart from software engineers is not just that they work within research, but that they are part of the research process. Some RSEs are, in fact, active researchers themselves, e.g. as expert innovators in their own digital domains. Many RSEs have a research background, e.g. as PhDs or postdocs. Their knowledge and experience from both the research and software worlds is what makes them especially well suited as bridge builders between the two fields.
+
+RSEs may work day-to-day in a number of different ways, which will often depend on how they are employed within the institution they work for. RSEs may be embedded within a particular research group in an academic field they are interested in, or they may work in a centralised team associated with their institution's Professional Services, or even a mixture of the two. A centralised team offers the benefit of drawing on the expertise of other RSEs working in the same institution, allowing for a organisational structure that means those with more experience of research and software engineering can manage projects, individuals working on those projects, and services which cut across multiple projects the centralised team as a whole is working on.
+
 ## Software development & quality responsibilities, challenges & tasks
 
 Main responsibilities and common challenges of this role in relation to research software development and Research Software Quality include:
