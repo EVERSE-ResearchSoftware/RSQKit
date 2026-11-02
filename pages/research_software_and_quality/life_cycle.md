@@ -398,7 +398,7 @@ It can include the following activities:
 - **Implementation**: write the code for the software, following the design and requirements.
 - **Code review**: review the code to ensure it meets the quality standards and follows the design.
 
-Development can be done in an iterative way, where the software is developed in small increments, and each increment is tested and reviewed before moving on to the next one.
+Development can be done in an iterative, agile, way, where the software is developed in small increments, and each increment is tested and reviewed before moving on to the next one.
 Another approach is to use a more traditional waterfall model, where the software is developed in a linear way, with each stage completed before moving on to the next one.
 In single-person projects such as student thesis, implementation is naturally performed in a more sequential manner.
 
@@ -513,7 +513,7 @@ There may be a large group of external users who depend on the software without 
 Proper development planning and community management should be used to organise the team members, collect user feedback, and ensure a regular release cycle.
 This tier requires the most advanced software engineering techniques to ensure a smooth development process, quality, and long term maintainability.
 For online services or mission critical software that require continuous operation, special software engineering methods such as DevOps and CI/CD are needed.
-To ensure the long term sustainability of the software, governance model and funding or business model are required.
+To ensure the long term sustainability of the software, a governance model and a funding or business model are required.
 
 [ci_cd]: ./ci_cd
 [software_documentation]: ./software_documentation
