@@ -30,8 +30,8 @@ Let's have a quick look into what each of the above principle means in practice.
 - [Create a description of your software][software_metadata] to make it discoverable by search engines and other search tools
 - Use standards (such as {% tool "codemeta" %}) to describe interoperable metadata for your software (see [Research Software Metadata Guidelines][rsmd-g1])
 - Place your software in a public software repository (and ideally register it in a [general-purpose or domain-specific software registry][software-registries])
-- Use a unique and persistent identifiers for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by {% tool "software-heritage" %}. 
-In addition to findability of your software, identifiers can help you get credit for your work by providing citable references.
+- Use a unique and persistent identifier for your software, such as **Digital Object Identifiers** (DOIs) provided by {% tool "zenodo" %}, {% tool "figshare" %}, or **SoftWare Heritage persistent IDentifiers** ([SWHID](swhid)) provided by {% tool "software-heritage" %}.
+In addition to improving the findability of your software, identifiers can help you get credit for your work by providing citable references.
 - More broadly, use software sharing and collaborative platforms, as they facilitate code publication, sharing and findability:
   - general-purpose software repositories - {% tool "github" %} and {% tool "gitlab" %}
   - programming language-specific software repositories - {% tool "pypi" %} (for {% tool "python" %}) and {% tool "cran" %} (for R)
@@ -39,8 +39,8 @@ In addition to findability of your software, identifiers can help you get credit
 
 ### How can we make our software accessible?
 
-- Make sure people can obtain get a copy your software using standard communication protocols (e.g. HTTP, FTP, etc.)
-- The code and its description (metadata) should be available even when the software is no longer actively developed (this includes earlier versions of the software) - see [software archiving][archiving_software]
+- Make sure people can obtain your software using standard communication protocols (e.g. HTTP, FTP, etc.)
+- The code and its description (metadata) should be available even when the software is no longer actively developed (this includes earlier versions of the software) - see [archiving software][archiving_software]
 
 ### How can we make our software interoperable?
 
@@ -71,7 +71,7 @@ There are various tools and practices that support the development of FAIR resea
 These tools and practices work together, as no single tool or practice will fully address one principle, but can contribute to multiple principles simultaneously.
 
 It is important to note that while FAIR can improve software quality in several aspects - it does not say anything about its functionality.
-This mean that software may be FAIR, but still not very good in terms of what it does - other practices need to be employed (e.g. [testing software][testing_software]) to make sure it works on different platforms/operating systems and that it is correct and does what it is set out to do.
+This means that software may be FAIR, but still not very good in terms of what it does - other practices need to be employed (e.g. [testing software][testing_software]) to make sure it works on different platforms/operating systems and that it is correct and does what it is set out to do.
 
 Tools and frameworks exist for assessing software FAIRness:
 
@@ -82,7 +82,7 @@ Tools and frameworks exist for assessing software FAIRness:
 - [Common metrics for Research Software][fair-metrics] that may used to assess each of the FAIR4RS principles
 - {% tool "rsfc" %} - a command line interface to automatically evaluate the FAIRness of a Github or Gitlab repository
 
-They not meant to criticise or discredit software or its authors. 
+These tools are not meant to criticise or discredit software or its authors.
 Their role is to make quality aspects visible, help researchers identify strengths and areas for improvement, and support the evolution of good practices. 
 In the context of research software, such assessments are diagnostic rather than evaluative — they guide reflection, transparency, and learning, not scoring or ranking. 
 By using them, researchers can better understand how their software performs across different aspects of FAIRness and make informed decisions about how to improve it.
@@ -120,7 +120,7 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 [software_documentation]: ./software_documentation
 [licensing_software]: ./licensing_software
 [documenting_code]: ./documenting_code
-[archiving_software.md]: ./archiving_software
+[archiving_software]: ./archiving_software
 [testing_software]: ./testing_software
 [citing_software]: ./citing_software
 [software_project_structure]: ./software_project_structure
