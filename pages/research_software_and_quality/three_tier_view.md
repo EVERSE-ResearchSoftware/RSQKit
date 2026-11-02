@@ -79,7 +79,7 @@ The term research software infrastructure used in the model was influenced by th
 
 Since its introduction, the model has gained international recognition.
 It has been referenced in various contexts, including the ["FAIR Principles for Research Software (FAIR4RS Principles)"](https://doi.org/10.1038/s41597-022-01710-x).
-Similar tiered approaches have been adopted by other organisations, such as the German Aerospace Center (DLR) in their ["Software Engineering Guidelines"](https://doi.org/10.5281/zenodo.1344612).
+Similar tiered approaches have been adopted by other organisations, such as the German Aerospace Centre (DLR) in their ["Software Engineering Guidelines"](https://doi.org/10.5281/zenodo.1344612).
 
 The three-tier model aligns with a broader vision of recognising research software as a first-class output of research.
 It provides a framework for addressing specific challenges at each tier, from increasing transparency in analysis code to enabling broad impact through quality prototype tools and ensuring sustained support for research software infrastructure.
@@ -89,13 +89,13 @@ It suggests that practices, tools, and assessment criteria may need to be adjust
 The essence of the three-tier model is that software in different tiers has distinct purposes, stakeholders, and needs.
 This nuanced approach allows for more appropriate development, management, and assessment strategies tailored to each tier.
 
-The three-tier of research software aligns closely with practical Software Management Plan (SMP) frameworks.
+The three-tier model of research software aligns closely with practical Software Management Plan (SMP) frameworks.
 As outlined in the ["Practical Guide to Software Management Plans"](https://doi.org/10.5281/zenodo.7038280), SMPs can be tailored to low, medium, and high management levels, corresponding to analysis code, prototype tools, and research software infrastructure respectively.
 This alignment demonstrates how the three-tier model can guide the development of appropriate management practices for different types of research software, ensuring that software management efforts are appropriately scaled to the nature and intended use of the software.
 By mapping specific SMP requirements to each tier, researchers and institutions can enhance the quality and sustainability of research software across all levels of complexity and scope.
 
 ## Research software quality guidance for each RS tier
-Each research software tier may have different quality expectations from different communities, making it difficult to suggest a consensus of which indicators should a tier address. Based on votes from experts of different communities in EVERSE, an [alignment between research software tiers and quality indicators has been proposed](https://everse.software/indicators/website/rs_tiers.html). The alignment is presented as a table, in which each indicator is labelled as "crucial", "recommended", "good to have" or "not relevant" for a given tier.
+Each research software tier may have different quality expectations from different communities, making it difficult to suggest a consensus of which indicators a tier should address. Based on votes from experts of different communities in EVERSE, an [alignment between research software tiers and quality indicators has been proposed](https://everse.software/indicators/website/rs_tiers.html). The alignment is presented as a table, in which each indicator is labelled as "crucial", "recommended", "good to have" or "not relevant" for a given tier.
 
 Additional guidance on which task pages may be browsed to address or improve a given quality indicator, together with its corresponding recommendation for each tier, is available in the [all indicators page](all_indicators) in the RSQKit.
 
