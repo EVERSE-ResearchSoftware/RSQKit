@@ -1,5 +1,6 @@
 ---
 search_exclude: true
+sidebar: false
 layout: home
 ---
 
@@ -33,7 +34,7 @@ layout: home
     <section class="bg-light pb-5">
         <div class="container g-lg-5">
             <h2 class="no-anchor text-center mb-3 homepage-heading">Browse all topics by</h2>
-            {%- assign sidebar = site.data.sidebars[page.sidebar] %}
+            {%- assign sidebar = site.data.sidebars.main %}
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
                 {%- for folder in sidebar.subitems %}
                     <div class="col">
