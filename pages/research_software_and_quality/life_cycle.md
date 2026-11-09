@@ -402,6 +402,14 @@ Development can be done in an iterative, agile, way, where the software is devel
 Another approach is to use a more traditional waterfall model, where the software is developed in a linear way, with each stage completed before moving on to the next one.
 In single-person projects such as student thesis, implementation is naturally performed in a more sequential manner.
 
+#### Starter tasks
+
+- [Use virtual environments when developing your software][reproducible_software_environments]
+- [Version control your software][version_control]
+- [Conduct regular code reviews][code_review]
+- [Test your software][testing_software]
+- [Profile and optimise your code to improve performance][performance_profiling_and_optimization]
+
 ### Software: QA & Documentation
 
 Some crucial aspects of the software development process are often overlooked, such as quality assurance (QA) and documentation.
@@ -409,6 +417,12 @@ QA is the process of ensuring that the software meets the quality standards and 
 Preferably, such QA processes are automated through [Continuous Integration][ci_cd].
 [Documentation][software_documentation] is the process of creating and maintaining the documentation for the software, including user manuals, API documentation, and developer guides.
 QA and documentation can be done in parallel with the development stage, or as a separate stage after the development is completed.
+
+#### Starter tasks
+
+- [Describe your software in a README file][creating_good_readme]
+- [Document your software][software_documentation]
+- [Describe your software using machine-readable metadata][software_metadata]
 
 ### Research: Use & Evaluation
 
@@ -434,6 +448,14 @@ Where possible, software should be made open source before platform integration 
 However, other distribution models are also possible. 
 For instance, when offering software as a service, a sustainable business model may be required — such as providing a free community edition alongside a professional version supported through service fees.
 
+#### Starter tasks
+
+- [Choose a licence for your software][licensing_software] 
+- [Publish your software for reuse][publishing_software]
+- [Release different versions of your software as development progresses][releasing_software]
+- [Package your software for easier distribution][packaging_software]
+- [Use Continuous Integration/Continuous Delivery tools for automated deployment][ci_cd]
+
 ### Research: Archiving
 
 Research artifact archival focuses on preserving diverse and more general research materials (text, data, objects) for historical/future use, emphasising context and provenance.
@@ -447,6 +469,11 @@ Software archival require specialised long-term repositories like {% tool "softw
 
 Archival services provide stable storage, persistent identifiers, curated metadata, and preservation policies that ensure software remains accessible and citable over time, even if development platforms, projects, or organisations change.
 Separating preservation from active software development therefore supports sustainability and reproducibility, and ensures that research software continues to deliver value and scholarly impact over time. 
+
+#### Starter tasks
+
+- [Describe your software using metadata][software_metadata]
+- [Archive your software for longer-term preservation][archiving_software]
 
 ### Research: Publication
 
@@ -479,6 +506,12 @@ It may include the following activities:
 - **Versioning**: manage the versions of the software, including tagging releases, maintaining a changelog, and managing dependencies.
 
 Issue tracking via a platform like GitHub can facilitate the collection of user feedback and bug reports.
+
+#### Starter tasks
+
+- [Release different versions of your software][releasing_software] over time as you fix bugs and add more features
+- [Future proof your software for easier long-term maintenance][future_proofing]
+- [Use Continuous Integration/Continuous Delivery tools for automated security checks and monitoring of your project][ci_cd]
 
 ### Research: Community Feedback
 
@@ -521,3 +554,15 @@ To ensure the long term sustainability of the software, a governance model and a
 [publishing_software]: ./publishing_software
 [software_metadata]: ./software_metadata
 [packaging_software]: ./packaging_software
+[code_review]: ./code_review
+[version_control]: ./using_version_control
+[releasing_software]: ./releasing_software
+[archiving_software]: ./archiving_software
+[licensing_software]: licensing_software
+[future_proofing]: ./future_proofing
+[computational_workflows]: ./computational_workflows
+[static_analysis]: ./static_analysis
+[dynamic_analysis]: ./dynamic_analysis
+[performance_profiling_and_optimization]: ./performance_profiling_and_optimization
+[creating_good_readme]: ./creating_good_readme
+[reproducible_software_environments]: ./reproducible_software_environments
