@@ -155,11 +155,11 @@ subitems:
         url: /fair_rs
       - title: "Using containers"
         url: /using_containers
-      - title: "Static Analysis"
+      - title: "Static analysis"
         url: /static_analysis
       - title: "Future proofing"
         url: /future_proofing
-      - title: "Dynamic Analysis"
+      - title: "Dynamic analysis"
         url: /dynamic_analysis
   - title: Guidance for AI
     description: Guidance and practices using AI when creating quality research software
