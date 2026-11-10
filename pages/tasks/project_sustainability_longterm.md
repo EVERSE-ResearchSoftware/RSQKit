@@ -4,7 +4,7 @@ description: How do you sustain your research software project long-term?
 contributors: ["Rena Bakhshi", "Deekshitha Kumbla"]
 page_id: sustain_long_term
 related_pages:
-  tasks: []
+  tasks: [software_maintenance, credit_recognition_research_software, software_management_planning]
 quality_indicators: []
 keywords: []
 ---
@@ -14,7 +14,7 @@ This page provides practical guidance on how you ensure your software project re
 
 ### Description
 Sustaining a research software project means ensuring that your software continues to meet its purpose over time.
-You must plan for maintenance, support, governance, funding, people, and community needs beyond the initial development phase.
+You must plan for [maintenance](/software_maintenance), support, governance, funding, people, and community needs beyond the initial development phase.
 Without explicit attention to software project sustainability, research software can become outdated, unsupported, or unusable after the project or grant that created it ends.
 
 ### Considerations
