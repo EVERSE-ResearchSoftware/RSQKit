@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [descriptive_metadata, codemeta_completeness]
 child_pages: [complete_software_metadata_codemeta]
 keywords: ["software metadata", "codemeta", "software citation", "cff"]
+stages: [release, archiving, publication]
 
 ---
 

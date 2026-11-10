@@ -7,6 +7,7 @@ related_pages:
   tasks: [software_documentation, documenting_software_project, citing_software]
 quality_indicators: [software_has_documentation]
 keywords: ["research software", "software sustainability", "research software stories"]
+stages: [feedback]
 ---
 
 ## Task
@@ -196,4 +197,3 @@ This is a suggested list tool-specific sub-tasks to have a look at.
 
 {% include section-navigation-tiles.html type="tasks" custom=child_pages sort=false col=2 %}
 {% endif %}
-

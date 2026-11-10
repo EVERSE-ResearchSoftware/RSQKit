@@ -7,6 +7,7 @@ related_pages:
   tasks: []
 quality_indicators: [software_has_license, software_has_license_for_file_types]
 keywords: ["license", "licence"]
+stages: [planning, release, archiving, publication]
 ---
 
 ## What is copyright and licensing?

@@ -7,6 +7,7 @@ related_pages:
   tasks: [computational_workflows]
 quality_indicators: [requirements_specified, software_is_containerized]
 keywords: ["reproducible environment", "reproducibility", "virtual environment", "docker", "singularity", "container"]
+stages: [design, development, quality_assurance, use_evaluation, release, archiving, maintenance]
 ---
 
 

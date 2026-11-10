@@ -9,6 +9,8 @@ related_pages:
 child_pages: [] # A comma-separated page_ids of the task pages that are children to the current page in some sense (describes either "task/subtask" relationship or "general task/task using specific tool or applied to domain" relationship)
 quality_indicators: [] # a comma separated list of indicators related to this page, according to the ids in https://w3id.org/everse/i/indicators/
 keywords: [] # a comma separated list of keywords related to this page (surround multi-word terms in quotes), e.g. keywords: ["ci", "cd", "continuous integration", "continuous deployment"] - these terms will be used to automatically discover relevant training
+roles: [] # a comma separated list of roles related to this page (taken from _data/task_filter_categories.yml)
+stages: [] # a comma separated list of lifecycle stages related to this page (taken from _data/task_filter_categories.yml)
 ---
 
 ```

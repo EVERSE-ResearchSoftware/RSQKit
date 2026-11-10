@@ -7,6 +7,8 @@ quality_indicators: [archived_in_software_heritage, archived_in_scholarly_reposi
 related_pages:
   tasks: [publishing_software, software_identifiers, software_metadata, documenting_software, licensing_software]
 keywords: ["archiving software", "software preservation", "zenodo", "publication", "software heritage"]
+stages: [archiving]
+roles: [principal_investigator, project_manager, policy_maker, researcher_who_codes, research_software_engineer]
 ---
 
 

@@ -7,6 +7,7 @@ related_pages:
   tasks: []
 quality_indicators: [software_has_tests, has_ci-tests, software_test_coverage, passed_tests_ok]
 keywords: ["software testing", "testing", "Unit tests", "code testing", "software test", "code test"]
+stages: [development, quality_assurance, use_evaluation, maintenance]
 
 ---
 

@@ -5,6 +5,7 @@ contributors: ["Marek Suchánek", "Eva Martín del Pico", "Vassilios Ioannidis",
 page_id: software_management_planning
 quality_indicators: []
 keywords: ["software management plan", "smp", "research software management", "good practices", "planning"]
+stages: [planning, requirements]
 ---
 
 ### Description 

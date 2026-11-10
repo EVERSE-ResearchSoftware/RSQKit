@@ -7,6 +7,7 @@ related_pages:
   tasks: [software_identifiers, packaging_software, publishing_software]
 quality_indicators: [has_releases, versioning_standards_use]
 keywords: ["release", "releasing software", "releasing code", "release code"]
+stages: [release, publication, maintenance]
 
 ---
 

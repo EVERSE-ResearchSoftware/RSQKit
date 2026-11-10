@@ -7,6 +7,7 @@ related_pages:
   tasks: [reproducible_software_environments]
 quality_indicators: [requirements_specified]
 keywords: ["computational workflows", "workflow", "wms", "galaxy", "snakemake", "nextflow", "apache-airflow", "wdl"]
+stages: [design, development]
 ---
 
 ## Motivation

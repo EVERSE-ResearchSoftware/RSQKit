@@ -7,6 +7,7 @@ related_pages:
   tasks: [software_documentation, documenting_code, documenting_software_readthedocs, creating_good_readme, code_of_conduct]
 quality_indicators: [software_has_documentation]
 keywords: ["software documentation", "documentation", "code documentation"]
+stages: [quality_assurance]
 
 ---
 

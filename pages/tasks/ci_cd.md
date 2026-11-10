@@ -6,6 +6,7 @@ page_id: ci_cd
 quality_indicators: [has_ci-tests]
 child_pages: [task_automation_github_actions, task_automation_gitlab_ci_cd, ci_testing_matrices, org_gitlab_ci_infra_for_github_project]
 keywords: ["ci", "cd", "continuous integration", "continuous deployment"]
+stages: [development, quality_assurance, release, maintenance]
 ---
 
 ### Description

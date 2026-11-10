@@ -8,7 +8,8 @@ related_pages:
 child_pages: [documenting_software_readthedocs]
 quality_indicators: [software_has_documentation, code_documentation_coverage_ok]
 keywords: ["documentation", "code documentation"]
-
+stages: [development, quality_assurance, maintenance]
+roles: [research_software_engineer, researcher_who_codes, trainer]
 ---
 
 ## How to document your code?

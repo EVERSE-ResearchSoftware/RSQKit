@@ -7,6 +7,7 @@ related_pages:
   tasks: []
 quality_indicators: []
 keywords: ["sustainability", "environment"]
+stages: [planning, maintenance]
 ---
 
 ## How to monitor and reduce the environmental impact of my software?

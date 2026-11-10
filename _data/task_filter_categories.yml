@@ -1,0 +1,39 @@
+roles:
+  - id: researcher_who_codes
+    title: Researcher who codes
+  - id: research_software_engineer
+    title: Research software engineer
+  - id: principal_investigator
+    title: Principal investigator
+  - id: project_manager
+    title: Project manager
+  - id: product_owner
+    title: Product owner
+  - id: policy_maker
+    title: Policy maker
+  - id: trainer
+    title: Trainer
+
+stages:
+  - id: planning
+    title: Planning
+  - id: requirements
+    title: Requirements
+  - id: design
+    title: Design
+  - id: development
+    title: Development
+  - id: quality_assurance
+    title: QA & documentation
+  - id: use_evaluation
+    title: Use & evaluation
+  - id: release
+    title: Release & deployment
+  - id: archiving
+    title: Archiving
+  - id: publication
+    title: Publication
+  - id: maintenance
+    title: Maintenance
+  - id: feedback
+    title: Community feedback

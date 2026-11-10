@@ -7,6 +7,7 @@ related_pages:
   tasks: [ci_cd, code_review, writing_readable_code, testing_software, maintaining_research_software]
 quality_indicators: [has_no_linting_issues, uses_tool_for_warnings_and_mistakes, static_analysis_common_vulnerabilities]
 keywords: ["static code analysis", "linting", "code quality", "type checking", "pre-commit", "security scanning"]
+stages: [development, quality_assurance, maintenance]
 ---
 
 ## How do you use static analysis to improve the quality of your research software?

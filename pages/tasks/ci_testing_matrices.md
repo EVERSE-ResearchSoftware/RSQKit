@@ -7,6 +7,7 @@ related_pages:
   tasks: [ci_cd, task_automation_github_actions, task_automation_gitlab_ci_cd]
 quality_indicators: [has_ci-tests, software_test_coverage, software_has_tests, passed_tests_ok]
 keywords: ["ci", "cd", "ci/cd", "testing"]
+stages: [development, quality_assurance, maintenance]
 ---
 
 ## How can I efficiently test my research software across multiple compiler versions, library dependencies, and target platforms?
