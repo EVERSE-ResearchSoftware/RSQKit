@@ -1,3 +1,14 @@
+---
+title: How do you sustain your research software project long-term?
+description: How do you sustain your research software project long-term?
+contributors: ["Rena Bakhshi", "Deekshitha Kumbla"]
+page_id: sustain_long_term
+related_pages:
+  tasks: []
+quality_indicators: []
+keywords: []
+---
+
 ## How do you sustain your research software project long-term?
 This page provides practical guidance on how you ensure your software project remains maintainable, usable, and supported over time.
 
