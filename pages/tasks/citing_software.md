@@ -7,6 +7,7 @@ quality_indicators: [software_has_citation]
 related_pages:
   tasks: [software_identifiers, software_metadata]
 keywords: ["citation", "cff"]
+stages: [archiving, publication]
 ---
 
 ## What is software citation?

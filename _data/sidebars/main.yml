@@ -79,6 +79,10 @@ subitems:
         url: /policy_maker
       - title: Trainer
         url: /trainer
+  - title: Tasks (Filters POC)
+    description: Guidelines and solutions for tackling common software tasks
+    url: /tasks_by_stage_or_role
+    image_url: /assets/img/flaticon/checklist.png
   - title: Tasks (alphabetical)
     description: Guidelines and solutions for tackling common software tasks
     url: /tasks

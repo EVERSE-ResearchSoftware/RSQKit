@@ -8,6 +8,7 @@ child_pages: [documenting_software_project, documenting_code]
 quality_indicators: [software_has_documentation, code_documentation_coverage_ok]
 #keywords: ["software documentation", "documentation", "code documentation", "code comments", "readme", "mkdocs", "readthedocs"]
 page_citation: false
+stages: [quality_assurance, use_evaluation, release, archiving, publication, maintenance, feedback]
 ---
 
 Software documentation is an essential part of the software development process, designed to provide clear communication between various stakeholders including developers, administrators, testers, users and project managers. 
@@ -26,4 +27,3 @@ Both levels are important: project documentation helps people use and adopt your
 
 {% assign child_pages = page.child_pages | join: ', ' %}
 {% include section-navigation-tiles.html type="tasks" custom=child_pages training=false sort=false col=2 %}
-

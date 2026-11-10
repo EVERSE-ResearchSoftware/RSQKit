@@ -7,6 +7,7 @@ related_pages:
   tasks: [documenting_software_project, software_management_planning, credit_recognition_research_software]
 quality_indicators: [has_contribution_guidelines, has_active_contributors, has_active_communication_channels, response_timeframe_ok]
 keywords: [ "equity", "diversity", "inclusion", "dei", "edi", "accessibility", "code of conduct", "underrepresented groups", "open source governance"]
+stages: [planning, feedback]
 ---
 
 ## How do you foster equity, diversity, and inclusion in your research software project?

@@ -8,6 +8,7 @@ related_pages:
   tasks: [releasing_software, publishing_software] 
 quality_indicators: [has_published_package, has_releases]
 keywords: ["package", "packaging", "releasing", "release", "python"]
+stages: [release, publication]
 ---
 
 ## How to package and release your software?

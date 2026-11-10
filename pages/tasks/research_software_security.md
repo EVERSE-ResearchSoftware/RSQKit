@@ -7,6 +7,7 @@ related_pages:
   tasks: [code_review, testing_software, ci_cd, maintaining_research_software, software_management_planning]
 quality_indicators: [dependency_management, no_critical_vulnerability, no_leaked_credentials, static_analysis_common_vulnerabilities, repository_workflows, human_code_review_requirement]
 keywords: ["research software security", "secure coding", "secrets management", "dependency scanning", "static analysis", "software supply chain", "ci/cd", "vulnerability management", "Secure Development"]
+stages: [design, development, quality_assurance, release, maintenance]
 ---
 
 ## How do you improve the security of your research software?

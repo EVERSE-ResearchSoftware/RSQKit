@@ -7,6 +7,7 @@ related_pages:
   tasks: [ci_cd, task_automation_github_actions]
 quality_indicators: [has_ci-tests]
 keywords: ["ci cd", "ci/cd", "ci", "cd", "task automation", "gitlab ci/cd"]
+stages: [development, quality_assurance, maintenance]
 
 ---
 
