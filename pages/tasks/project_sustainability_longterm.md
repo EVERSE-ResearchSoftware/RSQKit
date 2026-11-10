@@ -33,9 +33,9 @@ Without explicit attention to software project sustainability, research software
 | Context | Software type and disciplinary setting vary | Requires context-sensitive sustainability strategies rather than one-size-fits-all solutions |
 
 ### Solutions
-Use the following dimensions and actions to systematically address software project sustainability across its lifecycle.
+Use the following sustainability area and actions to systematically address software project sustainability across its lifecycle.
 
-| Sustainability dimension | What you need to address | What you should do |
+| Sustainability area | What you need to address | What you should do |
 |--------------------------|-------------------------|-------------------|
 | Technical sustainability | Maintainability and software quality | Address technical sustainability through design, architecture, [testing](/testing_software), dependency management, and [documentation](/documenting_software_project); see the related task page on how to design sustainable and future-proof research software |
 | Organisational sustainability | Ownership, governance, and accountability | Define roles and responsibilities; establish decision processes; assign maintenance ownership; make sustainability part of lifecycle management |
