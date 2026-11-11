@@ -56,7 +56,7 @@ layout: home
         <hr width="100%" size="2">
         <div class="container g-lg-5">
             <h3 class="no-anchor text-center mb-3 homepage-heading">Further indicators, tools and resources</h3>
-            {%- assign sidebar = site.data.sidebars[page.sidebar] %}
+            {%- assign sidebar = site.data.sidebars.main %}
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
                 {%- for folder in sidebar.subitems %}
                     {%- if folder.title == "All indicators" or folder.title == "All tools and resources" or folder.title == "Site Statistics" or folder.title == "Get involved" %}
