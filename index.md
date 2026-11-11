@@ -1,5 +1,6 @@
 ---
 search_exclude: true
+sidebar: false
 layout: home
 ---
 
@@ -33,9 +34,10 @@ layout: home
     <section class="bg-light pb-5">
         <div class="container g-lg-5">
             <h2 class="no-anchor text-center mb-3 homepage-heading">Browse all topics by</h2>
-            {%- assign sidebar = site.data.sidebars[page.sidebar] %}
+            {%- assign sidebar = site.data.sidebars.main %}
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
                 {%- for folder in sidebar.subitems %}
+                    {%- if folder.title != "All indicators" and folder.title != "All tools and resources" and folder.title != "Site Statistics" and folder.title != "Get involved" %}
                     <div class="col">
                         <div class="card bg-white h-100">
                             <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-6 mx-auto" alt="{{folder.title}} icon" style="width: 15%; padding: 20px 5px 5px 0px;">
@@ -47,6 +49,29 @@ layout: home
                             </div>
                         </div>
                     </div>
+                    {%- endif %}
+                {%- endfor %}
+            </div>
+        </div>
+        <hr width="100%" size="2">
+        <div class="container g-lg-5">
+            <h3 class="no-anchor text-center mb-3 homepage-heading">Further indicators, tools and resources</h3>
+            {%- assign sidebar = site.data.sidebars[page.sidebar] %}
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                {%- for folder in sidebar.subitems %}
+                    {%- if folder.title == "All indicators" or folder.title == "All tools and resources" or folder.title == "Site Statistics" or folder.title == "Get involved" %}
+                    <div class="col">
+                        <div class="card bg-white h-100">
+                            <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-6 mx-auto" alt="{{folder.title}} icon" style="width: 15%; padding: 20px 5px 5px 0px;">
+                            <div class="card-body text-center">
+                                <a href="{{ folder.url | relative_url }}" class="stretched-link">
+                                    <h4 class="card-title no-anchor text-dark homepage-heading">{{folder.title}}</h4>
+                                </a>
+                                <p class="card-text homepage-text">{{folder.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {%- endif %}
                 {%- endfor %}
             </div>
         </div>

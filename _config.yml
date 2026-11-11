@@ -4,7 +4,7 @@ title: "RSQKit: Research Software Quality Kit"
 description: "The Research Software Quality Kit is a resource to help researchers that code, Research Software Engineers, and anyone in between learn about and apply best practices in creating research software and code."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@6.0.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@7.0.0
 
 sass:
   style: compressed
