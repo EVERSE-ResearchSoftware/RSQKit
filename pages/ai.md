@@ -98,7 +98,7 @@ Intensity correlates with a number of other issues including:
 
 ## Guidance
 
-Guidance pages focus on overview, high level, and cross cutting concerns.
+Guidance pages focus on high level and cross cutting concerns.
 
 {% include section-navigation-tiles.html
   custom=introductory_ids
