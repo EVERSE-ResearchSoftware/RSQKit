@@ -10,16 +10,14 @@ inbeta: true
 
 ![Spectrum of AI Intensity Usage](../../images/ai/AI_Spectrum-000.png)
 
-## Cross Cutting Practices
-
-### Start With the work, Start Simple, Extend later
+## Start With the work, Start Simple, Extend later
 
 This applies both in terms of how to get started, but also in terms of how to apply practices. It's very easy to read practices like this page, and assume that we're advocating doing everything at once. These are practices, designed to keep your code, your work, your research, understandable, reproducible and safe. If you're playing with ideas some of the practices make no sense. If you're managing a project that requires reproducibility and dependability you probably want to consider which of these practices give you the largest benefit.
 
 The key thing is to start with the work you want to achieve, then identify the practices that are actually useful to you and your project.
 
 
-### Use strong specifications and tests
+## Use strong specifications and tests
 
 Strong tests and specifications give people and AI tools a stable target. New code can then be checked against that target.
 
@@ -33,7 +31,7 @@ Tests also help when moving from exploratory work to production software. A rese
 
 AI can help write tests and specifications. It can also check its own homework. But those checks should be independently verified by a person or a different AI system. This helps avoid the same misunderstanding appearing in both the code and its tests.
 
-### You promote the work, the AI does not
+## You promote the work, the AI does not
 
 A useful default is:
 
@@ -55,7 +53,7 @@ For a shared project, this may mean a maintainer reviews, adapts and merges it t
 For research outputs, this may mean the researcher responsible for the result can explain how the generated artefact was checked.
 
 
-### Protect maintainer attention
+## Protect maintainer attention
 
 Maintainer attention is an irreplaceable limited resource.
 
@@ -79,7 +77,7 @@ Useful controls include:
 The aim is to stop machine-generated volume from becoming a second inbox with unmanageable priority.
 
 
-### Treat remote execution as a governance boundary
+## Treat remote execution as a governance boundary
 
 When an AI tool runs outside your local machine, the risk changes.
 
@@ -97,7 +95,7 @@ Remote execution may be useful. It can reduce setup difficulties and run checks 
 It should **not** be treated as merely a more convenient local editor - due to greater risks.
 
 
-### Review actions as well as outputs
+## Review actions as well as outputs
 
 Once AI tools can act, review is not only about code.
 
@@ -115,7 +113,7 @@ This becomes more important as tools gain access to repositories, terminals, CI 
 The risks include unsafe action and bad code.
 
 
-### Do not treat prompts as controls
+## Do not treat prompts as controls
 
 Natural language instructions are useful.
 They are suggestions (guidance), rather than controls.
@@ -146,9 +144,10 @@ Examples of structural controls include:
 
 The safe behaviour should not depend only on the model choosing correctly.
 
-### Keep the intensity justified
+## Keep the intensity justified
 
 Higher-intensity AI use should solve a real problem.
+The [intensity considerations][CONSIDERATIONS] page is intended to help with this decision.
 
 It may be justified when it reduces setup difficulties, improves reviewable output,
 runs checks in a reproducible environment, or helps explore several candidate approaches.
@@ -167,7 +166,7 @@ Periodically ask:
 Often the right response is not a better prompt.
 It is less authority, less context, fewer tools, or no AI for that task.
 
-### Consider Using a separate AI working copy
+## Consider Using a separate AI working copy
 
 Where practical, give AI tooling its own local checkout, especially where it acts on your behalf.
 Treat that checkout as owned by the tool, not as your main working copy.
@@ -196,6 +195,8 @@ The point is that it gives the people working with AI a clear review boundary.
 
 
 <!-- References -->
+
+[CONSIDERATIONS]: ai_intensity_considerations
 
 [BDD]: https://cucumber.io/docs/bdd/
 [GHERKIN]: https://cucumber.io/docs/gherkin/reference/
