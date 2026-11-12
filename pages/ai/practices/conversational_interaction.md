@@ -126,11 +126,11 @@ Conversational use is low intensity. It is not zero risk.
 
 ### Quality Practice
 
-Treat the answer as a hypothesis that you need to check.
+Treat the answer as a hypothesis that you need to check, in the same way you would when getting an answer from other sources.
 This is especially necessary with overconfident explanations.
 
 Verify answers against project documentation, official documentation, tests or examples.
-Ask a knowledgeable person where needed.
+Ask a knowledgeable person or search the internet yourself where needed (though be careful again with any AI features of the search engine you use).
 
 Watch for invented artefacts, such as APIs, packages, flags and citations.
 
@@ -151,7 +151,7 @@ Stay at this level when conversation is helping you understand the problem.
 
 Consider greater AI intensity practice when the explanation has clarified a small artefact that would be useful and easy to review. For example, this might be a test skeleton, documentation draft or small example.
 
-Consider dropping AI when the conversation starts replacing reading, debugging, testing or domain understanding.
+Consider dropping AI when the conversation starts replacing researching, reading, debugging, testing or domain understanding.
 Conversational use should build understanding - not bypass it.
 
 
