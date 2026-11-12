@@ -8,9 +8,9 @@ page_id: product_owner
 ## Introduction
 
 As a **product owner** in a research software project, you are responsible for ensuring that the software being developed delivers value to its intended users and stakeholders. 
-You act as a bridge between [principal investigators (project leaders)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/630-product-owner/pages/roles/principal_investigator), [Research Software Engineers (RSEs)](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/630-product-owner/pages/roles/research_software_engineer) and infrastructure providers on one end, and users, institutional or community stakeholders on the other.
+You act as a bridge between [principal investigators (project leaders)](./principal_investigator), [Research Software Engineers (RSEs)](./research_software_engineer) and infrastructure providers on one end, and users, institutional or community stakeholders on the other.
 
-Your role focuses on defining priorities, clarifying requirements and helping shape the long-term direction of the software product. Unlike a [project manager](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/630-product-owner/pages/roles/project_manager), whose focus is primarily on coordinating delivery, timelines and resources, your focus is on maximising the usefulness, usability, sustainability and impact of the software itself.
+Your role focuses on defining priorities, clarifying requirements and helping shape the long-term direction of the software product. Unlike a [project manager](./project_manager), whose focus is primarily on coordinating delivery, timelines and resources, your focus is on maximising the usefulness, usability, sustainability and impact of the software itself.
 
 In research contexts, product owners often operate in complex environments where requirements evolve as scientific understanding develops. This requires balancing research goals, user needs and technical feasibility.
 
@@ -24,7 +24,7 @@ Your responsibilities focus on defining, prioritising and guiding the developmen
 * Promoting software usability and accessibility — ensuring software is documented, understandable, usable and accessible for its intended audience.
 * Facilitating communication between technical and non-technical stakeholders — ensuring shared understanding between researchers, developers, users and management. In addition to direct communication, acting as a representative or advocate for user needs in internal/technical meetings.
 * Evaluating trade-offs and scope decisions — balancing rapid research outputs with software quality, maintainability and sustainability.
-* Managing and refining development backlogs — maintaining prioritised lists of software tasks, issues, feature requests and technical improvements for future releases, together with the [project manager](https://github.com/EVERSE-ResearchSoftware/RSQKit/blob/630-product-owner/pages/roles/project_manager).
+* Managing and refining development backlogs — maintaining prioritised lists of software tasks, issues, feature requests and technical improvements for future releases, together with the [project manager](./project_manager).
 * Supporting release planning and adoption — coordinating user feedback collection and community engagement.
 * Encouraging community contributions and openness — supporting open-source practices, transparent governance and contributor engagements where appropriate.
 
