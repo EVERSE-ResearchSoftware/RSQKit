@@ -69,6 +69,8 @@ subitems:
         url: /researcher_who_codes
       - title: Research Software Engineer
         url: /research_software_engineer
+      - title: Research Software User
+        url: /research_software_user
       - title: Principal Investigator
         url: /principal_investigator
       - title: Project manager
