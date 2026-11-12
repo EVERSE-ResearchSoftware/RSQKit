@@ -26,7 +26,7 @@ focus on the key aspects:
 
 **Guidance**
 
-Guidance pages focus on overview, high level, and cross cutting concerns.
+Guidance pages focus on high level, and cross cutting concerns.
 
 **Practices**
 
