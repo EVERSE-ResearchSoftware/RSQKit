@@ -20,7 +20,8 @@ This is sometimes referred to as "autocorrect on steroids". It has all the benef
 
 Some editors and IDEs can show AI-generated suggestions while you type.
 These may appear as greyed-out completions, suggested lines, function bodies, comments, tests or repeated patterns.
-Not every IDE has this feature. Some projects or institutions may disable it.
+Not every IDE has this feature. Some projects or institutions may disable it. 
+This is not the same as the autocomplete that is often available in various IDE plugins or code editors whereby the user can use various methods to (for example) find out the correct names, parameters or variables for a function from an imported library.
 
 Common examples include GitHub Copilot in Visual Studio Code and other supported editors, Gemini Code Assist in VS Code and JetBrains IDEs, Cursor, Continue, JetBrains AI Assistant, and editor-specific plugins.
 The exact behaviour depends on tool, editor, plan and configuration.
