@@ -12,7 +12,7 @@ inbeta: true
 
 ## Examples of tools and mechanisms
 
-**Where tool names are included in this document, they are examples, not recommendations**
+**Where tool names are included on this page, they are examples, not recommendations**
 
 They are included because otherwise the spectrum is too abstract to be useful.
 Due to rapid change in this area, the tools will likely change.
@@ -42,9 +42,7 @@ This may include an RSE, data steward, information security colleague or maintai
 | Managed or cloud coding agents      | Codex web/cloud, GitHub Copilot coding agent, Google Jules, Devin, Replit Agent and similar hosted coding agents |
 | PR, CI and repository agents        | GitHub Copilot pull request summaries or review, GitLab Duo merge request support, Gemini Code Assist pull request review, repository bots, dependency-update automation, AI staging repositories |
 
-The most important question is not simply "which tool is this?".
-
-The important question is:
+The most important question is not simply "Which tool is this?"; the important question is:
 
 * What can this tool see?
 * What can this tool change?
