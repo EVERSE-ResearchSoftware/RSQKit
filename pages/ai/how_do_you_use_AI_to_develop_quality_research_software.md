@@ -64,7 +64,7 @@ These matter whether you use the full spectrum or choose between a few common pr
 
 It is not a maturity scale. Higher intensity does not mean better practice, higher skill or better quality.
 
-The term "intensity" is chosen because correlates with:
+The term "intensity" is chosen because it correlates with:
 
 * Amount of AI use
 * Risk of introduced errors
@@ -78,13 +78,13 @@ The term "intensity" is chosen because correlates with:
 * Complexity and novelty of output
 * Burnout risk for the person driving the system
 
-Also, this differs from many software engineering tools. More version control is rarely bad. More static analysis rarely raises project risk.
+This differs from many software engineering tools. More version control is rarely bad. More static analysis rarely raises project risk.
 
 More AI can:
 
 * expose more context
 * create more material to review
-* increase the blast radius
+* increase the [blast radius][ATLAS_BLAST]
 * give plausible mistakes more places to hide
 
 Moving along the spectrum is therefore not levelling up. Lower-intensity practice may be the better engineering choice.
@@ -287,10 +287,20 @@ Evaluate whether AI improves the system as a whole: maintainability, review burd
 
 ## References and further reading
 
-* Anthropic Claude Code documentation, "Claude Code overview" and "How Claude Code works", code.claude.com/docs.
-* OpenAI Codex documentation and product overview, platform.openai.com/docs/codex and openai.com/codex.
-* Ollama documentation, docs.ollama.com.
-* Greg Wilson, "Twelve Ways to be Wrong about AI for Programming", Third Bit, 20 May 2026.
-* OWASP Top 10 for LLM Applications, especially risks around excessive agency and insecure tool use.
-* NIST Secure Software Development Framework and AI Risk Management Framework for broader security and governance context.
-* International Energy Agency, "Energy and AI" and 2026 updates on data centre electricity demand and onsite gas-based generation, iea.org.
+* Anthropic Claude Code documentation, "Claude Code overview" and "How Claude Code works", [code.claude.com/docs][CLAUDE_DOCS].
+* OpenAI Codex documentation and product overview, [platform.openai.com/docs/codex][CODEX_PLATFORM] and [openai.com/codex][CODEX_OVERVIEW].
+* Ollama documentation, [docs.ollama.com][OLLAMA_DOCS].
+* Greg Wilson, "[Twelve Ways to be Wrong about AI for Programming][TWELVE_WAYS]", Third Bit, 20 May 2026.
+* [OWASP Top 10 for LLM Applications][OWASP_TOP_10], especially risks around excessive agency and insecure tool use.
+* [NIST Secure Software Development Framework and AI Risk Management Framework][NIST_SECURE_DEV] for broader security and governance context.
+* International Energy Agency, "[Energy and AI][IEE_ENERGY_AI]" and 2026 updates on data centre electricity demand and onsite gas-based generation, iea.org.
+
+[ATLAS_BLAST]: https://releaseatlas.com/blog/what-is-blast-radius/
+[CLAUDE_DOCS]: https://code.claude.com/docs
+[CODEX_PLATFORM]: https://learn.chatgpt.com/docs/cloud
+[CODEX_OVERVIEW]: https://openai.com/codex/
+[OLLAMA_DOCS]: https://docs.ollama.com/
+[TWELVE_WAYS]: https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/
+[OWASP_TOP_10]: https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/
+[NIST_SECURE_DEV]: https://www.nist.gov/itl/ai-risk-management-framework/ 
+[IEE_ENERGY_AI]: https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary/
