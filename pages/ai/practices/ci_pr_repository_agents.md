@@ -30,9 +30,9 @@ A PR, or pull request, is a proposed change submitted for review before it becom
 
 Examples include GitHub Copilot pull request summaries or review, GitLab Duo merge request support, Gemini Code Assist pull request review, dependency-update bots, repository automation, and project-specific AI checks.
 
-At this level the question is less: "Can this help one person?"
+At this level the question is less: "Can this help one person?" - the question is: "What does this do to the shared project workflow?"
 
-The question is: "What does this do to the shared project workflow?"
+Project teams will likely have differing views on which workflows a bot can become part of. Some will likely see a dependency-update bot as a helpful tool that both keeps their requirements up to date, but also (with adequate testing) allows developers to find out about possible breaking changes sooner rather later. Others may prefer a fixed set of requirements that is only updated manually. Others may feel that the time saved in (for example) automating reviews versus having to find a (human) reviewer is worth it.
 
 ### Getting Started
 
@@ -50,7 +50,7 @@ For example:
 * Ask for a review checklist on selected pull requests
 * Ask for an explanation of a failing CI job
 * Use AI to draft release notes for maintainer review
-* Use AI to suggest missing tests, without changing code
+* Use AI to suggest missing tests, without changing code or other current tests
 
 This keeps the AI close to explanation and review support. It does not give it authority over the project workflow.
 
@@ -80,6 +80,7 @@ controls:
 * Branch protection
 * Required review by a maintainer or designated reviewer
 * Restricted CI permissions
+* Ensure there is adequate testing in place to check results after AI-created pull requests
 * No access to secrets from untrusted code
 * No automatic merge
 * No automatic release or publish step
