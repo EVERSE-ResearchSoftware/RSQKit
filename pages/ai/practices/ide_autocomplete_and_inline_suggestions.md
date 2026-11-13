@@ -19,7 +19,7 @@ inbeta: true
 This is sometimes referred to as "autocorrect on steroids". It has all the benefits this phrasing suggests as well as many of the problems this phrase can imply.
 
 Some editors and IDEs can show AI-generated suggestions while you type.
-These may appear as greyed-out completions, suggested lines, function bodies, comments, tests or repeated patterns.
+These will appear as greyed-out text until they are accepted by the user. The suggestions can range from complex suggestions of entire function bodies, tests, repeated patterns or detailed comments, to simpler things like call completions, simple line completion and simple comments.
 Not every IDE has this feature. Some projects or institutions may disable it. 
 This is not the same as the autocomplete that is often available in various IDE plugins or code editors whereby the user can use various methods to (for example) find out the correct names, parameters or variables for a function from an imported library.
 

@@ -32,7 +32,7 @@ Examples include GitHub Copilot pull request summaries or review, GitLab Duo mer
 
 At this level the question is less: "Can this help one person?" - the question is: "What does this do to the shared project workflow?"
 
-Project teams will likely have differing views on which workflows a bot can become part of. Some will likely see a dependency-update bot as a helpful tool that both keeps their requirements up to date, but also (with adequate testing) allows developers to find out about possible breaking changes sooner rather later. Others may prefer a fixed set of requirements that is only updated manually. Others may feel that the time saved in (for example) automating reviews versus having to find a (human) reviewer is worth it.
+Project teams will likely have differing views on which workflows a bot can become part of. Some will see a dependency-update bot as a helpful tool that both keeps their requirements up to date, but also (with adequate testing) allows developers to find out about possible breaking changes sooner rather later. Others may prefer a fixed set of requirements that is only updated manually. Others may feel that the time saved in (for example) automating reviews versus having to find a (human) reviewer is worth it.
 
 ### Getting Started
 
