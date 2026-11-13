@@ -130,7 +130,7 @@ Treat the answer as a hypothesis that you need to check, in the same way you wou
 This is especially necessary with overconfident explanations.
 
 Verify answers against project documentation, official documentation, tests or examples.
-Ask a knowledgeable person or search the internet yourself where needed (though be careful again with any AI features of the search engine you use).
+Ask a knowledgeable person or search the internet yourself where needed (though be careful again with any AI features of the search engine you use - AI summaries from search engines can be significantly more inaccurate than you might expect).
 
 Watch for invented artefacts, such as APIs, packages, flags and citations.
 
