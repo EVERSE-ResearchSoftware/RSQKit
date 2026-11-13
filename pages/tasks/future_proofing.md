@@ -7,6 +7,7 @@ related_pages:
   tasks: [using_version_control, reproducible_software_environments, licensing_software, releasing_software]
 quality_indicators: []
 keywords: ["fair", "reproducibility", "sustainability"]
+stages: [planning, requirements, design, archiving, maintenance]
 ---
 
 ## How do you design research software for long-term reproducibility?

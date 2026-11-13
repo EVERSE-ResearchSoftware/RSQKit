@@ -8,6 +8,7 @@ child_pages: [software_documentation, software_metadata, software_identifiers, c
 page_citation: false
 contributors: ["Aleksandra Nenadic"]
 coordinators: ["Aleksandra Nenadic"]
+stages: [publication]
 ---
 
 Publishing research software comprises more than just putting the code online into a public code repository such as GitHub or Gitlab.
@@ -26,4 +27,3 @@ This is the suggested order in which you should look at the related sub-tasks.
 
 {% assign child_pages = page.child_pages | join: ', ' %}
 {% include section-navigation-tiles.html type="tasks" custom=child_pages training=false sort=false col=2 %}
-

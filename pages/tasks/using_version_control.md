@@ -7,6 +7,7 @@ related_pages:
   tasks: []
 quality_indicators: [version_control_use]
 keywords: ["version control", "source control", "git", "github", "gitlab"]
+stages: [development]
 
 ---
 ## Why does version control matter for your research software?

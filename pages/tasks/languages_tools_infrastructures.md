@@ -7,6 +7,7 @@ related_pages:
    tasks: []
 quality_indicators: []
 keywords: ["programming language", "infrastructure"]
+stages: [planning, requirements, design]
 ---
 
 ## How to choose programming languages, tools and infrastructures?

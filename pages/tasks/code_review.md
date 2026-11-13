@@ -7,6 +7,8 @@ related_pages:
   tasks: []
 quality_indicators: [human_code_review_requirement, uses_tool_for_warnings_and_mistakes, has_no_linting_issues, code_duplication_ok, lines_of_code_ok, cyclomatic_complexity_ok, maintainability_index_ok, code_smells_ok, internal_cohesion_ok, coupling_between_objects_ok]
 keywords: ["code review"]
+roles: [researcher_who_codes, research_software_engineer, project_manager]
+stages: [development, quality_assurance, maintenance]
 ---
 
 ## Code Review in Research Software Development

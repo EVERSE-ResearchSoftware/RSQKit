@@ -1,0 +1,60 @@
+{%- assign task_pages = site.pages | where: "type", "tasks" | sort: "title" -%}
+<div class="row g-4 row-cols-1 row-cols-md-2 my-4">
+  <div class="col">
+    <div class="input-group">
+      <label class="input-group-text" for="task-stage-filter">Filter by lifecycle stage</label>
+      <select class="form-select" id="task-stage-filter">
+        <option value="">All stages</option>
+        {%- for stage in site.data.task_filter_categories.stages %}
+        <option value="{{ stage.id | escape }}">{{ stage.title | escape }}</option>
+        {%- endfor %}
+      </select>
+    </div>
+  </div>
+  <div class="col">
+    <div class="input-group">
+      <label class="input-group-text" for="task-role-filter">Filter by role</label>
+      <select class="form-select" id="task-role-filter">
+        <option value="">All roles</option>
+        {%- for role in site.data.task_filter_categories.roles %}
+        <option value="{{ role.id | escape }}">{{ role.title | escape }}</option>
+        {%- endfor %}
+      </select>
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-{{ include.col | default: 2 }} g-4 mb-5 navigation-tiles">
+  {%- for task in task_pages %}
+  {%- if task.title %}
+  {%- assign task_roles = task.roles | default: [] | join: ' ' | escape -%}
+  {%- assign task_stages = task.stages | default: [] | join: ' ' | escape -%}
+  <div class="col" data-roles="{{ task_roles }}" data-stages="{{ task_stages }}">
+    {% include navigation-tile-card.html tile_page=task variant="section" %}
+  </div>
+  {%- endif %}
+  {%- endfor %}
+</div>
+<script type="text/javascript">
+  $(document).ready(function () {
+    const roleFilter = document.getElementById('task-role-filter');
+    const stageFilter = document.getElementById('task-stage-filter');
+    const tasks = document.querySelectorAll('.navigation-tiles .col');
+
+    function filterTasks() {
+      const selectedRole = roleFilter.value;
+      const selectedStage = stageFilter.value;
+
+      tasks.forEach(function (task) {
+        const roles = task.getAttribute('data-roles').split(' ') ?? [];
+        const stages = task.getAttribute('data-stages').split(' ') ?? [];
+        const matchesRole = !selectedRole || roles.includes(selectedRole);
+        const matchesStage = !selectedStage || stages.includes(selectedStage);
+        task.classList.toggle('d-none', !(matchesRole && matchesStage));
+      });
+    }
+
+    roleFilter.addEventListener('change', filterTasks);
+    stageFilter.addEventListener('change', filterTasks);
+    filterTasks();
+  });
+</script>

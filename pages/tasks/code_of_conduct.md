@@ -7,6 +7,8 @@ related_pages:
   tasks: [documenting_software_project, creating_good_readme]
 quality_indicators: []
 keywords: ["code of conduct", "community guidelines", "governance", "harassment policy", "contributor covenant", "reporting process"]
+roles: [policy_maker, product_owner, principal_investigator, project_manager]
+stages: [planning, feedback]
 ---
 
 ## How do you create a Code of Conduct for your research software project?
