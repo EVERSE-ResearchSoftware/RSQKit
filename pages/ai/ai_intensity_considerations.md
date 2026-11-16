@@ -51,7 +51,7 @@ This creates small, reviewable outputs in chat. Examples include a helper functi
 
 Stay here while the artefact remains easy to review. The conversation should also help improve it.
 
-Consider lower intensity when:
+Move down when:
 
 * The artefact is no longer small enough to review.
 * The tool invents APIs or assumptions.
