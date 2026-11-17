@@ -23,19 +23,19 @@ jobs:
 
     steps:
       - name: Checkout RSQKit
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Checkout training (script and keywords CSV)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: EVERSE-ResearchSoftware/training
           ref: main
           path: training
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Install dependencies
         run: pip install pyyaml
@@ -64,7 +64,7 @@ jobs:
             --out keywords_report.csv | tee run.log
 
       - name: Upload report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: keywords-alignment-report
           path: keywords_report.csv
