@@ -15,7 +15,7 @@ keywords: ["readable code", "readability", "reusable code", "reusable software"]
 
 ### Description
 
-**Code readability** contributes to *reusability* of code (the "R" in the [FAIR research software principles][fair-rs-principles][^1]) - once people obtain a copy of your software, they need to be able to understand it to reuse and extend it.
+**Code readability** contributes to *reusability* of code (the "R" in the [FAIR research software principles][fair-rs-principles]) - once people obtain a copy of your software, they need to be able to understand it to reuse and extend it.
 
 In order to develop readable code, we should ask ourselves:
 
@@ -40,9 +40,9 @@ Readable code facilitates the process of understanding the code, the evolution o
 
 What practices are there to help us improve code readability?
 
-One of the most important things we can do to make sure your source code is readable by others (and ourselves a few months down the line) is to make sure that the code is:
+One of the most important things we can do to make sure our source code is readable by others (and ourselves a few months down the line) is to make sure that the code is:
 * **well commented** (and well documented - [see more on documenting your software][documenting_code]), 
-* **cleanly and consistently formatted** and uses sensible,
+* **cleanly and consistently formatted**, following sensible indentation, spacing and style conventions,
 * **modular** - split into smaller, reusable pieces of code (modules), and
 * uses **descriptive names** for variable, function, class and module names.
 

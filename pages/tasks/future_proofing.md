@@ -6,7 +6,7 @@ page_id: future_proofing
 related_pages:
   tasks: [using_version_control, reproducible_software_environments, licensing_software, releasing_software]
 quality_indicators: []
-keywords: ["fair", "reproducibililty", "sustainability"]
+keywords: ["fair", "reproducibility", "sustainability"]
 ---
 
 ## How do you design research software for long-term reproducibility?

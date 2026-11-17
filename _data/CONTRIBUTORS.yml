@@ -275,7 +275,7 @@ Maria Makaronidou:
 Gavin Pringle:
     affiliation: EPCC
     orcid: 0000-0002-5026-4093
-    role: contributor
+    role: editor
     email: g.pringle@epcc.ed.ac.uk
     git: gavinpringle
 Ahmad Alam:
@@ -291,4 +291,24 @@ Hugo Bacard:
 Aida Jafarbigloo:
     git: Aidajafarbigloo
     role: contributor
-    
+Awais Ur Rehman:
+    git: awais-ur-rehman
+    email: awaisjarral37@gmail.com
+    role: contributor
+James Sinnott:
+    git: sinnottj-rse
+    email: james.r.sinnott@manchester.ac.uk
+    affiliation: The University of Manchester
+    role: contributor
+Andrew Gait:
+    git: andrewgait
+    orcid: 0000-0001-9349-1096
+    affiliation: The University of Manchester
+    role: contributor
+# Added after creating v1.7.0 release notes
+Jiayi Du:
+    git: Jah-yee
+Rayan Abdul Cader:
+    git: minutechreview
+Karel Berka:
+    git: KarelBerka

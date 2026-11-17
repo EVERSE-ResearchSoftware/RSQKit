@@ -3,7 +3,7 @@ title: Research Software Quality Dimensions
 description: High-level quality attributes of research software, each assessed through specific indicators
 ---
 
-We distinguish between abstract quality dimensions (high-level categories like reliability or maintainability defined by standards such as [ISO/IEC 25010][iso-25010] and concrete quality indicators (measurable proxies like test coverage or community engagement). 
+We distinguish between abstract quality dimensions (high-level categories like reliability or maintainability defined by standards such as [ISO/IEC 25010][iso-25010]) and concrete quality indicators (measurable proxies like test coverage or community engagement). 
 While indicators provide empirical evidence, they cannot fully capture the subjective, context-dependent nature and dimensions of "good" software.
 
 Assessing research software for quality requires balancing "fit for purpose" (the ability of a tool to solve a specific scientific problem) against long-term goals of reusability and sustainability as championed by the FAIR4RS principles.
@@ -13,7 +13,7 @@ We build upon the nine top-level [ISO software quality dimensions][iso-25010] to
 
 ## Quality Dimension Definitions
 
-EVERSE project is working to formally define a number of [research software quality dimensions](https://w3id.org/everse/i/dimensions) along with a [formal schema](https://w3id.org/everse/rsqd) to be used in machine readable metadata embedded in various resources.
+The EVERSE project is working to formally define a number of [research software quality dimensions](https://w3id.org/everse/i/dimensions) along with a [formal schema](https://w3id.org/everse/rsqd) to be used in machine readable metadata embedded in various resources.
 
 Each of the quality dimensions groups together a number of [quality indicators](https://w3id.org/everse/i/indicators), representing a specific software quality aspect that can be measured.
 

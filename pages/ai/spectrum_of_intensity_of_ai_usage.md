@@ -22,27 +22,27 @@ A whiteboard on the door of a shared space may be the simplest way to book use o
 
 The same applies here. Use the practice that fits the work.
 
-* **0. No GenAI usage** - Work undertaken without generative AI assistance. This is included, not just because it's the default but because it can be necessary due the nature of the task. Reasons include: learning or assessment goals, restrictions on sharing information, limited review capacity, or wider ethical and environmental considerations. It also applies to projects that have not agreed a policy.
+* **0. [No GenAI usage](./practices/no_genai_usage.md)** - Work undertaken without generative AI assistance. This is included, not just because it's the default but because it can be necessary due the nature of the task. Reasons include: learning or assessment goals, restrictions on sharing information, limited review capacity, or wider ethical and environmental considerations. It also applies to projects that have not agreed a policy.
 
-* **1. Conversational interaction** - Conversations asking for explanations, background, design trade-offs, unfamiliar errors and conceptual help. Examples: "Explain this compiler error", "What should I test?", "What assumptions does this numerical method make?", "What misunderstandings might the average developer have based on this code?" (for sanity checking API design)
+* **1. [Conversational interaction](./practices/conversational_interaction.md)** - Conversations asking for explanations, background, design trade-offs, unfamiliar errors and conceptual help. Examples: "Explain this compiler error", "What should I test?", "What assumptions does this numerical method make?", "What misunderstandings might the average developer have based on this code?" (for sanity checking API design)
 
-* **2. Conversational artefact creation** - Chat-based creation of small, reviewable outputs. Examples: a helper function, a test skeleton, a README paragraph, a regular expression, or a command-line usage example.
+* **2. [Conversational artefact creation](./practices/conversational_artefact_creation.md)** - Chat-based creation of small, reviewable outputs. Examples: a helper function, a test skeleton, a README paragraph, a regular expression, or a command-line usage example.
 
-* **3. Conversational Creation with Zip Files (etc)** - Providing selected files, snippets, logs or zip files so the tool can reason about the content. Examples: "Suggest tests for these files", "Review this small package structure", "Explain why this minimal example fails."
+* **3. [Conversational Creation with Zip Files (etc)](./practices/conversational_creation_with_zip_files_etc.md)** - Providing selected files, snippets, logs or zip files so the tool can reason about the content. Examples: "Suggest tests for these files", "Review this small package structure", "Explain why this minimal example fails."
 
-* **4. IDE autocomplete and inline suggestions** - AI suggestions appear while editing. Examples: completing boilerplate, filling repetitive test cases, suggesting docstrings or small local code patterns.
+* **4. [IDE autocomplete and inline suggestions](./practices/ide_autocomplete_and_inline_suggestions.md)** - AI suggestions appear while editing. Examples: completing boilerplate, filling repetitive test cases, suggesting docstrings or small local code patterns.
 
-* **5. Editor-integrated local assistant** - The assistant can make bounded edits inside the editor. Examples: refactor a function, add type hints, generate tests for a module, update these docstrings.
+* **5. [Editor-integrated local assistant](./practices/editor_integrated_local_assistant.md)** - The assistant can make bounded edits inside the editor. Examples: refactor a function, add type hints, generate tests for a module, update these docstrings.
 
-* **6. Repository-aware assistance** - The tool can search and reason across the repository. Examples: trace where a setting is used, identify tests for a feature, propose where to add a new option.
+* **6. [Repository-aware assistance](./practices/repository_aware_assistance.md)** - The tool can search and reason across the repository. Examples: trace where a setting is used, identify tests for a feature, propose where to add a new option.
 
-* **7. Constrained local tool-using agents** - An agent can edit files, run commands and iterate locally under supervision. Examples: fix a failing test on a disposable checkout, run linting, prepare a patch without pushing.
+* **7. [Constrained local tool-using agents](./practices/constrained_local_tool_using_agents.md)** - An agent can edit files, run commands and iterate locally under supervision. Examples: fix a failing test on a disposable checkout, run linting, prepare a patch without pushing.
 
-* **8. Managed or cloud coding agents** - A hosted or managed agent works in a configured environment, often asynchronously. Examples: ask a cloud coding agent to implement a small issue, run tests, and prepare a branch or PR for review.
+* **8. [Managed or cloud coding agents](./practices/managed_or_cloud_coding_agents.md)** - A hosted or managed agent works in a configured environment, often asynchronously. Examples: ask a cloud coding agent to implement a small issue, run tests, and prepare a branch or PR for review.
 
-* **9. CI/PR/repository agents** - Agents are integrated into shared project workflows. Examples: review PRs, suggest CI fixes, triage issues, draft dependency updates, or maintain an AI staging repository.
+* **9. [CI/PR/repository agents](./practices/ci_pr_repository_agents.md)** - Agents are integrated into shared project workflows. Examples: review PRs, suggest CI fixes, triage issues, draft dependency updates, or maintain an AI staging repository.
 
-* **10. Open-ended autonomous agents** - Broad tool-using systems with persistence, scheduling or external integrations. Examples: agents that can act across repositories, services, email, cloud resources or multiple tools over time.
+* **10. [Open-ended autonomous agents](./practices/open_ended_autonomous_agents.md)** - Broad tool-using systems with persistence, scheduling or external integrations. Examples: agents that can act across repositories, services, email, cloud resources or multiple tools over time.
 
 
 {% assign task_pages = site.pages

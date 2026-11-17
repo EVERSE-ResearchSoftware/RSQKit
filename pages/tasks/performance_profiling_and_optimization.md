@@ -6,7 +6,7 @@ page_id: performance_profiling_and_optimization
 related_pages:
   tasks: [languages_tools_infrastructures, improving_environmental_sustainability, maintaining_research_software, writing_readable_code]
 quality_indicators: []
-keywords: ["performance", "profiling", "optimisation", "optimization", "benchmarking", "bottleneck", "parallelism"]
+keywords: ["performance", "profiling", "optimization", "benchmarking", "bottleneck", "parallelism"]
 ---
 
 ## How do you profile your research software to find performance bottlenecks?

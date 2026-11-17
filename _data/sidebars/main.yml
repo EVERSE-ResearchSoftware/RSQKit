@@ -111,6 +111,10 @@ subitems:
             url: /documenting_software_project
           - title: "Documenting code"
             url: /documenting_code
+          - title: "Documenting software using Read The Docs"
+            url: /documenting_software_readthedocs
+      - title: "Software management planning"
+        url: /software_management_planning
       - title: "Creating a good README"
         url: /creating_good_readme
       - title: "Software metadata"
@@ -151,10 +155,12 @@ subitems:
         url: /fair_rs
       - title: "Using containers"
         url: /using_containers
-      - title: "Static Analysis"
+      - title: "Static code analysis"
         url: /static_analysis
       - title: "Future proofing"
         url: /future_proofing
+      - title: "Dynamic code analysis"
+        url: /dynamic_analysis
   - title: Guidance for AI
     description: Guidance and practices using AI when creating quality research software
     url: /ai

@@ -22,14 +22,14 @@ There are a range of tools and practices which researchers can adopt to reduce t
 While vital for society, research is a significant source of carbon emissions.
 Thankfully there are a number of steps which can be taken to reduce emissions.
 
-The Green Software Foundation suggests three aspects to consider:
+The [Green Software Foundation suggests three aspects](https://learn.greensoftware.foundation/introduction/) to consider:
 
-1. Energy efficacy - design software to consume as little energy as possible.
+1. Energy efficiency - design software to consume as little energy as possible.
 2. Hardware efficiency - use the least amount of embodied carbon as possible.
 3. Carbon awareness - do more when the energy supply is clean and less when it is dirty.
 
 There are a number of tools and programming techniques which can be used to first monitor then improve the energy efficiency of software (detailed below).
-Hardware efficacy considers emissions from the creation and disposal of the hardware used (embodied emissions), this can be maximised by extending the lifetime of hardware and (for cloud and HPC) increasing the utilisation of the device.
+Hardware efficiency considers emissions from the creation and disposal of the hardware used (embodied emissions), this can be maximised by extending the lifetime of hardware and (for cloud and HPC) increasing the utilisation of the device.
 Finally, the amount of clean electricity in an energy supply depends on location and time of the use.
 Software that is carbon aware tries to shift usage away from energy that is low in clean energy, through shifting in either time or space.
 

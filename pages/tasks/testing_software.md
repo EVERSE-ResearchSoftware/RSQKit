@@ -177,7 +177,7 @@ Check out the [section "How do we automate code testing?"](#how-do-we-automate-c
 ### Description
 
 In test automation, we usually use [test automation frameworks][test-automation-frameworks] to let the computer execute our test cases.
-Thus is in contrast to [manual testing][manual-testing], where a person is executing test cases by hand.
+This is in contrast to [manual testing][manual-testing], where a person is executing test cases by hand.
 Test automation frameworks typically accept a list of test cases that need to be executed, run them, compare the actual output with the expected output and summarise the test results in a report.
 Compared to manual testing, test automation can cover a larger number of test cases, is less costly, less time-consuming and less error prone.
 Test automation is also critical for [Continuous Integration (CI)][continuous-integration] (including continuous testing) and Continuous Delivery (CD).
@@ -229,7 +229,7 @@ Here are a few examples of these principles:
   - Test automation frameworks are utilised to control the execution of tests, the comparison of actual outcomes with predicted outcomes, and also the reporting of the test results back to the user.
   - Use test automation frameworks to run tests frequently and consistently
 - [**Continuous Integration**][continuous-integration]
-  - Continuous Integration is the process of continuously integrating code into the mainline of your code developments and thereby automate the build of the software as well as the tests the software in so-called Continuous Integration pipelines.
+  - Continuous Integration is the process of frequently merging code changes into the main codebase, and using automated pipelines to build and test software.
   - Continuous Integration automates repetitive tests, saves time and ensures tests are run consistently across different environments and platforms.
 
 {% assign child_pages = page.child_pages | join: ', ' %}
