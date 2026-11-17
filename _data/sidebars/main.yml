@@ -24,7 +24,7 @@ subitems:
   - title: Research software stories
     url: /research_software_stories
     image_url: /assets/img/flaticon/search.png
-    description: Examples of research software and their quality practices
+    description: See how other teams tackled problems like yours and their quality practices.
     subitems:
       - title: APICURON - credit platform for scientific contributions
         url: /apicuron_research_software_story
@@ -61,7 +61,7 @@ subitems:
       - title: SSHOC
         url: /sshoc
   - title: Roles
-    description: Resources tailored to different roles in research software funding & development
+    description: Find guidance for your responsibilities in research software development and funding
     url: /roles
     image_url: /assets/img/flaticon/management.png
     subitems:
@@ -80,7 +80,7 @@ subitems:
       - title: Trainer
         url: /trainer
   - title: Tasks (alphabetical)
-    description: Guidelines and solutions for tackling common software tasks
+    description: Get practical help with a software task you need to do
     url: /tasks
     image_url: /assets/img/flaticon/checklist.png
     subitems:
@@ -162,7 +162,7 @@ subitems:
       - title: "Dynamic code analysis"
         url: /dynamic_analysis
   - title: Guidance for AI
-    description: Guidance and practices using AI when creating quality research software
+    description: Decide when and how to use AI in your research software development
     url: /ai
     image_url: /assets/img/flaticon/checklist.png
     subitems:
