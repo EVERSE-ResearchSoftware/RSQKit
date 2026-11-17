@@ -1,16 +1,31 @@
 // Search box
 
-section#search-section {
-  form {
-    max-width: 600px;
-  }
+#search-section .homepage-search {
+    padding-inline: 10%;
 
-  #search-results {
-    right: unset;
-  }
-  .input-group-text {
-    font-size: 1.5rem;
-  }
+}
+
+#search-section .homepage-search-field {
+    min-width: 0;
+}
+
+@include media-breakpoint-up(md) {
+    #search-section .homepage-search-label {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+}
+
+section#search-section {
+    .homepage-search-field #search-results {
+        left: 4;
+        right: 4;
+        width: auto;
+    }
+
+    .input-group-text {
+        font-size: 1.5rem;
+    }
 }
 
 .homepage-heading{
