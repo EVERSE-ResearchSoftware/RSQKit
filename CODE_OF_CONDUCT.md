@@ -7,9 +7,9 @@ The RSQKit team are dedicated to providing a welcoming and supportive environmen
 As such, we do not tolerate behaviour that is disrespectful to our community members or that excludes, intimidates, or causes discomfort to others.
 We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to: gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
-Everyone who participates in the RDMKit activities is required to conform to this Code of Conduct.
-This Code of Conduct applies to all spaces managed by the RDMkit including, but not limited to, in person focus groups and workshops, and communications online via GitHub.
-By participating, contributors indicate their acceptance of the procedures by which the RDMkit project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
+Everyone who participates in the RSQKit activities is required to conform to this Code of Conduct.
+This Code of Conduct applies to all spaces managed by the RSQkit including, but not limited to, in person focus groups and workshops, and communications online via GitHub.
+By participating, contributors indicate their acceptance of the procedures by which the RSQkit project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
 ### Expected behaviour
 
@@ -30,7 +30,7 @@ See [this explanation of the four social rules](https://www.recurse.com/manual#s
 
 ### Unacceptable behaviour
 
-Examples of unacceptable behaviour by the RDMkit community members at any project event or platform include:
+Examples of unacceptable behaviour by the RSQkit community members at any project event or platform include:
 
 * written or verbal comments which have the effect of excluding people on the basis of membership of any specific group
 * causing someone to fear for their safety, such as through stalking, following, or intimidation
@@ -50,7 +50,7 @@ Examples of unacceptable behaviour by the RDMkit community members at any projec
 ### Consequences of unacceptable behaviour
 
 Participants who are asked to stop any inappropriate behaviour are expected to comply immediately.
-This applies to all RDMKit community events and platforms, either online or in-person.
+This applies to all RSQKit community events and platforms, either online or in-person.
 If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund), or impose any other appropriate sanctions (see the [enforcement manual](#4-enforcement-manual) for details).
 
 <!--

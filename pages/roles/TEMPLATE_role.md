@@ -22,4 +22,4 @@ Outline the main responsibilities and tasks of the role in relation to Research 
 
 ## Software development & quality guidance
 
-Highlight some guidance that can help overcome the challenges of this role, e.g. provide links to RDMKit pages with guidance or to external resources.
+Highlight some guidance that can help overcome the challenges of this role, e.g. provide links to RSQKit pages with guidance or to external resources.
