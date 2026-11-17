@@ -1,0 +1,102 @@
+name: Keywords alignment report
+
+# Compares the keywords used in the RSQKit pages with the training keywords CSV
+# (script and CSV live in EVERSE-ResearchSoftware/training).
+# It only reports differences: it does not modify any file.
+on:
+  release:
+    types: [published]
+  # Allows running it by hand from the Actions tab (useful for testing)
+  workflow_dispatch:
+    inputs:
+      keywords_csv:
+        description: 'Keywords CSV, relative to the root of the training repo'
+        required: false
+        default: 'csv/keywords.csv'
+
+permissions:
+  contents: read
+
+jobs:
+  keywords-alignment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout RSQKit
+        uses: actions/checkout@v4
+
+      - name: Checkout training (script and keywords CSV)
+        uses: actions/checkout@v4
+        with:
+          repository: EVERSE-ResearchSoftware/training
+          ref: main
+          path: training
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Select the keywords CSV
+        env:
+          INPUT_CSV: ${{ inputs.keywords_csv }}
+        run: |
+          # On a release the input is empty: the default is training's csv/keywords.csv.
+          # On a manual run you can pick another file, e.g.
+          # csv_manual/keywords_everse_training_20261022.csv
+          CSV="training/${INPUT_CSV:-csv/keywords.csv}"
+          if [ ! -f "$CSV" ]; then
+            echo "::error::Keywords CSV not found: $CSV"
+            exit 1
+          fi
+          echo "Using CSV: $CSV"
+          echo "KEYWORDS_CSV=$CSV" >> "$GITHUB_ENV"
+
+      - name: Run keywords alignment script
+        shell: bash
+        run: |
+          python training/alignment/detection_md_keywords.py \
+            --rsqkit . \
+            --csv "$KEYWORDS_CSV" \
+            --out keywords_report.csv | tee run.log
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: keywords-alignment-report
+          path: keywords_report.csv
+          if-no-files-found: error
+
+      - name: Show result in the job summary
+        env:
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          {
+            echo "## Keywords alignment report"
+            echo
+            echo "- Release: ${TAG:-manual run}"
+            echo "- CSV: \`$(basename "$KEYWORDS_CSV")\`"
+            echo
+            echo '```'
+            cat run.log
+            echo '```'
+            echo
+          } >> "$GITHUB_STEP_SUMMARY"
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import csv
+          with open("keywords_report.csv", newline="", encoding="utf-8") as f:
+              rows = [r for r in csv.reader(f) if r and not r[0].startswith("#")]
+          data = rows[1:]
+          def cell(x):
+              return (x or "-").replace("|", "\\|")
+          print(f"<details><summary>Full report ({len(data)} rows)</summary>\n")
+          print("| keyword in md not in csv | suggestion from csv keywords | similarity | related_by_words |")
+          print("|---|---|---|---|")
+          for r in data:
+              print(f"| {cell(r[0])} | {cell(r[1])} | {cell(r[2])} | {cell(r[3])} |")
+          print("\n</details>")
+          print("\nThe CSV (with the pages of each keyword) is available as an artifact of this run.")
+          PY
