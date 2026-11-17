@@ -16,14 +16,22 @@ layout: home
     </section>
     <section id="search-section" class="bg-light py-5">
         <div class="container g-lg-5">
-            <div class="row">
-                <h2 class="no-anchor text-center mb-3 homepage-heading">Search - if you know what you are looking for:</h2>
-                <div class="position-relative">
+            <div class="homepage-search d-flex flex-column flex-md-row
+                        align-items-md-center gap-2 gap-md-3">
+                <label for="search-input"
+                       class="homepage-search-label homepage-heading h2 mb-0 text-md-end">
+                    Search RSQKit:
+                </label>
+
+                <div class="position-relative flex-grow-1 homepage-search-field">
                     <div class="d-flex justify-content-center">
                         <form role="search" class="input-group">
-                            <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
-                                   placeholder="Search RSQKit ..." aria-label="Search {{ site.title }}" autocomplete="off">
+                            <span class="input-group-text" id="search-label">
+                                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                            </span>
+                            <input type="search" id="search-input"
+                                   class="search-input form-control form-control-lg bg-white"
+                                   autocomplete="off">
                         </form>
                         <div id="search-results" class="search-results"></div>
                     </div>
