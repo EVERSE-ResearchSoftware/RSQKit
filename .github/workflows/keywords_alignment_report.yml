@@ -63,13 +63,6 @@ jobs:
             --csv "$KEYWORDS_CSV" \
             --out keywords_report.csv | tee run.log
 
-      - name: Upload report
-        uses: actions/upload-artifact@v6
-        with:
-          name: keywords-alignment-report
-          path: keywords_report.csv
-          if-no-files-found: error
-
       - name: Show result in the job summary
         env:
           TAG: ${{ github.event.release.tag_name }}
@@ -93,10 +86,9 @@ jobs:
           def cell(x):
               return (x or "-").replace("|", "\\|")
           print(f"<details><summary>Full report ({len(data)} rows)</summary>\n")
-          print("| keyword in md not in csv | suggestion from csv keywords | similarity | related_by_words |  pages |")
+          print("| keyword in md not in csv | suggestion from csv keywords | similarity | related_by_words |  pages to review |")
           print("|---|---|---|---|---|")
           for r in data:
               print(f"| {cell(r[0])} | {cell(r[1])} | {cell(r[2])} | {cell(r[3])} | {cell(r[5]).replace(';', '<br>')} |")
           print("\n</details>")
-          print("\nThe CSV (with the pages of each keyword) is available as an artifact of this run.")
           PY
