@@ -61,7 +61,7 @@ subitems:
       - title: SSHOC
         url: /sshoc
   - title: Roles
-    description: Find guidance for your responsibilities in research software development and funding
+    description: Find guidance for your role in research software development and funding
     url: /roles
     image_url: /assets/img/flaticon/management.png
     subitems:
