@@ -93,10 +93,10 @@ jobs:
           def cell(x):
               return (x or "-").replace("|", "\\|")
           print(f"<details><summary>Full report ({len(data)} rows)</summary>\n")
-          print("| keyword in md not in csv | suggestion from csv keywords | similarity | related_by_words |")
-          print("|---|---|---|---|")
+          print("| keyword in md not in csv | suggestion from csv keywords | similarity | related_by_words |  pages |")
+          print("|---|---|---|---|---|")
           for r in data:
-              print(f"| {cell(r[0])} | {cell(r[1])} | {cell(r[2])} | {cell(r[3])} |")
+              print(f"| {cell(r[0])} | {cell(r[1])} | {cell(r[2])} | {cell(r[3])} | {cell(r[5]).replace(';', '<br>')} |")
           print("\n</details>")
           print("\nThe CSV (with the pages of each keyword) is available as an artifact of this run.")
           PY
