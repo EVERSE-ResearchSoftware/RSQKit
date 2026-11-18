@@ -1,5 +1,5 @@
 {%- assign task_pages = site.pages | where: "type", "tasks" | sort: "title" -%}
-<div class="row g-4 row-cols-1 row-cols-md-2 my-4">
+<div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-{{ include.col | default: 2 }} mt-2 mb-5">
   <div class="col">
     <div class="input-group">
       <label class="input-group-text" for="task-stage-filter">Filter by lifecycle stage</label>
@@ -22,6 +22,17 @@
       </select>
     </div>
   </div>
+  <div class="col">
+        <div class="navigation-tile-filter d-flex align-items-center gap-2">
+            <div class="input-group flex-grow-1">
+                <span class="input-group-text" id="search-label-tiles"><i class="icon-search"></i></span>
+                <input type="text" id="title-search" class="form-control" onkeyup="StartSearch();" placeholder="Search tasks..." aria-label="{{page.type | replace: '_', ' ' }}" aria-describedby="search-label-tiles">
+            </div>
+            <button class="btn btn-sm btn-icon-round rounded-circle p-0 d-inline-flex align-items-center justify-content-center flex-shrink-0" data-bs-toggle="tooltip" title="Clear search" aria-label="Clear search" type="button" id="clearsearch">
+                <i class="icon-trash-2"></i>
+            </button>
+        </div> 
+  </div>
 </div>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-{{ include.col | default: 2 }} g-4 mb-5 navigation-tiles">
   {%- for task in task_pages %}
@@ -35,6 +46,36 @@
   {%- endfor %}
 </div>
 <script type="text/javascript">
+  const StartSearch = () => {
+      const input = document.getElementById("title-search");
+      if (input) {
+          const cols = document.querySelectorAll(".navigation-tiles .col");
+          const filter = input.value.toLowerCase();
+
+          // Reset the role and stage filters when searching
+          const roles = document.getElementById('task-role-filter');
+          if (roles) {
+              roles.selectedIndex = null;
+          }
+
+          const stages = document.getElementById('task-stage-filter');
+          if (stages) {
+              stages.selectedIndex = null;
+          }
+
+          for (let i = 0; i < cols.length; i++) {
+              let body = cols[i].querySelector(".card-body") || cols[i].querySelector(".section-title");
+              if (!body) continue; // skip cols that don’t have searchable content
+
+              if (body.innerText.toLowerCase().indexOf(filter) > -1) {
+                  cols[i].classList.remove("d-none");
+              } else {
+                  cols[i].classList.add("d-none");
+              }
+          }
+      }
+  };
+
   $(document).ready(function () {
     const roleFilter = document.getElementById('task-role-filter');
     const stageFilter = document.getElementById('task-stage-filter');
@@ -56,5 +97,19 @@
     roleFilter.addEventListener('change', filterTasks);
     stageFilter.addEventListener('change', filterTasks);
     filterTasks();
+
+    const clearsearch = document.getElementById("clearsearch");
+    if (clearsearch) {
+      clearsearch.addEventListener("click", function () {
+          let search = document.getElementById('title-search')
+          if (search) {
+              search.value = ''
+              const cols = document.querySelectorAll(".navigation-tiles .col");
+              for (col of cols) {
+                  col.classList.remove("d-none");
+              }
+          }
+      });
+    }
   });
 </script>

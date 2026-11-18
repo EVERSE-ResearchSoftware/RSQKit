@@ -3,13 +3,16 @@ title: Tasks
 description: Common tasks used to improve the quality of research software in some aspect
 ---
 
-In this section, information is organised around regular research software development, sharing, deploying and maintenance tasks or challenges.
+This section gives practical guidance for the activities, challenges and decisions involved in developing, sharing, deploying and maintaining research software. Each task brings together:
 
-- Best practices and guidelines for each software-related task.
+- Practical guidance and recommended best practices.
 - A list of all the considerations to be taken into account when performing a software-related task.
 - Links to task-specific training materials.
-- A summary table of tools and resources relevant for the specific task and recommended by communities.
+- A summary table of tools and resources relevant to the specific task and recommended by communities.
 
-This is the list of tasks in alphabetical order.
+The tasks are presented in alphabetical order, and you can use the filters to see groups of tasks related to a particular research software [lifecycle stage][life_cycle] or [role][roles]. You can also search across all tasks.
 
-{% include section-navigation-tiles.html type="tasks" search=true col=3 %}
+{% include task-tiles-filterable.html col=3 %}
+
+[life_cycle]: life_cycle.md
+[roles]: roles.md
