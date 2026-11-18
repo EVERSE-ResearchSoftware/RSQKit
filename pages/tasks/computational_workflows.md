@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [requirements_specified]
 keywords: ["computational workflows", "workflow", "wms", "galaxy", "snakemake", "nextflow", "apache-airflow", "wdl"]
 stages: [design, development]
+roles: [researcher_who_codes, research_software_engineer]
 ---
 
 ## Motivation

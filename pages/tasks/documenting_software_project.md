@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [software_has_documentation]
 keywords: ["software documentation", "documentation", "code documentation"]
 stages: [quality_assurance]
+roles: [researcher_who_codes, research_software_engineer, trainer]
 
 ---
 

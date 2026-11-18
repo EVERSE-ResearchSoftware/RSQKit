@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [software_has_documentation]
 keywords: ["research software", "software sustainability", "research software stories"]
 stages: [feedback]
+roles: [researcher_who_codes, research_software_engineer, product_owner, principal_investigator]
 ---
 
 ## Task

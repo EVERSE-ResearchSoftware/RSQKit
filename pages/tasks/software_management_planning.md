@@ -6,6 +6,7 @@ page_id: software_management_planning
 quality_indicators: []
 keywords: ["software management plan", "smp", "research software management", "good practices", "planning"]
 stages: [planning, requirements]
+roles: [research_software_engineer, principal_investigator, project_manager, product_owner, policy_maker, trainer]
 ---
 
 ### Description 

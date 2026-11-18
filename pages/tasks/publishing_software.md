@@ -8,7 +8,8 @@ child_pages: [software_documentation, software_metadata, software_identifiers, c
 page_citation: false
 contributors: ["Aleksandra Nenadic"]
 coordinators: ["Aleksandra Nenadic"]
-stages: [publication]
+stages: [quality_assurance, release, archiving, publication]
+roles: [researcher_who_codes, research_software_engineer, principal_investigator, project_manager, product_owner, policy_maker]
 ---
 
 Publishing research software comprises more than just putting the code online into a public code repository such as GitHub or Gitlab.

@@ -7,6 +7,8 @@ related_pages:
   tasks: [software_maintenance, credit_recognition_research_software, software_management_planning, testing_software, documenting_software_project, archiving_software]
 quality_indicators: []
 keywords: []
+roles: [policy_maker, product_owner, project_manager, principal_investigator]
+stages: [planning, quality_assurance, use_evaluation, archiving, publication, maintenance, feedback]
 ---
 
 ## How do you sustain your research software project long-term?

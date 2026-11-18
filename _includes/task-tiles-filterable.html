@@ -36,7 +36,7 @@
 </div>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-{{ include.col | default: 2 }} g-4 mb-5 navigation-tiles">
   {%- for task in task_pages %}
-  {%- if task.title %}
+  {%- if task.title and task.search_exclude != true %}
   {%- assign task_roles = task.roles | default: [] | join: ' ' | escape -%}
   {%- assign task_stages = task.stages | default: [] | join: ' ' | escape -%}
   <div class="col" data-roles="{{ task_roles }}" data-stages="{{ task_stages }}">

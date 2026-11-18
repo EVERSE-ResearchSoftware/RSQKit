@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: []
 keywords: ["programming language", "infrastructure"]
 stages: [planning, requirements, design]
+roles: [researcher_who_codes, research_software_engineer]
 ---
 
 ## How to choose programming languages, tools and infrastructures?

@@ -9,6 +9,7 @@ related_pages:
 quality_indicators: [has_ci-tests]
 keywords: ["ci cd", "ci/cd", "ci", "cd", "task automation", "github actions"]
 stages: [development, quality_assurance, maintenance]
+roles: [researcher_who_codes, research_software_engineer]
 ---
 
 ### Description

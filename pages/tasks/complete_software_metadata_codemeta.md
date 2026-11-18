@@ -9,6 +9,7 @@ related_pages:
 quality_indicators: [codemeta_completeness, descriptive_metadata] # Add relevant quality indicators here
 keywords: ["codemeta", "metadata", "citation"]
 stages: [archiving, publication]
+roles: [researcher_who_codes, research_software_engineer]
 ---
 
 ### Description 

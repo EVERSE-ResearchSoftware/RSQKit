@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [version_control_use]
 keywords: ["version control", "source control", "git", "github", "gitlab"]
 stages: [development]
+roles: [researcher_who_codes, research_software_engineer, project_manager, product_owner, trainer]
 
 ---
 ## Why does version control matter for your research software?

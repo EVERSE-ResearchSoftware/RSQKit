@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [has_releases, versioning_standards_use]
 keywords: ["release", "releasing software", "releasing code", "release code"]
 stages: [release, publication, maintenance]
+roles: [researcher_who_codes, research_software_engineer, principal_investigator, project_manager, product_owner]
 
 ---
 

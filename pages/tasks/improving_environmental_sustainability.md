@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: []
 keywords: ["sustainability", "environment"]
 stages: [planning, maintenance]
+roles: [research_software_engineer, principal_investigator, policy_maker, trainer]
 ---
 
 ## How to monitor and reduce the environmental impact of my software?

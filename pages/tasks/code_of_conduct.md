@@ -7,7 +7,7 @@ related_pages:
   tasks: [documenting_software_project, creating_good_readme]
 quality_indicators: []
 keywords: ["code of conduct", "community guidelines", "governance", "harassment policy", "contributor covenant", "reporting process"]
-roles: [policy_maker, product_owner, principal_investigator, project_manager]
+roles: [research_software_engineer, principal_investigator, product_owner, trainer]
 stages: [planning, feedback]
 ---
 
