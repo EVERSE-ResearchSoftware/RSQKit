@@ -9,6 +9,7 @@ quality_indicators: [descriptive_metadata, codemeta_completeness]
 child_pages: [complete_software_metadata_codemeta]
 keywords: ["software metadata", "codemeta", "software citation", "cff"]
 stages: [release, archiving, publication]
+roles: [researcher_who_codes, research_software_engineer, principal_investigator, project_manager, product_owner, policy_maker]
 
 ---
 

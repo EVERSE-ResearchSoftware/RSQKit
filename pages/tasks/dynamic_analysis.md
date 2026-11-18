@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [uses_fuzzing, software_test_coverage, has_ci-tests]
 keywords: ["dynamic analysis", "fuzzing", "memory checking", "sanitizers", "profiling", "valgrind", "runtime analysis", "coverage"]
 stages: [development, quality_assurance, maintenance]
+roles: [researcher_who_codes, research_software_engineer]
 ---
 
 ## How do you conduct dynamic analysis of your research software?

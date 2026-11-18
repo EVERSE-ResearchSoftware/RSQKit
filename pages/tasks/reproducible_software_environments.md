@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [requirements_specified, software_is_containerized]
 keywords: ["reproducible environment", "reproducibility", "virtual environment", "docker", "singularity", "container"]
 stages: [design, development, quality_assurance, use_evaluation, release, archiving, maintenance]
+roles: [researcher_who_codes, research_software_engineer, principal_investigator, project_manager, trainer]
 ---
 
 

@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [software_has_documentation, software_has_citation, software_has_license, requirements_specified]
 keywords: ["readme", "documentation", "installation", "citation", "license", "contribution"]
 stages: [quality_assurance, use_evaluation, release, publication, feedback]
+roles: [researcher_who_codes, research_software_engineer, product_owner, trainer]
 ---
 
 ## Why does your research software need a good README?

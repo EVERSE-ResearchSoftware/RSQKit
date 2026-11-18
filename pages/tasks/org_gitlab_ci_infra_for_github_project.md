@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [repository_workflows]
 keywords: ["ci", "cd", "ci/cd"]
 stages: [development, quality_assurance, release, maintenance]
+roles: [researcher_who_codes, research_software_engineer]
 ---
 
 ## How can I use my organization's GitLab CI infrastructure for a GitHub-hosted project?

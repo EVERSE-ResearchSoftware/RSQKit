@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [has_no_linting_issues, code_duplication_ok, lines_of_code_ok, cyclomatic_complexity_ok, maintainability_index_ok, code_smells_ok, internal_cohesion_ok]
 keywords: ["readable code", "readability", "reusable code", "reusable software"]
 stages: [development, quality_assurance, maintenance]
+roles: [researcher_who_codes, research_software_engineer, project_manager, product_owner, trainer]
 
 ---
 

@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [software_is_containerized]
 keywords: ["container", "docker", "apptainer", "software packaging", "portability", "software deployment", "reproducible environment"]
 stages: [design, development, use_evaluation, release, maintenance]
+roles: [researcher_who_codes, research_software_engineer, trainer]
 training:
   - name: "EVERSE TeSS"
     registry: TeSS

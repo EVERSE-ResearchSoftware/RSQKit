@@ -9,6 +9,7 @@ quality_indicators: [software_has_documentation, code_documentation_coverage_ok]
 #keywords: ["software documentation", "documentation", "code documentation", "code comments", "readme", "mkdocs", "readthedocs"]
 page_citation: false
 stages: [quality_assurance, use_evaluation, release, archiving, publication, maintenance, feedback]
+roles: [researcher_who_codes, research_software_engineer, principal_investigator, project_manager, product_owner, trainer]
 ---
 
 Software documentation is an essential part of the software development process, designed to provide clear communication between various stakeholders including developers, administrators, testers, users and project managers. 

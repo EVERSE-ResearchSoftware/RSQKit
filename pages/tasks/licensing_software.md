@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [software_has_license, software_has_license_for_file_types]
 keywords: ["license", "licence"]
 stages: [planning, release, archiving, publication]
+roles: [researcher_who_codes, research_software_engineer, principal_investigator, project_manager, product_owner, policy_maker, trainer]
 ---
 
 ## What is copyright and licensing?

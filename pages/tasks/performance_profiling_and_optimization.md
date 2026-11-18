@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: []
 keywords: ["performance", "profiling", "optimization", "benchmarking", "bottleneck", "parallelism"]
 stages: [development, quality_assurance, use_evaluation, maintenance]
+roles: [researcher_who_codes, research_software_engineer]
 ---
 
 ## How do you profile your research software to find performance bottlenecks?

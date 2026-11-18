@@ -8,6 +8,7 @@ related_pages:
 quality_indicators: [persistent_and_unique_identifier]
 keywords: ["software identifier", "software release", "software version", "versioning", "Zenodo"]
 stages: [release, archiving, publication]
+roles: [researcher_who_codes, research_software_engineer, principal_investigator, project_manager, product_owner, policy_maker]
 
 ---
 
