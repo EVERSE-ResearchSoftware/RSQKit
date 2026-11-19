@@ -63,9 +63,9 @@ defaults:
       page_citation: true
   -
     scope:
-      path: "pages/research_clusters_or_infrastructures/"
+      path: "pages/research_clusters_and_infrastructures/"
     values:
-      type: research_clusters_or_infrastructures
+      type: research_clusters_and_infrastructures
       type_img: /assets/img/flaticon/science.png
       page_citation: true
   -
@@ -107,7 +107,7 @@ defaults:
       no_robots: true
   -
     scope:
-      path: "pages/research_clusters_or_infrastructures/TEMPLATE_research_cluster_or_infrastructure.md"
+      path: "pages/research_clusters_and_infrastructures/TEMPLATE_research_cluster_or_infrastructure.md"
       type: "pages"
     values:
       sitemap: false

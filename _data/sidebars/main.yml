@@ -44,8 +44,8 @@ subitems:
         url: /xah_research_software_story
       - title: OpenEBench - The ELIXIR benchmarking platform
         url: /openebench_research_software_story
-  - title: Research clusters or infrastructures
-    url: /research_clusters_or_infrastructures
+  - title: Research clusters and infrastructures
+    url: /research_clusters_and_infrastructures
     #image_url: /assets/img/flaticon/research-and-development.png
     image_url: /assets/img/flaticon/science.png
     description: Use cases and software practices across research communities
