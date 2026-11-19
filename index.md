@@ -44,7 +44,7 @@ layout: home
             <h2 class="no-anchor text-center mb-3 homepage-heading">Browse all topics by</h2>
             {%- assign sidebar = site.data.sidebars.main %}
 
-            {% assign panel_order = "Roles|Tasks (alphabetical)|Research software stories|Research software & quality|Guidance for AI|Research clusters or infrastructures" | split: "|" %}
+            {% assign panel_order = "Roles|Tasks (alphabetical)|Research software stories|Research software & quality|Guidance for AI|Research clusters and infrastructures" | split: "|" %}
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
                 {% for title in panel_order %}
