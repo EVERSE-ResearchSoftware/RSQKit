@@ -8,7 +8,7 @@ tasks: [citing_software, archiving_software, publishing_software, complete_bibli
 quality_indicators: [software_has_citation, persistent_and_unique_identifier, archived_in_scholarly_repository, descriptive_metadata, codemeta_completeness, versioning_standards_use]
 keywords: ["credit", "recognition","citation", "career progression", "contributor roles"]
 stages: [planning, publication, feedback]
-roles: [research_software_engineer, principal_investigator, project_manager, product_owner, policy_maker, trainer]
+roles: [research_software_engineer, research_software_user, principal_investigator, project_manager, product_owner, policy_maker, trainer]
 
 
 ---

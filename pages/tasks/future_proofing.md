@@ -8,7 +8,7 @@ related_pages:
 quality_indicators: []
 keywords: ["fair", "reproducibility", "sustainability"]
 stages: [planning, requirements, design, archiving, maintenance]
-roles: [researcher_who_codes, research_software_engineer, principal_investigator, project_manager, product_owner, policy_maker]
+roles: [researcher_who_codes, research_software_engineer, research_software_user, principal_investigator, project_manager, product_owner, policy_maker]
 ---
 
 ## How do you design research software for long-term reproducibility?

@@ -3,6 +3,8 @@ roles:
     title: Researcher who codes
   - id: research_software_engineer
     title: Research software engineer
+  - id: research_software_user
+    title: Research software user
   - id: principal_investigator
     title: Principal investigator
   - id: project_manager

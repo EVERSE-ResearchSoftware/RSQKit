@@ -9,7 +9,7 @@ child_pages: []
 quality_indicators: [software_has_license, software_has_citation, software_has_documentation, archived_in_software_heritage, archived_in_scholarly_repository, listed_in_registry, software_has_tests, software_test_coverage, software_is_containerized, has_active_communication_channels, descriptive_metadata, persistent_and_unique_identifier, requirements_specified]
 keywords: ["fair software", "fair"]
 stages: [planning, archiving, publication]
-roles: [researcher_who_codes, research_software_engineer, principal_investigator, project_manager, product_owner, policy_maker, trainer]
+roles: [researcher_who_codes, research_software_engineer, research_software_user, principal_investigator, project_manager, product_owner, policy_maker, trainer]
 ---
 
 ## What is FAIR research software?
