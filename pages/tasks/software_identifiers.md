@@ -109,7 +109,7 @@ Check out other relevant documentation:
 
 - [GitHub's Documentation on Referencing and Citing Content][github-referencing-and-citing-content]
 - [GitHub Integration FAQ on Zenodo][github-faq-zenodo]
-- [Making code citable with Zenodo and GitHub][citable-github-ssi] guide from Software Sustainability Institute
+- [Making code citable with Zenodo and GitHub][citable-github-ssi] guide from the Institute for Research Software
 
 ### Getting a DOI for software hosted on GitLab
 
