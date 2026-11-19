@@ -45,7 +45,7 @@ The goal is not perfection from day one, but a baseline level of reproducibility
 
 - **[FAIR Principles for Research Software (FAIR4RS)](https://doi.org/10.15497/RDA00068)** — The foundational document defining what it means for research software to be Findable, Accessible, Interoperable, and Reusable. The reusability principles (R1–R4) are especially relevant to readers of this page.
 - **[The Turing Way — Guide for Reproducible Research](https://book.the-turing-way.org/reproducible-research/reproducible-research)** — A comprehensive, community-developed handbook covering reproducible research practices from environment management to open publishing. The chapters on version control, containerisation, and computational environments extend the guidance on this page in depth.
-- **[Software Sustainability Institute — Guides](https://www.software.ac.uk/guides)** — A curated collection of practical guides on sustainability topics including documentation, testing, licensing, and community building; particularly useful for RSEs looking for next steps on specific practices.
+- **[Institute for Research Software — Guides](https://www.software.ac.uk/guides)** — A curated collection of practical guides on sustainability topics including documentation, testing, licensing, and community building; particularly useful for RSEs looking for next steps on specific practices.
 - **[Software Heritage](https://www.softwareheritage.org/)** — A global archive that preserves source code and development history for long-term access; relevant for readers who want to ensure their software remains accessible beyond the lifetime of any single hosting platform.
 
 ## AI Disclosure

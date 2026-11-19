@@ -64,12 +64,12 @@ Shraddha Bajare:
 Aleksandra Nenadic:
     git: anenadic
     orcid: 0000-0002-2269-3894
-    affiliation: The University of Manchester / Software Sustainability Institute
+    affiliation: The University of Manchester / Institute for Research Software
     role: editor
 Shoaib Sufi:
     git: shoaibsufi
     orcid: 0000-0001-6390-2616
-    affiliation: The University of Manchester / Software Sustainability Institute
+    affiliation: The University of Manchester / Institute for Research Software
     role: editor
 Jason Maassen:
     git: jmaassen
@@ -145,7 +145,7 @@ Michael Sparks:
     git: sparkslabs
     email: sparks.m@gmail.com
     orcid: 0009-0001-3059-0000
-    affiliation: The University of Manchester / Software Sustainability Institute
+    affiliation: The University of Manchester / Institute for Research Software
     role: editor
 Robert Speck:
     git: pancetta
@@ -171,7 +171,7 @@ Johan Gustafsson:
     role: contributor
 Denis Barclay:
     git: Denis-Barclay
-    affiliation: Software Sustainability Institute
+    affiliation: Institute for Research Software
     orcid: 0009-0008-5567-3786
     role: contributor
 Daniel S.Katz:
