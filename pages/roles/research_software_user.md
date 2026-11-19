@@ -15,15 +15,15 @@ A Research Software user is also tied into [what Research Software is](../resear
 
 ## Software development & quality responsibilities, challenges & tasks
 
-The responsibilities here are similar to those of the Product Owner, who is focused on defining goals and prioritising the development of high-quality research software. If we take the view above that the Product Owner is the stakeholder-in-chief, then the tasks a user could be required to perform include:
+The responsibilities here are similar to those of the Product Owner, who is focused on defining goals and prioritising the development of high-quality research software. The tasks a user could be required to perform include:
 
-* Considering whether a piece of software is reliable and produces results in a transparent manner.
-* Providing requirements and ongoing feedback via focus/user groups and workshops to ensure the software supports real workflows.
-* Providing feedback on the user interface design and user experience of the software.
+* Considering whether a piece of research software is reliable and produces results in a transparent manner.
+* Providing requirements and ongoing feedback via focus/user groups and workshops to ensure the research software supports real workflows.
+* Providing feedback on the user interface design and user experience of the research software.
 * Translating research goals into actionable requirements — working with product owners and developers to convert objectives into implementable software tasks.
 * Engaging with the development process used by the product owner and developers so that their voices are heard at opportune moments.
-* Engage with the product owner and developers to produce user manuals and guides for the software.
-* Disseminate articles describing the software, presentations at conferences and other workshops with a view to initiate and grow a user community.
+* Engage with the product owner and developers to produce user manuals and guides for the research software.
+* Disseminate articles describing the research software, make presentations at conferences and other workshops with a view to initiate and grow a user community.
 
 ## Software development & quality guidance
 
