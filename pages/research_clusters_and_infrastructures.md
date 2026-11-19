@@ -2,9 +2,9 @@
 title: Research Clusters and Infrastructures
 ---
 
-This section lists research clusters and research infrastructures where software is a core part of activities.
+This section lists research clusters and research infrastructures - places, organisations and networks where software is a core part of activities.
 
-[Research Infrastructures (RI)](https://www.esfri.eu/research-infrastructure-ri) are facilities, resources and services that are used by research communities to conduct research and foster innovation in their fields. 
+[Research Infrastructures (RI)](https://www.esfri.eu/research-infrastructure-ri) are facilities (places and organisations rather than hardware), resources and services that are used by research communities to conduct research and foster innovation in their fields. 
 
 They include: 
 - Major scientific equipment (or sets of instruments)
