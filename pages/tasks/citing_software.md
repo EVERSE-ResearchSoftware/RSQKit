@@ -8,7 +8,7 @@ related_pages:
   tasks: [software_identifiers, software_metadata]
 keywords: ["citation", "cff"]
 stages: [archiving, publication]
-roles: [researcher_who_codes, research_software_engineer, principal_investigator, project_manager, policy_maker, trainer]
+roles: [researcher_who_codes, research_software_engineer, research_software_user, principal_investigator, project_manager, policy_maker, trainer]
 ---
 
 ## What is software citation?
