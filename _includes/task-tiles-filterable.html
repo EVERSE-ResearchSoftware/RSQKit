@@ -25,8 +25,8 @@
   <div class="col">
         <div class="navigation-tile-filter d-flex align-items-center gap-2">
             <div class="input-group flex-grow-1">
-                <span class="input-group-text" id="search-label-tiles"><i class="icon-search"></i></span>
-                <input type="text" id="title-search" class="form-control" onkeyup="StartSearch();" placeholder="Search tasks..." aria-label="{{page.type | replace: '_', ' ' }}" aria-describedby="search-label-tiles">
+                <label class="input-group-text" for="title-search"><i class="icon-search"></i><span class="visually-hidden">Search</span></label>
+                <input type="text" id="title-search" class="form-control" onkeyup="StartSearch();" placeholder="Search tasks..." aria-label="{{page.type | replace: '_', ' ' }}">
             </div>
             <button class="btn btn-sm btn-icon-round rounded-circle p-0 d-inline-flex align-items-center justify-content-center flex-shrink-0" data-bs-toggle="tooltip" title="Clear search" aria-label="Clear search" type="button" id="clearsearch">
                 <i class="icon-trash-2"></i>
