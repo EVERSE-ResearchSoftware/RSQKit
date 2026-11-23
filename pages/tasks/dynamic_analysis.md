@@ -5,7 +5,7 @@ contributors: ["Shoaib Sufi"]
 page_id: dynamic_analysis
 related_pages:
   tasks: [testing_software, ci_cd, static_analysis, research_software_security]
-quality_indicators: [uses_fuzzing, software_test_coverage, has_ci-tests]
+quality_indicators: [uses_fuzzing, software_test_coverage, has_ci_tests]
 keywords: ["dynamic analysis", "fuzzing", "memory checking", "sanitizers", "profiling", "valgrind", "runtime analysis", "coverage"]
 stages: [development, quality_assurance, maintenance]
 roles: [researcher_who_codes, research_software_engineer]

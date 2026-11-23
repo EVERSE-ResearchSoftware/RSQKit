@@ -5,7 +5,7 @@ contributors: ["Srobona Ghosh"]
 page_id: ci_testing_matrices
 related_pages:
   tasks: [ci_cd, task_automation_github_actions, task_automation_gitlab_ci_cd]
-quality_indicators: [has_ci-tests, software_test_coverage, software_has_tests, passed_tests_ok]
+quality_indicators: [has_ci_tests, software_test_coverage, software_has_tests, passed_tests_ok]
 keywords: ["ci", "cd", "ci/cd", "testing"]
 stages: [development, quality_assurance, maintenance]
 roles: [researcher_who_codes, research_software_engineer]

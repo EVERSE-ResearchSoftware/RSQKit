@@ -6,7 +6,7 @@ contributors: ["Eva Martín del Pico"]
 page_id: task_automation_github_actions
 related_pages: 
   tasks: [ci_cd, task_automation_gitlab_ci_cd]
-quality_indicators: [has_ci-tests]
+quality_indicators: [has_ci_tests]
 keywords: ["ci cd", "ci/cd", "ci", "cd", "task automation", "github actions"]
 stages: [development, quality_assurance, maintenance]
 roles: [researcher_who_codes, research_software_engineer]
