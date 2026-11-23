@@ -5,7 +5,7 @@ contributors: ["Tom François"]
 page_id: task_automation_gitlab_ci_cd
 related_pages: 
   tasks: [ci_cd, task_automation_github_actions]
-quality_indicators: [has_ci-tests]
+quality_indicators: [has_ci_tests]
 keywords: ["ci cd", "ci/cd", "ci", "cd", "task automation", "gitlab ci/cd"]
 stages: [development, quality_assurance, maintenance]
 roles: [researcher_who_codes, research_software_engineer]
